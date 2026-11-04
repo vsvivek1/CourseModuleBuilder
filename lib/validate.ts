@@ -1,3 +1,5 @@
+import { parseFeatures, type FeatureId } from "./features";
+
 export const SUBDOMAIN_RE = /^[a-z0-9](?:[a-z0-9-]{0,40}[a-z0-9])?$/;
 
 export type NewAppInput = {
@@ -6,6 +8,7 @@ export type NewAppInput = {
   topic: string;
   extraPrompt: string;
   paymentProvider: "razorpay" | "stripe";
+  features: FeatureId[];
 };
 
 export function parseNewApp(form: FormData): { ok: true; value: NewAppInput } | { ok: false; error: string } {
@@ -16,11 +19,13 @@ export function parseNewApp(form: FormData): { ok: true; value: NewAppInput } | 
     topic: get("topic"),
     extraPrompt: get("extraPrompt"),
     paymentProvider: get("paymentProvider") === "stripe" ? "stripe" : "razorpay",
+    features: parseFeatures(form.getAll("feature")),
   };
   if (!value.name) return { ok: false, error: "Name is required." };
   if (!SUBDOMAIN_RE.test(value.subdomain)) {
     return { ok: false, error: "Subdomain: lowercase letters, digits and hyphens only." };
   }
   if (!value.topic) return { ok: false, error: "Topic is required." };
+  if (value.features.length === 0) return { ok: false, error: "Tick at least one feature." };
   return { ok: true, value };
 }

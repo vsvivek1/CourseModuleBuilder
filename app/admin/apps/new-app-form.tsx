@@ -1,6 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
+import { FEATURES } from "@/lib/features";
 import { createApp, type FormState } from "./actions";
 
 const initial: FormState = {};
@@ -21,6 +22,14 @@ export function NewAppForm() {
           <option value="stripe">Stripe</option>
         </select>
       </p>
+      <fieldset>
+        <legend>Features</legend>
+        {FEATURES.map((f) => (
+          <label key={f.id} style={{ display: "block" }}>
+            <input type="checkbox" name="feature" value={f.id} defaultChecked /> {f.label}
+          </label>
+        ))}
+      </fieldset>
       <button type="submit" disabled={pending}>Save app</button>
       {state.error && <p style={{ color: "crimson" }}>{state.error}</p>}
       {state.ok && <p style={{ color: "green" }}>{state.ok}</p>}

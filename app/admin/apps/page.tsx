@@ -15,7 +15,7 @@ export default async function AppsPage() {
         <ul>
           {apps.map((a) => (
             <li key={a.id}>
-              <strong>{a.name}</strong> · {a.subdomain}.calecutech.com · {a.topic} · {a.paymentProvider}
+              <strong>{a.name}</strong> · {a.subdomain}.calecutech.com · {a.topic} · {a.paymentProvider} · {(a.features ?? []).length} features
             </li>
           ))}
         </ul>

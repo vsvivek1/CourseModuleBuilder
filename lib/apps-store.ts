@@ -1,6 +1,7 @@
 import "server-only";
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import type { FeatureId } from "./features";
 
 // Step 1 storage: a JSON file. Replaced by a database in a later step.
 export type PaymentProvider = "razorpay" | "stripe";
@@ -12,6 +13,7 @@ export type AppSettings = {
   topic: string;
   extraPrompt: string;
   paymentProvider: PaymentProvider;
+  features: FeatureId[];
   createdAt: string;
 };
 
