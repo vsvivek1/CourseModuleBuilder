@@ -22,8 +22,9 @@ See [docs/PLAN.md](docs/PLAN.md) for decisions and the roadmap.
 - A new app records: name, subdomain, topic, extra AI prompt, payment provider
   (Razorpay or Stripe) and the features to include
 
-Apps are saved to `data/apps.json`. **This works locally only.** On Vercel the
-filesystem is read-only, so saving fails until storage moves to a database.
+Apps are saved as one JSON file in a private Vercel Blob store
+(`course-module-builder-data`) when `BLOB_READ_WRITE_TOKEN` is set, and in
+`data/apps.json` locally. A database replaces this later.
 
 ## Run locally
 
@@ -39,6 +40,7 @@ Open http://localhost:3000 and sign in.
 | Name | Used for |
 |---|---|
 | `ADMIN_TOKEN` | Admin sign-in password |
+| `BLOB_READ_WRITE_TOKEN` | Saved apps (set by the Vercel Blob store) |
 | `GITHUB_TOKEN` | Creating repos for new apps (step 2). Needs Administration + Contents write on `vsvivek1`. |
 
 Never commit these. On Vercel they are saved as sensitive variables.

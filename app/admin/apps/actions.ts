@@ -11,7 +11,12 @@ export async function createApp(_prev: FormState, form: FormData): Promise<FormS
   if (!(await isAdmin())) return { error: "Not signed in." };
   const parsed = parseNewApp(form);
   if (!parsed.ok) return { error: parsed.error };
-  const app = await addApp(parsed.value);
+  let app;
+  try {
+    app = await addApp(parsed.value);
+  } catch (e) {
+    return { error: e instanceof Error ? e.message : "Could not save." };
+  }
   revalidatePath("/admin/apps");
   return { ok: `Saved ${app.name} (${app.subdomain}.calecutech.com)` };
 }

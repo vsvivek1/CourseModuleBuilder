@@ -36,7 +36,7 @@ Exam-specific pages in QuizKerala (PSC, US citizenship, USS) are not offered.
 ## Roadmap
 
 1. Builder admin page. **Done.**
-2. Move app settings from `data/apps.json` to a database (needed on Vercel).
+2. Saved apps live in a private Vercel Blob (done). Move to a database later.
 3. "Create app": create the GitHub repo and copy the QuizKerala template with
    only the ticked features, plus the extra prompt.
 4. Create the database and Vercel project, attach the subdomain, set env vars.
@@ -45,6 +45,6 @@ Exam-specific pages in QuizKerala (PSC, US citizenship, USS) are not offered.
 
 ## Known limits
 
-- Saving apps fails on Vercel until step 2 is done.
+- Blob storage is one JSON file: fine for a few admin edits, not for heavy or parallel writes.
 - Admin sign-in is one shared token, not per-user accounts.
 - Social tokens are not stored yet; they need encryption before they are.
