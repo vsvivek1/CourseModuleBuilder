@@ -1,0 +1,271 @@
+paper:
+  id: mvact2019oct
+  exam: "test paper — Motor Vehicles Act (Paper I)"
+  cat: ""
+  code: "MV Act Paper I"
+  date: "2019-10-31"
+  key_url: "https://keralapsc.gov.in/sites/default/files/2019-12/252563.pdf"
+  key_source: "PSC final answer key, Motor Vehicles Act (Paper I), 31-10-2019"
+
+skipped:
+  - {n: "24, 34, 70", why: "Cancelled by PSC"}
+  - {n: "4, 5, 17, 25, 44, 45, 54, 55, 72, 77, 85, 100", why: "Fine amounts are pre-2019 and changed by the MV (Amendment) Act 2019"}
+  - {n: "3, 12, 13, 23, 33, 64, 81, 63", why: "Temporary/tourist/stage permits procedure — not in AMVI syllabus list (only Sections 66 and 99)"}
+  - {n: "6, 8, 9, 10, 16, 19, 22, 26-30, 32, 36-39, 42, 48-50, 57, 58, 66, 68, 71, 73, 74, 80, 82, 86, 87, 90, 95, 96, 98, 99", why: "CMVR/KMVR forms, fees, sizes, colours and Kerala rules — not in AMVI syllabus list"}
+  - {n: "18, 75, 83", why: "Rules changed since 2019 or Kerala-only appellate detail"}
+
+questions:
+  - n: 1
+    topic: law.defs
+    q: "Which is NOT a public service vehicle?"
+    options: ["Stage carriage", "Educational institution bus", "Contract carriage", "Maxi cab"]
+    key: B
+    learn: "An educational institution bus is a transport vehicle but NOT a public service vehicle — it does not carry passengers for hire."
+    why: "PSV means carrying passengers for hire or reward."
+  - n: 2
+    topic: law.permits
+    q: "Which section of the MV Act makes a permit necessary?"
+    options: ["66", "56", "39", "76"]
+    key: A
+    learn: "Section 66: necessity for permits. Section 39: necessity for registration. Section 3: necessity for driving licence."
+    why: "Remember 3-39-66: licence, registration, permit."
+  - n: 7
+    topic: dl.licensing
+    q: "Driving while using a mobile phone can lead to?"
+    options: ["Disqualify learner's licence", "Disqualify driving licence", "Disqualify RC", "Cancel driving licence"]
+    key: B
+    learn: "Using a mobile phone while driving is dangerous driving (Section 184) and can lead to disqualification of the driving licence (Section 19)."
+    why: "Phones take attention away from the road."
+  - n: 11
+    topic: u8.mvact_basics
+    q: "Temporary registration is valid for not more than?"
+    options: ["2 months", "1 month", "15 days", "10 days"]
+    key: B
+    learn: "Temporary registration (Section 43) is valid for not more than one month."
+    why: "It is only for the time until permanent registration."
+  - n: 14
+    topic: law.offences
+    q: "Imprisonment for driving under the influence of drugs (first offence)?"
+    options: ["1 year", "6 months", "3 months", "1 month"]
+    key: B
+    learn: "Section 185, first offence: up to 6 months imprisonment and/or fine up to Rs 10,000. Repeat within 3 years: up to 2 years and/or Rs 15,000."
+    why: "Drink and drug driving are punished the same way."
+  - n: 15
+    topic: dl.licensing
+    q: "Who conducts the test of competence to drive?"
+    options: ["Registering Authority", "Police", "Licensing Authority", "None"]
+    key: C
+    learn: "The licensing authority (or an officer it authorises) conducts the driving competence test."
+    why: "The authority that issues the licence checks the skill."
+  - n: 20
+    topic: u8.mvact_basics
+    q: "Head of the Motor Vehicles Department?"
+    options: ["Transport Minister", "Transport Commissioner", "Transport Secretary", "Additional Transport Commissioner"]
+    key: B
+    learn: "The Transport Commissioner is the head of the Kerala Motor Vehicles Department."
+    why: "The Minister is political head; the Commissioner heads the department."
+  - n: 21
+    topic: law.defs
+    q: "An 'invalid carriage' is a vehicle specially designed for?"
+    options: ["Persons with physical disabilities", "Ladies", "Senior citizens", "Children"]
+    key: A
+    learn: "Invalid carriage: a vehicle specially designed for a person with physical defect or disability, used solely by that person."
+    why: "It is built around the user's special needs."
+  - n: 31
+    topic: law.defs
+    q: "To identify a light motor vehicle, which parameters are checked?"
+    options: ["Unladen weight", "Gross vehicle weight", "Number of tyres", "Both unladen weight and GVW"]
+    key: D
+    learn: "LMV (Section 2(21)): GVW of a transport vehicle, or unladen weight of a car/tractor/road roller, not exceeding 7,500 kg."
+    why: "Both weights are used in the definition."
+  - n: 35
+    topic: law.offences
+    q: "Who can conduct a breath test?"
+    options: ["Police officer in uniform", "Excise officer", "Forest officer", "None"]
+    key: A
+    learn: "Section 203: a police officer in uniform (or an authorised MVD officer) can require a driver to take a breath test."
+    why: "It is a power given to enforcement officers on the road."
+  - n: 40
+    topic: law.traffic
+    q: "A safety device on a motorcycle is?"
+    options: ["Pillion hand grip", "Wheel rim", "Hand brake", "Silencer"]
+    key: A
+    learn: "Section 128: the pillion seat must have a hand grip (and foot rests) for the rider's safety."
+    why: "The pillion rider needs something to hold."
+  - n: 41
+    topic: law.defs
+    q: "How many wheels does a quadricycle have?"
+    options: ["3", "2", "4", "6"]
+    key: C
+    learn: "A quadricycle is a small four-wheeled motor vehicle (Section 2(29A))."
+    why: "Quad = four."
+  - n: 43
+    topic: law.insurance
+    q: "Which vehicles are exempt from third-party insurance?"
+    options: ["Central Govt vehicles", "State Govt vehicles", "Local authority vehicles", "All of these"]
+    key: D
+    a: "All: Central Govt, State Govt and local authority vehicles (for non-commercial use)."
+    learn: "Section 146(2),(3): government and certain local authority/state undertaking vehicles used for non-commercial purposes can be exempted from insurance."
+    why: "The government itself pays the compensation."
+  - n: 46
+    topic: law.defs
+    q: "Category M2 means a passenger vehicle with?"
+    options: ["12+ seats", "11+ seats", "10+ seats", "9+ seats besides the driver"]
+    key: D
+    learn: "M2 (and M3): 9 or more seats besides the driver. M2 GVW up to 5 t; M3 above 5 t."
+    why: "M1 has up to 8 passenger seats."
+  - n: 47
+    topic: dl.licensing
+    q: "Validity of an International Driving Permit?"
+    options: ["Not more than 1 year", "Till DL validity", "Till stay abroad", "1 or 2 (whichever is earlier)"]
+    key: D
+    learn: "An IDP is valid for one year or till the Indian licence expires, whichever is earlier."
+    why: "It depends on the Indian licence."
+  - n: 51
+    topic: dl.licensing
+    q: "Learner's licence for a transport vehicle needs an LMV licence held for at least?"
+    options: ["1 year", "2 years", "3 years", "None"]
+    key: A
+    learn: "To get a transport vehicle learner's licence you must have held an LMV licence for at least 1 year."
+    why: "Basic experience is needed first."
+  - n: 52
+    topic: law.permits
+    q: "A permit is NOT needed for transport vehicles owned by?"
+    options: ["Central Government", "State Government", "MVD", "Central and State Government"]
+    key: D
+    learn: "Section 66(3): no permit is needed for transport vehicles owned by the Central or State Government (non-commercial use)."
+    why: "Government vehicles are not run for profit."
+  - n: 53
+    topic: law.permits
+    q: "Normal duration of a permit?"
+    options: ["3 years", "4 years", "5 years", "1 year"]
+    key: C
+    learn: "Permits (other than temporary and special permits) are valid for 5 years (Section 81)."
+    why: "Renewal every 5 years lets authorities check the operator."
+  - n: 56
+    topic: law.defs
+    q: "Category N means?"
+    options: ["4+ wheels, passengers", "4+ wheels, goods", "3+ wheels, passengers", "3+ wheels, goods"]
+    key: B
+    learn: "Category N: motor vehicles with at least four wheels for carrying goods (N1, N2, N3)."
+    why: "M = passengers, N = goods."
+  - n: 59
+    topic: u8.mvact_basics
+    q: "Who is a licensing authority?"
+    options: ["Joint RTO", "MVI", "RTO", "Deputy Transport Commissioner"]
+    key: C
+    learn: "The Regional Transport Officer (RTO) is the licensing authority; the Joint RTO is the additional licensing authority."
+    why: "The RTO heads the regional office."
+  - n: 60
+    topic: u8.mvact_basics
+    q: "Who is the additional registering authority?"
+    options: ["Joint RTO", "RTO", "Deputy TC", "All"]
+    key: A
+    learn: "The Joint RTO is the additional registering (and licensing) authority; the RTO is the registering authority."
+    why: "Sub-RTOs are headed by Joint RTOs."
+  - n: 61
+    topic: dl.licensing
+    q: "Who is exempt from the driving competence test?"
+    options: ["Licence expired over 5 years", "Holder of a foreign licence", "Holder of school certificate", "Invalid carriage applicant"]
+    key: B
+    learn: "Section 9: a person holding a licence from a competent authority of a foreign country may be exempted from the competence test."
+    why: "Their skill was already tested abroad."
+  - n: 62
+    topic: law.permits
+    q: "A permit is not needed for a goods vehicle with GVW not exceeding?"
+    options: ["1000 kg", "2000 kg", "3000 kg", "4000 kg"]
+    key: C
+    learn: "Section 66(3): no permit is needed for goods vehicles with GVW up to 3,000 kg."
+    why: "Small goods vehicles are freed from permits."
+  - n: 67
+    topic: law.traffic
+    q: "Who must wear a seat belt in a motor car?"
+    options: ["Driver", "Front passenger", "Front-facing rear passengers", "All of these"]
+    key: D
+    a: "All: driver, front passenger and rear passengers."
+    learn: "Driver, front passenger and rear passengers in front-facing seats must wear seat belts (Rule 138(3), penalty Section 194B)."
+    why: "Seat belts save lives in crashes for everyone."
+  - n: 69
+    topic: u8.mvact_basics
+    q: "Validity of registration of a non-transport vehicle?"
+    options: ["20 years", "15 years", "10 years", "5 years"]
+    key: B
+    learn: "Registration of a non-transport vehicle is valid for 15 years, then renewable for 5 years at a time."
+    why: "Old vehicles must prove they are still fit."
+  - n: 76
+    topic: law.traffic
+    q: "Which section deals with speed limits?"
+    options: ["12", "112", "172", "212"]
+    key: B
+    learn: "Section 112: limits of speed."
+    why: "Penalty for over-speeding is in Section 183."
+  - n: 78
+    topic: law.offences
+    q: "Imprisonment for driving without insurance (Section 146)?"
+    options: ["1 month", "2 months", "3 months", "6 months"]
+    key: C
+    learn: "Section 196: driving an uninsured vehicle — up to 3 months imprisonment and/or fine Rs 2,000 (repeat Rs 4,000)."
+    why: "Insurance is compulsory under Section 146."
+  - n: 79
+    topic: dl.licensing
+    q: "Who must take the preliminary test for a learner's licence?"
+    options: ["Holder of a DL", "Fresh applicants", "Licence expired under 5 years", "None"]
+    key: B
+    learn: "Fresh applicants must pass the learner's licence test on traffic rules and signs."
+    why: "Existing licence holders already know the rules."
+  - n: 84
+    topic: law.traffic
+    q: "Which situation violates Section 113?"
+    options: ["Unladen weight more than in RC", "Less than in RC", "Equal to RC", "None"]
+    key: A
+    learn: "Section 113: a vehicle's unladen weight or laden weight must not exceed what is shown in its registration certificate."
+    why: "Overweight vehicles damage roads and brake poorly."
+  - n: 88
+    topic: u8.mvact_basics
+    q: "Within how many days must the transferor report a vehicle sale?"
+    options: ["30 days", "60 days", "14 days", "1 year"]
+    key: C
+    learn: "The seller (transferor) must report the transfer within 14 days (Section 50)."
+    why: "Seller 14 days, buyer 30 days."
+  - n: 89
+    topic: law.traffic
+    q: "Who can take a goods vehicle to a weighing device to check Section 113?"
+    options: ["Police SI", "MVD officer", "PWD officer", "None"]
+    key: B
+    learn: "Section 114: an officer of the Motor Vehicles Department authorised by the State can direct a goods vehicle to a weighing device."
+    why: "Weighing proves overloading."
+  - n: 91
+    topic: law.offences
+    q: "Under which section can a vehicle be detained?"
+    options: ["205", "206", "207", "208"]
+    key: C
+    learn: "Section 207: power to detain vehicles used without licence, registration or permit."
+    why: "Section 206 is for impounding documents."
+  - n: 92
+    topic: law.defs
+    q: "A four-wheeled vehicle with engine below ___ is not a motor vehicle."
+    options: ["25 cc", "30 cc", "40 cc", "50 cc"]
+    key: A
+    learn: "Section 2(28): a vehicle with engine capacity not exceeding 25 cc is not a 'motor vehicle'."
+    why: "Very tiny engines are excluded from the definition."
+  - n: 93
+    topic: law.permits
+    q: "A tourist permit is issued under?"
+    options: ["88(7)", "88(8)", "88(9)", "88(10)"]
+    key: C
+    learn: "Tourist permit: Section 88(9). Special permit: Section 88(8). National permit authorisation: Section 88(12)."
+    why: "Tourist vehicles travel across states under 88(9)."
+  - n: 94
+    topic: law.offences
+    q: "Which section is NOT compoundable under Section 200?"
+    options: ["180", "181", "182", "185"]
+    key: D
+    learn: "Section 185 (drunken driving) is not compoundable under Section 200."
+    why: "Serious offences must go to court."
+  - n: 97
+    topic: law.traffic
+    q: "Which document must be produced in original on demand by police in a public place?"
+    options: ["Insurance", "Driving licence", "RC", "Fitness certificate"]
+    key: B
+    learn: "Section 130: the driver must produce the driving licence on demand by a police officer in uniform. Other documents can be produced later or digitally."
+    why: "The licence proves the person driving is qualified."

@@ -1,0 +1,271 @@
+paper:
+  id: mvact2019feb
+  exam: "test paper — Motor Vehicles Act (Paper I)"
+  cat: ""
+  code: "MV Act Paper I"
+  date: "2019-02-22"
+  key_url: "https://keralapsc.gov.in/sites/default/files/2019-05/220413.pdf"
+  key_source: "PSC final answer key, Motor Vehicles Act (Paper I), 22-02-2019"
+
+skipped:
+  - {n: "3", why: "Stem not clear in the extracted text (key does not match the paraphrase) — check the paper"}
+  - {n: "11, 18, 21-26, 30-35, 37-54, 57-61, 70, 72, 74-80, 82-84, 97-100", why: "CMVR/KMVR forms, fees, colours, dimensions, stage-carriage and tourist rules — not in AMVI syllabus list"}
+  - {n: "16", why: "Conductor qualification changed since 2019"}
+  - {n: "36", why: "Permit cancellation (Section 86) not in AMVI syllabus list"}
+  - {n: "63-65, 71, 73, 77, 85", why: "Fines/compounding amounts are pre-2019 and now changed by the MV (Amendment) Act 2019"}
+  - {n: "88, 89", why: "Kerala Road Safety Authority / sari guard — not in AMVI syllabus list"}
+
+questions:
+  - n: 1
+    topic: law.defs
+    q: "A vehicle carrying more than 6 passengers (excluding driver) for hire, charging separate fares for each passenger or the whole journey, is a?"
+    options: ["Stage carriage", "Goods carriage", "Omnibus", "Motor cab"]
+    key: A
+    learn: "Stage carriage (Section 2(40)): carries more than 6 passengers, excluding the driver, for hire, with separate fares per passenger."
+    why: "Like a private town bus — each passenger buys a ticket."
+  - n: 2
+    topic: law.defs
+    q: "A motor vehicle specially built for a person with a physical defect or disability is?"
+    options: ["Safety vehicle", "Disability vehicle", "Invalid carriage", "Ambulance"]
+    key: C
+    learn: "Invalid carriage (Section 2(18)): a vehicle specially designed for a person with a physical defect or disability, used solely by that person."
+    why: "The 2019 amendment uses 'adapted vehicle' for the DL class."
+  - n: 4
+    topic: law.defs
+    q: "A vehicle used or adapted to carry passengers for hire or reward is a?"
+    options: ["Private service vehicle", "Educational institution bus", "Public service vehicle", "Articulated vehicle"]
+    key: C
+    learn: "Public service vehicle (Section 2(35)): any vehicle carrying passengers for hire or reward — maxi cab, motor cab, contract carriage, stage carriage."
+    why: "It serves the paying public."
+  - n: 5
+    topic: law.defs
+    q: "___ means a public service vehicle, goods carriage, educational institution bus or private service vehicle."
+    options: ["Transport vehicle", "Tractor", "Motor car", "Non-transport vehicle"]
+    key: A
+    learn: "Transport vehicle (Section 2(47)) = public service vehicle, goods carriage, educational institution bus or private service vehicle."
+    why: "These need special licences, permits and fitness checks."
+  - n: 6
+    topic: law.defs
+    q: "A line of travel showing the highway between two termini is a?"
+    options: ["Destination", "Road", "Route", "Road map"]
+    key: C
+    learn: "Route (Section 2(38)): a line of travel which specifies the highway a vehicle may travel between one terminus and another."
+    why: "Stage carriage permits are given for routes."
+  - n: 7
+    topic: law.defs
+    q: "A motor vehicle with at least four wheels for carrying passengers is category?"
+    options: ["M", "N", "L1", "L2"]
+    key: A
+    learn: "Category M = passenger vehicles with at least 4 wheels. Category N = goods vehicles with at least 4 wheels. L = two/three-wheelers."
+    why: "M for 'man' (people), N for goods."
+  - n: 8
+    topic: law.defs
+    q: "A goods vehicle with GVW not exceeding 3.5 tonnes is category?"
+    options: ["N3", "N1", "N2", "M1"]
+    key: B
+    learn: "N1: goods vehicle up to 3.5 t GVW. N2: 3.5–12 t. N3: above 12 t."
+    why: "The number grows with weight."
+  - n: 9
+    topic: dl.licensing
+    q: "A person aggrieved by a licensing authority's order may appeal within?"
+    options: ["6 months", "60 days", "1 month", "30 days"]
+    key: D
+    learn: "An appeal against a licensing authority's order (refusal, disqualification) is filed within 30 days of receiving the order (Section 17/19)."
+    why: "A short time limit keeps cases moving."
+  - n: 10
+    topic: dl.licensing
+    q: "A licence issued to an Indian to drive abroad is the?"
+    options: ["Driving licence", "National permit", "International Driving Permit", "All India permit"]
+    key: C
+    learn: "An International Driving Permit (IDP) lets an Indian licence holder drive in other countries (Section 2(19A), Chapter II)."
+    why: "Foreign countries accept it with the Indian licence."
+  - n: 12
+    topic: dl.licensing
+    q: "To drive a transport vehicle, one must hold an LMV licence for at least?"
+    options: ["3 years", "1 year", "5 years", "30 days"]
+    key: B
+    learn: "A transport vehicle licence needs at least 1 year of holding a light motor vehicle licence."
+    why: "Experience with cars comes before buses and lorries."
+  - n: 13
+    topic: u8.mvact_basics
+    q: "Minimum age for a conductor's licence?"
+    options: ["18 years", "20 years", "30 years", "25 years"]
+    key: A
+    learn: "Minimum age for a conductor's licence is 18 years."
+    why: "A conductor must be an adult to handle passengers and cash."
+  - n: 14
+    topic: dl.licensing
+    q: "Minimum age to drive a transport vehicle?"
+    options: ["21", "18", "20", "30"]
+    key: C
+    learn: "No one under 20 years may drive a transport vehicle (Section 4)."
+    why: "Heavier vehicles need older, more mature drivers."
+  - n: 15
+    topic: u8.mvact_basics
+    q: "The licensing authority of a region is the?"
+    options: ["RTO", "Joint RTO", "Deputy Transport Commissioner", "STAT"]
+    key: A
+    learn: "In Kerala, the Regional Transport Officer (RTO) is the licensing authority for the region; the Joint RTO is the additional licensing authority."
+    why: "Licences are issued from RTO and Sub-RTO offices."
+  - n: 17
+    topic: dl.licensing
+    q: "No person shall drive a motor vehicle in any ___ without an effective driving licence."
+    options: ["Private place", "Public place", "Dwelling premises", "Public place or any other place"]
+    key: B
+    learn: "Section 3: no person shall drive a motor vehicle in any public place without an effective driving licence."
+    why: "Public places are where others can be hurt."
+  - n: 19
+    topic: law.defs
+    q: "Passenger vehicle with 9 or more seats plus driver, GVW not over 5 tonnes, is category?"
+    options: ["M3", "M2", "N2", "N3"]
+    key: B
+    learn: "M2: 9+ seats besides driver, GVW up to 5 t (minibus). M3: same but GVW above 5 t (bus). M1: up to 8 seats besides driver."
+    why: "Bigger GVW, bigger number."
+  - n: 20
+    topic: law.defs
+    q: "A battery-operated two-wheeler is not a 'motor vehicle' if its maximum speed is?"
+    options: ["Less than 25 km/h", "25 km/h", "33 km/h", "Less than 33 km/h"]
+    key: A
+    learn: "A battery two-wheeler with top speed below 25 km/h (and low power and weight) is not treated as a motor vehicle — no registration or licence needed."
+    why: "Very slow e-bikes are treated like bicycles."
+  - n: 27
+    topic: u8.mvact_basics
+    q: "On transfer of ownership within the same state, the transferor must report within?"
+    options: ["14 days", "15 days", "30 days", "6 months"]
+    key: A
+    learn: "On sale of a vehicle, the seller (transferor) reports the transfer within 14 days; the buyer (transferee) within 30 days (Section 50)."
+    why: "Seller 14, buyer 30."
+  - n: 28
+    topic: u8.mvact_basics
+    q: "On transfer of ownership, the transferee must report to the registering authority within?"
+    options: ["6 months", "14 days", "30 days", "1 year"]
+    key: C
+    learn: "The buyer (transferee) must report the transfer within 30 days (Section 50)."
+    why: "The registration must show the real owner."
+  - n: 29
+    topic: law.registration
+    q: "Cancellation of registration is NOT possible when the vehicle is?"
+    options: ["Destroyed", "Permanently removed out of Kerala", "Permanently removed out of India", "Registered on false documents"]
+    key: B
+    learn: "Moving to another state is no reason to cancel registration — it gets a new mark (Section 47). Cancel only if destroyed, taken out of India or falsely registered (Section 55)."
+    why: "The vehicle is still in India and still registered."
+  - n: 55
+    topic: law.permits
+    q: "Section 66(1) prohibits using a transport vehicle without a permit in?"
+    options: ["Any public place", "Public or any other place", "Airport", "Factory"]
+    key: A
+    learn: "Section 66(1): no owner shall use or permit the use of a transport vehicle in any public place without a permit."
+    why: "Permits control where and how commercial vehicles operate."
+  - n: 56
+    topic: u8.mvact_basics
+    q: "The Regional Transport Authority is constituted by?"
+    options: ["STAT", "Transport Commissioner", "Central Government", "State Government"]
+    key: D
+    learn: "The State Government constitutes the State Transport Authority and Regional Transport Authorities (Section 68)."
+    why: "Transport authorities are state bodies."
+  - n: 62
+    topic: law.traffic
+    q: "Carrying more than one pillion person on a motorcycle violates?"
+    options: ["Section 128 r/w 177", "Section 3 r/w 181", "Section 123 r/w 177", "KMV Rule 123"]
+    key: A
+    learn: "Section 128: a two-wheeler driver may carry only one person (pillion) besides himself. Breach is punished under Section 177 (or 194C after 2019)."
+    why: "More riders upset balance and safety."
+    note: "After 2019, Section 194C gives the specific penalty for safety violations by motorcycle riders."
+  - n: 66
+    topic: law.offences
+    q: "Compounding fee for drunken driving?"
+    options: ["Rs 2,000", "Rs 1,000", "Rs 2,500", "Cannot be compounded"]
+    key: D
+    learn: "Drunken driving (Section 185) cannot be compounded on the spot under Section 200 — it goes to court."
+    why: "It is a serious offence."
+  - n: 67
+    topic: law.offences
+    q: "Which is NOT correct about composition of an offence under Section 200?"
+    options: ["Offender in custody is discharged", "No further proceedings for that offence", "Composition starts licence disqualification", "No conviction recorded"]
+    key: C
+    learn: "Once an offence is compounded under Section 200, the person in custody is released and no further proceedings happen for that offence."
+    why: "Paying the compounding fee closes the case."
+  - n: 68
+    topic: law.offences
+    q: "Which is NOT a case for arrest without warrant?"
+    options: ["Dangerous driving", "Drunken driving", "Taking a vehicle without owner's consent", "Not wearing a seat belt"]
+    key: D
+    learn: "Section 202: police may arrest without warrant for dangerous driving, drunken driving or taking a vehicle without consent — not for not wearing a seat belt."
+    why: "Arrest is only for serious offences."
+  - n: 69
+    topic: law.offences
+    q: "Which is NOT a ground to seize a vehicle under Section 207?"
+    options: ["No licence (S.3/4)", "Over-speeding (S.112)", "No registration (S.39)", "No permit (S.66)"]
+    key: B
+    learn: "Section 207 allows seizure for driving without licence, registration or permit — not for over-speeding."
+    why: "Over-speeding is punished by fine and licence action instead."
+  - n: 81
+    topic: law.traffic
+    q: "Which section deals with wearing protective headgear?"
+    options: ["118", "123", "128", "129"]
+    key: D
+    learn: "Section 129: wearing of protective headgear (helmet) by two-wheeler riders and pillion riders over 4 years."
+    why: "Penalty is under Section 194D."
+  - n: 86
+    topic: law.insurance
+    q: "'Third party' in motor insurance includes?"
+    options: ["Three parties", "Party in the accident", "The Government", "All of these"]
+    key: C
+    learn: "Section 145: 'third party' includes the Government."
+    why: "Damage to government property is also covered."
+  - n: 87
+    topic: law.insurance
+    q: "Central scheme for compensation to hit-and-run victims?"
+    options: ["Solatium Scheme", "Social security scheme", "Third party scheme", "None"]
+    key: A
+    learn: "The Solatium Scheme pays compensation to victims of hit-and-run accidents. Now Rs 2 lakh for death and Rs 50,000 for grievous hurt (Section 161)."
+    why: "In hit-and-run there is no known vehicle or insurer to claim from."
+  - n: 90
+    topic: law.traffic
+    q: "Vehicles with ___ must have a mechanical or electrical signalling device."
+    options: ["Reverse driving", "Pillion riding", "Left-hand drive", "Right-hand drive"]
+    key: C
+    learn: "Section 120: a left-hand drive vehicle must have a mechanical or electrical signalling device."
+    why: "The driver's hand signals cannot be seen from the right side."
+  - n: 91
+    topic: u8.mvact_basics
+    q: "A traffic sign with a circular disc showing a device, word or figure is a ___ sign."
+    options: ["Casual", "Cautionary", "Informatory", "Mandatory"]
+    key: D
+    learn: "Mandatory (regulatory) signs are circular. Cautionary (warning) signs are triangular. Informatory signs are rectangular."
+    why: "Circle = must obey; triangle = take care; rectangle = information."
+  - n: 92
+    topic: law.offences
+    q: "A driver is taken as drunk if a breath analyser shows blood alcohol above?"
+    options: ["20 mg/100 ml", "30 mg/100 ml", "25 mg/100 ml", "28 mg/100 ml"]
+    key: B
+    learn: "Section 185: more than 30 mg alcohol per 100 ml of blood, detected by breath analyser, is drunken driving."
+    why: "This limit is low because alcohol slows reactions."
+  - n: 93
+    topic: law.offences
+    q: "A race or trial of speed in a public place needs the consent of?"
+    options: ["State Government", "RTO", "KSRTC MD", "Deputy Transport Commissioner"]
+    key: A
+    learn: "Racing or speed trials in a public place need written consent of the State Government; otherwise it is an offence under Section 189."
+    why: "Races on public roads put others at risk."
+  - n: 94
+    topic: u8.mvact_basics
+    q: "A STOP sign is a ___ sign."
+    options: ["Informatory", "Cautionary", "Mandatory", "None"]
+    key: C
+    learn: "STOP is a mandatory sign (octagon shape)."
+    why: "Drivers must obey it — it is not just a warning."
+  - n: 95
+    topic: u8.mvact_basics
+    q: "The hump / rough road sign is a ___ sign."
+    options: ["Cautionary", "Mandatory", "None", "Informatory"]
+    key: A
+    learn: "Hump or rough road is a cautionary (warning) sign — red triangle."
+    why: "It warns of danger ahead; it does not order an action."
+  - n: 96
+    topic: u8.mvact_basics
+    q: "The 'Give Way' sign is shaped as?"
+    options: ["Triangle", "Inverted triangle", "Rectangle", "Square"]
+    key: B
+    learn: "GIVE WAY is an inverted (upside-down) triangle — a mandatory sign."
+    why: "Its special shape makes it recognisable even from behind."
