@@ -250,6 +250,60 @@
    },
    "order": 26,
    "freq": 0.5
+  },
+  {
+   "id": "u4.bearings",
+   "subject": "machine_elements",
+   "title": {
+    "en": "Bearings"
+   },
+   "order": 27,
+   "freq": 0.7
+  },
+  {
+   "id": "u4.governors",
+   "subject": "machine_elements",
+   "title": {
+    "en": "Governors"
+   },
+   "order": 28,
+   "freq": 0.7
+  },
+  {
+   "id": "u4.flywheel",
+   "subject": "machine_elements",
+   "title": {
+    "en": "Flywheels"
+   },
+   "order": 29,
+   "freq": 0.7
+  },
+  {
+   "id": "u4.gears",
+   "subject": "machine_elements",
+   "title": {
+    "en": "Gears and gear trains"
+   },
+   "order": 30,
+   "freq": 0.7
+  },
+  {
+   "id": "u4.boilers",
+   "subject": "machine_elements",
+   "title": {
+    "en": "Boilers and steam engine"
+   },
+   "order": 31,
+   "freq": 0.6
+  },
+  {
+   "id": "u4.materials",
+   "subject": "machine_elements",
+   "title": {
+    "en": "Engineering materials and heat treatment"
+   },
+   "order": 32,
+   "freq": 0.8
   }
  ],
  "cards": [
@@ -12649,6 +12703,3572 @@
      "en": "Soldering < 450°C < brazing."
     }
    ]
+  },
+  {
+   "id": "u4.bearings.f01",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A bearing supports a moving part (usually a rotating shaft) and lets it move with little friction."
+   },
+   "why": {
+    "en": "Without bearings, shafts would rub, heat up and wear out."
+   },
+   "example": {
+    "en": "Wheel bearings let a car wheel spin freely on its axle."
+   },
+   "recall_q": {
+    "en": "What is the main job of a bearing?"
+   },
+   "recall_a": {
+    "en": "Support a moving shaft and reduce friction."
+   },
+   "explain_simple": {
+    "en": "Bearings help shafts spin easily."
+   }
+  },
+  {
+   "id": "u4.bearings.f02",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Functions of a bearing: support load, guide motion, reduce friction and wear, and carry away heat."
+   },
+   "why": {
+    "en": "The bearing holds the shaft in place while it turns."
+   },
+   "recall_q": {
+    "en": "Name two functions of a bearing."
+   },
+   "recall_a": {
+    "en": "Support load, reduce friction (also guide motion, reduce wear)."
+   },
+   "explain_simple": {
+    "en": "Hold, guide and smooth the movement."
+   }
+  },
+  {
+   "id": "u4.bearings.f03",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Radial (journal) bearing: load acts at right angles to the shaft axis. Thrust bearing: load acts along the shaft axis."
+   },
+   "why": {
+    "en": "The direction of load decides the bearing type."
+   },
+   "example": {
+    "en": "Crankshaft main bearings are radial. Clutch release bearing is a thrust bearing."
+   },
+   "recall_q": {
+    "en": "A bearing carrying load along the shaft axis is called?"
+   },
+   "recall_a": {
+    "en": "Thrust bearing."
+   },
+   "explain_simple": {
+    "en": "Radial = load from the side. Thrust = load from the end."
+   }
+  },
+  {
+   "id": "u4.bearings.f04",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Sliding contact bearing: the shaft slides on an oil film inside a bush (plain bearing). Rolling contact bearing: balls or rollers roll between races."
+   },
+   "why": {
+    "en": "Rolling has lower starting friction; sliding is quieter and carries shock better."
+   },
+   "recall_q": {
+    "en": "A ball bearing is sliding or rolling contact?"
+   },
+   "recall_a": {
+    "en": "Rolling contact."
+   },
+   "explain_simple": {
+    "en": "Sliding = shaft on oil film. Rolling = balls in between."
+   }
+  },
+  {
+   "id": "u4.bearings.f05",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Journal bearing: the part of the shaft inside the bearing is the journal; the outer part is the bearing or bush."
+   },
+   "why": {
+    "en": "Engine crankshaft and camshaft bearings are journal bearings."
+   },
+   "recall_q": {
+    "en": "The part of a shaft that turns inside a bearing is called?"
+   },
+   "recall_a": {
+    "en": "Journal."
+   },
+   "explain_simple": {
+    "en": "Journal = shaft portion sitting in the bearing."
+   }
+  },
+  {
+   "id": "u4.bearings.f06",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Types of journal bearings: full journal (360°), partial journal (less than 360°), fitted bearing."
+   },
+   "why": {
+    "en": "Partial bearings are used when load comes from one side only."
+   },
+   "recall_q": {
+    "en": "A bearing surrounding the journal fully is called?"
+   },
+   "recall_a": {
+    "en": "Full journal bearing."
+   },
+   "explain_simple": {
+    "en": "Full ring or part ring around the shaft."
+   }
+  },
+  {
+   "id": "u4.bearings.f07",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydrodynamic lubrication: the rotating journal itself drags oil in and builds a pressure film that lifts the shaft."
+   },
+   "why": {
+    "en": "Speed creates the oil pressure, so it works best at speed."
+   },
+   "recall_q": {
+    "en": "In hydrodynamic bearings, what creates the oil pressure?"
+   },
+   "recall_a": {
+    "en": "The rotation of the journal (wedge action)."
+   },
+   "explain_simple": {
+    "en": "Spinning shaft floats on oil it pulls in."
+   }
+  },
+  {
+   "id": "u4.bearings.f08",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydrostatic bearing: oil is pumped in under pressure from outside to lift the shaft, even at rest."
+   },
+   "why": {
+    "en": "Useful for very heavy, slow machines."
+   },
+   "recall_q": {
+    "en": "Which bearing uses an outside pump to lift the shaft?"
+   },
+   "recall_a": {
+    "en": "Hydrostatic bearing."
+   },
+   "explain_simple": {
+    "en": "A pump floats the shaft on oil."
+   }
+  },
+  {
+   "id": "u4.bearings.f09",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bearing characteristic number = Z N / p (Z = oil viscosity, N = speed, p = bearing pressure)."
+   },
+   "why": {
+    "en": "It decides whether a thick oil film forms."
+   },
+   "recall_q": {
+    "en": "Bearing characteristic number formula?"
+   },
+   "recall_a": {
+    "en": "ZN/p"
+   },
+   "explain_simple": {
+    "en": "Viscosity × speed ÷ pressure."
+   }
+  },
+  {
+   "id": "u4.bearings.f10",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bearing modulus is the value of ZN/p at which friction is least. Bearings are run at about 3 times this value for safety."
+   },
+   "why": {
+    "en": "Below it the film breaks and metal touches."
+   },
+   "recall_q": {
+    "en": "What is bearing modulus?"
+   },
+   "recall_a": {
+    "en": "ZN/p at minimum friction."
+   },
+   "explain_simple": {
+    "en": "The best point for oil film; stay well above it."
+   }
+  },
+  {
+   "id": "u4.bearings.f11",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heat generated in a bearing Hg = μ W V (friction coefficient × load × rubbing speed)."
+   },
+   "why": {
+    "en": "Friction work turns into heat."
+   },
+   "recall_q": {
+    "en": "Formula for heat generated in a bearing?"
+   },
+   "recall_a": {
+    "en": "μWV"
+   },
+   "explain_simple": {
+    "en": "Friction × load × speed = heat."
+   }
+  },
+  {
+   "id": "u4.bearings.f12",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heat dissipated by a bearing depends on its surface area and the temperature difference with surrounding air."
+   },
+   "why": {
+    "en": "If generation is more than dissipation, the bearing overheats and needs oil cooling."
+   },
+   "recall_q": {
+    "en": "What happens if heat generated exceeds heat dissipated?"
+   },
+   "recall_a": {
+    "en": "Bearing overheats; extra cooling is needed."
+   },
+   "explain_simple": {
+    "en": "Too much heat in, not enough out → hot bearing."
+   }
+  },
+  {
+   "id": "u4.bearings.f13",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rolling bearing parts: inner race, outer race, rolling elements (balls or rollers) and cage (separator)."
+   },
+   "why": {
+    "en": "The cage keeps the balls evenly spaced."
+   },
+   "recall_q": {
+    "en": "What keeps the balls evenly spaced in a ball bearing?"
+   },
+   "recall_a": {
+    "en": "Cage (separator / retainer)."
+   },
+   "explain_simple": {
+    "en": "Two rings, balls in between, and a cage."
+   }
+  },
+  {
+   "id": "u4.bearings.f14",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Types of rolling bearings: deep groove ball, angular contact, self-aligning, cylindrical roller, taper roller, needle roller, thrust ball."
+   },
+   "why": {
+    "en": "Each suits a different load and space."
+   },
+   "recall_q": {
+    "en": "Bearing used where space is very small, with thin long rollers?"
+   },
+   "recall_a": {
+    "en": "Needle roller bearing."
+   },
+   "explain_simple": {
+    "en": "Balls for light loads, rollers for heavy loads."
+   }
+  },
+  {
+   "id": "u4.bearings.f15",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Taper roller bearings carry both radial and thrust loads. They are used in front wheel hubs and differentials."
+   },
+   "why": {
+    "en": "The tapered rollers take load at an angle."
+   },
+   "recall_q": {
+    "en": "Which bearing is used in wheel hubs for both radial and axial loads?"
+   },
+   "recall_a": {
+    "en": "Taper roller bearing."
+   },
+   "explain_simple": {
+    "en": "Taper rollers handle side and end loads together."
+   }
+  },
+  {
+   "id": "u4.bearings.f16",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Needle roller bearings are used in universal joints, gearbox gears and rocker arms."
+   },
+   "why": {
+    "en": "They carry high load in a small diameter."
+   },
+   "recall_q": {
+    "en": "Bearings commonly used in universal joint crosses?"
+   },
+   "recall_a": {
+    "en": "Needle roller bearings."
+   },
+   "explain_simple": {
+    "en": "Tiny thin rollers for tight spaces."
+   }
+  },
+  {
+   "id": "u4.bearings.f17",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Engine big-end and main bearings are thin-wall split shell (plain) bearings made of steel backing with babbitt, copper-lead or aluminium-tin lining."
+   },
+   "why": {
+    "en": "Soft lining embeds dirt and conforms to the shaft."
+   },
+   "recall_q": {
+    "en": "Bearing metal made of tin, antimony and copper?"
+   },
+   "recall_a": {
+    "en": "Babbitt (white metal)."
+   },
+   "explain_simple": {
+    "en": "Steel shell with a soft lining."
+   }
+  },
+  {
+   "id": "u4.bearings.f18",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Properties of a good bearing material: low friction, conformability, embeddability, fatigue strength, corrosion resistance, good heat conduction."
+   },
+   "why": {
+    "en": "It must tolerate dirt, heat and changing loads."
+   },
+   "recall_q": {
+    "en": "Ability of a bearing material to absorb dirt particles is called?"
+   },
+   "recall_a": {
+    "en": "Embeddability."
+   },
+   "explain_simple": {
+    "en": "Soft enough to swallow grit, strong enough to carry load."
+   }
+  },
+  {
+   "id": "u4.bearings.f19",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bearing crush: the shell halves stick out slightly above the housing so they are pressed tight when bolted."
+   },
+   "why": {
+    "en": "This stops the shell from spinning in its housing."
+   },
+   "recall_q": {
+    "en": "Why do bearing shells have crush?"
+   },
+   "recall_a": {
+    "en": "To fit tightly and prevent rotation in the housing."
+   },
+   "explain_simple": {
+    "en": "A tight squeeze keeps the shell still."
+   }
+  },
+  {
+   "id": "u4.bearings.f20",
+   "topic": "u4.bearings",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rolling bearings vs sliding: rolling have low starting friction and need little lubrication; sliding are cheaper, quieter and take shocks better."
+   },
+   "why": {
+    "en": "Each has its place."
+   },
+   "recall_q": {
+    "en": "Which has lower starting friction: rolling or sliding bearing?"
+   },
+   "recall_a": {
+    "en": "Rolling bearing."
+   },
+   "explain_simple": {
+    "en": "Balls start rolling easily."
+   }
+  },
+  {
+   "id": "u4.bearings.sum",
+   "topic": "u4.bearings",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bearings; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Bearings"
+   },
+   "points": [
+    {
+     "en": "Radial (journal) vs thrust bearings."
+    },
+    {
+     "en": "Sliding (plain) vs rolling (ball/roller)."
+    },
+    {
+     "en": "ZN/p = bearing characteristic number."
+    },
+    {
+     "en": "Heat generated = μWV."
+    },
+    {
+     "en": "Taper roller in hubs; needle in UJ; babbitt shells in engines."
+    }
+   ]
+  },
+  {
+   "id": "u4.governors.f01",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A governor keeps engine speed nearly constant by controlling the fuel supply when load changes."
+   },
+   "why": {
+    "en": "More load slows the engine; the governor then adds fuel."
+   },
+   "example": {
+    "en": "Diesel generators and fuel injection pumps use governors."
+   },
+   "recall_q": {
+    "en": "What is the function of a governor?"
+   },
+   "recall_a": {
+    "en": "To keep speed constant by controlling fuel supply as load changes."
+   },
+   "explain_simple": {
+    "en": "It adds or cuts fuel to hold speed steady."
+   }
+  },
+  {
+   "id": "u4.governors.f02",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Governors are of two main types: centrifugal and inertia. Centrifugal governors are of two kinds: pendulum (Watt) and loaded (Porter, Proell, Hartnell, Wilson-Hartnell)."
+   },
+   "why": {
+    "en": "Loaded governors add dead weight or springs to work at higher speeds."
+   },
+   "recall_q": {
+    "en": "Simplest centrifugal governor?"
+   },
+   "recall_a": {
+    "en": "Watt governor."
+   },
+   "explain_simple": {
+    "en": "Spinning balls fly out as speed rises."
+   }
+  },
+  {
+   "id": "u4.governors.f03",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In a centrifugal governor, balls fly outward as speed rises and lift the sleeve, which closes the fuel supply."
+   },
+   "why": {
+    "en": "Centrifugal force grows with speed."
+   },
+   "recall_q": {
+    "en": "What happens to the sleeve when speed rises?"
+   },
+   "recall_a": {
+    "en": "It rises (and reduces fuel supply)."
+   },
+   "explain_simple": {
+    "en": "Faster spin, balls fly out, fuel cut."
+   }
+  },
+  {
+   "id": "u4.governors.f04",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Watt governor height h = 895 / N² (h in metres, N in rpm)."
+   },
+   "why": {
+    "en": "Height falls quickly at higher speed, so Watt governor suits only slow engines."
+   },
+   "recall_q": {
+    "en": "Watt governor height formula?"
+   },
+   "recall_a": {
+    "en": "h = 895/N² m"
+   },
+   "explain_simple": {
+    "en": "Faster → shorter height."
+   }
+  },
+  {
+   "id": "u4.governors.f05",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Porter governor: a Watt governor with a heavy central load on the sleeve."
+   },
+   "why": {
+    "en": "The load allows higher speeds and more force on the sleeve."
+   },
+   "recall_q": {
+    "en": "Watt governor with central dead load is called?"
+   },
+   "recall_a": {
+    "en": "Porter governor."
+   },
+   "explain_simple": {
+    "en": "Watt plus a weight on the sleeve."
+   }
+  },
+  {
+   "id": "u4.governors.f06",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Proell governor: like Porter but the balls are fixed on extensions of the lower arms."
+   },
+   "why": {
+    "en": "This makes it more sensitive at lower ball weight."
+   },
+   "recall_q": {
+    "en": "Governor with balls on extensions of lower links?"
+   },
+   "recall_a": {
+    "en": "Proell governor."
+   },
+   "explain_simple": {
+    "en": "Porter with balls moved to arm extensions."
+   }
+  },
+  {
+   "id": "u4.governors.f07",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hartnell governor is a spring-loaded governor with bell-crank levers. It can run at high speed and fits in a small space."
+   },
+   "why": {
+    "en": "A spring replaces the dead weight."
+   },
+   "recall_q": {
+    "en": "Spring-loaded governor with bell-crank levers?"
+   },
+   "recall_a": {
+    "en": "Hartnell governor."
+   },
+   "explain_simple": {
+    "en": "Springs instead of weights."
+   }
+  },
+  {
+   "id": "u4.governors.f08",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Height of governor: vertical distance from the ball centre to the point where the arms meet on the spindle axis."
+   },
+   "why": {
+    "en": "Used in Watt and Porter governor formulas."
+   },
+   "recall_q": {
+    "en": "Define height of a governor."
+   },
+   "recall_a": {
+    "en": "Vertical distance from ball centre to the arm-meeting point on the axis."
+   },
+   "explain_simple": {
+    "en": "How high the arm pivot is above the balls."
+   }
+  },
+  {
+   "id": "u4.governors.f09",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Equilibrium speed: the speed at which the governor balls, arms and sleeve stay at rest for a given radius."
+   },
+   "why": {
+    "en": "Every ball radius has its own balance speed."
+   },
+   "recall_q": {
+    "en": "What is equilibrium speed?"
+   },
+   "recall_a": {
+    "en": "Speed at which the governor is in balance at a given ball radius."
+   },
+   "explain_simple": {
+    "en": "The speed where balls neither go in nor out."
+   }
+  },
+  {
+   "id": "u4.governors.f10",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mean equilibrium speed: speed at the mean ball radius. Max and min equilibrium speeds: speeds at the largest and smallest ball radius."
+   },
+   "why": {
+    "en": "The governor works between these limits."
+   },
+   "recall_q": {
+    "en": "Speed at the mean radius of rotation of balls?"
+   },
+   "recall_a": {
+    "en": "Mean equilibrium speed."
+   },
+   "explain_simple": {
+    "en": "Middle speed of the working range."
+   }
+  },
+  {
+   "id": "u4.governors.f11",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Sleeve lift: vertical distance the sleeve travels when speed changes from minimum to maximum equilibrium speed."
+   },
+   "why": {
+    "en": "Sleeve movement operates the fuel control."
+   },
+   "recall_q": {
+    "en": "Distance moved by the sleeve between min and max speeds?"
+   },
+   "recall_a": {
+    "en": "Sleeve lift."
+   },
+   "explain_simple": {
+    "en": "How far the sleeve goes up."
+   }
+  },
+  {
+   "id": "u4.governors.f12",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Sensitiveness = (N₂ − N₁) / N, where N is mean speed. A smaller range means a more sensitive governor."
+   },
+   "why": {
+    "en": "A sensitive governor reacts to small speed changes."
+   },
+   "recall_q": {
+    "en": "Formula for sensitiveness of a governor?"
+   },
+   "recall_a": {
+    "en": "(N₂ − N₁)/N"
+   },
+   "explain_simple": {
+    "en": "Reacts quickly to small changes."
+   }
+  },
+  {
+   "id": "u4.governors.f13",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stability: a governor is stable if ball radius increases as speed increases, with one radius for each speed."
+   },
+   "why": {
+    "en": "Otherwise the balls would wander."
+   },
+   "recall_q": {
+    "en": "When is a governor stable?"
+   },
+   "recall_a": {
+    "en": "When radius rises steadily with speed (one radius per speed)."
+   },
+   "explain_simple": {
+    "en": "Each speed has one steady ball position."
+   }
+  },
+  {
+   "id": "u4.governors.f14",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Isochronous governor: equilibrium speed is the same at all radii. It is infinitely sensitive but in practice hunts."
+   },
+   "why": {
+    "en": "Any tiny speed change sends balls to the limits."
+   },
+   "recall_q": {
+    "en": "Governor with constant equilibrium speed at all radii?"
+   },
+   "recall_a": {
+    "en": "Isochronous governor."
+   },
+   "explain_simple": {
+    "en": "Too sensitive — same speed for every position."
+   }
+  },
+  {
+   "id": "u4.governors.f15",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hunting: the governor keeps over-correcting, so speed swings above and below the mean continuously."
+   },
+   "why": {
+    "en": "Too-sensitive governors cause hunting."
+   },
+   "recall_q": {
+    "en": "Continuous fluctuation of speed caused by an over-sensitive governor?"
+   },
+   "recall_a": {
+    "en": "Hunting."
+   },
+   "explain_simple": {
+    "en": "Speed keeps going up and down, never settles."
+   }
+  },
+  {
+   "id": "u4.governors.f16",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Effort of a governor: average force on the sleeve for a given change of speed. Power: work done at the sleeve for a given change of speed."
+   },
+   "why": {
+    "en": "These show how strongly the governor can move the controls."
+   },
+   "recall_q": {
+    "en": "Mean force on the sleeve for a given speed change is called?"
+   },
+   "recall_a": {
+    "en": "Effort of the governor."
+   },
+   "explain_simple": {
+    "en": "How hard the governor can push."
+   }
+  },
+  {
+   "id": "u4.governors.f17",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Controlling force: inward force on the balls that balances centrifugal force. A controlling force diagram tests stability."
+   },
+   "why": {
+    "en": "If the curve passes through the origin, the governor is isochronous."
+   },
+   "recall_q": {
+    "en": "Force that balances the centrifugal force on governor balls?"
+   },
+   "recall_a": {
+    "en": "Controlling force."
+   },
+   "explain_simple": {
+    "en": "The inward pull that holds the balls."
+   }
+  },
+  {
+   "id": "u4.governors.f18",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Inertia governor: works on the rate of change of speed (acceleration), so it reacts faster than a centrifugal governor."
+   },
+   "why": {
+    "en": "It senses change before speed itself shifts much."
+   },
+   "recall_q": {
+    "en": "Which governor responds to rate of change of speed?"
+   },
+   "recall_a": {
+    "en": "Inertia governor."
+   },
+   "explain_simple": {
+    "en": "Feels the speed changing, not just the speed."
+   }
+  },
+  {
+   "id": "u4.governors.f19",
+   "topic": "u4.governors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel fuel injection pumps have mechanical or electronic governors. Types: minimum-maximum speed governor and all-speed (variable speed) governor."
+   },
+   "why": {
+    "en": "They prevent stalling at idle and over-speeding."
+   },
+   "recall_q": {
+    "en": "Governor used on a diesel truck to control idle and maximum speed only?"
+   },
+   "recall_a": {
+    "en": "Minimum-maximum (idle and max speed) governor."
+   },
+   "explain_simple": {
+    "en": "Stops stall at idle and runaway at top speed."
+   }
+  },
+  {
+   "id": "u4.governors.sum",
+   "topic": "u4.governors",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Governors; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Governors"
+   },
+   "points": [
+    {
+     "en": "Governor keeps speed steady by controlling fuel."
+    },
+    {
+     "en": "Watt (h = 895/N²), Porter (dead load), Proell, Hartnell (spring)."
+    },
+    {
+     "en": "Sensitiveness = (N₂−N₁)/N."
+    },
+    {
+     "en": "Isochronous = same speed at all radii → hunting."
+    },
+    {
+     "en": "Stability: one radius for each speed."
+    }
+   ]
+  },
+  {
+   "id": "u4.flywheel.f01",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A flywheel is a heavy wheel on the crankshaft that stores energy during the power stroke and gives it back during other strokes."
+   },
+   "why": {
+    "en": "This smooths the jerky turning effort of the engine."
+   },
+   "recall_q": {
+    "en": "Main function of a flywheel?"
+   },
+   "recall_a": {
+    "en": "Store and release energy to reduce speed fluctuation within a cycle."
+   },
+   "explain_simple": {
+    "en": "It keeps the engine turning smoothly between power strokes."
+   }
+  },
+  {
+   "id": "u4.flywheel.f02",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Flywheel vs governor: the flywheel controls speed changes within one cycle; the governor controls mean speed over many cycles when load changes."
+   },
+   "why": {
+    "en": "Flywheel stores energy; governor controls fuel."
+   },
+   "recall_q": {
+    "en": "Which controls speed variation within a single cycle?"
+   },
+   "recall_a": {
+    "en": "Flywheel."
+   },
+   "explain_simple": {
+    "en": "Flywheel smooths each cycle; governor handles load changes."
+   }
+  },
+  {
+   "id": "u4.flywheel.f03",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A flywheel has no control over fuel supply. A governor has no energy storage."
+   },
+   "why": {
+    "en": "They do different jobs, so engines need both."
+   },
+   "recall_q": {
+    "en": "Does a flywheel control the fuel supply?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Flywheel = energy bank. Governor = fuel tap."
+   }
+  },
+  {
+   "id": "u4.flywheel.f04",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Flywheel's other jobs in a car: carries the starter ring gear and provides the clutch friction face."
+   },
+   "why": {
+    "en": "It is the link between engine and clutch."
+   },
+   "recall_q": {
+    "en": "Which gear is fitted on the flywheel rim?"
+   },
+   "recall_a": {
+    "en": "Starter ring gear."
+   },
+   "explain_simple": {
+    "en": "The starter motor turns the engine through the flywheel's teeth."
+   }
+  },
+  {
+   "id": "u4.flywheel.f05",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fluctuation of speed = N₁ − N₂ (max − min speed in a cycle)."
+   },
+   "why": {
+    "en": "Speed rises in power stroke and falls in other strokes."
+   },
+   "recall_q": {
+    "en": "Fluctuation of speed = ?"
+   },
+   "recall_a": {
+    "en": "Max speed − min speed in a cycle."
+   },
+   "explain_simple": {
+    "en": "How much speed goes up and down."
+   }
+  },
+  {
+   "id": "u4.flywheel.f06",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Coefficient of fluctuation of speed Cs = (N₁ − N₂) / N, where N = mean speed."
+   },
+   "why": {
+    "en": "It shows the fluctuation as a fraction of mean speed."
+   },
+   "recall_q": {
+    "en": "Formula for coefficient of fluctuation of speed?"
+   },
+   "recall_a": {
+    "en": "Cs = (N₁ − N₂)/N"
+   },
+   "explain_simple": {
+    "en": "Speed swing ÷ average speed."
+   }
+  },
+  {
+   "id": "u4.flywheel.f07",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fluctuation of energy ΔE = maximum energy − minimum energy in the flywheel during a cycle."
+   },
+   "why": {
+    "en": "It is found from the turning moment diagram."
+   },
+   "recall_q": {
+    "en": "Maximum fluctuation of energy = ?"
+   },
+   "recall_a": {
+    "en": "Max energy − min energy."
+   },
+   "explain_simple": {
+    "en": "Biggest energy swing in one cycle."
+   }
+  },
+  {
+   "id": "u4.flywheel.f08",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Coefficient of fluctuation of energy Ce = maximum fluctuation of energy / work done per cycle."
+   },
+   "why": {
+    "en": "Compares the swing with total work."
+   },
+   "recall_q": {
+    "en": "Coefficient of fluctuation of energy = ?"
+   },
+   "recall_a": {
+    "en": "ΔE ÷ work done per cycle."
+   },
+   "explain_simple": {
+    "en": "Energy swing ÷ total work."
+   }
+  },
+  {
+   "id": "u4.flywheel.f09",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Energy stored in a flywheel E = ½ I ω²."
+   },
+   "why": {
+    "en": "It is rotational kinetic energy."
+   },
+   "recall_q": {
+    "en": "Energy stored in a flywheel?"
+   },
+   "recall_a": {
+    "en": "½ I ω²"
+   },
+   "explain_simple": {
+    "en": "Heavier and faster wheel stores more energy."
+   }
+  },
+  {
+   "id": "u4.flywheel.f10",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Maximum fluctuation of energy ΔE = I ω² Cs = m k² ω² Cs."
+   },
+   "why": {
+    "en": "Linking energy swing with speed swing lets us size the flywheel."
+   },
+   "recall_q": {
+    "en": "ΔE in terms of I, ω and Cs?"
+   },
+   "recall_a": {
+    "en": "ΔE = Iω²Cs"
+   },
+   "explain_simple": {
+    "en": "Flywheel size is chosen from this."
+   }
+  },
+  {
+   "id": "u4.flywheel.f11",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Moment of inertia I = m k² (k = radius of gyration). Rim-type flywheels put most mass at the rim."
+   },
+   "why": {
+    "en": "Mass far from the centre gives more inertia for less weight."
+   },
+   "recall_q": {
+    "en": "Why do flywheels have heavy rims?"
+   },
+   "recall_a": {
+    "en": "To get large moment of inertia with less weight."
+   },
+   "explain_simple": {
+    "en": "Weight at the edge stores the most energy."
+   }
+  },
+  {
+   "id": "u4.flywheel.f12",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Turning moment (crank effort) diagram plots torque on the crankshaft against crank angle."
+   },
+   "why": {
+    "en": "Areas above and below mean torque give energy fluctuation."
+   },
+   "recall_q": {
+    "en": "Diagram used to find flywheel energy fluctuation?"
+   },
+   "recall_a": {
+    "en": "Turning moment diagram."
+   },
+   "explain_simple": {
+    "en": "A torque graph over one cycle."
+   }
+  },
+  {
+   "id": "u4.flywheel.f13",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Single-cylinder and four-stroke engines need bigger flywheels than multi-cylinder engines."
+   },
+   "why": {
+    "en": "Fewer power strokes per turn means bigger speed swings."
+   },
+   "recall_q": {
+    "en": "Which needs a heavier flywheel: single or multi-cylinder engine?"
+   },
+   "recall_a": {
+    "en": "Single-cylinder."
+   },
+   "explain_simple": {
+    "en": "Fewer bangs per turn → bigger flywheel."
+   }
+  },
+  {
+   "id": "u4.flywheel.f14",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Flywheels are usually made of cast iron or cast steel."
+   },
+   "why": {
+    "en": "These are heavy, strong and cheap."
+   },
+   "recall_q": {
+    "en": "Common material for flywheels?"
+   },
+   "recall_a": {
+    "en": "Cast iron (or cast steel)."
+   },
+   "explain_simple": {
+    "en": "Heavy cast metal."
+   }
+  },
+  {
+   "id": "u4.flywheel.f15",
+   "topic": "u4.flywheel",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Dual-mass flywheel: two parts joined by springs to absorb engine vibration before it reaches the gearbox."
+   },
+   "why": {
+    "en": "Used in modern diesel cars to cut gear rattle."
+   },
+   "recall_q": {
+    "en": "Flywheel with two masses joined by springs?"
+   },
+   "recall_a": {
+    "en": "Dual-mass flywheel."
+   },
+   "explain_simple": {
+    "en": "A flywheel with a shock absorber inside."
+   }
+  },
+  {
+   "id": "u4.flywheel.sum",
+   "topic": "u4.flywheel",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flywheels; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Flywheels"
+   },
+   "points": [
+    {
+     "en": "Flywheel smooths speed in a cycle; governor controls mean speed."
+    },
+    {
+     "en": "Cs = (N₁ − N₂)/N."
+    },
+    {
+     "en": "Ce = ΔE / work per cycle."
+    },
+    {
+     "en": "E = ½Iω²; ΔE = Iω²Cs."
+    },
+    {
+     "en": "Single cylinder → bigger flywheel; carries ring gear."
+    }
+   ]
+  },
+  {
+   "id": "u4.gears.f01",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gears are toothed wheels that pass motion and power from one shaft to another without slip."
+   },
+   "why": {
+    "en": "Teeth mesh positively, unlike belts."
+   },
+   "recall_q": {
+    "en": "Why do gears give a positive drive?"
+   },
+   "recall_a": {
+    "en": "Teeth mesh, so there is no slip."
+   },
+   "explain_simple": {
+    "en": "Teeth lock together, so nothing slips."
+   }
+  },
+  {
+   "id": "u4.gears.f02",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gears for parallel shafts: spur, helical, herringbone (double helical)."
+   },
+   "why": {
+    "en": "Teeth are cut parallel or at an angle to the axis."
+   },
+   "recall_q": {
+    "en": "Gear with straight teeth parallel to the axis?"
+   },
+   "recall_a": {
+    "en": "Spur gear."
+   },
+   "explain_simple": {
+    "en": "Spur = straight teeth."
+   }
+  },
+  {
+   "id": "u4.gears.f03",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Helical gears have teeth cut at an angle. They run quieter and carry more load than spur gears but produce end thrust."
+   },
+   "why": {
+    "en": "Teeth engage gradually."
+   },
+   "example": {
+    "en": "Car gearboxes use helical gears for quiet running."
+   },
+   "recall_q": {
+    "en": "Drawback of helical gears?"
+   },
+   "recall_a": {
+    "en": "Axial (end) thrust."
+   },
+   "explain_simple": {
+    "en": "Slanted teeth are quiet but push sideways."
+   }
+  },
+  {
+   "id": "u4.gears.f04",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Herringbone (double helical) gears cancel end thrust by having two opposite helices."
+   },
+   "why": {
+    "en": "The two thrusts balance each other."
+   },
+   "recall_q": {
+    "en": "Which gear cancels axial thrust?"
+   },
+   "recall_a": {
+    "en": "Herringbone (double helical) gear."
+   },
+   "explain_simple": {
+    "en": "Two slants in opposite ways cancel the push."
+   }
+  },
+  {
+   "id": "u4.gears.f05",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gears for intersecting shafts: bevel gears (straight, spiral, zerol). Mitre gears are bevel gears with equal size at 90°."
+   },
+   "why": {
+    "en": "Teeth are cut on a cone."
+   },
+   "recall_q": {
+    "en": "Gears used when shafts intersect?"
+   },
+   "recall_a": {
+    "en": "Bevel gears."
+   },
+   "explain_simple": {
+    "en": "Cone-shaped gears turn the corner."
+   }
+  },
+  {
+   "id": "u4.gears.f06",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hypoid gears: like spiral bevel but the pinion axis is offset below the crown wheel axis. Used in rear axle differentials."
+   },
+   "why": {
+    "en": "The offset lowers the propeller shaft and floor."
+   },
+   "recall_q": {
+    "en": "Gears used in most rear axle final drives?"
+   },
+   "recall_a": {
+    "en": "Hypoid gears."
+   },
+   "explain_simple": {
+    "en": "Offset bevel gears in the differential."
+   }
+  },
+  {
+   "id": "u4.gears.f07",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hypoid gears need special extreme-pressure (EP) gear oil."
+   },
+   "why": {
+    "en": "Teeth slide a lot under heavy pressure."
+   },
+   "recall_q": {
+    "en": "Which oil is used for hypoid gears?"
+   },
+   "recall_a": {
+    "en": "Extreme pressure (EP) gear oil."
+   },
+   "explain_simple": {
+    "en": "Special thick oil for heavy-pressure teeth."
+   }
+  },
+  {
+   "id": "u4.gears.f08",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Worm and worm wheel: for non-parallel, non-intersecting shafts at 90°. Gives very high speed reduction and is often self-locking."
+   },
+   "why": {
+    "en": "One turn of the worm moves the wheel by only one tooth (single start)."
+   },
+   "example": {
+    "en": "Steering gearboxes (worm and sector)."
+   },
+   "recall_q": {
+    "en": "Which gear pair gives high reduction and self-locking?"
+   },
+   "recall_a": {
+    "en": "Worm and worm wheel."
+   },
+   "explain_simple": {
+    "en": "A screw turning a wheel slowly."
+   }
+  },
+  {
+   "id": "u4.gears.f09",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rack and pinion turns rotary motion into straight-line motion."
+   },
+   "why": {
+    "en": "The rack is a gear with infinite radius (flat)."
+   },
+   "example": {
+    "en": "Rack and pinion steering in cars."
+   },
+   "recall_q": {
+    "en": "Which gear converts rotary motion to linear motion?"
+   },
+   "recall_a": {
+    "en": "Rack and pinion."
+   },
+   "explain_simple": {
+    "en": "A round gear moving a flat toothed bar."
+   }
+  },
+  {
+   "id": "u4.gears.f10",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pitch circle: imaginary circle on which two gears roll together without slip. Its diameter is the pitch circle diameter (PCD)."
+   },
+   "why": {
+    "en": "All gear calculations use it."
+   },
+   "recall_q": {
+    "en": "Imaginary circle on which mating gears roll?"
+   },
+   "recall_a": {
+    "en": "Pitch circle."
+   },
+   "explain_simple": {
+    "en": "The rolling circle of a gear."
+   }
+  },
+  {
+   "id": "u4.gears.f11",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Module m = pitch circle diameter / number of teeth (D/T), in mm."
+   },
+   "why": {
+    "en": "Gears that mesh must have the same module."
+   },
+   "recall_q": {
+    "en": "Formula for module?"
+   },
+   "recall_a": {
+    "en": "m = D/T"
+   },
+   "explain_simple": {
+    "en": "Tooth size number."
+   }
+  },
+  {
+   "id": "u4.gears.f12",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Circular pitch p = π D / T = π m. Diametral pitch P = T / D (teeth per inch)."
+   },
+   "why": {
+    "en": "Circular pitch is the distance from one tooth to the next along the pitch circle."
+   },
+   "recall_q": {
+    "en": "Circular pitch in terms of module?"
+   },
+   "recall_a": {
+    "en": "p = πm"
+   },
+   "explain_simple": {
+    "en": "Gap between teeth along the circle."
+   }
+  },
+  {
+   "id": "u4.gears.f13",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Addendum: tooth height above the pitch circle (= 1 module). Dedendum: depth below it (= 1.25 module)."
+   },
+   "why": {
+    "en": "Dedendum is larger to give clearance."
+   },
+   "recall_q": {
+    "en": "Addendum of a standard gear tooth?"
+   },
+   "recall_a": {
+    "en": "1 module."
+   },
+   "explain_simple": {
+    "en": "Above the circle = addendum; below = dedendum."
+   }
+  },
+  {
+   "id": "u4.gears.f14",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Clearance = dedendum − addendum. Backlash = gap between mating teeth on the pitch circle."
+   },
+   "why": {
+    "en": "Backlash allows for oil, heat expansion and errors."
+   },
+   "recall_q": {
+    "en": "Play between mating teeth is called?"
+   },
+   "recall_a": {
+    "en": "Backlash."
+   },
+   "explain_simple": {
+    "en": "A small gap so teeth do not jam."
+   }
+  },
+  {
+   "id": "u4.gears.f15",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pressure angle: angle between the line of action and the common tangent to pitch circles. Standard: 20° (also 14.5°)."
+   },
+   "why": {
+    "en": "20° teeth are stronger."
+   },
+   "recall_q": {
+    "en": "Standard pressure angle of gears?"
+   },
+   "recall_a": {
+    "en": "20°"
+   },
+   "explain_simple": {
+    "en": "The angle at which teeth push each other."
+   }
+  },
+  {
+   "id": "u4.gears.f16",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Involute tooth profile is most common because centre distance can vary slightly without affecting the velocity ratio."
+   },
+   "why": {
+    "en": "Easy to make and tolerant of errors."
+   },
+   "recall_q": {
+    "en": "Most common gear tooth profile?"
+   },
+   "recall_a": {
+    "en": "Involute."
+   },
+   "explain_simple": {
+    "en": "The standard curved tooth shape."
+   }
+  },
+  {
+   "id": "u4.gears.f17",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Velocity ratio = N₁/N₂ = T₂/T₁ = D₂/D₁."
+   },
+   "why": {
+    "en": "Speeds are inversely proportional to tooth numbers."
+   },
+   "example": {
+    "en": "A 10-tooth pinion driving a 40-tooth gear: ratio 4:1; output is 4 times slower and 4 times the torque."
+   },
+   "recall_q": {
+    "en": "Driver 20 teeth, driven 60 teeth: velocity ratio?"
+   },
+   "recall_a": {
+    "en": "3 : 1"
+   },
+   "explain_simple": {
+    "en": "Small gear spins fast, big gear spins slow."
+   }
+  },
+  {
+   "id": "u4.gears.f18",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Two meshing external gears turn in opposite directions. An idler gear between them makes the driven gear turn the same way as the driver."
+   },
+   "why": {
+    "en": "Each mesh reverses direction."
+   },
+   "example": {
+    "en": "Reverse gear uses an idler."
+   },
+   "recall_q": {
+    "en": "Purpose of an idler gear?"
+   },
+   "recall_a": {
+    "en": "To change direction of rotation (without changing ratio)."
+   },
+   "explain_simple": {
+    "en": "An extra gear in the middle flips the direction."
+   }
+  },
+  {
+   "id": "u4.gears.f19",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Simple gear train: one gear on each shaft. Compound gear train: two or more gears on the same shaft."
+   },
+   "why": {
+    "en": "Compound trains give large ratios in small space."
+   },
+   "recall_q": {
+    "en": "Gear train with two gears on one intermediate shaft?"
+   },
+   "recall_a": {
+    "en": "Compound gear train."
+   },
+   "explain_simple": {
+    "en": "Simple = one per shaft. Compound = two on a shaft."
+   }
+  },
+  {
+   "id": "u4.gears.f20",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Train value = speed of last gear / speed of first gear = product of driver teeth / product of driven teeth."
+   },
+   "why": {
+    "en": "Multiply each stage's ratio."
+   },
+   "recall_q": {
+    "en": "Train value of a compound train?"
+   },
+   "recall_a": {
+    "en": "Product of driver teeth ÷ product of driven teeth."
+   },
+   "explain_simple": {
+    "en": "Multiply the ratios of each pair."
+   }
+  },
+  {
+   "id": "u4.gears.f21",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Reverted gear train: first and last gears are on the same axis."
+   },
+   "why": {
+    "en": "Used in lathes, clocks and car gearboxes (input and output in line)."
+   },
+   "recall_q": {
+    "en": "Gear train where input and output shafts are co-axial?"
+   },
+   "recall_a": {
+    "en": "Reverted gear train."
+   },
+   "explain_simple": {
+    "en": "In and out on the same line."
+   }
+  },
+  {
+   "id": "u4.gears.f22",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Epicyclic (planetary) gear train: sun gear, planet gears on a carrier, and an annulus (ring) gear. Some axes move."
+   },
+   "why": {
+    "en": "Gives several ratios in a compact unit."
+   },
+   "example": {
+    "en": "Automatic gearboxes and differentials use epicyclic trains."
+   },
+   "recall_q": {
+    "en": "Three main members of an epicyclic gear train?"
+   },
+   "recall_a": {
+    "en": "Sun gear, planet carrier (with planets), annulus (ring)."
+   },
+   "explain_simple": {
+    "en": "Planets spinning around a sun inside a ring."
+   }
+  },
+  {
+   "id": "u4.gears.f23",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gear materials: case-hardened alloy steel for vehicle gears; cast iron for large slow gears; nylon/plastic for light quiet drives."
+   },
+   "why": {
+    "en": "Hard surface resists wear; tough core resists shock."
+   },
+   "recall_q": {
+    "en": "Why are car gears case-hardened?"
+   },
+   "recall_a": {
+    "en": "Hard wear-resistant surface with tough core."
+   },
+   "explain_simple": {
+    "en": "Hard skin, tough inside."
+   }
+  },
+  {
+   "id": "u4.gears.f24",
+   "topic": "u4.gears",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Interference: tip of one tooth digs into the root of the mating tooth. Happens when the pinion has too few teeth."
+   },
+   "why": {
+    "en": "Minimum teeth (about 17 for 20° full-depth) avoids it."
+   },
+   "recall_q": {
+    "en": "What causes interference in gears?"
+   },
+   "recall_a": {
+    "en": "Too few teeth on the pinion."
+   },
+   "explain_simple": {
+    "en": "Small pinions' teeth dig into the other gear."
+   }
+  },
+  {
+   "id": "u4.gears.s01",
+   "topic": "u4.gears",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: gear ratio and speed"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A 15-tooth pinion at 1500 rpm drives a 45-tooth gear. Find gear speed."
+     }
+    },
+    {
+     "text": {
+      "en": "N₂ = N₁ × T₁/T₂."
+     },
+     "explain": {
+      "en": "Speed is inversely proportional to teeth."
+     }
+    },
+    {
+     "text": {
+      "en": "N₂ = 1500 × 15/45 = 500 rpm."
+     }
+    },
+    {
+     "text": {
+      "en": "Ratio = 45/15 = 3 : 1, so torque is about 3 times."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "N₁T₁ = N₂T₂."
+    },
+    {
+     "en": "More teeth → slower and more torque."
+    }
+   ],
+   "recall_q": {
+    "en": "Pinion 15 T at 1500 rpm, gear 45 T: gear speed?"
+   },
+   "recall_a": {
+    "en": "500 rpm"
+   }
+  },
+  {
+   "id": "u4.gears.sum",
+   "topic": "u4.gears",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Gears and gear trains; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Gears and gear trains"
+   },
+   "points": [
+    {
+     "en": "Parallel: spur, helical, herringbone; intersecting: bevel; skew: worm, hypoid."
+    },
+    {
+     "en": "Module m = D/T; circular pitch = πm."
+    },
+    {
+     "en": "Addendum 1m, dedendum 1.25m, pressure angle 20°."
+    },
+    {
+     "en": "VR = T₂/T₁; idler reverses direction."
+    },
+    {
+     "en": "Simple, compound, reverted, epicyclic trains."
+    }
+   ]
+  },
+  {
+   "id": "u4.boilers.f01",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A boiler (steam generator) is a closed vessel that turns water into steam using heat from fuel."
+   },
+   "why": {
+    "en": "Steam drives engines and turbines."
+   },
+   "recall_q": {
+    "en": "What does a boiler do?"
+   },
+   "recall_a": {
+    "en": "Converts water into steam."
+   },
+   "explain_simple": {
+    "en": "A closed pot that makes steam."
+   }
+  },
+  {
+   "id": "u4.boilers.f02",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fire tube boiler: hot gases pass through tubes surrounded by water. Water tube boiler: water flows inside tubes surrounded by hot gases."
+   },
+   "why": {
+    "en": "Water tube boilers handle higher pressure and make steam faster."
+   },
+   "recall_q": {
+    "en": "Boiler where hot gases pass through tubes?"
+   },
+   "recall_a": {
+    "en": "Fire tube boiler."
+   },
+   "explain_simple": {
+    "en": "Fire in tubes, or water in tubes."
+   }
+  },
+  {
+   "id": "u4.boilers.f03",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fire tube boilers: Cochran, Lancashire, Cornish, locomotive, Scotch marine. Water tube boilers: Babcock & Wilcox, Stirling, La Mont, Benson, Loeffler."
+   },
+   "why": {
+    "en": "PSC asks to classify named boilers."
+   },
+   "recall_q": {
+    "en": "Is Babcock & Wilcox a fire tube or water tube boiler?"
+   },
+   "recall_a": {
+    "en": "Water tube."
+   },
+   "explain_simple": {
+    "en": "Cochran, Lancashire, locomotive = fire tube. Babcock & Wilcox = water tube."
+   }
+  },
+  {
+   "id": "u4.boilers.f04",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Lancashire boiler has two large fire tubes (flues). Cornish boiler has one."
+   },
+   "why": {
+    "en": "Two flues give more heating surface."
+   },
+   "recall_q": {
+    "en": "How many fire tubes in a Lancashire boiler?"
+   },
+   "recall_a": {
+    "en": "Two."
+   },
+   "explain_simple": {
+    "en": "Cornish one, Lancashire two."
+   }
+  },
+  {
+   "id": "u4.boilers.f05",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cochran boiler is a vertical, multi-tubular fire tube boiler. Locomotive boiler is a horizontal multi-tubular fire tube boiler."
+   },
+   "why": {
+    "en": "Both are compact for their output."
+   },
+   "recall_q": {
+    "en": "Is a Cochran boiler vertical or horizontal?"
+   },
+   "recall_a": {
+    "en": "Vertical."
+   },
+   "explain_simple": {
+    "en": "Cochran stands up."
+   }
+  },
+  {
+   "id": "u4.boilers.f06",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Benson boiler is a supercritical, drum-less water tube boiler. La Mont is a forced circulation boiler."
+   },
+   "why": {
+    "en": "Above critical pressure water turns to steam without boiling."
+   },
+   "recall_q": {
+    "en": "Which boiler works above critical pressure and has no drum?"
+   },
+   "recall_a": {
+    "en": "Benson boiler."
+   },
+   "explain_simple": {
+    "en": "Benson = no drum, very high pressure."
+   }
+  },
+  {
+   "id": "u4.boilers.f07",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Boiler mountings are fittings needed for safe working: safety valve, water level indicator, pressure gauge, fusible plug, steam stop valve, feed check valve, blow-off cock, manhole."
+   },
+   "why": {
+    "en": "The law requires them on every boiler."
+   },
+   "recall_q": {
+    "en": "Are mountings needed for safety or efficiency?"
+   },
+   "recall_a": {
+    "en": "Safety (and control)."
+   },
+   "explain_simple": {
+    "en": "Mountings keep the boiler safe."
+   }
+  },
+  {
+   "id": "u4.boilers.f08",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Boiler accessories improve efficiency: economiser, superheater, air preheater, feed pump, injector, steam separator."
+   },
+   "why": {
+    "en": "They recover waste heat or improve steam."
+   },
+   "recall_q": {
+    "en": "Is an economiser a mounting or accessory?"
+   },
+   "recall_a": {
+    "en": "Accessory."
+   },
+   "explain_simple": {
+    "en": "Accessories save fuel; mountings save lives."
+   }
+  },
+  {
+   "id": "u4.boilers.f09",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Safety valve releases steam when pressure goes above the safe limit. Types: dead weight, lever, spring loaded, high-steam low-water."
+   },
+   "why": {
+    "en": "Prevents boiler explosion."
+   },
+   "recall_q": {
+    "en": "Mounting that prevents excess steam pressure?"
+   },
+   "recall_a": {
+    "en": "Safety valve."
+   },
+   "explain_simple": {
+    "en": "Lets out steam when pressure is too high."
+   }
+  },
+  {
+   "id": "u4.boilers.f10",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fusible plug melts when the water level falls too low, letting steam put out the fire."
+   },
+   "why": {
+    "en": "Overheated, dry boiler plates could burst."
+   },
+   "recall_q": {
+    "en": "Which mounting protects against low water level by melting?"
+   },
+   "recall_a": {
+    "en": "Fusible plug."
+   },
+   "explain_simple": {
+    "en": "A plug that melts to save a dry boiler."
+   }
+  },
+  {
+   "id": "u4.boilers.f11",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Economiser heats feed water using exhaust flue gases. Air preheater heats combustion air using flue gases."
+   },
+   "why": {
+    "en": "Both recover waste heat."
+   },
+   "recall_q": {
+    "en": "Accessory that heats feed water with flue gases?"
+   },
+   "recall_a": {
+    "en": "Economiser."
+   },
+   "explain_simple": {
+    "en": "Use waste smoke heat to warm the water."
+   }
+  },
+  {
+   "id": "u4.boilers.f12",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Superheater heats saturated steam above its saturation temperature, making it dry and superheated."
+   },
+   "why": {
+    "en": "Superheated steam gives more work and less turbine erosion."
+   },
+   "recall_q": {
+    "en": "Which accessory makes superheated steam?"
+   },
+   "recall_a": {
+    "en": "Superheater."
+   },
+   "explain_simple": {
+    "en": "Makes steam extra hot and dry."
+   }
+  },
+  {
+   "id": "u4.boilers.f13",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Feed check valve lets water into the boiler but stops it flowing back. Blow-off cock removes sludge from the bottom."
+   },
+   "why": {
+    "en": "Keeps water in and dirt out."
+   },
+   "recall_q": {
+    "en": "Mounting used to remove sediment from a boiler?"
+   },
+   "recall_a": {
+    "en": "Blow-off cock."
+   },
+   "explain_simple": {
+    "en": "Drains the mud out."
+   }
+  },
+  {
+   "id": "u4.boilers.f14",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steam engine parts: cylinder, piston, piston rod, crosshead, connecting rod, crank, slide valve, eccentric, flywheel, governor."
+   },
+   "why": {
+    "en": "Steam pushes the piston; crank turns this into rotation."
+   },
+   "recall_q": {
+    "en": "Part connecting piston rod to connecting rod in a steam engine?"
+   },
+   "recall_a": {
+    "en": "Crosshead."
+   },
+   "explain_simple": {
+    "en": "Piston → piston rod → crosshead → connecting rod → crank."
+   }
+  },
+  {
+   "id": "u4.boilers.f15",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steam engine working: the slide valve admits steam alternately to both sides of the piston (double acting), and the exhaust leaves from the other side."
+   },
+   "why": {
+    "en": "This gives two power strokes per revolution."
+   },
+   "recall_q": {
+    "en": "What admits steam to the cylinder in a simple steam engine?"
+   },
+   "recall_a": {
+    "en": "Slide valve (driven by an eccentric)."
+   },
+   "explain_simple": {
+    "en": "A sliding valve sends steam to each side in turn."
+   }
+  },
+  {
+   "id": "u4.boilers.f16",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steam engine is an external combustion, reciprocating engine. Its eccentric works like a small crank to move the slide valve."
+   },
+   "why": {
+    "en": "Fuel burns in the boiler, not in the cylinder."
+   },
+   "recall_q": {
+    "en": "Is a steam engine internal or external combustion?"
+   },
+   "recall_a": {
+    "en": "External combustion."
+   },
+   "explain_simple": {
+    "en": "Fire is outside the cylinder."
+   }
+  },
+  {
+   "id": "u4.boilers.f17",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Wet steam contains water droplets. Dry saturated steam has no droplets. Dryness fraction = mass of dry steam / total mass."
+   },
+   "why": {
+    "en": "Wet steam carries less energy."
+   },
+   "recall_q": {
+    "en": "Dryness fraction of dry saturated steam?"
+   },
+   "recall_a": {
+    "en": "1"
+   },
+   "explain_simple": {
+    "en": "1 = fully dry; less than 1 = wet."
+   }
+  },
+  {
+   "id": "u4.boilers.f18",
+   "topic": "u4.boilers",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Indian Boilers Act 1923 governs boiler registration and inspection in India. Boiler inspection is done by the Factories and Boilers Department."
+   },
+   "why": {
+    "en": "Boilers are dangerous pressure vessels."
+   },
+   "recall_q": {
+    "en": "Which Act governs boilers in India?"
+   },
+   "recall_a": {
+    "en": "Indian Boilers Act, 1923."
+   },
+   "explain_simple": {
+    "en": "Boilers need a licence under the 1923 Act."
+   }
+  },
+  {
+   "id": "u4.boilers.sum",
+   "topic": "u4.boilers",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Boilers and steam engine; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Boilers and steam engine"
+   },
+   "points": [
+    {
+     "en": "Fire tube: Cochran, Lancashire, locomotive. Water tube: Babcock & Wilcox, Benson."
+    },
+    {
+     "en": "Mountings (safety): safety valve, fusible plug, gauge, water level."
+    },
+    {
+     "en": "Accessories (efficiency): economiser, superheater, air preheater."
+    },
+    {
+     "en": "Steam engine: slide valve, eccentric, crosshead."
+    },
+    {
+     "en": "Dryness fraction 1 = dry steam."
+    }
+   ]
+  },
+  {
+   "id": "u4.materials.f01",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ferrous metals contain iron (cast iron, steel). Non-ferrous metals do not (aluminium, copper, lead, tin, zinc)."
+   },
+   "why": {
+    "en": "Iron-based metals are strong but rust; non-ferrous ones are lighter or resist rust."
+   },
+   "recall_q": {
+    "en": "Is aluminium ferrous or non-ferrous?"
+   },
+   "recall_a": {
+    "en": "Non-ferrous."
+   },
+   "explain_simple": {
+    "en": "Ferrous = has iron."
+   }
+  },
+  {
+   "id": "u4.materials.f02",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pig iron comes from the blast furnace. Cast iron has 2–4.5% carbon. Steel has up to about 2% carbon. Wrought iron is almost pure iron."
+   },
+   "why": {
+    "en": "Carbon content decides the type."
+   },
+   "recall_q": {
+    "en": "Carbon content of cast iron?"
+   },
+   "recall_a": {
+    "en": "About 2 to 4.5%."
+   },
+   "explain_simple": {
+    "en": "More than 2% carbon = cast iron."
+   }
+  },
+  {
+   "id": "u4.materials.f03",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cast iron is brittle, cheap, easy to cast, good in compression, damps vibration and wears well. It is weak in tension."
+   },
+   "why": {
+    "en": "Graphite flakes inside act like tiny cracks."
+   },
+   "example": {
+    "en": "Cylinder blocks, brake drums, flywheels, manhole covers."
+   },
+   "recall_q": {
+    "en": "Is cast iron strong in tension or compression?"
+   },
+   "recall_a": {
+    "en": "Compression."
+   },
+   "explain_simple": {
+    "en": "Cast iron takes squeezing, not pulling."
+   }
+  },
+  {
+   "id": "u4.materials.f04",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Grey cast iron: carbon as graphite flakes, grey fracture. Most common; used for engine blocks and brake drums."
+   },
+   "why": {
+    "en": "Graphite gives good machinability and damping."
+   },
+   "recall_q": {
+    "en": "Cast iron used for cylinder blocks?"
+   },
+   "recall_a": {
+    "en": "Grey cast iron."
+   },
+   "explain_simple": {
+    "en": "Grey CI = flakes of graphite."
+   }
+  },
+  {
+   "id": "u4.materials.f05",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "White cast iron: carbon as cementite (iron carbide). Very hard and brittle; white fracture. Used for wear parts."
+   },
+   "why": {
+    "en": "Fast cooling keeps carbon combined."
+   },
+   "recall_q": {
+    "en": "Which cast iron contains cementite and is very hard?"
+   },
+   "recall_a": {
+    "en": "White cast iron."
+   },
+   "explain_simple": {
+    "en": "White CI = hard and brittle."
+   }
+  },
+  {
+   "id": "u4.materials.f06",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Malleable cast iron: made by long heat treatment (annealing) of white cast iron. It is tougher and slightly ductile."
+   },
+   "why": {
+    "en": "Carbide changes to rounded graphite clumps."
+   },
+   "recall_q": {
+    "en": "Malleable cast iron is made from which iron?"
+   },
+   "recall_a": {
+    "en": "White cast iron (by annealing)."
+   },
+   "explain_simple": {
+    "en": "Bake white CI to make it less brittle."
+   }
+  },
+  {
+   "id": "u4.materials.f07",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Spheroidal graphite (SG) or ductile iron: graphite as spheres, made by adding magnesium or cerium. Strong and ductile."
+   },
+   "why": {
+    "en": "Round graphite does not act like cracks."
+   },
+   "example": {
+    "en": "Crankshafts, camshafts and steering knuckles."
+   },
+   "recall_q": {
+    "en": "Element added to make SG (nodular) cast iron?"
+   },
+   "recall_a": {
+    "en": "Magnesium (or cerium)."
+   },
+   "explain_simple": {
+    "en": "Round graphite balls make CI tough."
+   }
+  },
+  {
+   "id": "u4.materials.f08",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Chilled cast iron: surface cooled fast to make it hard white iron, while the core stays grey. Used for cams and rolls."
+   },
+   "why": {
+    "en": "Hard skin, tough inside."
+   },
+   "recall_q": {
+    "en": "Cast iron with hard white surface and grey core?"
+   },
+   "recall_a": {
+    "en": "Chilled cast iron."
+   },
+   "explain_simple": {
+    "en": "Fast-cooled skin is hard."
+   }
+  },
+  {
+   "id": "u4.materials.f09",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steel is an alloy of iron and carbon with carbon up to about 2% (usually less than 1.5%)."
+   },
+   "why": {
+    "en": "Small carbon makes iron much stronger."
+   },
+   "recall_q": {
+    "en": "Maximum carbon in steel?"
+   },
+   "recall_a": {
+    "en": "About 2%."
+   },
+   "explain_simple": {
+    "en": "Iron + a little carbon = steel."
+   }
+  },
+  {
+   "id": "u4.materials.f10",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Plain carbon steels: dead mild (below 0.15% C), mild/low carbon (0.15–0.3%), medium carbon (0.3–0.6%), high carbon (0.6–1.5%)."
+   },
+   "why": {
+    "en": "More carbon = harder and stronger, but less ductile."
+   },
+   "recall_q": {
+    "en": "Carbon range of medium carbon steel?"
+   },
+   "recall_a": {
+    "en": "0.3 to 0.6%."
+   },
+   "explain_simple": {
+    "en": "Low, medium, high carbon by percent."
+   }
+  },
+  {
+   "id": "u4.materials.f11",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mild steel uses: chassis frames, body panels, nuts, bolts, rivets, pipes."
+   },
+   "why": {
+    "en": "It is ductile, weldable and cheap."
+   },
+   "recall_q": {
+    "en": "Steel commonly used for chassis frames and rivets?"
+   },
+   "recall_a": {
+    "en": "Mild (low carbon) steel."
+   },
+   "explain_simple": {
+    "en": "Mild steel is easy to bend and weld."
+   }
+  },
+  {
+   "id": "u4.materials.f12",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Medium carbon steel uses: crankshafts, axles, connecting rods, gears. High carbon steel: springs, cutting tools, files."
+   },
+   "why": {
+    "en": "More carbon gives hardness for wear and springiness."
+   },
+   "recall_q": {
+    "en": "Which carbon steel is used for leaf springs and tools?"
+   },
+   "recall_a": {
+    "en": "High carbon steel."
+   },
+   "explain_simple": {
+    "en": "High carbon = hard and springy."
+   }
+  },
+  {
+   "id": "u4.materials.f13",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steel designation in India (IS): e.g. C40 means plain carbon steel with 0.40% carbon (older: 40C8)."
+   },
+   "why": {
+    "en": "The number gives carbon in hundredths of a percent."
+   },
+   "recall_q": {
+    "en": "Carbon content in C45 steel?"
+   },
+   "recall_a": {
+    "en": "0.45%"
+   },
+   "explain_simple": {
+    "en": "C number ÷ 100 = carbon %."
+   }
+  },
+  {
+   "id": "u4.materials.f14",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Iron–carbon diagram phases: ferrite (soft), cementite (hard), pearlite (ferrite + cementite layers), austenite (high-temperature phase), martensite (very hard, from quenching)."
+   },
+   "why": {
+    "en": "Heat treatment changes these phases."
+   },
+   "recall_q": {
+    "en": "Hardest phase formed by quenching steel?"
+   },
+   "recall_a": {
+    "en": "Martensite."
+   },
+   "explain_simple": {
+    "en": "Quench it fast and it turns very hard."
+   }
+  },
+  {
+   "id": "u4.materials.f15",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Eutectoid steel has 0.8% carbon and is fully pearlite. Below 0.8% = hypo-eutectoid; above = hyper-eutectoid."
+   },
+   "why": {
+    "en": "0.8% is the special point on the iron–carbon diagram (at 723°C)."
+   },
+   "recall_q": {
+    "en": "Carbon percentage of eutectoid steel?"
+   },
+   "recall_a": {
+    "en": "0.8%"
+   },
+   "explain_simple": {
+    "en": "0.8% carbon = all pearlite."
+   }
+  },
+  {
+   "id": "u4.materials.f16",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heat treatment: heating and cooling a metal in a controlled way to change its properties."
+   },
+   "why": {
+    "en": "It can make steel softer, harder or tougher."
+   },
+   "recall_q": {
+    "en": "Define heat treatment."
+   },
+   "recall_a": {
+    "en": "Controlled heating and cooling to change properties of metal."
+   },
+   "explain_simple": {
+    "en": "Cook and cool metal to change how it behaves."
+   }
+  },
+  {
+   "id": "u4.materials.f17",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Purposes of heat treatment: relieve stresses, soften for machining, harden for wear, improve toughness, refine grain."
+   },
+   "why": {
+    "en": "Each job needs different properties."
+   },
+   "recall_q": {
+    "en": "Give two purposes of heat treatment."
+   },
+   "recall_a": {
+    "en": "Harden, soften, relieve stress, refine grain, improve toughness."
+   },
+   "explain_simple": {
+    "en": "To make metal harder, softer or tougher."
+   }
+  },
+  {
+   "id": "u4.materials.f18",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Annealing: heat steel above the critical temperature, hold, then cool very slowly in the furnace. Makes it soft and ductile."
+   },
+   "why": {
+    "en": "Slow cooling gives soft, coarse pearlite."
+   },
+   "recall_q": {
+    "en": "Heat treatment with very slow furnace cooling?"
+   },
+   "recall_a": {
+    "en": "Annealing."
+   },
+   "explain_simple": {
+    "en": "Heat and cool slowly → soft."
+   }
+  },
+  {
+   "id": "u4.materials.f19",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Normalising: heat above critical temperature, then cool in still air. Gives fine grain and uniform structure."
+   },
+   "why": {
+    "en": "Air cooling is faster than furnace cooling."
+   },
+   "recall_q": {
+    "en": "Heat treatment with cooling in still air?"
+   },
+   "recall_a": {
+    "en": "Normalising."
+   },
+   "explain_simple": {
+    "en": "Heat and let it cool in air → even grain."
+   }
+  },
+  {
+   "id": "u4.materials.f20",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hardening: heat steel above critical temperature, then quench quickly in water or oil. Makes it very hard but brittle."
+   },
+   "why": {
+    "en": "Fast cooling forms martensite."
+   },
+   "recall_q": {
+    "en": "Quenching hot steel in water or oil is called?"
+   },
+   "recall_a": {
+    "en": "Hardening."
+   },
+   "explain_simple": {
+    "en": "Heat and dunk → hard."
+   }
+  },
+  {
+   "id": "u4.materials.f21",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Tempering: reheat hardened steel to a lower temperature (below critical) and cool. Reduces brittleness, adds toughness."
+   },
+   "why": {
+    "en": "It relieves stresses from quenching."
+   },
+   "recall_q": {
+    "en": "What is done after hardening to reduce brittleness?"
+   },
+   "recall_a": {
+    "en": "Tempering."
+   },
+   "explain_simple": {
+    "en": "Warm it again a little to make it less brittle."
+   }
+  },
+  {
+   "id": "u4.materials.f22",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Case hardening (surface hardening) makes a hard outer case with a tough core. Methods: carburising, nitriding, cyaniding, carbonitriding, flame hardening, induction hardening."
+   },
+   "why": {
+    "en": "Gears and camshafts need wear-resistant skin and shock-resistant core."
+   },
+   "recall_q": {
+    "en": "Name two case hardening methods."
+   },
+   "recall_a": {
+    "en": "Carburising, nitriding (also cyaniding, induction, flame)."
+   },
+   "explain_simple": {
+    "en": "Hard skin, soft tough heart."
+   }
+  },
+  {
+   "id": "u4.materials.f23",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Carburising adds carbon to the surface of low carbon steel at high temperature, then it is hardened."
+   },
+   "why": {
+    "en": "Low carbon steel cannot be hardened unless carbon is added."
+   },
+   "recall_q": {
+    "en": "Case hardening by adding carbon to the surface?"
+   },
+   "recall_a": {
+    "en": "Carburising."
+   },
+   "explain_simple": {
+    "en": "Soak the surface in carbon."
+   }
+  },
+  {
+   "id": "u4.materials.f24",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Nitriding adds nitrogen to the surface using ammonia gas at about 500°C. No quenching is needed."
+   },
+   "why": {
+    "en": "Nitrides formed are very hard."
+   },
+   "recall_q": {
+    "en": "Which case hardening uses ammonia gas?"
+   },
+   "recall_a": {
+    "en": "Nitriding."
+   },
+   "explain_simple": {
+    "en": "Nitrogen skin, no quench."
+   }
+  },
+  {
+   "id": "u4.materials.f25",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cyaniding adds both carbon and nitrogen using a molten cyanide salt bath."
+   },
+   "why": {
+    "en": "Gives a thin, hard case quickly."
+   },
+   "recall_q": {
+    "en": "Case hardening in a molten sodium cyanide bath?"
+   },
+   "recall_a": {
+    "en": "Cyaniding."
+   },
+   "explain_simple": {
+    "en": "A salt bath gives carbon and nitrogen."
+   }
+  },
+  {
+   "id": "u4.materials.f26",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Induction and flame hardening heat only the surface quickly, then quench. Used for crankshaft journals and gear teeth."
+   },
+   "why": {
+    "en": "Only the skin reaches hardening temperature."
+   },
+   "recall_q": {
+    "en": "Hardening using high-frequency electric current?"
+   },
+   "recall_a": {
+    "en": "Induction hardening."
+   },
+   "explain_simple": {
+    "en": "Heat just the skin and quench."
+   }
+  },
+  {
+   "id": "u4.materials.f27",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Alloy steel contains added elements such as nickel, chromium, manganese, molybdenum, vanadium, tungsten, silicon."
+   },
+   "why": {
+    "en": "Each element adds a special property."
+   },
+   "recall_q": {
+    "en": "What is alloy steel?"
+   },
+   "recall_a": {
+    "en": "Steel with extra alloying elements (Ni, Cr, Mo, V…)."
+   },
+   "explain_simple": {
+    "en": "Steel with added spices."
+   }
+  },
+  {
+   "id": "u4.materials.f28",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Nickel: toughness and strength. Chromium: hardness and corrosion resistance. Manganese: strength, hardness, removes sulphur effect."
+   },
+   "why": {
+    "en": "Know which element gives which property."
+   },
+   "recall_q": {
+    "en": "Which element gives corrosion resistance to steel?"
+   },
+   "recall_a": {
+    "en": "Chromium."
+   },
+   "explain_simple": {
+    "en": "Chromium stops rust; nickel adds toughness."
+   }
+  },
+  {
+   "id": "u4.materials.f29",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Molybdenum: strength at high temperature. Vanadium: fatigue strength and fine grain. Tungsten: hardness at red heat (tools). Silicon: springiness, magnetic properties."
+   },
+   "why": {
+    "en": "PSC often asks element-property pairs."
+   },
+   "recall_q": {
+    "en": "Element giving red hardness to high speed steel?"
+   },
+   "recall_a": {
+    "en": "Tungsten."
+   },
+   "explain_simple": {
+    "en": "Tungsten keeps tools hard when hot."
+   }
+  },
+  {
+   "id": "u4.materials.f30",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stainless steel has at least 10.5% chromium (typical 18% Cr + 8% Ni, '18/8')."
+   },
+   "why": {
+    "en": "Chromium forms a thin oxide layer that blocks rust."
+   },
+   "example": {
+    "en": "Exhaust tail pipes and trims."
+   },
+   "recall_q": {
+    "en": "Composition of 18/8 stainless steel?"
+   },
+   "recall_a": {
+    "en": "18% chromium, 8% nickel."
+   },
+   "explain_simple": {
+    "en": "Chromium + nickel = stainless."
+   }
+  },
+  {
+   "id": "u4.materials.f31",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "High speed steel (HSS) 18-4-1: 18% tungsten, 4% chromium, 1% vanadium. Used for cutting tools and drills."
+   },
+   "why": {
+    "en": "It stays hard at high cutting temperatures."
+   },
+   "recall_q": {
+    "en": "Composition of 18-4-1 HSS?"
+   },
+   "recall_a": {
+    "en": "18% W, 4% Cr, 1% V."
+   },
+   "explain_simple": {
+    "en": "Tool steel with lots of tungsten."
+   }
+  },
+  {
+   "id": "u4.materials.f32",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exhaust valve steel: silchrome (silicon-chromium) or austenitic stainless steel (21-4N). Inlet valves: plain chromium or nickel-chrome steel."
+   },
+   "why": {
+    "en": "Exhaust valves face red heat and corrosive gases."
+   },
+   "recall_q": {
+    "en": "Common steel for exhaust valves?"
+   },
+   "recall_a": {
+    "en": "Silchrome or austenitic stainless (21-4N)."
+   },
+   "explain_simple": {
+    "en": "Exhaust valves need heat-proof steel."
+   }
+  },
+  {
+   "id": "u4.materials.f33",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Nickel-chrome-molybdenum steels are used for crankshafts, connecting rods, axle shafts and highly stressed gears."
+   },
+   "why": {
+    "en": "They combine strength, toughness and fatigue resistance."
+   },
+   "recall_q": {
+    "en": "Alloy steel group used for crankshafts?"
+   },
+   "recall_a": {
+    "en": "Nickel-chromium-molybdenum steel."
+   },
+   "explain_simple": {
+    "en": "Ni-Cr-Mo for heavily loaded shafts."
+   }
+  },
+  {
+   "id": "u4.materials.f34",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Invar (36% nickel steel) hardly expands with heat. Used in precision instruments and some piston struts."
+   },
+   "why": {
+    "en": "Its expansion coefficient is very low."
+   },
+   "recall_q": {
+    "en": "Nickel steel with almost zero thermal expansion?"
+   },
+   "recall_a": {
+    "en": "Invar."
+   },
+   "explain_simple": {
+    "en": "Invar does not grow when hot."
+   }
+  },
+  {
+   "id": "u4.materials.f35",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Aluminium: light (density 2.7 g/cm³, one-third of steel), conducts heat well, resists corrosion. Used for pistons, cylinder heads, alloy wheels, radiators."
+   },
+   "why": {
+    "en": "Saves weight and removes heat."
+   },
+   "recall_q": {
+    "en": "Why are pistons made of aluminium alloy?"
+   },
+   "recall_a": {
+    "en": "Light weight and good heat conduction."
+   },
+   "explain_simple": {
+    "en": "Aluminium is light and cools fast."
+   }
+  },
+  {
+   "id": "u4.materials.f36",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Duralumin: aluminium with about 4% copper, plus manganese and magnesium. Strong and light; used in aircraft and vehicle body parts."
+   },
+   "why": {
+    "en": "Age hardening gives it high strength."
+   },
+   "recall_q": {
+    "en": "Main alloying element in duralumin?"
+   },
+   "recall_a": {
+    "en": "Copper (about 4%)."
+   },
+   "explain_simple": {
+    "en": "Aluminium + copper = duralumin."
+   }
+  },
+  {
+   "id": "u4.materials.f37",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Y-alloy: aluminium with copper, nickel and magnesium. Keeps strength at high temperature; used for pistons and cylinder heads."
+   },
+   "why": {
+    "en": "Nickel helps strength when hot."
+   },
+   "recall_q": {
+    "en": "Aluminium alloy used for pistons with nickel?"
+   },
+   "recall_a": {
+    "en": "Y-alloy."
+   },
+   "explain_simple": {
+    "en": "Y-alloy pistons stay strong when hot."
+   }
+  },
+  {
+   "id": "u4.materials.f38",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brass = copper + zinc. Bronze = copper + tin. Gun metal = copper + tin + zinc."
+   },
+   "why": {
+    "en": "PSC asks alloy compositions very often."
+   },
+   "recall_q": {
+    "en": "Composition of brass?"
+   },
+   "recall_a": {
+    "en": "Copper and zinc."
+   },
+   "explain_simple": {
+    "en": "Brass: Cu + Zn. Bronze: Cu + Sn."
+   }
+  },
+  {
+   "id": "u4.materials.f39",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Phosphor bronze (copper + tin + a little phosphorus) is used for bearings, bushes, worm wheels and springs."
+   },
+   "why": {
+    "en": "It resists wear and corrosion."
+   },
+   "recall_q": {
+    "en": "Alloy used for gudgeon pin bushes and worm wheels?"
+   },
+   "recall_a": {
+    "en": "Phosphor bronze."
+   },
+   "explain_simple": {
+    "en": "Bronze with phosphorus for bushes."
+   }
+  },
+  {
+   "id": "u4.materials.f40",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Babbitt (white metal): tin + antimony + copper (or lead base). Used for bearing linings."
+   },
+   "why": {
+    "en": "Soft, low-friction and embeds dirt."
+   },
+   "recall_q": {
+    "en": "Main metal in tin-based babbitt?"
+   },
+   "recall_a": {
+    "en": "Tin."
+   },
+   "explain_simple": {
+    "en": "Soft bearing metal."
+   }
+  },
+  {
+   "id": "u4.materials.f41",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Solder (soft solder) = tin + lead. Used to join radiator tubes and electrical wires."
+   },
+   "why": {
+    "en": "Low melting point."
+   },
+   "recall_q": {
+    "en": "Composition of soft solder?"
+   },
+   "recall_a": {
+    "en": "Tin and lead."
+   },
+   "explain_simple": {
+    "en": "Tin + lead melts easily."
+   }
+  },
+  {
+   "id": "u4.materials.f42",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Copper: excellent conductor of heat and electricity. Used in wiring, radiator cores, starter and alternator windings."
+   },
+   "why": {
+    "en": "Second only to silver in conductivity."
+   },
+   "recall_q": {
+    "en": "Metal used for vehicle wiring?"
+   },
+   "recall_a": {
+    "en": "Copper."
+   },
+   "explain_simple": {
+    "en": "Copper carries current best for its cost."
+   }
+  },
+  {
+   "id": "u4.materials.f43",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Lead: heavy and soft. Used in batteries (lead-acid plates) and wheel balancing weights."
+   },
+   "why": {
+    "en": "Lead reacts with sulphuric acid to store charge."
+   },
+   "recall_q": {
+    "en": "Metal used in car battery plates?"
+   },
+   "recall_a": {
+    "en": "Lead."
+   },
+   "explain_simple": {
+    "en": "Lead-acid battery uses lead."
+   }
+  },
+  {
+   "id": "u4.materials.f44",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Zinc is used for galvanising — coating steel to prevent rust."
+   },
+   "why": {
+    "en": "Zinc corrodes first and protects the steel (sacrificial)."
+   },
+   "recall_q": {
+    "en": "Coating steel with zinc is called?"
+   },
+   "recall_a": {
+    "en": "Galvanising."
+   },
+   "explain_simple": {
+    "en": "A zinc coat stops rust."
+   }
+  },
+  {
+   "id": "u4.materials.f45",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Magnesium alloys are the lightest structural metals (density about 1.7 g/cm³). Used for gearbox housings and racing wheels."
+   },
+   "why": {
+    "en": "Even lighter than aluminium."
+   },
+   "recall_q": {
+    "en": "Lightest structural metal used in vehicles?"
+   },
+   "recall_a": {
+    "en": "Magnesium."
+   },
+   "explain_simple": {
+    "en": "Magnesium is lighter than aluminium."
+   }
+  },
+  {
+   "id": "u4.materials.f46",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Effect of sulphur in steel: red shortness (brittleness when hot). Phosphorus: cold shortness (brittle when cold)."
+   },
+   "why": {
+    "en": "Both are harmful impurities."
+   },
+   "recall_q": {
+    "en": "Which impurity causes cold shortness in steel?"
+   },
+   "recall_a": {
+    "en": "Phosphorus."
+   },
+   "explain_simple": {
+    "en": "Sulphur → hot brittle. Phosphorus → cold brittle."
+   }
+  },
+  {
+   "id": "u4.materials.f47",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Plastics and composites in vehicles: bumpers (polypropylene), dashboards (ABS, PVC), fuel tanks (HDPE), leaf springs and body panels (FRP)."
+   },
+   "why": {
+    "en": "They are light, rust-free and easy to mould."
+   },
+   "recall_q": {
+    "en": "Plastic commonly used for bumpers?"
+   },
+   "recall_a": {
+    "en": "Polypropylene."
+   },
+   "explain_simple": {
+    "en": "Plastics save weight and never rust."
+   }
+  },
+  {
+   "id": "u4.materials.f48",
+   "topic": "u4.materials",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermoplastics soften on heating and can be remoulded (PVC, polythene, nylon). Thermosetting plastics set permanently (Bakelite, epoxy)."
+   },
+   "why": {
+    "en": "Thermosets form cross-links that do not melt."
+   },
+   "recall_q": {
+    "en": "Is Bakelite thermoplastic or thermosetting?"
+   },
+   "recall_a": {
+    "en": "Thermosetting."
+   },
+   "explain_simple": {
+    "en": "Thermoplastic re-melts; thermoset does not."
+   }
+  },
+  {
+   "id": "u4.materials.sum",
+   "topic": "u4.materials",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Engineering materials and heat treatment; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Engineering materials and heat treatment"
+   },
+   "points": [
+    {
+     "en": "CI 2–4.5% C: grey, white, malleable, SG, chilled."
+    },
+    {
+     "en": "Steel: mild < 0.3%, medium 0.3–0.6%, high 0.6–1.5% C."
+    },
+    {
+     "en": "Anneal (slow), normalise (air), harden (quench), temper (reheat)."
+    },
+    {
+     "en": "Case hardening: carburising, nitriding, cyaniding, induction."
+    },
+    {
+     "en": "Brass Cu+Zn; bronze Cu+Sn; duralumin Al+Cu; 18/8 stainless."
+    }
+   ]
   }
  ],
  "questions": [
@@ -13160,6 +16780,186 @@
    "source": "Practice — exam pattern (not from a past paper)",
    "covers": [
     "u3.friction.f08"
+   ]
+  },
+  {
+   "id": "q.practice.u4.1",
+   "topic": "u4.governors",
+   "kind": "mcq",
+   "q": {
+    "en": "A governor is said to be isochronous when"
+   },
+   "options": [
+    {
+     "en": "Speed range is large"
+    },
+    {
+     "en": "Equilibrium speed is the same for all radii"
+    },
+    {
+     "en": "It hunts at low speed only"
+    },
+    {
+     "en": "It has a spring"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "An isochronous governor has the same equilibrium speed at all radii of rotation."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u4.governors.f14"
+   ]
+  },
+  {
+   "id": "q.practice.u4.2",
+   "topic": "u4.flywheel",
+   "kind": "mcq",
+   "q": {
+    "en": "The function of a flywheel is to"
+   },
+   "options": [
+    {
+     "en": "Keep mean speed constant when load changes"
+    },
+    {
+     "en": "Reduce speed fluctuations within a cycle"
+    },
+    {
+     "en": "Control fuel supply"
+    },
+    {
+     "en": "Increase engine power"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "A flywheel stores and releases energy to smooth speed within a cycle."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u4.flywheel.f01"
+   ]
+  },
+  {
+   "id": "q.practice.u4.3",
+   "topic": "u4.gears",
+   "kind": "mcq",
+   "q": {
+    "en": "Gears used to connect non-intersecting, non-parallel shafts with high speed reduction are"
+   },
+   "options": [
+    {
+     "en": "Spur gears"
+    },
+    {
+     "en": "Bevel gears"
+    },
+    {
+     "en": "Worm gears"
+    },
+    {
+     "en": "Helical gears"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Worm and worm wheel give high reduction between skew shafts."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u4.gears.f08"
+   ]
+  },
+  {
+   "id": "q.practice.u4.4",
+   "topic": "u4.boilers",
+   "kind": "mcq",
+   "q": {
+    "en": "Which of these is a boiler accessory (not a mounting)?"
+   },
+   "options": [
+    {
+     "en": "Safety valve"
+    },
+    {
+     "en": "Fusible plug"
+    },
+    {
+     "en": "Economiser"
+    },
+    {
+     "en": "Pressure gauge"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Economiser is an accessory that improves efficiency."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u4.boilers.f08"
+   ]
+  },
+  {
+   "id": "q.practice.u4.5",
+   "topic": "u4.materials",
+   "kind": "mcq",
+   "q": {
+    "en": "Brass is an alloy of"
+   },
+   "options": [
+    {
+     "en": "Copper and tin"
+    },
+    {
+     "en": "Copper and zinc"
+    },
+    {
+     "en": "Copper and nickel"
+    },
+    {
+     "en": "Aluminium and copper"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Brass = copper + zinc; bronze = copper + tin."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u4.materials.f38"
+   ]
+  },
+  {
+   "id": "q.practice.u4.6",
+   "topic": "u4.materials",
+   "kind": "mcq",
+   "q": {
+    "en": "Heat treatment in which steel is cooled in still air is"
+   },
+   "options": [
+    {
+     "en": "Annealing"
+    },
+    {
+     "en": "Normalising"
+    },
+    {
+     "en": "Hardening"
+    },
+    {
+     "en": "Tempering"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Normalising cools steel in still air for fine uniform grain."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u4.materials.f19"
    ]
   }
  ]
