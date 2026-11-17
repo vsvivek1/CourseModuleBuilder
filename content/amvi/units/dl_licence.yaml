@@ -1,0 +1,1067 @@
+unit: dl
+subject: driving_licence
+title: "Part II — Driving licence: Driving Regulations 2017 and MV Act Chapter II (10 marks)"
+
+topics:
+  - {id: dl.regulations, title: "Motor Vehicles (Driving) Regulations, 2017", freq: 1.0}
+  - {id: dl.licensing, title: "Licensing of drivers: MV Act sections 3 to 28", freq: 1.0}
+
+cards:
+  # ---------- Driving Regulations 2017 ----------
+  - id: f01
+    topic: dl.regulations
+    difficulty: 1
+    learn: "The Motor Vehicles (Driving) Regulations, 2017 are made by the Central Government under Section 118 of the MV Act. They replaced the Rules of the Road Regulations, 1989."
+    why: "They are the road rules every driver must follow."
+    q: "Under which section are the Driving Regulations 2017 made?"
+    a: "Section 118 of the MV Act."
+    simple: "Sec 118 → Driving Regulations 2017."
+  - id: f02
+    topic: dl.regulations
+    difficulty: 2
+    learn: "The Driving Regulations 2017 replaced the old Rules of the Road Regulations, 1989."
+    why: "PSC trap: two different years for the old and new regulations."
+    q: "Which regulations did the Driving Regulations 2017 replace?"
+    a: "Rules of the Road Regulations, 1989."
+    simple: "1989 rules → 2017 regulations."
+  - id: f03
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Breaking any driving regulation is punished under Section 177A: ₹500 for the first offence and ₹1,500 for later offences."
+    why: "This section was added by the 2019 amendment."
+    q: "Penalty section for breaking the driving regulations?"
+    a: "Section 177A (₹500, then ₹1,500)."
+    simple: "Break road rules → Sec 177A fine."
+  - id: f04
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Keep left: a driver must drive as close to the left side of the road as is safe, and let oncoming traffic pass on the right."
+    why: "India drives on the left."
+    q: "On which side should a vehicle normally be driven in India?"
+    a: "Left side."
+    simple: "Keep left."
+  - id: f05
+    topic: dl.regulations
+    difficulty: 1
+    learn: "On a one-way road, the driver must not drive against the direction of traffic. Reversing into a one-way road is also not allowed."
+    why: "Wrong-way driving causes head-on crashes."
+    q: "Can you drive against the arrow on a one-way road?"
+    a: "No."
+    simple: "One way means one way."
+  - id: f06
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Turning left: keep close to the left edge before and after the turn."
+    why: "You do not cut across other lanes."
+    q: "Lane position before turning left?"
+    a: "Close to the left side of the road."
+    simple: "Left turn from the left."
+  - id: f07
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Turning right: move close to the centre of the road (on a two-way road) before turning, and after turning keep to the left of the new road."
+    why: "Traffic behind can pass you on the left."
+    q: "Lane position before turning right on a two-way road?"
+    a: "Near the centre line of the road."
+    simple: "Right turn from near the centre."
+  - id: f08
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Give the correct indicator signal before turning, changing lane, stopping or pulling out, early enough for others to see."
+    why: "Others must know what you plan to do."
+    q: "When should you signal before a turn?"
+    a: "Well before, in time for others to react."
+    simple: "Signal early."
+  - id: f09
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Lane driving: on a road with lanes, drive inside one lane and change lanes only after signalling and checking it is safe."
+    why: "Weaving between lanes causes side crashes."
+    q: "What must you do before changing lanes?"
+    a: "Signal and check mirrors/blind spot."
+    simple: "Stay in lane; signal to change."
+  - id: f10
+    topic: dl.regulations
+    difficulty: 2
+    learn: "On multi-lane roads, slow vehicles use the left lane. The right lane is mainly for overtaking and faster traffic."
+    why: "Slow vehicles in the right lane force others to overtake from the left."
+    q: "Which lane should slow vehicles use on a multi-lane road?"
+    a: "The left lane."
+    simple: "Slow left, fast right."
+  - id: f11
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Overtaking is normally done from the right side of the vehicle in front."
+    why: "Oncoming traffic is on the right, so the driver can see it."
+    q: "From which side should you normally overtake?"
+    a: "The right side."
+    simple: "Overtake from right."
+  - id: f12
+    topic: dl.regulations
+    difficulty: 2
+    learn: "You may overtake from the left only when the vehicle ahead has signalled a right turn and moved towards the centre."
+    why: "It has left the left side free."
+    q: "When can you overtake from the left?"
+    a: "When the vehicle ahead has signalled and moved to turn right."
+    simple: "Left overtake only if front car turns right."
+  - id: f13
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Do not overtake: at bends, hill tops, junctions and pedestrian crossings; when the road ahead is not clearly visible; or where a solid line or sign forbids it."
+    why: "You cannot see what is coming."
+    q: "Name two places where overtaking is not allowed."
+    a: "Bends, hill tops, junctions, pedestrian crossings."
+    simple: "No overtaking where you can't see."
+  - id: f14
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Do not overtake if the vehicle behind you has already started to overtake you."
+    why: "Two vehicles would be in the opposite lane together."
+    q: "Can you overtake when someone behind is overtaking you?"
+    a: "No."
+    simple: "Wait if someone is passing you."
+  - id: f15
+    topic: dl.regulations
+    difficulty: 1
+    learn: "When being overtaken, do not speed up. Keep left and slow a little if needed so the other driver can pass quickly."
+    why: "Speeding up traps the overtaking vehicle in the wrong lane."
+    q: "What should you do when another vehicle overtakes you?"
+    a: "Keep left and do not increase speed."
+    simple: "Let them pass; don't race."
+  - id: f16
+    topic: dl.regulations
+    difficulty: 2
+    learn: "When overtaking a cyclist, pedestrian or animal, leave enough side gap and pass slowly."
+    why: "They can wobble or move suddenly."
+    q: "How should you pass a cyclist?"
+    a: "Slowly, with a wide gap."
+    simple: "Give cyclists space."
+  - id: f17
+    topic: dl.regulations
+    difficulty: 2
+    learn: "At a junction without signals or signs, give way to traffic coming from your right."
+    why: "A fixed rule avoids confusion over who goes first."
+    q: "At an uncontrolled junction, give way to traffic from which side?"
+    a: "From the right."
+    simple: "Unmarked junction: right side goes first."
+  - id: f18
+    topic: dl.regulations
+    difficulty: 2
+    learn: "When entering a main road from a side road, give way to the traffic on the main road."
+    why: "Main road traffic is faster and has priority."
+    q: "Who has priority: side road or main road traffic?"
+    a: "Main road traffic."
+    simple: "Side road waits."
+  - id: f19
+    topic: dl.regulations
+    difficulty: 2
+    learn: "At a roundabout, give way to traffic already in the roundabout (coming from your right)."
+    why: "Traffic inside must keep moving."
+    q: "At a roundabout, who has the right of way?"
+    a: "Vehicles already inside the roundabout."
+    simple: "Inside first, then you enter."
+  - id: f20
+    topic: dl.regulations
+    difficulty: 1
+    learn: "At a zebra crossing, stop and give way to pedestrians who are crossing or waiting to cross."
+    why: "Pedestrians are the most vulnerable road users."
+    q: "Who has priority at a zebra crossing?"
+    a: "Pedestrians."
+    simple: "Zebra crossing: people first."
+  - id: f21
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Give free passage to emergency vehicles like ambulances and fire engines by moving to the left and stopping if needed."
+    why: "Lives depend on their speed."
+    q: "What do you do when an ambulance with siren comes behind?"
+    a: "Move to the left and give way."
+    simple: "Ambulance: move left, let it go."
+  - id: f22
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Not giving way to emergency vehicles is an offence under Section 194E: ₹10,000 fine, imprisonment up to 6 months, or both."
+    why: "Added by the 2019 amendment."
+    q: "Fine for not giving way to an ambulance?"
+    a: "₹10,000 (Section 194E)."
+    simple: "Block ambulance = ₹10,000 fine."
+  - id: f23
+    topic: dl.regulations
+    difficulty: 2
+    learn: "On narrow hill roads, the vehicle going downhill should give way to the vehicle going uphill."
+    why: "Starting again on a slope is harder for the uphill vehicle."
+    q: "On a narrow hill road, who gives way?"
+    a: "The vehicle going downhill."
+    simple: "Downhill gives way to uphill."
+  - id: f24
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Never drive faster than the speed limit, and drive slower when the road, weather, traffic or light is poor."
+    why: "A safe speed depends on conditions, not only the sign."
+    q: "Is it always safe to drive at the speed limit?"
+    a: "No; adjust to conditions."
+    simple: "Limit is the maximum, not the target."
+  - id: f25
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Speed limits are fixed under Section 112. Overspeeding is punished under Section 183: ₹1,000–2,000 for light vehicles and ₹2,000–4,000 for medium and heavy vehicles."
+    why: "These are 2019 fines."
+    q: "Section for overspeeding penalty?"
+    a: "Section 183."
+    simple: "Speed limit 112, speeding fine 183."
+  - id: f26
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Keep a safe gap from the vehicle in front, enough to stop if it brakes suddenly. A simple guide is the two-second rule, doubled in rain."
+    why: "Most rear-end crashes come from tailgating."
+    q: "Simple rule to keep a safe following distance?"
+    a: "Two-second rule (more in rain)."
+    simple: "Stay two seconds behind."
+  - id: f27
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Use the horn only when needed to warn. Do not sound it continuously, needlessly or in silence zones near hospitals, schools and courts."
+    why: "Noise disturbs people and patients."
+    q: "Is horn use allowed in a silence zone?"
+    a: "No."
+    simple: "Horn only when needed; never in silence zone."
+  - id: f28
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Multi-tone, pressure and unusually loud horns are not allowed. Using a horn in a silence zone is punished under Section 194F."
+    why: "Noise pollution control."
+    q: "Section for using horn in a silence zone?"
+    a: "Section 194F."
+    simple: "Silence zone horn → Sec 194F."
+  - id: f29
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Dip the headlights when meeting oncoming traffic, when following another vehicle closely, and on well-lit city roads."
+    why: "High beam dazzles other drivers."
+    q: "When must you dip your headlights?"
+    a: "Meeting oncoming traffic or following another vehicle."
+    simple: "Dip lights for others."
+  - id: f30
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Use hazard warning lights when your vehicle has broken down or stopped in an emergency on the road. Do not use them while driving normally."
+    why: "They warn others of a stopped vehicle."
+    q: "When should hazard lights be used?"
+    a: "When stopped in an emergency or broken down."
+    simple: "Hazard lights = I am stopped, danger."
+  - id: f31
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Use fog lamps only in fog or poor visibility, along with low beam. High beam in fog reflects back and blinds you."
+    why: "Fog scatters strong light."
+    q: "Which beam is used in fog?"
+    a: "Low beam with fog lamps."
+    simple: "Fog: low beam."
+  - id: f32
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Hand signal for stop: raise the right forearm vertically outside the vehicle, palm facing forward."
+    why: "Used when indicators fail."
+    q: "Hand signal for 'I am going to stop'?"
+    a: "Right forearm raised vertically, palm forward."
+    simple: "Arm up = stopping."
+  - id: f33
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Hand signal for slowing down: extend the right arm with palm down and move it up and down several times."
+    why: "Warns the vehicle behind."
+    q: "Hand signal for 'I am slowing down'?"
+    a: "Right arm out, palm down, moved up and down."
+    simple: "Arm flapping down = slowing."
+  - id: f34
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Hand signal for turning right: extend the right arm straight out horizontally, palm facing forward."
+    why: "Arm points the way you are going."
+    q: "Hand signal for a right turn?"
+    a: "Right arm straight out, palm forward."
+    simple: "Arm straight out = right turn."
+  - id: f35
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Hand signal for turning left: extend the right arm and rotate it anticlockwise."
+    why: "The driver's left arm is not visible outside."
+    q: "Hand signal for a left turn?"
+    a: "Right arm extended and rotated anticlockwise."
+    simple: "Arm circles = left turn."
+  - id: f36
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Hand signal to let the vehicle behind overtake: extend the right arm below shoulder level and swing it backward and forward."
+    why: "Tells the driver behind it is safe to pass."
+    q: "Hand signal inviting the vehicle behind to overtake?"
+    a: "Right arm below shoulder, swung back and forth."
+    simple: "Waving forward = please pass."
+  - id: f37
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Do not park at or near a junction, bend, hill top, bridge, pedestrian crossing, traffic light, bus stop or school and hospital entrance."
+    why: "Parked vehicles block view and movement there."
+    q: "Name two places where parking is not allowed."
+    a: "Junction, bend, bridge, pedestrian crossing, bus stop."
+    simple: "Don't park where it blocks or hides."
+  - id: f38
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Do not park on a footpath, cycle track, on the wrong side, opposite another parked vehicle on a narrow road, near a fire hydrant, or where the kerb is painted yellow."
+    why: "These block people, emergency services or traffic."
+    q: "Yellow-painted kerb means?"
+    a: "No parking."
+    simple: "Yellow kerb = no parking."
+  - id: f39
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Park on the left, parallel to the kerb unless marked otherwise. Switch off the engine, apply the parking brake and lock the vehicle."
+    why: "A safe, secure stop."
+    q: "Two things to do after parking."
+    a: "Switch off engine; apply parking brake."
+    simple: "Engine off, handbrake on."
+  - id: f40
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Do not open a door without checking traffic. Open it slowly and get out on the footpath side where possible."
+    why: "Sudden doors hit cyclists and motorcyclists."
+    q: "What must you check before opening the car door?"
+    a: "That no traffic is coming."
+    simple: "Look before opening door."
+  - id: f41
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Reverse only as much as needed, slowly, after checking behind. Do not reverse from a side road into a main road."
+    why: "View behind is poor."
+    q: "Can you reverse into a main road from a side road?"
+    a: "No."
+    simple: "Reverse little and slowly."
+  - id: f42
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Do not take a U-turn where it is prohibited, on busy roads or where you cannot see far in both directions."
+    why: "A U-turn crosses all lanes."
+    q: "Is a U-turn allowed where a 'No U-turn' sign is shown?"
+    a: "No."
+    simple: "U-turn only when allowed and clear."
+  - id: f43
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Do not enter a yellow box junction unless your exit is clear. Stop behind the stop line at signals."
+    why: "Stopped vehicles in the box block all directions."
+    q: "When can you enter a yellow box junction?"
+    a: "Only when your exit is clear."
+    simple: "Enter the box only if you can leave."
+  - id: f44
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Do not drive in a lane reserved for buses or other vehicles, and never drive on a footpath or cycle track."
+    why: "Those spaces belong to other road users."
+    q: "Can a car use a bus lane?"
+    a: "No (unless signs allow)."
+    simple: "Keep out of special lanes."
+  - id: f45
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Towing: use a tow bar, rope or chain clearly visible to others, tow only one vehicle, and drive slowly (about 25 km/h)."
+    why: "The towed vehicle cannot brake well."
+    q: "How many vehicles may be towed at once?"
+    a: "Only one."
+    simple: "Tow one, tow slow."
+  - id: f46
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Do not use a hand-held mobile phone while driving. Hands-free use for navigation is allowed if it does not distract."
+    why: "Phone use takes eyes and mind off the road."
+    q: "Is hand-held mobile phone use allowed while driving?"
+    a: "No."
+    simple: "Phone down while driving."
+  - id: f47
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Hand-held phone use while driving is treated as dangerous driving under Section 184: ₹1,000–5,000 for the first offence."
+    why: "Added to Section 184 by the 2019 amendment."
+    q: "Section for using a mobile phone while driving?"
+    a: "Section 184 (dangerous driving)."
+    simple: "Phone driving = dangerous driving."
+  - id: f48
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Driver and all passengers must wear seat belts. Two-wheeler riders and pillions above 4 years must wear helmets."
+    why: "Belts and helmets cut deaths sharply."
+    q: "From what age must a pillion rider wear a helmet?"
+    a: "Above 4 years."
+    simple: "Belt in car, helmet on bike."
+  - id: f49
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Children aged 9 months to 4 years on a two-wheeler need a crash helmet and a safety harness, and the speed must not exceed 40 km/h."
+    why: "Rule added in 2022 to protect small children."
+    q: "Speed limit when carrying a child below 4 on a two-wheeler?"
+    a: "40 km/h."
+    simple: "Small child on bike: harness, helmet, 40 km/h."
+  - id: f50
+    topic: dl.regulations
+    difficulty: 1
+    learn: "A two-wheeler may carry only one pillion rider, seated on a proper seat behind the driver (Section 128)."
+    why: "Extra riders make the bike unstable."
+    q: "Maximum pillion riders on a motorcycle?"
+    a: "One."
+    simple: "Rider + one."
+  - id: f51
+    topic: dl.regulations
+    difficulty: 2
+    learn: "At an unguarded railway level crossing, stop the vehicle, and the conductor or driver must walk to the crossing and check no train is coming (Section 131)."
+    why: "Trains cannot stop quickly."
+    q: "Section on duty at unguarded railway crossings?"
+    a: "Section 131."
+    simple: "Stop, look, then cross the rail."
+  - id: f52
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Never drive after drinking alcohol. The legal limit is 30 mg of alcohol per 100 ml of blood (Section 185)."
+    why: "Alcohol slows reaction and judgement."
+    q: "Legal blood alcohol limit for drivers?"
+    a: "30 mg per 100 ml of blood."
+    simple: "Above 30 mg/100 ml = drunk driving."
+  - id: f53
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Do not cut into or break through a funeral procession, military convoy or police procession."
+    why: "Respect and safety."
+    q: "May you drive through a military convoy?"
+    a: "No."
+    simple: "Don't break a convoy."
+  - id: f54
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Do not stop or park on the carriageway of a highway except in an emergency. A broken-down vehicle must show hazard lights and a warning triangle placed well behind."
+    why: "Fast traffic may hit a stopped vehicle."
+    q: "What warning device is placed behind a broken-down vehicle?"
+    a: "Red reflective warning triangle."
+    simple: "Breakdown: hazard lights + triangle."
+  - id: f55
+    topic: dl.regulations
+    difficulty: 2
+    learn: "On roads divided by a median, never drive on the right half. Cross the median only at openings provided."
+    why: "That half is for opposite traffic."
+    q: "On a divided road, can you use the right carriageway?"
+    a: "No."
+    simple: "Stay on your side of the median."
+  - id: f56
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Do not carry a load that sticks out dangerously, blocks the driver's view, or is not tied securely."
+    why: "Loose or wide loads hurt others."
+    q: "Can a load block the driver's view?"
+    a: "No."
+    simple: "Load tied, low, not blocking view."
+  - id: f57
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Driving on the wrong side, jumping red lights and driving in the wrong direction on a one-way road are punished as dangerous driving (Section 184)."
+    why: "These cause head-on and side crashes."
+    q: "Jumping a red light comes under which section?"
+    a: "Section 184."
+    simple: "Red light jumping = dangerous driving."
+  - id: f58
+    topic: dl.regulations
+    difficulty: 3
+    learn: "PSC trap: the regulations say 'give way to traffic from the right' at uncontrolled junctions, but at roundabouts this also means traffic already in the circle."
+    why: "Both rules point the same way."
+    q: "Give-way side at uncontrolled junctions and roundabouts?"
+    a: "Traffic on your right (already in the roundabout)."
+    simple: "Right side first."
+  - id: sum
+    topic: dl.regulations
+    type: summary
+    points:
+      - "Made under Sec 118; replaced 1989 rules; breach Sec 177A."
+      - "Keep left; overtake from right; never at bends, hills, crossings."
+      - "Give way: right side, main road, roundabout, pedestrians, ambulances."
+      - "Hand signals: arm up stop, arm out right, arm circle left."
+      - "Alcohol 30 mg/100 ml; one pillion; helmet above 4 years."
+
+  # ---------- Licensing: sections 3 to 28 ----------
+  - id: f01
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Chapter II of the MV Act (Sections 3 to 28) deals with licensing of drivers of motor vehicles."
+    why: "This whole part of the syllabus comes from this chapter."
+    q: "Which chapter and sections cover driving licences?"
+    a: "Chapter II, Sections 3 to 28."
+    simple: "Chapter II = driving licence."
+  - id: f02
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Section 3: no person shall drive a motor vehicle in a public place without an effective driving licence."
+    why: "Only tested people may drive."
+    q: "Which section says a driving licence is necessary?"
+    a: "Section 3."
+    simple: "Sec 3: no licence, no driving."
+  - id: f03
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 3 also says a medium or heavy transport vehicle (bus, lorry) can be driven only if the licence specially allows it."
+    why: "Transport vehicles carry passengers or goods for hire."
+    q: "Can a person with only an LMV licence drive a heavy bus?"
+    a: "No; the licence must cover that transport vehicle."
+    simple: "Transport vehicle needs the right licence."
+  - id: f04
+    topic: dl.licensing
+    difficulty: 2
+    learn: "A learner can drive under Section 3 if they hold a learner's licence and follow its conditions, such as having an instructor and L plate."
+    why: "One must practise before a test."
+    q: "Who may drive without a full DL?"
+    a: "A learner's licence holder under its conditions."
+    simple: "LL lets you practise."
+  - id: f05
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Section 4: minimum age to drive a motor vehicle in a public place is 18 years."
+    why: "Adults are expected to judge risk better."
+    q: "Minimum age to drive a car?"
+    a: "18 years (Section 4)."
+    simple: "Car at 18."
+  - id: f06
+    topic: dl.licensing
+    difficulty: 1
+    learn: "A person of 16 years can drive a motorcycle with engine up to 50 cc, after the age of 16, with consent of a parent or guardian."
+    why: "Small, slow bikes are allowed earlier."
+    q: "Minimum age for a motorcycle up to 50 cc?"
+    a: "16 years."
+    simple: "50 cc at 16."
+  - id: f07
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 4: a transport vehicle can be driven only after the age of 20 years."
+    why: "More maturity for driving people and goods for hire."
+    q: "Minimum age to drive a transport vehicle?"
+    a: "20 years."
+    simple: "Bus or lorry at 20."
+  - id: f08
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Section 5: an owner must not let a person drive their vehicle unless that person has a valid licence and meets the age rules."
+    why: "Owners are also responsible."
+    q: "Which section stops owners letting unlicensed people drive?"
+    a: "Section 5."
+    simple: "Sec 5: owner must check licence."
+  - id: f09
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Penalty for owner allowing an unauthorised person to drive is under Section 180: up to ₹5,000, imprisonment up to 3 months, or both."
+    why: "2019 fines."
+    q: "Section for owner allowing an unlicensed driver?"
+    a: "Section 180."
+    simple: "Owner's mistake → Sec 180."
+  - id: f10
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Driving without a licence or under age (against Sections 3 or 4) is punished under Section 181: up to ₹5,000, imprisonment up to 3 months, or both."
+    why: "2019 amendment raised the fine from ₹500."
+    q: "Fine for driving without a licence?"
+    a: "Up to ₹5,000 (Section 181)."
+    simple: "No licence → Sec 181, ₹5,000."
+  - id: f11
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 6: a person shall not hold more than one driving licence, and cannot get one while disqualified."
+    why: "Stops people hiding offences under a second licence."
+    q: "How many driving licences can a person hold?"
+    a: "Only one (Section 6)."
+    simple: "One person, one licence."
+  - id: f12
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 6 also says a licence holder must not let anyone else use their licence."
+    why: "The licence proves the holder's own skill."
+    q: "Can you lend your driving licence to another person?"
+    a: "No."
+    simple: "Licence can't be lent."
+  - id: f13
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 7 restricts learner's licences for certain vehicles. A 16-year-old can get a learner's licence only for a motorcycle up to 50 cc, with guardian consent."
+    why: "Age rules apply to learners too."
+    q: "What learner's licence can a 16-year-old get?"
+    a: "Motorcycle up to 50 cc, with guardian's consent."
+    simple: "16: only small bike LL."
+  - id: f14
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Section 8: the licensing authority grants a learner's licence after the applicant passes a test on traffic rules, signs and duties."
+    why: "Knowledge first, then practice."
+    q: "Which section covers grant of learner's licence?"
+    a: "Section 8."
+    simple: "Sec 8 = learner's licence."
+  - id: f15
+    topic: dl.licensing
+    difficulty: 2
+    learn: "An applicant can apply for a learner's licence to any licensing authority in the State where they live or work."
+    why: "Convenience for people working away from home."
+    q: "Where can you apply for a learner's licence?"
+    a: "Any licensing authority in the State where you live or work."
+    simple: "Apply where you live or work."
+  - id: f16
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Medical certificate (Form 1A, by a registered doctor) is needed for a transport vehicle licence and for applicants above 40 years. Others give a self-declaration of fitness."
+    why: "Health affects safe driving."
+    q: "Who must submit a medical certificate for a DL?"
+    a: "Transport vehicle applicants and those above 40."
+    simple: "Over 40 or transport: doctor's certificate."
+  - id: f17
+    topic: dl.licensing
+    difficulty: 1
+    learn: "A learner's licence is valid for 6 months."
+    why: "Enough time to learn and take the test."
+    q: "Validity of a learner's licence?"
+    a: "6 months."
+    simple: "LL lasts 6 months."
+  - id: f18
+    topic: dl.licensing
+    difficulty: 2
+    learn: "A learner can take the driving test only after 30 days from the date the learner's licence was issued, and within its 6-month validity."
+    why: "Gives time to practise."
+    q: "Earliest time after LL to take the driving test?"
+    a: "After 30 days."
+    simple: "Wait 30 days, then test."
+  - id: f19
+    topic: dl.licensing
+    difficulty: 1
+    learn: "A learner must show an 'L' plate (red L on white) on the front and back of the vehicle."
+    why: "Others know to be careful."
+    q: "What plate must a learner display?"
+    a: "L plate: red L on white background."
+    simple: "Red L = learner."
+  - id: f20
+    topic: dl.licensing
+    difficulty: 2
+    learn: "A learner driving a car must have an instructor with a valid licence sitting beside them. A learner on a motorcycle may carry only an instructor as pillion."
+    why: "An expert can stop mistakes."
+    q: "Who must sit beside a learner in a car?"
+    a: "A person holding a valid DL for that vehicle."
+    simple: "Learner needs a licensed helper."
+  - id: f21
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Section 9: a driving licence is granted after the applicant passes a test of competence to drive (driving test)."
+    why: "Proves real driving skill."
+    q: "Which section covers grant of driving licence?"
+    a: "Section 9."
+    simple: "Sec 9 = driving licence."
+  - id: f22
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Those who pass from an accredited driver training centre can be exempted from the driving test at the RTO (2019 amendment)."
+    why: "Well-trained drivers from approved centres."
+    q: "Who can be exempted from the RTO driving test?"
+    a: "Those certified by an accredited driver training centre."
+    simple: "Approved school pass = no RTO test."
+  - id: f23
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Traditional Kerala test: 'H' track for four-wheelers and figure '8' track for two-wheelers, followed by a road test. Kerala revised the test pattern in 2024."
+    why: "Check the current Kerala test before the exam."
+    q: "Traditional test track for two-wheelers?"
+    a: "Figure 8 track."
+    simple: "Car H, bike 8."
+  - id: f24
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Section 10 gives the form and contents of licences and the classes of vehicles a licence can cover."
+    why: "The licence says exactly what you may drive."
+    q: "Which section lists the classes of vehicles in a licence?"
+    a: "Section 10."
+    simple: "Sec 10 = classes."
+  - id: f25
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Classes under Section 10(2): motorcycle without gear, motorcycle with gear, invalid carriage, light motor vehicle, transport vehicle, e-cart or e-rickshaw, road roller, and vehicle of a specified description."
+    why: "PSC often asks to list or match these classes."
+    q: "Name four classes of DL under Section 10."
+    a: "MCWOG, MCWG, LMV, transport vehicle (also invalid carriage, e-rickshaw, road roller)."
+    simple: "Bike, car, transport, special."
+  - id: f26
+    topic: dl.licensing
+    difficulty: 2
+    learn: "The e-cart and e-rickshaw class was added by the 2015 amendment."
+    why: "These vehicles became common in cities."
+    q: "Which licence class was added in 2015?"
+    a: "E-cart or e-rickshaw."
+    simple: "2015 added e-rickshaw class."
+  - id: f27
+    topic: dl.licensing
+    difficulty: 2
+    learn: "LMV (light motor vehicle) is a vehicle with gross vehicle weight up to 7,500 kg. Cars, jeeps and small goods vehicles fall in this class."
+    why: "Class depends on weight."
+    q: "Maximum GVW of a light motor vehicle?"
+    a: "7,500 kg."
+    simple: "LMV up to 7.5 tonnes."
+  - id: f28
+    topic: dl.licensing
+    difficulty: 3
+    learn: "Supreme Court (Mukund Dewangan case, 2017; upheld 2024): an LMV licence holder can drive a transport vehicle of LMV class (GVW up to 7,500 kg) without separate endorsement."
+    why: "Common recent PSC question; check current law."
+    q: "Can an LMV licence holder drive a light transport vehicle under 7,500 kg?"
+    a: "Yes, as per Supreme Court (Mukund Dewangan)."
+    simple: "Light taxi OK with LMV licence."
+  - id: f29
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Section 11: a licence holder can apply to add another class of vehicle to their licence."
+    why: "No need for a new licence."
+    q: "Which section covers adding a vehicle class to a DL?"
+    a: "Section 11."
+    simple: "Sec 11 = add a class."
+  - id: f30
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 12: licensing and regulation of driving schools. The 2019 amendment added accredited driver training centres."
+    why: "Good training makes safe drivers."
+    q: "Which section controls driving schools?"
+    a: "Section 12."
+    simple: "Sec 12 = driving schools."
+  - id: f31
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Section 13: a learner's licence or driving licence issued in any State is valid throughout India."
+    why: "One licence for the whole country."
+    q: "Is a Kerala DL valid in Tamil Nadu?"
+    a: "Yes, valid all over India (Section 13)."
+    simple: "One licence, all India."
+  - id: f32
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Section 14 gives the validity (currency) of licences."
+    why: "Licences must be renewed to check fitness."
+    q: "Which section gives the validity of licences?"
+    a: "Section 14."
+    simple: "Sec 14 = how long it lasts."
+  - id: f33
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Transport vehicle licence is valid for 5 years (2019). For vehicles carrying hazardous goods it is valid for 3 years."
+    why: "Professional drivers are checked more often."
+    q: "Validity of a transport vehicle licence?"
+    a: "5 years (hazardous goods: 3 years)."
+    simple: "Transport 5 years; hazardous 3."
+  - id: f34
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Non-transport licence validity: if taken before 30 years of age, valid till the holder turns 40."
+    why: "Young drivers are checked again at 40."
+    q: "A 22-year-old gets an LMV-NT licence. Valid till?"
+    a: "Till age 40."
+    simple: "Before 30 → valid till 40."
+  - id: f35
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Non-transport licence taken between 30 and 50 years is valid for 10 years."
+    why: "Middle age, regular check every 10 years."
+    q: "Licence taken at 35 is valid for how long?"
+    a: "10 years."
+    simple: "30 to 50 → 10 years."
+  - id: f36
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Non-transport licence taken between 50 and 55 is valid till the holder turns 60. Taken after 55, it is valid for 5 years."
+    why: "Older drivers need more frequent checks."
+    q: "Licence taken at 57 is valid for?"
+    a: "5 years."
+    simple: "50–55 till 60; above 55 for 5 years."
+  - id: s01
+    topic: dl.licensing
+    type: steps
+    difficulty: 2
+    title: "Worked example: validity of a non-transport DL"
+    steps:
+      - text: "Question: Ravi gets an LMV licence at age 28. Till when is it valid?"
+      - text: "Age is below 30, so the rule is: valid until age 40."
+      - text: "So it expires on his 40th birthday; he must renew it then."
+      - text: "On renewal at 40, the 30–50 rule gives 10 years."
+    summary:
+      - "<30: till 40. 30–50: 10 years."
+      - "50–55: till 60. >55: 5 years."
+    q: "LMV licence at 28 is valid till?"
+    a: "Age 40."
+  - id: f37
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Section 15 deals with renewal of driving licences."
+    why: "An expired licence is not effective."
+    q: "Which section covers DL renewal?"
+    a: "Section 15."
+    simple: "Sec 15 = renewal."
+  - id: f38
+    topic: dl.licensing
+    difficulty: 2
+    learn: "You can apply for renewal up to one year before expiry or within one year after expiry. After one year from expiry, a fresh driving test is needed."
+    why: "A long gap may mean lost skill."
+    q: "Renewal applied 18 months after expiry needs what?"
+    a: "A fresh test of competence."
+    simple: "Late over 1 year → test again."
+  - id: f39
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 16: the licensing authority can revoke a licence if the holder has a disease or disability that makes driving dangerous."
+    why: "Public safety comes first."
+    q: "Section for revoking DL on grounds of disease or disability?"
+    a: "Section 16."
+    simple: "Sec 16: unfit health → licence cancelled."
+  - id: f40
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 17: an order refusing or revoking a licence must give reasons. The person can appeal against it."
+    why: "Natural justice."
+    q: "Which section allows appeal against refusal or revocation of DL?"
+    a: "Section 17."
+    simple: "Sec 17: you can appeal."
+  - id: f41
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 18: licences to drive motor vehicles belonging to the Central Government, such as defence vehicles."
+    why: "Defence drivers have their own licensing system."
+    q: "Section for licences to drive Central Government vehicles?"
+    a: "Section 18."
+    simple: "Sec 18 = government/defence vehicles."
+  - id: f42
+    topic: dl.licensing
+    difficulty: 1
+    learn: "Section 19: the licensing authority can disqualify a person from holding a licence or revoke it, after giving them a chance to be heard."
+    why: "Dangerous drivers must be stopped."
+    q: "Which section lets the licensing authority disqualify a driver?"
+    a: "Section 19."
+    simple: "Sec 19 = authority disqualifies."
+  - id: f43
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Grounds under Section 19: habitual criminal or drunkard, drug addict, using the vehicle for a crime, dangerous driving record, licence obtained by fraud, or refusing a test."
+    why: "These show the person is unsafe."
+    q: "Give two grounds for disqualification under Section 19."
+    a: "Habitual drunkard, licence by fraud, vehicle used for crime."
+    simple: "Bad record or fraud → disqualified."
+  - id: f44
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 19(1A) (2019): for offences like overspeeding, dangerous driving, drunk driving, overloading and not wearing seat belt or helmet, the licence can be suspended for at least 3 months."
+    why: "Fines alone did not stop repeat offenders."
+    q: "Minimum DL suspension for drunk driving under Section 19(1A)?"
+    a: "3 months."
+    simple: "Serious offence → 3 months suspension."
+  - id: f45
+    topic: dl.licensing
+    difficulty: 2
+    learn: "The authority may also order the driver to complete a driver refresher training course before getting the licence back."
+    why: "Retraining improves behaviour."
+    q: "What course can be ordered after suspension?"
+    a: "Driver refresher training course."
+    simple: "Back to school before driving again."
+  - id: f46
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 20 lets a court disqualify a person from holding a licence when convicting them of certain offences."
+    why: "Courts can also stop dangerous drivers."
+    q: "Which section lets a court disqualify a driver?"
+    a: "Section 20."
+    simple: "Sec 20 = court disqualifies."
+  - id: f47
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 22: suspension or cancellation of a licence on conviction for certain offences, such as causing death or grievous hurt with a vehicle."
+    why: "Serious harm means loss of driving rights."
+    q: "Section for suspension or cancellation of DL on conviction?"
+    a: "Section 22."
+    simple: "Convicted → licence suspended."
+  - id: f48
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 23: a disqualified person cannot hold or get a licence during the period of disqualification. Their licence has no effect."
+    why: "Disqualification must be real."
+    q: "Effect of a disqualification order?"
+    a: "Licence is ineffective; no new licence during the period."
+    simple: "Disqualified = no licence at all."
+  - id: f49
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Driving while disqualified is punished under Section 182: ₹10,000 fine, imprisonment up to 3 months, or both."
+    why: "2019 raised the fine."
+    q: "Fine for driving while disqualified?"
+    a: "₹10,000 (Section 182)."
+    simple: "Disqualified and driving → ₹10,000."
+  - id: f50
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 24: endorsement. The court or authority records the conviction or disqualification on the driving licence."
+    why: "A licence shows the driver's record."
+    q: "Recording of an offence on a DL is called?"
+    a: "Endorsement (Section 24)."
+    simple: "Endorsement = offence written on licence."
+  - id: f51
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 25: endorsements move to any new licence. After a set period without further offences, a clean licence can be issued."
+    why: "Records follow the driver, but good behaviour is rewarded."
+    q: "Do endorsements carry over to a new licence?"
+    a: "Yes (Section 25)."
+    simple: "Record follows you."
+  - id: f52
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 25A (2019): National Register of Driving Licences. All State registers feed into it; it runs on the Sarathi system."
+    why: "One national record stops duplicate and fake licences."
+    q: "Which section created the National Register of Driving Licences?"
+    a: "Section 25A."
+    simple: "One online register for India."
+  - id: f53
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Sarathi is the online system for licences; Vahan is the online system for vehicle registration."
+    why: "PSC asks which portal does what."
+    q: "Online portal for driving licences?"
+    a: "Sarathi (Vahan is for vehicles)."
+    simple: "Sarathi = licence; Vahan = vehicle."
+  - id: f54
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 27: power of the Central Government to make rules on licensing (tests, forms, fees, medical standards)."
+    why: "Common rules for all of India."
+    q: "Section giving Central Government power to make rules for Chapter II?"
+    a: "Section 27."
+    simple: "Sec 27 = central rules."
+  - id: f55
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Section 28: power of the State Government to make rules for Chapter II, like licensing authorities and appeals."
+    why: "States handle local details."
+    q: "Section giving State Government rule-making power for Chapter II?"
+    a: "Section 28."
+    simple: "Sec 28 = state rules."
+  - id: f56
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Licensing authority is the officer authorised by the State to issue licences, usually the RTO or Joint RTO."
+    why: "AMVIs work under them."
+    q: "Who is the licensing authority in Kerala?"
+    a: "RTO / Joint RTO."
+    simple: "RTO gives licences."
+  - id: f57
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Driving licence can be held in electronic form (DigiLocker or mParivahan). A smart card DL is also issued."
+    why: "Easy to carry and check."
+    q: "Is an electronic DL in DigiLocker valid?"
+    a: "Yes."
+    simple: "DL on phone is valid."
+  - id: f58
+    topic: dl.licensing
+    difficulty: 2
+    learn: "An International Driving Permit (IDP) is issued by the licensing authority to Indian licence holders for driving abroad. It is valid for one year."
+    why: "Many countries need it with the Indian licence."
+    q: "Validity of an International Driving Permit?"
+    a: "One year."
+    simple: "IDP for abroad, 1 year."
+  - id: f59
+    topic: dl.licensing
+    difficulty: 3
+    learn: "Juvenile offence (Section 199A): if a minor drives, the guardian or owner is guilty: ₹25,000 fine and up to 3 years' imprisonment. The vehicle's RC is cancelled for 12 months."
+    why: "Stops parents giving vehicles to children."
+    q: "Fine on guardian when a juvenile drives?"
+    a: "₹25,000 (Section 199A)."
+    simple: "Child drives → parent pays ₹25,000."
+  - id: f60
+    topic: dl.licensing
+    difficulty: 3
+    learn: "Under Section 199A, a juvenile who commits a driving offence cannot get a learner's or driving licence until age 25."
+    why: "A strong warning to young offenders."
+    q: "Till what age is the juvenile offender barred from a licence?"
+    a: "25 years."
+    simple: "Juvenile offender: no licence till 25."
+  - id: f61
+    topic: dl.licensing
+    difficulty: 3
+    learn: "PSC trap: Section 3 is about need for a licence; Section 4 is about age. Section 5 is owner's duty; Section 6 is one licence only."
+    why: "Options often swap these numbers."
+    q: "Age limit is in Section 3 or 4?"
+    a: "Section 4."
+    simple: "3 need, 4 age, 5 owner, 6 only one."
+  - id: f62
+    topic: dl.licensing
+    difficulty: 3
+    learn: "PSC trap: Section 8 is learner's licence; Section 9 is driving licence; Section 10 is classes; Section 11 is adding a class."
+    why: "Easy to mix up in matching questions."
+    q: "Learner's licence is granted under which section?"
+    a: "Section 8."
+    simple: "8 LL, 9 DL, 10 classes, 11 add."
+  - id: sum
+    topic: dl.licensing
+    type: summary
+    points:
+      - "Sec 3 need licence; 4 age (16/18/20); 5 owner; 6 one licence."
+      - "Sec 8 LL (6 months); 9 DL (test after 30 days); 10 classes."
+      - "Sec 14 validity: <30 till 40; 30–50 10 yrs; transport 5 yrs."
+      - "Sec 15 renewal; late >1 year = retest."
+      - "Sec 19 authority disqualifies; 20 court; 24 endorsement; 25A national register."
+
+mcq:
+  - topic: dl.regulations
+    q: "The Motor Vehicles (Driving) Regulations, 2017 were made under section"
+    options: ["110", "112", "118", "129"]
+    answer: 2
+    explain: "Section 118 empowers the Centre to make driving regulations."
+    covers: [f01]
+  - topic: dl.regulations
+    q: "Normally overtaking should be done from the"
+    options: ["Left side", "Right side", "Either side", "Footpath side"]
+    answer: 1
+    explain: "Overtake from the right; left only if the vehicle ahead is turning right."
+    covers: [f11]
+  - topic: dl.regulations
+    q: "Hand signal with right arm extended and rotated anticlockwise means"
+    options: ["I am turning right", "I am turning left", "I am stopping", "Please overtake"]
+    answer: 1
+    explain: "Anticlockwise rotation of the right arm = left turn."
+    covers: [f35]
+  - topic: dl.regulations
+    q: "On a narrow hill road, right of way is for the vehicle"
+    options: ["Going downhill", "Going uphill", "That is larger", "That arrives first"]
+    answer: 1
+    explain: "Downhill gives way to uphill."
+    covers: [f23]
+  - topic: dl.regulations
+    q: "Penalty for violation of driving regulations is provided in section"
+    options: ["177", "177A", "184", "194"]
+    answer: 1
+    explain: "Section 177A: ₹500 first, ₹1,500 later."
+    covers: [f03]
+  - topic: dl.licensing
+    q: "Minimum age for driving a motorcycle with engine capacity not exceeding 50 cc is"
+    options: ["14", "16", "18", "20"]
+    answer: 1
+    explain: "16 years with guardian's consent."
+    covers: [f06]
+  - topic: dl.licensing
+    q: "Validity of a learner's licence is"
+    options: ["3 months", "6 months", "1 year", "30 days"]
+    answer: 1
+    explain: "A learner's licence lasts 6 months."
+    covers: [f17]
+  - topic: dl.licensing
+    q: "A non-transport DL obtained at age 25 is valid until the holder attains"
+    options: ["35 years", "40 years", "45 years", "50 years"]
+    answer: 1
+    explain: "Before 30 → till 40 years."
+    covers: [f34]
+  - topic: dl.licensing
+    q: "National Register of Driving Licences is provided under section"
+    options: ["25", "25A", "26", "27"]
+    answer: 1
+    explain: "Section 25A was added in 2019."
+    covers: [f52]
+  - topic: dl.licensing
+    q: "Restriction on holding more than one driving licence is in section"
+    options: ["4", "5", "6", "7"]
+    answer: 2
+    explain: "Section 6."
+    covers: [f11]

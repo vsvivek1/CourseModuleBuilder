@@ -18,12 +18,30 @@
  },
  "topics": [
   {
+   "id": "dl.regulations",
+   "subject": "driving_licence",
+   "title": {
+    "en": "Motor Vehicles (Driving) Regulations, 2017"
+   },
+   "order": 1,
+   "freq": 1.0
+  },
+  {
+   "id": "dl.licensing",
+   "subject": "driving_licence",
+   "title": {
+    "en": "Licensing of drivers: MV Act sections 3 to 28"
+   },
+   "order": 2,
+   "freq": 1.0
+  },
+  {
    "id": "u1.properties",
    "subject": "fluid_mechanics",
    "title": {
     "en": "Properties of fluids"
    },
-   "order": 1,
+   "order": 3,
    "freq": 0.8
   },
   {
@@ -32,7 +50,7 @@
    "title": {
     "en": "Fluid pressure and Pascal's law"
    },
-   "order": 2,
+   "order": 4,
    "freq": 0.7
   },
   {
@@ -41,7 +59,7 @@
    "title": {
     "en": "Pressure measuring instruments"
    },
-   "order": 3,
+   "order": 5,
    "freq": 0.6
   },
   {
@@ -50,7 +68,7 @@
    "title": {
     "en": "Types of fluids"
    },
-   "order": 4,
+   "order": 6,
    "freq": 0.5
   },
   {
@@ -59,7 +77,7 @@
    "title": {
     "en": "Flow types, orifice, notch, venturimeter, continuity"
    },
-   "order": 5,
+   "order": 7,
    "freq": 0.7
   },
   {
@@ -68,7 +86,7 @@
    "title": {
     "en": "Head losses, Darcy and Chezy formulas"
    },
-   "order": 6,
+   "order": 8,
    "freq": 0.5
   },
   {
@@ -77,7 +95,7 @@
    "title": {
     "en": "Properties of hydraulic oils"
    },
-   "order": 7,
+   "order": 9,
    "freq": 0.5
   },
   {
@@ -86,7 +104,7 @@
    "title": {
     "en": "Pumps and turbines"
    },
-   "order": 8,
+   "order": 10,
    "freq": 0.7
   },
   {
@@ -95,7 +113,7 @@
    "title": {
     "en": "Basic terms of thermodynamics"
    },
-   "order": 9,
+   "order": 11,
    "freq": 0.6
   },
   {
@@ -104,7 +122,7 @@
    "title": {
     "en": "Laws of thermodynamics"
    },
-   "order": 10,
+   "order": 12,
    "freq": 0.8
   },
   {
@@ -113,7 +131,7 @@
    "title": {
     "en": "Thermodynamic processes and PV diagrams"
    },
-   "order": 11,
+   "order": 13,
    "freq": 0.7
   },
   {
@@ -122,7 +140,7 @@
    "title": {
     "en": "Air standard cycles"
    },
-   "order": 12,
+   "order": 14,
    "freq": 0.8
   },
   {
@@ -131,7 +149,7 @@
    "title": {
     "en": "Two-stroke and four-stroke engines, valve timing"
    },
-   "order": 13,
+   "order": 15,
    "freq": 0.9
   },
   {
@@ -140,7 +158,7 @@
    "title": {
     "en": "IC engine performance and testing"
    },
-   "order": 14,
+   "order": 16,
    "freq": 0.8
   },
   {
@@ -149,7 +167,7 @@
    "title": {
     "en": "Air compressors"
    },
-   "order": 15,
+   "order": 17,
    "freq": 0.6
   },
   {
@@ -158,7 +176,7 @@
    "title": {
     "en": "Heat transfer"
    },
-   "order": 16,
+   "order": 18,
    "freq": 0.6
   },
   {
@@ -167,7 +185,7 @@
    "title": {
     "en": "Stress and strain"
    },
-   "order": 17,
+   "order": 19,
    "freq": 0.8
   },
   {
@@ -176,7 +194,7 @@
    "title": {
     "en": "Stress–strain diagram and factor of safety"
    },
-   "order": 18,
+   "order": 20,
    "freq": 0.8
   },
   {
@@ -185,7 +203,7 @@
    "title": {
     "en": "Hooke's law, elastic constants, varying and composite sections"
    },
-   "order": 19,
+   "order": 21,
    "freq": 0.8
   },
   {
@@ -194,7 +212,7 @@
    "title": {
     "en": "Thermal stress and strain"
    },
-   "order": 20,
+   "order": 22,
    "freq": 0.6
   },
   {
@@ -203,7 +221,7 @@
    "title": {
     "en": "Friction"
    },
-   "order": 21,
+   "order": 23,
    "freq": 0.6
   },
   {
@@ -212,7 +230,7 @@
    "title": {
     "en": "Centre of gravity and moment of inertia"
    },
-   "order": 22,
+   "order": 24,
    "freq": 0.6
   },
   {
@@ -221,7 +239,7 @@
    "title": {
     "en": "Beams, shear force and bending moment"
    },
-   "order": 23,
+   "order": 25,
    "freq": 0.8
   },
   {
@@ -230,7 +248,7 @@
    "title": {
     "en": "Riveted joints"
    },
-   "order": 24,
+   "order": 26,
    "freq": 0.6
   },
   {
@@ -239,7 +257,7 @@
    "title": {
     "en": "Bolts and springs"
    },
-   "order": 25,
+   "order": 27,
    "freq": 0.6
   },
   {
@@ -248,7 +266,7 @@
    "title": {
     "en": "Welded joints"
    },
-   "order": 26,
+   "order": 28,
    "freq": 0.5
   },
   {
@@ -257,7 +275,7 @@
    "title": {
     "en": "Bearings"
    },
-   "order": 27,
+   "order": 29,
    "freq": 0.7
   },
   {
@@ -266,7 +284,7 @@
    "title": {
     "en": "Governors"
    },
-   "order": 28,
+   "order": 30,
    "freq": 0.7
   },
   {
@@ -275,7 +293,7 @@
    "title": {
     "en": "Flywheels"
    },
-   "order": 29,
+   "order": 31,
    "freq": 0.7
   },
   {
@@ -284,7 +302,7 @@
    "title": {
     "en": "Gears and gear trains"
    },
-   "order": 30,
+   "order": 32,
    "freq": 0.7
   },
   {
@@ -293,7 +311,7 @@
    "title": {
     "en": "Boilers and steam engine"
    },
-   "order": 31,
+   "order": 33,
    "freq": 0.6
   },
   {
@@ -302,7 +320,7 @@
    "title": {
     "en": "Engineering materials and heat treatment"
    },
-   "order": 32,
+   "order": 34,
    "freq": 0.8
   },
   {
@@ -311,7 +329,7 @@
    "title": {
     "en": "Cylinder block, liners, head and gasket"
    },
-   "order": 33,
+   "order": 35,
    "freq": 0.8
   },
   {
@@ -320,7 +338,7 @@
    "title": {
     "en": "Piston, rings, connecting rod and crankshaft"
    },
-   "order": 34,
+   "order": 36,
    "freq": 0.9
   },
   {
@@ -329,7 +347,7 @@
    "title": {
     "en": "Valves, valve mechanisms and camshaft"
    },
-   "order": 35,
+   "order": 37,
    "freq": 0.9
   },
   {
@@ -338,7 +356,7 @@
    "title": {
     "en": "Petrol fuel feed, filters and air cleaners"
    },
-   "order": 36,
+   "order": 38,
    "freq": 0.7
   },
   {
@@ -347,7 +365,7 @@
    "title": {
     "en": "Carburettors"
    },
-   "order": 37,
+   "order": 39,
    "freq": 0.8
   },
   {
@@ -356,7 +374,7 @@
    "title": {
     "en": "Manifolds, VVT, catalytic converter and muffler"
    },
-   "order": 38,
+   "order": 40,
    "freq": 0.8
   },
   {
@@ -365,7 +383,7 @@
    "title": {
     "en": "Diesel fuel system and turbocharger"
    },
-   "order": 39,
+   "order": 41,
    "freq": 0.9
   },
   {
@@ -374,7 +392,7 @@
    "title": {
     "en": "Lubrication system"
    },
-   "order": 40,
+   "order": 42,
    "freq": 0.8
   },
   {
@@ -383,7 +401,7 @@
    "title": {
     "en": "Cooling system"
    },
-   "order": 41,
+   "order": 43,
    "freq": 0.8
   },
   {
@@ -392,7 +410,7 @@
    "title": {
     "en": "Chassis and frame"
    },
-   "order": 42,
+   "order": 44,
    "freq": 0.7
   },
   {
@@ -401,7 +419,7 @@
    "title": {
     "en": "Front axle and stub axle"
    },
-   "order": 43,
+   "order": 45,
    "freq": 0.7
   },
   {
@@ -410,7 +428,7 @@
    "title": {
     "en": "Suspension, springs and shock absorbers"
    },
-   "order": 44,
+   "order": 46,
    "freq": 0.8
   },
   {
@@ -419,7 +437,7 @@
    "title": {
     "en": "Steering system and wheel alignment"
    },
-   "order": 45,
+   "order": 47,
    "freq": 0.9
   },
   {
@@ -428,7 +446,7 @@
    "title": {
     "en": "Brake systems"
    },
-   "order": 46,
+   "order": 48,
    "freq": 0.9
   },
   {
@@ -437,7 +455,7 @@
    "title": {
     "en": "Clutches and fluid flywheel"
    },
-   "order": 47,
+   "order": 49,
    "freq": 0.9
   },
   {
@@ -446,7 +464,7 @@
    "title": {
     "en": "Gearboxes, torque converter, CVT and automatics"
    },
-   "order": 48,
+   "order": 50,
    "freq": 0.9
   },
   {
@@ -455,7 +473,7 @@
    "title": {
     "en": "Propeller shaft, joints, differential and rear axles"
    },
-   "order": 49,
+   "order": 51,
    "freq": 0.8
   },
   {
@@ -464,7 +482,7 @@
    "title": {
     "en": "Wheels and tyres"
    },
-   "order": 50,
+   "order": 52,
    "freq": 0.8
   },
   {
@@ -473,7 +491,7 @@
    "title": {
     "en": "Dynamo, alternator and charging system"
    },
-   "order": 51,
+   "order": 53,
    "freq": 0.7
   },
   {
@@ -482,7 +500,7 @@
    "title": {
     "en": "Starter motor and drives"
    },
-   "order": 52,
+   "order": 54,
    "freq": 0.7
   },
   {
@@ -491,7 +509,7 @@
    "title": {
     "en": "Ignition systems"
    },
-   "order": 53,
+   "order": 55,
    "freq": 0.9
   },
   {
@@ -500,7 +518,7 @@
    "title": {
     "en": "MV Act basics, signs and the MVD"
    },
-   "order": 54,
+   "order": 56,
    "freq": 0.9
   },
   {
@@ -509,7 +527,7 @@
    "title": {
     "en": "Highway engineering basics"
    },
-   "order": 55,
+   "order": 57,
    "freq": 0.7
   },
   {
@@ -518,7 +536,7 @@
    "title": {
     "en": "Motor insurance and surveying"
    },
-   "order": 56,
+   "order": 58,
    "freq": 0.7
   },
   {
@@ -527,7 +545,7 @@
    "title": {
     "en": "Electronic fuel injection, sensors and CRDI"
    },
-   "order": 57,
+   "order": 59,
    "freq": 0.9
   },
   {
@@ -536,7 +554,7 @@
    "title": {
     "en": "Vehicle pollution and its control"
    },
-   "order": 58,
+   "order": 60,
    "freq": 0.9
   },
   {
@@ -545,7 +563,7 @@
    "title": {
     "en": "Comfort and safety systems"
    },
-   "order": 59,
+   "order": 61,
    "freq": 0.8
   },
   {
@@ -554,11 +572,2874 @@
    "title": {
     "en": "Electric and hybrid vehicles"
    },
-   "order": 60,
+   "order": 62,
    "freq": 0.9
   }
  ],
  "cards": [
+  {
+   "id": "dl.regulations.f01",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The Motor Vehicles (Driving) Regulations, 2017 are made by the Central Government under Section 118 of the MV Act. They replaced the Rules of the Road Regulations, 1989."
+   },
+   "why": {
+    "en": "They are the road rules every driver must follow."
+   },
+   "recall_q": {
+    "en": "Under which section are the Driving Regulations 2017 made?"
+   },
+   "recall_a": {
+    "en": "Section 118 of the MV Act."
+   },
+   "explain_simple": {
+    "en": "Sec 118 → Driving Regulations 2017."
+   }
+  },
+  {
+   "id": "dl.regulations.f02",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The Driving Regulations 2017 replaced the old Rules of the Road Regulations, 1989."
+   },
+   "why": {
+    "en": "PSC trap: two different years for the old and new regulations."
+   },
+   "recall_q": {
+    "en": "Which regulations did the Driving Regulations 2017 replace?"
+   },
+   "recall_a": {
+    "en": "Rules of the Road Regulations, 1989."
+   },
+   "explain_simple": {
+    "en": "1989 rules → 2017 regulations."
+   }
+  },
+  {
+   "id": "dl.regulations.f03",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Breaking any driving regulation is punished under Section 177A: ₹500 for the first offence and ₹1,500 for later offences."
+   },
+   "why": {
+    "en": "This section was added by the 2019 amendment."
+   },
+   "recall_q": {
+    "en": "Penalty section for breaking the driving regulations?"
+   },
+   "recall_a": {
+    "en": "Section 177A (₹500, then ₹1,500)."
+   },
+   "explain_simple": {
+    "en": "Break road rules → Sec 177A fine."
+   }
+  },
+  {
+   "id": "dl.regulations.f04",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Keep left: a driver must drive as close to the left side of the road as is safe, and let oncoming traffic pass on the right."
+   },
+   "why": {
+    "en": "India drives on the left."
+   },
+   "recall_q": {
+    "en": "On which side should a vehicle normally be driven in India?"
+   },
+   "recall_a": {
+    "en": "Left side."
+   },
+   "explain_simple": {
+    "en": "Keep left."
+   }
+  },
+  {
+   "id": "dl.regulations.f05",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "On a one-way road, the driver must not drive against the direction of traffic. Reversing into a one-way road is also not allowed."
+   },
+   "why": {
+    "en": "Wrong-way driving causes head-on crashes."
+   },
+   "recall_q": {
+    "en": "Can you drive against the arrow on a one-way road?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "One way means one way."
+   }
+  },
+  {
+   "id": "dl.regulations.f06",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Turning left: keep close to the left edge before and after the turn."
+   },
+   "why": {
+    "en": "You do not cut across other lanes."
+   },
+   "recall_q": {
+    "en": "Lane position before turning left?"
+   },
+   "recall_a": {
+    "en": "Close to the left side of the road."
+   },
+   "explain_simple": {
+    "en": "Left turn from the left."
+   }
+  },
+  {
+   "id": "dl.regulations.f07",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Turning right: move close to the centre of the road (on a two-way road) before turning, and after turning keep to the left of the new road."
+   },
+   "why": {
+    "en": "Traffic behind can pass you on the left."
+   },
+   "recall_q": {
+    "en": "Lane position before turning right on a two-way road?"
+   },
+   "recall_a": {
+    "en": "Near the centre line of the road."
+   },
+   "explain_simple": {
+    "en": "Right turn from near the centre."
+   }
+  },
+  {
+   "id": "dl.regulations.f08",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Give the correct indicator signal before turning, changing lane, stopping or pulling out, early enough for others to see."
+   },
+   "why": {
+    "en": "Others must know what you plan to do."
+   },
+   "recall_q": {
+    "en": "When should you signal before a turn?"
+   },
+   "recall_a": {
+    "en": "Well before, in time for others to react."
+   },
+   "explain_simple": {
+    "en": "Signal early."
+   }
+  },
+  {
+   "id": "dl.regulations.f09",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Lane driving: on a road with lanes, drive inside one lane and change lanes only after signalling and checking it is safe."
+   },
+   "why": {
+    "en": "Weaving between lanes causes side crashes."
+   },
+   "recall_q": {
+    "en": "What must you do before changing lanes?"
+   },
+   "recall_a": {
+    "en": "Signal and check mirrors/blind spot."
+   },
+   "explain_simple": {
+    "en": "Stay in lane; signal to change."
+   }
+  },
+  {
+   "id": "dl.regulations.f10",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "On multi-lane roads, slow vehicles use the left lane. The right lane is mainly for overtaking and faster traffic."
+   },
+   "why": {
+    "en": "Slow vehicles in the right lane force others to overtake from the left."
+   },
+   "recall_q": {
+    "en": "Which lane should slow vehicles use on a multi-lane road?"
+   },
+   "recall_a": {
+    "en": "The left lane."
+   },
+   "explain_simple": {
+    "en": "Slow left, fast right."
+   }
+  },
+  {
+   "id": "dl.regulations.f11",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Overtaking is normally done from the right side of the vehicle in front."
+   },
+   "why": {
+    "en": "Oncoming traffic is on the right, so the driver can see it."
+   },
+   "recall_q": {
+    "en": "From which side should you normally overtake?"
+   },
+   "recall_a": {
+    "en": "The right side."
+   },
+   "explain_simple": {
+    "en": "Overtake from right."
+   }
+  },
+  {
+   "id": "dl.regulations.f12",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "You may overtake from the left only when the vehicle ahead has signalled a right turn and moved towards the centre."
+   },
+   "why": {
+    "en": "It has left the left side free."
+   },
+   "recall_q": {
+    "en": "When can you overtake from the left?"
+   },
+   "recall_a": {
+    "en": "When the vehicle ahead has signalled and moved to turn right."
+   },
+   "explain_simple": {
+    "en": "Left overtake only if front car turns right."
+   }
+  },
+  {
+   "id": "dl.regulations.f13",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not overtake: at bends, hill tops, junctions and pedestrian crossings; when the road ahead is not clearly visible; or where a solid line or sign forbids it."
+   },
+   "why": {
+    "en": "You cannot see what is coming."
+   },
+   "recall_q": {
+    "en": "Name two places where overtaking is not allowed."
+   },
+   "recall_a": {
+    "en": "Bends, hill tops, junctions, pedestrian crossings."
+   },
+   "explain_simple": {
+    "en": "No overtaking where you can't see."
+   }
+  },
+  {
+   "id": "dl.regulations.f14",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not overtake if the vehicle behind you has already started to overtake you."
+   },
+   "why": {
+    "en": "Two vehicles would be in the opposite lane together."
+   },
+   "recall_q": {
+    "en": "Can you overtake when someone behind is overtaking you?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Wait if someone is passing you."
+   }
+  },
+  {
+   "id": "dl.regulations.f15",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "When being overtaken, do not speed up. Keep left and slow a little if needed so the other driver can pass quickly."
+   },
+   "why": {
+    "en": "Speeding up traps the overtaking vehicle in the wrong lane."
+   },
+   "recall_q": {
+    "en": "What should you do when another vehicle overtakes you?"
+   },
+   "recall_a": {
+    "en": "Keep left and do not increase speed."
+   },
+   "explain_simple": {
+    "en": "Let them pass; don't race."
+   }
+  },
+  {
+   "id": "dl.regulations.f16",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "When overtaking a cyclist, pedestrian or animal, leave enough side gap and pass slowly."
+   },
+   "why": {
+    "en": "They can wobble or move suddenly."
+   },
+   "recall_q": {
+    "en": "How should you pass a cyclist?"
+   },
+   "recall_a": {
+    "en": "Slowly, with a wide gap."
+   },
+   "explain_simple": {
+    "en": "Give cyclists space."
+   }
+  },
+  {
+   "id": "dl.regulations.f17",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "At a junction without signals or signs, give way to traffic coming from your right."
+   },
+   "why": {
+    "en": "A fixed rule avoids confusion over who goes first."
+   },
+   "recall_q": {
+    "en": "At an uncontrolled junction, give way to traffic from which side?"
+   },
+   "recall_a": {
+    "en": "From the right."
+   },
+   "explain_simple": {
+    "en": "Unmarked junction: right side goes first."
+   }
+  },
+  {
+   "id": "dl.regulations.f18",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "When entering a main road from a side road, give way to the traffic on the main road."
+   },
+   "why": {
+    "en": "Main road traffic is faster and has priority."
+   },
+   "recall_q": {
+    "en": "Who has priority: side road or main road traffic?"
+   },
+   "recall_a": {
+    "en": "Main road traffic."
+   },
+   "explain_simple": {
+    "en": "Side road waits."
+   }
+  },
+  {
+   "id": "dl.regulations.f19",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "At a roundabout, give way to traffic already in the roundabout (coming from your right)."
+   },
+   "why": {
+    "en": "Traffic inside must keep moving."
+   },
+   "recall_q": {
+    "en": "At a roundabout, who has the right of way?"
+   },
+   "recall_a": {
+    "en": "Vehicles already inside the roundabout."
+   },
+   "explain_simple": {
+    "en": "Inside first, then you enter."
+   }
+  },
+  {
+   "id": "dl.regulations.f20",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "At a zebra crossing, stop and give way to pedestrians who are crossing or waiting to cross."
+   },
+   "why": {
+    "en": "Pedestrians are the most vulnerable road users."
+   },
+   "recall_q": {
+    "en": "Who has priority at a zebra crossing?"
+   },
+   "recall_a": {
+    "en": "Pedestrians."
+   },
+   "explain_simple": {
+    "en": "Zebra crossing: people first."
+   }
+  },
+  {
+   "id": "dl.regulations.f21",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Give free passage to emergency vehicles like ambulances and fire engines by moving to the left and stopping if needed."
+   },
+   "why": {
+    "en": "Lives depend on their speed."
+   },
+   "recall_q": {
+    "en": "What do you do when an ambulance with siren comes behind?"
+   },
+   "recall_a": {
+    "en": "Move to the left and give way."
+   },
+   "explain_simple": {
+    "en": "Ambulance: move left, let it go."
+   }
+  },
+  {
+   "id": "dl.regulations.f22",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Not giving way to emergency vehicles is an offence under Section 194E: ₹10,000 fine, imprisonment up to 6 months, or both."
+   },
+   "why": {
+    "en": "Added by the 2019 amendment."
+   },
+   "recall_q": {
+    "en": "Fine for not giving way to an ambulance?"
+   },
+   "recall_a": {
+    "en": "₹10,000 (Section 194E)."
+   },
+   "explain_simple": {
+    "en": "Block ambulance = ₹10,000 fine."
+   }
+  },
+  {
+   "id": "dl.regulations.f23",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "On narrow hill roads, the vehicle going downhill should give way to the vehicle going uphill."
+   },
+   "why": {
+    "en": "Starting again on a slope is harder for the uphill vehicle."
+   },
+   "recall_q": {
+    "en": "On a narrow hill road, who gives way?"
+   },
+   "recall_a": {
+    "en": "The vehicle going downhill."
+   },
+   "explain_simple": {
+    "en": "Downhill gives way to uphill."
+   }
+  },
+  {
+   "id": "dl.regulations.f24",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Never drive faster than the speed limit, and drive slower when the road, weather, traffic or light is poor."
+   },
+   "why": {
+    "en": "A safe speed depends on conditions, not only the sign."
+   },
+   "recall_q": {
+    "en": "Is it always safe to drive at the speed limit?"
+   },
+   "recall_a": {
+    "en": "No; adjust to conditions."
+   },
+   "explain_simple": {
+    "en": "Limit is the maximum, not the target."
+   }
+  },
+  {
+   "id": "dl.regulations.f25",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Speed limits are fixed under Section 112. Overspeeding is punished under Section 183: ₹1,000–2,000 for light vehicles and ₹2,000–4,000 for medium and heavy vehicles."
+   },
+   "why": {
+    "en": "These are 2019 fines."
+   },
+   "recall_q": {
+    "en": "Section for overspeeding penalty?"
+   },
+   "recall_a": {
+    "en": "Section 183."
+   },
+   "explain_simple": {
+    "en": "Speed limit 112, speeding fine 183."
+   }
+  },
+  {
+   "id": "dl.regulations.f26",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Keep a safe gap from the vehicle in front, enough to stop if it brakes suddenly. A simple guide is the two-second rule, doubled in rain."
+   },
+   "why": {
+    "en": "Most rear-end crashes come from tailgating."
+   },
+   "recall_q": {
+    "en": "Simple rule to keep a safe following distance?"
+   },
+   "recall_a": {
+    "en": "Two-second rule (more in rain)."
+   },
+   "explain_simple": {
+    "en": "Stay two seconds behind."
+   }
+  },
+  {
+   "id": "dl.regulations.f27",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Use the horn only when needed to warn. Do not sound it continuously, needlessly or in silence zones near hospitals, schools and courts."
+   },
+   "why": {
+    "en": "Noise disturbs people and patients."
+   },
+   "recall_q": {
+    "en": "Is horn use allowed in a silence zone?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Horn only when needed; never in silence zone."
+   }
+  },
+  {
+   "id": "dl.regulations.f28",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Multi-tone, pressure and unusually loud horns are not allowed. Using a horn in a silence zone is punished under Section 194F."
+   },
+   "why": {
+    "en": "Noise pollution control."
+   },
+   "recall_q": {
+    "en": "Section for using horn in a silence zone?"
+   },
+   "recall_a": {
+    "en": "Section 194F."
+   },
+   "explain_simple": {
+    "en": "Silence zone horn → Sec 194F."
+   }
+  },
+  {
+   "id": "dl.regulations.f29",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Dip the headlights when meeting oncoming traffic, when following another vehicle closely, and on well-lit city roads."
+   },
+   "why": {
+    "en": "High beam dazzles other drivers."
+   },
+   "recall_q": {
+    "en": "When must you dip your headlights?"
+   },
+   "recall_a": {
+    "en": "Meeting oncoming traffic or following another vehicle."
+   },
+   "explain_simple": {
+    "en": "Dip lights for others."
+   }
+  },
+  {
+   "id": "dl.regulations.f30",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Use hazard warning lights when your vehicle has broken down or stopped in an emergency on the road. Do not use them while driving normally."
+   },
+   "why": {
+    "en": "They warn others of a stopped vehicle."
+   },
+   "recall_q": {
+    "en": "When should hazard lights be used?"
+   },
+   "recall_a": {
+    "en": "When stopped in an emergency or broken down."
+   },
+   "explain_simple": {
+    "en": "Hazard lights = I am stopped, danger."
+   }
+  },
+  {
+   "id": "dl.regulations.f31",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Use fog lamps only in fog or poor visibility, along with low beam. High beam in fog reflects back and blinds you."
+   },
+   "why": {
+    "en": "Fog scatters strong light."
+   },
+   "recall_q": {
+    "en": "Which beam is used in fog?"
+   },
+   "recall_a": {
+    "en": "Low beam with fog lamps."
+   },
+   "explain_simple": {
+    "en": "Fog: low beam."
+   }
+  },
+  {
+   "id": "dl.regulations.f32",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hand signal for stop: raise the right forearm vertically outside the vehicle, palm facing forward."
+   },
+   "why": {
+    "en": "Used when indicators fail."
+   },
+   "recall_q": {
+    "en": "Hand signal for 'I am going to stop'?"
+   },
+   "recall_a": {
+    "en": "Right forearm raised vertically, palm forward."
+   },
+   "explain_simple": {
+    "en": "Arm up = stopping."
+   }
+  },
+  {
+   "id": "dl.regulations.f33",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hand signal for slowing down: extend the right arm with palm down and move it up and down several times."
+   },
+   "why": {
+    "en": "Warns the vehicle behind."
+   },
+   "recall_q": {
+    "en": "Hand signal for 'I am slowing down'?"
+   },
+   "recall_a": {
+    "en": "Right arm out, palm down, moved up and down."
+   },
+   "explain_simple": {
+    "en": "Arm flapping down = slowing."
+   }
+  },
+  {
+   "id": "dl.regulations.f34",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hand signal for turning right: extend the right arm straight out horizontally, palm facing forward."
+   },
+   "why": {
+    "en": "Arm points the way you are going."
+   },
+   "recall_q": {
+    "en": "Hand signal for a right turn?"
+   },
+   "recall_a": {
+    "en": "Right arm straight out, palm forward."
+   },
+   "explain_simple": {
+    "en": "Arm straight out = right turn."
+   }
+  },
+  {
+   "id": "dl.regulations.f35",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hand signal for turning left: extend the right arm and rotate it anticlockwise."
+   },
+   "why": {
+    "en": "The driver's left arm is not visible outside."
+   },
+   "recall_q": {
+    "en": "Hand signal for a left turn?"
+   },
+   "recall_a": {
+    "en": "Right arm extended and rotated anticlockwise."
+   },
+   "explain_simple": {
+    "en": "Arm circles = left turn."
+   }
+  },
+  {
+   "id": "dl.regulations.f36",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hand signal to let the vehicle behind overtake: extend the right arm below shoulder level and swing it backward and forward."
+   },
+   "why": {
+    "en": "Tells the driver behind it is safe to pass."
+   },
+   "recall_q": {
+    "en": "Hand signal inviting the vehicle behind to overtake?"
+   },
+   "recall_a": {
+    "en": "Right arm below shoulder, swung back and forth."
+   },
+   "explain_simple": {
+    "en": "Waving forward = please pass."
+   }
+  },
+  {
+   "id": "dl.regulations.f37",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not park at or near a junction, bend, hill top, bridge, pedestrian crossing, traffic light, bus stop or school and hospital entrance."
+   },
+   "why": {
+    "en": "Parked vehicles block view and movement there."
+   },
+   "recall_q": {
+    "en": "Name two places where parking is not allowed."
+   },
+   "recall_a": {
+    "en": "Junction, bend, bridge, pedestrian crossing, bus stop."
+   },
+   "explain_simple": {
+    "en": "Don't park where it blocks or hides."
+   }
+  },
+  {
+   "id": "dl.regulations.f38",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not park on a footpath, cycle track, on the wrong side, opposite another parked vehicle on a narrow road, near a fire hydrant, or where the kerb is painted yellow."
+   },
+   "why": {
+    "en": "These block people, emergency services or traffic."
+   },
+   "recall_q": {
+    "en": "Yellow-painted kerb means?"
+   },
+   "recall_a": {
+    "en": "No parking."
+   },
+   "explain_simple": {
+    "en": "Yellow kerb = no parking."
+   }
+  },
+  {
+   "id": "dl.regulations.f39",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Park on the left, parallel to the kerb unless marked otherwise. Switch off the engine, apply the parking brake and lock the vehicle."
+   },
+   "why": {
+    "en": "A safe, secure stop."
+   },
+   "recall_q": {
+    "en": "Two things to do after parking."
+   },
+   "recall_a": {
+    "en": "Switch off engine; apply parking brake."
+   },
+   "explain_simple": {
+    "en": "Engine off, handbrake on."
+   }
+  },
+  {
+   "id": "dl.regulations.f40",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not open a door without checking traffic. Open it slowly and get out on the footpath side where possible."
+   },
+   "why": {
+    "en": "Sudden doors hit cyclists and motorcyclists."
+   },
+   "recall_q": {
+    "en": "What must you check before opening the car door?"
+   },
+   "recall_a": {
+    "en": "That no traffic is coming."
+   },
+   "explain_simple": {
+    "en": "Look before opening door."
+   }
+  },
+  {
+   "id": "dl.regulations.f41",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Reverse only as much as needed, slowly, after checking behind. Do not reverse from a side road into a main road."
+   },
+   "why": {
+    "en": "View behind is poor."
+   },
+   "recall_q": {
+    "en": "Can you reverse into a main road from a side road?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Reverse little and slowly."
+   }
+  },
+  {
+   "id": "dl.regulations.f42",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not take a U-turn where it is prohibited, on busy roads or where you cannot see far in both directions."
+   },
+   "why": {
+    "en": "A U-turn crosses all lanes."
+   },
+   "recall_q": {
+    "en": "Is a U-turn allowed where a 'No U-turn' sign is shown?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "U-turn only when allowed and clear."
+   }
+  },
+  {
+   "id": "dl.regulations.f43",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not enter a yellow box junction unless your exit is clear. Stop behind the stop line at signals."
+   },
+   "why": {
+    "en": "Stopped vehicles in the box block all directions."
+   },
+   "recall_q": {
+    "en": "When can you enter a yellow box junction?"
+   },
+   "recall_a": {
+    "en": "Only when your exit is clear."
+   },
+   "explain_simple": {
+    "en": "Enter the box only if you can leave."
+   }
+  },
+  {
+   "id": "dl.regulations.f44",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not drive in a lane reserved for buses or other vehicles, and never drive on a footpath or cycle track."
+   },
+   "why": {
+    "en": "Those spaces belong to other road users."
+   },
+   "recall_q": {
+    "en": "Can a car use a bus lane?"
+   },
+   "recall_a": {
+    "en": "No (unless signs allow)."
+   },
+   "explain_simple": {
+    "en": "Keep out of special lanes."
+   }
+  },
+  {
+   "id": "dl.regulations.f45",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Towing: use a tow bar, rope or chain clearly visible to others, tow only one vehicle, and drive slowly (about 25 km/h)."
+   },
+   "why": {
+    "en": "The towed vehicle cannot brake well."
+   },
+   "recall_q": {
+    "en": "How many vehicles may be towed at once?"
+   },
+   "recall_a": {
+    "en": "Only one."
+   },
+   "explain_simple": {
+    "en": "Tow one, tow slow."
+   }
+  },
+  {
+   "id": "dl.regulations.f46",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not use a hand-held mobile phone while driving. Hands-free use for navigation is allowed if it does not distract."
+   },
+   "why": {
+    "en": "Phone use takes eyes and mind off the road."
+   },
+   "recall_q": {
+    "en": "Is hand-held mobile phone use allowed while driving?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Phone down while driving."
+   }
+  },
+  {
+   "id": "dl.regulations.f47",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hand-held phone use while driving is treated as dangerous driving under Section 184: ₹1,000–5,000 for the first offence."
+   },
+   "why": {
+    "en": "Added to Section 184 by the 2019 amendment."
+   },
+   "recall_q": {
+    "en": "Section for using a mobile phone while driving?"
+   },
+   "recall_a": {
+    "en": "Section 184 (dangerous driving)."
+   },
+   "explain_simple": {
+    "en": "Phone driving = dangerous driving."
+   }
+  },
+  {
+   "id": "dl.regulations.f48",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Driver and all passengers must wear seat belts. Two-wheeler riders and pillions above 4 years must wear helmets."
+   },
+   "why": {
+    "en": "Belts and helmets cut deaths sharply."
+   },
+   "recall_q": {
+    "en": "From what age must a pillion rider wear a helmet?"
+   },
+   "recall_a": {
+    "en": "Above 4 years."
+   },
+   "explain_simple": {
+    "en": "Belt in car, helmet on bike."
+   }
+  },
+  {
+   "id": "dl.regulations.f49",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Children aged 9 months to 4 years on a two-wheeler need a crash helmet and a safety harness, and the speed must not exceed 40 km/h."
+   },
+   "why": {
+    "en": "Rule added in 2022 to protect small children."
+   },
+   "recall_q": {
+    "en": "Speed limit when carrying a child below 4 on a two-wheeler?"
+   },
+   "recall_a": {
+    "en": "40 km/h."
+   },
+   "explain_simple": {
+    "en": "Small child on bike: harness, helmet, 40 km/h."
+   }
+  },
+  {
+   "id": "dl.regulations.f50",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A two-wheeler may carry only one pillion rider, seated on a proper seat behind the driver (Section 128)."
+   },
+   "why": {
+    "en": "Extra riders make the bike unstable."
+   },
+   "recall_q": {
+    "en": "Maximum pillion riders on a motorcycle?"
+   },
+   "recall_a": {
+    "en": "One."
+   },
+   "explain_simple": {
+    "en": "Rider + one."
+   }
+  },
+  {
+   "id": "dl.regulations.f51",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "At an unguarded railway level crossing, stop the vehicle, and the conductor or driver must walk to the crossing and check no train is coming (Section 131)."
+   },
+   "why": {
+    "en": "Trains cannot stop quickly."
+   },
+   "recall_q": {
+    "en": "Section on duty at unguarded railway crossings?"
+   },
+   "recall_a": {
+    "en": "Section 131."
+   },
+   "explain_simple": {
+    "en": "Stop, look, then cross the rail."
+   }
+  },
+  {
+   "id": "dl.regulations.f52",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Never drive after drinking alcohol. The legal limit is 30 mg of alcohol per 100 ml of blood (Section 185)."
+   },
+   "why": {
+    "en": "Alcohol slows reaction and judgement."
+   },
+   "recall_q": {
+    "en": "Legal blood alcohol limit for drivers?"
+   },
+   "recall_a": {
+    "en": "30 mg per 100 ml of blood."
+   },
+   "explain_simple": {
+    "en": "Above 30 mg/100 ml = drunk driving."
+   }
+  },
+  {
+   "id": "dl.regulations.f53",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not cut into or break through a funeral procession, military convoy or police procession."
+   },
+   "why": {
+    "en": "Respect and safety."
+   },
+   "recall_q": {
+    "en": "May you drive through a military convoy?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Don't break a convoy."
+   }
+  },
+  {
+   "id": "dl.regulations.f54",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not stop or park on the carriageway of a highway except in an emergency. A broken-down vehicle must show hazard lights and a warning triangle placed well behind."
+   },
+   "why": {
+    "en": "Fast traffic may hit a stopped vehicle."
+   },
+   "recall_q": {
+    "en": "What warning device is placed behind a broken-down vehicle?"
+   },
+   "recall_a": {
+    "en": "Red reflective warning triangle."
+   },
+   "explain_simple": {
+    "en": "Breakdown: hazard lights + triangle."
+   }
+  },
+  {
+   "id": "dl.regulations.f55",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "On roads divided by a median, never drive on the right half. Cross the median only at openings provided."
+   },
+   "why": {
+    "en": "That half is for opposite traffic."
+   },
+   "recall_q": {
+    "en": "On a divided road, can you use the right carriageway?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Stay on your side of the median."
+   }
+  },
+  {
+   "id": "dl.regulations.f56",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not carry a load that sticks out dangerously, blocks the driver's view, or is not tied securely."
+   },
+   "why": {
+    "en": "Loose or wide loads hurt others."
+   },
+   "recall_q": {
+    "en": "Can a load block the driver's view?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Load tied, low, not blocking view."
+   }
+  },
+  {
+   "id": "dl.regulations.f57",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Driving on the wrong side, jumping red lights and driving in the wrong direction on a one-way road are punished as dangerous driving (Section 184)."
+   },
+   "why": {
+    "en": "These cause head-on and side crashes."
+   },
+   "recall_q": {
+    "en": "Jumping a red light comes under which section?"
+   },
+   "recall_a": {
+    "en": "Section 184."
+   },
+   "explain_simple": {
+    "en": "Red light jumping = dangerous driving."
+   }
+  },
+  {
+   "id": "dl.regulations.f58",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: the regulations say 'give way to traffic from the right' at uncontrolled junctions, but at roundabouts this also means traffic already in the circle."
+   },
+   "why": {
+    "en": "Both rules point the same way."
+   },
+   "recall_q": {
+    "en": "Give-way side at uncontrolled junctions and roundabouts?"
+   },
+   "recall_a": {
+    "en": "Traffic on your right (already in the roundabout)."
+   },
+   "explain_simple": {
+    "en": "Right side first."
+   }
+  },
+  {
+   "id": "dl.regulations.sum",
+   "topic": "dl.regulations",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Motor Vehicles (Driving) Regulations, 2017"
+   },
+   "points": [
+    {
+     "en": "Made under Sec 118; replaced 1989 rules; breach Sec 177A."
+    },
+    {
+     "en": "Keep left; overtake from right; never at bends, hills, crossings."
+    },
+    {
+     "en": "Give way: right side, main road, roundabout, pedestrians, ambulances."
+    },
+    {
+     "en": "Hand signals: arm up stop, arm out right, arm circle left."
+    },
+    {
+     "en": "Alcohol 30 mg/100 ml; one pillion; helmet above 4 years."
+    }
+   ]
+  },
+  {
+   "id": "dl.licensing.f01",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Chapter II of the MV Act (Sections 3 to 28) deals with licensing of drivers of motor vehicles."
+   },
+   "why": {
+    "en": "This whole part of the syllabus comes from this chapter."
+   },
+   "recall_q": {
+    "en": "Which chapter and sections cover driving licences?"
+   },
+   "recall_a": {
+    "en": "Chapter II, Sections 3 to 28."
+   },
+   "explain_simple": {
+    "en": "Chapter II = driving licence."
+   }
+  },
+  {
+   "id": "dl.licensing.f02",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 3: no person shall drive a motor vehicle in a public place without an effective driving licence."
+   },
+   "why": {
+    "en": "Only tested people may drive."
+   },
+   "recall_q": {
+    "en": "Which section says a driving licence is necessary?"
+   },
+   "recall_a": {
+    "en": "Section 3."
+   },
+   "explain_simple": {
+    "en": "Sec 3: no licence, no driving."
+   }
+  },
+  {
+   "id": "dl.licensing.f03",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 3 also says a medium or heavy transport vehicle (bus, lorry) can be driven only if the licence specially allows it."
+   },
+   "why": {
+    "en": "Transport vehicles carry passengers or goods for hire."
+   },
+   "recall_q": {
+    "en": "Can a person with only an LMV licence drive a heavy bus?"
+   },
+   "recall_a": {
+    "en": "No; the licence must cover that transport vehicle."
+   },
+   "explain_simple": {
+    "en": "Transport vehicle needs the right licence."
+   }
+  },
+  {
+   "id": "dl.licensing.f04",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A learner can drive under Section 3 if they hold a learner's licence and follow its conditions, such as having an instructor and L plate."
+   },
+   "why": {
+    "en": "One must practise before a test."
+   },
+   "recall_q": {
+    "en": "Who may drive without a full DL?"
+   },
+   "recall_a": {
+    "en": "A learner's licence holder under its conditions."
+   },
+   "explain_simple": {
+    "en": "LL lets you practise."
+   }
+  },
+  {
+   "id": "dl.licensing.f05",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 4: minimum age to drive a motor vehicle in a public place is 18 years."
+   },
+   "why": {
+    "en": "Adults are expected to judge risk better."
+   },
+   "recall_q": {
+    "en": "Minimum age to drive a car?"
+   },
+   "recall_a": {
+    "en": "18 years (Section 4)."
+   },
+   "explain_simple": {
+    "en": "Car at 18."
+   }
+  },
+  {
+   "id": "dl.licensing.f06",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A person of 16 years can drive a motorcycle with engine up to 50 cc, after the age of 16, with consent of a parent or guardian."
+   },
+   "why": {
+    "en": "Small, slow bikes are allowed earlier."
+   },
+   "recall_q": {
+    "en": "Minimum age for a motorcycle up to 50 cc?"
+   },
+   "recall_a": {
+    "en": "16 years."
+   },
+   "explain_simple": {
+    "en": "50 cc at 16."
+   }
+  },
+  {
+   "id": "dl.licensing.f07",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 4: a transport vehicle can be driven only after the age of 20 years."
+   },
+   "why": {
+    "en": "More maturity for driving people and goods for hire."
+   },
+   "recall_q": {
+    "en": "Minimum age to drive a transport vehicle?"
+   },
+   "recall_a": {
+    "en": "20 years."
+   },
+   "explain_simple": {
+    "en": "Bus or lorry at 20."
+   }
+  },
+  {
+   "id": "dl.licensing.f08",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 5: an owner must not let a person drive their vehicle unless that person has a valid licence and meets the age rules."
+   },
+   "why": {
+    "en": "Owners are also responsible."
+   },
+   "recall_q": {
+    "en": "Which section stops owners letting unlicensed people drive?"
+   },
+   "recall_a": {
+    "en": "Section 5."
+   },
+   "explain_simple": {
+    "en": "Sec 5: owner must check licence."
+   }
+  },
+  {
+   "id": "dl.licensing.f09",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Penalty for owner allowing an unauthorised person to drive is under Section 180: up to ₹5,000, imprisonment up to 3 months, or both."
+   },
+   "why": {
+    "en": "2019 fines."
+   },
+   "recall_q": {
+    "en": "Section for owner allowing an unlicensed driver?"
+   },
+   "recall_a": {
+    "en": "Section 180."
+   },
+   "explain_simple": {
+    "en": "Owner's mistake → Sec 180."
+   }
+  },
+  {
+   "id": "dl.licensing.f10",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Driving without a licence or under age (against Sections 3 or 4) is punished under Section 181: up to ₹5,000, imprisonment up to 3 months, or both."
+   },
+   "why": {
+    "en": "2019 amendment raised the fine from ₹500."
+   },
+   "recall_q": {
+    "en": "Fine for driving without a licence?"
+   },
+   "recall_a": {
+    "en": "Up to ₹5,000 (Section 181)."
+   },
+   "explain_simple": {
+    "en": "No licence → Sec 181, ₹5,000."
+   }
+  },
+  {
+   "id": "dl.licensing.f11",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 6: a person shall not hold more than one driving licence, and cannot get one while disqualified."
+   },
+   "why": {
+    "en": "Stops people hiding offences under a second licence."
+   },
+   "recall_q": {
+    "en": "How many driving licences can a person hold?"
+   },
+   "recall_a": {
+    "en": "Only one (Section 6)."
+   },
+   "explain_simple": {
+    "en": "One person, one licence."
+   }
+  },
+  {
+   "id": "dl.licensing.f12",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 6 also says a licence holder must not let anyone else use their licence."
+   },
+   "why": {
+    "en": "The licence proves the holder's own skill."
+   },
+   "recall_q": {
+    "en": "Can you lend your driving licence to another person?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Licence can't be lent."
+   }
+  },
+  {
+   "id": "dl.licensing.f13",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 7 restricts learner's licences for certain vehicles. A 16-year-old can get a learner's licence only for a motorcycle up to 50 cc, with guardian consent."
+   },
+   "why": {
+    "en": "Age rules apply to learners too."
+   },
+   "recall_q": {
+    "en": "What learner's licence can a 16-year-old get?"
+   },
+   "recall_a": {
+    "en": "Motorcycle up to 50 cc, with guardian's consent."
+   },
+   "explain_simple": {
+    "en": "16: only small bike LL."
+   }
+  },
+  {
+   "id": "dl.licensing.f14",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 8: the licensing authority grants a learner's licence after the applicant passes a test on traffic rules, signs and duties."
+   },
+   "why": {
+    "en": "Knowledge first, then practice."
+   },
+   "recall_q": {
+    "en": "Which section covers grant of learner's licence?"
+   },
+   "recall_a": {
+    "en": "Section 8."
+   },
+   "explain_simple": {
+    "en": "Sec 8 = learner's licence."
+   }
+  },
+  {
+   "id": "dl.licensing.f15",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An applicant can apply for a learner's licence to any licensing authority in the State where they live or work."
+   },
+   "why": {
+    "en": "Convenience for people working away from home."
+   },
+   "recall_q": {
+    "en": "Where can you apply for a learner's licence?"
+   },
+   "recall_a": {
+    "en": "Any licensing authority in the State where you live or work."
+   },
+   "explain_simple": {
+    "en": "Apply where you live or work."
+   }
+  },
+  {
+   "id": "dl.licensing.f16",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Medical certificate (Form 1A, by a registered doctor) is needed for a transport vehicle licence and for applicants above 40 years. Others give a self-declaration of fitness."
+   },
+   "why": {
+    "en": "Health affects safe driving."
+   },
+   "recall_q": {
+    "en": "Who must submit a medical certificate for a DL?"
+   },
+   "recall_a": {
+    "en": "Transport vehicle applicants and those above 40."
+   },
+   "explain_simple": {
+    "en": "Over 40 or transport: doctor's certificate."
+   }
+  },
+  {
+   "id": "dl.licensing.f17",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A learner's licence is valid for 6 months."
+   },
+   "why": {
+    "en": "Enough time to learn and take the test."
+   },
+   "recall_q": {
+    "en": "Validity of a learner's licence?"
+   },
+   "recall_a": {
+    "en": "6 months."
+   },
+   "explain_simple": {
+    "en": "LL lasts 6 months."
+   }
+  },
+  {
+   "id": "dl.licensing.f18",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A learner can take the driving test only after 30 days from the date the learner's licence was issued, and within its 6-month validity."
+   },
+   "why": {
+    "en": "Gives time to practise."
+   },
+   "recall_q": {
+    "en": "Earliest time after LL to take the driving test?"
+   },
+   "recall_a": {
+    "en": "After 30 days."
+   },
+   "explain_simple": {
+    "en": "Wait 30 days, then test."
+   }
+  },
+  {
+   "id": "dl.licensing.f19",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A learner must show an 'L' plate (red L on white) on the front and back of the vehicle."
+   },
+   "why": {
+    "en": "Others know to be careful."
+   },
+   "recall_q": {
+    "en": "What plate must a learner display?"
+   },
+   "recall_a": {
+    "en": "L plate: red L on white background."
+   },
+   "explain_simple": {
+    "en": "Red L = learner."
+   }
+  },
+  {
+   "id": "dl.licensing.f20",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A learner driving a car must have an instructor with a valid licence sitting beside them. A learner on a motorcycle may carry only an instructor as pillion."
+   },
+   "why": {
+    "en": "An expert can stop mistakes."
+   },
+   "recall_q": {
+    "en": "Who must sit beside a learner in a car?"
+   },
+   "recall_a": {
+    "en": "A person holding a valid DL for that vehicle."
+   },
+   "explain_simple": {
+    "en": "Learner needs a licensed helper."
+   }
+  },
+  {
+   "id": "dl.licensing.f21",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 9: a driving licence is granted after the applicant passes a test of competence to drive (driving test)."
+   },
+   "why": {
+    "en": "Proves real driving skill."
+   },
+   "recall_q": {
+    "en": "Which section covers grant of driving licence?"
+   },
+   "recall_a": {
+    "en": "Section 9."
+   },
+   "explain_simple": {
+    "en": "Sec 9 = driving licence."
+   }
+  },
+  {
+   "id": "dl.licensing.f22",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Those who pass from an accredited driver training centre can be exempted from the driving test at the RTO (2019 amendment)."
+   },
+   "why": {
+    "en": "Well-trained drivers from approved centres."
+   },
+   "recall_q": {
+    "en": "Who can be exempted from the RTO driving test?"
+   },
+   "recall_a": {
+    "en": "Those certified by an accredited driver training centre."
+   },
+   "explain_simple": {
+    "en": "Approved school pass = no RTO test."
+   }
+  },
+  {
+   "id": "dl.licensing.f23",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Traditional Kerala test: 'H' track for four-wheelers and figure '8' track for two-wheelers, followed by a road test. Kerala revised the test pattern in 2024."
+   },
+   "why": {
+    "en": "Check the current Kerala test before the exam."
+   },
+   "recall_q": {
+    "en": "Traditional test track for two-wheelers?"
+   },
+   "recall_a": {
+    "en": "Figure 8 track."
+   },
+   "explain_simple": {
+    "en": "Car H, bike 8."
+   }
+  },
+  {
+   "id": "dl.licensing.f24",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 10 gives the form and contents of licences and the classes of vehicles a licence can cover."
+   },
+   "why": {
+    "en": "The licence says exactly what you may drive."
+   },
+   "recall_q": {
+    "en": "Which section lists the classes of vehicles in a licence?"
+   },
+   "recall_a": {
+    "en": "Section 10."
+   },
+   "explain_simple": {
+    "en": "Sec 10 = classes."
+   }
+  },
+  {
+   "id": "dl.licensing.f25",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Classes under Section 10(2): motorcycle without gear, motorcycle with gear, invalid carriage, light motor vehicle, transport vehicle, e-cart or e-rickshaw, road roller, and vehicle of a specified description."
+   },
+   "why": {
+    "en": "PSC often asks to list or match these classes."
+   },
+   "recall_q": {
+    "en": "Name four classes of DL under Section 10."
+   },
+   "recall_a": {
+    "en": "MCWOG, MCWG, LMV, transport vehicle (also invalid carriage, e-rickshaw, road roller)."
+   },
+   "explain_simple": {
+    "en": "Bike, car, transport, special."
+   }
+  },
+  {
+   "id": "dl.licensing.f26",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The e-cart and e-rickshaw class was added by the 2015 amendment."
+   },
+   "why": {
+    "en": "These vehicles became common in cities."
+   },
+   "recall_q": {
+    "en": "Which licence class was added in 2015?"
+   },
+   "recall_a": {
+    "en": "E-cart or e-rickshaw."
+   },
+   "explain_simple": {
+    "en": "2015 added e-rickshaw class."
+   }
+  },
+  {
+   "id": "dl.licensing.f27",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "LMV (light motor vehicle) is a vehicle with gross vehicle weight up to 7,500 kg. Cars, jeeps and small goods vehicles fall in this class."
+   },
+   "why": {
+    "en": "Class depends on weight."
+   },
+   "recall_q": {
+    "en": "Maximum GVW of a light motor vehicle?"
+   },
+   "recall_a": {
+    "en": "7,500 kg."
+   },
+   "explain_simple": {
+    "en": "LMV up to 7.5 tonnes."
+   }
+  },
+  {
+   "id": "dl.licensing.f28",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Supreme Court (Mukund Dewangan case, 2017; upheld 2024): an LMV licence holder can drive a transport vehicle of LMV class (GVW up to 7,500 kg) without separate endorsement."
+   },
+   "why": {
+    "en": "Common recent PSC question; check current law."
+   },
+   "recall_q": {
+    "en": "Can an LMV licence holder drive a light transport vehicle under 7,500 kg?"
+   },
+   "recall_a": {
+    "en": "Yes, as per Supreme Court (Mukund Dewangan)."
+   },
+   "explain_simple": {
+    "en": "Light taxi OK with LMV licence."
+   }
+  },
+  {
+   "id": "dl.licensing.f29",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 11: a licence holder can apply to add another class of vehicle to their licence."
+   },
+   "why": {
+    "en": "No need for a new licence."
+   },
+   "recall_q": {
+    "en": "Which section covers adding a vehicle class to a DL?"
+   },
+   "recall_a": {
+    "en": "Section 11."
+   },
+   "explain_simple": {
+    "en": "Sec 11 = add a class."
+   }
+  },
+  {
+   "id": "dl.licensing.f30",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 12: licensing and regulation of driving schools. The 2019 amendment added accredited driver training centres."
+   },
+   "why": {
+    "en": "Good training makes safe drivers."
+   },
+   "recall_q": {
+    "en": "Which section controls driving schools?"
+   },
+   "recall_a": {
+    "en": "Section 12."
+   },
+   "explain_simple": {
+    "en": "Sec 12 = driving schools."
+   }
+  },
+  {
+   "id": "dl.licensing.f31",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 13: a learner's licence or driving licence issued in any State is valid throughout India."
+   },
+   "why": {
+    "en": "One licence for the whole country."
+   },
+   "recall_q": {
+    "en": "Is a Kerala DL valid in Tamil Nadu?"
+   },
+   "recall_a": {
+    "en": "Yes, valid all over India (Section 13)."
+   },
+   "explain_simple": {
+    "en": "One licence, all India."
+   }
+  },
+  {
+   "id": "dl.licensing.f32",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 14 gives the validity (currency) of licences."
+   },
+   "why": {
+    "en": "Licences must be renewed to check fitness."
+   },
+   "recall_q": {
+    "en": "Which section gives the validity of licences?"
+   },
+   "recall_a": {
+    "en": "Section 14."
+   },
+   "explain_simple": {
+    "en": "Sec 14 = how long it lasts."
+   }
+  },
+  {
+   "id": "dl.licensing.f33",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Transport vehicle licence is valid for 5 years (2019). For vehicles carrying hazardous goods it is valid for 3 years."
+   },
+   "why": {
+    "en": "Professional drivers are checked more often."
+   },
+   "recall_q": {
+    "en": "Validity of a transport vehicle licence?"
+   },
+   "recall_a": {
+    "en": "5 years (hazardous goods: 3 years)."
+   },
+   "explain_simple": {
+    "en": "Transport 5 years; hazardous 3."
+   }
+  },
+  {
+   "id": "dl.licensing.f34",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Non-transport licence validity: if taken before 30 years of age, valid till the holder turns 40."
+   },
+   "why": {
+    "en": "Young drivers are checked again at 40."
+   },
+   "recall_q": {
+    "en": "A 22-year-old gets an LMV-NT licence. Valid till?"
+   },
+   "recall_a": {
+    "en": "Till age 40."
+   },
+   "explain_simple": {
+    "en": "Before 30 → valid till 40."
+   }
+  },
+  {
+   "id": "dl.licensing.f35",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Non-transport licence taken between 30 and 50 years is valid for 10 years."
+   },
+   "why": {
+    "en": "Middle age, regular check every 10 years."
+   },
+   "recall_q": {
+    "en": "Licence taken at 35 is valid for how long?"
+   },
+   "recall_a": {
+    "en": "10 years."
+   },
+   "explain_simple": {
+    "en": "30 to 50 → 10 years."
+   }
+  },
+  {
+   "id": "dl.licensing.f36",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Non-transport licence taken between 50 and 55 is valid till the holder turns 60. Taken after 55, it is valid for 5 years."
+   },
+   "why": {
+    "en": "Older drivers need more frequent checks."
+   },
+   "recall_q": {
+    "en": "Licence taken at 57 is valid for?"
+   },
+   "recall_a": {
+    "en": "5 years."
+   },
+   "explain_simple": {
+    "en": "50–55 till 60; above 55 for 5 years."
+   }
+  },
+  {
+   "id": "dl.licensing.s01",
+   "topic": "dl.licensing",
+   "type": "steps",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: validity of a non-transport DL"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: Ravi gets an LMV licence at age 28. Till when is it valid?"
+     }
+    },
+    {
+     "text": {
+      "en": "Age is below 30, so the rule is: valid until age 40."
+     }
+    },
+    {
+     "text": {
+      "en": "So it expires on his 40th birthday; he must renew it then."
+     }
+    },
+    {
+     "text": {
+      "en": "On renewal at 40, the 30–50 rule gives 10 years."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "<30: till 40. 30–50: 10 years."
+    },
+    {
+     "en": "50–55: till 60. >55: 5 years."
+    }
+   ],
+   "recall_q": {
+    "en": "LMV licence at 28 is valid till?"
+   },
+   "recall_a": {
+    "en": "Age 40."
+   }
+  },
+  {
+   "id": "dl.licensing.f37",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 15 deals with renewal of driving licences."
+   },
+   "why": {
+    "en": "An expired licence is not effective."
+   },
+   "recall_q": {
+    "en": "Which section covers DL renewal?"
+   },
+   "recall_a": {
+    "en": "Section 15."
+   },
+   "explain_simple": {
+    "en": "Sec 15 = renewal."
+   }
+  },
+  {
+   "id": "dl.licensing.f38",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "You can apply for renewal up to one year before expiry or within one year after expiry. After one year from expiry, a fresh driving test is needed."
+   },
+   "why": {
+    "en": "A long gap may mean lost skill."
+   },
+   "recall_q": {
+    "en": "Renewal applied 18 months after expiry needs what?"
+   },
+   "recall_a": {
+    "en": "A fresh test of competence."
+   },
+   "explain_simple": {
+    "en": "Late over 1 year → test again."
+   }
+  },
+  {
+   "id": "dl.licensing.f39",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 16: the licensing authority can revoke a licence if the holder has a disease or disability that makes driving dangerous."
+   },
+   "why": {
+    "en": "Public safety comes first."
+   },
+   "recall_q": {
+    "en": "Section for revoking DL on grounds of disease or disability?"
+   },
+   "recall_a": {
+    "en": "Section 16."
+   },
+   "explain_simple": {
+    "en": "Sec 16: unfit health → licence cancelled."
+   }
+  },
+  {
+   "id": "dl.licensing.f40",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 17: an order refusing or revoking a licence must give reasons. The person can appeal against it."
+   },
+   "why": {
+    "en": "Natural justice."
+   },
+   "recall_q": {
+    "en": "Which section allows appeal against refusal or revocation of DL?"
+   },
+   "recall_a": {
+    "en": "Section 17."
+   },
+   "explain_simple": {
+    "en": "Sec 17: you can appeal."
+   }
+  },
+  {
+   "id": "dl.licensing.f41",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 18: licences to drive motor vehicles belonging to the Central Government, such as defence vehicles."
+   },
+   "why": {
+    "en": "Defence drivers have their own licensing system."
+   },
+   "recall_q": {
+    "en": "Section for licences to drive Central Government vehicles?"
+   },
+   "recall_a": {
+    "en": "Section 18."
+   },
+   "explain_simple": {
+    "en": "Sec 18 = government/defence vehicles."
+   }
+  },
+  {
+   "id": "dl.licensing.f42",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 19: the licensing authority can disqualify a person from holding a licence or revoke it, after giving them a chance to be heard."
+   },
+   "why": {
+    "en": "Dangerous drivers must be stopped."
+   },
+   "recall_q": {
+    "en": "Which section lets the licensing authority disqualify a driver?"
+   },
+   "recall_a": {
+    "en": "Section 19."
+   },
+   "explain_simple": {
+    "en": "Sec 19 = authority disqualifies."
+   }
+  },
+  {
+   "id": "dl.licensing.f43",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Grounds under Section 19: habitual criminal or drunkard, drug addict, using the vehicle for a crime, dangerous driving record, licence obtained by fraud, or refusing a test."
+   },
+   "why": {
+    "en": "These show the person is unsafe."
+   },
+   "recall_q": {
+    "en": "Give two grounds for disqualification under Section 19."
+   },
+   "recall_a": {
+    "en": "Habitual drunkard, licence by fraud, vehicle used for crime."
+   },
+   "explain_simple": {
+    "en": "Bad record or fraud → disqualified."
+   }
+  },
+  {
+   "id": "dl.licensing.f44",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 19(1A) (2019): for offences like overspeeding, dangerous driving, drunk driving, overloading and not wearing seat belt or helmet, the licence can be suspended for at least 3 months."
+   },
+   "why": {
+    "en": "Fines alone did not stop repeat offenders."
+   },
+   "recall_q": {
+    "en": "Minimum DL suspension for drunk driving under Section 19(1A)?"
+   },
+   "recall_a": {
+    "en": "3 months."
+   },
+   "explain_simple": {
+    "en": "Serious offence → 3 months suspension."
+   }
+  },
+  {
+   "id": "dl.licensing.f45",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The authority may also order the driver to complete a driver refresher training course before getting the licence back."
+   },
+   "why": {
+    "en": "Retraining improves behaviour."
+   },
+   "recall_q": {
+    "en": "What course can be ordered after suspension?"
+   },
+   "recall_a": {
+    "en": "Driver refresher training course."
+   },
+   "explain_simple": {
+    "en": "Back to school before driving again."
+   }
+  },
+  {
+   "id": "dl.licensing.f46",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 20 lets a court disqualify a person from holding a licence when convicting them of certain offences."
+   },
+   "why": {
+    "en": "Courts can also stop dangerous drivers."
+   },
+   "recall_q": {
+    "en": "Which section lets a court disqualify a driver?"
+   },
+   "recall_a": {
+    "en": "Section 20."
+   },
+   "explain_simple": {
+    "en": "Sec 20 = court disqualifies."
+   }
+  },
+  {
+   "id": "dl.licensing.f47",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 22: suspension or cancellation of a licence on conviction for certain offences, such as causing death or grievous hurt with a vehicle."
+   },
+   "why": {
+    "en": "Serious harm means loss of driving rights."
+   },
+   "recall_q": {
+    "en": "Section for suspension or cancellation of DL on conviction?"
+   },
+   "recall_a": {
+    "en": "Section 22."
+   },
+   "explain_simple": {
+    "en": "Convicted → licence suspended."
+   }
+  },
+  {
+   "id": "dl.licensing.f48",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 23: a disqualified person cannot hold or get a licence during the period of disqualification. Their licence has no effect."
+   },
+   "why": {
+    "en": "Disqualification must be real."
+   },
+   "recall_q": {
+    "en": "Effect of a disqualification order?"
+   },
+   "recall_a": {
+    "en": "Licence is ineffective; no new licence during the period."
+   },
+   "explain_simple": {
+    "en": "Disqualified = no licence at all."
+   }
+  },
+  {
+   "id": "dl.licensing.f49",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Driving while disqualified is punished under Section 182: ₹10,000 fine, imprisonment up to 3 months, or both."
+   },
+   "why": {
+    "en": "2019 raised the fine."
+   },
+   "recall_q": {
+    "en": "Fine for driving while disqualified?"
+   },
+   "recall_a": {
+    "en": "₹10,000 (Section 182)."
+   },
+   "explain_simple": {
+    "en": "Disqualified and driving → ₹10,000."
+   }
+  },
+  {
+   "id": "dl.licensing.f50",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 24: endorsement. The court or authority records the conviction or disqualification on the driving licence."
+   },
+   "why": {
+    "en": "A licence shows the driver's record."
+   },
+   "recall_q": {
+    "en": "Recording of an offence on a DL is called?"
+   },
+   "recall_a": {
+    "en": "Endorsement (Section 24)."
+   },
+   "explain_simple": {
+    "en": "Endorsement = offence written on licence."
+   }
+  },
+  {
+   "id": "dl.licensing.f51",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 25: endorsements move to any new licence. After a set period without further offences, a clean licence can be issued."
+   },
+   "why": {
+    "en": "Records follow the driver, but good behaviour is rewarded."
+   },
+   "recall_q": {
+    "en": "Do endorsements carry over to a new licence?"
+   },
+   "recall_a": {
+    "en": "Yes (Section 25)."
+   },
+   "explain_simple": {
+    "en": "Record follows you."
+   }
+  },
+  {
+   "id": "dl.licensing.f52",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 25A (2019): National Register of Driving Licences. All State registers feed into it; it runs on the Sarathi system."
+   },
+   "why": {
+    "en": "One national record stops duplicate and fake licences."
+   },
+   "recall_q": {
+    "en": "Which section created the National Register of Driving Licences?"
+   },
+   "recall_a": {
+    "en": "Section 25A."
+   },
+   "explain_simple": {
+    "en": "One online register for India."
+   }
+  },
+  {
+   "id": "dl.licensing.f53",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Sarathi is the online system for licences; Vahan is the online system for vehicle registration."
+   },
+   "why": {
+    "en": "PSC asks which portal does what."
+   },
+   "recall_q": {
+    "en": "Online portal for driving licences?"
+   },
+   "recall_a": {
+    "en": "Sarathi (Vahan is for vehicles)."
+   },
+   "explain_simple": {
+    "en": "Sarathi = licence; Vahan = vehicle."
+   }
+  },
+  {
+   "id": "dl.licensing.f54",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 27: power of the Central Government to make rules on licensing (tests, forms, fees, medical standards)."
+   },
+   "why": {
+    "en": "Common rules for all of India."
+   },
+   "recall_q": {
+    "en": "Section giving Central Government power to make rules for Chapter II?"
+   },
+   "recall_a": {
+    "en": "Section 27."
+   },
+   "explain_simple": {
+    "en": "Sec 27 = central rules."
+   }
+  },
+  {
+   "id": "dl.licensing.f55",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 28: power of the State Government to make rules for Chapter II, like licensing authorities and appeals."
+   },
+   "why": {
+    "en": "States handle local details."
+   },
+   "recall_q": {
+    "en": "Section giving State Government rule-making power for Chapter II?"
+   },
+   "recall_a": {
+    "en": "Section 28."
+   },
+   "explain_simple": {
+    "en": "Sec 28 = state rules."
+   }
+  },
+  {
+   "id": "dl.licensing.f56",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Licensing authority is the officer authorised by the State to issue licences, usually the RTO or Joint RTO."
+   },
+   "why": {
+    "en": "AMVIs work under them."
+   },
+   "recall_q": {
+    "en": "Who is the licensing authority in Kerala?"
+   },
+   "recall_a": {
+    "en": "RTO / Joint RTO."
+   },
+   "explain_simple": {
+    "en": "RTO gives licences."
+   }
+  },
+  {
+   "id": "dl.licensing.f57",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Driving licence can be held in electronic form (DigiLocker or mParivahan). A smart card DL is also issued."
+   },
+   "why": {
+    "en": "Easy to carry and check."
+   },
+   "recall_q": {
+    "en": "Is an electronic DL in DigiLocker valid?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "DL on phone is valid."
+   }
+  },
+  {
+   "id": "dl.licensing.f58",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An International Driving Permit (IDP) is issued by the licensing authority to Indian licence holders for driving abroad. It is valid for one year."
+   },
+   "why": {
+    "en": "Many countries need it with the Indian licence."
+   },
+   "recall_q": {
+    "en": "Validity of an International Driving Permit?"
+   },
+   "recall_a": {
+    "en": "One year."
+   },
+   "explain_simple": {
+    "en": "IDP for abroad, 1 year."
+   }
+  },
+  {
+   "id": "dl.licensing.f59",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Juvenile offence (Section 199A): if a minor drives, the guardian or owner is guilty: ₹25,000 fine and up to 3 years' imprisonment. The vehicle's RC is cancelled for 12 months."
+   },
+   "why": {
+    "en": "Stops parents giving vehicles to children."
+   },
+   "recall_q": {
+    "en": "Fine on guardian when a juvenile drives?"
+   },
+   "recall_a": {
+    "en": "₹25,000 (Section 199A)."
+   },
+   "explain_simple": {
+    "en": "Child drives → parent pays ₹25,000."
+   }
+  },
+  {
+   "id": "dl.licensing.f60",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 199A, a juvenile who commits a driving offence cannot get a learner's or driving licence until age 25."
+   },
+   "why": {
+    "en": "A strong warning to young offenders."
+   },
+   "recall_q": {
+    "en": "Till what age is the juvenile offender barred from a licence?"
+   },
+   "recall_a": {
+    "en": "25 years."
+   },
+   "explain_simple": {
+    "en": "Juvenile offender: no licence till 25."
+   }
+  },
+  {
+   "id": "dl.licensing.f61",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: Section 3 is about need for a licence; Section 4 is about age. Section 5 is owner's duty; Section 6 is one licence only."
+   },
+   "why": {
+    "en": "Options often swap these numbers."
+   },
+   "recall_q": {
+    "en": "Age limit is in Section 3 or 4?"
+   },
+   "recall_a": {
+    "en": "Section 4."
+   },
+   "explain_simple": {
+    "en": "3 need, 4 age, 5 owner, 6 only one."
+   }
+  },
+  {
+   "id": "dl.licensing.f62",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: Section 8 is learner's licence; Section 9 is driving licence; Section 10 is classes; Section 11 is adding a class."
+   },
+   "why": {
+    "en": "Easy to mix up in matching questions."
+   },
+   "recall_q": {
+    "en": "Learner's licence is granted under which section?"
+   },
+   "recall_a": {
+    "en": "Section 8."
+   },
+   "explain_simple": {
+    "en": "8 LL, 9 DL, 10 classes, 11 add."
+   }
+  },
+  {
+   "id": "dl.licensing.sum",
+   "topic": "dl.licensing",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Licensing of drivers: MV Act sections 3 to 28"
+   },
+   "points": [
+    {
+     "en": "Sec 3 need licence; 4 age (16/18/20); 5 owner; 6 one licence."
+    },
+    {
+     "en": "Sec 8 LL (6 months); 9 DL (test after 30 days); 10 classes."
+    },
+    {
+     "en": "Sec 14 validity: <30 till 40; 30–50 10 yrs; transport 5 yrs."
+    },
+    {
+     "en": "Sec 15 renewal; late >1 year = retest."
+    },
+    {
+     "en": "Sec 19 authority disqualifies; 20 court; 24 endorsement; 25A national register."
+    }
+   ]
+  },
   {
    "id": "u1.properties.f01",
    "topic": "u1.properties",
@@ -36796,6 +39677,306 @@
   }
  ],
  "questions": [
+  {
+   "id": "q.practice.dl.1",
+   "topic": "dl.regulations",
+   "kind": "mcq",
+   "q": {
+    "en": "The Motor Vehicles (Driving) Regulations, 2017 were made under section"
+   },
+   "options": [
+    {
+     "en": "110"
+    },
+    {
+     "en": "112"
+    },
+    {
+     "en": "118"
+    },
+    {
+     "en": "129"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Section 118 empowers the Centre to make driving regulations."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "dl.regulations.f01"
+   ]
+  },
+  {
+   "id": "q.practice.dl.2",
+   "topic": "dl.regulations",
+   "kind": "mcq",
+   "q": {
+    "en": "Normally overtaking should be done from the"
+   },
+   "options": [
+    {
+     "en": "Left side"
+    },
+    {
+     "en": "Right side"
+    },
+    {
+     "en": "Either side"
+    },
+    {
+     "en": "Footpath side"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Overtake from the right; left only if the vehicle ahead is turning right."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "dl.regulations.f11"
+   ]
+  },
+  {
+   "id": "q.practice.dl.3",
+   "topic": "dl.regulations",
+   "kind": "mcq",
+   "q": {
+    "en": "Hand signal with right arm extended and rotated anticlockwise means"
+   },
+   "options": [
+    {
+     "en": "I am turning right"
+    },
+    {
+     "en": "I am turning left"
+    },
+    {
+     "en": "I am stopping"
+    },
+    {
+     "en": "Please overtake"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Anticlockwise rotation of the right arm = left turn."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "dl.regulations.f35"
+   ]
+  },
+  {
+   "id": "q.practice.dl.4",
+   "topic": "dl.regulations",
+   "kind": "mcq",
+   "q": {
+    "en": "On a narrow hill road, right of way is for the vehicle"
+   },
+   "options": [
+    {
+     "en": "Going downhill"
+    },
+    {
+     "en": "Going uphill"
+    },
+    {
+     "en": "That is larger"
+    },
+    {
+     "en": "That arrives first"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Downhill gives way to uphill."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "dl.regulations.f23"
+   ]
+  },
+  {
+   "id": "q.practice.dl.5",
+   "topic": "dl.regulations",
+   "kind": "mcq",
+   "q": {
+    "en": "Penalty for violation of driving regulations is provided in section"
+   },
+   "options": [
+    {
+     "en": "177"
+    },
+    {
+     "en": "177A"
+    },
+    {
+     "en": "184"
+    },
+    {
+     "en": "194"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Section 177A: ₹500 first, ₹1,500 later."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "dl.regulations.f03"
+   ]
+  },
+  {
+   "id": "q.practice.dl.6",
+   "topic": "dl.licensing",
+   "kind": "mcq",
+   "q": {
+    "en": "Minimum age for driving a motorcycle with engine capacity not exceeding 50 cc is"
+   },
+   "options": [
+    {
+     "en": "14"
+    },
+    {
+     "en": "16"
+    },
+    {
+     "en": "18"
+    },
+    {
+     "en": "20"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "16 years with guardian's consent."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "dl.licensing.f06"
+   ]
+  },
+  {
+   "id": "q.practice.dl.7",
+   "topic": "dl.licensing",
+   "kind": "mcq",
+   "q": {
+    "en": "Validity of a learner's licence is"
+   },
+   "options": [
+    {
+     "en": "3 months"
+    },
+    {
+     "en": "6 months"
+    },
+    {
+     "en": "1 year"
+    },
+    {
+     "en": "30 days"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "A learner's licence lasts 6 months."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "dl.licensing.f17"
+   ]
+  },
+  {
+   "id": "q.practice.dl.8",
+   "topic": "dl.licensing",
+   "kind": "mcq",
+   "q": {
+    "en": "A non-transport DL obtained at age 25 is valid until the holder attains"
+   },
+   "options": [
+    {
+     "en": "35 years"
+    },
+    {
+     "en": "40 years"
+    },
+    {
+     "en": "45 years"
+    },
+    {
+     "en": "50 years"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Before 30 → till 40 years."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "dl.licensing.f34"
+   ]
+  },
+  {
+   "id": "q.practice.dl.9",
+   "topic": "dl.licensing",
+   "kind": "mcq",
+   "q": {
+    "en": "National Register of Driving Licences is provided under section"
+   },
+   "options": [
+    {
+     "en": "25"
+    },
+    {
+     "en": "25A"
+    },
+    {
+     "en": "26"
+    },
+    {
+     "en": "27"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Section 25A was added in 2019."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "dl.licensing.f52"
+   ]
+  },
+  {
+   "id": "q.practice.dl.10",
+   "topic": "dl.licensing",
+   "kind": "mcq",
+   "q": {
+    "en": "Restriction on holding more than one driving licence is in section"
+   },
+   "options": [
+    {
+     "en": "4"
+    },
+    {
+     "en": "5"
+    },
+    {
+     "en": "6"
+    },
+    {
+     "en": "7"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Section 6."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "dl.licensing.f11"
+   ]
+  },
   {
    "id": "q.practice.u1.1",
    "topic": "u1.pressure",
