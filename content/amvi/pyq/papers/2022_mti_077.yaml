@@ -1,0 +1,480 @@
+paper:
+  id: mti2022
+  exam: "Motor Transport Inspector (Technical), Police Motor Transport Wing"
+  cat: "482/2019"
+  code: "77/2022/OL"
+  date: "2022-09-15"
+  key_url: "https://www.keralapsc.gov.in/sites/default/files/2022-10/fnl%20ans%20key.pdf"
+  key_source: "PSC final answer key 77/2022/OL (alpha code A)"
+
+skipped:
+  - {n: "10", why: "Uniform colour rule — not in AMVI syllabus"}
+  - {n: "11-20", why: "Industrial / operations management — not in AMVI syllabus"}
+  - {n: "22-27", why: "Hardness testing, welding processes, foundry, machining — not in AMVI syllabus"}
+  - {n: "32, 35, 37, 38, 39, 42, 43, 45", why: "Valves, jet impact, pressure vessels, torque/shaft, true strain, couplings, mechanisms, belts — not in AMVI syllabus"}
+  - {n: "51-55", why: "Psychrometry and refrigeration — not in AMVI syllabus"}
+  - {n: "71, 72", why: "Head lamps — not in AMVI syllabus list"}
+  - {n: "91, 93, 97", why: "Engine fault diagnosis and bus depot planning — not in AMVI syllabus"}
+
+questions:
+  - n: 1
+    topic: dl.licensing
+    q: "Validity of a driving licence for transport vehicles?"
+    options: ["3 years", "2 years", "5 years", "4 years"]
+    key: C
+    learn: "A licence to drive a transport vehicle is valid for 5 years (Section 14). Hazardous-goods licence: 3 years."
+    why: "Commercial drivers are checked more often than private drivers."
+  - n: 2
+    topic: dl.regulations
+    q: "On fast highways, how far behind a broken-down heavy vehicle are warning triangles placed?"
+    options: ["20 m", "50 m", "30 m", "25 m"]
+    key: B
+    learn: "Place reflective warning triangles about 50 metres behind a broken-down vehicle on a highway."
+    why: "Fast traffic needs room to see and slow down."
+  - n: 3
+    topic: dl.regulations
+    q: "Maximum speed while towing another vehicle?"
+    options: ["50 km/h", "10 km/h", "25 km/h", "20 km/h"]
+    key: C
+    learn: "A vehicle towing another vehicle must not go faster than 25 km/h."
+    why: "The towed vehicle has poor braking and steering control."
+  - n: 4
+    topic: law.traffic
+    q: "Section 134 of the MV Act, 1988 deals with?"
+    options: ["Driver's duty when an accident injures a person", "Leaving vehicles in a dangerous position", "Limit of weight", "Owner's duty to give information"]
+    key: A
+    learn: "Section 134: duty of the driver in case of an accident and injury to a person — get medical help and inform police."
+    why: "Quick help in the 'golden hour' saves lives."
+  - n: 5
+    topic: u8.mvact_basics
+    q: "Registration plate colour for battery-operated electric transport vehicles?"
+    options: ["Golden on black", "Yellow on green", "Black on yellow", "Red on yellow"]
+    key: B
+    learn: "Electric vehicles have green plates: transport EVs yellow letters on green; private EVs white letters on green."
+    why: "Green marks the vehicle as electric (clean)."
+  - n: 6
+    topic: u7.wheels
+    q: "Minimum tread depth (CMVR) for tyres of vehicles other than tractors, two- and three-wheelers?"
+    options: ["1.6 mm", "1.5 mm", "1.0 mm", "0.5 mm"]
+    key: A
+    learn: "Minimum tread (non-skid) depth: 1.6 mm for cars and heavier vehicles; 0.8 mm for two- and three-wheelers."
+    why: "Below this, tyres cannot clear water and grip is lost."
+  - n: 7
+    topic: dl.licensing
+    q: "Minimum age to get a driving licence for transport vehicles?"
+    options: ["21 years", "20 years", "19 years", "18 years"]
+    key: B
+    learn: "Minimum age to drive a transport vehicle is 20 years (Section 4)."
+    why: "Heavy and commercial vehicles need more maturity."
+  - n: 8
+    topic: law.offences
+    q: "Unpaid work done as punishment under the amended MV Act is called?"
+    options: ["Community service", "Traffic service", "Water service", "Military service"]
+    key: A
+    learn: "The MV (Amendment) Act, 2019 added 'community service' — unpaid work for the public — as a punishment for some offences."
+    why: "It teaches responsibility instead of only taking money."
+  - n: 9
+    topic: u5.cooling
+    q: "A major part of the engine cooling system is?"
+    options: ["Battery", "Radiator", "Air filter", "Alternator"]
+    key: B
+    learn: "The radiator is the main part of the water cooling system; it passes engine heat to the air."
+    why: "Hot water flows through thin tubes and fins while air blows across them."
+  - n: 21
+    topic: u4.materials
+    q: "Heating hypo-eutectoid steel 50 °C above A3, holding, then cooling slowly in the furnace is?"
+    options: ["Hardening", "Full annealing", "Normalising", "Tempering"]
+    key: B
+    learn: "Full annealing: heat steel above the critical temperature, hold, then cool very slowly in the furnace. It makes steel soft."
+    why: "Slow cooling forms soft coarse pearlite. Normalising cools in still air instead."
+  - n: 28
+    topic: u1.properties
+    q: "Unit of dynamic viscosity?"
+    options: ["Poise", "N·s/m²", "Pascal second", "All of these"]
+    key: D
+    a: "All: poise, N·s/m², Pa·s."
+    learn: "Dynamic viscosity units: N·s/m² = Pa·s (SI); poise (CGS). 1 Pa·s = 10 poise."
+    why: "Viscosity = shear stress ÷ velocity gradient, giving N/m² × s."
+  - n: 29
+    topic: u1.measure
+    q: "Differential manometer with mercury and oil (sp. gr. 0.68), mercury level difference 30 cm. Pressure head difference in metres of oil?"
+    options: ["3.78 m", "5.7 m", "8.79 m", "3.88 m"]
+    key: B
+    learn: "Differential manometer: head difference = x (S_heavy/S_light − 1). Here 0.3 × (13.6/0.68 − 1) = 0.3 × 19 = 5.7 m of oil."
+    why: "The mercury column balances the difference in oil pressure."
+  - n: 30
+    topic: u1.flow
+    q: "Which notch gives the most accurate discharge measurement?"
+    options: ["Triangular (V) notch", "Rectangular notch", "Trapezoidal notch", "All of these"]
+    key: A
+    learn: "A triangular (V) notch measures discharge most accurately, especially for small flows."
+    why: "The head is larger for a small flow, so it can be read more exactly."
+  - n: 31
+    topic: u1.flow
+    q: "For incompressible 3-D flow, given u and v, how is the third velocity component found?"
+    options: ["∂w/∂z = 2z − 2yz", "∂w/∂z = −3x − 2xy + z²", "∂w/∂z = 2xy − z² + x", "∂w/∂z = 2x"]
+    key: B
+    learn: "Continuity for incompressible 3-D flow: ∂u/∂x + ∂v/∂y + ∂w/∂z = 0. So ∂w/∂z = −(∂u/∂x + ∂v/∂y)."
+    why: "Fluid cannot pile up in an incompressible flow; what flows in must flow out."
+    note: "Stem was paraphrased; check exact u, v from the paper."
+  - n: 33
+    topic: u1.machines
+    q: "Two turbines have the same specific speed and head; speed ratio N1/N2 = 3. Power ratio P1/P2?"
+    options: ["1/9", "1/3", "3", "9"]
+    key: A
+    learn: "Specific speed Ns = N√P / H^(5/4). Same Ns and H means N√P is constant, so P ∝ 1/N². Here P1/P2 = 1/9."
+    why: "A faster turbine of the same type is a smaller one, so it makes less power."
+  - n: 34
+    topic: u1.machines
+    q: "Which impeller blade shape gives a centrifugal pump the maximum efficiency?"
+    options: ["Backward curved", "Radial", "Forward curved", "All of these"]
+    key: A
+    learn: "Backward-curved impeller blades give the highest efficiency in centrifugal pumps."
+    why: "They waste less energy as eddies and have a stable head curve."
+  - n: 36
+    topic: u3.beams
+    q: "Which beam has a portion with constant bending moment?"
+    options: ["Three-point bend beam", "Uniformly loaded cantilever", "Four-point bend beam", "Triangular loaded cantilever"]
+    key: C
+    learn: "In four-point bending (two equal loads), the bending moment is constant between the two inner loads, and shear force there is zero."
+    why: "Where shear force is zero, bending moment does not change."
+  - n: 40
+    topic: u3.rivets
+    q: "Unwin's formula for rivet hole diameter d (plate thickness t, mm)?"
+    options: ["d = √2 t", "d = 6√t", "d = 1.5√t", "d = √6 t"]
+    key: B
+    learn: "Unwin's formula: rivet diameter d = 6√t (d and t in mm)."
+    why: "Thicker plates need bigger rivets; the formula links them."
+  - n: 41
+    topic: u3.bolts_springs
+    q: "In an M16 bolt, 16 stands for?"
+    options: ["Nominal (major) diameter", "Root diameter", "Head diameter", "Mean thread diameter"]
+    key: A
+    learn: "In metric bolt M16, 16 is the nominal (major) diameter in mm."
+    why: "M = metric thread; the number is the outside diameter of the thread."
+  - n: 44
+    topic: u3.diagram
+    q: "Ultimate strength 400 MPa, working stress 100 MPa. Margin of safety?"
+    options: ["4", "3", "2", "0.25"]
+    key: B
+    learn: "Factor of safety = ultimate stress / working stress = 4. Margin of safety = FOS − 1 = 3."
+    why: "Margin shows how much extra strength is left above the working load."
+  - n: 46
+    topic: u2.performance
+    q: "Which is correct about volumetric efficiency of an IC engine?"
+    options: ["Actual air inducted per stroke ÷ air that would fill the swept volume at atmospheric conditions", "Ranges 80–100%", "Increases with turbocharging", "All of these"]
+    key: D
+    a: "All of these."
+    learn: "Volumetric efficiency = actual air drawn in ÷ air that would fill the swept volume at atmospheric conditions. Usually 80–100%; turbocharging raises it."
+    why: "It shows how well the engine 'breathes'."
+  - n: 47
+    topic: u2.cycles
+    q: "Cycle: adiabatic compression, constant-volume heat addition, constant-pressure heat addition, adiabatic expansion, constant-volume heat rejection?"
+    options: ["Brayton", "Otto", "Diesel", "Dual"]
+    key: D
+    learn: "Dual (mixed/limited-pressure) cycle adds heat partly at constant volume and partly at constant pressure."
+    why: "It is a mix of Otto and Diesel cycles — close to real high-speed diesel engines."
+  - n: 48
+    topic: u2.performance
+    q: "The difference between higher and lower calorific value of a fuel is due to?"
+    options: ["Latent heat of water vapour", "Latent heat of fuel", "Sensible heat of fuel", "Sensible heat of water"]
+    key: A
+    learn: "HCV − LCV = latent heat of the water vapour formed by burning hydrogen in the fuel."
+    why: "In engines the water leaves as steam, so that heat is not available — we use LCV."
+  - n: 49
+    topic: u2.compressors
+    q: "In which compression process is the work done on air maximum?"
+    options: ["Reversible adiabatic", "Irreversible adiabatic", "Isothermal", "None"]
+    key: B
+    learn: "Irreversible adiabatic compression needs the most work; isothermal needs the least."
+    why: "Friction heats the air further, making it push back harder."
+  - n: 50
+    topic: u2.heat
+    q: "Emissive power of a grey body compared with a black body at the same temperature?"
+    options: ["Less", "Equal", "Greater", "Equal to one"]
+    key: A
+    learn: "A grey body emits less than a black body at the same temperature (emissivity less than 1)."
+    why: "A black body is the perfect emitter, emissivity = 1."
+  - n: 56
+    topic: u2.engines
+    q: "Duration of one intake stroke of a four-stroke engine at 3000 rpm?"
+    options: ["20 ms", "10 ms", "30 ms", "40 ms"]
+    key: B
+    learn: "At 3000 rpm one revolution takes 20 ms; one stroke is half a revolution = 10 ms."
+    why: "3000 rpm = 50 rev/s, so 1 rev = 1/50 s = 20 ms."
+  - n: 57
+    topic: u5.piston
+    q: "The piston forms which part of the combustion system?"
+    options: ["Moving boundary", "Rotating boundary", "Fixed boundary", "Turning boundary"]
+    key: A
+    learn: "The piston is the moving boundary of the combustion chamber."
+    why: "It moves up and down, changing the volume of the gas."
+  - n: 58
+    topic: u5.valves
+    q: "Crankshaft of a four-stroke engine turns at 3000 rpm. Camshaft speed?"
+    options: ["6000 rpm", "3000 rpm", "1500 rpm", "750 rpm"]
+    key: C
+    learn: "In a four-stroke engine the camshaft turns at half crankshaft speed: 3000 → 1500 rpm."
+    why: "Each valve opens once per cycle, and one cycle = two crank revolutions."
+  - n: 59
+    topic: u5.carb
+    q: "At high altitude, carburettor fuel supply should be ___ to keep the same fuel-air ratio."
+    options: ["Increased", "Decreased", "Kept constant", "None"]
+    key: B
+    learn: "At high altitude, air is thinner, so fuel supply must be reduced to keep the mixture correct."
+    why: "Less air mass enters; the same fuel would make the mixture too rich."
+  - n: 60
+    topic: u5.carb
+    q: "Which factor does NOT significantly affect carburetion?"
+    options: ["Engine speed", "Number of cylinders", "Carburettor design", "Intake air temperature"]
+    key: B
+    learn: "Carburetion depends on engine speed, carburettor design and intake air temperature — not on the number of cylinders."
+    why: "Speed sets air velocity; temperature sets fuel vaporisation."
+  - n: 61
+    topic: u5.dieselfuel
+    q: "Objectives of a diesel injection nozzle: atomise, distribute evenly, avoid wall wetting, dribble. Which are correct?"
+    options: ["Only iv", "Only i and ii", "Only i, ii and iii", "All"]
+    key: C
+    learn: "A good injector nozzle atomises fuel, spreads it evenly and avoids wetting the walls. It must NOT dribble."
+    why: "Dribbling fuel burns badly and makes smoke."
+  - n: 62
+    topic: u5.carb
+    q: "The S.U. carburettor is generally of which type?"
+    options: ["Side draught, constant vacuum", "Down draught, constant choke", "Up draught, constant choke", "None"]
+    key: A
+    learn: "The S.U. carburettor is a side-draught, constant-vacuum (variable choke) carburettor."
+    why: "A piston rises with airflow, changing the choke area and keeping vacuum constant."
+  - n: 63
+    topic: u5.piston
+    q: "Mechanic A: some rings control blow-by. Mechanic B: some rings control oil. Who is right?"
+    options: ["Only A", "Only B", "Both", "Neither"]
+    key: C
+    learn: "Compression rings stop blow-by of gas; oil control rings scrape extra oil off the cylinder wall."
+    why: "A piston has both kinds — top rings for gas, bottom ring for oil."
+  - n: 64
+    topic: u5.cooling
+    q: "The most commonly used antifreeze is?"
+    options: ["Ethylene glycol", "Mineral oil", "Vegetable oil", "Lactic acid"]
+    key: A
+    learn: "Ethylene glycol is the most common antifreeze. It lowers the freezing point and raises the boiling point of coolant."
+    why: "Mixed with water, it keeps coolant liquid in cold and hot weather."
+  - n: 65
+    topic: u5.cooling
+    q: "Which device stops coolant circulation to the radiator so the engine warms up fast?"
+    options: ["Relief valve", "Fan", "Thermostat", "Pump"]
+    key: C
+    learn: "The thermostat stays closed when the engine is cold, so it warms up quickly."
+    why: "A cold engine wears more and uses more fuel."
+  - n: 66
+    topic: u7.charging
+    q: "The cadmium test is done to find?"
+    options: ["Battery cell condition", "Chemical condition of the plates", "Amount of electrolyte", "State of charge"]
+    key: B
+    learn: "The cadmium test checks the condition of each battery plate group (positive and negative) using a cadmium probe."
+    why: "It shows which plates are weak even when total voltage looks fine."
+  - n: 67
+    topic: u7.charging
+    q: "During battery discharge, which are true: (i) both plates turn to PbSO4 (ii) specific gravity falls (iii) terminal voltage rises?"
+    options: ["ii and iii", "i and ii", "i and iii", "All"]
+    key: B
+    learn: "When a lead-acid battery discharges, both plates become lead sulphate and electrolyte specific gravity falls. Voltage falls, not rises."
+    why: "Acid is used up and water is formed, so the electrolyte gets weaker."
+  - n: 68
+    topic: u7.charging
+    q: "The rate at which a battery gives current depends on?"
+    options: ["Current demand only", "Demand and electrolyte strength", "Demand, strength and temperature", "Demand, strength, temperature and plate area"]
+    key: D
+    a: "All four: current demand, electrolyte strength, temperature and plate area."
+    learn: "Battery output depends on current demand, electrolyte strength, temperature and plate surface area."
+    why: "Bigger plates and stronger, warmer acid allow faster chemical reaction."
+  - n: 69
+    topic: u7.charging
+    q: "The cut-out relay in a vehicle is used to?"
+    options: ["Prevent overcharging", "Prevent undercharging", "Prevent battery discharge through the generator when the engine is off", "None"]
+    key: C
+    learn: "The cut-out relay disconnects the dynamo from the battery when the engine is slow or stopped, so the battery does not discharge through it."
+    why: "When dynamo voltage is lower than battery voltage, current would flow back."
+  - n: 70
+    topic: u7.starting
+    q: "'Lock torque' of a starter motor is?"
+    options: ["Torque when the pinion drives the flywheel", "Torque when current is switched on and the armature starts from rest", "Torque to start the crankshaft", "Torque to keep the engine turning"]
+    key: B
+    learn: "Lock torque is the torque a starter motor makes at the moment current is switched on and the armature is still at rest — its maximum torque."
+    why: "A series motor gives its highest torque at zero speed."
+  - n: 73
+    topic: u7.charging
+    q: "Why are alternators preferred to DC generators?"
+    options: ["Better weight-to-power, low maintenance, high output at low speed", "Low maintenance, high output at low speed, no rectifier", "Better weight-to-power and no rectifier", "All"]
+    key: A
+    learn: "Alternators are lighter for their power, need little maintenance (slip rings, no commutator) and give good output even at idle."
+    why: "They do need diodes (rectifier) to change AC to DC."
+  - n: 74
+    topic: u7.ignition
+    q: "Spark plug tip temperature range that avoids both pre-ignition and fouling?"
+    options: ["250–1050 °C", "350–1100 °C", "450–850 °C", "400–1050 °C"]
+    key: C
+    learn: "A spark plug tip should stay between about 450 °C and 850 °C."
+    why: "Too cold → carbon fouling. Too hot → pre-ignition."
+  - n: 75
+    topic: u7.ignition
+    q: "Which are true for a 'hot' spark plug?"
+    options: ["Longer heat path only", "Longer heat path and longer insulator nose", "Shorter heat path only", "Shorter heat path and shorter nose"]
+    key: B
+    learn: "A hot plug has a long insulator nose and a long heat path, so it stays hot. Cold plugs have short noses."
+    why: "Heat takes longer to escape along a long path."
+  - n: 76
+    topic: u6.frame
+    q: "Two-wheeler frame made of many short tubes welded together?"
+    options: ["Single cradle", "Perimeter", "Trellis", "Monocoque"]
+    key: C
+    learn: "A trellis frame is made of many short steel or aluminium tubes welded in a triangle pattern."
+    why: "Triangles are strong and light."
+  - n: 77
+    topic: u6.suspension
+    q: "With leaf, coil or rubber springs, bounce frequency ___ as sprung mass is ___."
+    options: ["Decreases, reduced", "Increases, increased", "Increases, reduced", "Decreases, constant"]
+    key: C
+    learn: "With ordinary springs, an empty (lighter) vehicle bounces at a higher frequency — the ride gets harsh when unloaded."
+    why: "Frequency ∝ √(stiffness/mass): less mass, higher frequency."
+  - n: 78
+    topic: u6.steering
+    q: "Steering ratio 15; wheels turn 30° each side from centre. Lock-to-lock turns of the steering wheel?"
+    options: ["2.5", "2.33", "2.0", "3.0"]
+    key: A
+    learn: "Steering ratio = steering wheel angle / road wheel angle. 60° total wheel movement × 15 = 900° = 2.5 turns."
+    why: "One turn is 360°, so 900/360 = 2.5."
+  - n: 79
+    topic: u6.brakes
+    q: "Brake system mainly used in heavy-duty vehicles?"
+    options: ["Mechanical", "Hydraulic", "Electric", "Compressed air"]
+    key: D
+    learn: "Heavy vehicles mainly use compressed air (air) brakes."
+    why: "Air gives large braking force with little pedal effort, and small leaks do not cause total failure."
+  - n: 80
+    topic: u7.clutch
+    q: "For the same torque as a single-plate clutch, adding plates in a multi-plate clutch makes its diameter?"
+    options: ["Increase", "Decrease", "Stay the same", "None"]
+    key: B
+    learn: "More friction plates give more friction surfaces, so a multi-plate clutch can be smaller in diameter for the same torque."
+    why: "Torque ∝ number of friction surfaces × radius."
+  - n: 81
+    topic: u7.gearbox
+    q: "Double declutching is done in which gearbox?"
+    options: ["Sliding mesh", "Constant mesh", "Synchromesh", "Overdrive"]
+    key: B
+    learn: "As per this PSC key, double declutching is used in the constant-mesh gearbox to match gear speeds when changing gear."
+    why: "Without synchronisers, the driver must match speeds by declutching twice."
+    note: "Textbooks link double declutching to both sliding-mesh and constant-mesh boxes; PSC keyed constant mesh."
+  - n: 82
+    topic: u7.driveline
+    q: "In a full-floating axle, the hubs on the axle casing are supported by?"
+    options: ["Two taper roller bearings", "Two ball bearings", "One taper roller bearing", "One ball bearing"]
+    key: A
+    learn: "In a full-floating rear axle, each hub runs on two taper roller bearings on the axle casing; the half shaft carries only torque."
+    why: "The casing takes all the vehicle weight, so the shaft can be pulled out without removing the wheel."
+  - n: 83
+    topic: u7.wheels
+    q: "The horseshoe-shaped inner part of a tyre made of textile cord plies is the?"
+    options: ["Tread", "Bead", "Carcass", "Tube"]
+    key: C
+    learn: "The carcass is the tyre's body of cord plies; it gives strength and holds the air pressure."
+    why: "Tread is the rubber that touches the road; bead holds the tyre on the rim."
+  - n: 84
+    topic: u2.engines
+    q: "Anti-knock quality of petrol is measured as?"
+    options: ["Cetane number", "Octane number", "Butane number", "Knock number"]
+    key: B
+    learn: "Octane number measures petrol's resistance to knock. Cetane number measures diesel's ignition quality."
+    why: "Petrol must NOT self-ignite (octane); diesel must self-ignite quickly (cetane)."
+  - n: 85
+    topic: u2.engines
+    q: "Correct order of combustion in an SI engine?"
+    options: ["Ignition lag → flame propagation → after-burning", "Ignition lag → delay → propagation → after-burning", "Delay → rapid → controlled → after-burning", "Delay → controlled → after-burning"]
+    key: A
+    learn: "SI engine combustion has three stages: ignition lag, flame propagation, after-burning."
+    why: "CI engines have four: delay, rapid (uncontrolled), controlled, after-burning."
+  - n: 86
+    topic: u2.engines
+    q: "In a CI engine, as engine output increases, the delay period?"
+    options: ["Increases", "Decreases", "First increases then decreases", "Not affected"]
+    key: B
+    learn: "In a CI engine, higher output (more fuel, hotter chamber) shortens the ignition delay period."
+    why: "Hotter cylinder walls and gas make fuel ignite sooner."
+  - n: 87
+    topic: u5.dieselfuel
+    q: "Which is NOT a limitation of supercharging?"
+    options: ["More knock tendency in SI engines", "More thermal stress", "More heat loss", "Higher intake air density"]
+    key: D
+    learn: "Higher intake air density is the aim (benefit) of supercharging. Its limits are more knock, thermal stress and heat loss."
+    why: "Denser air means more fuel can burn, giving more power."
+  - n: 88
+    topic: u2.cycles
+    q: "Carnot engine takes heat at 327 °C and rejects at 27 °C. Efficiency?"
+    options: ["50%", "93%", "100%", "91%"]
+    key: A
+    learn: "Carnot efficiency = 1 − T2/T1 (in kelvin) = 1 − 300/600 = 50%."
+    why: "Always change °C to K by adding 273 first."
+  - n: 89
+    topic: u2.cycles
+    q: "Which is NOT an air-standard cycle assumption?"
+    options: ["Working medium is a perfect gas", "No change in mass", "All processes internally irreversible", "No heat loss"]
+    key: C
+    learn: "Air-standard assumptions: air is a perfect gas, mass is constant, processes are internally reversible, no heat loss."
+    why: "Assuming reversibility makes the ideal cycle easy to calculate."
+  - n: 90
+    topic: u2.performance
+    q: "Morse test finds approximate indicated power of a?"
+    options: ["Single-cylinder engine", "Multi-cylinder engine", "Both", "Neither"]
+    key: B
+    learn: "Morse test works only on multi-cylinder engines; one cylinder is cut off at a time."
+    why: "A single-cylinder engine would stop if its only cylinder is cut off."
+  - n: 92
+    topic: u8.pollution
+    q: "Which exhaust smoke colour shows worn piston rings or scored cylinder walls?"
+    options: ["Blue", "Black", "White", "Red"]
+    key: A
+    learn: "Blue smoke = engine oil burning (worn rings, scored walls, worn valve guides). Black = rich mixture. White = water or cold engine."
+    why: "Oil reaching the combustion chamber burns with a blue haze."
+  - n: 94
+    topic: u7.wheels
+    q: "Excessive wear at the centre of the tyre tread shows?"
+    options: ["Under-inflation", "Over-inflation", "Feathering", "Camber wear"]
+    key: B
+    learn: "Over-inflation wears the centre of the tread. Under-inflation wears both edges."
+    why: "Too much air makes the tyre bulge in the middle."
+  - n: 95
+    topic: u6.steering
+    q: "Rapid in-and-out wobble of the front wheels about the steering axis is called?"
+    options: ["Tramp", "Shimmy", "Kickback", "Wander"]
+    key: B
+    learn: "Shimmy is a fast side-to-side wobble of the front wheels. Tramp is up-and-down hopping."
+    why: "Shimmy comes from unbalanced wheels, worn linkages or wrong alignment."
+  - n: 96
+    topic: u8.mvact_basics
+    q: "Which are duties of a conductor: not smoke, unduly delay journey, issue ticket, check concession documents, ring bell?"
+    options: ["i, ii, iii", "ii, iii, iv", "i, iii, iv, v", "All"]
+    key: C
+    learn: "A conductor must not smoke on duty, must issue tickets, check concession papers and ring the bell. Delaying the journey is not allowed."
+    why: "The conductor is responsible for passengers' safety and fair fares."
+  - n: 98
+    topic: law.insurance
+    q: "Which are true of third-party insurance?"
+    options: ["Covers others' persons/property; cars renew annually", "Not compulsory; renew annually; covers breakdown", "Covers others; not compulsory; annual; fire/theft", "All"]
+    key: A
+    learn: "Third-party insurance covers injury or damage to other people and their property, not your own vehicle. It is compulsory (Section 146)."
+    why: "It protects victims who are not part of the vehicle."
+  - n: 99
+    topic: u6.brakes
+    q: "Causes of a spongy brake pedal?"
+    options: ["Air and bad master cylinder", "Shoe adjustment, master cylinder, loose lines", "Air, adjustment, master cylinder, fluid loss", "All of these"]
+    key: D
+    a: "All: air in the system, shoes out of adjustment, faulty master cylinder, leaking lines, loss of fluid."
+    learn: "A spongy brake pedal is mainly caused by air in the hydraulic system; also bad adjustment, faulty master cylinder, leaks and fluid loss."
+    why: "Air compresses, so the pedal feels soft. Bleeding the brakes removes it."
+  - n: 100
+    topic: u5.piston
+    q: "Thrust bearing wear causes excessive crankshaft?"
+    options: ["Bending", "End play", "Vibration", "Speed"]
+    key: B
+    learn: "A worn crankshaft thrust bearing allows too much crankshaft end play (front-to-back movement)."
+    why: "The thrust bearing holds the crankshaft in place along its length."
