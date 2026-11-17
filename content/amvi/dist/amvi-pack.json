@@ -304,6 +304,87 @@
    },
    "order": 32,
    "freq": 0.8
+  },
+  {
+   "id": "u5.block",
+   "subject": "engine",
+   "title": {
+    "en": "Cylinder block, liners, head and gasket"
+   },
+   "order": 33,
+   "freq": 0.8
+  },
+  {
+   "id": "u5.piston",
+   "subject": "engine",
+   "title": {
+    "en": "Piston, rings, connecting rod and crankshaft"
+   },
+   "order": 34,
+   "freq": 0.9
+  },
+  {
+   "id": "u5.valves",
+   "subject": "engine",
+   "title": {
+    "en": "Valves, valve mechanisms and camshaft"
+   },
+   "order": 35,
+   "freq": 0.9
+  },
+  {
+   "id": "u5.petrolfuel",
+   "subject": "engine",
+   "title": {
+    "en": "Petrol fuel feed, filters and air cleaners"
+   },
+   "order": 36,
+   "freq": 0.7
+  },
+  {
+   "id": "u5.carb",
+   "subject": "engine",
+   "title": {
+    "en": "Carburettors"
+   },
+   "order": 37,
+   "freq": 0.8
+  },
+  {
+   "id": "u5.manifold",
+   "subject": "engine",
+   "title": {
+    "en": "Manifolds, VVT, catalytic converter and muffler"
+   },
+   "order": 38,
+   "freq": 0.8
+  },
+  {
+   "id": "u5.dieselfuel",
+   "subject": "engine",
+   "title": {
+    "en": "Diesel fuel system and turbocharger"
+   },
+   "order": 39,
+   "freq": 0.9
+  },
+  {
+   "id": "u5.lube",
+   "subject": "engine",
+   "title": {
+    "en": "Lubrication system"
+   },
+   "order": 40,
+   "freq": 0.8
+  },
+  {
+   "id": "u5.cooling",
+   "subject": "engine",
+   "title": {
+    "en": "Cooling system"
+   },
+   "order": 41,
+   "freq": 0.8
   }
  ],
  "cards": [
@@ -16269,6 +16350,5712 @@
      "en": "Brass Cu+Zn; bronze Cu+Sn; duralumin Al+Cu; 18/8 stainless."
     }
    ]
+  },
+  {
+   "id": "u5.block.f01",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The cylinder block is the main body of the engine. It holds the cylinders, coolant passages and crankcase."
+   },
+   "why": {
+    "en": "Every other engine part is fixed to it."
+   },
+   "recall_q": {
+    "en": "What is the main body of an engine called?"
+   },
+   "recall_a": {
+    "en": "Cylinder block."
+   },
+   "explain_simple": {
+    "en": "The engine's backbone."
+   }
+  },
+  {
+   "id": "u5.block.f02",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Single-cylinder engines (motorcycles) often have a separate cylinder barrel. Multi-cylinder engines usually have all cylinders cast in one block (monobloc)."
+   },
+   "why": {
+    "en": "One-piece casting is rigid and cheaper for many cylinders."
+   },
+   "recall_q": {
+    "en": "A block with all cylinders cast together is called?"
+   },
+   "recall_a": {
+    "en": "Monobloc (en bloc) construction."
+   },
+   "explain_simple": {
+    "en": "Many cylinders in one casting."
+   }
+  },
+  {
+   "id": "u5.block.f03",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cylinder blocks are made of grey cast iron or aluminium alloy."
+   },
+   "why": {
+    "en": "Cast iron wears well and damps noise; aluminium is light and cools well."
+   },
+   "recall_q": {
+    "en": "Two materials for cylinder blocks?"
+   },
+   "recall_a": {
+    "en": "Grey cast iron and aluminium alloy."
+   },
+   "explain_simple": {
+    "en": "Heavy iron or light aluminium."
+   }
+  },
+  {
+   "id": "u5.block.f04",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Aluminium blocks need cast-iron or steel cylinder liners (or special coatings), because aluminium wears quickly against piston rings."
+   },
+   "why": {
+    "en": "Aluminium is soft."
+   },
+   "recall_q": {
+    "en": "Why do aluminium blocks use liners?"
+   },
+   "recall_a": {
+    "en": "Aluminium wears fast; liners give a hard wearing surface."
+   },
+   "explain_simple": {
+    "en": "A hard sleeve inside a soft block."
+   }
+  },
+  {
+   "id": "u5.block.f05",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A cylinder liner (sleeve) is a replaceable tube fitted into the cylinder bore."
+   },
+   "why": {
+    "en": "When worn, only the liner is changed, not the whole block."
+   },
+   "recall_q": {
+    "en": "What is a cylinder liner?"
+   },
+   "recall_a": {
+    "en": "A replaceable sleeve inside the cylinder bore."
+   },
+   "explain_simple": {
+    "en": "A replaceable inner tube for the cylinder."
+   }
+  },
+  {
+   "id": "u5.block.f06",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Dry liner: does not touch the coolant; pressed into the block. Wet liner: touches the coolant directly; sealed with rubber rings at the bottom."
+   },
+   "why": {
+    "en": "Wet liners cool better and are easier to replace."
+   },
+   "recall_q": {
+    "en": "Which liner is in direct contact with coolant?"
+   },
+   "recall_a": {
+    "en": "Wet liner."
+   },
+   "explain_simple": {
+    "en": "Wet liner = water touches it. Dry liner = water does not."
+   }
+  },
+  {
+   "id": "u5.block.f07",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Dry liners are thin (about 1.5–3 mm). Wet liners are thicker because they must withstand coolant pressure and gas pressure alone."
+   },
+   "why": {
+    "en": "A wet liner has no block wall to support it."
+   },
+   "recall_q": {
+    "en": "Which liner is thicker: dry or wet?"
+   },
+   "recall_a": {
+    "en": "Wet liner."
+   },
+   "explain_simple": {
+    "en": "Wet liners stand alone, so they are thicker."
+   }
+  },
+  {
+   "id": "u5.block.f08",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Liners are made of special alloy cast iron (centrifugally cast), sometimes chrome plated."
+   },
+   "why": {
+    "en": "Centrifugal casting gives dense, hard metal."
+   },
+   "recall_q": {
+    "en": "Usual liner material?"
+   },
+   "recall_a": {
+    "en": "Alloy cast iron (centrifugally cast)."
+   },
+   "explain_simple": {
+    "en": "Hard cast iron spun into shape."
+   }
+  },
+  {
+   "id": "u5.block.f09",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cylinder head closes the top of the cylinders and forms the combustion chamber. It holds valves, spark plugs or injectors."
+   },
+   "why": {
+    "en": "Gas pressure acts on it every power stroke."
+   },
+   "recall_q": {
+    "en": "Part that closes the top of the cylinders?"
+   },
+   "recall_a": {
+    "en": "Cylinder head."
+   },
+   "explain_simple": {
+    "en": "The lid of the engine."
+   }
+  },
+  {
+   "id": "u5.block.f10",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cylinder heads are made of cast iron or aluminium alloy. Aluminium heads allow higher compression without knocking."
+   },
+   "why": {
+    "en": "Aluminium removes heat faster from the combustion chamber."
+   },
+   "recall_q": {
+    "en": "Why can aluminium heads allow higher compression ratio?"
+   },
+   "recall_a": {
+    "en": "Better heat conduction reduces knocking."
+   },
+   "explain_simple": {
+    "en": "Cooler head, less knock."
+   }
+  },
+  {
+   "id": "u5.block.f11",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cylinder head gasket seals the joint between block and head, keeping gas, coolant and oil apart."
+   },
+   "why": {
+    "en": "Metal surfaces cannot seal perfectly alone."
+   },
+   "recall_q": {
+    "en": "What does the head gasket seal?"
+   },
+   "recall_a": {
+    "en": "Joint between head and block (gas, coolant, oil)."
+   },
+   "explain_simple": {
+    "en": "A seal sheet between head and block."
+   }
+  },
+  {
+   "id": "u5.block.f12",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Head gasket materials: copper-asbestos (older), steel-asbestos, multi-layer steel (MLS) in modern engines, composite."
+   },
+   "why": {
+    "en": "It must survive high heat and pressure."
+   },
+   "recall_q": {
+    "en": "Gasket used in modern engines?"
+   },
+   "recall_a": {
+    "en": "Multi-layer steel (MLS)."
+   },
+   "explain_simple": {
+    "en": "Layers of thin steel sheet."
+   }
+  },
+  {
+   "id": "u5.block.f13",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Signs of a blown head gasket: white smoke, coolant loss, oil mixed with water (milky oil), overheating, bubbles in radiator."
+   },
+   "why": {
+    "en": "Gas and coolant leak between passages."
+   },
+   "recall_q": {
+    "en": "Milky oil may show which failure?"
+   },
+   "recall_a": {
+    "en": "Blown head gasket (coolant in oil)."
+   },
+   "explain_simple": {
+    "en": "Water in oil = head gasket problem."
+   }
+  },
+  {
+   "id": "u5.block.f14",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Head bolts are tightened in a set order (from the centre outwards, spiral) and to a set torque with a torque wrench."
+   },
+   "why": {
+    "en": "Uneven tightening warps the head and causes leaks."
+   },
+   "recall_q": {
+    "en": "In what order are head bolts tightened?"
+   },
+   "recall_a": {
+    "en": "From centre outwards in a spiral, to specified torque."
+   },
+   "explain_simple": {
+    "en": "Middle first, then outwards, evenly."
+   }
+  },
+  {
+   "id": "u5.block.f15",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Crankcase is the lower part of the block that houses the crankshaft. The oil sump (oil pan) is bolted under it."
+   },
+   "why": {
+    "en": "The sump stores engine oil."
+   },
+   "recall_q": {
+    "en": "Part bolted under the crankcase to hold oil?"
+   },
+   "recall_a": {
+    "en": "Oil sump (oil pan)."
+   },
+   "explain_simple": {
+    "en": "The oil tray at the bottom."
+   }
+  },
+  {
+   "id": "u5.block.f16",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Core plugs (frost/welch plugs) close holes left in the block from casting. They can pop out if coolant freezes."
+   },
+   "why": {
+    "en": "Holes are needed to remove casting sand."
+   },
+   "recall_q": {
+    "en": "Purpose of core plugs?"
+   },
+   "recall_a": {
+    "en": "Seal casting holes (and give some frost protection)."
+   },
+   "explain_simple": {
+    "en": "Caps on the casting holes."
+   }
+  },
+  {
+   "id": "u5.block.f17",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Combustion chamber shapes (SI): hemispherical, wedge, bath-tub, pent-roof. Hemispherical gives best breathing and less heat loss."
+   },
+   "why": {
+    "en": "Shape decides flame travel and valve size."
+   },
+   "recall_q": {
+    "en": "Combustion chamber with large valves and best breathing?"
+   },
+   "recall_a": {
+    "en": "Hemispherical."
+   },
+   "explain_simple": {
+    "en": "Dome-shaped chamber breathes best."
+   }
+  },
+  {
+   "id": "u5.block.f18",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cylinder wear is greatest at the top of the ring travel, just below the ridge, and gives a taper and ovality."
+   },
+   "why": {
+    "en": "Heat, pressure and poor oil at the top cause most wear."
+   },
+   "recall_q": {
+    "en": "Where is cylinder wear maximum?"
+   },
+   "recall_a": {
+    "en": "Top of ring travel (top of the bore)."
+   },
+   "explain_simple": {
+    "en": "The top of the bore wears most."
+   }
+  },
+  {
+   "id": "u5.block.f19",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Reboring: worn cylinders are bored oversize and fitted with oversize pistons. Honing finishes the bore with a cross-hatch pattern."
+   },
+   "why": {
+    "en": "Cross-hatch holds oil for the rings."
+   },
+   "recall_q": {
+    "en": "Final finishing of a cylinder bore is done by?"
+   },
+   "recall_a": {
+    "en": "Honing."
+   },
+   "explain_simple": {
+    "en": "Honing leaves fine scratches that hold oil."
+   }
+  },
+  {
+   "id": "u5.block.f20",
+   "topic": "u5.block",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cylinder bore wear is measured with a cylinder bore gauge (dial bore gauge)."
+   },
+   "why": {
+    "en": "Shows taper and ovality."
+   },
+   "recall_q": {
+    "en": "Instrument to measure cylinder wear?"
+   },
+   "recall_a": {
+    "en": "Cylinder bore gauge (dial bore gauge)."
+   },
+   "explain_simple": {
+    "en": "A dial gauge that goes inside the cylinder."
+   }
+  },
+  {
+   "id": "u5.block.sum",
+   "topic": "u5.block",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cylinder block, liners, head and gasket; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Cylinder block, liners, head and gasket"
+   },
+   "points": [
+    {
+     "en": "Block: cast iron or aluminium; monobloc for multi-cylinder."
+    },
+    {
+     "en": "Dry liner (no coolant contact, thin) vs wet liner (coolant contact, thick)."
+    },
+    {
+     "en": "Head forms combustion chamber; gasket seals head to block."
+    },
+    {
+     "en": "MLS gasket; tighten head bolts centre-out with torque wrench."
+    },
+    {
+     "en": "Wear max at top of bore; rebore and hone."
+    }
+   ]
+  },
+  {
+   "id": "u5.piston.f01",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The piston moves up and down in the cylinder. It takes the gas force and passes it to the connecting rod."
+   },
+   "why": {
+    "en": "It also seals the combustion chamber and carries heat away."
+   },
+   "recall_q": {
+    "en": "Main job of a piston?"
+   },
+   "recall_a": {
+    "en": "Transmit gas force to the connecting rod."
+   },
+   "explain_simple": {
+    "en": "The piston gets pushed and pushes the rod."
+   }
+  },
+  {
+   "id": "u5.piston.f02",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Piston parts: crown (head), ring grooves and lands, skirt, and gudgeon pin bosses."
+   },
+   "why": {
+    "en": "Each part has its own job: crown takes heat, skirt guides, bosses hold the pin."
+   },
+   "recall_q": {
+    "en": "The top surface of the piston is called?"
+   },
+   "recall_a": {
+    "en": "Crown (head)."
+   },
+   "explain_simple": {
+    "en": "Crown on top, skirt at the bottom."
+   }
+  },
+  {
+   "id": "u5.piston.f03",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pistons are usually made of aluminium alloy (light, good heat conduction). Heavy diesel engines may use cast iron or steel crowns."
+   },
+   "why": {
+    "en": "Light pistons reduce inertia forces at high speed."
+   },
+   "recall_q": {
+    "en": "Most common piston material?"
+   },
+   "recall_a": {
+    "en": "Aluminium alloy."
+   },
+   "explain_simple": {
+    "en": "Pistons are mostly aluminium."
+   }
+  },
+  {
+   "id": "u5.piston.f04",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Aluminium pistons expand more than cast iron cylinders, so they need more clearance or special designs."
+   },
+   "why": {
+    "en": "Too little clearance makes the hot piston seize."
+   },
+   "recall_q": {
+    "en": "Why do aluminium pistons need special design?"
+   },
+   "recall_a": {
+    "en": "They expand more than the iron cylinder."
+   },
+   "explain_simple": {
+    "en": "Hot aluminium grows a lot."
+   }
+  },
+  {
+   "id": "u5.piston.f05",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Split-skirt (slotted) piston: a slot in the skirt lets it expand without seizing."
+   },
+   "why": {
+    "en": "The slot closes up as the piston heats."
+   },
+   "recall_q": {
+    "en": "Purpose of the slot in a split-skirt piston?"
+   },
+   "recall_a": {
+    "en": "Allow expansion without seizure."
+   },
+   "explain_simple": {
+    "en": "A gap that closes when hot."
+   }
+  },
+  {
+   "id": "u5.piston.f06",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cam-ground piston: oval when cold, becomes round when hot. The longer axis is at right angles to the gudgeon pin."
+   },
+   "why": {
+    "en": "More metal near the pin bosses expands more."
+   },
+   "recall_q": {
+    "en": "Shape of a cam-ground piston when cold?"
+   },
+   "recall_a": {
+    "en": "Oval (elliptical)."
+   },
+   "explain_simple": {
+    "en": "Oval when cold, round when hot."
+   }
+  },
+  {
+   "id": "u5.piston.f07",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Other piston types: solid skirt, slipper (part skirt cut away), autothermic/invar-strut (steel struts control expansion), tapered."
+   },
+   "why": {
+    "en": "All control expansion and reduce weight or noise."
+   },
+   "recall_q": {
+    "en": "Piston with steel struts cast in to control expansion?"
+   },
+   "recall_a": {
+    "en": "Invar-strut (autothermic) piston."
+   },
+   "explain_simple": {
+    "en": "Steel strips stop the piston growing too much."
+   }
+  },
+  {
+   "id": "u5.piston.f08",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Piston is tapered: smaller at the crown than the skirt."
+   },
+   "why": {
+    "en": "The crown is hottest and expands most."
+   },
+   "recall_q": {
+    "en": "Is the crown or skirt of a piston larger when cold?"
+   },
+   "recall_a": {
+    "en": "Skirt."
+   },
+   "explain_simple": {
+    "en": "Hotter top is made smaller."
+   }
+  },
+  {
+   "id": "u5.piston.f09",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Piston slap: knocking noise when a worn or loose piston rocks and hits the cylinder wall, mostly when cold."
+   },
+   "why": {
+    "en": "Too much clearance lets the piston tilt."
+   },
+   "recall_q": {
+    "en": "Knock from excess piston clearance is called?"
+   },
+   "recall_a": {
+    "en": "Piston slap."
+   },
+   "explain_simple": {
+    "en": "Loose piston hits the wall."
+   }
+  },
+  {
+   "id": "u5.piston.f10",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gudgeon (wrist) pin connects the piston to the connecting rod small end."
+   },
+   "why": {
+    "en": "It lets the rod swing while the piston moves straight."
+   },
+   "recall_q": {
+    "en": "Pin joining piston and connecting rod?"
+   },
+   "recall_a": {
+    "en": "Gudgeon pin (wrist pin)."
+   },
+   "explain_simple": {
+    "en": "The hinge pin of the piston."
+   }
+  },
+  {
+   "id": "u5.piston.f11",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gudgeon pin types: fully floating (free in piston and rod, held by circlips), semi-floating (fixed in rod or piston), fixed."
+   },
+   "why": {
+    "en": "Fully floating spreads wear evenly."
+   },
+   "recall_q": {
+    "en": "What holds a fully floating gudgeon pin in place?"
+   },
+   "recall_a": {
+    "en": "Circlips."
+   },
+   "explain_simple": {
+    "en": "Free pin held by spring clips at the ends."
+   }
+  },
+  {
+   "id": "u5.piston.f12",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gudgeon pins are made of case-hardened steel and are often hollow."
+   },
+   "why": {
+    "en": "Hard surface for wear; hollow for less weight."
+   },
+   "recall_q": {
+    "en": "Material of gudgeon pins?"
+   },
+   "recall_a": {
+    "en": "Case-hardened steel."
+   },
+   "explain_simple": {
+    "en": "Hard steel tube."
+   }
+  },
+  {
+   "id": "u5.piston.f13",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gudgeon pin is offset slightly towards the thrust side to reduce piston slap."
+   },
+   "why": {
+    "en": "The piston changes sides more gently at TDC."
+   },
+   "recall_q": {
+    "en": "Why is the gudgeon pin offset?"
+   },
+   "recall_a": {
+    "en": "To reduce piston slap."
+   },
+   "explain_simple": {
+    "en": "Moving the pin a bit makes the piston quieter."
+   }
+  },
+  {
+   "id": "u5.piston.f14",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Piston rings seal the gap between piston and cylinder, control oil, and carry heat from piston to cylinder wall."
+   },
+   "why": {
+    "en": "A piston cannot fit tightly enough on its own."
+   },
+   "recall_q": {
+    "en": "Three functions of piston rings?"
+   },
+   "recall_a": {
+    "en": "Seal gas, control oil, transfer heat."
+   },
+   "explain_simple": {
+    "en": "Rings seal, scrape oil and cool."
+   }
+  },
+  {
+   "id": "u5.piston.f15",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Two types of rings: compression rings (top) and oil control (scraper) rings (bottom)."
+   },
+   "why": {
+    "en": "Compression rings stop gas leaking down; oil rings stop oil going up."
+   },
+   "recall_q": {
+    "en": "Which ring is at the bottom of the piston?"
+   },
+   "recall_a": {
+    "en": "Oil control (scraper) ring."
+   },
+   "explain_simple": {
+    "en": "Compression rings on top, oil ring below."
+   }
+  },
+  {
+   "id": "u5.piston.f16",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Usual petrol engine: 2 compression rings + 1 oil ring. Diesel engines may have 3–4 compression rings."
+   },
+   "why": {
+    "en": "Diesels have higher pressures to seal."
+   },
+   "recall_q": {
+    "en": "Typical ring set of a car petrol engine?"
+   },
+   "recall_a": {
+    "en": "2 compression + 1 oil ring."
+   },
+   "explain_simple": {
+    "en": "Two for gas, one for oil."
+   }
+  },
+  {
+   "id": "u5.piston.f17",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oil rings are slotted or have an expander so scraped oil drains back through holes in the piston."
+   },
+   "why": {
+    "en": "This stops oil reaching the combustion chamber."
+   },
+   "recall_q": {
+    "en": "How does scraped oil return from an oil ring?"
+   },
+   "recall_a": {
+    "en": "Through slots in the ring and holes in the piston groove."
+   },
+   "explain_simple": {
+    "en": "Oil slips back through little holes."
+   }
+  },
+  {
+   "id": "u5.piston.f18",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Piston rings are made of fine-grained alloy cast iron; the top ring is often chrome plated."
+   },
+   "why": {
+    "en": "Cast iron is springy enough and wears well; chrome resists wear."
+   },
+   "recall_q": {
+    "en": "Usual material of piston rings?"
+   },
+   "recall_a": {
+    "en": "Alloy cast iron (top ring chrome plated)."
+   },
+   "explain_simple": {
+    "en": "Cast iron rings, chrome on top."
+   }
+  },
+  {
+   "id": "u5.piston.f19",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ring end gap allows for expansion. Ring gaps are staggered around the piston (not in line)."
+   },
+   "why": {
+    "en": "In-line gaps would let gas blow straight past."
+   },
+   "recall_q": {
+    "en": "Why are ring gaps staggered?"
+   },
+   "recall_a": {
+    "en": "To reduce gas leakage (blow-by)."
+   },
+   "explain_simple": {
+    "en": "Spread the gaps so gas cannot slip through."
+   }
+  },
+  {
+   "id": "u5.piston.f20",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Worn rings cause blow-by, low compression, high oil consumption and blue exhaust smoke."
+   },
+   "why": {
+    "en": "Oil gets past into the chamber and burns."
+   },
+   "recall_q": {
+    "en": "Blue exhaust smoke often means?"
+   },
+   "recall_a": {
+    "en": "Oil burning (worn rings, valve guides)."
+   },
+   "explain_simple": {
+    "en": "Blue smoke = oil burning."
+   }
+  },
+  {
+   "id": "u5.piston.f21",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compression test with a compression gauge checks ring and valve sealing. A wet test (adding oil) separates ring problems from valve problems."
+   },
+   "why": {
+    "en": "Oil seals rings briefly; if compression rises, rings are worn."
+   },
+   "recall_q": {
+    "en": "In a wet compression test, compression rises. What is worn?"
+   },
+   "recall_a": {
+    "en": "Piston rings."
+   },
+   "explain_simple": {
+    "en": "Oil helps worn rings, not bad valves."
+   }
+  },
+  {
+   "id": "u5.piston.f22",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The connecting rod joins the piston to the crankshaft and turns up-down motion into rotation."
+   },
+   "why": {
+    "en": "It works with the crank like a pedal and leg."
+   },
+   "recall_q": {
+    "en": "What converts reciprocating motion to rotary motion?"
+   },
+   "recall_a": {
+    "en": "Connecting rod and crankshaft."
+   },
+   "explain_simple": {
+    "en": "Rod + crank turn up-down into round."
+   }
+  },
+  {
+   "id": "u5.piston.f23",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Connecting rod parts: small end (gudgeon pin end, with bronze bush), shank (I-section), big end (split, with shell bearings, cap and bolts)."
+   },
+   "why": {
+    "en": "The big end is split so it can fit around the crankpin."
+   },
+   "recall_q": {
+    "en": "Which end of the connecting rod is split?"
+   },
+   "recall_a": {
+    "en": "Big end."
+   },
+   "explain_simple": {
+    "en": "Small end at the piston, big split end at the crank."
+   }
+  },
+  {
+   "id": "u5.piston.f24",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Connecting rods are made of drop-forged medium carbon or alloy steel; racing engines use aluminium or titanium."
+   },
+   "why": {
+    "en": "They need high strength with low weight."
+   },
+   "recall_q": {
+    "en": "How are connecting rods usually made?"
+   },
+   "recall_a": {
+    "en": "Drop-forged steel."
+   },
+   "explain_simple": {
+    "en": "Hammer-forged strong steel."
+   }
+  },
+  {
+   "id": "u5.piston.f25",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Connecting rod shank has an I-section."
+   },
+   "why": {
+    "en": "It gives maximum stiffness against buckling for least weight."
+   },
+   "recall_q": {
+    "en": "Cross-section of a connecting rod shank?"
+   },
+   "recall_a": {
+    "en": "I-section."
+   },
+   "explain_simple": {
+    "en": "I-shape is strong and light."
+   }
+  },
+  {
+   "id": "u5.piston.f26",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Small end usually has a phosphor bronze bush. Big end uses split shell (thin-wall) bearings."
+   },
+   "why": {
+    "en": "The small end only rocks; the big end rotates fully."
+   },
+   "recall_q": {
+    "en": "Bearing at the small end of a connecting rod?"
+   },
+   "recall_a": {
+    "en": "Bronze bush."
+   },
+   "explain_simple": {
+    "en": "Bush at small end, shells at big end."
+   }
+  },
+  {
+   "id": "u5.piston.f27",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Some connecting rods have an oil hole (squirt hole) that sprays oil onto the cylinder wall or under the piston."
+   },
+   "why": {
+    "en": "Extra cooling and lubrication."
+   },
+   "recall_q": {
+    "en": "Purpose of the squirt hole in a connecting rod?"
+   },
+   "recall_a": {
+    "en": "Spray oil onto cylinder wall or piston."
+   },
+   "explain_simple": {
+    "en": "A small jet of oil for the cylinder."
+   }
+  },
+  {
+   "id": "u5.piston.f28",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Crankshaft turns the reciprocating motion of pistons into rotation and carries the flywheel."
+   },
+   "why": {
+    "en": "It is the engine's output shaft."
+   },
+   "recall_q": {
+    "en": "Output shaft of an engine?"
+   },
+   "recall_a": {
+    "en": "Crankshaft."
+   },
+   "explain_simple": {
+    "en": "The main spinning shaft."
+   }
+  },
+  {
+   "id": "u5.piston.f29",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Crankshaft parts: main journals, crankpins, webs (cheeks), counterweights, oil holes, front end (timing gear, pulley) and rear flange (flywheel)."
+   },
+   "why": {
+    "en": "Main journals sit in main bearings; crankpins hold big ends."
+   },
+   "recall_q": {
+    "en": "Part of the crankshaft where the big end fits?"
+   },
+   "recall_a": {
+    "en": "Crankpin."
+   },
+   "explain_simple": {
+    "en": "Main journals on the centre line; crankpins offset."
+   }
+  },
+  {
+   "id": "u5.piston.f30",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Counterweights on the crank webs balance the rotating weight of crankpins and connecting rods."
+   },
+   "why": {
+    "en": "This reduces vibration and bearing load."
+   },
+   "recall_q": {
+    "en": "Why are counterweights used on a crankshaft?"
+   },
+   "recall_a": {
+    "en": "To balance the crankshaft and reduce vibration."
+   },
+   "explain_simple": {
+    "en": "Weights opposite the crankpins balance it."
+   }
+  },
+  {
+   "id": "u5.piston.f31",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Crankshafts are made of drop-forged steel (carbon or alloy) or SG cast iron. Journals are hardened."
+   },
+   "why": {
+    "en": "They face bending and twisting loads."
+   },
+   "recall_q": {
+    "en": "Two crankshaft materials?"
+   },
+   "recall_a": {
+    "en": "Forged steel and SG (nodular) cast iron."
+   },
+   "explain_simple": {
+    "en": "Forged steel or tough cast iron."
+   }
+  },
+  {
+   "id": "u5.piston.f32",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Crankshaft shapes depend on cylinders: single-throw (1 cylinder), 180° two-throw, four-cylinder flat (throws at 180°), six-cylinder (throws at 120°)."
+   },
+   "why": {
+    "en": "Throw angle spreads power strokes evenly: 720°/number of cylinders."
+   },
+   "recall_q": {
+    "en": "Crank throw spacing for a four-stroke six-cylinder engine?"
+   },
+   "recall_a": {
+    "en": "120°"
+   },
+   "explain_simple": {
+    "en": "720° ÷ cylinders = firing interval."
+   }
+  },
+  {
+   "id": "u5.piston.f33",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Number of main bearings: a four-cylinder crankshaft usually has 3 or 5 main bearings."
+   },
+   "why": {
+    "en": "More mains give a stiffer crank."
+   },
+   "recall_q": {
+    "en": "Common number of main bearings in a four-cylinder engine?"
+   },
+   "recall_a": {
+    "en": "5 (sometimes 3)."
+   },
+   "explain_simple": {
+    "en": "More bearings, less bending."
+   }
+  },
+  {
+   "id": "u5.piston.f34",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Crankshaft end float is controlled by thrust washers or a flanged main bearing."
+   },
+   "why": {
+    "en": "Clutch pressure pushes the crank lengthways."
+   },
+   "recall_q": {
+    "en": "What controls crankshaft end play?"
+   },
+   "recall_a": {
+    "en": "Thrust washers (or flanged thrust bearing)."
+   },
+   "explain_simple": {
+    "en": "Washers stop the crank sliding back and forth."
+   }
+  },
+  {
+   "id": "u5.piston.f35",
+   "topic": "u5.piston",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vibration damper (harmonic balancer) on the front of the crankshaft reduces torsional vibration."
+   },
+   "why": {
+    "en": "Long crankshafts twist and untwist with each power stroke."
+   },
+   "recall_q": {
+    "en": "What reduces torsional vibration of the crankshaft?"
+   },
+   "recall_a": {
+    "en": "Vibration damper (harmonic balancer)."
+   },
+   "explain_simple": {
+    "en": "A rubber-mounted ring stops the crank twisting back and forth."
+   }
+  },
+  {
+   "id": "u5.piston.sum",
+   "topic": "u5.piston",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Piston, rings, connecting rod and crankshaft; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Piston, rings, connecting rod and crankshaft"
+   },
+   "points": [
+    {
+     "en": "Piston: aluminium; split-skirt, cam-ground, invar-strut types."
+    },
+    {
+     "en": "Rings: 2 compression + 1 oil; staggered gaps; cast iron."
+    },
+    {
+     "en": "Gudgeon pin: fully floating with circlips; offset reduces slap."
+    },
+    {
+     "en": "Con rod: I-section, forged steel; small end bush, big end shells."
+    },
+    {
+     "en": "Crankshaft: journals, crankpins, counterweights; damper at front."
+    }
+   ]
+  },
+  {
+   "id": "u5.valves.f01",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valves open and close the inlet and exhaust ports at the right time."
+   },
+   "why": {
+    "en": "They let fresh charge in and burnt gas out."
+   },
+   "recall_q": {
+    "en": "Job of engine valves?"
+   },
+   "recall_a": {
+    "en": "Control flow of charge in and exhaust out."
+   },
+   "explain_simple": {
+    "en": "Doors for gas."
+   }
+  },
+  {
+   "id": "u5.valves.f02",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Types of valves: poppet (mushroom) valve, sleeve valve, rotary valve, reed valve. Poppet valves are used in almost all four-stroke engines."
+   },
+   "why": {
+    "en": "Poppet valves seal well and are simple."
+   },
+   "recall_q": {
+    "en": "Most common type of engine valve?"
+   },
+   "recall_a": {
+    "en": "Poppet (mushroom) valve."
+   },
+   "explain_simple": {
+    "en": "A mushroom-shaped valve."
+   }
+  },
+  {
+   "id": "u5.valves.f03",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Poppet valve parts: head, face (usually 45°, sometimes 30°), margin, stem, and grooves for the collets (keepers)."
+   },
+   "why": {
+    "en": "The angled face seals against the seat."
+   },
+   "recall_q": {
+    "en": "Usual valve face angle?"
+   },
+   "recall_a": {
+    "en": "45° (sometimes 30°)."
+   },
+   "explain_simple": {
+    "en": "The valve's sloping face presses on the seat."
+   }
+  },
+  {
+   "id": "u5.valves.f04",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Inlet valve head is larger than exhaust valve head."
+   },
+   "why": {
+    "en": "Incoming charge has low pressure and needs a big opening; exhaust leaves under pressure."
+   },
+   "recall_q": {
+    "en": "Which valve is bigger: inlet or exhaust?"
+   },
+   "recall_a": {
+    "en": "Inlet valve."
+   },
+   "explain_simple": {
+    "en": "Bigger door for air coming in."
+   }
+  },
+  {
+   "id": "u5.valves.f05",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exhaust valve runs much hotter (up to about 700–800°C) than the inlet valve."
+   },
+   "why": {
+    "en": "Hot gases flow over it; the inlet is cooled by fresh charge."
+   },
+   "recall_q": {
+    "en": "Which valve runs hotter?"
+   },
+   "recall_a": {
+    "en": "Exhaust valve."
+   },
+   "explain_simple": {
+    "en": "Exhaust valve faces hot gas."
+   }
+  },
+  {
+   "id": "u5.valves.f06",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Sodium-cooled valve: hollow exhaust valve stem partly filled with sodium. The sodium melts and carries heat from head to stem."
+   },
+   "why": {
+    "en": "Liquid sodium splashes up and down, moving heat to the cooler stem and guide."
+   },
+   "recall_q": {
+    "en": "Why is sodium filled in some exhaust valves?"
+   },
+   "recall_a": {
+    "en": "To carry heat away from the valve head (cooling)."
+   },
+   "explain_simple": {
+    "en": "Melted sodium moves heat away."
+   }
+  },
+  {
+   "id": "u5.valves.f07",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Sodium melts at about 98°C, so it is liquid when the engine runs."
+   },
+   "why": {
+    "en": "Liquid sodium carries heat well."
+   },
+   "recall_q": {
+    "en": "Melting point of sodium used in valves?"
+   },
+   "recall_a": {
+    "en": "About 98°C."
+   },
+   "explain_simple": {
+    "en": "Sodium is liquid in a running engine."
+   }
+  },
+  {
+   "id": "u5.valves.f08",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve materials: inlet — chromium or nickel-chromium steel. Exhaust — silchrome or austenitic steel; faces often coated with stellite."
+   },
+   "why": {
+    "en": "Exhaust valves need heat and corrosion resistance."
+   },
+   "recall_q": {
+    "en": "Hard alloy coated on exhaust valve faces?"
+   },
+   "recall_a": {
+    "en": "Stellite."
+   },
+   "explain_simple": {
+    "en": "Exhaust valves get a heat-proof face."
+   }
+  },
+  {
+   "id": "u5.valves.f09",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve seat inserts of hard alloy are fitted in aluminium heads."
+   },
+   "why": {
+    "en": "Aluminium is too soft to act as a seat."
+   },
+   "recall_q": {
+    "en": "Why are valve seat inserts used in aluminium heads?"
+   },
+   "recall_a": {
+    "en": "Aluminium is soft; inserts give a hard wearing seat."
+   },
+   "explain_simple": {
+    "en": "A hard ring for the valve to sit on."
+   }
+  },
+  {
+   "id": "u5.valves.f10",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve guide holds the valve stem in line and carries heat from the stem."
+   },
+   "why": {
+    "en": "It keeps the valve centred on its seat."
+   },
+   "recall_q": {
+    "en": "What keeps the valve stem aligned?"
+   },
+   "recall_a": {
+    "en": "Valve guide."
+   },
+   "explain_simple": {
+    "en": "A tube the valve slides in."
+   }
+  },
+  {
+   "id": "u5.valves.f11",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve stem seals stop oil leaking down the guide into the cylinder."
+   },
+   "why": {
+    "en": "Worn seals cause blue smoke on start-up."
+   },
+   "recall_q": {
+    "en": "Part that stops oil going down the valve guide?"
+   },
+   "recall_a": {
+    "en": "Valve stem seal."
+   },
+   "explain_simple": {
+    "en": "A rubber seal on the valve stem."
+   }
+  },
+  {
+   "id": "u5.valves.f12",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve spring closes the valve and keeps it on the seat. It is held by a spring retainer and split collets (cotters)."
+   },
+   "why": {
+    "en": "The cam only opens the valve; the spring closes it."
+   },
+   "recall_q": {
+    "en": "What closes the valve?"
+   },
+   "recall_a": {
+    "en": "Valve spring."
+   },
+   "explain_simple": {
+    "en": "The cam opens, the spring shuts."
+   }
+  },
+  {
+   "id": "u5.valves.f13",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve float: at very high speed, the valve does not follow the cam and stays partly open."
+   },
+   "why": {
+    "en": "The spring cannot close it fast enough."
+   },
+   "recall_q": {
+    "en": "Valve not following the cam at high rpm is called?"
+   },
+   "recall_a": {
+    "en": "Valve float."
+   },
+   "explain_simple": {
+    "en": "Valve bounces and stays open too long."
+   }
+  },
+  {
+   "id": "u5.valves.f14",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve rotators turn the valve a little on each opening."
+   },
+   "why": {
+    "en": "This spreads wear and stops carbon build-up on the seat."
+   },
+   "recall_q": {
+    "en": "Why are valve rotators used?"
+   },
+   "recall_a": {
+    "en": "Even wear and to prevent carbon deposits on seat."
+   },
+   "explain_simple": {
+    "en": "Turning the valve keeps its seat clean."
+   }
+  },
+  {
+   "id": "u5.valves.f15",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve clearance (tappet clearance) is a small gap in the valve train when the valve is closed."
+   },
+   "why": {
+    "en": "It allows for heat expansion so the valve closes fully when hot."
+   },
+   "recall_q": {
+    "en": "Why is tappet clearance provided?"
+   },
+   "recall_a": {
+    "en": "To allow for expansion so valves close fully."
+   },
+   "explain_simple": {
+    "en": "A small gap for growth when hot."
+   }
+  },
+  {
+   "id": "u5.valves.f16",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exhaust valve clearance is usually more than inlet valve clearance."
+   },
+   "why": {
+    "en": "The exhaust valve gets hotter and expands more."
+   },
+   "recall_q": {
+    "en": "Which valve has more tappet clearance?"
+   },
+   "recall_a": {
+    "en": "Exhaust valve."
+   },
+   "explain_simple": {
+    "en": "Hotter valve gets a bigger gap."
+   }
+  },
+  {
+   "id": "u5.valves.f17",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Too little clearance: valve stays open, burns, and compression is lost. Too much clearance: noisy tapping and less valve lift."
+   },
+   "why": {
+    "en": "Clearance changes valve timing."
+   },
+   "recall_q": {
+    "en": "Effect of too little tappet clearance?"
+   },
+   "recall_a": {
+    "en": "Valve does not close fully → burnt valve, low compression."
+   },
+   "explain_simple": {
+    "en": "Too tight burns valves; too loose taps loudly."
+   }
+  },
+  {
+   "id": "u5.valves.f18",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydraulic tappets (lifters) use oil pressure to keep zero clearance automatically."
+   },
+   "why": {
+    "en": "No adjustment needed and quiet running."
+   },
+   "recall_q": {
+    "en": "Advantage of hydraulic tappets?"
+   },
+   "recall_a": {
+    "en": "Zero clearance automatically, quiet, no adjustment."
+   },
+   "explain_simple": {
+    "en": "Oil-filled lifters adjust themselves."
+   }
+  },
+  {
+   "id": "u5.valves.f19",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve arrangements: L-head (side valve), I-head (overhead valve), F-head (one over, one side), T-head (inlet and exhaust on opposite sides)."
+   },
+   "why": {
+    "en": "Older names still asked in exams."
+   },
+   "recall_q": {
+    "en": "Engine with both valves in the cylinder head is called?"
+   },
+   "recall_a": {
+    "en": "I-head (overhead valve)."
+   },
+   "explain_simple": {
+    "en": "Valve layout is named by letter shapes."
+   }
+  },
+  {
+   "id": "u5.valves.f20",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Side camshaft (OHV push-rod) mechanism: camshaft in the block → tappet (follower) → push rod → rocker arm → valve."
+   },
+   "why": {
+    "en": "The push rod carries motion up to the head."
+   },
+   "recall_q": {
+    "en": "Order of parts in a push-rod valve mechanism?"
+   },
+   "recall_a": {
+    "en": "Cam → tappet → push rod → rocker arm → valve."
+   },
+   "explain_simple": {
+    "en": "Cam pushes tappet, push rod, rocker, valve."
+   }
+  },
+  {
+   "id": "u5.valves.f21",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Overhead camshaft (OHC): the camshaft is in the cylinder head and works the valves directly or through rockers/followers."
+   },
+   "why": {
+    "en": "Fewer moving parts allows higher engine speeds."
+   },
+   "recall_q": {
+    "en": "Advantage of OHC over push-rod design?"
+   },
+   "recall_a": {
+    "en": "Fewer parts, less inertia, higher rpm."
+   },
+   "explain_simple": {
+    "en": "Cam on top = fewer parts, faster engine."
+   }
+  },
+  {
+   "id": "u5.valves.f22",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "SOHC: single overhead camshaft. DOHC: two overhead camshafts, one for inlet and one for exhaust valves."
+   },
+   "why": {
+    "en": "DOHC allows 4 valves per cylinder and better breathing."
+   },
+   "recall_q": {
+    "en": "In DOHC, how many camshafts per cylinder bank?"
+   },
+   "recall_a": {
+    "en": "Two."
+   },
+   "explain_simple": {
+    "en": "Double OHC: one cam for inlet, one for exhaust."
+   }
+  },
+  {
+   "id": "u5.valves.f23",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Multi-valve engines (3, 4 or 5 valves per cylinder) breathe better and allow a central spark plug."
+   },
+   "why": {
+    "en": "More, smaller valves give more flow area."
+   },
+   "recall_q": {
+    "en": "Why use four valves per cylinder?"
+   },
+   "recall_a": {
+    "en": "Better breathing, more power, central plug."
+   },
+   "explain_simple": {
+    "en": "More doors, more air."
+   }
+  },
+  {
+   "id": "u5.valves.f24",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Camshaft opens the valves at the right time. It has one cam (lobe) for each valve and runs at half crankshaft speed in four-stroke engines."
+   },
+   "why": {
+    "en": "Each valve opens once per two crank turns."
+   },
+   "recall_q": {
+    "en": "Camshaft speed compared to crankshaft?"
+   },
+   "recall_a": {
+    "en": "Half."
+   },
+   "explain_simple": {
+    "en": "Cam turns once for every two crank turns."
+   }
+  },
+  {
+   "id": "u5.valves.f25",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cam terms: base circle, nose (tip), flank, lift, ramp."
+   },
+   "why": {
+    "en": "The nose gives maximum valve opening."
+   },
+   "recall_q": {
+    "en": "Highest point of a cam is called?"
+   },
+   "recall_a": {
+    "en": "Nose."
+   },
+   "explain_simple": {
+    "en": "The nose pushes the valve fully open."
+   }
+  },
+  {
+   "id": "u5.valves.f26",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Camshafts may also drive the distributor, oil pump and mechanical fuel pump (via an eccentric)."
+   },
+   "why": {
+    "en": "Older engines used one shaft for many drives."
+   },
+   "recall_q": {
+    "en": "What on the camshaft drives a mechanical fuel pump?"
+   },
+   "recall_a": {
+    "en": "An eccentric."
+   },
+   "explain_simple": {
+    "en": "An off-centre lobe works the fuel pump."
+   }
+  },
+  {
+   "id": "u5.valves.f27",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Camshaft drives: gear drive, chain drive (timing chain with tensioner), belt drive (toothed timing belt)."
+   },
+   "why": {
+    "en": "They keep cam and crank in exact time."
+   },
+   "recall_q": {
+    "en": "Three types of camshaft drives?"
+   },
+   "recall_a": {
+    "en": "Gear, chain, toothed belt."
+   },
+   "explain_simple": {
+    "en": "Gears, chain or belt connect crank to cam."
+   }
+  },
+  {
+   "id": "u5.valves.f28",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Timing belts are quiet and light but must be replaced at set intervals. Chains last longer but are noisier."
+   },
+   "why": {
+    "en": "A broken belt can let pistons hit valves (interference engine)."
+   },
+   "recall_q": {
+    "en": "Disadvantage of a timing belt?"
+   },
+   "recall_a": {
+    "en": "Needs periodic replacement; failure can damage valves."
+   },
+   "explain_simple": {
+    "en": "Belt is quiet but must be changed on time."
+   }
+  },
+  {
+   "id": "u5.valves.f29",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Timing marks on crank and cam sprockets must line up when fitting the chain or belt."
+   },
+   "why": {
+    "en": "Wrong timing gives poor running or engine damage."
+   },
+   "recall_q": {
+    "en": "What must be lined up when fitting a timing belt?"
+   },
+   "recall_a": {
+    "en": "Timing marks on crank and cam sprockets."
+   },
+   "explain_simple": {
+    "en": "Match the marks before fitting."
+   }
+  },
+  {
+   "id": "u5.valves.f30",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Camshafts are made of cast iron (chilled or hardenable) or forged steel; cam lobes are hardened."
+   },
+   "why": {
+    "en": "Lobes face heavy sliding wear."
+   },
+   "recall_q": {
+    "en": "Material of camshafts?"
+   },
+   "recall_a": {
+    "en": "Chilled cast iron or forged steel (hardened lobes)."
+   },
+   "explain_simple": {
+    "en": "Hard-faced iron or steel."
+   }
+  },
+  {
+   "id": "u5.valves.f31",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cam followers: flat (mushroom), roller, knife-edge, spherical. Roller followers reduce friction."
+   },
+   "why": {
+    "en": "Rolling contact wears less than sliding."
+   },
+   "recall_q": {
+    "en": "Which follower has least friction?"
+   },
+   "recall_a": {
+    "en": "Roller follower."
+   },
+   "explain_simple": {
+    "en": "A small wheel riding on the cam."
+   }
+  },
+  {
+   "id": "u5.valves.f32",
+   "topic": "u5.valves",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve grinding (lapping) with grinding paste makes the valve face and seat seal perfectly."
+   },
+   "why": {
+    "en": "Removes small pits and makes a gas-tight ring of contact."
+   },
+   "recall_q": {
+    "en": "Process of making valve and seat seal with paste?"
+   },
+   "recall_a": {
+    "en": "Valve lapping (grinding)."
+   },
+   "explain_simple": {
+    "en": "Rub valve and seat together with paste."
+   }
+  },
+  {
+   "id": "u5.valves.sum",
+   "topic": "u5.valves",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Valves, valve mechanisms and camshaft; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Valves, valve mechanisms and camshaft"
+   },
+   "points": [
+    {
+     "en": "Poppet valves, 45° face; inlet bigger, exhaust hotter."
+    },
+    {
+     "en": "Sodium-cooled exhaust valves; stellite faces; seat inserts."
+    },
+    {
+     "en": "Tappet clearance: exhaust > inlet; hydraulic lifters = zero."
+    },
+    {
+     "en": "Push rod: cam → tappet → push rod → rocker → valve. OHC/DOHC."
+    },
+    {
+     "en": "Cam drive: gear, chain, belt; cam at half crank speed."
+    }
+   ]
+  },
+  {
+   "id": "u5.petrolfuel.f01",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Petrol fuel system parts: tank, fuel lines, filter, fuel pump, carburettor or injectors."
+   },
+   "why": {
+    "en": "Fuel must reach the engine clean and at the right pressure."
+   },
+   "recall_q": {
+    "en": "Name the parts of a petrol fuel system."
+   },
+   "recall_a": {
+    "en": "Tank, lines, filter, pump, carburettor/injector."
+   },
+   "explain_simple": {
+    "en": "Tank → pump → filter → engine."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f02",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fuel feed systems: gravity feed, pressure feed, vacuum feed, pump feed (mechanical or electrical)."
+   },
+   "why": {
+    "en": "Small vehicles can use gravity; cars need a pump."
+   },
+   "recall_q": {
+    "en": "Simplest fuel feed system used in motorcycles?"
+   },
+   "recall_a": {
+    "en": "Gravity feed."
+   },
+   "explain_simple": {
+    "en": "Tank above the engine, fuel just flows down."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f03",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "AC mechanical fuel pump: a diaphragm pump worked by a rocker arm from an eccentric on the camshaft."
+   },
+   "why": {
+    "en": "Engine rotation pumps the fuel."
+   },
+   "recall_q": {
+    "en": "What operates the AC mechanical fuel pump?"
+   },
+   "recall_a": {
+    "en": "Eccentric on the camshaft (via rocker arm)."
+   },
+   "explain_simple": {
+    "en": "Camshaft moves a lever that flexes a diaphragm."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f04",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "AC pump parts: diaphragm, rocker arm, return spring, inlet and outlet valves, filter screen, priming lever."
+   },
+   "why": {
+    "en": "The diaphragm sucks and pushes fuel through one-way valves."
+   },
+   "recall_q": {
+    "en": "Main moving part that pumps fuel in an AC pump?"
+   },
+   "recall_a": {
+    "en": "Diaphragm."
+   },
+   "explain_simple": {
+    "en": "A flexible sheet sucks and pushes petrol."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f05",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In the AC pump, the spring pushes fuel out. When the float bowl is full, the diaphragm stays down and the pump idles."
+   },
+   "why": {
+    "en": "Delivery pressure is set by the spring, not the cam."
+   },
+   "recall_q": {
+    "en": "What decides the delivery pressure of an AC pump?"
+   },
+   "recall_a": {
+    "en": "The diaphragm spring."
+   },
+   "explain_simple": {
+    "en": "The spring pushes the fuel, so pressure stays safe."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f06",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "SU electrical fuel pump: a solenoid pulls a diaphragm; contact points switch it off and on."
+   },
+   "why": {
+    "en": "Works as soon as the ignition is on, even before cranking."
+   },
+   "recall_q": {
+    "en": "What moves the diaphragm in an SU electric pump?"
+   },
+   "recall_a": {
+    "en": "An electromagnet (solenoid)."
+   },
+   "explain_simple": {
+    "en": "Electric magnet flexes the diaphragm."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f07",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Electric pumps can be fitted near the tank, away from engine heat."
+   },
+   "why": {
+    "en": "This reduces vapour lock."
+   },
+   "recall_q": {
+    "en": "Advantage of an electric fuel pump?"
+   },
+   "recall_a": {
+    "en": "Fitted away from heat; fuel at once on switch-on; less vapour lock."
+   },
+   "explain_simple": {
+    "en": "Cool location, instant fuel."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f08",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Modern fuel-injected cars use an electric in-tank (submerged) roller-cell or turbine pump."
+   },
+   "why": {
+    "en": "Fuel cools the pump and prevents vapour."
+   },
+   "recall_q": {
+    "en": "Where is the fuel pump fitted in modern MPFI cars?"
+   },
+   "recall_a": {
+    "en": "Inside the fuel tank."
+   },
+   "explain_simple": {
+    "en": "Pump sits in the tank."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f09",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vapour lock: petrol boils in hot fuel lines and vapour blocks fuel flow."
+   },
+   "why": {
+    "en": "Pumps cannot push vapour well."
+   },
+   "recall_q": {
+    "en": "Fuel line blocked by petrol vapour is called?"
+   },
+   "recall_a": {
+    "en": "Vapour lock."
+   },
+   "explain_simple": {
+    "en": "Bubbles block the fuel."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f10",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Petrol filters remove dirt and water. Types: in-line paper filter, sediment bowl, gauze strainer in tank and pump."
+   },
+   "why": {
+    "en": "Dirt blocks carburettor jets and injectors."
+   },
+   "recall_q": {
+    "en": "Why are fuel filters used?"
+   },
+   "recall_a": {
+    "en": "To remove dirt and water from fuel."
+   },
+   "explain_simple": {
+    "en": "Clean fuel, clear jets."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f11",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air cleaner removes dust from air entering the engine. It also silences intake noise and acts as a flame arrester."
+   },
+   "why": {
+    "en": "Dust wears cylinders and rings fast."
+   },
+   "recall_q": {
+    "en": "Give two functions of an air cleaner."
+   },
+   "recall_a": {
+    "en": "Filter dust, reduce intake noise (and arrest backfire flame)."
+   },
+   "explain_simple": {
+    "en": "Cleans air and quiets the intake."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f12",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air cleaner types: dry (paper element), wet (oil-wetted mesh), oil bath. Paper dry type is most common in cars."
+   },
+   "why": {
+    "en": "Paper elements are efficient and cheap to replace."
+   },
+   "recall_q": {
+    "en": "Air cleaner where air passes over oil in a bowl?"
+   },
+   "recall_a": {
+    "en": "Oil bath air cleaner."
+   },
+   "explain_simple": {
+    "en": "Paper, oily mesh, or oil bath."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f13",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Centrifugal (cyclone) pre-cleaners are used on trucks and tractors in dusty conditions."
+   },
+   "why": {
+    "en": "They spin out heavy dust before the main filter."
+   },
+   "recall_q": {
+    "en": "Pre-cleaner used in dusty conditions?"
+   },
+   "recall_a": {
+    "en": "Centrifugal (cyclone) pre-cleaner."
+   },
+   "explain_simple": {
+    "en": "Spins dust out first."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.f14",
+   "topic": "u5.petrolfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A choked air filter makes the mixture rich, raises fuel consumption and causes black smoke."
+   },
+   "why": {
+    "en": "Less air for the same fuel."
+   },
+   "recall_q": {
+    "en": "Effect of a choked air filter?"
+   },
+   "recall_a": {
+    "en": "Rich mixture, high fuel consumption, black smoke."
+   },
+   "explain_simple": {
+    "en": "Dirty filter = less air = rich mixture."
+   }
+  },
+  {
+   "id": "u5.petrolfuel.sum",
+   "topic": "u5.petrolfuel",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Petrol fuel feed, filters and air cleaners; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Petrol fuel feed, filters and air cleaners"
+   },
+   "points": [
+    {
+     "en": "Gravity, vacuum, pump feed systems."
+    },
+    {
+     "en": "AC pump: mechanical, diaphragm, camshaft eccentric."
+    },
+    {
+     "en": "SU pump: electric solenoid; in-tank pumps in MPFI."
+    },
+    {
+     "en": "Vapour lock = petrol boiling in lines."
+    },
+    {
+     "en": "Air cleaners: paper, oil-wetted, oil bath."
+    }
+   ]
+  },
+  {
+   "id": "u5.carb.f01",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A carburettor mixes petrol with air in the correct ratio and supplies it to the engine as a fine spray."
+   },
+   "why": {
+    "en": "Petrol must be vapour mixed with air to burn well."
+   },
+   "recall_q": {
+    "en": "Function of a carburettor?"
+   },
+   "recall_a": {
+    "en": "Mix air and petrol in correct proportion."
+   },
+   "explain_simple": {
+    "en": "It makes the air–petrol mix."
+   }
+  },
+  {
+   "id": "u5.carb.f02",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Carburettor works on the venturi (Bernoulli) principle: air speeds up in the narrow venturi, pressure drops, and petrol is sucked from the jet."
+   },
+   "why": {
+    "en": "Fast air = low pressure."
+   },
+   "recall_q": {
+    "en": "Principle of the carburettor?"
+   },
+   "recall_a": {
+    "en": "Venturi (Bernoulli) principle."
+   },
+   "explain_simple": {
+    "en": "Fast air pulls petrol out."
+   }
+  },
+  {
+   "id": "u5.carb.f03",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Simple carburettor parts: float chamber with float and needle valve, main jet, discharge nozzle, venturi, throttle valve, choke valve."
+   },
+   "why": {
+    "en": "Each part controls fuel level, flow or air."
+   },
+   "recall_q": {
+    "en": "Part that keeps a constant fuel level in a carburettor?"
+   },
+   "recall_a": {
+    "en": "Float and needle valve."
+   },
+   "explain_simple": {
+    "en": "The float shuts fuel when the bowl is full."
+   }
+  },
+  {
+   "id": "u5.carb.f04",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Throttle valve (butterfly) controls the amount of mixture entering the engine and so controls speed and power."
+   },
+   "why": {
+    "en": "It is linked to the accelerator pedal."
+   },
+   "recall_q": {
+    "en": "Which valve is connected to the accelerator pedal?"
+   },
+   "recall_a": {
+    "en": "Throttle valve."
+   },
+   "explain_simple": {
+    "en": "Pedal opens the throttle."
+   }
+  },
+  {
+   "id": "u5.carb.f05",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The fuel nozzle tip is slightly above the fuel level in the float chamber."
+   },
+   "why": {
+    "en": "Prevents fuel dripping out when the engine is stopped."
+   },
+   "recall_q": {
+    "en": "Why is the nozzle tip above the float chamber level?"
+   },
+   "recall_a": {
+    "en": "To stop fuel overflowing when the engine is off."
+   },
+   "explain_simple": {
+    "en": "Keeps petrol from dripping out."
+   }
+  },
+  {
+   "id": "u5.carb.f06",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A simple carburettor gives a richer mixture as speed rises."
+   },
+   "why": {
+    "en": "Fuel flow increases faster than air flow through the venturi."
+   },
+   "recall_q": {
+    "en": "What happens to mixture in a simple carburettor at high speed?"
+   },
+   "recall_a": {
+    "en": "It becomes richer."
+   },
+   "explain_simple": {
+    "en": "Simple carb goes rich when fast."
+   }
+  },
+  {
+   "id": "u5.carb.f07",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compensation devices keep mixture correct at all speeds: air bleed jet, compensating jet, emulsion tube, auxiliary air valve, back suction control."
+   },
+   "why": {
+    "en": "They correct the richening at high speed."
+   },
+   "recall_q": {
+    "en": "Name one compensating device in a carburettor."
+   },
+   "recall_a": {
+    "en": "Air bleed jet (or compensating jet, emulsion tube)."
+   },
+   "explain_simple": {
+    "en": "Extra air or fuel paths keep the mix right."
+   }
+  },
+  {
+   "id": "u5.carb.f08",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Chemically correct air-fuel ratio: about 15:1. Rich mixture: less air (e.g. 12:1). Lean (weak) mixture: more air (e.g. 17:1)."
+   },
+   "why": {
+    "en": "Engine needs different ratios for different conditions."
+   },
+   "recall_q": {
+    "en": "Is 12:1 a rich or lean mixture?"
+   },
+   "recall_a": {
+    "en": "Rich."
+   },
+   "explain_simple": {
+    "en": "Less air = rich. More air = lean."
+   }
+  },
+  {
+   "id": "u5.carb.f09",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mixture requirements: cold starting very rich (up to 5:1 or 9:1), idling rich (about 12:1), cruising lean (about 16–17:1), full power/acceleration rich (about 12–13:1)."
+   },
+   "why": {
+    "en": "Each condition needs different fuel."
+   },
+   "recall_q": {
+    "en": "Which condition needs the leanest mixture?"
+   },
+   "recall_a": {
+    "en": "Cruising (part load)."
+   },
+   "explain_simple": {
+    "en": "Cruise lean, start and power rich."
+   }
+  },
+  {
+   "id": "u5.carb.f10",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Best economy mixture is slightly lean (about 16:1). Best power mixture is slightly rich (about 12.5:1)."
+   },
+   "why": {
+    "en": "Extra fuel ensures all oxygen is used for power."
+   },
+   "recall_q": {
+    "en": "Is best power mixture rich or lean?"
+   },
+   "recall_a": {
+    "en": "Slightly rich."
+   },
+   "explain_simple": {
+    "en": "Rich for power, lean for economy."
+   }
+  },
+  {
+   "id": "u5.carb.f11",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Modern carburettor circuits: float system, starting (choke) system, idle and slow-speed system, main metering (high speed) system, acceleration pump system, power (economiser) system."
+   },
+   "why": {
+    "en": "Each circuit handles a driving condition."
+   },
+   "recall_q": {
+    "en": "Name the circuits of a modern carburettor."
+   },
+   "recall_a": {
+    "en": "Float, choke, idle, main metering, accelerating pump, power."
+   },
+   "explain_simple": {
+    "en": "Six circuits for six jobs."
+   }
+  },
+  {
+   "id": "u5.carb.f12",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Idle and slow-speed system supplies fuel through an idle port below the closed throttle, where vacuum is high."
+   },
+   "why": {
+    "en": "At idle, venturi air is too slow to lift fuel from the main jet."
+   },
+   "recall_q": {
+    "en": "Where does fuel come from at idle?"
+   },
+   "recall_a": {
+    "en": "Idle port below the throttle valve."
+   },
+   "explain_simple": {
+    "en": "A small hole under the throttle feeds idle fuel."
+   }
+  },
+  {
+   "id": "u5.carb.f13",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Idle mixture screw adjusts idle mixture; idle speed (throttle stop) screw adjusts idle rpm."
+   },
+   "why": {
+    "en": "Both are set during tuning."
+   },
+   "recall_q": {
+    "en": "Which screw adjusts idle rpm?"
+   },
+   "recall_a": {
+    "en": "Throttle stop (idle speed) screw."
+   },
+   "explain_simple": {
+    "en": "One screw for mixture, one for speed."
+   }
+  },
+  {
+   "id": "u5.carb.f14",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Transfer (progression) ports just above the closed throttle feed extra fuel as the throttle starts to open."
+   },
+   "why": {
+    "en": "Prevents a flat spot between idle and main circuits."
+   },
+   "recall_q": {
+    "en": "Purpose of transfer ports?"
+   },
+   "recall_a": {
+    "en": "Smooth change from idle to main circuit."
+   },
+   "explain_simple": {
+    "en": "Fill the gap as the throttle starts opening."
+   }
+  },
+  {
+   "id": "u5.carb.f15",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Main metering (high speed) system supplies fuel through the main jet and nozzle at cruising and higher speeds."
+   },
+   "why": {
+    "en": "Venturi vacuum is strong enough at these speeds."
+   },
+   "recall_q": {
+    "en": "Which circuit supplies fuel at cruising speed?"
+   },
+   "recall_a": {
+    "en": "Main metering system."
+   },
+   "explain_simple": {
+    "en": "Main jet works at normal speeds."
+   }
+  },
+  {
+   "id": "u5.carb.f16",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Acceleration pump squirts extra fuel when the throttle is opened suddenly."
+   },
+   "why": {
+    "en": "Air speeds up faster than fuel; without it the engine hesitates (flat spot)."
+   },
+   "recall_q": {
+    "en": "Why is an accelerator pump needed?"
+   },
+   "recall_a": {
+    "en": "Prevent hesitation (lean mixture) on sudden throttle opening."
+   },
+   "explain_simple": {
+    "en": "An extra squirt when you press quickly."
+   }
+  },
+  {
+   "id": "u5.carb.f17",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Power (economiser) system gives extra fuel at full throttle, opened by low vacuum or a mechanical link."
+   },
+   "why": {
+    "en": "Full load needs a richer mixture."
+   },
+   "recall_q": {
+    "en": "Circuit that enriches mixture at full throttle?"
+   },
+   "recall_a": {
+    "en": "Power (economiser) system."
+   },
+   "explain_simple": {
+    "en": "More fuel at full power."
+   }
+  },
+  {
+   "id": "u5.carb.f18",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Choke valve is a butterfly above the venturi. Closing it gives a very rich mixture for cold starting."
+   },
+   "why": {
+    "en": "Cold petrol does not vaporise well, so more is needed."
+   },
+   "recall_q": {
+    "en": "Which valve gives a rich mixture for cold starting?"
+   },
+   "recall_a": {
+    "en": "Choke valve."
+   },
+   "explain_simple": {
+    "en": "Choke cuts air for a cold start."
+   }
+  },
+  {
+   "id": "u5.carb.f19",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Automatic choke uses a bimetallic spring heated by the engine to open the choke as the engine warms."
+   },
+   "why": {
+    "en": "Driver does not need to remember to push it in."
+   },
+   "recall_q": {
+    "en": "What operates an automatic choke?"
+   },
+   "recall_a": {
+    "en": "Bimetallic spring (thermostatic)."
+   },
+   "explain_simple": {
+    "en": "A heat-sensitive spring opens it by itself."
+   }
+  },
+  {
+   "id": "u5.carb.f20",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Constant vacuum (CV) carburettor: venturi size changes with a piston/slide lifted by vacuum (SU, Stromberg)."
+   },
+   "why": {
+    "en": "Air speed stays nearly constant, giving good mixture at all loads."
+   },
+   "recall_q": {
+    "en": "Name a constant vacuum (variable venturi) carburettor."
+   },
+   "recall_a": {
+    "en": "SU (or Stromberg CD)."
+   },
+   "explain_simple": {
+    "en": "The venturi grows as needed."
+   }
+  },
+  {
+   "id": "u5.carb.f21",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fixed venturi (constant choke) carburettors: Solex, Zenith, Carter. Variable venturi (constant vacuum): SU, Stromberg."
+   },
+   "why": {
+    "en": "PSC asks to classify named carburettors."
+   },
+   "recall_q": {
+    "en": "Is Solex a fixed or variable venturi carburettor?"
+   },
+   "recall_a": {
+    "en": "Fixed venturi (constant choke)."
+   },
+   "explain_simple": {
+    "en": "Solex/Zenith fixed; SU variable."
+   }
+  },
+  {
+   "id": "u5.carb.f22",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Down-draught, up-draught and side-draught carburettors are named by air flow direction. Down-draught is common in cars."
+   },
+   "why": {
+    "en": "Gravity helps the mixture flow down."
+   },
+   "recall_q": {
+    "en": "Most common carburettor type in cars (by air direction)?"
+   },
+   "recall_a": {
+    "en": "Down-draught."
+   },
+   "explain_simple": {
+    "en": "Air flows downward into the engine."
+   }
+  },
+  {
+   "id": "u5.carb.f23",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Multi-barrel carburettors have two or four throats; the secondary barrels open only at high load."
+   },
+   "why": {
+    "en": "Small primary for economy, big secondary for power."
+   },
+   "recall_q": {
+    "en": "When does the secondary barrel open?"
+   },
+   "recall_a": {
+    "en": "At high load / high speed."
+   },
+   "explain_simple": {
+    "en": "Extra barrels open for more power."
+   }
+  },
+  {
+   "id": "u5.carb.f24",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Carburettor faults: flooding (stuck needle valve), lean mixture (blocked jet), rich mixture (choke stuck, high float level), icing."
+   },
+   "why": {
+    "en": "Each shows typical symptoms."
+   },
+   "recall_q": {
+    "en": "Common cause of carburettor flooding?"
+   },
+   "recall_a": {
+    "en": "Needle valve stuck open / float punctured."
+   },
+   "explain_simple": {
+    "en": "Fuel keeps coming in and overflows."
+   }
+  },
+  {
+   "id": "u5.carb.f25",
+   "topic": "u5.carb",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Carburettor icing: fuel evaporation cools the venturi so much that moisture freezes on it."
+   },
+   "why": {
+    "en": "Evaporation takes heat."
+   },
+   "recall_q": {
+    "en": "Ice forming in a carburettor venturi is called?"
+   },
+   "recall_a": {
+    "en": "Carburettor icing."
+   },
+   "explain_simple": {
+    "en": "Evaporating petrol makes it freezing cold."
+   }
+  },
+  {
+   "id": "u5.carb.sum",
+   "topic": "u5.carb",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Carburettors; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Carburettors"
+   },
+   "points": [
+    {
+     "en": "Carburettor = venturi principle; float + needle valve keeps level."
+    },
+    {
+     "en": "Simple carb goes rich at speed → compensation (air bleed)."
+    },
+    {
+     "en": "Start very rich, idle rich, cruise lean, power rich."
+    },
+    {
+     "en": "Circuits: float, choke, idle, main, accelerator pump, power."
+    },
+    {
+     "en": "Fixed venturi: Solex, Zenith. Variable: SU, Stromberg."
+    }
+   ]
+  },
+  {
+   "id": "u5.manifold.f01",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Inlet (intake) manifold carries air or air–fuel mixture from the carburettor or throttle body to each cylinder."
+   },
+   "why": {
+    "en": "Each cylinder must get an equal share."
+   },
+   "recall_q": {
+    "en": "What does the inlet manifold do?"
+   },
+   "recall_a": {
+    "en": "Distribute air/mixture to each cylinder."
+   },
+   "explain_simple": {
+    "en": "Pipes that share air to all cylinders."
+   }
+  },
+  {
+   "id": "u5.manifold.f02",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Inlet manifolds are made of cast aluminium or plastic (nylon composite) in modern engines."
+   },
+   "why": {
+    "en": "Light and smooth inside."
+   },
+   "recall_q": {
+    "en": "Material of modern inlet manifolds?"
+   },
+   "recall_a": {
+    "en": "Aluminium or plastic composite."
+   },
+   "explain_simple": {
+    "en": "Light aluminium or plastic."
+   }
+  },
+  {
+   "id": "u5.manifold.f03",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hot spot: part of the inlet manifold heated by exhaust or coolant to help petrol vaporise in carburettor engines."
+   },
+   "why": {
+    "en": "Liquid petrol drops would cause uneven mixture."
+   },
+   "recall_q": {
+    "en": "Purpose of a hot spot in the inlet manifold?"
+   },
+   "recall_a": {
+    "en": "To vaporise fuel."
+   },
+   "explain_simple": {
+    "en": "Warm spot turns petrol drops to vapour."
+   }
+  },
+  {
+   "id": "u5.manifold.f04",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Inlet manifold types: single plane, dual plane, log type, individual runners (tuned)."
+   },
+   "why": {
+    "en": "Shape affects flow, distribution and torque curve."
+   },
+   "recall_q": {
+    "en": "Name one type of inlet manifold."
+   },
+   "recall_a": {
+    "en": "Single plane, dual plane, log, tuned runners."
+   },
+   "explain_simple": {
+    "en": "Different pipe layouts."
+   }
+  },
+  {
+   "id": "u5.manifold.f05",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Long intake runners give better low-speed torque; short runners give better high-speed power."
+   },
+   "why": {
+    "en": "Pressure waves in the runner help filling at certain speeds."
+   },
+   "recall_q": {
+    "en": "Which runner length favours low-speed torque?"
+   },
+   "recall_a": {
+    "en": "Long runners."
+   },
+   "explain_simple": {
+    "en": "Long pipe for pulling power, short pipe for speed."
+   }
+  },
+  {
+   "id": "u5.manifold.f06",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Variable intake system (VIS) switches between long and short runners with valves controlled by the ECU."
+   },
+   "why": {
+    "en": "Gets good torque at low rpm and power at high rpm."
+   },
+   "recall_q": {
+    "en": "Purpose of a variable intake system?"
+   },
+   "recall_a": {
+    "en": "Change runner length for good torque and power at all speeds."
+   },
+   "explain_simple": {
+    "en": "Long pipe at low speed, short at high speed."
+   }
+  },
+  {
+   "id": "u5.manifold.f07",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "VVT (variable valve timing) changes when the valves open and close depending on engine speed and load."
+   },
+   "why": {
+    "en": "Fixed timing is a compromise; VVT gives power, economy and low emissions together."
+   },
+   "recall_q": {
+    "en": "What does VVT change?"
+   },
+   "recall_a": {
+    "en": "Valve opening/closing timing."
+   },
+   "explain_simple": {
+    "en": "Valves open earlier or later as needed."
+   }
+  },
+  {
+   "id": "u5.manifold.f08",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "VVT is usually done by a cam phaser on the camshaft sprocket, moved by oil pressure controlled by an ECU solenoid."
+   },
+   "why": {
+    "en": "Turning the cam relative to its sprocket shifts timing."
+   },
+   "recall_q": {
+    "en": "Device that rotates the camshaft relative to its sprocket?"
+   },
+   "recall_a": {
+    "en": "Cam phaser (VVT actuator)."
+   },
+   "explain_simple": {
+    "en": "Oil pressure twists the camshaft a little."
+   }
+  },
+  {
+   "id": "u5.manifold.f09",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "CVVT (continuously variable valve timing) can set any timing within its range, not just two fixed positions."
+   },
+   "why": {
+    "en": "Smooth, exact control at every speed."
+   },
+   "recall_q": {
+    "en": "Difference between VVT (two-step) and CVVT?"
+   },
+   "recall_a": {
+    "en": "CVVT adjusts timing continuously, not in steps."
+   },
+   "explain_simple": {
+    "en": "CVVT changes timing smoothly all the time."
+   }
+  },
+  {
+   "id": "u5.manifold.f10",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brand names: Honda VTEC (also changes lift), Toyota VVT-i, Hyundai CVVT, Maruti VVT."
+   },
+   "why": {
+    "en": "VTEC switches cam profiles; VVT-i shifts timing."
+   },
+   "recall_q": {
+    "en": "Honda's variable valve system is called?"
+   },
+   "recall_a": {
+    "en": "VTEC."
+   },
+   "explain_simple": {
+    "en": "VTEC changes both timing and lift."
+   }
+  },
+  {
+   "id": "u5.manifold.f11",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Benefits of VVT: more torque at low rpm, more power at high rpm, better fuel economy, smoother idle, lower emissions (internal EGR)."
+   },
+   "why": {
+    "en": "Overlap can be changed to suit conditions."
+   },
+   "recall_q": {
+    "en": "Give two benefits of VVT."
+   },
+   "recall_a": {
+    "en": "More power and torque, better economy, lower emissions."
+   },
+   "explain_simple": {
+    "en": "Better everything by smart valve timing."
+   }
+  },
+  {
+   "id": "u5.manifold.f12",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exhaust manifold collects burnt gases from all cylinders and sends them to the exhaust pipe."
+   },
+   "why": {
+    "en": "It must handle very hot gases."
+   },
+   "recall_q": {
+    "en": "Function of the exhaust manifold?"
+   },
+   "recall_a": {
+    "en": "Collect exhaust gases from cylinders."
+   },
+   "explain_simple": {
+    "en": "Pipes that gather smoke from all cylinders."
+   }
+  },
+  {
+   "id": "u5.manifold.f13",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exhaust manifolds are made of cast iron or stainless steel tubes (headers)."
+   },
+   "why": {
+    "en": "They must resist high heat and corrosion."
+   },
+   "recall_q": {
+    "en": "Material of exhaust manifolds?"
+   },
+   "recall_a": {
+    "en": "Cast iron or stainless steel."
+   },
+   "explain_simple": {
+    "en": "Heat-proof metal."
+   }
+  },
+  {
+   "id": "u5.manifold.f14",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Tuned exhaust headers (e.g. 4-into-1, 4-2-1) use pressure waves to help pull exhaust out (scavenging)."
+   },
+   "why": {
+    "en": "Less back pressure means more power."
+   },
+   "recall_q": {
+    "en": "Why are tuned headers used?"
+   },
+   "recall_a": {
+    "en": "Better scavenging, less back pressure, more power."
+   },
+   "explain_simple": {
+    "en": "Pipe shapes help suck out exhaust."
+   }
+  },
+  {
+   "id": "u5.manifold.f15",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exhaust system parts: exhaust manifold, front pipe, catalytic converter, resonator, muffler (silencer), tail pipe."
+   },
+   "why": {
+    "en": "Gas is cleaned, then quietened, then released."
+   },
+   "recall_q": {
+    "en": "Order of main parts in an exhaust system?"
+   },
+   "recall_a": {
+    "en": "Manifold → catalytic converter → muffler → tail pipe."
+   },
+   "explain_simple": {
+    "en": "Collect, clean, quieten, release."
+   }
+  },
+  {
+   "id": "u5.manifold.f16",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Catalytic converter changes harmful gases (CO, HC, NOx) into less harmful CO₂, H₂O and N₂ using catalysts."
+   },
+   "why": {
+    "en": "Catalysts speed up reactions without being used up."
+   },
+   "recall_q": {
+    "en": "Harmful gases treated by a three-way catalytic converter?"
+   },
+   "recall_a": {
+    "en": "CO, HC and NOx."
+   },
+   "explain_simple": {
+    "en": "Turns poison gases into safer ones."
+   }
+  },
+  {
+   "id": "u5.manifold.f17",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Catalysts used: platinum and palladium (oxidise CO and HC), rhodium (reduces NOx). Coated on a ceramic honeycomb."
+   },
+   "why": {
+    "en": "Honeycomb gives a huge surface area."
+   },
+   "recall_q": {
+    "en": "Which catalyst reduces NOx?"
+   },
+   "recall_a": {
+    "en": "Rhodium."
+   },
+   "explain_simple": {
+    "en": "Platinum/palladium for CO and HC; rhodium for NOx."
+   }
+  },
+  {
+   "id": "u5.manifold.f18",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Two-way converter: oxidises CO and HC only. Three-way converter: also reduces NOx, needs mixture near 14.7:1 (controlled by lambda sensor)."
+   },
+   "why": {
+    "en": "NOx reduction needs little oxygen; CO/HC oxidation needs some."
+   },
+   "recall_q": {
+    "en": "Three-way converter needs mixture close to what ratio?"
+   },
+   "recall_a": {
+    "en": "Stoichiometric, about 14.7:1."
+   },
+   "explain_simple": {
+    "en": "Exactly correct mixture for all three."
+   }
+  },
+  {
+   "id": "u5.manifold.f19",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Catalytic converter works only when hot (light-off temperature about 250–300°C)."
+   },
+   "why": {
+    "en": "Catalysts are not active when cold, so cold-start emissions are high."
+   },
+   "recall_q": {
+    "en": "Does a catalytic converter work when cold?"
+   },
+   "recall_a": {
+    "en": "No — it needs about 250–300°C."
+   },
+   "explain_simple": {
+    "en": "It must warm up first."
+   }
+  },
+  {
+   "id": "u5.manifold.f20",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Leaded petrol destroys catalytic converters (lead poisoning of the catalyst)."
+   },
+   "why": {
+    "en": "Lead coats the catalyst surface."
+   },
+   "recall_q": {
+    "en": "Which fuel damages catalytic converters?"
+   },
+   "recall_a": {
+    "en": "Leaded petrol."
+   },
+   "explain_simple": {
+    "en": "Lead kills the catalyst."
+   }
+  },
+  {
+   "id": "u5.manifold.f21",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel engines use a diesel oxidation catalyst (DOC), diesel particulate filter (DPF) and SCR with urea (AdBlue) for NOx."
+   },
+   "why": {
+    "en": "Diesel exhaust has lots of oxygen, so three-way converters do not work."
+   },
+   "recall_q": {
+    "en": "What fluid is used in SCR systems?"
+   },
+   "recall_a": {
+    "en": "Urea solution (AdBlue / DEF)."
+   },
+   "explain_simple": {
+    "en": "Urea spray cleans diesel NOx."
+   }
+  },
+  {
+   "id": "u5.manifold.f22",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Muffler (silencer) reduces exhaust noise."
+   },
+   "why": {
+    "en": "Exhaust leaves in loud pressure pulses."
+   },
+   "recall_q": {
+    "en": "Function of a muffler?"
+   },
+   "recall_a": {
+    "en": "Reduce exhaust noise."
+   },
+   "explain_simple": {
+    "en": "It makes the exhaust quiet."
+   }
+  },
+  {
+   "id": "u5.manifold.f23",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Muffler types: baffle type, wave cancellation (Helmholtz/resonator), absorption (straight-through with glass wool), combined."
+   },
+   "why": {
+    "en": "Each reduces noise differently."
+   },
+   "recall_q": {
+    "en": "Muffler that uses sound-absorbing material around a perforated tube?"
+   },
+   "recall_a": {
+    "en": "Absorption (straight-through) muffler."
+   },
+   "explain_simple": {
+    "en": "Baffles, wave cancelling, or soaking up sound."
+   }
+  },
+  {
+   "id": "u5.manifold.f24",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Wave cancellation muffler splits gas into two paths of different lengths so sound waves meet out of phase and cancel."
+   },
+   "why": {
+    "en": "Opposite waves cancel each other."
+   },
+   "recall_q": {
+    "en": "How does a wave-cancellation muffler work?"
+   },
+   "recall_a": {
+    "en": "Sound waves meet out of phase and cancel."
+   },
+   "explain_simple": {
+    "en": "Two waves meet and silence each other."
+   }
+  },
+  {
+   "id": "u5.manifold.f25",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Back pressure: resistance to exhaust flow. Too much back pressure reduces power and raises fuel consumption."
+   },
+   "why": {
+    "en": "The engine must push harder to empty the cylinder."
+   },
+   "recall_q": {
+    "en": "Effect of high exhaust back pressure?"
+   },
+   "recall_a": {
+    "en": "Less power, more fuel consumption."
+   },
+   "explain_simple": {
+    "en": "Blocked exhaust chokes the engine."
+   }
+  },
+  {
+   "id": "u5.manifold.f26",
+   "topic": "u5.manifold",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Removing or modifying silencers is an offence. Noise limits are set under the Central Motor Vehicles Rules."
+   },
+   "why": {
+    "en": "Excess noise is pollution; MVD checks during inspection."
+   },
+   "recall_q": {
+    "en": "Is removing a vehicle silencer allowed?"
+   },
+   "recall_a": {
+    "en": "No — it is an offence (noise limits under CMVR)."
+   },
+   "explain_simple": {
+    "en": "Loud modified silencers are illegal."
+   }
+  },
+  {
+   "id": "u5.manifold.sum",
+   "topic": "u5.manifold",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Manifolds, VVT, catalytic converter and muffler; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Manifolds, VVT, catalytic converter and muffler"
+   },
+   "points": [
+    {
+     "en": "Inlet manifold: aluminium/plastic; hot spot for vaporising."
+    },
+    {
+     "en": "Variable intake: long runners low rpm, short high rpm."
+    },
+    {
+     "en": "VVT/CVVT: cam phaser shifts timing; VTEC changes lift too."
+    },
+    {
+     "en": "Cat converter: Pt, Pd (CO, HC), Rh (NOx); light-off ~250°C."
+    },
+    {
+     "en": "Muffler: baffle, wave cancellation, absorption."
+    }
+   ]
+  },
+  {
+   "id": "u5.dieselfuel.f01",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel fuel system order: tank → feed (lift) pump → primary filter → secondary filter → injection pump → high-pressure pipes → injectors. Leak-off returns to tank."
+   },
+   "why": {
+    "en": "Fuel must be very clean and at very high pressure."
+   },
+   "recall_q": {
+    "en": "Order of parts in a diesel fuel system?"
+   },
+   "recall_a": {
+    "en": "Tank, feed pump, filters, injection pump, injectors."
+   },
+   "explain_simple": {
+    "en": "Tank → lift pump → filter → injection pump → injector."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f02",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fuel feed (lift / transfer) pump sends fuel from the tank to the injection pump at low pressure (about 1–2 bar)."
+   },
+   "why": {
+    "en": "The injection pump needs a steady, bubble-free supply."
+   },
+   "recall_q": {
+    "en": "Job of the fuel feed pump?"
+   },
+   "recall_a": {
+    "en": "Supply fuel from tank to injection pump at low pressure."
+   },
+   "explain_simple": {
+    "en": "It lifts diesel to the main pump."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f03",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hand priming pump on the feed pump is used to fill the system and bleed out air after filter change."
+   },
+   "why": {
+    "en": "Air in diesel lines stops the engine."
+   },
+   "recall_q": {
+    "en": "Why is a hand primer used?"
+   },
+   "recall_a": {
+    "en": "To fill the fuel system and bleed air."
+   },
+   "explain_simple": {
+    "en": "Pump by hand to push air out."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f04",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air lock in diesel lines prevents injection; the system is bled at filter and pump bleed screws."
+   },
+   "why": {
+    "en": "Air compresses, so pressure cannot build."
+   },
+   "recall_q": {
+    "en": "What must be done after running out of diesel?"
+   },
+   "recall_a": {
+    "en": "Bleed the fuel system to remove air."
+   },
+   "explain_simple": {
+    "en": "Push out the air bubbles."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f05",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel filters: primary (coarse, often with water separator) and secondary (fine, paper element)."
+   },
+   "why": {
+    "en": "Injection parts have very fine clearances; dirt and water ruin them."
+   },
+   "recall_q": {
+    "en": "Why do diesel systems need fine filters?"
+   },
+   "recall_a": {
+    "en": "Injection pump and injectors have very fine clearances."
+   },
+   "explain_simple": {
+    "en": "Tiny parts need very clean fuel."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f06",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Water separator (sedimenter) collects water at the bottom of the filter bowl; it must be drained regularly."
+   },
+   "why": {
+    "en": "Water corrodes pump and injector parts."
+   },
+   "recall_q": {
+    "en": "Purpose of a water separator in diesel filter?"
+   },
+   "recall_a": {
+    "en": "Remove water from diesel."
+   },
+   "explain_simple": {
+    "en": "Catches water before it reaches the pump."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f07",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fuel injection pump (FIP) supplies exact, metered fuel at very high pressure to each injector at the right time."
+   },
+   "why": {
+    "en": "Diesel must be sprayed finely into very hot compressed air."
+   },
+   "recall_q": {
+    "en": "Job of the fuel injection pump?"
+   },
+   "recall_a": {
+    "en": "Meter and pressurise fuel, deliver at right time."
+   },
+   "explain_simple": {
+    "en": "The heart of the diesel system."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f08",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Types of injection pumps: in-line (jerk) pump with one element per cylinder, distributor (rotary) pump with one element for all cylinders, unit injector, and common rail."
+   },
+   "why": {
+    "en": "Different engine sizes and eras use different types."
+   },
+   "recall_q": {
+    "en": "Pump with one element per cylinder in a row?"
+   },
+   "recall_a": {
+    "en": "In-line (jerk) pump."
+   },
+   "explain_simple": {
+    "en": "In-line = one plunger per cylinder."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f09",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In-line (Bosch) pump: each element has a plunger with a helix; rotating the plunger with a control rack changes fuel quantity."
+   },
+   "why": {
+    "en": "The helix uncovers the spill port earlier or later."
+   },
+   "recall_q": {
+    "en": "In an in-line pump, what changes fuel quantity?"
+   },
+   "recall_a": {
+    "en": "Rotating the plunger (helix) via control rack."
+   },
+   "explain_simple": {
+    "en": "Turn the plunger to change fuel."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f10",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Delivery valve in each pump element stops back-flow and gives sharp end of injection (prevents dribbling)."
+   },
+   "why": {
+    "en": "It drops line pressure quickly after injection."
+   },
+   "recall_q": {
+    "en": "Purpose of the delivery valve?"
+   },
+   "recall_a": {
+    "en": "Sharp cut-off and prevent dribble/back-flow."
+   },
+   "explain_simple": {
+    "en": "Shuts the line quickly after each squirt."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f11",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Distributor (rotary) type pump (e.g. Bosch VE, CAV DPA): one pumping element and a rotor distribute fuel to all cylinders in turn."
+   },
+   "why": {
+    "en": "Smaller, lighter and cheaper than in-line pumps."
+   },
+   "recall_q": {
+    "en": "Pump that uses one element and a rotor for all cylinders?"
+   },
+   "recall_a": {
+    "en": "Distributor (rotary) pump."
+   },
+   "explain_simple": {
+    "en": "One pump shared by all cylinders."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f12",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Distributor pumps suit small, high-speed diesel engines in cars and light vehicles."
+   },
+   "why": {
+    "en": "They are compact and self-lubricated by diesel."
+   },
+   "recall_q": {
+    "en": "Which pump type suits small car diesels?"
+   },
+   "recall_a": {
+    "en": "Distributor (rotary) pump."
+   },
+   "explain_simple": {
+    "en": "Compact pumps for small diesels."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f13",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Distributor pumps are lubricated by diesel itself, so diesel quality (lubricity) matters."
+   },
+   "why": {
+    "en": "Poor fuel can wear the pump."
+   },
+   "recall_q": {
+    "en": "What lubricates a distributor pump?"
+   },
+   "recall_a": {
+    "en": "Diesel fuel."
+   },
+   "explain_simple": {
+    "en": "Diesel oils the pump."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f14",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fuel injector (nozzle) sprays diesel as a fine mist into the cylinder."
+   },
+   "why": {
+    "en": "Fine drops mix and burn quickly."
+   },
+   "recall_q": {
+    "en": "Job of a diesel injector?"
+   },
+   "recall_a": {
+    "en": "Atomise and spray fuel into the cylinder."
+   },
+   "explain_simple": {
+    "en": "It sprays fine diesel mist."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f15",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mechanical injector: a spring holds the needle closed; fuel pressure lifts it at the opening pressure (about 150–250 bar in older engines)."
+   },
+   "why": {
+    "en": "Below that pressure, the spray would be poor."
+   },
+   "recall_q": {
+    "en": "What lifts the injector needle?"
+   },
+   "recall_a": {
+    "en": "Fuel pressure overcoming the spring."
+   },
+   "explain_simple": {
+    "en": "High pressure pushes the needle open."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f16",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Nozzle types: single-hole, multi-hole (direct injection), pintle and pintaux (indirect injection)."
+   },
+   "why": {
+    "en": "Each gives a different spray shape for its chamber."
+   },
+   "recall_q": {
+    "en": "Which nozzle is used in direct injection engines?"
+   },
+   "recall_a": {
+    "en": "Multi-hole nozzle."
+   },
+   "explain_simple": {
+    "en": "Many holes for direct injection; pintle for side chambers."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f17",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Injector testing checks opening pressure, spray pattern, leakage and chatter on an injector tester."
+   },
+   "why": {
+    "en": "Bad spray causes smoke and power loss."
+   },
+   "recall_q": {
+    "en": "Name one injector test."
+   },
+   "recall_a": {
+    "en": "Opening pressure, spray pattern, leak-back, chatter."
+   },
+   "explain_simple": {
+    "en": "Check pressure and spray on a tester."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f18",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Leak-off pipes return extra fuel (used to lubricate and cool the injector needle) to the tank."
+   },
+   "why": {
+    "en": "A little fuel always seeps past the needle."
+   },
+   "recall_q": {
+    "en": "Purpose of injector leak-off pipes?"
+   },
+   "recall_a": {
+    "en": "Return excess fuel to the tank."
+   },
+   "explain_simple": {
+    "en": "Pipes that send spare diesel back."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f19",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Unit injector combines the pump and injector in one unit at each cylinder, driven by a camshaft."
+   },
+   "why": {
+    "en": "No high-pressure pipes, so very high pressures possible."
+   },
+   "recall_q": {
+    "en": "Pump and injector combined in one unit is called?"
+   },
+   "recall_a": {
+    "en": "Unit injector."
+   },
+   "explain_simple": {
+    "en": "Pump and nozzle in one body."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f20",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel injection timing is advanced at higher speeds by an automatic timer (advance unit) in the pump."
+   },
+   "why": {
+    "en": "Fuel needs the same time to burn, which is more crank degrees at high speed."
+   },
+   "recall_q": {
+    "en": "What advances injection timing with speed?"
+   },
+   "recall_a": {
+    "en": "Automatic timing (advance) device in the pump."
+   },
+   "explain_simple": {
+    "en": "Inject earlier when faster."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f21",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel smoke colours: black = too much fuel or too little air; blue = oil burning; white = unburnt fuel (cold, retarded timing) or water."
+   },
+   "why": {
+    "en": "Smoke colour helps diagnosis."
+   },
+   "recall_q": {
+    "en": "Black smoke from a diesel engine means?"
+   },
+   "recall_a": {
+    "en": "Over-fuelling or not enough air (choked filter, bad injector)."
+   },
+   "explain_simple": {
+    "en": "Black = too much fuel."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f22",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Turbocharger uses exhaust gas to spin a turbine, which drives a compressor that forces more air into the engine."
+   },
+   "why": {
+    "en": "More air allows more fuel to burn, giving more power from the same engine size."
+   },
+   "recall_q": {
+    "en": "What drives a turbocharger?"
+   },
+   "recall_a": {
+    "en": "Exhaust gases."
+   },
+   "explain_simple": {
+    "en": "Waste exhaust spins a fan that blows in more air."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f23",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Turbocharger parts: turbine wheel (exhaust side), compressor wheel (intake side), common shaft, centre bearing housing (oil-lubricated), wastegate."
+   },
+   "why": {
+    "en": "Turbine and compressor are on one shaft."
+   },
+   "recall_q": {
+    "en": "What joins the turbine and compressor in a turbocharger?"
+   },
+   "recall_a": {
+    "en": "A common shaft."
+   },
+   "explain_simple": {
+    "en": "Two fans on one shaft."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f24",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Turbochargers spin very fast (up to about 1–2 lakh rpm) and are lubricated by engine oil."
+   },
+   "why": {
+    "en": "Very high speed needs a constant oil film."
+   },
+   "recall_q": {
+    "en": "How is a turbocharger shaft lubricated?"
+   },
+   "recall_a": {
+    "en": "By engine oil."
+   },
+   "explain_simple": {
+    "en": "Engine oil keeps the turbo shaft alive."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f25",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Let a turbo engine idle for a short time before switching off."
+   },
+   "why": {
+    "en": "Stopping a hot turbo cuts oil flow and cooks the oil in the bearings."
+   },
+   "recall_q": {
+    "en": "Why should a turbo engine idle before shut-down?"
+   },
+   "recall_a": {
+    "en": "To let the turbo slow down and cool with oil flowing."
+   },
+   "explain_simple": {
+    "en": "Let the turbo cool before switching off."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f26",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Wastegate is a valve that lets some exhaust bypass the turbine to limit boost pressure."
+   },
+   "why": {
+    "en": "Too much boost can damage the engine."
+   },
+   "recall_q": {
+    "en": "What limits turbo boost pressure?"
+   },
+   "recall_a": {
+    "en": "Wastegate."
+   },
+   "explain_simple": {
+    "en": "A bypass door that stops over-boost."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f27",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Intercooler (charge air cooler) cools the compressed air from the turbo before it enters the engine."
+   },
+   "why": {
+    "en": "Cooler air is denser, gives more power and reduces knock and NOx."
+   },
+   "recall_q": {
+    "en": "Why is an intercooler used with a turbo?"
+   },
+   "recall_a": {
+    "en": "Cool compressed air to make it denser."
+   },
+   "explain_simple": {
+    "en": "Cold air packs more oxygen."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f28",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Turbo lag is the delay between pressing the accelerator and the turbo giving boost."
+   },
+   "why": {
+    "en": "The turbine needs time to speed up from exhaust flow."
+   },
+   "recall_q": {
+    "en": "Delay before turbo boost builds up is called?"
+   },
+   "recall_a": {
+    "en": "Turbo lag."
+   },
+   "explain_simple": {
+    "en": "Waiting for the turbo to spin up."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f29",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Turbo lag is reduced by small/light turbines, twin-scroll or twin turbos, ball-bearing turbos and variable geometry turbos (VGT)."
+   },
+   "why": {
+    "en": "They spin up faster at low exhaust flow."
+   },
+   "recall_q": {
+    "en": "Name one way to reduce turbo lag."
+   },
+   "recall_a": {
+    "en": "VGT, twin-scroll, smaller turbo, twin turbos."
+   },
+   "explain_simple": {
+    "en": "Lighter, smarter turbos react faster."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f30",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Variable geometry turbocharger (VGT/VNT) has movable vanes around the turbine that change the gas flow angle."
+   },
+   "why": {
+    "en": "Narrow vanes speed up gas at low rpm; open vanes at high rpm."
+   },
+   "recall_q": {
+    "en": "Turbo with movable vanes around the turbine?"
+   },
+   "recall_a": {
+    "en": "Variable geometry turbocharger (VGT)."
+   },
+   "explain_simple": {
+    "en": "Vanes adjust to give boost at all speeds."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f31",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Turbocharger types: single, twin (parallel or sequential), twin-scroll, VGT, electric-assisted."
+   },
+   "why": {
+    "en": "PSC may ask types."
+   },
+   "recall_q": {
+    "en": "Two turbos where one works at low rpm and both at high rpm?"
+   },
+   "recall_a": {
+    "en": "Sequential twin turbo."
+   },
+   "explain_simple": {
+    "en": "Small turbo first, big one later."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.f32",
+   "topic": "u5.dieselfuel",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Supercharger vs turbocharger: supercharger is belt-driven by the engine (no lag, uses engine power); turbo uses waste exhaust (efficient, but lag)."
+   },
+   "why": {
+    "en": "Drive source decides the trade-off."
+   },
+   "recall_q": {
+    "en": "Which has no lag: supercharger or turbocharger?"
+   },
+   "recall_a": {
+    "en": "Supercharger."
+   },
+   "explain_simple": {
+    "en": "Belt-driven blower reacts at once."
+   }
+  },
+  {
+   "id": "u5.dieselfuel.sum",
+   "topic": "u5.dieselfuel",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Diesel fuel system and turbocharger; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Diesel fuel system and turbocharger"
+   },
+   "points": [
+    {
+     "en": "Tank → feed pump (hand primer) → filters → FIP → injectors."
+    },
+    {
+     "en": "In-line pump (helix, rack); distributor/rotary pump for small engines."
+    },
+    {
+     "en": "Delivery valve gives sharp cut-off; multi-hole nozzle for DI."
+    },
+    {
+     "en": "Turbo: exhaust turbine + compressor on one shaft, oil-cooled."
+    },
+    {
+     "en": "Wastegate limits boost; intercooler cools air; turbo lag → VGT."
+    }
+   ]
+  },
+  {
+   "id": "u5.lube.f01",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Engine lubrication reduces friction and wear, cools parts, seals piston rings, cleans and protects from rust."
+   },
+   "why": {
+    "en": "Metal-to-metal contact would quickly destroy the engine."
+   },
+   "recall_q": {
+    "en": "Give three functions of engine oil."
+   },
+   "recall_a": {
+    "en": "Reduce friction, cool, seal, clean, prevent rust."
+   },
+   "explain_simple": {
+    "en": "Oil makes parts slide, keeps them cool and clean."
+   }
+  },
+  {
+   "id": "u5.lube.f02",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Lubrication systems: petroil (two-stroke), splash, pressure feed (forced), semi-pressure (combined), dry sump."
+   },
+   "why": {
+    "en": "Each suits a different engine."
+   },
+   "recall_q": {
+    "en": "System where all bearings get oil from a pump under pressure?"
+   },
+   "recall_a": {
+    "en": "Pressure feed (forced) lubrication."
+   },
+   "explain_simple": {
+    "en": "Splash, pump pressure, or both."
+   }
+  },
+  {
+   "id": "u5.lube.f03",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Splash lubrication: dippers on the connecting rod big ends dip into oil troughs and splash oil around."
+   },
+   "why": {
+    "en": "Simple, but oil supply is uneven; used in small engines."
+   },
+   "recall_q": {
+    "en": "In splash lubrication, what throws the oil?"
+   },
+   "recall_a": {
+    "en": "Dippers on the big ends."
+   },
+   "explain_simple": {
+    "en": "The rod scoops and splashes oil."
+   }
+  },
+  {
+   "id": "u5.lube.f04",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pressure feed: oil pump sends oil through a filter and main gallery to main bearings, big ends (via drilled crankshaft), camshaft bearings and valve gear."
+   },
+   "why": {
+    "en": "Gives positive, steady supply to all bearings."
+   },
+   "recall_q": {
+    "en": "How does oil reach big-end bearings in pressure feed?"
+   },
+   "recall_a": {
+    "en": "Through drilled passages in the crankshaft."
+   },
+   "explain_simple": {
+    "en": "Oil goes through holes inside the crankshaft."
+   }
+  },
+  {
+   "id": "u5.lube.f05",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Wet sump: oil is stored in the sump under the crankcase. Most cars use wet sump."
+   },
+   "why": {
+    "en": "Simple and cheap."
+   },
+   "recall_q": {
+    "en": "In a wet sump system, where is oil stored?"
+   },
+   "recall_a": {
+    "en": "In the sump under the crankcase."
+   },
+   "explain_simple": {
+    "en": "Oil lives at the bottom of the engine."
+   }
+  },
+  {
+   "id": "u5.lube.f06",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Dry sump: oil is pumped out of the sump by a scavenge pump to a separate tank, and a pressure pump feeds the engine from it."
+   },
+   "why": {
+    "en": "No oil surge on hard corners; engine can sit lower; better cooling."
+   },
+   "recall_q": {
+    "en": "How many pumps does a dry sump system have?"
+   },
+   "recall_a": {
+    "en": "Two (scavenge and pressure)."
+   },
+   "explain_simple": {
+    "en": "Oil kept in a separate tank."
+   }
+  },
+  {
+   "id": "u5.lube.f07",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Dry sump is used in racing cars, aircraft, some motorcycles and off-road vehicles."
+   },
+   "why": {
+    "en": "Oil supply stays steady at steep angles and high g-forces."
+   },
+   "recall_q": {
+    "en": "Where is dry sump lubrication used?"
+   },
+   "recall_a": {
+    "en": "Racing cars, aircraft, some bikes and off-road vehicles."
+   },
+   "explain_simple": {
+    "en": "For vehicles that tilt or corner hard."
+   }
+  },
+  {
+   "id": "u5.lube.f08",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oil pump types: gear pump (external gears), rotor (gerotor) pump, vane pump, plunger pump."
+   },
+   "why": {
+    "en": "All are positive displacement pumps."
+   },
+   "recall_q": {
+    "en": "Two common types of engine oil pumps?"
+   },
+   "recall_a": {
+    "en": "Gear pump and rotor (gerotor) pump."
+   },
+   "explain_simple": {
+    "en": "Gears or rotors push the oil."
+   }
+  },
+  {
+   "id": "u5.lube.f09",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rotor (gerotor) pump: an inner rotor with one lobe less than the outer rotor turns inside it, trapping and pushing oil."
+   },
+   "why": {
+    "en": "Compact and smooth flow."
+   },
+   "recall_q": {
+    "en": "In a rotor pump, how many lobes does the inner rotor have compared to outer?"
+   },
+   "recall_a": {
+    "en": "One less."
+   },
+   "explain_simple": {
+    "en": "Inner star turns inside outer star."
+   }
+  },
+  {
+   "id": "u5.lube.f10",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oil strainer (pick-up screen) at the pump inlet stops large particles entering the pump."
+   },
+   "why": {
+    "en": "Protects the pump."
+   },
+   "recall_q": {
+    "en": "What protects the oil pump inlet?"
+   },
+   "recall_a": {
+    "en": "Oil strainer (pick-up screen)."
+   },
+   "explain_simple": {
+    "en": "A mesh at the pump's mouth."
+   }
+  },
+  {
+   "id": "u5.lube.f11",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pressure relief valve limits maximum oil pressure by returning excess oil to the sump."
+   },
+   "why": {
+    "en": "Cold thick oil could build dangerous pressure."
+   },
+   "recall_q": {
+    "en": "Purpose of the oil pressure relief valve?"
+   },
+   "recall_a": {
+    "en": "Limit maximum oil pressure."
+   },
+   "explain_simple": {
+    "en": "Lets extra oil escape back to the sump."
+   }
+  },
+  {
+   "id": "u5.lube.f12",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oil pressure indicator: a warning light (pressure switch) or gauge on the dashboard. The light comes on when pressure is too low."
+   },
+   "why": {
+    "en": "Low pressure can destroy bearings in seconds."
+   },
+   "recall_q": {
+    "en": "Oil warning light comes on while driving. What should the driver do?"
+   },
+   "recall_a": {
+    "en": "Stop the engine at once and check oil."
+   },
+   "explain_simple": {
+    "en": "Oil light on = stop now."
+   }
+  },
+  {
+   "id": "u5.lube.f13",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oil filtration systems: full-flow (all oil passes the filter before bearings) and bypass (only part of the oil is filtered)."
+   },
+   "why": {
+    "en": "Full-flow is most common in cars."
+   },
+   "recall_q": {
+    "en": "Filter system where all oil is filtered before reaching bearings?"
+   },
+   "recall_a": {
+    "en": "Full-flow filtration."
+   },
+   "explain_simple": {
+    "en": "Full-flow cleans all the oil every time."
+   }
+  },
+  {
+   "id": "u5.lube.f14",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Full-flow filters have a bypass valve that opens if the filter gets blocked."
+   },
+   "why": {
+    "en": "Dirty oil is better than no oil."
+   },
+   "recall_q": {
+    "en": "Why does a full-flow filter have a bypass valve?"
+   },
+   "recall_a": {
+    "en": "To keep oil flowing if the filter clogs."
+   },
+   "explain_simple": {
+    "en": "If the filter blocks, oil goes around it."
+   }
+  },
+  {
+   "id": "u5.lube.f15",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oil filter types: cartridge (replaceable element) and spin-on (throw-away). Elements: paper, cloth, felt; centrifugal filters in some diesels."
+   },
+   "why": {
+    "en": "Spin-on filters are quick to change."
+   },
+   "recall_q": {
+    "en": "Throw-away screwed filter is called?"
+   },
+   "recall_a": {
+    "en": "Spin-on filter."
+   },
+   "explain_simple": {
+    "en": "Screw on, screw off, throw away."
+   }
+  },
+  {
+   "id": "u5.lube.f16",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oil cooler: a small radiator for engine oil, cooled by air or coolant."
+   },
+   "why": {
+    "en": "Hot oil thins and breaks down."
+   },
+   "recall_q": {
+    "en": "Why is an oil cooler used?"
+   },
+   "recall_a": {
+    "en": "Keep oil temperature in safe range."
+   },
+   "explain_simple": {
+    "en": "A mini radiator for oil."
+   }
+  },
+  {
+   "id": "u5.lube.f17",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oil seals (lip seals) stop oil leaking where shafts come out of the engine, e.g. front and rear crankshaft seals."
+   },
+   "why": {
+    "en": "A spring-loaded rubber lip presses on the shaft."
+   },
+   "recall_q": {
+    "en": "Seal used where the crankshaft leaves the block?"
+   },
+   "recall_a": {
+    "en": "Lip type oil seal."
+   },
+   "explain_simple": {
+    "en": "A rubber lip hugs the shaft."
+   }
+  },
+  {
+   "id": "u5.lube.f18",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Crankcase ventilation removes blow-by gases (unburnt fuel, water vapour, acids) from the crankcase."
+   },
+   "why": {
+    "en": "These gases dilute oil and form sludge."
+   },
+   "recall_q": {
+    "en": "Why is crankcase ventilation needed?"
+   },
+   "recall_a": {
+    "en": "Remove blow-by gases that contaminate oil."
+   },
+   "explain_simple": {
+    "en": "Let leaked gases out of the oil area."
+   }
+  },
+  {
+   "id": "u5.lube.f19",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Old open (road draught) ventilation vented gases to air. Modern PCV (positive crankcase ventilation) sends them into the intake to be burnt."
+   },
+   "why": {
+    "en": "PCV cuts pollution."
+   },
+   "recall_q": {
+    "en": "Where does a PCV system send crankcase gases?"
+   },
+   "recall_a": {
+    "en": "Into the intake manifold to be burnt."
+   },
+   "explain_simple": {
+    "en": "Burn the leaked gases instead of releasing them."
+   }
+  },
+  {
+   "id": "u5.lube.f20",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oil level is checked with the dipstick, engine off and on level ground. Keep it between MIN and MAX marks."
+   },
+   "why": {
+    "en": "Too low starves bearings; too high causes foaming."
+   },
+   "recall_q": {
+    "en": "How is engine oil level checked?"
+   },
+   "recall_a": {
+    "en": "With the dipstick, on level ground, engine off."
+   },
+   "explain_simple": {
+    "en": "Pull the stick, wipe, dip, read."
+   }
+  },
+  {
+   "id": "u5.lube.f21",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oil grades: SAE (viscosity, e.g. 15W-40), API service (S for petrol, C for diesel, e.g. API SN, CK-4)."
+   },
+   "why": {
+    "en": "Use the grade the maker specifies."
+   },
+   "recall_q": {
+    "en": "In API classification, C stands for?"
+   },
+   "recall_a": {
+    "en": "Compression ignition (diesel) engines."
+   },
+   "explain_simple": {
+    "en": "S = spark (petrol), C = compression (diesel)."
+   }
+  },
+  {
+   "id": "u5.lube.f22",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oil additives: detergent-dispersants, anti-wear (ZDDP), anti-oxidants, viscosity index improvers, pour point depressants, anti-foam, corrosion inhibitors."
+   },
+   "why": {
+    "en": "Base oil alone cannot do all jobs."
+   },
+   "recall_q": {
+    "en": "Additive that keeps dirt in suspension?"
+   },
+   "recall_a": {
+    "en": "Detergent-dispersant."
+   },
+   "explain_simple": {
+    "en": "Additives give oil extra powers."
+   }
+  },
+  {
+   "id": "u5.lube.f23",
+   "topic": "u5.lube",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Low oil pressure causes: low oil level, worn bearings, worn pump, blocked strainer, thin oil, stuck relief valve."
+   },
+   "why": {
+    "en": "Each lets pressure fall."
+   },
+   "recall_q": {
+    "en": "Name one cause of low oil pressure."
+   },
+   "recall_a": {
+    "en": "Low oil level, worn bearings or pump, thin oil."
+   },
+   "explain_simple": {
+    "en": "Too little oil or too much leak-away."
+   }
+  },
+  {
+   "id": "u5.lube.sum",
+   "topic": "u5.lube",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Lubrication system; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Lubrication system"
+   },
+   "points": [
+    {
+     "en": "Splash (dippers), pressure feed (pump), combined."
+    },
+    {
+     "en": "Wet sump (cars) vs dry sump (racing, 2 pumps)."
+    },
+    {
+     "en": "Gear or rotor pump; relief valve limits pressure."
+    },
+    {
+     "en": "Full-flow filter with bypass valve; oil cooler; lip seals."
+    },
+    {
+     "en": "PCV burns blow-by gases; SAE and API grades."
+    }
+   ]
+  },
+  {
+   "id": "u5.cooling.f01",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The cooling system removes extra heat from the engine and keeps it at the best working temperature (about 80–95°C)."
+   },
+   "why": {
+    "en": "Too hot: parts seize and oil fails. Too cold: poor efficiency and wear."
+   },
+   "recall_q": {
+    "en": "Why does an engine need a cooling system?"
+   },
+   "recall_a": {
+    "en": "Remove excess heat and keep correct temperature."
+   },
+   "explain_simple": {
+    "en": "Keep the engine not too hot, not too cold."
+   }
+  },
+  {
+   "id": "u5.cooling.f02",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "About 30% of fuel heat is removed by the cooling system."
+   },
+   "why": {
+    "en": "Part of the heat balance."
+   },
+   "recall_q": {
+    "en": "Roughly what share of fuel heat goes to coolant?"
+   },
+   "recall_a": {
+    "en": "About 30%."
+   },
+   "explain_simple": {
+    "en": "About one-third goes to cooling."
+   }
+  },
+  {
+   "id": "u5.cooling.f03",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Two types of cooling: air cooling and water (liquid) cooling."
+   },
+   "why": {
+    "en": "Small engines use air; most cars use liquid."
+   },
+   "recall_q": {
+    "en": "Two types of engine cooling?"
+   },
+   "recall_a": {
+    "en": "Air cooling and water (liquid) cooling."
+   },
+   "explain_simple": {
+    "en": "Air or water."
+   }
+  },
+  {
+   "id": "u5.cooling.f04",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air cooling uses fins on the cylinder and head to give off heat to air. Fans and cowls (shrouds) help in scooters and some engines."
+   },
+   "why": {
+    "en": "Fins increase area for heat loss."
+   },
+   "example": {
+    "en": "Motorcycles, scooters, older autorickshaws."
+   },
+   "recall_q": {
+    "en": "What helps an air-cooled engine lose heat?"
+   },
+   "recall_a": {
+    "en": "Fins (and fan with cowling)."
+   },
+   "explain_simple": {
+    "en": "Fins let air carry heat away."
+   }
+  },
+  {
+   "id": "u5.cooling.f05",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air cooling: light, simple, no leaks or freezing; but noisy, uneven cooling and limited to small engines."
+   },
+   "why": {
+    "en": "Air carries much less heat than water."
+   },
+   "recall_q": {
+    "en": "Give one disadvantage of air cooling."
+   },
+   "recall_a": {
+    "en": "Uneven cooling / noisy / only for small engines."
+   },
+   "explain_simple": {
+    "en": "Simple but weak for big engines."
+   }
+  },
+  {
+   "id": "u5.cooling.f06",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Water cooling parts: water jackets, water pump, radiator, pressure cap, thermostat, fan, hoses, coolant reservoir."
+   },
+   "why": {
+    "en": "Coolant carries heat from engine to radiator."
+   },
+   "recall_q": {
+    "en": "Name the main parts of a water cooling system."
+   },
+   "recall_a": {
+    "en": "Jackets, pump, radiator, cap, thermostat, fan, hoses."
+   },
+   "explain_simple": {
+    "en": "Pump moves water from engine to radiator and back."
+   }
+  },
+  {
+   "id": "u5.cooling.f07",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermo-syphon cooling: water circulates by itself because hot water rises and cool water sinks. No pump is used."
+   },
+   "why": {
+    "en": "Density difference drives the flow."
+   },
+   "recall_q": {
+    "en": "Cooling system that works without a water pump?"
+   },
+   "recall_a": {
+    "en": "Thermo-syphon system."
+   },
+   "explain_simple": {
+    "en": "Hot water rises, cold sinks, no pump."
+   }
+  },
+  {
+   "id": "u5.cooling.f08",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermo-syphon is slow; the radiator must be above the engine and water level kept high. Used in old and small stationary engines."
+   },
+   "why": {
+    "en": "Natural circulation is weak."
+   },
+   "recall_q": {
+    "en": "Main drawback of thermo-syphon cooling?"
+   },
+   "recall_a": {
+    "en": "Slow circulation; radiator must be high; level critical."
+   },
+   "explain_simple": {
+    "en": "Too slow for modern engines."
+   }
+  },
+  {
+   "id": "u5.cooling.f09",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pump circulation (forced) system: a centrifugal water pump driven by belt circulates coolant quickly."
+   },
+   "why": {
+    "en": "Fast, steady flow for high-output engines."
+   },
+   "recall_q": {
+    "en": "Type of water pump used in cars?"
+   },
+   "recall_a": {
+    "en": "Centrifugal pump."
+   },
+   "explain_simple": {
+    "en": "A belt-driven spinning pump moves the water."
+   }
+  },
+  {
+   "id": "u5.cooling.f10",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Water pump is driven by the fan belt or timing belt from the crankshaft. It has an impeller, seal and bearing."
+   },
+   "why": {
+    "en": "Seal failure causes leaks from the weep hole."
+   },
+   "recall_q": {
+    "en": "What drives the water pump?"
+   },
+   "recall_a": {
+    "en": "Crankshaft through a belt."
+   },
+   "explain_simple": {
+    "en": "The engine turns the pump with a belt."
+   }
+  },
+  {
+   "id": "u5.cooling.f11",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermostat is a valve between engine and radiator. It stays closed when cold and opens at about 80–90°C."
+   },
+   "why": {
+    "en": "It helps the engine warm up quickly and keeps it at the right temperature."
+   },
+   "recall_q": {
+    "en": "Function of the thermostat?"
+   },
+   "recall_a": {
+    "en": "Quick warm-up and control engine temperature."
+   },
+   "explain_simple": {
+    "en": "Shut when cold, open when hot."
+   }
+  },
+  {
+   "id": "u5.cooling.f12",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermostat types: wax pellet (most common), bellows (with volatile liquid like alcohol), bimetallic."
+   },
+   "why": {
+    "en": "Wax expands when it melts and pushes the valve open."
+   },
+   "recall_q": {
+    "en": "Most common type of thermostat?"
+   },
+   "recall_a": {
+    "en": "Wax pellet type."
+   },
+   "explain_simple": {
+    "en": "Melting wax opens the valve."
+   }
+  },
+  {
+   "id": "u5.cooling.f13",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermostat stuck closed → overheating. Stuck open → engine runs cold, heater weak, more fuel use."
+   },
+   "why": {
+    "en": "Coolant cannot reach the radiator, or goes there too early."
+   },
+   "recall_q": {
+    "en": "Effect of a thermostat stuck closed?"
+   },
+   "recall_a": {
+    "en": "Engine overheats."
+   },
+   "explain_simple": {
+    "en": "Closed = too hot. Open = too cold."
+   }
+  },
+  {
+   "id": "u5.cooling.f14",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bypass passage lets coolant circulate within the engine while the thermostat is closed."
+   },
+   "why": {
+    "en": "Prevents hot spots and pressure rise during warm-up."
+   },
+   "recall_q": {
+    "en": "Purpose of the bypass passage in cooling system?"
+   },
+   "recall_a": {
+    "en": "Circulate coolant in engine when thermostat is closed."
+   },
+   "explain_simple": {
+    "en": "A short path for water while warming up."
+   }
+  },
+  {
+   "id": "u5.cooling.f15",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Radiator is a heat exchanger that cools hot coolant using air flowing through its core."
+   },
+   "why": {
+    "en": "Thin tubes and fins give a large cooling area."
+   },
+   "recall_q": {
+    "en": "Main job of the radiator?"
+   },
+   "recall_a": {
+    "en": "Transfer heat from coolant to air."
+   },
+   "explain_simple": {
+    "en": "Radiator cools the water with air."
+   }
+  },
+  {
+   "id": "u5.cooling.f16",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Radiator parts: upper tank (inlet), core, lower tank (outlet), filler neck with pressure cap, drain cock."
+   },
+   "why": {
+    "en": "Hot water enters the top and cooled water leaves the bottom."
+   },
+   "recall_q": {
+    "en": "Where does hot coolant enter the radiator?"
+   },
+   "recall_a": {
+    "en": "Upper (inlet) tank."
+   },
+   "explain_simple": {
+    "en": "Hot in at top, cool out at bottom."
+   }
+  },
+  {
+   "id": "u5.cooling.f17",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Radiator core types: tubular (fin and tube) and cellular (honeycomb). Flow types: down-flow and cross-flow."
+   },
+   "why": {
+    "en": "Cross-flow radiators are lower and fit under sloping bonnets."
+   },
+   "recall_q": {
+    "en": "Radiator with coolant flowing sideways between side tanks?"
+   },
+   "recall_a": {
+    "en": "Cross-flow radiator."
+   },
+   "explain_simple": {
+    "en": "Down-flow top to bottom; cross-flow side to side."
+   }
+  },
+  {
+   "id": "u5.cooling.f18",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Radiators are made of copper-brass (older) or aluminium core with plastic tanks (modern)."
+   },
+   "why": {
+    "en": "Good heat conductors; aluminium is lighter."
+   },
+   "recall_q": {
+    "en": "Material of modern radiators?"
+   },
+   "recall_a": {
+    "en": "Aluminium core with plastic tanks."
+   },
+   "explain_simple": {
+    "en": "Light aluminium and plastic."
+   }
+  },
+  {
+   "id": "u5.cooling.f19",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pressure cap raises the system pressure (about 0.9–1.1 bar extra), which raises the boiling point of coolant to about 120°C."
+   },
+   "why": {
+    "en": "Boiling point rises with pressure, like a pressure cooker."
+   },
+   "recall_q": {
+    "en": "Why is a pressure cap used on the radiator?"
+   },
+   "recall_a": {
+    "en": "Raise coolant boiling point."
+   },
+   "explain_simple": {
+    "en": "Pressure stops water boiling early."
+   }
+  },
+  {
+   "id": "u5.cooling.f20",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pressure cap has two valves: a pressure valve (opens to the overflow when pressure is high) and a vacuum valve (lets coolant back in when cooling down)."
+   },
+   "why": {
+    "en": "Prevents bursting hoses and collapsing hoses."
+   },
+   "recall_q": {
+    "en": "Two valves in a radiator pressure cap?"
+   },
+   "recall_a": {
+    "en": "Pressure valve and vacuum valve."
+   },
+   "explain_simple": {
+    "en": "One lets out, one lets back in."
+   }
+  },
+  {
+   "id": "u5.cooling.f21",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Never open a hot radiator cap."
+   },
+   "why": {
+    "en": "Pressurised hot coolant can spray out and scald."
+   },
+   "recall_q": {
+    "en": "Is it safe to open a hot radiator cap?"
+   },
+   "recall_a": {
+    "en": "No — wait until it cools."
+   },
+   "explain_simple": {
+    "en": "Hot cap = danger of burns."
+   }
+  },
+  {
+   "id": "u5.cooling.f22",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Coolant = water + antifreeze (ethylene glycol or propylene glycol) + corrosion inhibitors. Usually 50:50 mix."
+   },
+   "why": {
+    "en": "Lowers freezing point, raises boiling point and stops corrosion."
+   },
+   "recall_q": {
+    "en": "Common antifreeze chemical?"
+   },
+   "recall_a": {
+    "en": "Ethylene glycol."
+   },
+   "explain_simple": {
+    "en": "Water plus glycol protects in heat and cold."
+   }
+  },
+  {
+   "id": "u5.cooling.f23",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Antifreeze is used even in hot places like Kerala because it prevents rust and scale and raises boiling point."
+   },
+   "why": {
+    "en": "Plain water corrodes metal and leaves deposits."
+   },
+   "recall_q": {
+    "en": "Why use coolant with antifreeze in hot climates?"
+   },
+   "recall_a": {
+    "en": "Corrosion protection and higher boiling point."
+   },
+   "explain_simple": {
+    "en": "Coolant protects metal, not just from cold."
+   }
+  },
+  {
+   "id": "u5.cooling.f24",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Other antifreeze materials: methanol, ethanol (wood alcohol, alcohol), glycerine. Ethylene glycol is preferred."
+   },
+   "why": {
+    "en": "Alcohols evaporate easily."
+   },
+   "recall_q": {
+    "en": "Why is alcohol less preferred as antifreeze?"
+   },
+   "recall_a": {
+    "en": "It evaporates easily (low boiling point)."
+   },
+   "explain_simple": {
+    "en": "Alcohol boils away."
+   }
+  },
+  {
+   "id": "u5.cooling.f25",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Expansion (overflow) tank stores coolant pushed out when hot and returns it when cold."
+   },
+   "why": {
+    "en": "Keeps the radiator always full."
+   },
+   "recall_q": {
+    "en": "Purpose of the coolant expansion tank?"
+   },
+   "recall_a": {
+    "en": "Store expanding coolant and return it when cool."
+   },
+   "explain_simple": {
+    "en": "A side bottle for extra coolant."
+   }
+  },
+  {
+   "id": "u5.cooling.f26",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cooling fan types: belt-driven fixed fan, viscous (fluid) coupling fan, thermostatically controlled electric fan."
+   },
+   "why": {
+    "en": "Fan only needed at low speed or in traffic."
+   },
+   "recall_q": {
+    "en": "Fan type that switches on only when coolant is hot?"
+   },
+   "recall_a": {
+    "en": "Electric fan (thermostatically controlled)."
+   },
+   "explain_simple": {
+    "en": "Electric fan runs only when needed."
+   }
+  },
+  {
+   "id": "u5.cooling.f27",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Viscous fan coupling uses silicone fluid; it slips when cool and locks up when the air behind the radiator is hot."
+   },
+   "why": {
+    "en": "Saves power and reduces noise."
+   },
+   "recall_q": {
+    "en": "Fluid used in a viscous fan coupling?"
+   },
+   "recall_a": {
+    "en": "Silicone fluid."
+   },
+   "explain_simple": {
+    "en": "Thick fluid connects the fan only when hot."
+   }
+  },
+  {
+   "id": "u5.cooling.f28",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fan shroud directs air through the whole radiator core."
+   },
+   "why": {
+    "en": "Without it, air leaks around the fan edges."
+   },
+   "recall_q": {
+    "en": "Purpose of a fan shroud?"
+   },
+   "recall_a": {
+    "en": "Direct air through the radiator core."
+   },
+   "explain_simple": {
+    "en": "A cover that guides air."
+   }
+  },
+  {
+   "id": "u5.cooling.f29",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Overheating causes: low coolant, leaks, loose or broken fan belt, stuck thermostat, blocked radiator, faulty pump, fan failure, head gasket leak."
+   },
+   "why": {
+    "en": "Any break in heat removal causes it."
+   },
+   "recall_q": {
+    "en": "Name two causes of engine overheating."
+   },
+   "recall_a": {
+    "en": "Low coolant, broken belt, stuck thermostat, blocked radiator, fan failure."
+   },
+   "explain_simple": {
+    "en": "Not enough water, flow or air."
+   }
+  },
+  {
+   "id": "u5.cooling.f30",
+   "topic": "u5.cooling",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Temperature gauge sender is a thermistor in the coolant passage; resistance falls as temperature rises."
+   },
+   "why": {
+    "en": "The gauge reads the change in current."
+   },
+   "recall_q": {
+    "en": "Sensor used for coolant temperature gauge?"
+   },
+   "recall_a": {
+    "en": "Thermistor (NTC)."
+   },
+   "explain_simple": {
+    "en": "Its resistance changes with heat."
+   }
+  },
+  {
+   "id": "u5.cooling.sum",
+   "topic": "u5.cooling",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Cooling system; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Cooling system"
+   },
+   "points": [
+    {
+     "en": "Air cooling (fins) vs water cooling."
+    },
+    {
+     "en": "Thermo-syphon (no pump) vs pump circulation."
+    },
+    {
+     "en": "Thermostat (wax) opens ~85°C; bypass for warm-up."
+    },
+    {
+     "en": "Pressure cap raises boiling point; pressure + vacuum valves."
+    },
+    {
+     "en": "Coolant = water + ethylene glycol; electric/viscous fans."
+    }
+   ]
   }
  ],
  "questions": [
@@ -16960,6 +22747,216 @@
    "source": "Practice — exam pattern (not from a past paper)",
    "covers": [
     "u4.materials.f19"
+   ]
+  },
+  {
+   "id": "q.practice.u5.1",
+   "topic": "u5.block",
+   "kind": "mcq",
+   "q": {
+    "en": "A cylinder liner in direct contact with the coolant is called"
+   },
+   "options": [
+    {
+     "en": "Dry liner"
+    },
+    {
+     "en": "Wet liner"
+    },
+    {
+     "en": "Flanged liner"
+    },
+    {
+     "en": "Chromed liner"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Wet liners touch the coolant directly."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u5.block.f06"
+   ]
+  },
+  {
+   "id": "q.practice.u5.2",
+   "topic": "u5.valves",
+   "kind": "mcq",
+   "q": {
+    "en": "Sodium is filled in exhaust valves to"
+   },
+   "options": [
+    {
+     "en": "Increase strength"
+    },
+    {
+     "en": "Reduce weight"
+    },
+    {
+     "en": "Improve heat transfer"
+    },
+    {
+     "en": "Prevent corrosion"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Liquid sodium carries heat from the valve head to the stem."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u5.valves.f06"
+   ]
+  },
+  {
+   "id": "q.practice.u5.3",
+   "topic": "u5.carb",
+   "kind": "mcq",
+   "q": {
+    "en": "The circuit in a carburettor that prevents hesitation on sudden throttle opening is"
+   },
+   "options": [
+    {
+     "en": "Idle circuit"
+    },
+    {
+     "en": "Choke"
+    },
+    {
+     "en": "Acceleration pump"
+    },
+    {
+     "en": "Float system"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "The acceleration pump squirts extra fuel."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u5.carb.f16"
+   ]
+  },
+  {
+   "id": "q.practice.u5.4",
+   "topic": "u5.dieselfuel",
+   "kind": "mcq",
+   "q": {
+    "en": "Turbo lag refers to"
+   },
+   "options": [
+    {
+     "en": "Delay in boost build-up"
+    },
+    {
+     "en": "Lag in injection timing"
+    },
+    {
+     "en": "Delay in ignition"
+    },
+    {
+     "en": "Slow cooling of turbo"
+    }
+   ],
+   "answer": 0,
+   "explain": {
+    "en": "It is the delay before the turbo builds boost."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u5.dieselfuel.f28"
+   ]
+  },
+  {
+   "id": "q.practice.u5.5",
+   "topic": "u5.lube",
+   "kind": "mcq",
+   "q": {
+    "en": "In a dry sump lubrication system, oil is stored in"
+   },
+   "options": [
+    {
+     "en": "The crankcase sump"
+    },
+    {
+     "en": "A separate tank"
+    },
+    {
+     "en": "The oil filter"
+    },
+    {
+     "en": "The cylinder head"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "A scavenge pump moves oil to a separate tank."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u5.lube.f06"
+   ]
+  },
+  {
+   "id": "q.practice.u5.6",
+   "topic": "u5.cooling",
+   "kind": "mcq",
+   "q": {
+    "en": "The purpose of the radiator pressure cap is to"
+   },
+   "options": [
+    {
+     "en": "Lower boiling point"
+    },
+    {
+     "en": "Raise boiling point of coolant"
+    },
+    {
+     "en": "Increase pump speed"
+    },
+    {
+     "en": "Reduce coolant flow"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Pressurising raises the boiling point."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u5.cooling.f19"
+   ]
+  },
+  {
+   "id": "q.practice.u5.7",
+   "topic": "u5.cooling",
+   "kind": "mcq",
+   "q": {
+    "en": "Thermo-syphon cooling works on"
+   },
+   "options": [
+    {
+     "en": "Pump pressure"
+    },
+    {
+     "en": "Density difference of hot and cold water"
+    },
+    {
+     "en": "Fan suction"
+    },
+    {
+     "en": "Capillary action"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Hot water rises and cold water sinks — no pump."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u5.cooling.f07"
    ]
   }
  ]

@@ -1,0 +1,2055 @@
+unit: u5
+subject: engine
+title: "Module V — Constructional features of engine and related systems (10 marks)"
+
+topics:
+  - {id: u5.block, title: "Cylinder block, liners, head and gasket", freq: 0.8}
+  - {id: u5.piston, title: "Piston, rings, connecting rod and crankshaft", freq: 0.9}
+  - {id: u5.valves, title: "Valves, valve mechanisms and camshaft", freq: 0.9}
+  - {id: u5.petrolfuel, title: "Petrol fuel feed, filters and air cleaners", freq: 0.7}
+  - {id: u5.carb, title: "Carburettors", freq: 0.8}
+  - {id: u5.manifold, title: "Manifolds, VVT, catalytic converter and muffler", freq: 0.8}
+  - {id: u5.dieselfuel, title: "Diesel fuel system and turbocharger", freq: 0.9}
+  - {id: u5.lube, title: "Lubrication system", freq: 0.8}
+  - {id: u5.cooling, title: "Cooling system", freq: 0.8}
+
+cards:
+  # ---------- Block ----------
+  - id: f01
+    topic: u5.block
+    difficulty: 1
+    learn: "The cylinder block is the main body of the engine. It holds the cylinders, coolant passages and crankcase."
+    why: "Every other engine part is fixed to it."
+    q: "What is the main body of an engine called?"
+    a: "Cylinder block."
+    simple: "The engine's backbone."
+  - id: f02
+    topic: u5.block
+    difficulty: 2
+    learn: "Single-cylinder engines (motorcycles) often have a separate cylinder barrel. Multi-cylinder engines usually have all cylinders cast in one block (monobloc)."
+    why: "One-piece casting is rigid and cheaper for many cylinders."
+    q: "A block with all cylinders cast together is called?"
+    a: "Monobloc (en bloc) construction."
+    simple: "Many cylinders in one casting."
+  - id: f03
+    topic: u5.block
+    difficulty: 2
+    learn: "Cylinder blocks are made of grey cast iron or aluminium alloy."
+    why: "Cast iron wears well and damps noise; aluminium is light and cools well."
+    q: "Two materials for cylinder blocks?"
+    a: "Grey cast iron and aluminium alloy."
+    simple: "Heavy iron or light aluminium."
+  - id: f04
+    topic: u5.block
+    difficulty: 2
+    learn: "Aluminium blocks need cast-iron or steel cylinder liners (or special coatings), because aluminium wears quickly against piston rings."
+    why: "Aluminium is soft."
+    q: "Why do aluminium blocks use liners?"
+    a: "Aluminium wears fast; liners give a hard wearing surface."
+    simple: "A hard sleeve inside a soft block."
+  - id: f05
+    topic: u5.block
+    difficulty: 2
+    learn: "A cylinder liner (sleeve) is a replaceable tube fitted into the cylinder bore."
+    why: "When worn, only the liner is changed, not the whole block."
+    q: "What is a cylinder liner?"
+    a: "A replaceable sleeve inside the cylinder bore."
+    simple: "A replaceable inner tube for the cylinder."
+  - id: f06
+    topic: u5.block
+    difficulty: 2
+    learn: "Dry liner: does not touch the coolant; pressed into the block. Wet liner: touches the coolant directly; sealed with rubber rings at the bottom."
+    why: "Wet liners cool better and are easier to replace."
+    q: "Which liner is in direct contact with coolant?"
+    a: "Wet liner."
+    simple: "Wet liner = water touches it. Dry liner = water does not."
+  - id: f07
+    topic: u5.block
+    difficulty: 2
+    learn: "Dry liners are thin (about 1.5–3 mm). Wet liners are thicker because they must withstand coolant pressure and gas pressure alone."
+    why: "A wet liner has no block wall to support it."
+    q: "Which liner is thicker: dry or wet?"
+    a: "Wet liner."
+    simple: "Wet liners stand alone, so they are thicker."
+  - id: f08
+    topic: u5.block
+    difficulty: 2
+    learn: "Liners are made of special alloy cast iron (centrifugally cast), sometimes chrome plated."
+    why: "Centrifugal casting gives dense, hard metal."
+    q: "Usual liner material?"
+    a: "Alloy cast iron (centrifugally cast)."
+    simple: "Hard cast iron spun into shape."
+  - id: f09
+    topic: u5.block
+    difficulty: 2
+    learn: "Cylinder head closes the top of the cylinders and forms the combustion chamber. It holds valves, spark plugs or injectors."
+    why: "Gas pressure acts on it every power stroke."
+    q: "Part that closes the top of the cylinders?"
+    a: "Cylinder head."
+    simple: "The lid of the engine."
+  - id: f10
+    topic: u5.block
+    difficulty: 2
+    learn: "Cylinder heads are made of cast iron or aluminium alloy. Aluminium heads allow higher compression without knocking."
+    why: "Aluminium removes heat faster from the combustion chamber."
+    q: "Why can aluminium heads allow higher compression ratio?"
+    a: "Better heat conduction reduces knocking."
+    simple: "Cooler head, less knock."
+  - id: f11
+    topic: u5.block
+    difficulty: 2
+    learn: "Cylinder head gasket seals the joint between block and head, keeping gas, coolant and oil apart."
+    why: "Metal surfaces cannot seal perfectly alone."
+    q: "What does the head gasket seal?"
+    a: "Joint between head and block (gas, coolant, oil)."
+    simple: "A seal sheet between head and block."
+  - id: f12
+    topic: u5.block
+    difficulty: 2
+    learn: "Head gasket materials: copper-asbestos (older), steel-asbestos, multi-layer steel (MLS) in modern engines, composite."
+    why: "It must survive high heat and pressure."
+    q: "Gasket used in modern engines?"
+    a: "Multi-layer steel (MLS)."
+    simple: "Layers of thin steel sheet."
+  - id: f13
+    topic: u5.block
+    difficulty: 2
+    learn: "Signs of a blown head gasket: white smoke, coolant loss, oil mixed with water (milky oil), overheating, bubbles in radiator."
+    why: "Gas and coolant leak between passages."
+    q: "Milky oil may show which failure?"
+    a: "Blown head gasket (coolant in oil)."
+    simple: "Water in oil = head gasket problem."
+  - id: f14
+    topic: u5.block
+    difficulty: 2
+    learn: "Head bolts are tightened in a set order (from the centre outwards, spiral) and to a set torque with a torque wrench."
+    why: "Uneven tightening warps the head and causes leaks."
+    q: "In what order are head bolts tightened?"
+    a: "From centre outwards in a spiral, to specified torque."
+    simple: "Middle first, then outwards, evenly."
+  - id: f15
+    topic: u5.block
+    difficulty: 2
+    learn: "Crankcase is the lower part of the block that houses the crankshaft. The oil sump (oil pan) is bolted under it."
+    why: "The sump stores engine oil."
+    q: "Part bolted under the crankcase to hold oil?"
+    a: "Oil sump (oil pan)."
+    simple: "The oil tray at the bottom."
+  - id: f16
+    topic: u5.block
+    difficulty: 2
+    learn: "Core plugs (frost/welch plugs) close holes left in the block from casting. They can pop out if coolant freezes."
+    why: "Holes are needed to remove casting sand."
+    q: "Purpose of core plugs?"
+    a: "Seal casting holes (and give some frost protection)."
+    simple: "Caps on the casting holes."
+  - id: f17
+    topic: u5.block
+    difficulty: 2
+    learn: "Combustion chamber shapes (SI): hemispherical, wedge, bath-tub, pent-roof. Hemispherical gives best breathing and less heat loss."
+    why: "Shape decides flame travel and valve size."
+    q: "Combustion chamber with large valves and best breathing?"
+    a: "Hemispherical."
+    simple: "Dome-shaped chamber breathes best."
+  - id: f18
+    topic: u5.block
+    difficulty: 2
+    learn: "Cylinder wear is greatest at the top of the ring travel, just below the ridge, and gives a taper and ovality."
+    why: "Heat, pressure and poor oil at the top cause most wear."
+    q: "Where is cylinder wear maximum?"
+    a: "Top of ring travel (top of the bore)."
+    simple: "The top of the bore wears most."
+  - id: f19
+    topic: u5.block
+    difficulty: 2
+    learn: "Reboring: worn cylinders are bored oversize and fitted with oversize pistons. Honing finishes the bore with a cross-hatch pattern."
+    why: "Cross-hatch holds oil for the rings."
+    q: "Final finishing of a cylinder bore is done by?"
+    a: "Honing."
+    simple: "Honing leaves fine scratches that hold oil."
+  - id: f20
+    topic: u5.block
+    difficulty: 2
+    learn: "Cylinder bore wear is measured with a cylinder bore gauge (dial bore gauge)."
+    why: "Shows taper and ovality."
+    q: "Instrument to measure cylinder wear?"
+    a: "Cylinder bore gauge (dial bore gauge)."
+    simple: "A dial gauge that goes inside the cylinder."
+  - id: sum
+    topic: u5.block
+    type: summary
+    points:
+      - "Block: cast iron or aluminium; monobloc for multi-cylinder."
+      - "Dry liner (no coolant contact, thin) vs wet liner (coolant contact, thick)."
+      - "Head forms combustion chamber; gasket seals head to block."
+      - "MLS gasket; tighten head bolts centre-out with torque wrench."
+      - "Wear max at top of bore; rebore and hone."
+
+  # ---------- Piston etc ----------
+  - id: f01
+    topic: u5.piston
+    difficulty: 1
+    learn: "The piston moves up and down in the cylinder. It takes the gas force and passes it to the connecting rod."
+    why: "It also seals the combustion chamber and carries heat away."
+    q: "Main job of a piston?"
+    a: "Transmit gas force to the connecting rod."
+    simple: "The piston gets pushed and pushes the rod."
+  - id: f02
+    topic: u5.piston
+    difficulty: 2
+    learn: "Piston parts: crown (head), ring grooves and lands, skirt, and gudgeon pin bosses."
+    why: "Each part has its own job: crown takes heat, skirt guides, bosses hold the pin."
+    q: "The top surface of the piston is called?"
+    a: "Crown (head)."
+    simple: "Crown on top, skirt at the bottom."
+  - id: f03
+    topic: u5.piston
+    difficulty: 2
+    learn: "Pistons are usually made of aluminium alloy (light, good heat conduction). Heavy diesel engines may use cast iron or steel crowns."
+    why: "Light pistons reduce inertia forces at high speed."
+    q: "Most common piston material?"
+    a: "Aluminium alloy."
+    simple: "Pistons are mostly aluminium."
+  - id: f04
+    topic: u5.piston
+    difficulty: 2
+    learn: "Aluminium pistons expand more than cast iron cylinders, so they need more clearance or special designs."
+    why: "Too little clearance makes the hot piston seize."
+    q: "Why do aluminium pistons need special design?"
+    a: "They expand more than the iron cylinder."
+    simple: "Hot aluminium grows a lot."
+  - id: f05
+    topic: u5.piston
+    difficulty: 2
+    learn: "Split-skirt (slotted) piston: a slot in the skirt lets it expand without seizing."
+    why: "The slot closes up as the piston heats."
+    q: "Purpose of the slot in a split-skirt piston?"
+    a: "Allow expansion without seizure."
+    simple: "A gap that closes when hot."
+  - id: f06
+    topic: u5.piston
+    difficulty: 2
+    learn: "Cam-ground piston: oval when cold, becomes round when hot. The longer axis is at right angles to the gudgeon pin."
+    why: "More metal near the pin bosses expands more."
+    q: "Shape of a cam-ground piston when cold?"
+    a: "Oval (elliptical)."
+    simple: "Oval when cold, round when hot."
+  - id: f07
+    topic: u5.piston
+    difficulty: 2
+    learn: "Other piston types: solid skirt, slipper (part skirt cut away), autothermic/invar-strut (steel struts control expansion), tapered."
+    why: "All control expansion and reduce weight or noise."
+    q: "Piston with steel struts cast in to control expansion?"
+    a: "Invar-strut (autothermic) piston."
+    simple: "Steel strips stop the piston growing too much."
+  - id: f08
+    topic: u5.piston
+    difficulty: 2
+    learn: "Piston is tapered: smaller at the crown than the skirt."
+    why: "The crown is hottest and expands most."
+    q: "Is the crown or skirt of a piston larger when cold?"
+    a: "Skirt."
+    simple: "Hotter top is made smaller."
+  - id: f09
+    topic: u5.piston
+    difficulty: 2
+    learn: "Piston slap: knocking noise when a worn or loose piston rocks and hits the cylinder wall, mostly when cold."
+    why: "Too much clearance lets the piston tilt."
+    q: "Knock from excess piston clearance is called?"
+    a: "Piston slap."
+    simple: "Loose piston hits the wall."
+  - id: f10
+    topic: u5.piston
+    difficulty: 2
+    learn: "Gudgeon (wrist) pin connects the piston to the connecting rod small end."
+    why: "It lets the rod swing while the piston moves straight."
+    q: "Pin joining piston and connecting rod?"
+    a: "Gudgeon pin (wrist pin)."
+    simple: "The hinge pin of the piston."
+  - id: f11
+    topic: u5.piston
+    difficulty: 2
+    learn: "Gudgeon pin types: fully floating (free in piston and rod, held by circlips), semi-floating (fixed in rod or piston), fixed."
+    why: "Fully floating spreads wear evenly."
+    q: "What holds a fully floating gudgeon pin in place?"
+    a: "Circlips."
+    simple: "Free pin held by spring clips at the ends."
+  - id: f12
+    topic: u5.piston
+    difficulty: 2
+    learn: "Gudgeon pins are made of case-hardened steel and are often hollow."
+    why: "Hard surface for wear; hollow for less weight."
+    q: "Material of gudgeon pins?"
+    a: "Case-hardened steel."
+    simple: "Hard steel tube."
+  - id: f13
+    topic: u5.piston
+    difficulty: 2
+    learn: "Gudgeon pin is offset slightly towards the thrust side to reduce piston slap."
+    why: "The piston changes sides more gently at TDC."
+    q: "Why is the gudgeon pin offset?"
+    a: "To reduce piston slap."
+    simple: "Moving the pin a bit makes the piston quieter."
+  - id: f14
+    topic: u5.piston
+    difficulty: 1
+    learn: "Piston rings seal the gap between piston and cylinder, control oil, and carry heat from piston to cylinder wall."
+    why: "A piston cannot fit tightly enough on its own."
+    q: "Three functions of piston rings?"
+    a: "Seal gas, control oil, transfer heat."
+    simple: "Rings seal, scrape oil and cool."
+  - id: f15
+    topic: u5.piston
+    difficulty: 2
+    learn: "Two types of rings: compression rings (top) and oil control (scraper) rings (bottom)."
+    why: "Compression rings stop gas leaking down; oil rings stop oil going up."
+    q: "Which ring is at the bottom of the piston?"
+    a: "Oil control (scraper) ring."
+    simple: "Compression rings on top, oil ring below."
+  - id: f16
+    topic: u5.piston
+    difficulty: 2
+    learn: "Usual petrol engine: 2 compression rings + 1 oil ring. Diesel engines may have 3–4 compression rings."
+    why: "Diesels have higher pressures to seal."
+    q: "Typical ring set of a car petrol engine?"
+    a: "2 compression + 1 oil ring."
+    simple: "Two for gas, one for oil."
+  - id: f17
+    topic: u5.piston
+    difficulty: 2
+    learn: "Oil rings are slotted or have an expander so scraped oil drains back through holes in the piston."
+    why: "This stops oil reaching the combustion chamber."
+    q: "How does scraped oil return from an oil ring?"
+    a: "Through slots in the ring and holes in the piston groove."
+    simple: "Oil slips back through little holes."
+  - id: f18
+    topic: u5.piston
+    difficulty: 2
+    learn: "Piston rings are made of fine-grained alloy cast iron; the top ring is often chrome plated."
+    why: "Cast iron is springy enough and wears well; chrome resists wear."
+    q: "Usual material of piston rings?"
+    a: "Alloy cast iron (top ring chrome plated)."
+    simple: "Cast iron rings, chrome on top."
+  - id: f19
+    topic: u5.piston
+    difficulty: 2
+    learn: "Ring end gap allows for expansion. Ring gaps are staggered around the piston (not in line)."
+    why: "In-line gaps would let gas blow straight past."
+    q: "Why are ring gaps staggered?"
+    a: "To reduce gas leakage (blow-by)."
+    simple: "Spread the gaps so gas cannot slip through."
+  - id: f20
+    topic: u5.piston
+    difficulty: 2
+    learn: "Worn rings cause blow-by, low compression, high oil consumption and blue exhaust smoke."
+    why: "Oil gets past into the chamber and burns."
+    q: "Blue exhaust smoke often means?"
+    a: "Oil burning (worn rings, valve guides)."
+    simple: "Blue smoke = oil burning."
+  - id: f21
+    topic: u5.piston
+    difficulty: 2
+    learn: "Compression test with a compression gauge checks ring and valve sealing. A wet test (adding oil) separates ring problems from valve problems."
+    why: "Oil seals rings briefly; if compression rises, rings are worn."
+    q: "In a wet compression test, compression rises. What is worn?"
+    a: "Piston rings."
+    simple: "Oil helps worn rings, not bad valves."
+  - id: f22
+    topic: u5.piston
+    difficulty: 1
+    learn: "The connecting rod joins the piston to the crankshaft and turns up-down motion into rotation."
+    why: "It works with the crank like a pedal and leg."
+    q: "What converts reciprocating motion to rotary motion?"
+    a: "Connecting rod and crankshaft."
+    simple: "Rod + crank turn up-down into round."
+  - id: f23
+    topic: u5.piston
+    difficulty: 2
+    learn: "Connecting rod parts: small end (gudgeon pin end, with bronze bush), shank (I-section), big end (split, with shell bearings, cap and bolts)."
+    why: "The big end is split so it can fit around the crankpin."
+    q: "Which end of the connecting rod is split?"
+    a: "Big end."
+    simple: "Small end at the piston, big split end at the crank."
+  - id: f24
+    topic: u5.piston
+    difficulty: 2
+    learn: "Connecting rods are made of drop-forged medium carbon or alloy steel; racing engines use aluminium or titanium."
+    why: "They need high strength with low weight."
+    q: "How are connecting rods usually made?"
+    a: "Drop-forged steel."
+    simple: "Hammer-forged strong steel."
+  - id: f25
+    topic: u5.piston
+    difficulty: 2
+    learn: "Connecting rod shank has an I-section."
+    why: "It gives maximum stiffness against buckling for least weight."
+    q: "Cross-section of a connecting rod shank?"
+    a: "I-section."
+    simple: "I-shape is strong and light."
+  - id: f26
+    topic: u5.piston
+    difficulty: 2
+    learn: "Small end usually has a phosphor bronze bush. Big end uses split shell (thin-wall) bearings."
+    why: "The small end only rocks; the big end rotates fully."
+    q: "Bearing at the small end of a connecting rod?"
+    a: "Bronze bush."
+    simple: "Bush at small end, shells at big end."
+  - id: f27
+    topic: u5.piston
+    difficulty: 2
+    learn: "Some connecting rods have an oil hole (squirt hole) that sprays oil onto the cylinder wall or under the piston."
+    why: "Extra cooling and lubrication."
+    q: "Purpose of the squirt hole in a connecting rod?"
+    a: "Spray oil onto cylinder wall or piston."
+    simple: "A small jet of oil for the cylinder."
+  - id: f28
+    topic: u5.piston
+    difficulty: 1
+    learn: "Crankshaft turns the reciprocating motion of pistons into rotation and carries the flywheel."
+    why: "It is the engine's output shaft."
+    q: "Output shaft of an engine?"
+    a: "Crankshaft."
+    simple: "The main spinning shaft."
+  - id: f29
+    topic: u5.piston
+    difficulty: 2
+    learn: "Crankshaft parts: main journals, crankpins, webs (cheeks), counterweights, oil holes, front end (timing gear, pulley) and rear flange (flywheel)."
+    why: "Main journals sit in main bearings; crankpins hold big ends."
+    q: "Part of the crankshaft where the big end fits?"
+    a: "Crankpin."
+    simple: "Main journals on the centre line; crankpins offset."
+  - id: f30
+    topic: u5.piston
+    difficulty: 2
+    learn: "Counterweights on the crank webs balance the rotating weight of crankpins and connecting rods."
+    why: "This reduces vibration and bearing load."
+    q: "Why are counterweights used on a crankshaft?"
+    a: "To balance the crankshaft and reduce vibration."
+    simple: "Weights opposite the crankpins balance it."
+  - id: f31
+    topic: u5.piston
+    difficulty: 2
+    learn: "Crankshafts are made of drop-forged steel (carbon or alloy) or SG cast iron. Journals are hardened."
+    why: "They face bending and twisting loads."
+    q: "Two crankshaft materials?"
+    a: "Forged steel and SG (nodular) cast iron."
+    simple: "Forged steel or tough cast iron."
+  - id: f32
+    topic: u5.piston
+    difficulty: 2
+    learn: "Crankshaft shapes depend on cylinders: single-throw (1 cylinder), 180° two-throw, four-cylinder flat (throws at 180°), six-cylinder (throws at 120°)."
+    why: "Throw angle spreads power strokes evenly: 720°/number of cylinders."
+    q: "Crank throw spacing for a four-stroke six-cylinder engine?"
+    a: "120°"
+    simple: "720° ÷ cylinders = firing interval."
+  - id: f33
+    topic: u5.piston
+    difficulty: 2
+    learn: "Number of main bearings: a four-cylinder crankshaft usually has 3 or 5 main bearings."
+    why: "More mains give a stiffer crank."
+    q: "Common number of main bearings in a four-cylinder engine?"
+    a: "5 (sometimes 3)."
+    simple: "More bearings, less bending."
+  - id: f34
+    topic: u5.piston
+    difficulty: 2
+    learn: "Crankshaft end float is controlled by thrust washers or a flanged main bearing."
+    why: "Clutch pressure pushes the crank lengthways."
+    q: "What controls crankshaft end play?"
+    a: "Thrust washers (or flanged thrust bearing)."
+    simple: "Washers stop the crank sliding back and forth."
+  - id: f35
+    topic: u5.piston
+    difficulty: 2
+    learn: "Vibration damper (harmonic balancer) on the front of the crankshaft reduces torsional vibration."
+    why: "Long crankshafts twist and untwist with each power stroke."
+    q: "What reduces torsional vibration of the crankshaft?"
+    a: "Vibration damper (harmonic balancer)."
+    simple: "A rubber-mounted ring stops the crank twisting back and forth."
+  - id: sum
+    topic: u5.piston
+    type: summary
+    points:
+      - "Piston: aluminium; split-skirt, cam-ground, invar-strut types."
+      - "Rings: 2 compression + 1 oil; staggered gaps; cast iron."
+      - "Gudgeon pin: fully floating with circlips; offset reduces slap."
+      - "Con rod: I-section, forged steel; small end bush, big end shells."
+      - "Crankshaft: journals, crankpins, counterweights; damper at front."
+
+  # ---------- Valves ----------
+  - id: f01
+    topic: u5.valves
+    difficulty: 1
+    learn: "Valves open and close the inlet and exhaust ports at the right time."
+    why: "They let fresh charge in and burnt gas out."
+    q: "Job of engine valves?"
+    a: "Control flow of charge in and exhaust out."
+    simple: "Doors for gas."
+  - id: f02
+    topic: u5.valves
+    difficulty: 2
+    learn: "Types of valves: poppet (mushroom) valve, sleeve valve, rotary valve, reed valve. Poppet valves are used in almost all four-stroke engines."
+    why: "Poppet valves seal well and are simple."
+    q: "Most common type of engine valve?"
+    a: "Poppet (mushroom) valve."
+    simple: "A mushroom-shaped valve."
+  - id: f03
+    topic: u5.valves
+    difficulty: 2
+    learn: "Poppet valve parts: head, face (usually 45°, sometimes 30°), margin, stem, and grooves for the collets (keepers)."
+    why: "The angled face seals against the seat."
+    q: "Usual valve face angle?"
+    a: "45° (sometimes 30°)."
+    simple: "The valve's sloping face presses on the seat."
+  - id: f04
+    topic: u5.valves
+    difficulty: 2
+    learn: "Inlet valve head is larger than exhaust valve head."
+    why: "Incoming charge has low pressure and needs a big opening; exhaust leaves under pressure."
+    q: "Which valve is bigger: inlet or exhaust?"
+    a: "Inlet valve."
+    simple: "Bigger door for air coming in."
+  - id: f05
+    topic: u5.valves
+    difficulty: 2
+    learn: "Exhaust valve runs much hotter (up to about 700–800°C) than the inlet valve."
+    why: "Hot gases flow over it; the inlet is cooled by fresh charge."
+    q: "Which valve runs hotter?"
+    a: "Exhaust valve."
+    simple: "Exhaust valve faces hot gas."
+  - id: f06
+    topic: u5.valves
+    difficulty: 2
+    learn: "Sodium-cooled valve: hollow exhaust valve stem partly filled with sodium. The sodium melts and carries heat from head to stem."
+    why: "Liquid sodium splashes up and down, moving heat to the cooler stem and guide."
+    q: "Why is sodium filled in some exhaust valves?"
+    a: "To carry heat away from the valve head (cooling)."
+    simple: "Melted sodium moves heat away."
+  - id: f07
+    topic: u5.valves
+    difficulty: 2
+    learn: "Sodium melts at about 98°C, so it is liquid when the engine runs."
+    why: "Liquid sodium carries heat well."
+    q: "Melting point of sodium used in valves?"
+    a: "About 98°C."
+    simple: "Sodium is liquid in a running engine."
+  - id: f08
+    topic: u5.valves
+    difficulty: 2
+    learn: "Valve materials: inlet — chromium or nickel-chromium steel. Exhaust — silchrome or austenitic steel; faces often coated with stellite."
+    why: "Exhaust valves need heat and corrosion resistance."
+    q: "Hard alloy coated on exhaust valve faces?"
+    a: "Stellite."
+    simple: "Exhaust valves get a heat-proof face."
+  - id: f09
+    topic: u5.valves
+    difficulty: 2
+    learn: "Valve seat inserts of hard alloy are fitted in aluminium heads."
+    why: "Aluminium is too soft to act as a seat."
+    q: "Why are valve seat inserts used in aluminium heads?"
+    a: "Aluminium is soft; inserts give a hard wearing seat."
+    simple: "A hard ring for the valve to sit on."
+  - id: f10
+    topic: u5.valves
+    difficulty: 2
+    learn: "Valve guide holds the valve stem in line and carries heat from the stem."
+    why: "It keeps the valve centred on its seat."
+    q: "What keeps the valve stem aligned?"
+    a: "Valve guide."
+    simple: "A tube the valve slides in."
+  - id: f11
+    topic: u5.valves
+    difficulty: 2
+    learn: "Valve stem seals stop oil leaking down the guide into the cylinder."
+    why: "Worn seals cause blue smoke on start-up."
+    q: "Part that stops oil going down the valve guide?"
+    a: "Valve stem seal."
+    simple: "A rubber seal on the valve stem."
+  - id: f12
+    topic: u5.valves
+    difficulty: 2
+    learn: "Valve spring closes the valve and keeps it on the seat. It is held by a spring retainer and split collets (cotters)."
+    why: "The cam only opens the valve; the spring closes it."
+    q: "What closes the valve?"
+    a: "Valve spring."
+    simple: "The cam opens, the spring shuts."
+  - id: f13
+    topic: u5.valves
+    difficulty: 2
+    learn: "Valve float: at very high speed, the valve does not follow the cam and stays partly open."
+    why: "The spring cannot close it fast enough."
+    q: "Valve not following the cam at high rpm is called?"
+    a: "Valve float."
+    simple: "Valve bounces and stays open too long."
+  - id: f14
+    topic: u5.valves
+    difficulty: 2
+    learn: "Valve rotators turn the valve a little on each opening."
+    why: "This spreads wear and stops carbon build-up on the seat."
+    q: "Why are valve rotators used?"
+    a: "Even wear and to prevent carbon deposits on seat."
+    simple: "Turning the valve keeps its seat clean."
+  - id: f15
+    topic: u5.valves
+    difficulty: 2
+    learn: "Valve clearance (tappet clearance) is a small gap in the valve train when the valve is closed."
+    why: "It allows for heat expansion so the valve closes fully when hot."
+    q: "Why is tappet clearance provided?"
+    a: "To allow for expansion so valves close fully."
+    simple: "A small gap for growth when hot."
+  - id: f16
+    topic: u5.valves
+    difficulty: 2
+    learn: "Exhaust valve clearance is usually more than inlet valve clearance."
+    why: "The exhaust valve gets hotter and expands more."
+    q: "Which valve has more tappet clearance?"
+    a: "Exhaust valve."
+    simple: "Hotter valve gets a bigger gap."
+  - id: f17
+    topic: u5.valves
+    difficulty: 2
+    learn: "Too little clearance: valve stays open, burns, and compression is lost. Too much clearance: noisy tapping and less valve lift."
+    why: "Clearance changes valve timing."
+    q: "Effect of too little tappet clearance?"
+    a: "Valve does not close fully → burnt valve, low compression."
+    simple: "Too tight burns valves; too loose taps loudly."
+  - id: f18
+    topic: u5.valves
+    difficulty: 2
+    learn: "Hydraulic tappets (lifters) use oil pressure to keep zero clearance automatically."
+    why: "No adjustment needed and quiet running."
+    q: "Advantage of hydraulic tappets?"
+    a: "Zero clearance automatically, quiet, no adjustment."
+    simple: "Oil-filled lifters adjust themselves."
+  - id: f19
+    topic: u5.valves
+    difficulty: 2
+    learn: "Valve arrangements: L-head (side valve), I-head (overhead valve), F-head (one over, one side), T-head (inlet and exhaust on opposite sides)."
+    why: "Older names still asked in exams."
+    q: "Engine with both valves in the cylinder head is called?"
+    a: "I-head (overhead valve)."
+    simple: "Valve layout is named by letter shapes."
+  - id: f20
+    topic: u5.valves
+    difficulty: 2
+    learn: "Side camshaft (OHV push-rod) mechanism: camshaft in the block → tappet (follower) → push rod → rocker arm → valve."
+    why: "The push rod carries motion up to the head."
+    q: "Order of parts in a push-rod valve mechanism?"
+    a: "Cam → tappet → push rod → rocker arm → valve."
+    simple: "Cam pushes tappet, push rod, rocker, valve."
+  - id: f21
+    topic: u5.valves
+    difficulty: 2
+    learn: "Overhead camshaft (OHC): the camshaft is in the cylinder head and works the valves directly or through rockers/followers."
+    why: "Fewer moving parts allows higher engine speeds."
+    q: "Advantage of OHC over push-rod design?"
+    a: "Fewer parts, less inertia, higher rpm."
+    simple: "Cam on top = fewer parts, faster engine."
+  - id: f22
+    topic: u5.valves
+    difficulty: 2
+    learn: "SOHC: single overhead camshaft. DOHC: two overhead camshafts, one for inlet and one for exhaust valves."
+    why: "DOHC allows 4 valves per cylinder and better breathing."
+    q: "In DOHC, how many camshafts per cylinder bank?"
+    a: "Two."
+    simple: "Double OHC: one cam for inlet, one for exhaust."
+  - id: f23
+    topic: u5.valves
+    difficulty: 2
+    learn: "Multi-valve engines (3, 4 or 5 valves per cylinder) breathe better and allow a central spark plug."
+    why: "More, smaller valves give more flow area."
+    q: "Why use four valves per cylinder?"
+    a: "Better breathing, more power, central plug."
+    simple: "More doors, more air."
+  - id: f24
+    topic: u5.valves
+    difficulty: 2
+    learn: "Camshaft opens the valves at the right time. It has one cam (lobe) for each valve and runs at half crankshaft speed in four-stroke engines."
+    why: "Each valve opens once per two crank turns."
+    q: "Camshaft speed compared to crankshaft?"
+    a: "Half."
+    simple: "Cam turns once for every two crank turns."
+  - id: f25
+    topic: u5.valves
+    difficulty: 2
+    learn: "Cam terms: base circle, nose (tip), flank, lift, ramp."
+    why: "The nose gives maximum valve opening."
+    q: "Highest point of a cam is called?"
+    a: "Nose."
+    simple: "The nose pushes the valve fully open."
+  - id: f26
+    topic: u5.valves
+    difficulty: 2
+    learn: "Camshafts may also drive the distributor, oil pump and mechanical fuel pump (via an eccentric)."
+    why: "Older engines used one shaft for many drives."
+    q: "What on the camshaft drives a mechanical fuel pump?"
+    a: "An eccentric."
+    simple: "An off-centre lobe works the fuel pump."
+  - id: f27
+    topic: u5.valves
+    difficulty: 2
+    learn: "Camshaft drives: gear drive, chain drive (timing chain with tensioner), belt drive (toothed timing belt)."
+    why: "They keep cam and crank in exact time."
+    q: "Three types of camshaft drives?"
+    a: "Gear, chain, toothed belt."
+    simple: "Gears, chain or belt connect crank to cam."
+  - id: f28
+    topic: u5.valves
+    difficulty: 2
+    learn: "Timing belts are quiet and light but must be replaced at set intervals. Chains last longer but are noisier."
+    why: "A broken belt can let pistons hit valves (interference engine)."
+    q: "Disadvantage of a timing belt?"
+    a: "Needs periodic replacement; failure can damage valves."
+    simple: "Belt is quiet but must be changed on time."
+  - id: f29
+    topic: u5.valves
+    difficulty: 2
+    learn: "Timing marks on crank and cam sprockets must line up when fitting the chain or belt."
+    why: "Wrong timing gives poor running or engine damage."
+    q: "What must be lined up when fitting a timing belt?"
+    a: "Timing marks on crank and cam sprockets."
+    simple: "Match the marks before fitting."
+  - id: f30
+    topic: u5.valves
+    difficulty: 2
+    learn: "Camshafts are made of cast iron (chilled or hardenable) or forged steel; cam lobes are hardened."
+    why: "Lobes face heavy sliding wear."
+    q: "Material of camshafts?"
+    a: "Chilled cast iron or forged steel (hardened lobes)."
+    simple: "Hard-faced iron or steel."
+  - id: f31
+    topic: u5.valves
+    difficulty: 2
+    learn: "Cam followers: flat (mushroom), roller, knife-edge, spherical. Roller followers reduce friction."
+    why: "Rolling contact wears less than sliding."
+    q: "Which follower has least friction?"
+    a: "Roller follower."
+    simple: "A small wheel riding on the cam."
+  - id: f32
+    topic: u5.valves
+    difficulty: 2
+    learn: "Valve grinding (lapping) with grinding paste makes the valve face and seat seal perfectly."
+    why: "Removes small pits and makes a gas-tight ring of contact."
+    q: "Process of making valve and seat seal with paste?"
+    a: "Valve lapping (grinding)."
+    simple: "Rub valve and seat together with paste."
+  - id: sum
+    topic: u5.valves
+    type: summary
+    points:
+      - "Poppet valves, 45° face; inlet bigger, exhaust hotter."
+      - "Sodium-cooled exhaust valves; stellite faces; seat inserts."
+      - "Tappet clearance: exhaust > inlet; hydraulic lifters = zero."
+      - "Push rod: cam → tappet → push rod → rocker → valve. OHC/DOHC."
+      - "Cam drive: gear, chain, belt; cam at half crank speed."
+
+  # ---------- Petrol fuel feed ----------
+  - id: f01
+    topic: u5.petrolfuel
+    difficulty: 1
+    learn: "Petrol fuel system parts: tank, fuel lines, filter, fuel pump, carburettor or injectors."
+    why: "Fuel must reach the engine clean and at the right pressure."
+    q: "Name the parts of a petrol fuel system."
+    a: "Tank, lines, filter, pump, carburettor/injector."
+    simple: "Tank → pump → filter → engine."
+  - id: f02
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "Fuel feed systems: gravity feed, pressure feed, vacuum feed, pump feed (mechanical or electrical)."
+    why: "Small vehicles can use gravity; cars need a pump."
+    q: "Simplest fuel feed system used in motorcycles?"
+    a: "Gravity feed."
+    simple: "Tank above the engine, fuel just flows down."
+  - id: f03
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "AC mechanical fuel pump: a diaphragm pump worked by a rocker arm from an eccentric on the camshaft."
+    why: "Engine rotation pumps the fuel."
+    q: "What operates the AC mechanical fuel pump?"
+    a: "Eccentric on the camshaft (via rocker arm)."
+    simple: "Camshaft moves a lever that flexes a diaphragm."
+  - id: f04
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "AC pump parts: diaphragm, rocker arm, return spring, inlet and outlet valves, filter screen, priming lever."
+    why: "The diaphragm sucks and pushes fuel through one-way valves."
+    q: "Main moving part that pumps fuel in an AC pump?"
+    a: "Diaphragm."
+    simple: "A flexible sheet sucks and pushes petrol."
+  - id: f05
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "In the AC pump, the spring pushes fuel out. When the float bowl is full, the diaphragm stays down and the pump idles."
+    why: "Delivery pressure is set by the spring, not the cam."
+    q: "What decides the delivery pressure of an AC pump?"
+    a: "The diaphragm spring."
+    simple: "The spring pushes the fuel, so pressure stays safe."
+  - id: f06
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "SU electrical fuel pump: a solenoid pulls a diaphragm; contact points switch it off and on."
+    why: "Works as soon as the ignition is on, even before cranking."
+    q: "What moves the diaphragm in an SU electric pump?"
+    a: "An electromagnet (solenoid)."
+    simple: "Electric magnet flexes the diaphragm."
+  - id: f07
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "Electric pumps can be fitted near the tank, away from engine heat."
+    why: "This reduces vapour lock."
+    q: "Advantage of an electric fuel pump?"
+    a: "Fitted away from heat; fuel at once on switch-on; less vapour lock."
+    simple: "Cool location, instant fuel."
+  - id: f08
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "Modern fuel-injected cars use an electric in-tank (submerged) roller-cell or turbine pump."
+    why: "Fuel cools the pump and prevents vapour."
+    q: "Where is the fuel pump fitted in modern MPFI cars?"
+    a: "Inside the fuel tank."
+    simple: "Pump sits in the tank."
+  - id: f09
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "Vapour lock: petrol boils in hot fuel lines and vapour blocks fuel flow."
+    why: "Pumps cannot push vapour well."
+    q: "Fuel line blocked by petrol vapour is called?"
+    a: "Vapour lock."
+    simple: "Bubbles block the fuel."
+  - id: f10
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "Petrol filters remove dirt and water. Types: in-line paper filter, sediment bowl, gauze strainer in tank and pump."
+    why: "Dirt blocks carburettor jets and injectors."
+    q: "Why are fuel filters used?"
+    a: "To remove dirt and water from fuel."
+    simple: "Clean fuel, clear jets."
+  - id: f11
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "Air cleaner removes dust from air entering the engine. It also silences intake noise and acts as a flame arrester."
+    why: "Dust wears cylinders and rings fast."
+    q: "Give two functions of an air cleaner."
+    a: "Filter dust, reduce intake noise (and arrest backfire flame)."
+    simple: "Cleans air and quiets the intake."
+  - id: f12
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "Air cleaner types: dry (paper element), wet (oil-wetted mesh), oil bath. Paper dry type is most common in cars."
+    why: "Paper elements are efficient and cheap to replace."
+    q: "Air cleaner where air passes over oil in a bowl?"
+    a: "Oil bath air cleaner."
+    simple: "Paper, oily mesh, or oil bath."
+  - id: f13
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "Centrifugal (cyclone) pre-cleaners are used on trucks and tractors in dusty conditions."
+    why: "They spin out heavy dust before the main filter."
+    q: "Pre-cleaner used in dusty conditions?"
+    a: "Centrifugal (cyclone) pre-cleaner."
+    simple: "Spins dust out first."
+  - id: f14
+    topic: u5.petrolfuel
+    difficulty: 2
+    learn: "A choked air filter makes the mixture rich, raises fuel consumption and causes black smoke."
+    why: "Less air for the same fuel."
+    q: "Effect of a choked air filter?"
+    a: "Rich mixture, high fuel consumption, black smoke."
+    simple: "Dirty filter = less air = rich mixture."
+  - id: sum
+    topic: u5.petrolfuel
+    type: summary
+    points:
+      - "Gravity, vacuum, pump feed systems."
+      - "AC pump: mechanical, diaphragm, camshaft eccentric."
+      - "SU pump: electric solenoid; in-tank pumps in MPFI."
+      - "Vapour lock = petrol boiling in lines."
+      - "Air cleaners: paper, oil-wetted, oil bath."
+
+  # ---------- Carburettor ----------
+  - id: f01
+    topic: u5.carb
+    difficulty: 1
+    learn: "A carburettor mixes petrol with air in the correct ratio and supplies it to the engine as a fine spray."
+    why: "Petrol must be vapour mixed with air to burn well."
+    q: "Function of a carburettor?"
+    a: "Mix air and petrol in correct proportion."
+    simple: "It makes the air–petrol mix."
+  - id: f02
+    topic: u5.carb
+    difficulty: 2
+    learn: "Carburettor works on the venturi (Bernoulli) principle: air speeds up in the narrow venturi, pressure drops, and petrol is sucked from the jet."
+    why: "Fast air = low pressure."
+    q: "Principle of the carburettor?"
+    a: "Venturi (Bernoulli) principle."
+    simple: "Fast air pulls petrol out."
+  - id: f03
+    topic: u5.carb
+    difficulty: 2
+    learn: "Simple carburettor parts: float chamber with float and needle valve, main jet, discharge nozzle, venturi, throttle valve, choke valve."
+    why: "Each part controls fuel level, flow or air."
+    q: "Part that keeps a constant fuel level in a carburettor?"
+    a: "Float and needle valve."
+    simple: "The float shuts fuel when the bowl is full."
+  - id: f04
+    topic: u5.carb
+    difficulty: 2
+    learn: "Throttle valve (butterfly) controls the amount of mixture entering the engine and so controls speed and power."
+    why: "It is linked to the accelerator pedal."
+    q: "Which valve is connected to the accelerator pedal?"
+    a: "Throttle valve."
+    simple: "Pedal opens the throttle."
+  - id: f05
+    topic: u5.carb
+    difficulty: 2
+    learn: "The fuel nozzle tip is slightly above the fuel level in the float chamber."
+    why: "Prevents fuel dripping out when the engine is stopped."
+    q: "Why is the nozzle tip above the float chamber level?"
+    a: "To stop fuel overflowing when the engine is off."
+    simple: "Keeps petrol from dripping out."
+  - id: f06
+    topic: u5.carb
+    difficulty: 2
+    learn: "A simple carburettor gives a richer mixture as speed rises."
+    why: "Fuel flow increases faster than air flow through the venturi."
+    q: "What happens to mixture in a simple carburettor at high speed?"
+    a: "It becomes richer."
+    simple: "Simple carb goes rich when fast."
+  - id: f07
+    topic: u5.carb
+    difficulty: 2
+    learn: "Compensation devices keep mixture correct at all speeds: air bleed jet, compensating jet, emulsion tube, auxiliary air valve, back suction control."
+    why: "They correct the richening at high speed."
+    q: "Name one compensating device in a carburettor."
+    a: "Air bleed jet (or compensating jet, emulsion tube)."
+    simple: "Extra air or fuel paths keep the mix right."
+  - id: f08
+    topic: u5.carb
+    difficulty: 2
+    learn: "Chemically correct air-fuel ratio: about 15:1. Rich mixture: less air (e.g. 12:1). Lean (weak) mixture: more air (e.g. 17:1)."
+    why: "Engine needs different ratios for different conditions."
+    q: "Is 12:1 a rich or lean mixture?"
+    a: "Rich."
+    simple: "Less air = rich. More air = lean."
+  - id: f09
+    topic: u5.carb
+    difficulty: 2
+    learn: "Mixture requirements: cold starting very rich (up to 5:1 or 9:1), idling rich (about 12:1), cruising lean (about 16–17:1), full power/acceleration rich (about 12–13:1)."
+    why: "Each condition needs different fuel."
+    q: "Which condition needs the leanest mixture?"
+    a: "Cruising (part load)."
+    simple: "Cruise lean, start and power rich."
+  - id: f10
+    topic: u5.carb
+    difficulty: 2
+    learn: "Best economy mixture is slightly lean (about 16:1). Best power mixture is slightly rich (about 12.5:1)."
+    why: "Extra fuel ensures all oxygen is used for power."
+    q: "Is best power mixture rich or lean?"
+    a: "Slightly rich."
+    simple: "Rich for power, lean for economy."
+  - id: f11
+    topic: u5.carb
+    difficulty: 2
+    learn: "Modern carburettor circuits: float system, starting (choke) system, idle and slow-speed system, main metering (high speed) system, acceleration pump system, power (economiser) system."
+    why: "Each circuit handles a driving condition."
+    q: "Name the circuits of a modern carburettor."
+    a: "Float, choke, idle, main metering, accelerating pump, power."
+    simple: "Six circuits for six jobs."
+  - id: f12
+    topic: u5.carb
+    difficulty: 2
+    learn: "Idle and slow-speed system supplies fuel through an idle port below the closed throttle, where vacuum is high."
+    why: "At idle, venturi air is too slow to lift fuel from the main jet."
+    q: "Where does fuel come from at idle?"
+    a: "Idle port below the throttle valve."
+    simple: "A small hole under the throttle feeds idle fuel."
+  - id: f13
+    topic: u5.carb
+    difficulty: 2
+    learn: "Idle mixture screw adjusts idle mixture; idle speed (throttle stop) screw adjusts idle rpm."
+    why: "Both are set during tuning."
+    q: "Which screw adjusts idle rpm?"
+    a: "Throttle stop (idle speed) screw."
+    simple: "One screw for mixture, one for speed."
+  - id: f14
+    topic: u5.carb
+    difficulty: 2
+    learn: "Transfer (progression) ports just above the closed throttle feed extra fuel as the throttle starts to open."
+    why: "Prevents a flat spot between idle and main circuits."
+    q: "Purpose of transfer ports?"
+    a: "Smooth change from idle to main circuit."
+    simple: "Fill the gap as the throttle starts opening."
+  - id: f15
+    topic: u5.carb
+    difficulty: 2
+    learn: "Main metering (high speed) system supplies fuel through the main jet and nozzle at cruising and higher speeds."
+    why: "Venturi vacuum is strong enough at these speeds."
+    q: "Which circuit supplies fuel at cruising speed?"
+    a: "Main metering system."
+    simple: "Main jet works at normal speeds."
+  - id: f16
+    topic: u5.carb
+    difficulty: 2
+    learn: "Acceleration pump squirts extra fuel when the throttle is opened suddenly."
+    why: "Air speeds up faster than fuel; without it the engine hesitates (flat spot)."
+    q: "Why is an accelerator pump needed?"
+    a: "Prevent hesitation (lean mixture) on sudden throttle opening."
+    simple: "An extra squirt when you press quickly."
+  - id: f17
+    topic: u5.carb
+    difficulty: 2
+    learn: "Power (economiser) system gives extra fuel at full throttle, opened by low vacuum or a mechanical link."
+    why: "Full load needs a richer mixture."
+    q: "Circuit that enriches mixture at full throttle?"
+    a: "Power (economiser) system."
+    simple: "More fuel at full power."
+  - id: f18
+    topic: u5.carb
+    difficulty: 2
+    learn: "Choke valve is a butterfly above the venturi. Closing it gives a very rich mixture for cold starting."
+    why: "Cold petrol does not vaporise well, so more is needed."
+    q: "Which valve gives a rich mixture for cold starting?"
+    a: "Choke valve."
+    simple: "Choke cuts air for a cold start."
+  - id: f19
+    topic: u5.carb
+    difficulty: 2
+    learn: "Automatic choke uses a bimetallic spring heated by the engine to open the choke as the engine warms."
+    why: "Driver does not need to remember to push it in."
+    q: "What operates an automatic choke?"
+    a: "Bimetallic spring (thermostatic)."
+    simple: "A heat-sensitive spring opens it by itself."
+  - id: f20
+    topic: u5.carb
+    difficulty: 2
+    learn: "Constant vacuum (CV) carburettor: venturi size changes with a piston/slide lifted by vacuum (SU, Stromberg)."
+    why: "Air speed stays nearly constant, giving good mixture at all loads."
+    q: "Name a constant vacuum (variable venturi) carburettor."
+    a: "SU (or Stromberg CD)."
+    simple: "The venturi grows as needed."
+  - id: f21
+    topic: u5.carb
+    difficulty: 2
+    learn: "Fixed venturi (constant choke) carburettors: Solex, Zenith, Carter. Variable venturi (constant vacuum): SU, Stromberg."
+    why: "PSC asks to classify named carburettors."
+    q: "Is Solex a fixed or variable venturi carburettor?"
+    a: "Fixed venturi (constant choke)."
+    simple: "Solex/Zenith fixed; SU variable."
+  - id: f22
+    topic: u5.carb
+    difficulty: 2
+    learn: "Down-draught, up-draught and side-draught carburettors are named by air flow direction. Down-draught is common in cars."
+    why: "Gravity helps the mixture flow down."
+    q: "Most common carburettor type in cars (by air direction)?"
+    a: "Down-draught."
+    simple: "Air flows downward into the engine."
+  - id: f23
+    topic: u5.carb
+    difficulty: 2
+    learn: "Multi-barrel carburettors have two or four throats; the secondary barrels open only at high load."
+    why: "Small primary for economy, big secondary for power."
+    q: "When does the secondary barrel open?"
+    a: "At high load / high speed."
+    simple: "Extra barrels open for more power."
+  - id: f24
+    topic: u5.carb
+    difficulty: 2
+    learn: "Carburettor faults: flooding (stuck needle valve), lean mixture (blocked jet), rich mixture (choke stuck, high float level), icing."
+    why: "Each shows typical symptoms."
+    q: "Common cause of carburettor flooding?"
+    a: "Needle valve stuck open / float punctured."
+    simple: "Fuel keeps coming in and overflows."
+  - id: f25
+    topic: u5.carb
+    difficulty: 2
+    learn: "Carburettor icing: fuel evaporation cools the venturi so much that moisture freezes on it."
+    why: "Evaporation takes heat."
+    q: "Ice forming in a carburettor venturi is called?"
+    a: "Carburettor icing."
+    simple: "Evaporating petrol makes it freezing cold."
+  - id: sum
+    topic: u5.carb
+    type: summary
+    points:
+      - "Carburettor = venturi principle; float + needle valve keeps level."
+      - "Simple carb goes rich at speed → compensation (air bleed)."
+      - "Start very rich, idle rich, cruise lean, power rich."
+      - "Circuits: float, choke, idle, main, accelerator pump, power."
+      - "Fixed venturi: Solex, Zenith. Variable: SU, Stromberg."
+
+  # ---------- Manifolds ----------
+  - id: f01
+    topic: u5.manifold
+    difficulty: 1
+    learn: "Inlet (intake) manifold carries air or air–fuel mixture from the carburettor or throttle body to each cylinder."
+    why: "Each cylinder must get an equal share."
+    q: "What does the inlet manifold do?"
+    a: "Distribute air/mixture to each cylinder."
+    simple: "Pipes that share air to all cylinders."
+  - id: f02
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Inlet manifolds are made of cast aluminium or plastic (nylon composite) in modern engines."
+    why: "Light and smooth inside."
+    q: "Material of modern inlet manifolds?"
+    a: "Aluminium or plastic composite."
+    simple: "Light aluminium or plastic."
+  - id: f03
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Hot spot: part of the inlet manifold heated by exhaust or coolant to help petrol vaporise in carburettor engines."
+    why: "Liquid petrol drops would cause uneven mixture."
+    q: "Purpose of a hot spot in the inlet manifold?"
+    a: "To vaporise fuel."
+    simple: "Warm spot turns petrol drops to vapour."
+  - id: f04
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Inlet manifold types: single plane, dual plane, log type, individual runners (tuned)."
+    why: "Shape affects flow, distribution and torque curve."
+    q: "Name one type of inlet manifold."
+    a: "Single plane, dual plane, log, tuned runners."
+    simple: "Different pipe layouts."
+  - id: f05
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Long intake runners give better low-speed torque; short runners give better high-speed power."
+    why: "Pressure waves in the runner help filling at certain speeds."
+    q: "Which runner length favours low-speed torque?"
+    a: "Long runners."
+    simple: "Long pipe for pulling power, short pipe for speed."
+  - id: f06
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Variable intake system (VIS) switches between long and short runners with valves controlled by the ECU."
+    why: "Gets good torque at low rpm and power at high rpm."
+    q: "Purpose of a variable intake system?"
+    a: "Change runner length for good torque and power at all speeds."
+    simple: "Long pipe at low speed, short at high speed."
+  - id: f07
+    topic: u5.manifold
+    difficulty: 2
+    learn: "VVT (variable valve timing) changes when the valves open and close depending on engine speed and load."
+    why: "Fixed timing is a compromise; VVT gives power, economy and low emissions together."
+    q: "What does VVT change?"
+    a: "Valve opening/closing timing."
+    simple: "Valves open earlier or later as needed."
+  - id: f08
+    topic: u5.manifold
+    difficulty: 2
+    learn: "VVT is usually done by a cam phaser on the camshaft sprocket, moved by oil pressure controlled by an ECU solenoid."
+    why: "Turning the cam relative to its sprocket shifts timing."
+    q: "Device that rotates the camshaft relative to its sprocket?"
+    a: "Cam phaser (VVT actuator)."
+    simple: "Oil pressure twists the camshaft a little."
+  - id: f09
+    topic: u5.manifold
+    difficulty: 2
+    learn: "CVVT (continuously variable valve timing) can set any timing within its range, not just two fixed positions."
+    why: "Smooth, exact control at every speed."
+    q: "Difference between VVT (two-step) and CVVT?"
+    a: "CVVT adjusts timing continuously, not in steps."
+    simple: "CVVT changes timing smoothly all the time."
+  - id: f10
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Brand names: Honda VTEC (also changes lift), Toyota VVT-i, Hyundai CVVT, Maruti VVT."
+    why: "VTEC switches cam profiles; VVT-i shifts timing."
+    q: "Honda's variable valve system is called?"
+    a: "VTEC."
+    simple: "VTEC changes both timing and lift."
+  - id: f11
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Benefits of VVT: more torque at low rpm, more power at high rpm, better fuel economy, smoother idle, lower emissions (internal EGR)."
+    why: "Overlap can be changed to suit conditions."
+    q: "Give two benefits of VVT."
+    a: "More power and torque, better economy, lower emissions."
+    simple: "Better everything by smart valve timing."
+  - id: f12
+    topic: u5.manifold
+    difficulty: 1
+    learn: "Exhaust manifold collects burnt gases from all cylinders and sends them to the exhaust pipe."
+    why: "It must handle very hot gases."
+    q: "Function of the exhaust manifold?"
+    a: "Collect exhaust gases from cylinders."
+    simple: "Pipes that gather smoke from all cylinders."
+  - id: f13
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Exhaust manifolds are made of cast iron or stainless steel tubes (headers)."
+    why: "They must resist high heat and corrosion."
+    q: "Material of exhaust manifolds?"
+    a: "Cast iron or stainless steel."
+    simple: "Heat-proof metal."
+  - id: f14
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Tuned exhaust headers (e.g. 4-into-1, 4-2-1) use pressure waves to help pull exhaust out (scavenging)."
+    why: "Less back pressure means more power."
+    q: "Why are tuned headers used?"
+    a: "Better scavenging, less back pressure, more power."
+    simple: "Pipe shapes help suck out exhaust."
+  - id: f15
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Exhaust system parts: exhaust manifold, front pipe, catalytic converter, resonator, muffler (silencer), tail pipe."
+    why: "Gas is cleaned, then quietened, then released."
+    q: "Order of main parts in an exhaust system?"
+    a: "Manifold → catalytic converter → muffler → tail pipe."
+    simple: "Collect, clean, quieten, release."
+  - id: f16
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Catalytic converter changes harmful gases (CO, HC, NOx) into less harmful CO₂, H₂O and N₂ using catalysts."
+    why: "Catalysts speed up reactions without being used up."
+    q: "Harmful gases treated by a three-way catalytic converter?"
+    a: "CO, HC and NOx."
+    simple: "Turns poison gases into safer ones."
+  - id: f17
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Catalysts used: platinum and palladium (oxidise CO and HC), rhodium (reduces NOx). Coated on a ceramic honeycomb."
+    why: "Honeycomb gives a huge surface area."
+    q: "Which catalyst reduces NOx?"
+    a: "Rhodium."
+    simple: "Platinum/palladium for CO and HC; rhodium for NOx."
+  - id: f18
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Two-way converter: oxidises CO and HC only. Three-way converter: also reduces NOx, needs mixture near 14.7:1 (controlled by lambda sensor)."
+    why: "NOx reduction needs little oxygen; CO/HC oxidation needs some."
+    q: "Three-way converter needs mixture close to what ratio?"
+    a: "Stoichiometric, about 14.7:1."
+    simple: "Exactly correct mixture for all three."
+  - id: f19
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Catalytic converter works only when hot (light-off temperature about 250–300°C)."
+    why: "Catalysts are not active when cold, so cold-start emissions are high."
+    q: "Does a catalytic converter work when cold?"
+    a: "No — it needs about 250–300°C."
+    simple: "It must warm up first."
+  - id: f20
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Leaded petrol destroys catalytic converters (lead poisoning of the catalyst)."
+    why: "Lead coats the catalyst surface."
+    q: "Which fuel damages catalytic converters?"
+    a: "Leaded petrol."
+    simple: "Lead kills the catalyst."
+  - id: f21
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Diesel engines use a diesel oxidation catalyst (DOC), diesel particulate filter (DPF) and SCR with urea (AdBlue) for NOx."
+    why: "Diesel exhaust has lots of oxygen, so three-way converters do not work."
+    q: "What fluid is used in SCR systems?"
+    a: "Urea solution (AdBlue / DEF)."
+    simple: "Urea spray cleans diesel NOx."
+  - id: f22
+    topic: u5.manifold
+    difficulty: 1
+    learn: "Muffler (silencer) reduces exhaust noise."
+    why: "Exhaust leaves in loud pressure pulses."
+    q: "Function of a muffler?"
+    a: "Reduce exhaust noise."
+    simple: "It makes the exhaust quiet."
+  - id: f23
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Muffler types: baffle type, wave cancellation (Helmholtz/resonator), absorption (straight-through with glass wool), combined."
+    why: "Each reduces noise differently."
+    q: "Muffler that uses sound-absorbing material around a perforated tube?"
+    a: "Absorption (straight-through) muffler."
+    simple: "Baffles, wave cancelling, or soaking up sound."
+  - id: f24
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Wave cancellation muffler splits gas into two paths of different lengths so sound waves meet out of phase and cancel."
+    why: "Opposite waves cancel each other."
+    q: "How does a wave-cancellation muffler work?"
+    a: "Sound waves meet out of phase and cancel."
+    simple: "Two waves meet and silence each other."
+  - id: f25
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Back pressure: resistance to exhaust flow. Too much back pressure reduces power and raises fuel consumption."
+    why: "The engine must push harder to empty the cylinder."
+    q: "Effect of high exhaust back pressure?"
+    a: "Less power, more fuel consumption."
+    simple: "Blocked exhaust chokes the engine."
+  - id: f26
+    topic: u5.manifold
+    difficulty: 2
+    learn: "Removing or modifying silencers is an offence. Noise limits are set under the Central Motor Vehicles Rules."
+    why: "Excess noise is pollution; MVD checks during inspection."
+    q: "Is removing a vehicle silencer allowed?"
+    a: "No — it is an offence (noise limits under CMVR)."
+    simple: "Loud modified silencers are illegal."
+  - id: sum
+    topic: u5.manifold
+    type: summary
+    points:
+      - "Inlet manifold: aluminium/plastic; hot spot for vaporising."
+      - "Variable intake: long runners low rpm, short high rpm."
+      - "VVT/CVVT: cam phaser shifts timing; VTEC changes lift too."
+      - "Cat converter: Pt, Pd (CO, HC), Rh (NOx); light-off ~250°C."
+      - "Muffler: baffle, wave cancellation, absorption."
+
+  # ---------- Diesel fuel ----------
+  - id: f01
+    topic: u5.dieselfuel
+    difficulty: 1
+    learn: "Diesel fuel system order: tank → feed (lift) pump → primary filter → secondary filter → injection pump → high-pressure pipes → injectors. Leak-off returns to tank."
+    why: "Fuel must be very clean and at very high pressure."
+    q: "Order of parts in a diesel fuel system?"
+    a: "Tank, feed pump, filters, injection pump, injectors."
+    simple: "Tank → lift pump → filter → injection pump → injector."
+  - id: f02
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Fuel feed (lift / transfer) pump sends fuel from the tank to the injection pump at low pressure (about 1–2 bar)."
+    why: "The injection pump needs a steady, bubble-free supply."
+    q: "Job of the fuel feed pump?"
+    a: "Supply fuel from tank to injection pump at low pressure."
+    simple: "It lifts diesel to the main pump."
+  - id: f03
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Hand priming pump on the feed pump is used to fill the system and bleed out air after filter change."
+    why: "Air in diesel lines stops the engine."
+    q: "Why is a hand primer used?"
+    a: "To fill the fuel system and bleed air."
+    simple: "Pump by hand to push air out."
+  - id: f04
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Air lock in diesel lines prevents injection; the system is bled at filter and pump bleed screws."
+    why: "Air compresses, so pressure cannot build."
+    q: "What must be done after running out of diesel?"
+    a: "Bleed the fuel system to remove air."
+    simple: "Push out the air bubbles."
+  - id: f05
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Diesel filters: primary (coarse, often with water separator) and secondary (fine, paper element)."
+    why: "Injection parts have very fine clearances; dirt and water ruin them."
+    q: "Why do diesel systems need fine filters?"
+    a: "Injection pump and injectors have very fine clearances."
+    simple: "Tiny parts need very clean fuel."
+  - id: f06
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Water separator (sedimenter) collects water at the bottom of the filter bowl; it must be drained regularly."
+    why: "Water corrodes pump and injector parts."
+    q: "Purpose of a water separator in diesel filter?"
+    a: "Remove water from diesel."
+    simple: "Catches water before it reaches the pump."
+  - id: f07
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Fuel injection pump (FIP) supplies exact, metered fuel at very high pressure to each injector at the right time."
+    why: "Diesel must be sprayed finely into very hot compressed air."
+    q: "Job of the fuel injection pump?"
+    a: "Meter and pressurise fuel, deliver at right time."
+    simple: "The heart of the diesel system."
+  - id: f08
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Types of injection pumps: in-line (jerk) pump with one element per cylinder, distributor (rotary) pump with one element for all cylinders, unit injector, and common rail."
+    why: "Different engine sizes and eras use different types."
+    q: "Pump with one element per cylinder in a row?"
+    a: "In-line (jerk) pump."
+    simple: "In-line = one plunger per cylinder."
+  - id: f09
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "In-line (Bosch) pump: each element has a plunger with a helix; rotating the plunger with a control rack changes fuel quantity."
+    why: "The helix uncovers the spill port earlier or later."
+    q: "In an in-line pump, what changes fuel quantity?"
+    a: "Rotating the plunger (helix) via control rack."
+    simple: "Turn the plunger to change fuel."
+  - id: f10
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Delivery valve in each pump element stops back-flow and gives sharp end of injection (prevents dribbling)."
+    why: "It drops line pressure quickly after injection."
+    q: "Purpose of the delivery valve?"
+    a: "Sharp cut-off and prevent dribble/back-flow."
+    simple: "Shuts the line quickly after each squirt."
+  - id: f11
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Distributor (rotary) type pump (e.g. Bosch VE, CAV DPA): one pumping element and a rotor distribute fuel to all cylinders in turn."
+    why: "Smaller, lighter and cheaper than in-line pumps."
+    q: "Pump that uses one element and a rotor for all cylinders?"
+    a: "Distributor (rotary) pump."
+    simple: "One pump shared by all cylinders."
+  - id: f12
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Distributor pumps suit small, high-speed diesel engines in cars and light vehicles."
+    why: "They are compact and self-lubricated by diesel."
+    q: "Which pump type suits small car diesels?"
+    a: "Distributor (rotary) pump."
+    simple: "Compact pumps for small diesels."
+  - id: f13
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Distributor pumps are lubricated by diesel itself, so diesel quality (lubricity) matters."
+    why: "Poor fuel can wear the pump."
+    q: "What lubricates a distributor pump?"
+    a: "Diesel fuel."
+    simple: "Diesel oils the pump."
+  - id: f14
+    topic: u5.dieselfuel
+    difficulty: 1
+    learn: "Fuel injector (nozzle) sprays diesel as a fine mist into the cylinder."
+    why: "Fine drops mix and burn quickly."
+    q: "Job of a diesel injector?"
+    a: "Atomise and spray fuel into the cylinder."
+    simple: "It sprays fine diesel mist."
+  - id: f15
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Mechanical injector: a spring holds the needle closed; fuel pressure lifts it at the opening pressure (about 150–250 bar in older engines)."
+    why: "Below that pressure, the spray would be poor."
+    q: "What lifts the injector needle?"
+    a: "Fuel pressure overcoming the spring."
+    simple: "High pressure pushes the needle open."
+  - id: f16
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Nozzle types: single-hole, multi-hole (direct injection), pintle and pintaux (indirect injection)."
+    why: "Each gives a different spray shape for its chamber."
+    q: "Which nozzle is used in direct injection engines?"
+    a: "Multi-hole nozzle."
+    simple: "Many holes for direct injection; pintle for side chambers."
+  - id: f17
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Injector testing checks opening pressure, spray pattern, leakage and chatter on an injector tester."
+    why: "Bad spray causes smoke and power loss."
+    q: "Name one injector test."
+    a: "Opening pressure, spray pattern, leak-back, chatter."
+    simple: "Check pressure and spray on a tester."
+  - id: f18
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Leak-off pipes return extra fuel (used to lubricate and cool the injector needle) to the tank."
+    why: "A little fuel always seeps past the needle."
+    q: "Purpose of injector leak-off pipes?"
+    a: "Return excess fuel to the tank."
+    simple: "Pipes that send spare diesel back."
+  - id: f19
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Unit injector combines the pump and injector in one unit at each cylinder, driven by a camshaft."
+    why: "No high-pressure pipes, so very high pressures possible."
+    q: "Pump and injector combined in one unit is called?"
+    a: "Unit injector."
+    simple: "Pump and nozzle in one body."
+  - id: f20
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Diesel injection timing is advanced at higher speeds by an automatic timer (advance unit) in the pump."
+    why: "Fuel needs the same time to burn, which is more crank degrees at high speed."
+    q: "What advances injection timing with speed?"
+    a: "Automatic timing (advance) device in the pump."
+    simple: "Inject earlier when faster."
+  - id: f21
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Diesel smoke colours: black = too much fuel or too little air; blue = oil burning; white = unburnt fuel (cold, retarded timing) or water."
+    why: "Smoke colour helps diagnosis."
+    q: "Black smoke from a diesel engine means?"
+    a: "Over-fuelling or not enough air (choked filter, bad injector)."
+    simple: "Black = too much fuel."
+  - id: f22
+    topic: u5.dieselfuel
+    difficulty: 1
+    learn: "Turbocharger uses exhaust gas to spin a turbine, which drives a compressor that forces more air into the engine."
+    why: "More air allows more fuel to burn, giving more power from the same engine size."
+    q: "What drives a turbocharger?"
+    a: "Exhaust gases."
+    simple: "Waste exhaust spins a fan that blows in more air."
+  - id: f23
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Turbocharger parts: turbine wheel (exhaust side), compressor wheel (intake side), common shaft, centre bearing housing (oil-lubricated), wastegate."
+    why: "Turbine and compressor are on one shaft."
+    q: "What joins the turbine and compressor in a turbocharger?"
+    a: "A common shaft."
+    simple: "Two fans on one shaft."
+  - id: f24
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Turbochargers spin very fast (up to about 1–2 lakh rpm) and are lubricated by engine oil."
+    why: "Very high speed needs a constant oil film."
+    q: "How is a turbocharger shaft lubricated?"
+    a: "By engine oil."
+    simple: "Engine oil keeps the turbo shaft alive."
+  - id: f25
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Let a turbo engine idle for a short time before switching off."
+    why: "Stopping a hot turbo cuts oil flow and cooks the oil in the bearings."
+    q: "Why should a turbo engine idle before shut-down?"
+    a: "To let the turbo slow down and cool with oil flowing."
+    simple: "Let the turbo cool before switching off."
+  - id: f26
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Wastegate is a valve that lets some exhaust bypass the turbine to limit boost pressure."
+    why: "Too much boost can damage the engine."
+    q: "What limits turbo boost pressure?"
+    a: "Wastegate."
+    simple: "A bypass door that stops over-boost."
+  - id: f27
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Intercooler (charge air cooler) cools the compressed air from the turbo before it enters the engine."
+    why: "Cooler air is denser, gives more power and reduces knock and NOx."
+    q: "Why is an intercooler used with a turbo?"
+    a: "Cool compressed air to make it denser."
+    simple: "Cold air packs more oxygen."
+  - id: f28
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Turbo lag is the delay between pressing the accelerator and the turbo giving boost."
+    why: "The turbine needs time to speed up from exhaust flow."
+    q: "Delay before turbo boost builds up is called?"
+    a: "Turbo lag."
+    simple: "Waiting for the turbo to spin up."
+  - id: f29
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Turbo lag is reduced by small/light turbines, twin-scroll or twin turbos, ball-bearing turbos and variable geometry turbos (VGT)."
+    why: "They spin up faster at low exhaust flow."
+    q: "Name one way to reduce turbo lag."
+    a: "VGT, twin-scroll, smaller turbo, twin turbos."
+    simple: "Lighter, smarter turbos react faster."
+  - id: f30
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Variable geometry turbocharger (VGT/VNT) has movable vanes around the turbine that change the gas flow angle."
+    why: "Narrow vanes speed up gas at low rpm; open vanes at high rpm."
+    q: "Turbo with movable vanes around the turbine?"
+    a: "Variable geometry turbocharger (VGT)."
+    simple: "Vanes adjust to give boost at all speeds."
+  - id: f31
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Turbocharger types: single, twin (parallel or sequential), twin-scroll, VGT, electric-assisted."
+    why: "PSC may ask types."
+    q: "Two turbos where one works at low rpm and both at high rpm?"
+    a: "Sequential twin turbo."
+    simple: "Small turbo first, big one later."
+  - id: f32
+    topic: u5.dieselfuel
+    difficulty: 2
+    learn: "Supercharger vs turbocharger: supercharger is belt-driven by the engine (no lag, uses engine power); turbo uses waste exhaust (efficient, but lag)."
+    why: "Drive source decides the trade-off."
+    q: "Which has no lag: supercharger or turbocharger?"
+    a: "Supercharger."
+    simple: "Belt-driven blower reacts at once."
+  - id: sum
+    topic: u5.dieselfuel
+    type: summary
+    points:
+      - "Tank → feed pump (hand primer) → filters → FIP → injectors."
+      - "In-line pump (helix, rack); distributor/rotary pump for small engines."
+      - "Delivery valve gives sharp cut-off; multi-hole nozzle for DI."
+      - "Turbo: exhaust turbine + compressor on one shaft, oil-cooled."
+      - "Wastegate limits boost; intercooler cools air; turbo lag → VGT."
+
+  # ---------- Lubrication ----------
+  - id: f01
+    topic: u5.lube
+    difficulty: 1
+    learn: "Engine lubrication reduces friction and wear, cools parts, seals piston rings, cleans and protects from rust."
+    why: "Metal-to-metal contact would quickly destroy the engine."
+    q: "Give three functions of engine oil."
+    a: "Reduce friction, cool, seal, clean, prevent rust."
+    simple: "Oil makes parts slide, keeps them cool and clean."
+  - id: f02
+    topic: u5.lube
+    difficulty: 2
+    learn: "Lubrication systems: petroil (two-stroke), splash, pressure feed (forced), semi-pressure (combined), dry sump."
+    why: "Each suits a different engine."
+    q: "System where all bearings get oil from a pump under pressure?"
+    a: "Pressure feed (forced) lubrication."
+    simple: "Splash, pump pressure, or both."
+  - id: f03
+    topic: u5.lube
+    difficulty: 2
+    learn: "Splash lubrication: dippers on the connecting rod big ends dip into oil troughs and splash oil around."
+    why: "Simple, but oil supply is uneven; used in small engines."
+    q: "In splash lubrication, what throws the oil?"
+    a: "Dippers on the big ends."
+    simple: "The rod scoops and splashes oil."
+  - id: f04
+    topic: u5.lube
+    difficulty: 2
+    learn: "Pressure feed: oil pump sends oil through a filter and main gallery to main bearings, big ends (via drilled crankshaft), camshaft bearings and valve gear."
+    why: "Gives positive, steady supply to all bearings."
+    q: "How does oil reach big-end bearings in pressure feed?"
+    a: "Through drilled passages in the crankshaft."
+    simple: "Oil goes through holes inside the crankshaft."
+  - id: f05
+    topic: u5.lube
+    difficulty: 2
+    learn: "Wet sump: oil is stored in the sump under the crankcase. Most cars use wet sump."
+    why: "Simple and cheap."
+    q: "In a wet sump system, where is oil stored?"
+    a: "In the sump under the crankcase."
+    simple: "Oil lives at the bottom of the engine."
+  - id: f06
+    topic: u5.lube
+    difficulty: 2
+    learn: "Dry sump: oil is pumped out of the sump by a scavenge pump to a separate tank, and a pressure pump feeds the engine from it."
+    why: "No oil surge on hard corners; engine can sit lower; better cooling."
+    q: "How many pumps does a dry sump system have?"
+    a: "Two (scavenge and pressure)."
+    simple: "Oil kept in a separate tank."
+  - id: f07
+    topic: u5.lube
+    difficulty: 2
+    learn: "Dry sump is used in racing cars, aircraft, some motorcycles and off-road vehicles."
+    why: "Oil supply stays steady at steep angles and high g-forces."
+    q: "Where is dry sump lubrication used?"
+    a: "Racing cars, aircraft, some bikes and off-road vehicles."
+    simple: "For vehicles that tilt or corner hard."
+  - id: f08
+    topic: u5.lube
+    difficulty: 2
+    learn: "Oil pump types: gear pump (external gears), rotor (gerotor) pump, vane pump, plunger pump."
+    why: "All are positive displacement pumps."
+    q: "Two common types of engine oil pumps?"
+    a: "Gear pump and rotor (gerotor) pump."
+    simple: "Gears or rotors push the oil."
+  - id: f09
+    topic: u5.lube
+    difficulty: 2
+    learn: "Rotor (gerotor) pump: an inner rotor with one lobe less than the outer rotor turns inside it, trapping and pushing oil."
+    why: "Compact and smooth flow."
+    q: "In a rotor pump, how many lobes does the inner rotor have compared to outer?"
+    a: "One less."
+    simple: "Inner star turns inside outer star."
+  - id: f10
+    topic: u5.lube
+    difficulty: 2
+    learn: "Oil strainer (pick-up screen) at the pump inlet stops large particles entering the pump."
+    why: "Protects the pump."
+    q: "What protects the oil pump inlet?"
+    a: "Oil strainer (pick-up screen)."
+    simple: "A mesh at the pump's mouth."
+  - id: f11
+    topic: u5.lube
+    difficulty: 2
+    learn: "Pressure relief valve limits maximum oil pressure by returning excess oil to the sump."
+    why: "Cold thick oil could build dangerous pressure."
+    q: "Purpose of the oil pressure relief valve?"
+    a: "Limit maximum oil pressure."
+    simple: "Lets extra oil escape back to the sump."
+  - id: f12
+    topic: u5.lube
+    difficulty: 2
+    learn: "Oil pressure indicator: a warning light (pressure switch) or gauge on the dashboard. The light comes on when pressure is too low."
+    why: "Low pressure can destroy bearings in seconds."
+    q: "Oil warning light comes on while driving. What should the driver do?"
+    a: "Stop the engine at once and check oil."
+    simple: "Oil light on = stop now."
+  - id: f13
+    topic: u5.lube
+    difficulty: 2
+    learn: "Oil filtration systems: full-flow (all oil passes the filter before bearings) and bypass (only part of the oil is filtered)."
+    why: "Full-flow is most common in cars."
+    q: "Filter system where all oil is filtered before reaching bearings?"
+    a: "Full-flow filtration."
+    simple: "Full-flow cleans all the oil every time."
+  - id: f14
+    topic: u5.lube
+    difficulty: 2
+    learn: "Full-flow filters have a bypass valve that opens if the filter gets blocked."
+    why: "Dirty oil is better than no oil."
+    q: "Why does a full-flow filter have a bypass valve?"
+    a: "To keep oil flowing if the filter clogs."
+    simple: "If the filter blocks, oil goes around it."
+  - id: f15
+    topic: u5.lube
+    difficulty: 2
+    learn: "Oil filter types: cartridge (replaceable element) and spin-on (throw-away). Elements: paper, cloth, felt; centrifugal filters in some diesels."
+    why: "Spin-on filters are quick to change."
+    q: "Throw-away screwed filter is called?"
+    a: "Spin-on filter."
+    simple: "Screw on, screw off, throw away."
+  - id: f16
+    topic: u5.lube
+    difficulty: 2
+    learn: "Oil cooler: a small radiator for engine oil, cooled by air or coolant."
+    why: "Hot oil thins and breaks down."
+    q: "Why is an oil cooler used?"
+    a: "Keep oil temperature in safe range."
+    simple: "A mini radiator for oil."
+  - id: f17
+    topic: u5.lube
+    difficulty: 2
+    learn: "Oil seals (lip seals) stop oil leaking where shafts come out of the engine, e.g. front and rear crankshaft seals."
+    why: "A spring-loaded rubber lip presses on the shaft."
+    q: "Seal used where the crankshaft leaves the block?"
+    a: "Lip type oil seal."
+    simple: "A rubber lip hugs the shaft."
+  - id: f18
+    topic: u5.lube
+    difficulty: 2
+    learn: "Crankcase ventilation removes blow-by gases (unburnt fuel, water vapour, acids) from the crankcase."
+    why: "These gases dilute oil and form sludge."
+    q: "Why is crankcase ventilation needed?"
+    a: "Remove blow-by gases that contaminate oil."
+    simple: "Let leaked gases out of the oil area."
+  - id: f19
+    topic: u5.lube
+    difficulty: 2
+    learn: "Old open (road draught) ventilation vented gases to air. Modern PCV (positive crankcase ventilation) sends them into the intake to be burnt."
+    why: "PCV cuts pollution."
+    q: "Where does a PCV system send crankcase gases?"
+    a: "Into the intake manifold to be burnt."
+    simple: "Burn the leaked gases instead of releasing them."
+  - id: f20
+    topic: u5.lube
+    difficulty: 2
+    learn: "Oil level is checked with the dipstick, engine off and on level ground. Keep it between MIN and MAX marks."
+    why: "Too low starves bearings; too high causes foaming."
+    q: "How is engine oil level checked?"
+    a: "With the dipstick, on level ground, engine off."
+    simple: "Pull the stick, wipe, dip, read."
+  - id: f21
+    topic: u5.lube
+    difficulty: 2
+    learn: "Oil grades: SAE (viscosity, e.g. 15W-40), API service (S for petrol, C for diesel, e.g. API SN, CK-4)."
+    why: "Use the grade the maker specifies."
+    q: "In API classification, C stands for?"
+    a: "Compression ignition (diesel) engines."
+    simple: "S = spark (petrol), C = compression (diesel)."
+  - id: f22
+    topic: u5.lube
+    difficulty: 2
+    learn: "Oil additives: detergent-dispersants, anti-wear (ZDDP), anti-oxidants, viscosity index improvers, pour point depressants, anti-foam, corrosion inhibitors."
+    why: "Base oil alone cannot do all jobs."
+    q: "Additive that keeps dirt in suspension?"
+    a: "Detergent-dispersant."
+    simple: "Additives give oil extra powers."
+  - id: f23
+    topic: u5.lube
+    difficulty: 2
+    learn: "Low oil pressure causes: low oil level, worn bearings, worn pump, blocked strainer, thin oil, stuck relief valve."
+    why: "Each lets pressure fall."
+    q: "Name one cause of low oil pressure."
+    a: "Low oil level, worn bearings or pump, thin oil."
+    simple: "Too little oil or too much leak-away."
+  - id: sum
+    topic: u5.lube
+    type: summary
+    points:
+      - "Splash (dippers), pressure feed (pump), combined."
+      - "Wet sump (cars) vs dry sump (racing, 2 pumps)."
+      - "Gear or rotor pump; relief valve limits pressure."
+      - "Full-flow filter with bypass valve; oil cooler; lip seals."
+      - "PCV burns blow-by gases; SAE and API grades."
+
+  # ---------- Cooling ----------
+  - id: f01
+    topic: u5.cooling
+    difficulty: 1
+    learn: "The cooling system removes extra heat from the engine and keeps it at the best working temperature (about 80–95°C)."
+    why: "Too hot: parts seize and oil fails. Too cold: poor efficiency and wear."
+    q: "Why does an engine need a cooling system?"
+    a: "Remove excess heat and keep correct temperature."
+    simple: "Keep the engine not too hot, not too cold."
+  - id: f02
+    topic: u5.cooling
+    difficulty: 2
+    learn: "About 30% of fuel heat is removed by the cooling system."
+    why: "Part of the heat balance."
+    q: "Roughly what share of fuel heat goes to coolant?"
+    a: "About 30%."
+    simple: "About one-third goes to cooling."
+  - id: f03
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Two types of cooling: air cooling and water (liquid) cooling."
+    why: "Small engines use air; most cars use liquid."
+    q: "Two types of engine cooling?"
+    a: "Air cooling and water (liquid) cooling."
+    simple: "Air or water."
+  - id: f04
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Air cooling uses fins on the cylinder and head to give off heat to air. Fans and cowls (shrouds) help in scooters and some engines."
+    why: "Fins increase area for heat loss."
+    example: "Motorcycles, scooters, older autorickshaws."
+    q: "What helps an air-cooled engine lose heat?"
+    a: "Fins (and fan with cowling)."
+    simple: "Fins let air carry heat away."
+  - id: f05
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Air cooling: light, simple, no leaks or freezing; but noisy, uneven cooling and limited to small engines."
+    why: "Air carries much less heat than water."
+    q: "Give one disadvantage of air cooling."
+    a: "Uneven cooling / noisy / only for small engines."
+    simple: "Simple but weak for big engines."
+  - id: f06
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Water cooling parts: water jackets, water pump, radiator, pressure cap, thermostat, fan, hoses, coolant reservoir."
+    why: "Coolant carries heat from engine to radiator."
+    q: "Name the main parts of a water cooling system."
+    a: "Jackets, pump, radiator, cap, thermostat, fan, hoses."
+    simple: "Pump moves water from engine to radiator and back."
+  - id: f07
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Thermo-syphon cooling: water circulates by itself because hot water rises and cool water sinks. No pump is used."
+    why: "Density difference drives the flow."
+    q: "Cooling system that works without a water pump?"
+    a: "Thermo-syphon system."
+    simple: "Hot water rises, cold sinks, no pump."
+  - id: f08
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Thermo-syphon is slow; the radiator must be above the engine and water level kept high. Used in old and small stationary engines."
+    why: "Natural circulation is weak."
+    q: "Main drawback of thermo-syphon cooling?"
+    a: "Slow circulation; radiator must be high; level critical."
+    simple: "Too slow for modern engines."
+  - id: f09
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Pump circulation (forced) system: a centrifugal water pump driven by belt circulates coolant quickly."
+    why: "Fast, steady flow for high-output engines."
+    q: "Type of water pump used in cars?"
+    a: "Centrifugal pump."
+    simple: "A belt-driven spinning pump moves the water."
+  - id: f10
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Water pump is driven by the fan belt or timing belt from the crankshaft. It has an impeller, seal and bearing."
+    why: "Seal failure causes leaks from the weep hole."
+    q: "What drives the water pump?"
+    a: "Crankshaft through a belt."
+    simple: "The engine turns the pump with a belt."
+  - id: f11
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Thermostat is a valve between engine and radiator. It stays closed when cold and opens at about 80–90°C."
+    why: "It helps the engine warm up quickly and keeps it at the right temperature."
+    q: "Function of the thermostat?"
+    a: "Quick warm-up and control engine temperature."
+    simple: "Shut when cold, open when hot."
+  - id: f12
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Thermostat types: wax pellet (most common), bellows (with volatile liquid like alcohol), bimetallic."
+    why: "Wax expands when it melts and pushes the valve open."
+    q: "Most common type of thermostat?"
+    a: "Wax pellet type."
+    simple: "Melting wax opens the valve."
+  - id: f13
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Thermostat stuck closed → overheating. Stuck open → engine runs cold, heater weak, more fuel use."
+    why: "Coolant cannot reach the radiator, or goes there too early."
+    q: "Effect of a thermostat stuck closed?"
+    a: "Engine overheats."
+    simple: "Closed = too hot. Open = too cold."
+  - id: f14
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Bypass passage lets coolant circulate within the engine while the thermostat is closed."
+    why: "Prevents hot spots and pressure rise during warm-up."
+    q: "Purpose of the bypass passage in cooling system?"
+    a: "Circulate coolant in engine when thermostat is closed."
+    simple: "A short path for water while warming up."
+  - id: f15
+    topic: u5.cooling
+    difficulty: 1
+    learn: "Radiator is a heat exchanger that cools hot coolant using air flowing through its core."
+    why: "Thin tubes and fins give a large cooling area."
+    q: "Main job of the radiator?"
+    a: "Transfer heat from coolant to air."
+    simple: "Radiator cools the water with air."
+  - id: f16
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Radiator parts: upper tank (inlet), core, lower tank (outlet), filler neck with pressure cap, drain cock."
+    why: "Hot water enters the top and cooled water leaves the bottom."
+    q: "Where does hot coolant enter the radiator?"
+    a: "Upper (inlet) tank."
+    simple: "Hot in at top, cool out at bottom."
+  - id: f17
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Radiator core types: tubular (fin and tube) and cellular (honeycomb). Flow types: down-flow and cross-flow."
+    why: "Cross-flow radiators are lower and fit under sloping bonnets."
+    q: "Radiator with coolant flowing sideways between side tanks?"
+    a: "Cross-flow radiator."
+    simple: "Down-flow top to bottom; cross-flow side to side."
+  - id: f18
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Radiators are made of copper-brass (older) or aluminium core with plastic tanks (modern)."
+    why: "Good heat conductors; aluminium is lighter."
+    q: "Material of modern radiators?"
+    a: "Aluminium core with plastic tanks."
+    simple: "Light aluminium and plastic."
+  - id: f19
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Pressure cap raises the system pressure (about 0.9–1.1 bar extra), which raises the boiling point of coolant to about 120°C."
+    why: "Boiling point rises with pressure, like a pressure cooker."
+    q: "Why is a pressure cap used on the radiator?"
+    a: "Raise coolant boiling point."
+    simple: "Pressure stops water boiling early."
+  - id: f20
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Pressure cap has two valves: a pressure valve (opens to the overflow when pressure is high) and a vacuum valve (lets coolant back in when cooling down)."
+    why: "Prevents bursting hoses and collapsing hoses."
+    q: "Two valves in a radiator pressure cap?"
+    a: "Pressure valve and vacuum valve."
+    simple: "One lets out, one lets back in."
+  - id: f21
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Never open a hot radiator cap."
+    why: "Pressurised hot coolant can spray out and scald."
+    q: "Is it safe to open a hot radiator cap?"
+    a: "No — wait until it cools."
+    simple: "Hot cap = danger of burns."
+  - id: f22
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Coolant = water + antifreeze (ethylene glycol or propylene glycol) + corrosion inhibitors. Usually 50:50 mix."
+    why: "Lowers freezing point, raises boiling point and stops corrosion."
+    q: "Common antifreeze chemical?"
+    a: "Ethylene glycol."
+    simple: "Water plus glycol protects in heat and cold."
+  - id: f23
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Antifreeze is used even in hot places like Kerala because it prevents rust and scale and raises boiling point."
+    why: "Plain water corrodes metal and leaves deposits."
+    q: "Why use coolant with antifreeze in hot climates?"
+    a: "Corrosion protection and higher boiling point."
+    simple: "Coolant protects metal, not just from cold."
+  - id: f24
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Other antifreeze materials: methanol, ethanol (wood alcohol, alcohol), glycerine. Ethylene glycol is preferred."
+    why: "Alcohols evaporate easily."
+    q: "Why is alcohol less preferred as antifreeze?"
+    a: "It evaporates easily (low boiling point)."
+    simple: "Alcohol boils away."
+  - id: f25
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Expansion (overflow) tank stores coolant pushed out when hot and returns it when cold."
+    why: "Keeps the radiator always full."
+    q: "Purpose of the coolant expansion tank?"
+    a: "Store expanding coolant and return it when cool."
+    simple: "A side bottle for extra coolant."
+  - id: f26
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Cooling fan types: belt-driven fixed fan, viscous (fluid) coupling fan, thermostatically controlled electric fan."
+    why: "Fan only needed at low speed or in traffic."
+    q: "Fan type that switches on only when coolant is hot?"
+    a: "Electric fan (thermostatically controlled)."
+    simple: "Electric fan runs only when needed."
+  - id: f27
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Viscous fan coupling uses silicone fluid; it slips when cool and locks up when the air behind the radiator is hot."
+    why: "Saves power and reduces noise."
+    q: "Fluid used in a viscous fan coupling?"
+    a: "Silicone fluid."
+    simple: "Thick fluid connects the fan only when hot."
+  - id: f28
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Fan shroud directs air through the whole radiator core."
+    why: "Without it, air leaks around the fan edges."
+    q: "Purpose of a fan shroud?"
+    a: "Direct air through the radiator core."
+    simple: "A cover that guides air."
+  - id: f29
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Overheating causes: low coolant, leaks, loose or broken fan belt, stuck thermostat, blocked radiator, faulty pump, fan failure, head gasket leak."
+    why: "Any break in heat removal causes it."
+    q: "Name two causes of engine overheating."
+    a: "Low coolant, broken belt, stuck thermostat, blocked radiator, fan failure."
+    simple: "Not enough water, flow or air."
+  - id: f30
+    topic: u5.cooling
+    difficulty: 2
+    learn: "Temperature gauge sender is a thermistor in the coolant passage; resistance falls as temperature rises."
+    why: "The gauge reads the change in current."
+    q: "Sensor used for coolant temperature gauge?"
+    a: "Thermistor (NTC)."
+    simple: "Its resistance changes with heat."
+  - id: sum
+    topic: u5.cooling
+    type: summary
+    points:
+      - "Air cooling (fins) vs water cooling."
+      - "Thermo-syphon (no pump) vs pump circulation."
+      - "Thermostat (wax) opens ~85°C; bypass for warm-up."
+      - "Pressure cap raises boiling point; pressure + vacuum valves."
+      - "Coolant = water + ethylene glycol; electric/viscous fans."
+
+mcq:
+  - topic: u5.block
+    q: "A cylinder liner in direct contact with the coolant is called"
+    options: ["Dry liner", "Wet liner", "Flanged liner", "Chromed liner"]
+    answer: 1
+    explain: "Wet liners touch the coolant directly."
+    covers: [f06]
+  - topic: u5.valves
+    q: "Sodium is filled in exhaust valves to"
+    options: ["Increase strength", "Reduce weight", "Improve heat transfer", "Prevent corrosion"]
+    answer: 2
+    explain: "Liquid sodium carries heat from the valve head to the stem."
+    covers: [f06]
+  - topic: u5.carb
+    q: "The circuit in a carburettor that prevents hesitation on sudden throttle opening is"
+    options: ["Idle circuit", "Choke", "Acceleration pump", "Float system"]
+    answer: 2
+    explain: "The acceleration pump squirts extra fuel."
+    covers: [f16]
+  - topic: u5.dieselfuel
+    q: "Turbo lag refers to"
+    options: ["Delay in boost build-up", "Lag in injection timing", "Delay in ignition", "Slow cooling of turbo"]
+    answer: 0
+    explain: "It is the delay before the turbo builds boost."
+    covers: [f28]
+  - topic: u5.lube
+    q: "In a dry sump lubrication system, oil is stored in"
+    options: ["The crankcase sump", "A separate tank", "The oil filter", "The cylinder head"]
+    answer: 1
+    explain: "A scavenge pump moves oil to a separate tank."
+    covers: [f06]
+  - topic: u5.cooling
+    q: "The purpose of the radiator pressure cap is to"
+    options: ["Lower boiling point", "Raise boiling point of coolant", "Increase pump speed", "Reduce coolant flow"]
+    answer: 1
+    explain: "Pressurising raises the boiling point."
+    covers: [f19]
+  - topic: u5.cooling
+    q: "Thermo-syphon cooling works on"
+    options: ["Pump pressure", "Density difference of hot and cold water", "Fan suction", "Capillary action"]
+    answer: 1
+    explain: "Hot water rises and cold water sinks — no pump."
+    covers: [f07]
