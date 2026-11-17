@@ -1,0 +1,2013 @@
+unit: u8
+subject: transport_technology
+title: "Module VIII — Transport management and modern vehicle technology (10 marks)"
+
+topics:
+  - {id: u8.mvact_basics, title: "MV Act basics, signs and the MVD", freq: 0.9}
+  - {id: u8.road, title: "Highway engineering basics", freq: 0.7}
+  - {id: u8.insurance, title: "Motor insurance and surveying", freq: 0.7}
+  - {id: u8.efi, title: "Electronic fuel injection, sensors and CRDI", freq: 0.9}
+  - {id: u8.pollution, title: "Vehicle pollution and its control", freq: 0.9}
+  - {id: u8.accessories, title: "Comfort and safety systems", freq: 0.8}
+  - {id: u8.ev, title: "Electric and hybrid vehicles", freq: 0.9}
+
+cards:
+  # ---------- MV Act basics ----------
+  - id: f01
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "The Motor Vehicles Act, 1988 came into force on 1 July 1989. It replaced the old Motor Vehicles Act, 1939."
+    why: "It is the main law for drivers, vehicles, permits, traffic and insurance in India."
+    q: "MV Act 1988 came into force on?"
+    a: "1 July 1989 (it replaced the MV Act 1939)."
+    simple: "Act of 1988, working from July 1989."
+  - id: f02
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "The MV (Amendment) Act, 2019 brought big changes: much higher fines, Golden Hour care, Good Samaritan protection, a Motor Vehicle Accident Fund and stricter rules on juveniles."
+    why: "Road deaths were very high; the law needed stronger teeth."
+    q: "Which amendment raised MV Act fines sharply?"
+    a: "MV (Amendment) Act, 2019 (in force mostly from 1 September 2019)."
+    simple: "2019 amendment = big fines."
+  - id: f03
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "Rules under the Act: Central Motor Vehicles Rules, 1989 (CMVR) made by the Centre, and Kerala Motor Vehicles Rules, 1989 (KMVR) made by the State."
+    why: "The Act gives the frame; rules give the details."
+    q: "Name the central and Kerala rules under the MV Act."
+    a: "CMVR 1989 and KMVR 1989."
+    simple: "Act = frame; CMVR and KMVR = details."
+  - id: f04
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Main chapters of the MV Act: II licensing of drivers, III licensing of conductors, IV registration, V permits (control of transport vehicles), VII construction and equipment, VIII traffic control."
+    why: "PSC often asks which chapter covers which subject."
+    q: "Which chapter of the MV Act deals with registration?"
+    a: "Chapter IV."
+    simple: "II driver, III conductor, IV registration, V permit."
+  - id: f05
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "More chapters: XI insurance against third-party risks, XII Claims Tribunals, XIII offences, penalties and procedure, XIV miscellaneous."
+    why: "Fines sit in Chapter XIII; claims go to tribunals under Chapter XII."
+    q: "Offences and penalties are in which chapter of the MV Act?"
+    a: "Chapter XIII."
+    simple: "XI insurance, XII tribunal, XIII fines."
+  - id: f06
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "A driver must carry the driving licence, registration certificate, insurance certificate and PUC certificate. Transport vehicles also need permit and fitness certificate."
+    why: "Officers can ask for these documents at any time (Section 130)."
+    q: "Documents to carry while driving a private car?"
+    a: "DL, RC, insurance certificate, PUC certificate."
+    simple: "Licence, RC, insurance, PUC."
+  - id: f07
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "Documents can now be shown in electronic form through DigiLocker or mParivahan. These are valid like the paper copies."
+    why: "Rule 139 CMVR allows electronic documents."
+    q: "Are DL and RC in DigiLocker valid for checking?"
+    a: "Yes, electronic copies in DigiLocker/mParivahan are valid."
+    simple: "Phone copy in DigiLocker is fine."
+  - id: f08
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Duty after an accident (Section 134): the driver must get medical help for the injured, take them to hospital if possible, and inform police and insurer."
+    why: "Quick care saves lives in the golden hour."
+    q: "Section on duty of driver in case of accident and injury?"
+    a: "Section 134."
+    simple: "Accident: help the injured, tell police."
+  - id: f09
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "Golden Hour is the first one hour after a serious injury. Treatment in this time gives the best chance of survival. The 2019 amendment defined it."
+    why: "Fast treatment prevents death from bleeding and shock."
+    q: "What is the Golden Hour?"
+    a: "The first 60 minutes after a traumatic injury."
+    simple: "First hour after accident is most important."
+  - id: f10
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "A Good Samaritan (Section 134A) is a person who helps an accident victim in good faith. They cannot be harassed or held liable."
+    why: "People hesitated to help because of police and court troubles."
+    q: "Which section protects Good Samaritans?"
+    a: "Section 134A."
+    simple: "Helpers are protected by law."
+  - id: f11
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "Conductor licence is covered by Chapter III (Sections 29 to 38). A conductor of a stage carriage must hold a conductor licence."
+    why: "Conductors handle passengers and tickets, so they must be trained."
+    q: "Who needs a conductor licence?"
+    a: "Conductor of a stage carriage (Chapter III)."
+    simple: "Bus conductor needs a licence."
+  - id: f12
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Duties of a conductor: issue tickets, not allow overloading, help passengers board safely, keep the bus orderly, and not smoke or misbehave."
+    why: "Passenger safety and fair fare collection."
+    q: "Give two duties of a bus conductor."
+    a: "Issue tickets; prevent overcrowding; safe boarding."
+    simple: "Tickets, safety, no overloading."
+  - id: f13
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "Learner's licence test checks knowledge of traffic rules, signs and driver duties. Driving test checks real driving skill (test of competence)."
+    why: "First knowledge, then skill."
+    q: "What does a learner's licence test check?"
+    a: "Knowledge of traffic rules, signs and duties."
+    simple: "LL test = rules; DL test = driving."
+  - id: f14
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "Every motor vehicle must be registered before use in a public place (Section 39). The registering authority issues a Registration Certificate (RC)."
+    why: "Registration links the vehicle to an owner."
+    q: "Section making registration compulsory?"
+    a: "Section 39."
+    simple: "No registration, no road."
+  - id: f15
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "A non-transport vehicle's registration is valid for 15 years from the date of issue. After that it can be renewed for 5 years at a time."
+    why: "Old vehicles must be checked again."
+    q: "Validity of RC for a new private car?"
+    a: "15 years; renewal for 5 years each time."
+    simple: "Private car RC = 15 years."
+  - id: f16
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Transport vehicles need a fitness certificate (Section 56). A new transport vehicle gets fitness for 2 years, then it is renewed every year."
+    why: "Buses and lorries run a lot and wear faster."
+    q: "First fitness certificate validity for a new transport vehicle?"
+    a: "2 years, then 1 year at a time."
+    simple: "New bus: 2 years fit, then yearly."
+  - id: f17
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "Road signs are of three types: mandatory (regulatory), cautionary (warning) and informatory."
+    why: "Each type has its own shape so drivers know it at a glance."
+    q: "Three types of road signs?"
+    a: "Mandatory, cautionary, informatory."
+    simple: "Must do, be careful, for your information."
+  - id: f18
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "Mandatory signs are mostly circular. Cautionary signs are triangles pointing up with a red border. Informatory signs are rectangles (often blue or green)."
+    why: "Shape tells the type even from far away."
+    q: "Shape of a cautionary (warning) sign?"
+    a: "Triangle, point up, red border."
+    simple: "Circle = order, triangle = warning, rectangle = info."
+  - id: f19
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Two mandatory signs have special shapes: STOP is an octagon (8 sides, red), and GIVE WAY is an inverted triangle (point down)."
+    why: "These are so important that they look different from all other signs."
+    q: "Shape of the STOP sign and the GIVE WAY sign?"
+    a: "STOP: octagon. GIVE WAY: inverted triangle."
+    simple: "8-sided stop; upside-down triangle give way."
+  - id: f20
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Red-bordered circle = prohibition (do not do). Blue filled circle = compulsory (you must do), like compulsory left turn or compulsory cycle track."
+    why: "PSC traps: blue circle is not information; it is an order."
+    q: "A blue circular sign means?"
+    a: "Compulsory (mandatory) action."
+    simple: "Red ring = don't; blue circle = must."
+  - id: f21
+    topic: u8.mvact_basics
+    difficulty: 1
+    learn: "Traffic lights: red means stop, amber means stop if safe (light is about to change), green means go if the way is clear."
+    why: "Amber is not a signal to speed up."
+    q: "What does a steady amber light mean?"
+    a: "Stop before the line unless it is unsafe to stop."
+    simple: "Amber = get ready to stop."
+  - id: f22
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Flashing amber: slow down and go with caution. Flashing red: stop fully, then go when safe."
+    why: "Used at night or at junctions with low traffic."
+    q: "Meaning of flashing red signal?"
+    a: "Stop completely, then proceed when safe."
+    simple: "Flashing red = like a stop sign."
+  - id: f23
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Road markings: broken white centre line = you may cross to overtake if safe; solid line = do not cross; double solid yellow = never cross."
+    why: "Solid lines are placed where overtaking is dangerous."
+    q: "Can you cross a solid centre line to overtake?"
+    a: "No."
+    simple: "Broken = may cross; solid = don't."
+  - id: f24
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Number plate colours: private white with black letters; transport yellow with black; self-drive rental black with yellow; electric vehicles green."
+    why: "Colour shows the use of the vehicle at a glance."
+    q: "Colour of number plate for a self-drive rental car?"
+    a: "Black plate with yellow letters."
+    simple: "White private, yellow taxi, black rental, green EV."
+  - id: f25
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Electric vehicle plates: private EV has green plate with white letters; commercial EV has green plate with yellow letters."
+    why: "PSC trap: the letter colour changes, not the plate."
+    q: "Letters on a commercial EV number plate are which colour?"
+    a: "Yellow on green."
+    simple: "Green EV plate: white = private, yellow = commercial."
+  - id: f26
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "High Security Registration Plates (HSRP) are aluminium plates with chromium hologram, laser-coded number and snap lock. They are compulsory for all vehicles."
+    why: "They stop fake plates and help trace stolen vehicles."
+    q: "What is HSRP?"
+    a: "Tamper-proof aluminium plate with hologram and laser code."
+    simple: "Hard-to-copy number plate."
+  - id: f27
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "The BH (Bharat) series number lets a vehicle move between states without re-registration. It is for defence staff, government staff and private firms in four or more states."
+    why: "People who transfer often need not re-register."
+    q: "Purpose of BH series registration?"
+    a: "No re-registration when moving to another state."
+    simple: "BH = one number for all of India."
+  - id: f28
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Kerala MVD is headed by the Transport Commissioner. Field offices are Regional Transport Offices (RTO) and Sub RTOs. MVIs and AMVIs do inspection and enforcement."
+    why: "This is the department an AMVI works in."
+    q: "Head of the Kerala Motor Vehicles Department?"
+    a: "Transport Commissioner."
+    simple: "Transport Commissioner on top, RTOs below."
+  - id: f29
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Wings of the MVD: administration, licensing and registration, technical (vehicle inspection), enforcement (road checks, Safe Kerala squads), and road safety."
+    why: "Each wing does one main job."
+    q: "Which MVD wing does road checking?"
+    a: "Enforcement wing."
+    simple: "Enforcement wing checks on the road."
+  - id: f30
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Permits are granted by the State Transport Authority (STA) and Regional Transport Authority (RTA), set up under Section 68."
+    why: "They control how many buses and lorries run on each route."
+    q: "Which authorities grant permits?"
+    a: "STA and RTA (Section 68)."
+    simple: "STA and RTA give permits."
+  - id: f31
+    topic: u8.mvact_basics
+    difficulty: 2
+    learn: "Vehicle categories: L = two and three wheelers, M = passenger vehicles, N = goods vehicles. M1 is a car with up to 8 seats plus driver."
+    why: "Category decides the rules and tests for a vehicle."
+    q: "Category letter for goods vehicles?"
+    a: "N."
+    simple: "L light 2/3-wheel, M people, N goods."
+  - id: f32
+    topic: u8.mvact_basics
+    difficulty: 3
+    learn: "PSC trap: Kerala's state code on number plates is KL, and KL-01 is Thiruvananthapuram RTO."
+    why: "Often asked as a one-mark general question."
+    q: "Which RTO has the code KL-01?"
+    a: "Thiruvananthapuram."
+    simple: "KL-01 = Thiruvananthapuram."
+  - id: sum
+    topic: u8.mvact_basics
+    type: summary
+    points:
+      - "MV Act 1988, in force 1 July 1989; big amendment 2019."
+      - "Chapters: II driver, III conductor, IV registration, V permits, XIII offences."
+      - "Signs: circle order, triangle warning, rectangle info; STOP octagon."
+      - "Plates: white private, yellow transport, black rental, green EV."
+      - "Carry DL, RC, insurance, PUC; DigiLocker copies valid."
+
+  # ---------- Highway engineering ----------
+  - id: f01
+    topic: u8.road
+    difficulty: 1
+    learn: "The Indian Roads Congress (IRC), set up in 1934, makes the standards for road design in India."
+    why: "All width, slope and curve values in exams come from IRC."
+    q: "Which body sets road design standards in India?"
+    a: "Indian Roads Congress (IRC), 1934."
+    simple: "IRC writes the road rule book."
+  - id: f02
+    topic: u8.road
+    difficulty: 2
+    learn: "Road classes (Nagpur Road Plan, 1943): National Highways, State Highways, Major District Roads, Other District Roads and Village Roads."
+    why: "Class decides width, speed and who maintains the road."
+    q: "Five classes of roads by the Nagpur plan?"
+    a: "NH, SH, MDR, ODR, Village roads."
+    simple: "National, State, District (major, other), Village."
+  - id: f03
+    topic: u8.road
+    difficulty: 1
+    learn: "Carriageway is the part of the road that vehicles use. Shoulders are the strips beside it for stopped vehicles and support."
+    why: "Shoulders protect the edge and give space in emergencies."
+    q: "Part of the road used by moving vehicles?"
+    a: "Carriageway."
+    simple: "Carriageway = driving part."
+  - id: f04
+    topic: u8.road
+    difficulty: 2
+    learn: "IRC widths: single lane 3.75 m; two-lane road without raised kerb 7.0 m; with raised kerbs 7.5 m; intermediate lane 5.5 m."
+    why: "Width must fit the widest legal vehicle with safe clearance."
+    q: "IRC width of a two-lane carriageway without kerbs?"
+    a: "7.0 m."
+    simple: "One lane 3.75 m, two lanes 7 m."
+  - id: f05
+    topic: u8.road
+    difficulty: 2
+    learn: "Maximum legal width of a motor vehicle is 2.6 m. Maximum height for normal vehicles is about 3.8 m."
+    why: "Road lanes and bridges are designed for these sizes."
+    q: "Maximum permitted width of a vehicle?"
+    a: "2.6 m."
+    simple: "Vehicle not wider than 2.6 m."
+  - id: f06
+    topic: u8.road
+    difficulty: 2
+    learn: "Formation width (roadway) = carriageway + shoulders. Right of way (land width) is the full land taken for the road, including space for future widening."
+    why: "PSC asks the difference between these widths."
+    q: "Width of land acquired for a road is called?"
+    a: "Right of way (land width)."
+    simple: "Roadway = road + shoulders; right of way = all land."
+  - id: f07
+    topic: u8.road
+    difficulty: 1
+    learn: "Camber (cross slope) is the slope given across the road, high in the middle and low at the edges."
+    why: "It drains rainwater off the road surface quickly."
+    q: "Main purpose of camber?"
+    a: "Drain rainwater from the road surface."
+    simple: "Middle high so water runs off."
+  - id: f08
+    topic: u8.road
+    difficulty: 2
+    learn: "Camber values: concrete and high-type bituminous 1.7 to 2%; thin bituminous 2 to 2.5%; WBM and gravel 2.5 to 3%; earth roads 3 to 4%."
+    why: "Rougher surfaces hold water, so they need more slope."
+    q: "Which surface needs the steepest camber?"
+    a: "Earth road (3 to 4%)."
+    simple: "Smooth road small slope; rough road big slope."
+  - id: f09
+    topic: u8.road
+    difficulty: 2
+    learn: "Camber shapes: parabolic (curved), straight line, or straight with a rounded crown. Heavy rain areas need more camber."
+    why: "Parabolic suits fast cars; straight is easy to build."
+    q: "Name two camber shapes."
+    a: "Parabolic and straight line."
+    simple: "Curved or straight slope."
+  - id: f10
+    topic: u8.road
+    difficulty: 1
+    learn: "Super elevation (banking) means raising the outer edge of the road on a curve."
+    why: "It balances the centrifugal force that pushes vehicles outward on a curve."
+    q: "Why is super elevation provided?"
+    a: "To counter centrifugal force on curves."
+    simple: "Outer edge higher so vehicles don't slide out."
+  - id: f11
+    topic: u8.road
+    difficulty: 3
+    learn: "IRC design super elevation: e = V² / (225 R), with V in km/h and R in metres. This assumes 75% of design speed and no friction."
+    why: "Friction is left as a safety margin for mixed traffic."
+    q: "IRC formula for super elevation?"
+    a: "e = V² / (225 R)."
+    simple: "Speed squared over 225 times radius."
+  - id: f12
+    topic: u8.road
+    difficulty: 3
+    learn: "Full equilibrium equation on a curve: e + f = V² / (127 R). IRC takes the side friction f as 0.15."
+    why: "Banking and tyre friction together hold the vehicle."
+    q: "Value of lateral friction f used by IRC?"
+    a: "0.15."
+    simple: "e + f = V²/127R, f = 0.15."
+  - id: f13
+    topic: u8.road
+    difficulty: 2
+    learn: "Maximum super elevation: 7% in plain and rolling terrain, 10% in hill roads (not snow-bound), 7% in snow-bound areas."
+    why: "Too much banking makes slow vehicles slide inward."
+    q: "Maximum super elevation on plain roads?"
+    a: "7%."
+    simple: "Plain 7%, hills 10%."
+  - id: s01
+    topic: u8.road
+    type: steps
+    difficulty: 3
+    title: "Worked example: super elevation"
+    steps:
+      - text: "Question: Design speed 80 km/h, curve radius 500 m. Find super elevation."
+      - text: "Use e = V² / (225 R)."
+      - text: "e = 80² / (225 × 500) = 6400 / 112500."
+      - text: "e = 0.057, that is 5.7%. It is below 7%, so it is accepted."
+    summary:
+      - "e = V²/(225R), V in km/h, R in m."
+      - "If e is above 7%, limit it to 7%."
+    q: "V = 80 km/h, R = 500 m. Super elevation?"
+    a: "About 5.7% (0.057)."
+  - id: f14
+    topic: u8.road
+    difficulty: 1
+    learn: "Gradient is the rise or fall of the road along its length. It is written as 1 in N or as a percent."
+    why: "Steep gradients slow heavy vehicles and strain brakes downhill."
+    q: "What is gradient?"
+    a: "Rate of rise or fall along the road length."
+    simple: "How steep the road goes up or down."
+  - id: f15
+    topic: u8.road
+    difficulty: 2
+    learn: "Types of gradient: ruling (normal design limit), limiting (used where ruling is too costly), exceptional (short stretches only) and minimum (for drainage)."
+    why: "Each is used in a different situation."
+    q: "Gradient that is normally adopted in design?"
+    a: "Ruling gradient."
+    simple: "Ruling = normal; limiting = harder; exceptional = rare."
+  - id: f16
+    topic: u8.road
+    difficulty: 3
+    learn: "Plain terrain: ruling gradient 3.3% (1 in 30), limiting 5% (1 in 20), exceptional 6.7% (1 in 15)."
+    why: "Common numerical fact in PSC."
+    q: "Ruling gradient in plain terrain?"
+    a: "1 in 30 (3.3%)."
+    simple: "Plains: 1 in 30, 1 in 20, 1 in 15."
+  - id: f17
+    topic: u8.road
+    difficulty: 3
+    learn: "Mountainous terrain: ruling gradient 5% (1 in 20), limiting 6% (1 in 16.7), exceptional 7% (1 in 14.3)."
+    why: "Hills allow steeper roads to save length."
+    q: "Ruling gradient in mountainous terrain?"
+    a: "1 in 20 (5%)."
+    simple: "Mountains: ruling 5%."
+  - id: f18
+    topic: u8.road
+    difficulty: 3
+    learn: "Grade compensation reduces the gradient on a curve. It is (30 + R) / R percent, but not more than 75 / R percent."
+    why: "A curve already adds resistance, so the slope must be eased."
+    q: "Formula for grade compensation on curves?"
+    a: "(30 + R)/R %, maximum 75/R %."
+    simple: "Ease the slope on a curve."
+  - id: f19
+    topic: u8.road
+    difficulty: 1
+    learn: "Sight distance is the length of road a driver can see ahead. It must be enough to stop or overtake safely."
+    why: "You can only avoid what you can see in time."
+    q: "What is sight distance?"
+    a: "Length of road visible ahead to the driver."
+    simple: "How far ahead the driver can see."
+  - id: f20
+    topic: u8.road
+    difficulty: 2
+    learn: "Stopping sight distance (SSD) = lag distance + braking distance. Lag distance = 0.278 V t; braking distance = V² / (254 f)."
+    why: "Car moves during reaction time, then while braking."
+    q: "SSD is made up of which two parts?"
+    a: "Lag (reaction) distance + braking distance."
+    simple: "Thinking distance + braking distance."
+  - id: f21
+    topic: u8.road
+    difficulty: 2
+    learn: "IRC uses a reaction time (perception and brake reaction) of 2.5 seconds, and friction f of 0.35 to 0.40 for SSD."
+    why: "Value suits an average driver."
+    q: "Total reaction time used by IRC for SSD?"
+    a: "2.5 seconds."
+    simple: "Driver needs 2.5 s to react."
+  - id: s02
+    topic: u8.road
+    type: steps
+    difficulty: 3
+    title: "Worked example: stopping sight distance"
+    steps:
+      - text: "Question: V = 80 km/h, t = 2.5 s, f = 0.35. Find SSD."
+      - text: "Lag distance = 0.278 × 80 × 2.5 = 55.6 m."
+      - text: "Braking distance = 80² / (254 × 0.35) = 6400 / 88.9 = 72.0 m."
+      - text: "SSD = 55.6 + 72.0 = 127.6 m (about 128 m)."
+    summary:
+      - "Lag = 0.278 V t."
+      - "Braking = V² / 254 f."
+    q: "SSD at 80 km/h, t = 2.5 s, f = 0.35?"
+    a: "About 128 m."
+  - id: f22
+    topic: u8.road
+    difficulty: 2
+    learn: "Overtaking sight distance (OSD) = d1 + d2 + d3: distance while waiting behind, distance during the overtake, and distance the oncoming car moves."
+    why: "Overtaking needs the opposite lane clear for all three."
+    q: "OSD is the sum of which three distances?"
+    a: "d1 (before), d2 (overtaking), d3 (oncoming vehicle)."
+    simple: "Wait + pass + oncoming car."
+  - id: f23
+    topic: u8.road
+    difficulty: 3
+    learn: "Intermediate sight distance (ISD) = 2 × SSD. For SSD, driver eye height is taken as 1.2 m and object height as 0.15 m."
+    why: "Used where full OSD cannot be given."
+    q: "Intermediate sight distance equals?"
+    a: "Twice the SSD."
+    simple: "ISD = 2 × SSD."
+  - id: f24
+    topic: u8.road
+    difficulty: 2
+    learn: "Extra widening on curves = mechanical widening (n l² / 2R) + psychological widening (V / 9.5√R)."
+    why: "Rear wheels cut inside the curve, and drivers keep away from the edge."
+    q: "Two parts of extra widening on curves?"
+    a: "Mechanical and psychological widening."
+    simple: "Extra width on bends for wheels and nerves."
+  - id: f25
+    topic: u8.road
+    difficulty: 2
+    learn: "A transition curve joins a straight road to a circular curve gradually. The ideal shape is the spiral (clothoid)."
+    why: "Centrifugal force and banking build up slowly, not suddenly."
+    q: "Ideal shape of a transition curve?"
+    a: "Spiral (clothoid)."
+    simple: "Smooth entry into a bend."
+  - id: f26
+    topic: u8.road
+    difficulty: 2
+    learn: "Intersections are at-grade (roads meet at the same level, such as rotary or channelised junctions) or grade-separated (flyovers and interchanges)."
+    why: "Grade separation removes crossing conflicts."
+    q: "Flyover is which type of intersection?"
+    a: "Grade-separated."
+    simple: "Same level or different levels."
+  - id: f27
+    topic: u8.road
+    difficulty: 3
+    learn: "A four-leg junction of two two-way roads has 32 conflict points: 16 crossing, 8 merging and 8 diverging."
+    why: "Crossing conflicts cause the worst crashes."
+    q: "Total conflict points at a 4-legged intersection?"
+    a: "32 (16 crossing, 8 merging, 8 diverging)."
+    simple: "Four-way junction = 32 danger points."
+  - id: f28
+    topic: u8.road
+    difficulty: 2
+    learn: "A rotary (roundabout) makes all traffic go one way around a central island. Vehicles merge and leave by weaving."
+    why: "It turns crossing conflicts into gentle merges."
+    q: "Movement of vehicles within a rotary is called?"
+    a: "Weaving."
+    simple: "Roundabout: go round and weave out."
+  - id: f29
+    topic: u8.road
+    difficulty: 2
+    learn: "Cloverleaf, trumpet and diamond are types of grade-separated interchanges. A full cloverleaf removes all crossing conflicts."
+    why: "Used on busy highways."
+    q: "Interchange shaped like a four-leaf clover is?"
+    a: "Cloverleaf interchange."
+    simple: "Clover, trumpet, diamond = flyover junctions."
+  - id: f30
+    topic: u8.road
+    difficulty: 2
+    learn: "PCU (Passenger Car Unit) compares vehicles to one car. A car is 1 PCU; bigger or slower vehicles have higher PCU values."
+    why: "Road capacity is counted in PCU."
+    q: "PCU value of a passenger car?"
+    a: "1."
+    simple: "Count traffic as car-equivalents."
+  - id: sum
+    topic: u8.road
+    type: summary
+    points:
+      - "Lane 3.75 m; two-lane 7.0 m; vehicle width 2.6 m."
+      - "Camber drains water: 1.7–2% concrete up to 3–4% earth."
+      - "Super elevation e = V²/225R, max 7% plains."
+      - "SSD = 0.278Vt + V²/254f; t = 2.5 s."
+      - "Plain ruling gradient 1 in 30; 32 conflict points."
+
+  # ---------- Insurance ----------
+  - id: f01
+    topic: u8.insurance
+    difficulty: 1
+    learn: "Third-party insurance is compulsory for every motor vehicle in a public place (Section 146). Driving without it is an offence."
+    why: "Victims of an accident must get compensation."
+    q: "Which insurance is compulsory under the MV Act?"
+    a: "Third-party insurance (Section 146)."
+    simple: "Third-party cover is a must."
+  - id: f02
+    topic: u8.insurance
+    difficulty: 1
+    learn: "The three parties: first party is the owner, second party is the insurance company, third party is any other person hurt or whose property is damaged."
+    why: "Third party is the outsider the law protects."
+    q: "Who is the third party in motor insurance?"
+    a: "Any other person (not insurer or insured) who suffers loss."
+    simple: "Third party = other people."
+  - id: f03
+    topic: u8.insurance
+    difficulty: 1
+    learn: "Policy types: liability only (third party), comprehensive (third party + own damage) and standalone own damage."
+    why: "Comprehensive also pays for damage to your own vehicle."
+    q: "Which policy covers both own damage and third-party liability?"
+    a: "Comprehensive (package) policy."
+    simple: "TP only, or TP + own damage."
+  - id: f04
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Third-party property damage cover is limited to ₹7.5 lakh. Third-party death and injury cover has no upper limit."
+    why: "Human life cannot be capped."
+    q: "Limit for third-party death claims?"
+    a: "Unlimited."
+    simple: "Property limited; life not limited."
+  - id: f05
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Compulsory personal accident cover for the owner-driver is ₹15 lakh."
+    why: "Owner is not a third party, so needs separate cover."
+    q: "Compulsory PA cover for owner-driver?"
+    a: "₹15 lakh."
+    simple: "Owner-driver gets 15 lakh accident cover."
+  - id: f06
+    topic: u8.insurance
+    difficulty: 1
+    learn: "IRDAI (Insurance Regulatory and Development Authority of India) regulates insurers and licenses surveyors."
+    why: "It protects policy holders."
+    q: "Who licenses insurance surveyors?"
+    a: "IRDAI."
+    simple: "IRDAI controls insurance."
+  - id: f07
+    topic: u8.insurance
+    difficulty: 2
+    learn: "A motor claim above ₹50,000 must be assessed by a surveyor licensed by IRDAI (Insurance Act, Section 64UM)."
+    why: "Big claims need an independent expert check."
+    q: "Claims above what amount need a licensed surveyor?"
+    a: "₹50,000."
+    simple: "Big claim = licensed surveyor."
+  - id: f08
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Kinds of survey: spot survey (at the accident site), final survey (estimates loss at the garage), re-inspection (checks repairs before payment)."
+    why: "Each step checks that the claim is real and fair."
+    q: "Survey done after repairs before settlement?"
+    a: "Re-inspection."
+    simple: "Spot, final, re-inspection."
+  - id: f09
+    topic: u8.insurance
+    difficulty: 1
+    learn: "IDV (Insured Declared Value) is the current market value of the vehicle. It is the most the insurer pays for total loss or theft."
+    why: "Premium and total-loss payment both depend on IDV."
+    q: "What is IDV?"
+    a: "Insured Declared Value: maximum sum insured."
+    simple: "IDV = what your vehicle is worth now."
+  - id: f10
+    topic: u8.insurance
+    difficulty: 2
+    learn: "IDV = manufacturer's listed price minus age depreciation: up to 6 months 5%, 6 months–1 year 15%, 1–2 years 20%, 2–3 years 30%, 3–4 years 40%, 4–5 years 50%."
+    why: "Older vehicles are worth less."
+    q: "Depreciation for IDV on a 2½-year-old car?"
+    a: "30%."
+    simple: "Older car, lower IDV."
+  - id: f11
+    topic: u8.insurance
+    difficulty: 2
+    learn: "For vehicles older than 5 years, IDV is fixed by agreement between the insurer and the owner."
+    why: "Fixed tables do not fit very old vehicles."
+    q: "How is IDV fixed for a 7-year-old vehicle?"
+    a: "By mutual agreement."
+    simple: "Very old car: agree on value."
+  - id: s01
+    topic: u8.insurance
+    type: steps
+    difficulty: 2
+    title: "Worked example: IDV"
+    steps:
+      - text: "Question: Listed price ₹8,00,000. Car is 2 years 4 months old. Find IDV."
+      - text: "Age 2 to 3 years gives 30% depreciation."
+      - text: "Depreciation = 30% of 8,00,000 = ₹2,40,000."
+      - text: "IDV = 8,00,000 − 2,40,000 = ₹5,60,000."
+    summary:
+      - "IDV = listed price − age depreciation."
+      - "2–3 years = 30%."
+    q: "Price ₹8 lakh, age 2 years 4 months. IDV?"
+    a: "₹5.6 lakh."
+  - id: f12
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Depreciation on parts: rubber, nylon, plastic parts, tyres, tubes and batteries 50%; fibreglass parts 30%; glass parts nil."
+    why: "Owner gets new parts, so a share of the cost is borne by them."
+    q: "Depreciation on glass parts in a claim?"
+    a: "Nil."
+    simple: "Rubber 50%, fibre 30%, glass 0%."
+  - id: f13
+    topic: u8.insurance
+    difficulty: 3
+    learn: "Metal parts depreciation by age: under 6 months nil, 6 months–1 year 5%, 1–2 years 10%, 2–3 years 15%, 3–4 years 25%, 4–5 years 35%, 5–10 years 40%, over 10 years 50%."
+    why: "Metal parts last long, so depreciation rises slowly."
+    q: "Depreciation on metal parts for a 3½-year-old car?"
+    a: "25%."
+    simple: "Metal parts: older, more cut."
+  - id: f14
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Zero depreciation is an add-on cover. With it, the insurer pays the full cost of replaced parts without deducting depreciation."
+    why: "It reduces what the owner pays from pocket."
+    q: "Which add-on removes depreciation deduction?"
+    a: "Zero depreciation (nil dep) cover."
+    simple: "Zero dep = full part cost paid."
+  - id: f15
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Constructive total loss (CTL): when repair cost plus salvage handling exceeds 75% of IDV, the vehicle is treated as a total loss."
+    why: "Repairing would cost nearly as much as the vehicle."
+    q: "Repair cost above what percent of IDV makes it a total loss?"
+    a: "75%."
+    simple: "Repair too costly = total loss."
+  - id: f16
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Salvage is the value of the damaged vehicle or parts left after the loss. It goes to the insurer or is deducted from the claim."
+    why: "The owner should not gain from the loss."
+    q: "Value of damaged parts left after a loss is?"
+    a: "Salvage."
+    simple: "Salvage = what the wreck is still worth."
+  - id: f17
+    topic: u8.insurance
+    difficulty: 2
+    learn: "No Claim Bonus (NCB) is a discount on the own-damage premium for claim-free years: 20%, 25%, 35%, 45%, then 50% after five years."
+    why: "It rewards careful drivers."
+    q: "Maximum NCB?"
+    a: "50% (after 5 claim-free years)."
+    simple: "No claim = cheaper next year."
+  - id: f18
+    topic: u8.insurance
+    difficulty: 2
+    learn: "NCB belongs to the owner, not the vehicle. It can be moved to a new vehicle. It is lost when a claim is made."
+    why: "PSC trap: NCB is not lost when you sell the car."
+    q: "Does NCB go with the vehicle on sale?"
+    a: "No, it stays with the owner."
+    simple: "NCB follows the person."
+  - id: f19
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Compulsory deductible (excess) is the fixed amount the owner pays in every own-damage claim, such as ₹1,000 for private cars up to 1,500 cc."
+    why: "It stops very small claims."
+    q: "What is compulsory deductible?"
+    a: "Fixed part of each claim borne by the owner."
+    simple: "You pay the first small part."
+  - id: f20
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Factors in assessing loss: cause matches the accident story, extent of damage, repair or replace, depreciation, salvage, policy conditions and valid DL and permit."
+    why: "The surveyor must find a fair and true amount."
+    q: "Give three factors a surveyor checks."
+    a: "Cause, extent of damage, depreciation, salvage, policy terms."
+    simple: "Is it true, how much, what deductions."
+  - id: f21
+    topic: u8.insurance
+    difficulty: 2
+    learn: "A claim can be refused if the driver had no valid licence, was drunk, or the vehicle was used for a purpose not covered, such as hire use under a private policy."
+    why: "These break the policy conditions."
+    q: "Give one reason an own-damage claim can be refused."
+    a: "No valid DL, drunk driving, or misuse of vehicle."
+    simple: "Break the rules, lose the claim."
+  - id: f22
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Insurance principles: utmost good faith, insurable interest, indemnity, subrogation, contribution and proximate cause."
+    why: "Every claim decision rests on these."
+    q: "Name the principle that says insurance only puts you back where you were."
+    a: "Indemnity."
+    simple: "Insurance repairs loss, gives no profit."
+  - id: f23
+    topic: u8.insurance
+    difficulty: 3
+    learn: "Subrogation: after paying the claim, the insurer gets the owner's right to recover money from the person who caused the loss."
+    why: "The owner cannot be paid twice."
+    q: "Insurer taking the insured's right to recover is called?"
+    a: "Subrogation."
+    simple: "Insurer steps into your shoes."
+  - id: f24
+    topic: u8.insurance
+    difficulty: 1
+    learn: "Claim steps: tell the insurer quickly, file FIR if needed (theft, injury), survey, approval, repair, re-inspection, payment."
+    why: "Late notice can weaken the claim."
+    q: "First step after an accident for an insurance claim?"
+    a: "Inform the insurance company."
+    simple: "Tell insurer first."
+  - id: f25
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Theft claim needs FIR, all keys, RC, and a non-traceable report from police. It is settled on IDV."
+    why: "Proof that the vehicle is really lost."
+    q: "Police document needed to settle a theft claim?"
+    a: "Non-traceable (untraced) report, with FIR."
+    simple: "Theft: FIR, keys, police untraced report."
+  - id: f26
+    topic: u8.insurance
+    difficulty: 2
+    learn: "Premium depends on IDV, engine cc, age, zone (city), NCB, add-ons and voluntary deductible. Third-party premium rates are fixed by IRDAI."
+    why: "More risk and higher value mean higher premium."
+    q: "Who fixes third-party premium rates?"
+    a: "IRDAI (with the Government)."
+    simple: "Bigger, costlier car pays more."
+  - id: sum
+    topic: u8.insurance
+    type: summary
+    points:
+      - "TP insurance compulsory (Sec 146); TP life cover unlimited."
+      - "IDV = price − age depreciation (5% to 50%)."
+      - "Rubber, tyres 50%; fibre 30%; glass nil."
+      - "Surveyor needed above ₹50,000; CTL above 75% of IDV."
+      - "NCB 20% to 50%; stays with owner."
+
+  # ---------- EFI / CRDI ----------
+  - id: f01
+    topic: u8.efi
+    difficulty: 1
+    learn: "Electronic fuel injection (EFI) sprays fuel through injectors that an electronic control unit (ECU) controls. It replaced the carburettor."
+    why: "The ECU meters fuel exactly for every condition."
+    q: "What replaced the carburettor in modern petrol engines?"
+    a: "Electronic fuel injection (EFI)."
+    simple: "Computer-controlled fuel spray."
+  - id: f02
+    topic: u8.efi
+    difficulty: 1
+    learn: "Advantages of EFI: better mileage, lower emissions, easy cold start, more power, smooth running and no carburettor icing."
+    why: "Exact fuel quantity means less waste."
+    q: "Give two advantages of EFI over carburettor."
+    a: "Better economy, lower emissions, easy cold start."
+    simple: "Less fuel, less smoke, easy start."
+  - id: f03
+    topic: u8.efi
+    difficulty: 2
+    learn: "Throttle body injection (TBI) is single-point injection: one or two injectors placed at the throttle body, feeding all cylinders."
+    why: "It is cheap and simple, like an electronic carburettor."
+    q: "Single-point injection is also called?"
+    a: "Throttle body injection (TBI)."
+    simple: "One injector for all cylinders."
+  - id: f04
+    topic: u8.efi
+    difficulty: 1
+    learn: "MPFI (multi-point fuel injection) has one injector for each cylinder, spraying into the intake port just before the inlet valve."
+    why: "Each cylinder gets equal fuel."
+    q: "Where does an MPFI injector spray fuel?"
+    a: "Into the intake port, just before the inlet valve."
+    simple: "One injector per cylinder, at the port."
+  - id: f05
+    topic: u8.efi
+    difficulty: 2
+    learn: "MPFI injection timing: simultaneous (all at once), group or batch (in groups) and sequential (each injector in firing order)."
+    why: "Sequential gives the best control."
+    q: "Which MPFI type fires injectors in firing order?"
+    a: "Sequential injection."
+    simple: "Sequential = one by one, in order."
+  - id: f06
+    topic: u8.efi
+    difficulty: 2
+    learn: "GDI (gasoline direct injection) sprays petrol directly into the combustion chamber at high pressure (about 50–200 bar)."
+    why: "It allows lean stratified burning and higher compression."
+    q: "In GDI, fuel is injected into?"
+    a: "The combustion chamber directly."
+    simple: "Petrol sprayed straight into the cylinder."
+  - id: f07
+    topic: u8.efi
+    difficulty: 2
+    learn: "Fuel supply in EFI: electric fuel pump in the tank → filter → fuel rail → injectors. A pressure regulator keeps about 3 bar."
+    why: "Steady pressure means fuel quantity depends only on opening time."
+    q: "Where is the electric fuel pump usually fitted?"
+    a: "Inside the fuel tank."
+    simple: "Pump in tank pushes fuel to injectors."
+  - id: f08
+    topic: u8.efi
+    difficulty: 2
+    learn: "An injector is a solenoid valve. The ECU opens it for a few milliseconds; this time is called pulse width. Longer pulse width gives more fuel."
+    why: "Fuel quantity is controlled by time."
+    q: "What decides the quantity of fuel from an injector?"
+    a: "Pulse width (opening time)."
+    simple: "Open longer = more fuel."
+  - id: f09
+    topic: u8.efi
+    difficulty: 1
+    learn: "The ECU (ECM) is the brain. It reads sensors (inputs), decides, and drives actuators (outputs) like injectors and ignition coils."
+    why: "Input → process → output."
+    q: "Sensors are ECU inputs or outputs?"
+    a: "Inputs."
+    simple: "Sensors tell; ECU thinks; actuators act."
+  - id: f10
+    topic: u8.efi
+    difficulty: 2
+    learn: "Open loop: ECU uses fixed maps without O2 feedback (cold start, full throttle). Closed loop: ECU corrects fuel using the oxygen sensor."
+    why: "Closed loop keeps the mixture near 14.7:1 for the catalyst."
+    q: "Which sensor makes closed-loop control possible?"
+    a: "Oxygen (lambda) sensor."
+    simple: "Closed loop = ECU checks exhaust and corrects."
+  - id: f11
+    topic: u8.efi
+    difficulty: 2
+    learn: "Stoichiometric air-fuel ratio for petrol is 14.7:1 by mass. Lambda (λ) = actual AFR ÷ 14.7. λ = 1 is ideal; above 1 lean; below 1 rich."
+    why: "The three-way catalyst works best at λ = 1."
+    q: "λ greater than 1 means the mixture is?"
+    a: "Lean."
+    simple: "λ 1 = perfect, more = lean, less = rich."
+  - id: s01
+    topic: u8.efi
+    type: steps
+    difficulty: 2
+    title: "Worked example: lambda"
+    steps:
+      - text: "Question: A petrol engine runs at AFR 16:1. Find λ and say rich or lean."
+      - text: "λ = actual AFR ÷ stoichiometric AFR."
+      - text: "λ = 16 ÷ 14.7 = 1.09."
+      - text: "λ is above 1, so the mixture is lean."
+    summary:
+      - "λ = AFR / 14.7 for petrol."
+      - "Above 1 lean, below 1 rich."
+    q: "AFR 16:1 petrol. λ and type?"
+    a: "1.09, lean."
+  - id: f12
+    topic: u8.efi
+    difficulty: 2
+    learn: "MAF sensor (mass air flow) measures air entering the engine. Hot-wire type: incoming air cools a heated wire; more current needed means more air."
+    why: "ECU must know the air mass to add the right fuel."
+    q: "Working principle of a hot-wire MAF sensor?"
+    a: "Air cools a heated wire; current to keep it hot shows air mass."
+    simple: "More air cools the wire more."
+  - id: f13
+    topic: u8.efi
+    difficulty: 2
+    learn: "MAP sensor (manifold absolute pressure) measures pressure (vacuum) in the intake manifold. ECU uses it with rpm to estimate engine load (speed-density method)."
+    why: "Cheaper than a MAF sensor."
+    q: "What does the MAP sensor measure?"
+    a: "Intake manifold absolute pressure (engine load)."
+    simple: "Manifold vacuum shows load."
+  - id: f14
+    topic: u8.efi
+    difficulty: 1
+    learn: "Throttle position sensor (TPS) is a potentiometer on the throttle shaft. It tells the ECU how much the throttle is open."
+    why: "Sudden opening needs extra fuel (acceleration enrichment)."
+    q: "TPS is which type of sensor?"
+    a: "Potentiometer (variable resistor)."
+    simple: "TPS tells how far you pressed."
+  - id: f15
+    topic: u8.efi
+    difficulty: 2
+    learn: "Coolant temperature sensor is an NTC thermistor: its resistance falls as temperature rises. A cold engine gets a richer mixture."
+    why: "Cold fuel vaporises poorly."
+    q: "Resistance of an NTC coolant sensor when the engine heats up?"
+    a: "It decreases."
+    simple: "Hotter = less resistance."
+  - id: f16
+    topic: u8.efi
+    difficulty: 2
+    learn: "Intake air temperature (IAT) sensor is also an NTC thermistor. Cold air is denser, so the ECU adds more fuel."
+    why: "Fuel must match the air mass."
+    q: "Why does the ECU need intake air temperature?"
+    a: "Air density changes with temperature."
+    simple: "Cold air needs more fuel."
+  - id: f17
+    topic: u8.efi
+    difficulty: 2
+    learn: "Oxygen (lambda) sensor sits in the exhaust. The zirconia type makes 0.1 to 0.9 V: high voltage (about 0.9 V) means rich, low (about 0.1 V) means lean."
+    why: "It tells the ECU if burning was rich or lean."
+    q: "Zirconia O2 sensor output for a rich mixture?"
+    a: "High, about 0.8–0.9 V."
+    simple: "Rich = high voltage."
+  - id: f18
+    topic: u8.efi
+    difficulty: 2
+    learn: "Crankshaft position sensor (CKP) gives engine speed and piston position. If it fails, there is no spark or injection, so the engine will not start."
+    why: "Timing of spark and fuel depends on it."
+    q: "Failure of which sensor causes a no-start in EFI?"
+    a: "Crankshaft position sensor."
+    simple: "No CKP signal, no start."
+  - id: f19
+    topic: u8.efi
+    difficulty: 2
+    learn: "Camshaft position sensor (CMP) tells which cylinder is on its compression stroke. It is needed for sequential injection."
+    why: "Crank turns twice per cycle; cam tells which turn."
+    q: "Which sensor identifies cylinder 1 for sequential injection?"
+    a: "Camshaft position sensor."
+    simple: "Cam sensor says which cylinder is next."
+  - id: f20
+    topic: u8.efi
+    difficulty: 2
+    learn: "Knock sensor is a piezoelectric sensor on the block. When it detects knocking, the ECU retards the ignition timing."
+    why: "Knock can break pistons."
+    q: "ECU response to a knock signal?"
+    a: "Retard ignition timing."
+    simple: "Knock heard, spark delayed."
+  - id: f21
+    topic: u8.efi
+    difficulty: 2
+    learn: "Hall effect and inductive (magnetic) sensors are used for crank, cam and wheel speed. Inductive sensors make AC voltage; Hall sensors give a digital square wave."
+    why: "Both turn rotation into electric pulses."
+    q: "Which sensor type gives a square-wave digital output?"
+    a: "Hall effect sensor."
+    simple: "Hall = on/off pulses."
+  - id: f22
+    topic: u8.efi
+    difficulty: 2
+    learn: "Actuators in EFI: injectors, idle air control valve, ignition coils, fuel pump relay, electronic throttle motor, EGR valve and canister purge valve."
+    why: "These carry out the ECU's orders."
+    q: "Name two actuators in an EFI system."
+    a: "Injectors, idle air control valve, ignition coil."
+    simple: "Actuators do the work."
+  - id: f23
+    topic: u8.efi
+    difficulty: 2
+    learn: "Idle air control (IAC) valve lets a little air bypass the closed throttle to keep idle speed steady when AC or lights are switched on."
+    why: "Extra load would otherwise stall the engine."
+    q: "Function of the IAC valve?"
+    a: "Control idle speed by bypass air."
+    simple: "Keeps idle steady."
+  - id: f24
+    topic: u8.efi
+    difficulty: 2
+    learn: "Drive-by-wire (electronic throttle control): the accelerator pedal has a sensor, and a motor opens the throttle. There is no cable."
+    why: "Allows cruise control and traction control."
+    q: "In drive-by-wire, what opens the throttle?"
+    a: "An electric motor controlled by the ECU."
+    simple: "Pedal sends signal, motor opens throttle."
+  - id: f25
+    topic: u8.efi
+    difficulty: 2
+    learn: "If a sensor fails, the ECU uses default values (limp home mode) and lights the MIL (check engine light)."
+    why: "The driver can still reach a workshop."
+    q: "What is limp home mode?"
+    a: "Safe reduced running using default values after a fault."
+    simple: "Runs weakly so you get home."
+  - id: f26
+    topic: u8.efi
+    difficulty: 2
+    learn: "OBD (on-board diagnostics) stores fault codes (DTCs like P0301). A scan tool reads them through the 16-pin OBD-II connector. OBD-II is compulsory with BS-VI."
+    why: "Fast and accurate fault finding."
+    q: "Fault codes are read through which port?"
+    a: "OBD-II diagnostic connector (16-pin)."
+    simple: "Plug scanner, read fault code."
+  - id: f27
+    topic: u8.efi
+    difficulty: 1
+    learn: "CRDI (common rail direct injection) is the diesel system where a high-pressure pump keeps fuel in a common rail. ECU-controlled injectors spray it into each cylinder."
+    why: "Injection pressure is the same at any engine speed."
+    q: "Full form of CRDI?"
+    a: "Common Rail Direct Injection."
+    simple: "One high-pressure pipe feeds all injectors."
+  - id: f28
+    topic: u8.efi
+    difficulty: 2
+    learn: "CRDI pressure is very high: about 1,350 to 2,000 bar or more. Very fine spray burns cleaner."
+    why: "Fine droplets mix quickly with air."
+    q: "Typical CRDI rail pressure?"
+    a: "About 1,350–2,000+ bar."
+    simple: "Very high pressure, very fine spray."
+  - id: f29
+    topic: u8.efi
+    difficulty: 2
+    learn: "CRDI parts: low-pressure feed pump, high-pressure pump, common rail, rail pressure sensor, pressure control valve, solenoid or piezo injectors, ECU."
+    why: "Each keeps pressure and timing exact."
+    q: "Which sensor tells the ECU the rail pressure?"
+    a: "Rail pressure sensor."
+    simple: "Pump, rail, sensor, injectors."
+  - id: f30
+    topic: u8.efi
+    difficulty: 2
+    learn: "CRDI can inject several times per cycle: pilot (small, before), main, and post injection."
+    why: "Pilot injection reduces diesel knock and noise; post helps DPF cleaning."
+    q: "Why is pilot injection used?"
+    a: "To reduce diesel knock and noise."
+    simple: "A little fuel first, then the main shot."
+  - id: f31
+    topic: u8.efi
+    difficulty: 2
+    learn: "Piezo injectors open faster than solenoid injectors, so they allow more precise and more injections per cycle."
+    why: "Piezo crystals change size instantly with voltage."
+    q: "Which injector type responds fastest?"
+    a: "Piezoelectric injector."
+    simple: "Piezo = fastest injector."
+  - id: f32
+    topic: u8.efi
+    difficulty: 2
+    learn: "Older diesel systems: inline pump, rotary (distributor) pump and unit injector. In these, pressure rises with engine speed."
+    why: "CRDI fixed this weakness."
+    q: "Name one older diesel injection pump type."
+    a: "Inline pump or rotary (distributor) pump."
+    simple: "Old pumps: inline, rotary."
+  - id: f33
+    topic: u8.efi
+    difficulty: 3
+    learn: "PSC trap: the term 'MPFI' is for petrol engines; 'CRDI' is for diesel engines. Both are electronically controlled injection."
+    why: "Options often mix these up."
+    q: "CRDI is used in petrol or diesel engines?"
+    a: "Diesel engines."
+    simple: "MPFI petrol, CRDI diesel."
+  - id: sum
+    topic: u8.efi
+    type: summary
+    points:
+      - "TBI single point; MPFI port per cylinder; GDI into cylinder."
+      - "Injector quantity = pulse width; fuel pressure about 3 bar."
+      - "Sensors: MAF, MAP, TPS, ECT (NTC), O2, CKP, CMP, knock."
+      - "λ = AFR/14.7; closed loop uses O2 sensor."
+      - "CRDI: rail 1,350–2,000 bar; pilot, main, post injection."
+
+  # ---------- Pollution ----------
+  - id: f01
+    topic: u8.pollution
+    difficulty: 1
+    learn: "Main pollutants from petrol engines are CO, HC and NOx. Diesel engines give mainly NOx and particulate matter (PM or soot)."
+    why: "Petrol engines run near ideal mixture; diesels run lean with smoke."
+    q: "Main pollutants from a diesel engine?"
+    a: "NOx and particulate matter (smoke)."
+    simple: "Petrol: CO, HC, NOx. Diesel: NOx, soot."
+  - id: f02
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Sources of HC in a petrol car without controls: exhaust about 60%, crankcase blow-by about 20%, evaporation from tank and carburettor about 20%."
+    why: "Each source needs its own control device."
+    q: "What share of HC comes from crankcase blow-by?"
+    a: "About 20%."
+    simple: "Exhaust 60, crankcase 20, evaporation 20."
+  - id: f03
+    topic: u8.pollution
+    difficulty: 1
+    learn: "Carbon monoxide (CO) forms from incomplete burning with a rich mixture. It is colourless, odourless and poisonous; it binds with haemoglobin in blood."
+    why: "Blood then cannot carry oxygen."
+    q: "CO is mainly formed by a rich or lean mixture?"
+    a: "Rich mixture."
+    simple: "Too much fuel makes CO."
+  - id: f04
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Hydrocarbons (HC) are unburnt fuel. They come from rich mixture, misfire, and fuel left near cold cylinder walls (quench layer)."
+    why: "HC causes smog and eye irritation."
+    q: "Give one cause of high HC emission."
+    a: "Misfire or rich mixture."
+    simple: "Unburnt fuel comes out as HC."
+  - id: f05
+    topic: u8.pollution
+    difficulty: 2
+    learn: "NOx (oxides of nitrogen) forms at very high combustion temperature with extra oxygen. High compression and slightly lean mixtures increase NOx."
+    why: "Nitrogen in air reacts only when very hot."
+    q: "Main cause of NOx formation?"
+    a: "High combustion temperature with excess oxygen."
+    simple: "Too hot burning makes NOx."
+  - id: f06
+    topic: u8.pollution
+    difficulty: 3
+    learn: "In diesels there is a NOx–PM trade-off: cooler burning cuts NOx but raises soot, and hotter burning cuts soot but raises NOx."
+    why: "That is why diesels need both EGR/SCR and a DPF."
+    q: "Reducing NOx in a diesel usually increases which pollutant?"
+    a: "Particulate matter (soot)."
+    simple: "Less NOx, more soot; less soot, more NOx."
+  - id: f07
+    topic: u8.pollution
+    difficulty: 1
+    learn: "PCV (positive crankcase ventilation) valve sends blow-by gases from the crankcase back into the intake manifold to be burnt."
+    why: "It stops crankcase HC from going into the air."
+    q: "Purpose of the PCV valve?"
+    a: "Burn crankcase blow-by gases by sending them to the intake."
+    simple: "Crankcase gas goes back to burn."
+  - id: f08
+    topic: u8.pollution
+    difficulty: 1
+    learn: "EVAP system: an activated charcoal canister stores fuel vapour from the tank. When the engine runs, the purge valve sends the vapour to the intake to burn."
+    why: "Stops evaporative HC loss."
+    q: "Material in an EVAP canister?"
+    a: "Activated charcoal (carbon)."
+    simple: "Charcoal catches petrol vapour."
+  - id: f09
+    topic: u8.pollution
+    difficulty: 1
+    learn: "EGR (exhaust gas recirculation) sends a small part of exhaust gas (about 5–15%) back into the intake."
+    why: "Inert gas lowers peak combustion temperature, so NOx falls."
+    q: "EGR mainly reduces which pollutant?"
+    a: "NOx."
+    simple: "Some exhaust back in, flame cooler, less NOx."
+  - id: f10
+    topic: u8.pollution
+    difficulty: 2
+    learn: "EGR is closed at idle and at full throttle. It works at part load and cruising."
+    why: "At idle it causes rough running; at full throttle power is needed."
+    q: "Is EGR active at idle?"
+    a: "No."
+    simple: "EGR works when cruising."
+  - id: f11
+    topic: u8.pollution
+    difficulty: 1
+    learn: "A three-way catalytic converter changes CO to CO₂, HC to CO₂ and water, and NOx to nitrogen, all at once."
+    why: "Three pollutants, one device."
+    q: "Three pollutants controlled by a three-way catalyst?"
+    a: "CO, HC and NOx."
+    simple: "Turns three bad gases into safe ones."
+  - id: f12
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Catalysts used: platinum and palladium for oxidation (CO, HC); rhodium for reduction of NOx."
+    why: "Rhodium is the PSC answer for NOx reduction."
+    q: "Which metal in a catalytic converter reduces NOx?"
+    a: "Rhodium."
+    simple: "Pt, Pd burn; Rh reduces NOx."
+  - id: f13
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Catalytic converter body is a ceramic honeycomb (cordierite) or metal monolith with an alumina washcoat holding the precious metals."
+    why: "Honeycomb gives a large surface in a small space."
+    q: "Material of the honeycomb in a catalytic converter?"
+    a: "Ceramic (cordierite)."
+    simple: "Honeycomb gives big surface."
+  - id: f14
+    topic: u8.pollution
+    difficulty: 2
+    learn: "A catalytic converter starts working above about 250–300 °C (light-off temperature). It needs λ close to 1."
+    why: "Cold starts give most of the pollution."
+    q: "What is light-off temperature?"
+    a: "Temperature at which the catalyst starts working (about 250–300 °C)."
+    simple: "Catalyst works only when hot."
+  - id: f15
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Leaded petrol poisons the catalytic converter. Misfire overheats and melts it. Leaded petrol was banned in India from 2000."
+    why: "Lead coats the catalyst so gases can't touch it."
+    q: "What fuel additive poisons a catalytic converter?"
+    a: "Lead."
+    simple: "Lead kills the catalyst."
+  - id: f16
+    topic: u8.pollution
+    difficulty: 2
+    learn: "A two-way (oxidation) catalyst controls only CO and HC. Diesels use a diesel oxidation catalyst (DOC)."
+    why: "Diesel exhaust has too much oxygen to reduce NOx in a normal catalyst."
+    q: "Two-way catalyst controls which pollutants?"
+    a: "CO and HC."
+    simple: "Two-way: CO and HC only."
+  - id: f17
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Afterburner (thermal reactor) burns leftover CO and HC in the hot exhaust manifold with extra air supplied by air injection."
+    why: "A second burning cleans the exhaust."
+    q: "What does an afterburner do?"
+    a: "Burns remaining CO and HC in the exhaust with added air."
+    simple: "Burns leftovers in the exhaust."
+  - id: f18
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Diesel particulate filter (DPF) traps soot. It cleans itself by burning the soot (regeneration) at high temperature."
+    why: "Soot harms lungs."
+    q: "Process of burning soot in a DPF is called?"
+    a: "Regeneration."
+    simple: "Filter traps soot, then burns it."
+  - id: f19
+    topic: u8.pollution
+    difficulty: 2
+    learn: "SCR (selective catalytic reduction) sprays urea solution (AdBlue or DEF, 32.5% urea) into the exhaust. It forms ammonia, which turns NOx into nitrogen and water."
+    why: "Best NOx control for BS-VI diesels."
+    q: "Liquid used in an SCR system?"
+    a: "Urea solution (AdBlue/DEF, 32.5%)."
+    simple: "Urea cleans NOx."
+  - id: f20
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Diesel smoke colours: black = incomplete burning (overload, faulty injector, rich); blue = lube oil burning; white = unburnt fuel at cold start or water in fuel."
+    why: "Colour tells the fault."
+    q: "Blue smoke from the exhaust indicates?"
+    a: "Lubricating oil burning."
+    simple: "Black fuel, blue oil, white cold/water."
+  - id: f21
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Diesel smoke is measured with a smoke meter. Hartridge type measures light absorption (opacity); Bosch type uses filter paper blackening."
+    why: "PUC test for diesels checks smoke density."
+    q: "Hartridge smoke meter works on?"
+    a: "Light absorption (opacity)."
+    simple: "Smoke blocks light; meter measures it."
+  - id: f22
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Diesel PUC test is a free acceleration smoke test. Result is the light absorption coefficient k in m⁻¹."
+    why: "Quick, needs no load."
+    q: "Unit of smoke density in diesel PUC test?"
+    a: "m⁻¹ (light absorption coefficient)."
+    simple: "Rev it fast, measure smoke."
+  - id: f23
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Exhaust gas analysers use NDIR (non-dispersive infrared) to measure CO, CO₂ and HC in petrol vehicles."
+    why: "Each gas absorbs infrared at its own wavelength."
+    q: "Principle of a petrol exhaust gas analyser?"
+    a: "NDIR (non-dispersive infrared)."
+    simple: "Infrared light finds the gases."
+  - id: f24
+    topic: u8.pollution
+    difficulty: 3
+    learn: "Lab methods: FID (flame ionisation detector) for HC and chemiluminescence for NOx."
+    why: "Higher accuracy for type approval tests."
+    q: "NOx is measured in labs by?"
+    a: "Chemiluminescence analyser."
+    simple: "FID for HC, chemiluminescence for NOx."
+  - id: f25
+    topic: u8.pollution
+    difficulty: 3
+    learn: "PUC limits for BS-IV and later petrol 4-wheelers: idle CO 0.3% and HC 200 ppm; at high idle CO 0.2% and λ 1 ± 0.03."
+    why: "Check current Rule 115 CMVR values before the exam."
+    q: "Idle CO limit for BS-IV petrol car in PUC test?"
+    a: "0.3%."
+    simple: "BS-IV car: CO 0.3% at idle."
+  - id: f26
+    topic: u8.pollution
+    difficulty: 1
+    learn: "Bharat Stage (BS) norms are India's emission standards, based on European (Euro) norms. They are set by the central government under CMVR."
+    why: "Each new stage cuts the allowed pollution."
+    q: "Bharat Stage norms are based on?"
+    a: "European (Euro) emission norms."
+    simple: "BS = India's version of Euro norms."
+  - id: f27
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Timeline: BS-I (India 2000) in 2000, BS-IV across India from April 2017, BS-V skipped, BS-VI across India from 1 April 2020."
+    why: "PSC asks which stage was skipped and the BS-VI date."
+    q: "Which Bharat Stage was skipped?"
+    a: "BS-V."
+    simple: "Jumped from BS-IV to BS-VI in 2020."
+  - id: f28
+    topic: u8.pollution
+    difficulty: 2
+    learn: "BS-VI fuel has only 10 ppm sulphur, against 50 ppm in BS-IV fuel."
+    why: "Low sulphur is needed for DPF and SCR to work."
+    q: "Sulphur content in BS-VI fuel?"
+    a: "10 ppm."
+    simple: "BS-VI fuel: 10 ppm sulphur."
+  - id: f29
+    topic: u8.pollution
+    difficulty: 2
+    learn: "BS-VI Phase 2 (April 2023) added Real Driving Emission (RDE) tests and on-board monitoring of emissions."
+    why: "Lab results must match real roads."
+    q: "What did BS-VI phase 2 add?"
+    a: "Real Driving Emission (RDE) testing and on-board monitoring."
+    simple: "Test on real roads too."
+  - id: f30
+    topic: u8.pollution
+    difficulty: 1
+    learn: "PUC (Pollution Under Control) certificate shows that the vehicle passed the emission test. Driving without a valid PUC is an offence."
+    why: "Regular checks keep old vehicles in limits."
+    q: "Full form of PUC?"
+    a: "Pollution Under Control."
+    simple: "PUC = passed smoke test."
+  - id: f31
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Noise is measured with a sound level meter in dB(A). Pressure horns and multi-tone horns are banned; changing the silencer to make noise is an offence."
+    why: "Noise harms hearing and health."
+    q: "Unit of vehicle noise measurement?"
+    a: "dB(A) (decibel, A-weighted)."
+    simple: "Noise measured in decibels."
+  - id: f32
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Cleaner fuels: CNG and LPG give less CO and PM. Ethanol blending (E20, 20% ethanol in petrol) cuts imports and emissions."
+    why: "Fuel choice also controls pollution."
+    q: "What does E20 mean?"
+    a: "Petrol with 20% ethanol."
+    simple: "E20 = 20% ethanol."
+  - id: s01
+    topic: u8.pollution
+    type: steps
+    difficulty: 2
+    title: "How a three-way catalytic converter cleans exhaust"
+    steps:
+      - text: "Exhaust with CO, HC and NOx enters the hot honeycomb."
+        explain: "It must be above light-off temperature."
+      - text: "Rhodium takes oxygen from NOx, leaving nitrogen (N₂)."
+      - text: "That oxygen, with platinum or palladium, burns CO to CO₂ and HC to CO₂ and water."
+      - text: "The O2 sensor helps the ECU keep λ near 1, so both reactions can happen."
+    summary:
+      - "Reduction: NOx → N₂ (rhodium)."
+      - "Oxidation: CO, HC → CO₂, H₂O (Pt, Pd)."
+      - "Needs heat and λ ≈ 1."
+    q: "Why must λ stay near 1 for a three-way catalyst?"
+    a: "So oxidation of CO/HC and reduction of NOx both happen."
+  - id: sum
+    topic: u8.pollution
+    type: summary
+    points:
+      - "PCV crankcase HC; EVAP charcoal canister; EGR cuts NOx."
+      - "Three-way catalyst: Pt, Pd oxidise; Rh reduces NOx."
+      - "Diesel: DOC, DPF (soot), SCR with urea (NOx)."
+      - "Smoke: black fuel, blue oil, white cold or water."
+      - "BS-IV 2017, BS-V skipped, BS-VI 1 April 2020."
+
+  # ---------- Accessories and safety systems ----------
+  - id: f01
+    topic: u8.accessories
+    difficulty: 1
+    learn: "Active safety systems help avoid a crash (ABS, ESC, traction control). Passive safety systems protect people during a crash (seat belt, airbag, crumple zone)."
+    why: "PSC often asks to classify a system as active or passive."
+    q: "Is an airbag an active or passive safety system?"
+    a: "Passive."
+    simple: "Active avoids crash; passive protects in crash."
+  - id: f02
+    topic: u8.accessories
+    difficulty: 1
+    learn: "ABS (anti-lock braking system) stops the wheels from locking during hard braking, so the driver can still steer."
+    why: "A locked wheel slides and cannot steer."
+    q: "Main benefit of ABS?"
+    a: "Keeps steering control by preventing wheel lock."
+    simple: "Brake hard and still steer."
+  - id: f03
+    topic: u8.accessories
+    difficulty: 2
+    learn: "ABS parts: wheel speed sensors, ABS ECU, and the hydraulic modulator (valves and a pump). The modulator releases and reapplies pressure many times a second."
+    why: "This pulsing keeps the wheel just short of locking."
+    q: "Which ABS part changes brake pressure?"
+    a: "Hydraulic modulator."
+    simple: "Sensors watch, ECU decides, modulator pulses."
+  - id: f04
+    topic: u8.accessories
+    difficulty: 2
+    learn: "With ABS the brake pedal pulses during hard braking. The driver should keep pressing firmly, not pump the pedal."
+    why: "The system does the pumping."
+    q: "How should a driver brake hard in an ABS car?"
+    a: "Press firmly and hold; do not pump."
+    simple: "Press hard, keep pressing."
+  - id: f05
+    topic: u8.accessories
+    difficulty: 2
+    learn: "ABS is compulsory for two-wheelers above 125 cc, and CBS (combined braking system) for two-wheelers up to 125 cc, from April 2019."
+    why: "Two-wheeler skids caused many deaths."
+    q: "Which braking system is compulsory for two-wheelers up to 125 cc?"
+    a: "CBS (combined braking system)."
+    simple: "Above 125 cc ABS; up to 125 cc CBS."
+  - id: f06
+    topic: u8.accessories
+    difficulty: 2
+    learn: "EBD (electronic brake force distribution) shares braking force between front and rear wheels according to load. It works with ABS."
+    why: "A loaded rear can take more braking."
+    q: "What does EBD do?"
+    a: "Distributes brake force to each wheel by load."
+    simple: "Right braking for each wheel."
+  - id: f07
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Traction control stops the drive wheels from spinning when accelerating. It cuts engine torque or brakes the spinning wheel, using ABS wheel sensors."
+    why: "Spinning wheels lose grip."
+    q: "Traction control works during braking or acceleration?"
+    a: "Acceleration."
+    simple: "Stops wheel spin when you speed up."
+  - id: f08
+    topic: u8.accessories
+    difficulty: 2
+    learn: "ESC (electronic stability control, also ESP) stops skids. Using steering angle, yaw rate and lateral acceleration sensors, it brakes single wheels to keep the car on its path."
+    why: "It corrects understeer and oversteer."
+    q: "Which sensor tells ESC how fast the car is turning about its vertical axis?"
+    a: "Yaw rate sensor."
+    simple: "ESC stops the car from spinning out."
+  - id: f09
+    topic: u8.accessories
+    difficulty: 1
+    learn: "A three-point seat belt holds the chest and hips. Its inertia reel locks when the car slows suddenly."
+    why: "It stops the body flying forward."
+    q: "What locks a seat belt in a sudden stop?"
+    a: "Inertia reel locking mechanism."
+    simple: "Belt locks on sudden stop."
+  - id: f10
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Seat belt pretensioner pulls the belt tight at the start of a crash, often with a small explosive charge. Load limiter then lets out a little belt to reduce chest injury."
+    why: "Tight early, gentle later."
+    q: "Function of a seat belt pretensioner?"
+    a: "Tightens the belt instantly in a crash."
+    simple: "Belt snaps tight in a crash."
+  - id: f11
+    topic: u8.accessories
+    difficulty: 1
+    learn: "Airbags are SRS (supplementary restraint system). They work along with the seat belt, not instead of it."
+    why: "Without a belt, the body can hit the opening airbag hard."
+    q: "Full form of SRS?"
+    a: "Supplementary Restraint System."
+    simple: "Airbag helps the belt, doesn't replace it."
+  - id: f12
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Airbag working: crash sensor (accelerometer) → airbag ECU → igniter → gas generator fills the bag in about 30 milliseconds."
+    why: "The bag must be full before the head moves forward."
+    q: "About how fast does an airbag inflate?"
+    a: "About 30 milliseconds."
+    simple: "Faster than a blink."
+  - id: f13
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Older airbags used sodium azide to make nitrogen gas. A clock spring (spiral cable) connects the steering wheel airbag while the wheel turns."
+    why: "Wires cannot twist with the steering wheel otherwise."
+    q: "Gas used to inflate an airbag?"
+    a: "Nitrogen (older units from sodium azide)."
+    simple: "Nitrogen fills the bag."
+  - id: f14
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Driver airbag is compulsory in cars from July 2019. Front passenger airbag is compulsory for new cars from 2021."
+    why: "Front crashes are most common."
+    q: "Front passenger airbag became compulsory from?"
+    a: "2021 (new models April 2021; all from January 2022)."
+    simple: "Driver 2019, passenger 2021."
+  - id: f15
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Never fit a rear-facing child seat in front of an active passenger airbag. Children should sit in the rear seat."
+    why: "The opening airbag can hit the child seat with great force."
+    q: "Where should a rear-facing child seat never be placed?"
+    a: "Front seat with an active airbag."
+    simple: "Kids in the back."
+  - id: f16
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Since July 2019 new cars must have: driver airbag, seat belt reminder, speed alert, rear parking sensors and a manual override for central locking."
+    why: "Basic safety for all cars."
+    q: "Name two features made compulsory in cars from July 2019."
+    a: "Driver airbag, seat belt reminder, speed alert, parking sensors."
+    simple: "Airbag, belt beeper, speed beeper, reverse sensor."
+  - id: f17
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Speed alert system: beeps once above 80 km/h, beeps often above 100 km/h, and beeps continuously above 120 km/h."
+    why: "Warns the driver of high speed."
+    q: "Speed above which the speed alert beeps continuously?"
+    a: "120 km/h."
+    simple: "80 beep, 100 more, 120 nonstop."
+  - id: f18
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Parking sensors are ultrasonic sensors in the bumper. The beep gets faster as an object gets closer. A reverse camera shows the area behind."
+    why: "Small objects behind are hard to see."
+    q: "Type of sensor used for parking sensors?"
+    a: "Ultrasonic."
+    simple: "Sound waves bounce back from objects."
+  - id: f19
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Cruise control keeps a set speed without pressing the accelerator. Adaptive cruise control uses radar to keep a safe gap to the car ahead."
+    why: "Reduces fatigue on highways."
+    q: "What extra does adaptive cruise control do?"
+    a: "Keeps a safe distance using radar."
+    simple: "Cruise holds speed; adaptive also keeps gap."
+  - id: f20
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Cruise control turns off when the driver presses the brake or clutch."
+    why: "The driver must always be in control."
+    q: "How is cruise control cancelled?"
+    a: "Press brake (or clutch) or the cancel switch."
+    simple: "Touch brake, cruise stops."
+  - id: f21
+    topic: u8.accessories
+    difficulty: 1
+    learn: "Power windows, power seats and power mirrors use small DC motors. Power seats may have memory positions; power windows may have anti-pinch."
+    why: "Comfort with one button."
+    q: "What drives a power window?"
+    a: "A small DC motor and regulator."
+    simple: "Small motors move glass, seats and mirrors."
+  - id: f22
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Rain-sensing wiper: an infrared light beam is reflected inside the windscreen. Raindrops change the reflection, and the wipers start and adjust speed."
+    why: "Driver need not adjust wipers."
+    q: "Principle of a rain sensor?"
+    a: "Change in infrared light reflection by water on glass."
+    simple: "Water changes light, wiper starts."
+  - id: f23
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Automatic climate control keeps a set cabin temperature using cabin, outside and sun-load sensors. It controls blower speed, blend door and compressor."
+    why: "Comfort without manual changes."
+    q: "Name one sensor used in automatic climate control."
+    a: "Cabin temperature, ambient or sun-load sensor."
+    simple: "Set the temperature, car keeps it."
+  - id: f24
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Car AC cycle: compressor → condenser (gives out heat) → receiver-drier → expansion valve → evaporator (absorbs cabin heat) → compressor."
+    why: "Heat is moved from inside to outside."
+    q: "Which AC part absorbs heat from the cabin?"
+    a: "Evaporator."
+    simple: "Evaporator cools inside; condenser heats outside."
+  - id: f25
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Car AC refrigerant is R-134a; newer cars use R-1234yf, which harms the climate much less."
+    why: "Old R-12 damaged the ozone layer."
+    q: "Common car AC refrigerant?"
+    a: "R-134a (newer: R-1234yf)."
+    simple: "R-134a in most cars."
+  - id: f26
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Noise control: sound insulation and damping sheets, rubber engine mounts, good silencers, sealed doors and active noise cancellation."
+    why: "Less noise means less driver tiredness."
+    q: "Give two methods of vehicle noise control."
+    a: "Insulation, rubber mounts, silencer, active noise cancellation."
+    simple: "Block, absorb or cancel the noise."
+  - id: f27
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Remote keyless entry (RKE) locks and unlocks doors by a radio signal from the key fob. Smart keys (passive entry) unlock when the key is near."
+    why: "Convenience and security."
+    q: "How does a key fob communicate with the car?"
+    a: "By radio signal (RF)."
+    simple: "Press button, radio unlocks car."
+  - id: f28
+    topic: u8.accessories
+    difficulty: 2
+    learn: "An immobiliser has a transponder chip in the key. The engine ECU allows starting only if the chip's code matches."
+    why: "A copied key or hot-wiring will not start the engine."
+    q: "Part in the key that works with an immobiliser?"
+    a: "Transponder chip."
+    simple: "Wrong key chip, no start."
+  - id: f29
+    topic: u8.accessories
+    difficulty: 2
+    learn: "GPS finds position using signals from satellites. At least 4 satellites are needed for a 3D position. India's own system is NavIC."
+    why: "Used for navigation and vehicle tracking."
+    q: "Minimum satellites for a 3D GPS fix?"
+    a: "Four."
+    simple: "Four satellites tell where you are."
+  - id: f30
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Vehicle location tracking devices (VLTD) with emergency buttons are compulsory in public service vehicles (AIS-140) from 2019."
+    why: "Passenger safety, especially women."
+    q: "Standard for vehicle tracking devices in buses and taxis?"
+    a: "AIS-140."
+    simple: "Buses must have GPS tracker and panic button."
+  - id: f31
+    topic: u8.accessories
+    difficulty: 2
+    learn: "Speed governors (speed limiting devices) are needed in transport vehicles: usually 80 km/h; 60 km/h for dumpers and tankers; 40 km/h for school buses."
+    why: "Heavy vehicles at high speed cause deadly crashes."
+    q: "Speed limit set by speed governor in school buses?"
+    a: "40 km/h."
+    simple: "Most 80, tankers 60, school bus 40."
+  - id: f32
+    topic: u8.accessories
+    difficulty: 2
+    learn: "TPMS (tyre pressure monitoring system) warns when a tyre's pressure is low."
+    why: "Low pressure causes blowouts and poor mileage."
+    q: "What does TPMS monitor?"
+    a: "Tyre pressure."
+    simple: "Warns of a soft tyre."
+  - id: f33
+    topic: u8.accessories
+    difficulty: 2
+    learn: "ADAS (advanced driver assistance systems) includes automatic emergency braking (AEB), lane keep assist, blind spot warning and adaptive cruise."
+    why: "Cameras and radar help prevent crashes."
+    q: "Which ADAS feature brakes by itself before a collision?"
+    a: "Autonomous emergency braking (AEB)."
+    simple: "Car brakes if you don't."
+  - id: sum
+    topic: u8.accessories
+    type: summary
+    points:
+      - "Active: ABS, EBD, traction control, ESC. Passive: belt, airbag."
+      - "ABS: sensors, ECU, modulator; >125 cc bikes ABS, ≤125 cc CBS."
+      - "Airbag fills in about 30 ms; SRS works with belt."
+      - "Speed alert 80/100/120; governor 80, tanker 60, school bus 40."
+      - "Immobiliser transponder; GPS 4 satellites; AIS-140 trackers."
+
+  # ---------- EV and hybrid ----------
+  - id: f01
+    topic: u8.ev
+    difficulty: 1
+    learn: "A battery electric vehicle (BEV) runs only on a battery and electric motor. Main parts: battery, motor, controller (inverter), charger and BMS."
+    why: "No engine, no fuel tank, no exhaust."
+    q: "Name three main parts of an electric vehicle."
+    a: "Battery, motor, controller/inverter (also charger, BMS)."
+    simple: "Battery feeds motor through controller."
+  - id: f02
+    topic: u8.ev
+    difficulty: 1
+    learn: "EV benefits: zero tailpipe emission, low running cost, fewer moving parts, quiet running, full torque from zero speed and regenerative braking."
+    why: "Electric motors are simple and efficient."
+    q: "Give two benefits of EVs."
+    a: "No tailpipe emission, low running cost."
+    simple: "Clean, cheap to run, quiet."
+  - id: f03
+    topic: u8.ev
+    difficulty: 1
+    learn: "EV challenges: high purchase cost, range anxiety, long charging time, few chargers, battery cost and disposal, and load on the power grid."
+    why: "These slow down EV adoption."
+    q: "What is range anxiety?"
+    a: "Fear that the battery will run out before reaching a charger."
+    simple: "Worry about running out of charge."
+  - id: f04
+    topic: u8.ev
+    difficulty: 1
+    learn: "Most EVs use lithium-ion batteries. Common types are NMC (nickel manganese cobalt) and LFP (lithium iron phosphate)."
+    why: "Lithium-ion stores much energy for its weight."
+    q: "Most common battery type in EVs?"
+    a: "Lithium-ion."
+    simple: "EVs use lithium-ion batteries."
+  - id: f05
+    topic: u8.ev
+    difficulty: 2
+    learn: "LFP batteries are safer and last more cycles but store less energy per kg. NMC stores more energy but costs more and is less heat-stable."
+    why: "Choice depends on cost, safety and range."
+    q: "Which battery type is safer: LFP or NMC?"
+    a: "LFP."
+    simple: "LFP safe and long life; NMC more range."
+  - id: f06
+    topic: u8.ev
+    difficulty: 1
+    learn: "Battery capacity is measured in kilowatt-hours (kWh). More kWh means more range."
+    why: "Energy stored decides distance."
+    q: "Unit of EV battery capacity?"
+    a: "kWh (kilowatt-hour)."
+    simple: "Bigger kWh, longer drive."
+  - id: s01
+    topic: u8.ev
+    type: steps
+    difficulty: 2
+    title: "Worked example: EV range"
+    steps:
+      - text: "Question: A 30 kWh battery car uses 150 Wh per km. Find range."
+      - text: "Change to the same unit: 30 kWh = 30,000 Wh."
+      - text: "Range = 30,000 ÷ 150 = 200 km."
+    summary:
+      - "Range = battery energy ÷ energy per km."
+      - "Keep units the same (Wh with Wh)."
+    q: "30 kWh battery, 150 Wh/km. Range?"
+    a: "200 km."
+  - id: s02
+    topic: u8.ev
+    type: steps
+    difficulty: 2
+    title: "Worked example: charging time"
+    steps:
+      - text: "Question: A 30 kWh battery is charged from empty with a 7.5 kW AC charger. Find time."
+      - text: "Time = energy ÷ power = 30 ÷ 7.5."
+      - text: "Time = 4 hours (a little more in real life because of losses)."
+    summary:
+      - "Charging time = kWh ÷ kW."
+      - "Real time is longer due to losses."
+    q: "30 kWh with 7.5 kW charger takes about?"
+    a: "4 hours (plus losses)."
+  - id: f07
+    topic: u8.ev
+    difficulty: 2
+    learn: "BMS (battery management system) watches each cell's voltage and temperature, finds the state of charge (SOC), balances cells and protects against overcharge and overheating."
+    why: "Lithium cells are damaged or catch fire if abused."
+    q: "What does SOC mean?"
+    a: "State of charge (how full the battery is)."
+    simple: "BMS is the battery's guard."
+  - id: f08
+    topic: u8.ev
+    difficulty: 2
+    learn: "Thermal runaway is when a lithium cell overheats, which makes it hotter still, leading to fire. Cooling systems and BMS prevent it."
+    why: "Cause of EV and scooter fires."
+    q: "Uncontrolled heating that can cause a battery fire is called?"
+    a: "Thermal runaway."
+    simple: "Heat makes more heat, then fire."
+  - id: f09
+    topic: u8.ev
+    difficulty: 2
+    learn: "AIS-156 sets battery safety tests for L-category (two and three wheeler) EVs. It was tightened in 2022–23 after e-scooter fires."
+    why: "To stop battery fires."
+    q: "Which AIS standard covers EV battery safety for two-wheelers?"
+    a: "AIS-156."
+    simple: "AIS-156 = scooter battery safety."
+  - id: f10
+    topic: u8.ev
+    difficulty: 2
+    learn: "EV motors: BLDC (brushless DC) in scooters, PMSM (permanent magnet synchronous motor) in most cars, and induction motors in some cars."
+    why: "Brushless motors need little maintenance."
+    q: "Motor commonly used in electric scooters?"
+    a: "BLDC (brushless DC) motor."
+    simple: "Scooters BLDC, cars mostly PMSM."
+  - id: f11
+    topic: u8.ev
+    difficulty: 2
+    learn: "A hub motor sits inside the wheel hub and drives the wheel directly. It is common in electric scooters."
+    why: "No chain, belt or gearbox needed."
+    q: "Motor fitted inside the wheel is called?"
+    a: "Hub motor."
+    simple: "Motor inside the wheel."
+  - id: f12
+    topic: u8.ev
+    difficulty: 2
+    learn: "The inverter changes battery DC into AC for the motor and controls its speed. A DC-DC converter lowers high voltage to 12 V for lights and accessories."
+    why: "The motor runs on AC; accessories run on 12 V."
+    q: "Which part converts battery DC to AC for the motor?"
+    a: "Inverter (motor controller)."
+    simple: "Inverter: DC to AC."
+  - id: f13
+    topic: u8.ev
+    difficulty: 2
+    learn: "EVs usually have a single-speed reduction gear and no clutch or multi-speed gearbox."
+    why: "Electric motors give high torque over a wide speed range."
+    q: "Does a typical EV have a multi-speed gearbox?"
+    a: "No, a single-speed reduction gear."
+    simple: "One gear is enough for an EV."
+  - id: f14
+    topic: u8.ev
+    difficulty: 1
+    learn: "Regenerative braking uses the motor as a generator while slowing down. It charges the battery and reduces brake wear."
+    why: "Energy that would become heat is saved."
+    q: "What is regenerative braking?"
+    a: "Motor acts as generator during braking to charge the battery."
+    simple: "Braking charges the battery."
+  - id: f15
+    topic: u8.ev
+    difficulty: 2
+    learn: "AC charging uses the car's on-board charger to change AC to DC. DC fast charging sends DC directly to the battery, bypassing the on-board charger."
+    why: "DC chargers are big and fast; on-board chargers are small."
+    q: "In DC fast charging, which part is bypassed?"
+    a: "On-board charger."
+    simple: "AC slow via car's charger; DC fast direct."
+  - id: f16
+    topic: u8.ev
+    difficulty: 2
+    learn: "Common charging standards in India: CCS2 for DC fast charging of cars, Type 2 for AC; older Bharat AC-001 and DC-001 standards; CHAdeMO in a few vehicles."
+    why: "Plug type must match the charger."
+    q: "Main DC fast charging connector for cars in India?"
+    a: "CCS2."
+    simple: "CCS2 is the common fast-charge plug."
+  - id: f17
+    topic: u8.ev
+    difficulty: 2
+    learn: "EV high-voltage cables are orange. Before repair, the high-voltage system must be isolated using the service disconnect and insulated tools."
+    why: "Hundreds of volts can kill."
+    q: "Colour of high-voltage cables in EVs?"
+    a: "Orange."
+    simple: "Orange cable = danger, high voltage."
+  - id: f18
+    topic: u8.ev
+    difficulty: 1
+    learn: "A hybrid electric vehicle (HEV) has both an IC engine and an electric motor with a battery."
+    why: "Combines engine range with electric efficiency."
+    q: "What two power sources does a hybrid have?"
+    a: "IC engine and electric motor."
+    simple: "Hybrid = engine + motor."
+  - id: f19
+    topic: u8.ev
+    difficulty: 2
+    learn: "Series hybrid: the engine only drives a generator; the motor alone drives the wheels. A range-extender EV is a series hybrid."
+    why: "Engine runs at its best speed always."
+    q: "In which hybrid does the engine never drive the wheels directly?"
+    a: "Series hybrid."
+    simple: "Series: engine makes power, motor drives."
+  - id: f20
+    topic: u8.ev
+    difficulty: 2
+    learn: "Parallel hybrid: both the engine and the motor can drive the wheels, alone or together."
+    why: "Motor helps the engine when extra power is needed."
+    q: "In which hybrid can both engine and motor drive the wheels?"
+    a: "Parallel hybrid."
+    simple: "Parallel: both push the car."
+  - id: f21
+    topic: u8.ev
+    difficulty: 3
+    learn: "Series-parallel (power split) hybrid uses a planetary gear set to mix engine and motor power. Toyota's hybrid system is an example."
+    why: "It gets the best of both types."
+    q: "Which gear set splits power in a series-parallel hybrid?"
+    a: "Planetary (epicyclic) gear set."
+    simple: "Planetary gear mixes engine and motor."
+  - id: f22
+    topic: u8.ev
+    difficulty: 2
+    learn: "Mild hybrid: a small motor (often 48 V starter-generator) helps the engine but cannot drive the car alone. Strong (full) hybrid can drive short distances on electricity only."
+    why: "PSC trap: mild hybrids cannot run in pure electric mode."
+    q: "Can a mild hybrid run on electric power alone?"
+    a: "No."
+    simple: "Mild helps; strong can drive alone."
+  - id: f23
+    topic: u8.ev
+    difficulty: 2
+    learn: "Plug-in hybrid (PHEV) has a bigger battery that can be charged from the grid. It drives some distance on electricity, then uses the engine."
+    why: "Short daily trips can be fully electric."
+    q: "Which hybrid can be charged from a wall socket?"
+    a: "Plug-in hybrid (PHEV)."
+    simple: "PHEV = hybrid you can plug in."
+  - id: f24
+    topic: u8.ev
+    difficulty: 2
+    learn: "Hybrid parts: IC engine, motor-generator, battery pack, power control unit (inverter), and power split device or transmission."
+    why: "These manage the flow between engine, battery and wheels."
+    q: "Name two main parts of a hybrid vehicle."
+    a: "Engine, motor-generator, battery, power control unit."
+    simple: "Engine, motor, battery, controller."
+  - id: f25
+    topic: u8.ev
+    difficulty: 2
+    learn: "Fuel cell electric vehicle (FCEV) makes electricity from hydrogen and oxygen in a fuel cell. The only exhaust is water."
+    why: "Fast refuelling and long range, but hydrogen is costly."
+    q: "Only exhaust from a hydrogen fuel cell vehicle?"
+    a: "Water (vapour)."
+    simple: "Hydrogen in, water out."
+  - id: f26
+    topic: u8.ev
+    difficulty: 2
+    learn: "FAME India scheme (Faster Adoption and Manufacturing of Hybrid and Electric Vehicles) gave subsidies: FAME I from 2015, FAME II from 2019 (₹10,000 crore)."
+    why: "To make EVs cheaper to buy."
+    q: "Full form of FAME?"
+    a: "Faster Adoption and Manufacturing of (Hybrid &) Electric Vehicles."
+    simple: "FAME = EV subsidy scheme."
+  - id: f27
+    topic: u8.ev
+    difficulty: 2
+    learn: "PM E-DRIVE scheme (2024) replaced FAME II to support e-two-wheelers, e-three-wheelers, e-buses and charging stations."
+    why: "Continues government support for EVs."
+    q: "Which scheme followed FAME II in 2024?"
+    a: "PM E-DRIVE."
+    simple: "FAME II then PM E-DRIVE."
+  - id: f28
+    topic: u8.ev
+    difficulty: 2
+    learn: "Other EV support: GST on EVs 5% (petrol cars up to 28%), no registration fee for battery vehicles, permit exemption for battery-operated transport vehicles, and green plates."
+    why: "Lower costs push people to buy EVs."
+    q: "GST rate on electric vehicles?"
+    a: "5%."
+    simple: "EVs taxed only 5%."
+  - id: f29
+    topic: u8.ev
+    difficulty: 2
+    learn: "National Electric Mobility Mission Plan (NEMMP) 2020 was launched in 2013. Kerala brought its own EV policy in 2019."
+    why: "Long-term plans for EV growth."
+    q: "Year NEMMP 2020 was launched?"
+    a: "2013."
+    simple: "NEMMP 2013 started the EV push."
+  - id: f30
+    topic: u8.ev
+    difficulty: 3
+    learn: "Low-speed e-scooters with top speed up to 25 km/h and motor up to 250 W are not 'motor vehicles' under CMVR. They need no registration or licence."
+    why: "PSC trap on what counts as a motor vehicle."
+    q: "Does a 250 W, 25 km/h e-scooter need registration?"
+    a: "No."
+    simple: "Slow small e-scooter: no RC, no DL."
+  - id: f31
+    topic: u8.ev
+    difficulty: 2
+    learn: "E-rickshaw and e-cart were added by the 2015 amendment (Section 2A). Top speed is up to 25 km/h; an e-rickshaw carries up to 4 passengers and 40 kg luggage."
+    why: "Brought these vehicles under law."
+    q: "Maximum speed of an e-rickshaw?"
+    a: "25 km/h."
+    simple: "E-rickshaw: slow, 4 passengers."
+  - id: f32
+    topic: u8.ev
+    difficulty: 2
+    learn: "Old petrol or diesel vehicles can be converted to EV or hybrid with approved retrofit kits (AIS-123), and the change is entered in the RC."
+    why: "Allows cleaner use of existing vehicles."
+    q: "Can a diesel car be legally converted to electric?"
+    a: "Yes, with an approved retrofit kit, endorsed in the RC."
+    simple: "Approved kit and RC update."
+  - id: sum
+    topic: u8.ev
+    type: summary
+    points:
+      - "BEV: battery, BMS, inverter, motor, single-speed gear."
+      - "Range = kWh ÷ Wh/km; charge time = kWh ÷ kW."
+      - "Series: engine only generates; parallel: both drive; PHEV plugs in."
+      - "Mild hybrid cannot run on electricity alone."
+      - "FAME I 2015, FAME II 2019, PM E-DRIVE 2024; GST 5%."
+
+mcq:
+  - topic: u8.mvact_basics
+    q: "The shape of a STOP sign is"
+    options: ["Circle", "Inverted triangle", "Octagon", "Rectangle"]
+    answer: 2
+    explain: "STOP is a red octagon; GIVE WAY is an inverted triangle."
+    covers: [f19]
+  - topic: u8.mvact_basics
+    q: "Number plate of a commercial electric vehicle has"
+    options: ["White letters on green", "Yellow letters on green", "Black letters on yellow", "Yellow letters on black"]
+    answer: 1
+    explain: "Commercial EV: yellow on green; private EV: white on green."
+    covers: [f25]
+  - topic: u8.road
+    q: "Super elevation as per IRC is given by"
+    options: ["V²/127R", "V²/225R", "V²/254f", "0.278Vt"]
+    answer: 1
+    explain: "e = V²/(225R) with 75% design speed and no friction."
+    covers: [f11]
+  - topic: u8.road
+    q: "Ruling gradient for plain terrain is"
+    options: ["1 in 15", "1 in 20", "1 in 30", "1 in 40"]
+    answer: 2
+    explain: "Plains: ruling 1 in 30, limiting 1 in 20, exceptional 1 in 15."
+    covers: [f16]
+  - topic: u8.insurance
+    q: "Depreciation applicable to glass parts in a motor claim is"
+    options: ["Nil", "30%", "50%", "Based on age"]
+    answer: 0
+    explain: "Glass parts have nil depreciation."
+    covers: [f12]
+  - topic: u8.efi
+    q: "Failure of which sensor will cause a no-start in an MPFI engine?"
+    options: ["Coolant temperature sensor", "Crankshaft position sensor", "Knock sensor", "Intake air temperature sensor"]
+    answer: 1
+    explain: "Without CKP signal, no spark or injection timing."
+    covers: [f18]
+  - topic: u8.efi
+    q: "The resistance of an NTC coolant temperature sensor as engine warms up"
+    options: ["Increases", "Decreases", "Stays the same", "Becomes zero"]
+    answer: 1
+    explain: "NTC: negative temperature coefficient."
+    covers: [f15]
+  - topic: u8.pollution
+    q: "Which catalyst metal reduces NOx in a three-way converter?"
+    options: ["Platinum", "Palladium", "Rhodium", "Cerium"]
+    answer: 2
+    explain: "Rhodium reduces NOx; Pt and Pd oxidise CO and HC."
+    covers: [f12]
+  - topic: u8.pollution
+    q: "EGR is used mainly to control"
+    options: ["CO", "HC", "NOx", "Particulate matter"]
+    answer: 2
+    explain: "Recirculated exhaust lowers combustion temperature."
+    covers: [f09]
+  - topic: u8.accessories
+    q: "Which of the following is a passive safety system?"
+    options: ["ABS", "ESC", "Airbag", "Traction control"]
+    answer: 2
+    explain: "Passive systems protect during a crash."
+    covers: [f01]
+  - topic: u8.ev
+    q: "In which hybrid does the engine only drive a generator?"
+    options: ["Parallel", "Series", "Mild", "Series-parallel"]
+    answer: 1
+    explain: "In a series hybrid only the motor drives the wheels."
+    covers: [f19]
+  - topic: u8.ev
+    q: "Battery capacity of an EV is expressed in"
+    options: ["kW", "kWh", "Ah only", "Volts"]
+    answer: 1
+    explain: "Energy stored = kWh."
+    covers: [f06]

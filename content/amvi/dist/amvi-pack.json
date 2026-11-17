@@ -493,6 +493,69 @@
    },
    "order": 53,
    "freq": 0.9
+  },
+  {
+   "id": "u8.mvact_basics",
+   "subject": "transport_technology",
+   "title": {
+    "en": "MV Act basics, signs and the MVD"
+   },
+   "order": 54,
+   "freq": 0.9
+  },
+  {
+   "id": "u8.road",
+   "subject": "transport_technology",
+   "title": {
+    "en": "Highway engineering basics"
+   },
+   "order": 55,
+   "freq": 0.7
+  },
+  {
+   "id": "u8.insurance",
+   "subject": "transport_technology",
+   "title": {
+    "en": "Motor insurance and surveying"
+   },
+   "order": 56,
+   "freq": 0.7
+  },
+  {
+   "id": "u8.efi",
+   "subject": "transport_technology",
+   "title": {
+    "en": "Electronic fuel injection, sensors and CRDI"
+   },
+   "order": 57,
+   "freq": 0.9
+  },
+  {
+   "id": "u8.pollution",
+   "subject": "transport_technology",
+   "title": {
+    "en": "Vehicle pollution and its control"
+   },
+   "order": 58,
+   "freq": 0.9
+  },
+  {
+   "id": "u8.accessories",
+   "subject": "transport_technology",
+   "title": {
+    "en": "Comfort and safety systems"
+   },
+   "order": 59,
+   "freq": 0.8
+  },
+  {
+   "id": "u8.ev",
+   "subject": "transport_technology",
+   "title": {
+    "en": "Electric and hybrid vehicles"
+   },
+   "order": 60,
+   "freq": 0.9
   }
  ],
  "cards": [
@@ -31195,6 +31258,5541 @@
      "en": "Electronic, CDI (bikes), computer, DLI (wasted spark, COP)."
     }
    ]
+  },
+  {
+   "id": "u8.mvact_basics.f01",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The Motor Vehicles Act, 1988 came into force on 1 July 1989. It replaced the old Motor Vehicles Act, 1939."
+   },
+   "why": {
+    "en": "It is the main law for drivers, vehicles, permits, traffic and insurance in India."
+   },
+   "recall_q": {
+    "en": "MV Act 1988 came into force on?"
+   },
+   "recall_a": {
+    "en": "1 July 1989 (it replaced the MV Act 1939)."
+   },
+   "explain_simple": {
+    "en": "Act of 1988, working from July 1989."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f02",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The MV (Amendment) Act, 2019 brought big changes: much higher fines, Golden Hour care, Good Samaritan protection, a Motor Vehicle Accident Fund and stricter rules on juveniles."
+   },
+   "why": {
+    "en": "Road deaths were very high; the law needed stronger teeth."
+   },
+   "recall_q": {
+    "en": "Which amendment raised MV Act fines sharply?"
+   },
+   "recall_a": {
+    "en": "MV (Amendment) Act, 2019 (in force mostly from 1 September 2019)."
+   },
+   "explain_simple": {
+    "en": "2019 amendment = big fines."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f03",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rules under the Act: Central Motor Vehicles Rules, 1989 (CMVR) made by the Centre, and Kerala Motor Vehicles Rules, 1989 (KMVR) made by the State."
+   },
+   "why": {
+    "en": "The Act gives the frame; rules give the details."
+   },
+   "recall_q": {
+    "en": "Name the central and Kerala rules under the MV Act."
+   },
+   "recall_a": {
+    "en": "CMVR 1989 and KMVR 1989."
+   },
+   "explain_simple": {
+    "en": "Act = frame; CMVR and KMVR = details."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f04",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Main chapters of the MV Act: II licensing of drivers, III licensing of conductors, IV registration, V permits (control of transport vehicles), VII construction and equipment, VIII traffic control."
+   },
+   "why": {
+    "en": "PSC often asks which chapter covers which subject."
+   },
+   "recall_q": {
+    "en": "Which chapter of the MV Act deals with registration?"
+   },
+   "recall_a": {
+    "en": "Chapter IV."
+   },
+   "explain_simple": {
+    "en": "II driver, III conductor, IV registration, V permit."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f05",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "More chapters: XI insurance against third-party risks, XII Claims Tribunals, XIII offences, penalties and procedure, XIV miscellaneous."
+   },
+   "why": {
+    "en": "Fines sit in Chapter XIII; claims go to tribunals under Chapter XII."
+   },
+   "recall_q": {
+    "en": "Offences and penalties are in which chapter of the MV Act?"
+   },
+   "recall_a": {
+    "en": "Chapter XIII."
+   },
+   "explain_simple": {
+    "en": "XI insurance, XII tribunal, XIII fines."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f06",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A driver must carry the driving licence, registration certificate, insurance certificate and PUC certificate. Transport vehicles also need permit and fitness certificate."
+   },
+   "why": {
+    "en": "Officers can ask for these documents at any time (Section 130)."
+   },
+   "recall_q": {
+    "en": "Documents to carry while driving a private car?"
+   },
+   "recall_a": {
+    "en": "DL, RC, insurance certificate, PUC certificate."
+   },
+   "explain_simple": {
+    "en": "Licence, RC, insurance, PUC."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f07",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Documents can now be shown in electronic form through DigiLocker or mParivahan. These are valid like the paper copies."
+   },
+   "why": {
+    "en": "Rule 139 CMVR allows electronic documents."
+   },
+   "recall_q": {
+    "en": "Are DL and RC in DigiLocker valid for checking?"
+   },
+   "recall_a": {
+    "en": "Yes, electronic copies in DigiLocker/mParivahan are valid."
+   },
+   "explain_simple": {
+    "en": "Phone copy in DigiLocker is fine."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f08",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Duty after an accident (Section 134): the driver must get medical help for the injured, take them to hospital if possible, and inform police and insurer."
+   },
+   "why": {
+    "en": "Quick care saves lives in the golden hour."
+   },
+   "recall_q": {
+    "en": "Section on duty of driver in case of accident and injury?"
+   },
+   "recall_a": {
+    "en": "Section 134."
+   },
+   "explain_simple": {
+    "en": "Accident: help the injured, tell police."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f09",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Golden Hour is the first one hour after a serious injury. Treatment in this time gives the best chance of survival. The 2019 amendment defined it."
+   },
+   "why": {
+    "en": "Fast treatment prevents death from bleeding and shock."
+   },
+   "recall_q": {
+    "en": "What is the Golden Hour?"
+   },
+   "recall_a": {
+    "en": "The first 60 minutes after a traumatic injury."
+   },
+   "explain_simple": {
+    "en": "First hour after accident is most important."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f10",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A Good Samaritan (Section 134A) is a person who helps an accident victim in good faith. They cannot be harassed or held liable."
+   },
+   "why": {
+    "en": "People hesitated to help because of police and court troubles."
+   },
+   "recall_q": {
+    "en": "Which section protects Good Samaritans?"
+   },
+   "recall_a": {
+    "en": "Section 134A."
+   },
+   "explain_simple": {
+    "en": "Helpers are protected by law."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f11",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Conductor licence is covered by Chapter III (Sections 29 to 38). A conductor of a stage carriage must hold a conductor licence."
+   },
+   "why": {
+    "en": "Conductors handle passengers and tickets, so they must be trained."
+   },
+   "recall_q": {
+    "en": "Who needs a conductor licence?"
+   },
+   "recall_a": {
+    "en": "Conductor of a stage carriage (Chapter III)."
+   },
+   "explain_simple": {
+    "en": "Bus conductor needs a licence."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f12",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Duties of a conductor: issue tickets, not allow overloading, help passengers board safely, keep the bus orderly, and not smoke or misbehave."
+   },
+   "why": {
+    "en": "Passenger safety and fair fare collection."
+   },
+   "recall_q": {
+    "en": "Give two duties of a bus conductor."
+   },
+   "recall_a": {
+    "en": "Issue tickets; prevent overcrowding; safe boarding."
+   },
+   "explain_simple": {
+    "en": "Tickets, safety, no overloading."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f13",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Learner's licence test checks knowledge of traffic rules, signs and driver duties. Driving test checks real driving skill (test of competence)."
+   },
+   "why": {
+    "en": "First knowledge, then skill."
+   },
+   "recall_q": {
+    "en": "What does a learner's licence test check?"
+   },
+   "recall_a": {
+    "en": "Knowledge of traffic rules, signs and duties."
+   },
+   "explain_simple": {
+    "en": "LL test = rules; DL test = driving."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f14",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Every motor vehicle must be registered before use in a public place (Section 39). The registering authority issues a Registration Certificate (RC)."
+   },
+   "why": {
+    "en": "Registration links the vehicle to an owner."
+   },
+   "recall_q": {
+    "en": "Section making registration compulsory?"
+   },
+   "recall_a": {
+    "en": "Section 39."
+   },
+   "explain_simple": {
+    "en": "No registration, no road."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f15",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A non-transport vehicle's registration is valid for 15 years from the date of issue. After that it can be renewed for 5 years at a time."
+   },
+   "why": {
+    "en": "Old vehicles must be checked again."
+   },
+   "recall_q": {
+    "en": "Validity of RC for a new private car?"
+   },
+   "recall_a": {
+    "en": "15 years; renewal for 5 years each time."
+   },
+   "explain_simple": {
+    "en": "Private car RC = 15 years."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f16",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Transport vehicles need a fitness certificate (Section 56). A new transport vehicle gets fitness for 2 years, then it is renewed every year."
+   },
+   "why": {
+    "en": "Buses and lorries run a lot and wear faster."
+   },
+   "recall_q": {
+    "en": "First fitness certificate validity for a new transport vehicle?"
+   },
+   "recall_a": {
+    "en": "2 years, then 1 year at a time."
+   },
+   "explain_simple": {
+    "en": "New bus: 2 years fit, then yearly."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f17",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Road signs are of three types: mandatory (regulatory), cautionary (warning) and informatory."
+   },
+   "why": {
+    "en": "Each type has its own shape so drivers know it at a glance."
+   },
+   "recall_q": {
+    "en": "Three types of road signs?"
+   },
+   "recall_a": {
+    "en": "Mandatory, cautionary, informatory."
+   },
+   "explain_simple": {
+    "en": "Must do, be careful, for your information."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f18",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mandatory signs are mostly circular. Cautionary signs are triangles pointing up with a red border. Informatory signs are rectangles (often blue or green)."
+   },
+   "why": {
+    "en": "Shape tells the type even from far away."
+   },
+   "recall_q": {
+    "en": "Shape of a cautionary (warning) sign?"
+   },
+   "recall_a": {
+    "en": "Triangle, point up, red border."
+   },
+   "explain_simple": {
+    "en": "Circle = order, triangle = warning, rectangle = info."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f19",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Two mandatory signs have special shapes: STOP is an octagon (8 sides, red), and GIVE WAY is an inverted triangle (point down)."
+   },
+   "why": {
+    "en": "These are so important that they look different from all other signs."
+   },
+   "recall_q": {
+    "en": "Shape of the STOP sign and the GIVE WAY sign?"
+   },
+   "recall_a": {
+    "en": "STOP: octagon. GIVE WAY: inverted triangle."
+   },
+   "explain_simple": {
+    "en": "8-sided stop; upside-down triangle give way."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f20",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Red-bordered circle = prohibition (do not do). Blue filled circle = compulsory (you must do), like compulsory left turn or compulsory cycle track."
+   },
+   "why": {
+    "en": "PSC traps: blue circle is not information; it is an order."
+   },
+   "recall_q": {
+    "en": "A blue circular sign means?"
+   },
+   "recall_a": {
+    "en": "Compulsory (mandatory) action."
+   },
+   "explain_simple": {
+    "en": "Red ring = don't; blue circle = must."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f21",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Traffic lights: red means stop, amber means stop if safe (light is about to change), green means go if the way is clear."
+   },
+   "why": {
+    "en": "Amber is not a signal to speed up."
+   },
+   "recall_q": {
+    "en": "What does a steady amber light mean?"
+   },
+   "recall_a": {
+    "en": "Stop before the line unless it is unsafe to stop."
+   },
+   "explain_simple": {
+    "en": "Amber = get ready to stop."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f22",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Flashing amber: slow down and go with caution. Flashing red: stop fully, then go when safe."
+   },
+   "why": {
+    "en": "Used at night or at junctions with low traffic."
+   },
+   "recall_q": {
+    "en": "Meaning of flashing red signal?"
+   },
+   "recall_a": {
+    "en": "Stop completely, then proceed when safe."
+   },
+   "explain_simple": {
+    "en": "Flashing red = like a stop sign."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f23",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Road markings: broken white centre line = you may cross to overtake if safe; solid line = do not cross; double solid yellow = never cross."
+   },
+   "why": {
+    "en": "Solid lines are placed where overtaking is dangerous."
+   },
+   "recall_q": {
+    "en": "Can you cross a solid centre line to overtake?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Broken = may cross; solid = don't."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f24",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Number plate colours: private white with black letters; transport yellow with black; self-drive rental black with yellow; electric vehicles green."
+   },
+   "why": {
+    "en": "Colour shows the use of the vehicle at a glance."
+   },
+   "recall_q": {
+    "en": "Colour of number plate for a self-drive rental car?"
+   },
+   "recall_a": {
+    "en": "Black plate with yellow letters."
+   },
+   "explain_simple": {
+    "en": "White private, yellow taxi, black rental, green EV."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f25",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Electric vehicle plates: private EV has green plate with white letters; commercial EV has green plate with yellow letters."
+   },
+   "why": {
+    "en": "PSC trap: the letter colour changes, not the plate."
+   },
+   "recall_q": {
+    "en": "Letters on a commercial EV number plate are which colour?"
+   },
+   "recall_a": {
+    "en": "Yellow on green."
+   },
+   "explain_simple": {
+    "en": "Green EV plate: white = private, yellow = commercial."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f26",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "High Security Registration Plates (HSRP) are aluminium plates with chromium hologram, laser-coded number and snap lock. They are compulsory for all vehicles."
+   },
+   "why": {
+    "en": "They stop fake plates and help trace stolen vehicles."
+   },
+   "recall_q": {
+    "en": "What is HSRP?"
+   },
+   "recall_a": {
+    "en": "Tamper-proof aluminium plate with hologram and laser code."
+   },
+   "explain_simple": {
+    "en": "Hard-to-copy number plate."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f27",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The BH (Bharat) series number lets a vehicle move between states without re-registration. It is for defence staff, government staff and private firms in four or more states."
+   },
+   "why": {
+    "en": "People who transfer often need not re-register."
+   },
+   "recall_q": {
+    "en": "Purpose of BH series registration?"
+   },
+   "recall_a": {
+    "en": "No re-registration when moving to another state."
+   },
+   "explain_simple": {
+    "en": "BH = one number for all of India."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f28",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Kerala MVD is headed by the Transport Commissioner. Field offices are Regional Transport Offices (RTO) and Sub RTOs. MVIs and AMVIs do inspection and enforcement."
+   },
+   "why": {
+    "en": "This is the department an AMVI works in."
+   },
+   "recall_q": {
+    "en": "Head of the Kerala Motor Vehicles Department?"
+   },
+   "recall_a": {
+    "en": "Transport Commissioner."
+   },
+   "explain_simple": {
+    "en": "Transport Commissioner on top, RTOs below."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f29",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Wings of the MVD: administration, licensing and registration, technical (vehicle inspection), enforcement (road checks, Safe Kerala squads), and road safety."
+   },
+   "why": {
+    "en": "Each wing does one main job."
+   },
+   "recall_q": {
+    "en": "Which MVD wing does road checking?"
+   },
+   "recall_a": {
+    "en": "Enforcement wing."
+   },
+   "explain_simple": {
+    "en": "Enforcement wing checks on the road."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f30",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Permits are granted by the State Transport Authority (STA) and Regional Transport Authority (RTA), set up under Section 68."
+   },
+   "why": {
+    "en": "They control how many buses and lorries run on each route."
+   },
+   "recall_q": {
+    "en": "Which authorities grant permits?"
+   },
+   "recall_a": {
+    "en": "STA and RTA (Section 68)."
+   },
+   "explain_simple": {
+    "en": "STA and RTA give permits."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f31",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vehicle categories: L = two and three wheelers, M = passenger vehicles, N = goods vehicles. M1 is a car with up to 8 seats plus driver."
+   },
+   "why": {
+    "en": "Category decides the rules and tests for a vehicle."
+   },
+   "recall_q": {
+    "en": "Category letter for goods vehicles?"
+   },
+   "recall_a": {
+    "en": "N."
+   },
+   "explain_simple": {
+    "en": "L light 2/3-wheel, M people, N goods."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.f32",
+   "topic": "u8.mvact_basics",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: Kerala's state code on number plates is KL, and KL-01 is Thiruvananthapuram RTO."
+   },
+   "why": {
+    "en": "Often asked as a one-mark general question."
+   },
+   "recall_q": {
+    "en": "Which RTO has the code KL-01?"
+   },
+   "recall_a": {
+    "en": "Thiruvananthapuram."
+   },
+   "explain_simple": {
+    "en": "KL-01 = Thiruvananthapuram."
+   }
+  },
+  {
+   "id": "u8.mvact_basics.sum",
+   "topic": "u8.mvact_basics",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act basics, signs and the MVD; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "MV Act basics, signs and the MVD"
+   },
+   "points": [
+    {
+     "en": "MV Act 1988, in force 1 July 1989; big amendment 2019."
+    },
+    {
+     "en": "Chapters: II driver, III conductor, IV registration, V permits, XIII offences."
+    },
+    {
+     "en": "Signs: circle order, triangle warning, rectangle info; STOP octagon."
+    },
+    {
+     "en": "Plates: white private, yellow transport, black rental, green EV."
+    },
+    {
+     "en": "Carry DL, RC, insurance, PUC; DigiLocker copies valid."
+    }
+   ]
+  },
+  {
+   "id": "u8.road.f01",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The Indian Roads Congress (IRC), set up in 1934, makes the standards for road design in India."
+   },
+   "why": {
+    "en": "All width, slope and curve values in exams come from IRC."
+   },
+   "recall_q": {
+    "en": "Which body sets road design standards in India?"
+   },
+   "recall_a": {
+    "en": "Indian Roads Congress (IRC), 1934."
+   },
+   "explain_simple": {
+    "en": "IRC writes the road rule book."
+   }
+  },
+  {
+   "id": "u8.road.f02",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Road classes (Nagpur Road Plan, 1943): National Highways, State Highways, Major District Roads, Other District Roads and Village Roads."
+   },
+   "why": {
+    "en": "Class decides width, speed and who maintains the road."
+   },
+   "recall_q": {
+    "en": "Five classes of roads by the Nagpur plan?"
+   },
+   "recall_a": {
+    "en": "NH, SH, MDR, ODR, Village roads."
+   },
+   "explain_simple": {
+    "en": "National, State, District (major, other), Village."
+   }
+  },
+  {
+   "id": "u8.road.f03",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Carriageway is the part of the road that vehicles use. Shoulders are the strips beside it for stopped vehicles and support."
+   },
+   "why": {
+    "en": "Shoulders protect the edge and give space in emergencies."
+   },
+   "recall_q": {
+    "en": "Part of the road used by moving vehicles?"
+   },
+   "recall_a": {
+    "en": "Carriageway."
+   },
+   "explain_simple": {
+    "en": "Carriageway = driving part."
+   }
+  },
+  {
+   "id": "u8.road.f04",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "IRC widths: single lane 3.75 m; two-lane road without raised kerb 7.0 m; with raised kerbs 7.5 m; intermediate lane 5.5 m."
+   },
+   "why": {
+    "en": "Width must fit the widest legal vehicle with safe clearance."
+   },
+   "recall_q": {
+    "en": "IRC width of a two-lane carriageway without kerbs?"
+   },
+   "recall_a": {
+    "en": "7.0 m."
+   },
+   "explain_simple": {
+    "en": "One lane 3.75 m, two lanes 7 m."
+   }
+  },
+  {
+   "id": "u8.road.f05",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Maximum legal width of a motor vehicle is 2.6 m. Maximum height for normal vehicles is about 3.8 m."
+   },
+   "why": {
+    "en": "Road lanes and bridges are designed for these sizes."
+   },
+   "recall_q": {
+    "en": "Maximum permitted width of a vehicle?"
+   },
+   "recall_a": {
+    "en": "2.6 m."
+   },
+   "explain_simple": {
+    "en": "Vehicle not wider than 2.6 m."
+   }
+  },
+  {
+   "id": "u8.road.f06",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Formation width (roadway) = carriageway + shoulders. Right of way (land width) is the full land taken for the road, including space for future widening."
+   },
+   "why": {
+    "en": "PSC asks the difference between these widths."
+   },
+   "recall_q": {
+    "en": "Width of land acquired for a road is called?"
+   },
+   "recall_a": {
+    "en": "Right of way (land width)."
+   },
+   "explain_simple": {
+    "en": "Roadway = road + shoulders; right of way = all land."
+   }
+  },
+  {
+   "id": "u8.road.f07",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Camber (cross slope) is the slope given across the road, high in the middle and low at the edges."
+   },
+   "why": {
+    "en": "It drains rainwater off the road surface quickly."
+   },
+   "recall_q": {
+    "en": "Main purpose of camber?"
+   },
+   "recall_a": {
+    "en": "Drain rainwater from the road surface."
+   },
+   "explain_simple": {
+    "en": "Middle high so water runs off."
+   }
+  },
+  {
+   "id": "u8.road.f08",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Camber values: concrete and high-type bituminous 1.7 to 2%; thin bituminous 2 to 2.5%; WBM and gravel 2.5 to 3%; earth roads 3 to 4%."
+   },
+   "why": {
+    "en": "Rougher surfaces hold water, so they need more slope."
+   },
+   "recall_q": {
+    "en": "Which surface needs the steepest camber?"
+   },
+   "recall_a": {
+    "en": "Earth road (3 to 4%)."
+   },
+   "explain_simple": {
+    "en": "Smooth road small slope; rough road big slope."
+   }
+  },
+  {
+   "id": "u8.road.f09",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Camber shapes: parabolic (curved), straight line, or straight with a rounded crown. Heavy rain areas need more camber."
+   },
+   "why": {
+    "en": "Parabolic suits fast cars; straight is easy to build."
+   },
+   "recall_q": {
+    "en": "Name two camber shapes."
+   },
+   "recall_a": {
+    "en": "Parabolic and straight line."
+   },
+   "explain_simple": {
+    "en": "Curved or straight slope."
+   }
+  },
+  {
+   "id": "u8.road.f10",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Super elevation (banking) means raising the outer edge of the road on a curve."
+   },
+   "why": {
+    "en": "It balances the centrifugal force that pushes vehicles outward on a curve."
+   },
+   "recall_q": {
+    "en": "Why is super elevation provided?"
+   },
+   "recall_a": {
+    "en": "To counter centrifugal force on curves."
+   },
+   "explain_simple": {
+    "en": "Outer edge higher so vehicles don't slide out."
+   }
+  },
+  {
+   "id": "u8.road.f11",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "IRC design super elevation: e = V² / (225 R), with V in km/h and R in metres. This assumes 75% of design speed and no friction."
+   },
+   "why": {
+    "en": "Friction is left as a safety margin for mixed traffic."
+   },
+   "recall_q": {
+    "en": "IRC formula for super elevation?"
+   },
+   "recall_a": {
+    "en": "e = V² / (225 R)."
+   },
+   "explain_simple": {
+    "en": "Speed squared over 225 times radius."
+   }
+  },
+  {
+   "id": "u8.road.f12",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Full equilibrium equation on a curve: e + f = V² / (127 R). IRC takes the side friction f as 0.15."
+   },
+   "why": {
+    "en": "Banking and tyre friction together hold the vehicle."
+   },
+   "recall_q": {
+    "en": "Value of lateral friction f used by IRC?"
+   },
+   "recall_a": {
+    "en": "0.15."
+   },
+   "explain_simple": {
+    "en": "e + f = V²/127R, f = 0.15."
+   }
+  },
+  {
+   "id": "u8.road.f13",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Maximum super elevation: 7% in plain and rolling terrain, 10% in hill roads (not snow-bound), 7% in snow-bound areas."
+   },
+   "why": {
+    "en": "Too much banking makes slow vehicles slide inward."
+   },
+   "recall_q": {
+    "en": "Maximum super elevation on plain roads?"
+   },
+   "recall_a": {
+    "en": "7%."
+   },
+   "explain_simple": {
+    "en": "Plain 7%, hills 10%."
+   }
+  },
+  {
+   "id": "u8.road.s01",
+   "topic": "u8.road",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: super elevation"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: Design speed 80 km/h, curve radius 500 m. Find super elevation."
+     }
+    },
+    {
+     "text": {
+      "en": "Use e = V² / (225 R)."
+     }
+    },
+    {
+     "text": {
+      "en": "e = 80² / (225 × 500) = 6400 / 112500."
+     }
+    },
+    {
+     "text": {
+      "en": "e = 0.057, that is 5.7%. It is below 7%, so it is accepted."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "e = V²/(225R), V in km/h, R in m."
+    },
+    {
+     "en": "If e is above 7%, limit it to 7%."
+    }
+   ],
+   "recall_q": {
+    "en": "V = 80 km/h, R = 500 m. Super elevation?"
+   },
+   "recall_a": {
+    "en": "About 5.7% (0.057)."
+   }
+  },
+  {
+   "id": "u8.road.f14",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gradient is the rise or fall of the road along its length. It is written as 1 in N or as a percent."
+   },
+   "why": {
+    "en": "Steep gradients slow heavy vehicles and strain brakes downhill."
+   },
+   "recall_q": {
+    "en": "What is gradient?"
+   },
+   "recall_a": {
+    "en": "Rate of rise or fall along the road length."
+   },
+   "explain_simple": {
+    "en": "How steep the road goes up or down."
+   }
+  },
+  {
+   "id": "u8.road.f15",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Types of gradient: ruling (normal design limit), limiting (used where ruling is too costly), exceptional (short stretches only) and minimum (for drainage)."
+   },
+   "why": {
+    "en": "Each is used in a different situation."
+   },
+   "recall_q": {
+    "en": "Gradient that is normally adopted in design?"
+   },
+   "recall_a": {
+    "en": "Ruling gradient."
+   },
+   "explain_simple": {
+    "en": "Ruling = normal; limiting = harder; exceptional = rare."
+   }
+  },
+  {
+   "id": "u8.road.f16",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Plain terrain: ruling gradient 3.3% (1 in 30), limiting 5% (1 in 20), exceptional 6.7% (1 in 15)."
+   },
+   "why": {
+    "en": "Common numerical fact in PSC."
+   },
+   "recall_q": {
+    "en": "Ruling gradient in plain terrain?"
+   },
+   "recall_a": {
+    "en": "1 in 30 (3.3%)."
+   },
+   "explain_simple": {
+    "en": "Plains: 1 in 30, 1 in 20, 1 in 15."
+   }
+  },
+  {
+   "id": "u8.road.f17",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mountainous terrain: ruling gradient 5% (1 in 20), limiting 6% (1 in 16.7), exceptional 7% (1 in 14.3)."
+   },
+   "why": {
+    "en": "Hills allow steeper roads to save length."
+   },
+   "recall_q": {
+    "en": "Ruling gradient in mountainous terrain?"
+   },
+   "recall_a": {
+    "en": "1 in 20 (5%)."
+   },
+   "explain_simple": {
+    "en": "Mountains: ruling 5%."
+   }
+  },
+  {
+   "id": "u8.road.f18",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Grade compensation reduces the gradient on a curve. It is (30 + R) / R percent, but not more than 75 / R percent."
+   },
+   "why": {
+    "en": "A curve already adds resistance, so the slope must be eased."
+   },
+   "recall_q": {
+    "en": "Formula for grade compensation on curves?"
+   },
+   "recall_a": {
+    "en": "(30 + R)/R %, maximum 75/R %."
+   },
+   "explain_simple": {
+    "en": "Ease the slope on a curve."
+   }
+  },
+  {
+   "id": "u8.road.f19",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Sight distance is the length of road a driver can see ahead. It must be enough to stop or overtake safely."
+   },
+   "why": {
+    "en": "You can only avoid what you can see in time."
+   },
+   "recall_q": {
+    "en": "What is sight distance?"
+   },
+   "recall_a": {
+    "en": "Length of road visible ahead to the driver."
+   },
+   "explain_simple": {
+    "en": "How far ahead the driver can see."
+   }
+  },
+  {
+   "id": "u8.road.f20",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stopping sight distance (SSD) = lag distance + braking distance. Lag distance = 0.278 V t; braking distance = V² / (254 f)."
+   },
+   "why": {
+    "en": "Car moves during reaction time, then while braking."
+   },
+   "recall_q": {
+    "en": "SSD is made up of which two parts?"
+   },
+   "recall_a": {
+    "en": "Lag (reaction) distance + braking distance."
+   },
+   "explain_simple": {
+    "en": "Thinking distance + braking distance."
+   }
+  },
+  {
+   "id": "u8.road.f21",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "IRC uses a reaction time (perception and brake reaction) of 2.5 seconds, and friction f of 0.35 to 0.40 for SSD."
+   },
+   "why": {
+    "en": "Value suits an average driver."
+   },
+   "recall_q": {
+    "en": "Total reaction time used by IRC for SSD?"
+   },
+   "recall_a": {
+    "en": "2.5 seconds."
+   },
+   "explain_simple": {
+    "en": "Driver needs 2.5 s to react."
+   }
+  },
+  {
+   "id": "u8.road.s02",
+   "topic": "u8.road",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: stopping sight distance"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: V = 80 km/h, t = 2.5 s, f = 0.35. Find SSD."
+     }
+    },
+    {
+     "text": {
+      "en": "Lag distance = 0.278 × 80 × 2.5 = 55.6 m."
+     }
+    },
+    {
+     "text": {
+      "en": "Braking distance = 80² / (254 × 0.35) = 6400 / 88.9 = 72.0 m."
+     }
+    },
+    {
+     "text": {
+      "en": "SSD = 55.6 + 72.0 = 127.6 m (about 128 m)."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "Lag = 0.278 V t."
+    },
+    {
+     "en": "Braking = V² / 254 f."
+    }
+   ],
+   "recall_q": {
+    "en": "SSD at 80 km/h, t = 2.5 s, f = 0.35?"
+   },
+   "recall_a": {
+    "en": "About 128 m."
+   }
+  },
+  {
+   "id": "u8.road.f22",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Overtaking sight distance (OSD) = d1 + d2 + d3: distance while waiting behind, distance during the overtake, and distance the oncoming car moves."
+   },
+   "why": {
+    "en": "Overtaking needs the opposite lane clear for all three."
+   },
+   "recall_q": {
+    "en": "OSD is the sum of which three distances?"
+   },
+   "recall_a": {
+    "en": "d1 (before), d2 (overtaking), d3 (oncoming vehicle)."
+   },
+   "explain_simple": {
+    "en": "Wait + pass + oncoming car."
+   }
+  },
+  {
+   "id": "u8.road.f23",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Intermediate sight distance (ISD) = 2 × SSD. For SSD, driver eye height is taken as 1.2 m and object height as 0.15 m."
+   },
+   "why": {
+    "en": "Used where full OSD cannot be given."
+   },
+   "recall_q": {
+    "en": "Intermediate sight distance equals?"
+   },
+   "recall_a": {
+    "en": "Twice the SSD."
+   },
+   "explain_simple": {
+    "en": "ISD = 2 × SSD."
+   }
+  },
+  {
+   "id": "u8.road.f24",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Extra widening on curves = mechanical widening (n l² / 2R) + psychological widening (V / 9.5√R)."
+   },
+   "why": {
+    "en": "Rear wheels cut inside the curve, and drivers keep away from the edge."
+   },
+   "recall_q": {
+    "en": "Two parts of extra widening on curves?"
+   },
+   "recall_a": {
+    "en": "Mechanical and psychological widening."
+   },
+   "explain_simple": {
+    "en": "Extra width on bends for wheels and nerves."
+   }
+  },
+  {
+   "id": "u8.road.f25",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A transition curve joins a straight road to a circular curve gradually. The ideal shape is the spiral (clothoid)."
+   },
+   "why": {
+    "en": "Centrifugal force and banking build up slowly, not suddenly."
+   },
+   "recall_q": {
+    "en": "Ideal shape of a transition curve?"
+   },
+   "recall_a": {
+    "en": "Spiral (clothoid)."
+   },
+   "explain_simple": {
+    "en": "Smooth entry into a bend."
+   }
+  },
+  {
+   "id": "u8.road.f26",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Intersections are at-grade (roads meet at the same level, such as rotary or channelised junctions) or grade-separated (flyovers and interchanges)."
+   },
+   "why": {
+    "en": "Grade separation removes crossing conflicts."
+   },
+   "recall_q": {
+    "en": "Flyover is which type of intersection?"
+   },
+   "recall_a": {
+    "en": "Grade-separated."
+   },
+   "explain_simple": {
+    "en": "Same level or different levels."
+   }
+  },
+  {
+   "id": "u8.road.f27",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A four-leg junction of two two-way roads has 32 conflict points: 16 crossing, 8 merging and 8 diverging."
+   },
+   "why": {
+    "en": "Crossing conflicts cause the worst crashes."
+   },
+   "recall_q": {
+    "en": "Total conflict points at a 4-legged intersection?"
+   },
+   "recall_a": {
+    "en": "32 (16 crossing, 8 merging, 8 diverging)."
+   },
+   "explain_simple": {
+    "en": "Four-way junction = 32 danger points."
+   }
+  },
+  {
+   "id": "u8.road.f28",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A rotary (roundabout) makes all traffic go one way around a central island. Vehicles merge and leave by weaving."
+   },
+   "why": {
+    "en": "It turns crossing conflicts into gentle merges."
+   },
+   "recall_q": {
+    "en": "Movement of vehicles within a rotary is called?"
+   },
+   "recall_a": {
+    "en": "Weaving."
+   },
+   "explain_simple": {
+    "en": "Roundabout: go round and weave out."
+   }
+  },
+  {
+   "id": "u8.road.f29",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cloverleaf, trumpet and diamond are types of grade-separated interchanges. A full cloverleaf removes all crossing conflicts."
+   },
+   "why": {
+    "en": "Used on busy highways."
+   },
+   "recall_q": {
+    "en": "Interchange shaped like a four-leaf clover is?"
+   },
+   "recall_a": {
+    "en": "Cloverleaf interchange."
+   },
+   "explain_simple": {
+    "en": "Clover, trumpet, diamond = flyover junctions."
+   }
+  },
+  {
+   "id": "u8.road.f30",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PCU (Passenger Car Unit) compares vehicles to one car. A car is 1 PCU; bigger or slower vehicles have higher PCU values."
+   },
+   "why": {
+    "en": "Road capacity is counted in PCU."
+   },
+   "recall_q": {
+    "en": "PCU value of a passenger car?"
+   },
+   "recall_a": {
+    "en": "1."
+   },
+   "explain_simple": {
+    "en": "Count traffic as car-equivalents."
+   }
+  },
+  {
+   "id": "u8.road.sum",
+   "topic": "u8.road",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Highway engineering basics"
+   },
+   "points": [
+    {
+     "en": "Lane 3.75 m; two-lane 7.0 m; vehicle width 2.6 m."
+    },
+    {
+     "en": "Camber drains water: 1.7–2% concrete up to 3–4% earth."
+    },
+    {
+     "en": "Super elevation e = V²/225R, max 7% plains."
+    },
+    {
+     "en": "SSD = 0.278Vt + V²/254f; t = 2.5 s."
+    },
+    {
+     "en": "Plain ruling gradient 1 in 30; 32 conflict points."
+    }
+   ]
+  },
+  {
+   "id": "u8.insurance.f01",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Third-party insurance is compulsory for every motor vehicle in a public place (Section 146). Driving without it is an offence."
+   },
+   "why": {
+    "en": "Victims of an accident must get compensation."
+   },
+   "recall_q": {
+    "en": "Which insurance is compulsory under the MV Act?"
+   },
+   "recall_a": {
+    "en": "Third-party insurance (Section 146)."
+   },
+   "explain_simple": {
+    "en": "Third-party cover is a must."
+   }
+  },
+  {
+   "id": "u8.insurance.f02",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The three parties: first party is the owner, second party is the insurance company, third party is any other person hurt or whose property is damaged."
+   },
+   "why": {
+    "en": "Third party is the outsider the law protects."
+   },
+   "recall_q": {
+    "en": "Who is the third party in motor insurance?"
+   },
+   "recall_a": {
+    "en": "Any other person (not insurer or insured) who suffers loss."
+   },
+   "explain_simple": {
+    "en": "Third party = other people."
+   }
+  },
+  {
+   "id": "u8.insurance.f03",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Policy types: liability only (third party), comprehensive (third party + own damage) and standalone own damage."
+   },
+   "why": {
+    "en": "Comprehensive also pays for damage to your own vehicle."
+   },
+   "recall_q": {
+    "en": "Which policy covers both own damage and third-party liability?"
+   },
+   "recall_a": {
+    "en": "Comprehensive (package) policy."
+   },
+   "explain_simple": {
+    "en": "TP only, or TP + own damage."
+   }
+  },
+  {
+   "id": "u8.insurance.f04",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Third-party property damage cover is limited to ₹7.5 lakh. Third-party death and injury cover has no upper limit."
+   },
+   "why": {
+    "en": "Human life cannot be capped."
+   },
+   "recall_q": {
+    "en": "Limit for third-party death claims?"
+   },
+   "recall_a": {
+    "en": "Unlimited."
+   },
+   "explain_simple": {
+    "en": "Property limited; life not limited."
+   }
+  },
+  {
+   "id": "u8.insurance.f05",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compulsory personal accident cover for the owner-driver is ₹15 lakh."
+   },
+   "why": {
+    "en": "Owner is not a third party, so needs separate cover."
+   },
+   "recall_q": {
+    "en": "Compulsory PA cover for owner-driver?"
+   },
+   "recall_a": {
+    "en": "₹15 lakh."
+   },
+   "explain_simple": {
+    "en": "Owner-driver gets 15 lakh accident cover."
+   }
+  },
+  {
+   "id": "u8.insurance.f06",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "IRDAI (Insurance Regulatory and Development Authority of India) regulates insurers and licenses surveyors."
+   },
+   "why": {
+    "en": "It protects policy holders."
+   },
+   "recall_q": {
+    "en": "Who licenses insurance surveyors?"
+   },
+   "recall_a": {
+    "en": "IRDAI."
+   },
+   "explain_simple": {
+    "en": "IRDAI controls insurance."
+   }
+  },
+  {
+   "id": "u8.insurance.f07",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A motor claim above ₹50,000 must be assessed by a surveyor licensed by IRDAI (Insurance Act, Section 64UM)."
+   },
+   "why": {
+    "en": "Big claims need an independent expert check."
+   },
+   "recall_q": {
+    "en": "Claims above what amount need a licensed surveyor?"
+   },
+   "recall_a": {
+    "en": "₹50,000."
+   },
+   "explain_simple": {
+    "en": "Big claim = licensed surveyor."
+   }
+  },
+  {
+   "id": "u8.insurance.f08",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Kinds of survey: spot survey (at the accident site), final survey (estimates loss at the garage), re-inspection (checks repairs before payment)."
+   },
+   "why": {
+    "en": "Each step checks that the claim is real and fair."
+   },
+   "recall_q": {
+    "en": "Survey done after repairs before settlement?"
+   },
+   "recall_a": {
+    "en": "Re-inspection."
+   },
+   "explain_simple": {
+    "en": "Spot, final, re-inspection."
+   }
+  },
+  {
+   "id": "u8.insurance.f09",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "IDV (Insured Declared Value) is the current market value of the vehicle. It is the most the insurer pays for total loss or theft."
+   },
+   "why": {
+    "en": "Premium and total-loss payment both depend on IDV."
+   },
+   "recall_q": {
+    "en": "What is IDV?"
+   },
+   "recall_a": {
+    "en": "Insured Declared Value: maximum sum insured."
+   },
+   "explain_simple": {
+    "en": "IDV = what your vehicle is worth now."
+   }
+  },
+  {
+   "id": "u8.insurance.f10",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "IDV = manufacturer's listed price minus age depreciation: up to 6 months 5%, 6 months–1 year 15%, 1–2 years 20%, 2–3 years 30%, 3–4 years 40%, 4–5 years 50%."
+   },
+   "why": {
+    "en": "Older vehicles are worth less."
+   },
+   "recall_q": {
+    "en": "Depreciation for IDV on a 2½-year-old car?"
+   },
+   "recall_a": {
+    "en": "30%."
+   },
+   "explain_simple": {
+    "en": "Older car, lower IDV."
+   }
+  },
+  {
+   "id": "u8.insurance.f11",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "For vehicles older than 5 years, IDV is fixed by agreement between the insurer and the owner."
+   },
+   "why": {
+    "en": "Fixed tables do not fit very old vehicles."
+   },
+   "recall_q": {
+    "en": "How is IDV fixed for a 7-year-old vehicle?"
+   },
+   "recall_a": {
+    "en": "By mutual agreement."
+   },
+   "explain_simple": {
+    "en": "Very old car: agree on value."
+   }
+  },
+  {
+   "id": "u8.insurance.s01",
+   "topic": "u8.insurance",
+   "type": "steps",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: IDV"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: Listed price ₹8,00,000. Car is 2 years 4 months old. Find IDV."
+     }
+    },
+    {
+     "text": {
+      "en": "Age 2 to 3 years gives 30% depreciation."
+     }
+    },
+    {
+     "text": {
+      "en": "Depreciation = 30% of 8,00,000 = ₹2,40,000."
+     }
+    },
+    {
+     "text": {
+      "en": "IDV = 8,00,000 − 2,40,000 = ₹5,60,000."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "IDV = listed price − age depreciation."
+    },
+    {
+     "en": "2–3 years = 30%."
+    }
+   ],
+   "recall_q": {
+    "en": "Price ₹8 lakh, age 2 years 4 months. IDV?"
+   },
+   "recall_a": {
+    "en": "₹5.6 lakh."
+   }
+  },
+  {
+   "id": "u8.insurance.f12",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Depreciation on parts: rubber, nylon, plastic parts, tyres, tubes and batteries 50%; fibreglass parts 30%; glass parts nil."
+   },
+   "why": {
+    "en": "Owner gets new parts, so a share of the cost is borne by them."
+   },
+   "recall_q": {
+    "en": "Depreciation on glass parts in a claim?"
+   },
+   "recall_a": {
+    "en": "Nil."
+   },
+   "explain_simple": {
+    "en": "Rubber 50%, fibre 30%, glass 0%."
+   }
+  },
+  {
+   "id": "u8.insurance.f13",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Metal parts depreciation by age: under 6 months nil, 6 months–1 year 5%, 1–2 years 10%, 2–3 years 15%, 3–4 years 25%, 4–5 years 35%, 5–10 years 40%, over 10 years 50%."
+   },
+   "why": {
+    "en": "Metal parts last long, so depreciation rises slowly."
+   },
+   "recall_q": {
+    "en": "Depreciation on metal parts for a 3½-year-old car?"
+   },
+   "recall_a": {
+    "en": "25%."
+   },
+   "explain_simple": {
+    "en": "Metal parts: older, more cut."
+   }
+  },
+  {
+   "id": "u8.insurance.f14",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Zero depreciation is an add-on cover. With it, the insurer pays the full cost of replaced parts without deducting depreciation."
+   },
+   "why": {
+    "en": "It reduces what the owner pays from pocket."
+   },
+   "recall_q": {
+    "en": "Which add-on removes depreciation deduction?"
+   },
+   "recall_a": {
+    "en": "Zero depreciation (nil dep) cover."
+   },
+   "explain_simple": {
+    "en": "Zero dep = full part cost paid."
+   }
+  },
+  {
+   "id": "u8.insurance.f15",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Constructive total loss (CTL): when repair cost plus salvage handling exceeds 75% of IDV, the vehicle is treated as a total loss."
+   },
+   "why": {
+    "en": "Repairing would cost nearly as much as the vehicle."
+   },
+   "recall_q": {
+    "en": "Repair cost above what percent of IDV makes it a total loss?"
+   },
+   "recall_a": {
+    "en": "75%."
+   },
+   "explain_simple": {
+    "en": "Repair too costly = total loss."
+   }
+  },
+  {
+   "id": "u8.insurance.f16",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Salvage is the value of the damaged vehicle or parts left after the loss. It goes to the insurer or is deducted from the claim."
+   },
+   "why": {
+    "en": "The owner should not gain from the loss."
+   },
+   "recall_q": {
+    "en": "Value of damaged parts left after a loss is?"
+   },
+   "recall_a": {
+    "en": "Salvage."
+   },
+   "explain_simple": {
+    "en": "Salvage = what the wreck is still worth."
+   }
+  },
+  {
+   "id": "u8.insurance.f17",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "No Claim Bonus (NCB) is a discount on the own-damage premium for claim-free years: 20%, 25%, 35%, 45%, then 50% after five years."
+   },
+   "why": {
+    "en": "It rewards careful drivers."
+   },
+   "recall_q": {
+    "en": "Maximum NCB?"
+   },
+   "recall_a": {
+    "en": "50% (after 5 claim-free years)."
+   },
+   "explain_simple": {
+    "en": "No claim = cheaper next year."
+   }
+  },
+  {
+   "id": "u8.insurance.f18",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "NCB belongs to the owner, not the vehicle. It can be moved to a new vehicle. It is lost when a claim is made."
+   },
+   "why": {
+    "en": "PSC trap: NCB is not lost when you sell the car."
+   },
+   "recall_q": {
+    "en": "Does NCB go with the vehicle on sale?"
+   },
+   "recall_a": {
+    "en": "No, it stays with the owner."
+   },
+   "explain_simple": {
+    "en": "NCB follows the person."
+   }
+  },
+  {
+   "id": "u8.insurance.f19",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compulsory deductible (excess) is the fixed amount the owner pays in every own-damage claim, such as ₹1,000 for private cars up to 1,500 cc."
+   },
+   "why": {
+    "en": "It stops very small claims."
+   },
+   "recall_q": {
+    "en": "What is compulsory deductible?"
+   },
+   "recall_a": {
+    "en": "Fixed part of each claim borne by the owner."
+   },
+   "explain_simple": {
+    "en": "You pay the first small part."
+   }
+  },
+  {
+   "id": "u8.insurance.f20",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Factors in assessing loss: cause matches the accident story, extent of damage, repair or replace, depreciation, salvage, policy conditions and valid DL and permit."
+   },
+   "why": {
+    "en": "The surveyor must find a fair and true amount."
+   },
+   "recall_q": {
+    "en": "Give three factors a surveyor checks."
+   },
+   "recall_a": {
+    "en": "Cause, extent of damage, depreciation, salvage, policy terms."
+   },
+   "explain_simple": {
+    "en": "Is it true, how much, what deductions."
+   }
+  },
+  {
+   "id": "u8.insurance.f21",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A claim can be refused if the driver had no valid licence, was drunk, or the vehicle was used for a purpose not covered, such as hire use under a private policy."
+   },
+   "why": {
+    "en": "These break the policy conditions."
+   },
+   "recall_q": {
+    "en": "Give one reason an own-damage claim can be refused."
+   },
+   "recall_a": {
+    "en": "No valid DL, drunk driving, or misuse of vehicle."
+   },
+   "explain_simple": {
+    "en": "Break the rules, lose the claim."
+   }
+  },
+  {
+   "id": "u8.insurance.f22",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Insurance principles: utmost good faith, insurable interest, indemnity, subrogation, contribution and proximate cause."
+   },
+   "why": {
+    "en": "Every claim decision rests on these."
+   },
+   "recall_q": {
+    "en": "Name the principle that says insurance only puts you back where you were."
+   },
+   "recall_a": {
+    "en": "Indemnity."
+   },
+   "explain_simple": {
+    "en": "Insurance repairs loss, gives no profit."
+   }
+  },
+  {
+   "id": "u8.insurance.f23",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Subrogation: after paying the claim, the insurer gets the owner's right to recover money from the person who caused the loss."
+   },
+   "why": {
+    "en": "The owner cannot be paid twice."
+   },
+   "recall_q": {
+    "en": "Insurer taking the insured's right to recover is called?"
+   },
+   "recall_a": {
+    "en": "Subrogation."
+   },
+   "explain_simple": {
+    "en": "Insurer steps into your shoes."
+   }
+  },
+  {
+   "id": "u8.insurance.f24",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Claim steps: tell the insurer quickly, file FIR if needed (theft, injury), survey, approval, repair, re-inspection, payment."
+   },
+   "why": {
+    "en": "Late notice can weaken the claim."
+   },
+   "recall_q": {
+    "en": "First step after an accident for an insurance claim?"
+   },
+   "recall_a": {
+    "en": "Inform the insurance company."
+   },
+   "explain_simple": {
+    "en": "Tell insurer first."
+   }
+  },
+  {
+   "id": "u8.insurance.f25",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Theft claim needs FIR, all keys, RC, and a non-traceable report from police. It is settled on IDV."
+   },
+   "why": {
+    "en": "Proof that the vehicle is really lost."
+   },
+   "recall_q": {
+    "en": "Police document needed to settle a theft claim?"
+   },
+   "recall_a": {
+    "en": "Non-traceable (untraced) report, with FIR."
+   },
+   "explain_simple": {
+    "en": "Theft: FIR, keys, police untraced report."
+   }
+  },
+  {
+   "id": "u8.insurance.f26",
+   "topic": "u8.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Premium depends on IDV, engine cc, age, zone (city), NCB, add-ons and voluntary deductible. Third-party premium rates are fixed by IRDAI."
+   },
+   "why": {
+    "en": "More risk and higher value mean higher premium."
+   },
+   "recall_q": {
+    "en": "Who fixes third-party premium rates?"
+   },
+   "recall_a": {
+    "en": "IRDAI (with the Government)."
+   },
+   "explain_simple": {
+    "en": "Bigger, costlier car pays more."
+   }
+  },
+  {
+   "id": "u8.insurance.sum",
+   "topic": "u8.insurance",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor insurance and surveying; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Motor insurance and surveying"
+   },
+   "points": [
+    {
+     "en": "TP insurance compulsory (Sec 146); TP life cover unlimited."
+    },
+    {
+     "en": "IDV = price − age depreciation (5% to 50%)."
+    },
+    {
+     "en": "Rubber, tyres 50%; fibre 30%; glass nil."
+    },
+    {
+     "en": "Surveyor needed above ₹50,000; CTL above 75% of IDV."
+    },
+    {
+     "en": "NCB 20% to 50%; stays with owner."
+    }
+   ]
+  },
+  {
+   "id": "u8.efi.f01",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Electronic fuel injection (EFI) sprays fuel through injectors that an electronic control unit (ECU) controls. It replaced the carburettor."
+   },
+   "why": {
+    "en": "The ECU meters fuel exactly for every condition."
+   },
+   "recall_q": {
+    "en": "What replaced the carburettor in modern petrol engines?"
+   },
+   "recall_a": {
+    "en": "Electronic fuel injection (EFI)."
+   },
+   "explain_simple": {
+    "en": "Computer-controlled fuel spray."
+   }
+  },
+  {
+   "id": "u8.efi.f02",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Advantages of EFI: better mileage, lower emissions, easy cold start, more power, smooth running and no carburettor icing."
+   },
+   "why": {
+    "en": "Exact fuel quantity means less waste."
+   },
+   "recall_q": {
+    "en": "Give two advantages of EFI over carburettor."
+   },
+   "recall_a": {
+    "en": "Better economy, lower emissions, easy cold start."
+   },
+   "explain_simple": {
+    "en": "Less fuel, less smoke, easy start."
+   }
+  },
+  {
+   "id": "u8.efi.f03",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Throttle body injection (TBI) is single-point injection: one or two injectors placed at the throttle body, feeding all cylinders."
+   },
+   "why": {
+    "en": "It is cheap and simple, like an electronic carburettor."
+   },
+   "recall_q": {
+    "en": "Single-point injection is also called?"
+   },
+   "recall_a": {
+    "en": "Throttle body injection (TBI)."
+   },
+   "explain_simple": {
+    "en": "One injector for all cylinders."
+   }
+  },
+  {
+   "id": "u8.efi.f04",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "MPFI (multi-point fuel injection) has one injector for each cylinder, spraying into the intake port just before the inlet valve."
+   },
+   "why": {
+    "en": "Each cylinder gets equal fuel."
+   },
+   "recall_q": {
+    "en": "Where does an MPFI injector spray fuel?"
+   },
+   "recall_a": {
+    "en": "Into the intake port, just before the inlet valve."
+   },
+   "explain_simple": {
+    "en": "One injector per cylinder, at the port."
+   }
+  },
+  {
+   "id": "u8.efi.f05",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "MPFI injection timing: simultaneous (all at once), group or batch (in groups) and sequential (each injector in firing order)."
+   },
+   "why": {
+    "en": "Sequential gives the best control."
+   },
+   "recall_q": {
+    "en": "Which MPFI type fires injectors in firing order?"
+   },
+   "recall_a": {
+    "en": "Sequential injection."
+   },
+   "explain_simple": {
+    "en": "Sequential = one by one, in order."
+   }
+  },
+  {
+   "id": "u8.efi.f06",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "GDI (gasoline direct injection) sprays petrol directly into the combustion chamber at high pressure (about 50–200 bar)."
+   },
+   "why": {
+    "en": "It allows lean stratified burning and higher compression."
+   },
+   "recall_q": {
+    "en": "In GDI, fuel is injected into?"
+   },
+   "recall_a": {
+    "en": "The combustion chamber directly."
+   },
+   "explain_simple": {
+    "en": "Petrol sprayed straight into the cylinder."
+   }
+  },
+  {
+   "id": "u8.efi.f07",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fuel supply in EFI: electric fuel pump in the tank → filter → fuel rail → injectors. A pressure regulator keeps about 3 bar."
+   },
+   "why": {
+    "en": "Steady pressure means fuel quantity depends only on opening time."
+   },
+   "recall_q": {
+    "en": "Where is the electric fuel pump usually fitted?"
+   },
+   "recall_a": {
+    "en": "Inside the fuel tank."
+   },
+   "explain_simple": {
+    "en": "Pump in tank pushes fuel to injectors."
+   }
+  },
+  {
+   "id": "u8.efi.f08",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An injector is a solenoid valve. The ECU opens it for a few milliseconds; this time is called pulse width. Longer pulse width gives more fuel."
+   },
+   "why": {
+    "en": "Fuel quantity is controlled by time."
+   },
+   "recall_q": {
+    "en": "What decides the quantity of fuel from an injector?"
+   },
+   "recall_a": {
+    "en": "Pulse width (opening time)."
+   },
+   "explain_simple": {
+    "en": "Open longer = more fuel."
+   }
+  },
+  {
+   "id": "u8.efi.f09",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The ECU (ECM) is the brain. It reads sensors (inputs), decides, and drives actuators (outputs) like injectors and ignition coils."
+   },
+   "why": {
+    "en": "Input → process → output."
+   },
+   "recall_q": {
+    "en": "Sensors are ECU inputs or outputs?"
+   },
+   "recall_a": {
+    "en": "Inputs."
+   },
+   "explain_simple": {
+    "en": "Sensors tell; ECU thinks; actuators act."
+   }
+  },
+  {
+   "id": "u8.efi.f10",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Open loop: ECU uses fixed maps without O2 feedback (cold start, full throttle). Closed loop: ECU corrects fuel using the oxygen sensor."
+   },
+   "why": {
+    "en": "Closed loop keeps the mixture near 14.7:1 for the catalyst."
+   },
+   "recall_q": {
+    "en": "Which sensor makes closed-loop control possible?"
+   },
+   "recall_a": {
+    "en": "Oxygen (lambda) sensor."
+   },
+   "explain_simple": {
+    "en": "Closed loop = ECU checks exhaust and corrects."
+   }
+  },
+  {
+   "id": "u8.efi.f11",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stoichiometric air-fuel ratio for petrol is 14.7:1 by mass. Lambda (λ) = actual AFR ÷ 14.7. λ = 1 is ideal; above 1 lean; below 1 rich."
+   },
+   "why": {
+    "en": "The three-way catalyst works best at λ = 1."
+   },
+   "recall_q": {
+    "en": "λ greater than 1 means the mixture is?"
+   },
+   "recall_a": {
+    "en": "Lean."
+   },
+   "explain_simple": {
+    "en": "λ 1 = perfect, more = lean, less = rich."
+   }
+  },
+  {
+   "id": "u8.efi.s01",
+   "topic": "u8.efi",
+   "type": "steps",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: lambda"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A petrol engine runs at AFR 16:1. Find λ and say rich or lean."
+     }
+    },
+    {
+     "text": {
+      "en": "λ = actual AFR ÷ stoichiometric AFR."
+     }
+    },
+    {
+     "text": {
+      "en": "λ = 16 ÷ 14.7 = 1.09."
+     }
+    },
+    {
+     "text": {
+      "en": "λ is above 1, so the mixture is lean."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "λ = AFR / 14.7 for petrol."
+    },
+    {
+     "en": "Above 1 lean, below 1 rich."
+    }
+   ],
+   "recall_q": {
+    "en": "AFR 16:1 petrol. λ and type?"
+   },
+   "recall_a": {
+    "en": "1.09, lean."
+   }
+  },
+  {
+   "id": "u8.efi.f12",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "MAF sensor (mass air flow) measures air entering the engine. Hot-wire type: incoming air cools a heated wire; more current needed means more air."
+   },
+   "why": {
+    "en": "ECU must know the air mass to add the right fuel."
+   },
+   "recall_q": {
+    "en": "Working principle of a hot-wire MAF sensor?"
+   },
+   "recall_a": {
+    "en": "Air cools a heated wire; current to keep it hot shows air mass."
+   },
+   "explain_simple": {
+    "en": "More air cools the wire more."
+   }
+  },
+  {
+   "id": "u8.efi.f13",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "MAP sensor (manifold absolute pressure) measures pressure (vacuum) in the intake manifold. ECU uses it with rpm to estimate engine load (speed-density method)."
+   },
+   "why": {
+    "en": "Cheaper than a MAF sensor."
+   },
+   "recall_q": {
+    "en": "What does the MAP sensor measure?"
+   },
+   "recall_a": {
+    "en": "Intake manifold absolute pressure (engine load)."
+   },
+   "explain_simple": {
+    "en": "Manifold vacuum shows load."
+   }
+  },
+  {
+   "id": "u8.efi.f14",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Throttle position sensor (TPS) is a potentiometer on the throttle shaft. It tells the ECU how much the throttle is open."
+   },
+   "why": {
+    "en": "Sudden opening needs extra fuel (acceleration enrichment)."
+   },
+   "recall_q": {
+    "en": "TPS is which type of sensor?"
+   },
+   "recall_a": {
+    "en": "Potentiometer (variable resistor)."
+   },
+   "explain_simple": {
+    "en": "TPS tells how far you pressed."
+   }
+  },
+  {
+   "id": "u8.efi.f15",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Coolant temperature sensor is an NTC thermistor: its resistance falls as temperature rises. A cold engine gets a richer mixture."
+   },
+   "why": {
+    "en": "Cold fuel vaporises poorly."
+   },
+   "recall_q": {
+    "en": "Resistance of an NTC coolant sensor when the engine heats up?"
+   },
+   "recall_a": {
+    "en": "It decreases."
+   },
+   "explain_simple": {
+    "en": "Hotter = less resistance."
+   }
+  },
+  {
+   "id": "u8.efi.f16",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Intake air temperature (IAT) sensor is also an NTC thermistor. Cold air is denser, so the ECU adds more fuel."
+   },
+   "why": {
+    "en": "Fuel must match the air mass."
+   },
+   "recall_q": {
+    "en": "Why does the ECU need intake air temperature?"
+   },
+   "recall_a": {
+    "en": "Air density changes with temperature."
+   },
+   "explain_simple": {
+    "en": "Cold air needs more fuel."
+   }
+  },
+  {
+   "id": "u8.efi.f17",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oxygen (lambda) sensor sits in the exhaust. The zirconia type makes 0.1 to 0.9 V: high voltage (about 0.9 V) means rich, low (about 0.1 V) means lean."
+   },
+   "why": {
+    "en": "It tells the ECU if burning was rich or lean."
+   },
+   "recall_q": {
+    "en": "Zirconia O2 sensor output for a rich mixture?"
+   },
+   "recall_a": {
+    "en": "High, about 0.8–0.9 V."
+   },
+   "explain_simple": {
+    "en": "Rich = high voltage."
+   }
+  },
+  {
+   "id": "u8.efi.f18",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Crankshaft position sensor (CKP) gives engine speed and piston position. If it fails, there is no spark or injection, so the engine will not start."
+   },
+   "why": {
+    "en": "Timing of spark and fuel depends on it."
+   },
+   "recall_q": {
+    "en": "Failure of which sensor causes a no-start in EFI?"
+   },
+   "recall_a": {
+    "en": "Crankshaft position sensor."
+   },
+   "explain_simple": {
+    "en": "No CKP signal, no start."
+   }
+  },
+  {
+   "id": "u8.efi.f19",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Camshaft position sensor (CMP) tells which cylinder is on its compression stroke. It is needed for sequential injection."
+   },
+   "why": {
+    "en": "Crank turns twice per cycle; cam tells which turn."
+   },
+   "recall_q": {
+    "en": "Which sensor identifies cylinder 1 for sequential injection?"
+   },
+   "recall_a": {
+    "en": "Camshaft position sensor."
+   },
+   "explain_simple": {
+    "en": "Cam sensor says which cylinder is next."
+   }
+  },
+  {
+   "id": "u8.efi.f20",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Knock sensor is a piezoelectric sensor on the block. When it detects knocking, the ECU retards the ignition timing."
+   },
+   "why": {
+    "en": "Knock can break pistons."
+   },
+   "recall_q": {
+    "en": "ECU response to a knock signal?"
+   },
+   "recall_a": {
+    "en": "Retard ignition timing."
+   },
+   "explain_simple": {
+    "en": "Knock heard, spark delayed."
+   }
+  },
+  {
+   "id": "u8.efi.f21",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hall effect and inductive (magnetic) sensors are used for crank, cam and wheel speed. Inductive sensors make AC voltage; Hall sensors give a digital square wave."
+   },
+   "why": {
+    "en": "Both turn rotation into electric pulses."
+   },
+   "recall_q": {
+    "en": "Which sensor type gives a square-wave digital output?"
+   },
+   "recall_a": {
+    "en": "Hall effect sensor."
+   },
+   "explain_simple": {
+    "en": "Hall = on/off pulses."
+   }
+  },
+  {
+   "id": "u8.efi.f22",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Actuators in EFI: injectors, idle air control valve, ignition coils, fuel pump relay, electronic throttle motor, EGR valve and canister purge valve."
+   },
+   "why": {
+    "en": "These carry out the ECU's orders."
+   },
+   "recall_q": {
+    "en": "Name two actuators in an EFI system."
+   },
+   "recall_a": {
+    "en": "Injectors, idle air control valve, ignition coil."
+   },
+   "explain_simple": {
+    "en": "Actuators do the work."
+   }
+  },
+  {
+   "id": "u8.efi.f23",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Idle air control (IAC) valve lets a little air bypass the closed throttle to keep idle speed steady when AC or lights are switched on."
+   },
+   "why": {
+    "en": "Extra load would otherwise stall the engine."
+   },
+   "recall_q": {
+    "en": "Function of the IAC valve?"
+   },
+   "recall_a": {
+    "en": "Control idle speed by bypass air."
+   },
+   "explain_simple": {
+    "en": "Keeps idle steady."
+   }
+  },
+  {
+   "id": "u8.efi.f24",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Drive-by-wire (electronic throttle control): the accelerator pedal has a sensor, and a motor opens the throttle. There is no cable."
+   },
+   "why": {
+    "en": "Allows cruise control and traction control."
+   },
+   "recall_q": {
+    "en": "In drive-by-wire, what opens the throttle?"
+   },
+   "recall_a": {
+    "en": "An electric motor controlled by the ECU."
+   },
+   "explain_simple": {
+    "en": "Pedal sends signal, motor opens throttle."
+   }
+  },
+  {
+   "id": "u8.efi.f25",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "If a sensor fails, the ECU uses default values (limp home mode) and lights the MIL (check engine light)."
+   },
+   "why": {
+    "en": "The driver can still reach a workshop."
+   },
+   "recall_q": {
+    "en": "What is limp home mode?"
+   },
+   "recall_a": {
+    "en": "Safe reduced running using default values after a fault."
+   },
+   "explain_simple": {
+    "en": "Runs weakly so you get home."
+   }
+  },
+  {
+   "id": "u8.efi.f26",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "OBD (on-board diagnostics) stores fault codes (DTCs like P0301). A scan tool reads them through the 16-pin OBD-II connector. OBD-II is compulsory with BS-VI."
+   },
+   "why": {
+    "en": "Fast and accurate fault finding."
+   },
+   "recall_q": {
+    "en": "Fault codes are read through which port?"
+   },
+   "recall_a": {
+    "en": "OBD-II diagnostic connector (16-pin)."
+   },
+   "explain_simple": {
+    "en": "Plug scanner, read fault code."
+   }
+  },
+  {
+   "id": "u8.efi.f27",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "CRDI (common rail direct injection) is the diesel system where a high-pressure pump keeps fuel in a common rail. ECU-controlled injectors spray it into each cylinder."
+   },
+   "why": {
+    "en": "Injection pressure is the same at any engine speed."
+   },
+   "recall_q": {
+    "en": "Full form of CRDI?"
+   },
+   "recall_a": {
+    "en": "Common Rail Direct Injection."
+   },
+   "explain_simple": {
+    "en": "One high-pressure pipe feeds all injectors."
+   }
+  },
+  {
+   "id": "u8.efi.f28",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "CRDI pressure is very high: about 1,350 to 2,000 bar or more. Very fine spray burns cleaner."
+   },
+   "why": {
+    "en": "Fine droplets mix quickly with air."
+   },
+   "recall_q": {
+    "en": "Typical CRDI rail pressure?"
+   },
+   "recall_a": {
+    "en": "About 1,350–2,000+ bar."
+   },
+   "explain_simple": {
+    "en": "Very high pressure, very fine spray."
+   }
+  },
+  {
+   "id": "u8.efi.f29",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "CRDI parts: low-pressure feed pump, high-pressure pump, common rail, rail pressure sensor, pressure control valve, solenoid or piezo injectors, ECU."
+   },
+   "why": {
+    "en": "Each keeps pressure and timing exact."
+   },
+   "recall_q": {
+    "en": "Which sensor tells the ECU the rail pressure?"
+   },
+   "recall_a": {
+    "en": "Rail pressure sensor."
+   },
+   "explain_simple": {
+    "en": "Pump, rail, sensor, injectors."
+   }
+  },
+  {
+   "id": "u8.efi.f30",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "CRDI can inject several times per cycle: pilot (small, before), main, and post injection."
+   },
+   "why": {
+    "en": "Pilot injection reduces diesel knock and noise; post helps DPF cleaning."
+   },
+   "recall_q": {
+    "en": "Why is pilot injection used?"
+   },
+   "recall_a": {
+    "en": "To reduce diesel knock and noise."
+   },
+   "explain_simple": {
+    "en": "A little fuel first, then the main shot."
+   }
+  },
+  {
+   "id": "u8.efi.f31",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Piezo injectors open faster than solenoid injectors, so they allow more precise and more injections per cycle."
+   },
+   "why": {
+    "en": "Piezo crystals change size instantly with voltage."
+   },
+   "recall_q": {
+    "en": "Which injector type responds fastest?"
+   },
+   "recall_a": {
+    "en": "Piezoelectric injector."
+   },
+   "explain_simple": {
+    "en": "Piezo = fastest injector."
+   }
+  },
+  {
+   "id": "u8.efi.f32",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Older diesel systems: inline pump, rotary (distributor) pump and unit injector. In these, pressure rises with engine speed."
+   },
+   "why": {
+    "en": "CRDI fixed this weakness."
+   },
+   "recall_q": {
+    "en": "Name one older diesel injection pump type."
+   },
+   "recall_a": {
+    "en": "Inline pump or rotary (distributor) pump."
+   },
+   "explain_simple": {
+    "en": "Old pumps: inline, rotary."
+   }
+  },
+  {
+   "id": "u8.efi.f33",
+   "topic": "u8.efi",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: the term 'MPFI' is for petrol engines; 'CRDI' is for diesel engines. Both are electronically controlled injection."
+   },
+   "why": {
+    "en": "Options often mix these up."
+   },
+   "recall_q": {
+    "en": "CRDI is used in petrol or diesel engines?"
+   },
+   "recall_a": {
+    "en": "Diesel engines."
+   },
+   "explain_simple": {
+    "en": "MPFI petrol, CRDI diesel."
+   }
+  },
+  {
+   "id": "u8.efi.sum",
+   "topic": "u8.efi",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electronic fuel injection, sensors and CRDI; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Electronic fuel injection, sensors and CRDI"
+   },
+   "points": [
+    {
+     "en": "TBI single point; MPFI port per cylinder; GDI into cylinder."
+    },
+    {
+     "en": "Injector quantity = pulse width; fuel pressure about 3 bar."
+    },
+    {
+     "en": "Sensors: MAF, MAP, TPS, ECT (NTC), O2, CKP, CMP, knock."
+    },
+    {
+     "en": "λ = AFR/14.7; closed loop uses O2 sensor."
+    },
+    {
+     "en": "CRDI: rail 1,350–2,000 bar; pilot, main, post injection."
+    }
+   ]
+  },
+  {
+   "id": "u8.pollution.f01",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Main pollutants from petrol engines are CO, HC and NOx. Diesel engines give mainly NOx and particulate matter (PM or soot)."
+   },
+   "why": {
+    "en": "Petrol engines run near ideal mixture; diesels run lean with smoke."
+   },
+   "recall_q": {
+    "en": "Main pollutants from a diesel engine?"
+   },
+   "recall_a": {
+    "en": "NOx and particulate matter (smoke)."
+   },
+   "explain_simple": {
+    "en": "Petrol: CO, HC, NOx. Diesel: NOx, soot."
+   }
+  },
+  {
+   "id": "u8.pollution.f02",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Sources of HC in a petrol car without controls: exhaust about 60%, crankcase blow-by about 20%, evaporation from tank and carburettor about 20%."
+   },
+   "why": {
+    "en": "Each source needs its own control device."
+   },
+   "recall_q": {
+    "en": "What share of HC comes from crankcase blow-by?"
+   },
+   "recall_a": {
+    "en": "About 20%."
+   },
+   "explain_simple": {
+    "en": "Exhaust 60, crankcase 20, evaporation 20."
+   }
+  },
+  {
+   "id": "u8.pollution.f03",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Carbon monoxide (CO) forms from incomplete burning with a rich mixture. It is colourless, odourless and poisonous; it binds with haemoglobin in blood."
+   },
+   "why": {
+    "en": "Blood then cannot carry oxygen."
+   },
+   "recall_q": {
+    "en": "CO is mainly formed by a rich or lean mixture?"
+   },
+   "recall_a": {
+    "en": "Rich mixture."
+   },
+   "explain_simple": {
+    "en": "Too much fuel makes CO."
+   }
+  },
+  {
+   "id": "u8.pollution.f04",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydrocarbons (HC) are unburnt fuel. They come from rich mixture, misfire, and fuel left near cold cylinder walls (quench layer)."
+   },
+   "why": {
+    "en": "HC causes smog and eye irritation."
+   },
+   "recall_q": {
+    "en": "Give one cause of high HC emission."
+   },
+   "recall_a": {
+    "en": "Misfire or rich mixture."
+   },
+   "explain_simple": {
+    "en": "Unburnt fuel comes out as HC."
+   }
+  },
+  {
+   "id": "u8.pollution.f05",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "NOx (oxides of nitrogen) forms at very high combustion temperature with extra oxygen. High compression and slightly lean mixtures increase NOx."
+   },
+   "why": {
+    "en": "Nitrogen in air reacts only when very hot."
+   },
+   "recall_q": {
+    "en": "Main cause of NOx formation?"
+   },
+   "recall_a": {
+    "en": "High combustion temperature with excess oxygen."
+   },
+   "explain_simple": {
+    "en": "Too hot burning makes NOx."
+   }
+  },
+  {
+   "id": "u8.pollution.f06",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In diesels there is a NOx–PM trade-off: cooler burning cuts NOx but raises soot, and hotter burning cuts soot but raises NOx."
+   },
+   "why": {
+    "en": "That is why diesels need both EGR/SCR and a DPF."
+   },
+   "recall_q": {
+    "en": "Reducing NOx in a diesel usually increases which pollutant?"
+   },
+   "recall_a": {
+    "en": "Particulate matter (soot)."
+   },
+   "explain_simple": {
+    "en": "Less NOx, more soot; less soot, more NOx."
+   }
+  },
+  {
+   "id": "u8.pollution.f07",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PCV (positive crankcase ventilation) valve sends blow-by gases from the crankcase back into the intake manifold to be burnt."
+   },
+   "why": {
+    "en": "It stops crankcase HC from going into the air."
+   },
+   "recall_q": {
+    "en": "Purpose of the PCV valve?"
+   },
+   "recall_a": {
+    "en": "Burn crankcase blow-by gases by sending them to the intake."
+   },
+   "explain_simple": {
+    "en": "Crankcase gas goes back to burn."
+   }
+  },
+  {
+   "id": "u8.pollution.f08",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "EVAP system: an activated charcoal canister stores fuel vapour from the tank. When the engine runs, the purge valve sends the vapour to the intake to burn."
+   },
+   "why": {
+    "en": "Stops evaporative HC loss."
+   },
+   "recall_q": {
+    "en": "Material in an EVAP canister?"
+   },
+   "recall_a": {
+    "en": "Activated charcoal (carbon)."
+   },
+   "explain_simple": {
+    "en": "Charcoal catches petrol vapour."
+   }
+  },
+  {
+   "id": "u8.pollution.f09",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "EGR (exhaust gas recirculation) sends a small part of exhaust gas (about 5–15%) back into the intake."
+   },
+   "why": {
+    "en": "Inert gas lowers peak combustion temperature, so NOx falls."
+   },
+   "recall_q": {
+    "en": "EGR mainly reduces which pollutant?"
+   },
+   "recall_a": {
+    "en": "NOx."
+   },
+   "explain_simple": {
+    "en": "Some exhaust back in, flame cooler, less NOx."
+   }
+  },
+  {
+   "id": "u8.pollution.f10",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "EGR is closed at idle and at full throttle. It works at part load and cruising."
+   },
+   "why": {
+    "en": "At idle it causes rough running; at full throttle power is needed."
+   },
+   "recall_q": {
+    "en": "Is EGR active at idle?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "EGR works when cruising."
+   }
+  },
+  {
+   "id": "u8.pollution.f11",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A three-way catalytic converter changes CO to CO₂, HC to CO₂ and water, and NOx to nitrogen, all at once."
+   },
+   "why": {
+    "en": "Three pollutants, one device."
+   },
+   "recall_q": {
+    "en": "Three pollutants controlled by a three-way catalyst?"
+   },
+   "recall_a": {
+    "en": "CO, HC and NOx."
+   },
+   "explain_simple": {
+    "en": "Turns three bad gases into safe ones."
+   }
+  },
+  {
+   "id": "u8.pollution.f12",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Catalysts used: platinum and palladium for oxidation (CO, HC); rhodium for reduction of NOx."
+   },
+   "why": {
+    "en": "Rhodium is the PSC answer for NOx reduction."
+   },
+   "recall_q": {
+    "en": "Which metal in a catalytic converter reduces NOx?"
+   },
+   "recall_a": {
+    "en": "Rhodium."
+   },
+   "explain_simple": {
+    "en": "Pt, Pd burn; Rh reduces NOx."
+   }
+  },
+  {
+   "id": "u8.pollution.f13",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Catalytic converter body is a ceramic honeycomb (cordierite) or metal monolith with an alumina washcoat holding the precious metals."
+   },
+   "why": {
+    "en": "Honeycomb gives a large surface in a small space."
+   },
+   "recall_q": {
+    "en": "Material of the honeycomb in a catalytic converter?"
+   },
+   "recall_a": {
+    "en": "Ceramic (cordierite)."
+   },
+   "explain_simple": {
+    "en": "Honeycomb gives big surface."
+   }
+  },
+  {
+   "id": "u8.pollution.f14",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A catalytic converter starts working above about 250–300 °C (light-off temperature). It needs λ close to 1."
+   },
+   "why": {
+    "en": "Cold starts give most of the pollution."
+   },
+   "recall_q": {
+    "en": "What is light-off temperature?"
+   },
+   "recall_a": {
+    "en": "Temperature at which the catalyst starts working (about 250–300 °C)."
+   },
+   "explain_simple": {
+    "en": "Catalyst works only when hot."
+   }
+  },
+  {
+   "id": "u8.pollution.f15",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Leaded petrol poisons the catalytic converter. Misfire overheats and melts it. Leaded petrol was banned in India from 2000."
+   },
+   "why": {
+    "en": "Lead coats the catalyst so gases can't touch it."
+   },
+   "recall_q": {
+    "en": "What fuel additive poisons a catalytic converter?"
+   },
+   "recall_a": {
+    "en": "Lead."
+   },
+   "explain_simple": {
+    "en": "Lead kills the catalyst."
+   }
+  },
+  {
+   "id": "u8.pollution.f16",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A two-way (oxidation) catalyst controls only CO and HC. Diesels use a diesel oxidation catalyst (DOC)."
+   },
+   "why": {
+    "en": "Diesel exhaust has too much oxygen to reduce NOx in a normal catalyst."
+   },
+   "recall_q": {
+    "en": "Two-way catalyst controls which pollutants?"
+   },
+   "recall_a": {
+    "en": "CO and HC."
+   },
+   "explain_simple": {
+    "en": "Two-way: CO and HC only."
+   }
+  },
+  {
+   "id": "u8.pollution.f17",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Afterburner (thermal reactor) burns leftover CO and HC in the hot exhaust manifold with extra air supplied by air injection."
+   },
+   "why": {
+    "en": "A second burning cleans the exhaust."
+   },
+   "recall_q": {
+    "en": "What does an afterburner do?"
+   },
+   "recall_a": {
+    "en": "Burns remaining CO and HC in the exhaust with added air."
+   },
+   "explain_simple": {
+    "en": "Burns leftovers in the exhaust."
+   }
+  },
+  {
+   "id": "u8.pollution.f18",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel particulate filter (DPF) traps soot. It cleans itself by burning the soot (regeneration) at high temperature."
+   },
+   "why": {
+    "en": "Soot harms lungs."
+   },
+   "recall_q": {
+    "en": "Process of burning soot in a DPF is called?"
+   },
+   "recall_a": {
+    "en": "Regeneration."
+   },
+   "explain_simple": {
+    "en": "Filter traps soot, then burns it."
+   }
+  },
+  {
+   "id": "u8.pollution.f19",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "SCR (selective catalytic reduction) sprays urea solution (AdBlue or DEF, 32.5% urea) into the exhaust. It forms ammonia, which turns NOx into nitrogen and water."
+   },
+   "why": {
+    "en": "Best NOx control for BS-VI diesels."
+   },
+   "recall_q": {
+    "en": "Liquid used in an SCR system?"
+   },
+   "recall_a": {
+    "en": "Urea solution (AdBlue/DEF, 32.5%)."
+   },
+   "explain_simple": {
+    "en": "Urea cleans NOx."
+   }
+  },
+  {
+   "id": "u8.pollution.f20",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel smoke colours: black = incomplete burning (overload, faulty injector, rich); blue = lube oil burning; white = unburnt fuel at cold start or water in fuel."
+   },
+   "why": {
+    "en": "Colour tells the fault."
+   },
+   "recall_q": {
+    "en": "Blue smoke from the exhaust indicates?"
+   },
+   "recall_a": {
+    "en": "Lubricating oil burning."
+   },
+   "explain_simple": {
+    "en": "Black fuel, blue oil, white cold/water."
+   }
+  },
+  {
+   "id": "u8.pollution.f21",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel smoke is measured with a smoke meter. Hartridge type measures light absorption (opacity); Bosch type uses filter paper blackening."
+   },
+   "why": {
+    "en": "PUC test for diesels checks smoke density."
+   },
+   "recall_q": {
+    "en": "Hartridge smoke meter works on?"
+   },
+   "recall_a": {
+    "en": "Light absorption (opacity)."
+   },
+   "explain_simple": {
+    "en": "Smoke blocks light; meter measures it."
+   }
+  },
+  {
+   "id": "u8.pollution.f22",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel PUC test is a free acceleration smoke test. Result is the light absorption coefficient k in m⁻¹."
+   },
+   "why": {
+    "en": "Quick, needs no load."
+   },
+   "recall_q": {
+    "en": "Unit of smoke density in diesel PUC test?"
+   },
+   "recall_a": {
+    "en": "m⁻¹ (light absorption coefficient)."
+   },
+   "explain_simple": {
+    "en": "Rev it fast, measure smoke."
+   }
+  },
+  {
+   "id": "u8.pollution.f23",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exhaust gas analysers use NDIR (non-dispersive infrared) to measure CO, CO₂ and HC in petrol vehicles."
+   },
+   "why": {
+    "en": "Each gas absorbs infrared at its own wavelength."
+   },
+   "recall_q": {
+    "en": "Principle of a petrol exhaust gas analyser?"
+   },
+   "recall_a": {
+    "en": "NDIR (non-dispersive infrared)."
+   },
+   "explain_simple": {
+    "en": "Infrared light finds the gases."
+   }
+  },
+  {
+   "id": "u8.pollution.f24",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Lab methods: FID (flame ionisation detector) for HC and chemiluminescence for NOx."
+   },
+   "why": {
+    "en": "Higher accuracy for type approval tests."
+   },
+   "recall_q": {
+    "en": "NOx is measured in labs by?"
+   },
+   "recall_a": {
+    "en": "Chemiluminescence analyser."
+   },
+   "explain_simple": {
+    "en": "FID for HC, chemiluminescence for NOx."
+   }
+  },
+  {
+   "id": "u8.pollution.f25",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PUC limits for BS-IV and later petrol 4-wheelers: idle CO 0.3% and HC 200 ppm; at high idle CO 0.2% and λ 1 ± 0.03."
+   },
+   "why": {
+    "en": "Check current Rule 115 CMVR values before the exam."
+   },
+   "recall_q": {
+    "en": "Idle CO limit for BS-IV petrol car in PUC test?"
+   },
+   "recall_a": {
+    "en": "0.3%."
+   },
+   "explain_simple": {
+    "en": "BS-IV car: CO 0.3% at idle."
+   }
+  },
+  {
+   "id": "u8.pollution.f26",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bharat Stage (BS) norms are India's emission standards, based on European (Euro) norms. They are set by the central government under CMVR."
+   },
+   "why": {
+    "en": "Each new stage cuts the allowed pollution."
+   },
+   "recall_q": {
+    "en": "Bharat Stage norms are based on?"
+   },
+   "recall_a": {
+    "en": "European (Euro) emission norms."
+   },
+   "explain_simple": {
+    "en": "BS = India's version of Euro norms."
+   }
+  },
+  {
+   "id": "u8.pollution.f27",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Timeline: BS-I (India 2000) in 2000, BS-IV across India from April 2017, BS-V skipped, BS-VI across India from 1 April 2020."
+   },
+   "why": {
+    "en": "PSC asks which stage was skipped and the BS-VI date."
+   },
+   "recall_q": {
+    "en": "Which Bharat Stage was skipped?"
+   },
+   "recall_a": {
+    "en": "BS-V."
+   },
+   "explain_simple": {
+    "en": "Jumped from BS-IV to BS-VI in 2020."
+   }
+  },
+  {
+   "id": "u8.pollution.f28",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "BS-VI fuel has only 10 ppm sulphur, against 50 ppm in BS-IV fuel."
+   },
+   "why": {
+    "en": "Low sulphur is needed for DPF and SCR to work."
+   },
+   "recall_q": {
+    "en": "Sulphur content in BS-VI fuel?"
+   },
+   "recall_a": {
+    "en": "10 ppm."
+   },
+   "explain_simple": {
+    "en": "BS-VI fuel: 10 ppm sulphur."
+   }
+  },
+  {
+   "id": "u8.pollution.f29",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "BS-VI Phase 2 (April 2023) added Real Driving Emission (RDE) tests and on-board monitoring of emissions."
+   },
+   "why": {
+    "en": "Lab results must match real roads."
+   },
+   "recall_q": {
+    "en": "What did BS-VI phase 2 add?"
+   },
+   "recall_a": {
+    "en": "Real Driving Emission (RDE) testing and on-board monitoring."
+   },
+   "explain_simple": {
+    "en": "Test on real roads too."
+   }
+  },
+  {
+   "id": "u8.pollution.f30",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PUC (Pollution Under Control) certificate shows that the vehicle passed the emission test. Driving without a valid PUC is an offence."
+   },
+   "why": {
+    "en": "Regular checks keep old vehicles in limits."
+   },
+   "recall_q": {
+    "en": "Full form of PUC?"
+   },
+   "recall_a": {
+    "en": "Pollution Under Control."
+   },
+   "explain_simple": {
+    "en": "PUC = passed smoke test."
+   }
+  },
+  {
+   "id": "u8.pollution.f31",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Noise is measured with a sound level meter in dB(A). Pressure horns and multi-tone horns are banned; changing the silencer to make noise is an offence."
+   },
+   "why": {
+    "en": "Noise harms hearing and health."
+   },
+   "recall_q": {
+    "en": "Unit of vehicle noise measurement?"
+   },
+   "recall_a": {
+    "en": "dB(A) (decibel, A-weighted)."
+   },
+   "explain_simple": {
+    "en": "Noise measured in decibels."
+   }
+  },
+  {
+   "id": "u8.pollution.f32",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cleaner fuels: CNG and LPG give less CO and PM. Ethanol blending (E20, 20% ethanol in petrol) cuts imports and emissions."
+   },
+   "why": {
+    "en": "Fuel choice also controls pollution."
+   },
+   "recall_q": {
+    "en": "What does E20 mean?"
+   },
+   "recall_a": {
+    "en": "Petrol with 20% ethanol."
+   },
+   "explain_simple": {
+    "en": "E20 = 20% ethanol."
+   }
+  },
+  {
+   "id": "u8.pollution.s01",
+   "topic": "u8.pollution",
+   "type": "steps",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "How a three-way catalytic converter cleans exhaust"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Exhaust with CO, HC and NOx enters the hot honeycomb."
+     },
+     "explain": {
+      "en": "It must be above light-off temperature."
+     }
+    },
+    {
+     "text": {
+      "en": "Rhodium takes oxygen from NOx, leaving nitrogen (N₂)."
+     }
+    },
+    {
+     "text": {
+      "en": "That oxygen, with platinum or palladium, burns CO to CO₂ and HC to CO₂ and water."
+     }
+    },
+    {
+     "text": {
+      "en": "The O2 sensor helps the ECU keep λ near 1, so both reactions can happen."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "Reduction: NOx → N₂ (rhodium)."
+    },
+    {
+     "en": "Oxidation: CO, HC → CO₂, H₂O (Pt, Pd)."
+    },
+    {
+     "en": "Needs heat and λ ≈ 1."
+    }
+   ],
+   "recall_q": {
+    "en": "Why must λ stay near 1 for a three-way catalyst?"
+   },
+   "recall_a": {
+    "en": "So oxidation of CO/HC and reduction of NOx both happen."
+   }
+  },
+  {
+   "id": "u8.pollution.sum",
+   "topic": "u8.pollution",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Vehicle pollution and its control"
+   },
+   "points": [
+    {
+     "en": "PCV crankcase HC; EVAP charcoal canister; EGR cuts NOx."
+    },
+    {
+     "en": "Three-way catalyst: Pt, Pd oxidise; Rh reduces NOx."
+    },
+    {
+     "en": "Diesel: DOC, DPF (soot), SCR with urea (NOx)."
+    },
+    {
+     "en": "Smoke: black fuel, blue oil, white cold or water."
+    },
+    {
+     "en": "BS-IV 2017, BS-V skipped, BS-VI 1 April 2020."
+    }
+   ]
+  },
+  {
+   "id": "u8.accessories.f01",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Active safety systems help avoid a crash (ABS, ESC, traction control). Passive safety systems protect people during a crash (seat belt, airbag, crumple zone)."
+   },
+   "why": {
+    "en": "PSC often asks to classify a system as active or passive."
+   },
+   "recall_q": {
+    "en": "Is an airbag an active or passive safety system?"
+   },
+   "recall_a": {
+    "en": "Passive."
+   },
+   "explain_simple": {
+    "en": "Active avoids crash; passive protects in crash."
+   }
+  },
+  {
+   "id": "u8.accessories.f02",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "ABS (anti-lock braking system) stops the wheels from locking during hard braking, so the driver can still steer."
+   },
+   "why": {
+    "en": "A locked wheel slides and cannot steer."
+   },
+   "recall_q": {
+    "en": "Main benefit of ABS?"
+   },
+   "recall_a": {
+    "en": "Keeps steering control by preventing wheel lock."
+   },
+   "explain_simple": {
+    "en": "Brake hard and still steer."
+   }
+  },
+  {
+   "id": "u8.accessories.f03",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "ABS parts: wheel speed sensors, ABS ECU, and the hydraulic modulator (valves and a pump). The modulator releases and reapplies pressure many times a second."
+   },
+   "why": {
+    "en": "This pulsing keeps the wheel just short of locking."
+   },
+   "recall_q": {
+    "en": "Which ABS part changes brake pressure?"
+   },
+   "recall_a": {
+    "en": "Hydraulic modulator."
+   },
+   "explain_simple": {
+    "en": "Sensors watch, ECU decides, modulator pulses."
+   }
+  },
+  {
+   "id": "u8.accessories.f04",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "With ABS the brake pedal pulses during hard braking. The driver should keep pressing firmly, not pump the pedal."
+   },
+   "why": {
+    "en": "The system does the pumping."
+   },
+   "recall_q": {
+    "en": "How should a driver brake hard in an ABS car?"
+   },
+   "recall_a": {
+    "en": "Press firmly and hold; do not pump."
+   },
+   "explain_simple": {
+    "en": "Press hard, keep pressing."
+   }
+  },
+  {
+   "id": "u8.accessories.f05",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "ABS is compulsory for two-wheelers above 125 cc, and CBS (combined braking system) for two-wheelers up to 125 cc, from April 2019."
+   },
+   "why": {
+    "en": "Two-wheeler skids caused many deaths."
+   },
+   "recall_q": {
+    "en": "Which braking system is compulsory for two-wheelers up to 125 cc?"
+   },
+   "recall_a": {
+    "en": "CBS (combined braking system)."
+   },
+   "explain_simple": {
+    "en": "Above 125 cc ABS; up to 125 cc CBS."
+   }
+  },
+  {
+   "id": "u8.accessories.f06",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "EBD (electronic brake force distribution) shares braking force between front and rear wheels according to load. It works with ABS."
+   },
+   "why": {
+    "en": "A loaded rear can take more braking."
+   },
+   "recall_q": {
+    "en": "What does EBD do?"
+   },
+   "recall_a": {
+    "en": "Distributes brake force to each wheel by load."
+   },
+   "explain_simple": {
+    "en": "Right braking for each wheel."
+   }
+  },
+  {
+   "id": "u8.accessories.f07",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Traction control stops the drive wheels from spinning when accelerating. It cuts engine torque or brakes the spinning wheel, using ABS wheel sensors."
+   },
+   "why": {
+    "en": "Spinning wheels lose grip."
+   },
+   "recall_q": {
+    "en": "Traction control works during braking or acceleration?"
+   },
+   "recall_a": {
+    "en": "Acceleration."
+   },
+   "explain_simple": {
+    "en": "Stops wheel spin when you speed up."
+   }
+  },
+  {
+   "id": "u8.accessories.f08",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "ESC (electronic stability control, also ESP) stops skids. Using steering angle, yaw rate and lateral acceleration sensors, it brakes single wheels to keep the car on its path."
+   },
+   "why": {
+    "en": "It corrects understeer and oversteer."
+   },
+   "recall_q": {
+    "en": "Which sensor tells ESC how fast the car is turning about its vertical axis?"
+   },
+   "recall_a": {
+    "en": "Yaw rate sensor."
+   },
+   "explain_simple": {
+    "en": "ESC stops the car from spinning out."
+   }
+  },
+  {
+   "id": "u8.accessories.f09",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A three-point seat belt holds the chest and hips. Its inertia reel locks when the car slows suddenly."
+   },
+   "why": {
+    "en": "It stops the body flying forward."
+   },
+   "recall_q": {
+    "en": "What locks a seat belt in a sudden stop?"
+   },
+   "recall_a": {
+    "en": "Inertia reel locking mechanism."
+   },
+   "explain_simple": {
+    "en": "Belt locks on sudden stop."
+   }
+  },
+  {
+   "id": "u8.accessories.f10",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Seat belt pretensioner pulls the belt tight at the start of a crash, often with a small explosive charge. Load limiter then lets out a little belt to reduce chest injury."
+   },
+   "why": {
+    "en": "Tight early, gentle later."
+   },
+   "recall_q": {
+    "en": "Function of a seat belt pretensioner?"
+   },
+   "recall_a": {
+    "en": "Tightens the belt instantly in a crash."
+   },
+   "explain_simple": {
+    "en": "Belt snaps tight in a crash."
+   }
+  },
+  {
+   "id": "u8.accessories.f11",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Airbags are SRS (supplementary restraint system). They work along with the seat belt, not instead of it."
+   },
+   "why": {
+    "en": "Without a belt, the body can hit the opening airbag hard."
+   },
+   "recall_q": {
+    "en": "Full form of SRS?"
+   },
+   "recall_a": {
+    "en": "Supplementary Restraint System."
+   },
+   "explain_simple": {
+    "en": "Airbag helps the belt, doesn't replace it."
+   }
+  },
+  {
+   "id": "u8.accessories.f12",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Airbag working: crash sensor (accelerometer) → airbag ECU → igniter → gas generator fills the bag in about 30 milliseconds."
+   },
+   "why": {
+    "en": "The bag must be full before the head moves forward."
+   },
+   "recall_q": {
+    "en": "About how fast does an airbag inflate?"
+   },
+   "recall_a": {
+    "en": "About 30 milliseconds."
+   },
+   "explain_simple": {
+    "en": "Faster than a blink."
+   }
+  },
+  {
+   "id": "u8.accessories.f13",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Older airbags used sodium azide to make nitrogen gas. A clock spring (spiral cable) connects the steering wheel airbag while the wheel turns."
+   },
+   "why": {
+    "en": "Wires cannot twist with the steering wheel otherwise."
+   },
+   "recall_q": {
+    "en": "Gas used to inflate an airbag?"
+   },
+   "recall_a": {
+    "en": "Nitrogen (older units from sodium azide)."
+   },
+   "explain_simple": {
+    "en": "Nitrogen fills the bag."
+   }
+  },
+  {
+   "id": "u8.accessories.f14",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Driver airbag is compulsory in cars from July 2019. Front passenger airbag is compulsory for new cars from 2021."
+   },
+   "why": {
+    "en": "Front crashes are most common."
+   },
+   "recall_q": {
+    "en": "Front passenger airbag became compulsory from?"
+   },
+   "recall_a": {
+    "en": "2021 (new models April 2021; all from January 2022)."
+   },
+   "explain_simple": {
+    "en": "Driver 2019, passenger 2021."
+   }
+  },
+  {
+   "id": "u8.accessories.f15",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Never fit a rear-facing child seat in front of an active passenger airbag. Children should sit in the rear seat."
+   },
+   "why": {
+    "en": "The opening airbag can hit the child seat with great force."
+   },
+   "recall_q": {
+    "en": "Where should a rear-facing child seat never be placed?"
+   },
+   "recall_a": {
+    "en": "Front seat with an active airbag."
+   },
+   "explain_simple": {
+    "en": "Kids in the back."
+   }
+  },
+  {
+   "id": "u8.accessories.f16",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Since July 2019 new cars must have: driver airbag, seat belt reminder, speed alert, rear parking sensors and a manual override for central locking."
+   },
+   "why": {
+    "en": "Basic safety for all cars."
+   },
+   "recall_q": {
+    "en": "Name two features made compulsory in cars from July 2019."
+   },
+   "recall_a": {
+    "en": "Driver airbag, seat belt reminder, speed alert, parking sensors."
+   },
+   "explain_simple": {
+    "en": "Airbag, belt beeper, speed beeper, reverse sensor."
+   }
+  },
+  {
+   "id": "u8.accessories.f17",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Speed alert system: beeps once above 80 km/h, beeps often above 100 km/h, and beeps continuously above 120 km/h."
+   },
+   "why": {
+    "en": "Warns the driver of high speed."
+   },
+   "recall_q": {
+    "en": "Speed above which the speed alert beeps continuously?"
+   },
+   "recall_a": {
+    "en": "120 km/h."
+   },
+   "explain_simple": {
+    "en": "80 beep, 100 more, 120 nonstop."
+   }
+  },
+  {
+   "id": "u8.accessories.f18",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Parking sensors are ultrasonic sensors in the bumper. The beep gets faster as an object gets closer. A reverse camera shows the area behind."
+   },
+   "why": {
+    "en": "Small objects behind are hard to see."
+   },
+   "recall_q": {
+    "en": "Type of sensor used for parking sensors?"
+   },
+   "recall_a": {
+    "en": "Ultrasonic."
+   },
+   "explain_simple": {
+    "en": "Sound waves bounce back from objects."
+   }
+  },
+  {
+   "id": "u8.accessories.f19",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cruise control keeps a set speed without pressing the accelerator. Adaptive cruise control uses radar to keep a safe gap to the car ahead."
+   },
+   "why": {
+    "en": "Reduces fatigue on highways."
+   },
+   "recall_q": {
+    "en": "What extra does adaptive cruise control do?"
+   },
+   "recall_a": {
+    "en": "Keeps a safe distance using radar."
+   },
+   "explain_simple": {
+    "en": "Cruise holds speed; adaptive also keeps gap."
+   }
+  },
+  {
+   "id": "u8.accessories.f20",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cruise control turns off when the driver presses the brake or clutch."
+   },
+   "why": {
+    "en": "The driver must always be in control."
+   },
+   "recall_q": {
+    "en": "How is cruise control cancelled?"
+   },
+   "recall_a": {
+    "en": "Press brake (or clutch) or the cancel switch."
+   },
+   "explain_simple": {
+    "en": "Touch brake, cruise stops."
+   }
+  },
+  {
+   "id": "u8.accessories.f21",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Power windows, power seats and power mirrors use small DC motors. Power seats may have memory positions; power windows may have anti-pinch."
+   },
+   "why": {
+    "en": "Comfort with one button."
+   },
+   "recall_q": {
+    "en": "What drives a power window?"
+   },
+   "recall_a": {
+    "en": "A small DC motor and regulator."
+   },
+   "explain_simple": {
+    "en": "Small motors move glass, seats and mirrors."
+   }
+  },
+  {
+   "id": "u8.accessories.f22",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rain-sensing wiper: an infrared light beam is reflected inside the windscreen. Raindrops change the reflection, and the wipers start and adjust speed."
+   },
+   "why": {
+    "en": "Driver need not adjust wipers."
+   },
+   "recall_q": {
+    "en": "Principle of a rain sensor?"
+   },
+   "recall_a": {
+    "en": "Change in infrared light reflection by water on glass."
+   },
+   "explain_simple": {
+    "en": "Water changes light, wiper starts."
+   }
+  },
+  {
+   "id": "u8.accessories.f23",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Automatic climate control keeps a set cabin temperature using cabin, outside and sun-load sensors. It controls blower speed, blend door and compressor."
+   },
+   "why": {
+    "en": "Comfort without manual changes."
+   },
+   "recall_q": {
+    "en": "Name one sensor used in automatic climate control."
+   },
+   "recall_a": {
+    "en": "Cabin temperature, ambient or sun-load sensor."
+   },
+   "explain_simple": {
+    "en": "Set the temperature, car keeps it."
+   }
+  },
+  {
+   "id": "u8.accessories.f24",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Car AC cycle: compressor → condenser (gives out heat) → receiver-drier → expansion valve → evaporator (absorbs cabin heat) → compressor."
+   },
+   "why": {
+    "en": "Heat is moved from inside to outside."
+   },
+   "recall_q": {
+    "en": "Which AC part absorbs heat from the cabin?"
+   },
+   "recall_a": {
+    "en": "Evaporator."
+   },
+   "explain_simple": {
+    "en": "Evaporator cools inside; condenser heats outside."
+   }
+  },
+  {
+   "id": "u8.accessories.f25",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Car AC refrigerant is R-134a; newer cars use R-1234yf, which harms the climate much less."
+   },
+   "why": {
+    "en": "Old R-12 damaged the ozone layer."
+   },
+   "recall_q": {
+    "en": "Common car AC refrigerant?"
+   },
+   "recall_a": {
+    "en": "R-134a (newer: R-1234yf)."
+   },
+   "explain_simple": {
+    "en": "R-134a in most cars."
+   }
+  },
+  {
+   "id": "u8.accessories.f26",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Noise control: sound insulation and damping sheets, rubber engine mounts, good silencers, sealed doors and active noise cancellation."
+   },
+   "why": {
+    "en": "Less noise means less driver tiredness."
+   },
+   "recall_q": {
+    "en": "Give two methods of vehicle noise control."
+   },
+   "recall_a": {
+    "en": "Insulation, rubber mounts, silencer, active noise cancellation."
+   },
+   "explain_simple": {
+    "en": "Block, absorb or cancel the noise."
+   }
+  },
+  {
+   "id": "u8.accessories.f27",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Remote keyless entry (RKE) locks and unlocks doors by a radio signal from the key fob. Smart keys (passive entry) unlock when the key is near."
+   },
+   "why": {
+    "en": "Convenience and security."
+   },
+   "recall_q": {
+    "en": "How does a key fob communicate with the car?"
+   },
+   "recall_a": {
+    "en": "By radio signal (RF)."
+   },
+   "explain_simple": {
+    "en": "Press button, radio unlocks car."
+   }
+  },
+  {
+   "id": "u8.accessories.f28",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An immobiliser has a transponder chip in the key. The engine ECU allows starting only if the chip's code matches."
+   },
+   "why": {
+    "en": "A copied key or hot-wiring will not start the engine."
+   },
+   "recall_q": {
+    "en": "Part in the key that works with an immobiliser?"
+   },
+   "recall_a": {
+    "en": "Transponder chip."
+   },
+   "explain_simple": {
+    "en": "Wrong key chip, no start."
+   }
+  },
+  {
+   "id": "u8.accessories.f29",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "GPS finds position using signals from satellites. At least 4 satellites are needed for a 3D position. India's own system is NavIC."
+   },
+   "why": {
+    "en": "Used for navigation and vehicle tracking."
+   },
+   "recall_q": {
+    "en": "Minimum satellites for a 3D GPS fix?"
+   },
+   "recall_a": {
+    "en": "Four."
+   },
+   "explain_simple": {
+    "en": "Four satellites tell where you are."
+   }
+  },
+  {
+   "id": "u8.accessories.f30",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vehicle location tracking devices (VLTD) with emergency buttons are compulsory in public service vehicles (AIS-140) from 2019."
+   },
+   "why": {
+    "en": "Passenger safety, especially women."
+   },
+   "recall_q": {
+    "en": "Standard for vehicle tracking devices in buses and taxis?"
+   },
+   "recall_a": {
+    "en": "AIS-140."
+   },
+   "explain_simple": {
+    "en": "Buses must have GPS tracker and panic button."
+   }
+  },
+  {
+   "id": "u8.accessories.f31",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Speed governors (speed limiting devices) are needed in transport vehicles: usually 80 km/h; 60 km/h for dumpers and tankers; 40 km/h for school buses."
+   },
+   "why": {
+    "en": "Heavy vehicles at high speed cause deadly crashes."
+   },
+   "recall_q": {
+    "en": "Speed limit set by speed governor in school buses?"
+   },
+   "recall_a": {
+    "en": "40 km/h."
+   },
+   "explain_simple": {
+    "en": "Most 80, tankers 60, school bus 40."
+   }
+  },
+  {
+   "id": "u8.accessories.f32",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "TPMS (tyre pressure monitoring system) warns when a tyre's pressure is low."
+   },
+   "why": {
+    "en": "Low pressure causes blowouts and poor mileage."
+   },
+   "recall_q": {
+    "en": "What does TPMS monitor?"
+   },
+   "recall_a": {
+    "en": "Tyre pressure."
+   },
+   "explain_simple": {
+    "en": "Warns of a soft tyre."
+   }
+  },
+  {
+   "id": "u8.accessories.f33",
+   "topic": "u8.accessories",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "ADAS (advanced driver assistance systems) includes automatic emergency braking (AEB), lane keep assist, blind spot warning and adaptive cruise."
+   },
+   "why": {
+    "en": "Cameras and radar help prevent crashes."
+   },
+   "recall_q": {
+    "en": "Which ADAS feature brakes by itself before a collision?"
+   },
+   "recall_a": {
+    "en": "Autonomous emergency braking (AEB)."
+   },
+   "explain_simple": {
+    "en": "Car brakes if you don't."
+   }
+  },
+  {
+   "id": "u8.accessories.sum",
+   "topic": "u8.accessories",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Comfort and safety systems; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Comfort and safety systems"
+   },
+   "points": [
+    {
+     "en": "Active: ABS, EBD, traction control, ESC. Passive: belt, airbag."
+    },
+    {
+     "en": "ABS: sensors, ECU, modulator; >125 cc bikes ABS, ≤125 cc CBS."
+    },
+    {
+     "en": "Airbag fills in about 30 ms; SRS works with belt."
+    },
+    {
+     "en": "Speed alert 80/100/120; governor 80, tanker 60, school bus 40."
+    },
+    {
+     "en": "Immobiliser transponder; GPS 4 satellites; AIS-140 trackers."
+    }
+   ]
+  },
+  {
+   "id": "u8.ev.f01",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A battery electric vehicle (BEV) runs only on a battery and electric motor. Main parts: battery, motor, controller (inverter), charger and BMS."
+   },
+   "why": {
+    "en": "No engine, no fuel tank, no exhaust."
+   },
+   "recall_q": {
+    "en": "Name three main parts of an electric vehicle."
+   },
+   "recall_a": {
+    "en": "Battery, motor, controller/inverter (also charger, BMS)."
+   },
+   "explain_simple": {
+    "en": "Battery feeds motor through controller."
+   }
+  },
+  {
+   "id": "u8.ev.f02",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "EV benefits: zero tailpipe emission, low running cost, fewer moving parts, quiet running, full torque from zero speed and regenerative braking."
+   },
+   "why": {
+    "en": "Electric motors are simple and efficient."
+   },
+   "recall_q": {
+    "en": "Give two benefits of EVs."
+   },
+   "recall_a": {
+    "en": "No tailpipe emission, low running cost."
+   },
+   "explain_simple": {
+    "en": "Clean, cheap to run, quiet."
+   }
+  },
+  {
+   "id": "u8.ev.f03",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "EV challenges: high purchase cost, range anxiety, long charging time, few chargers, battery cost and disposal, and load on the power grid."
+   },
+   "why": {
+    "en": "These slow down EV adoption."
+   },
+   "recall_q": {
+    "en": "What is range anxiety?"
+   },
+   "recall_a": {
+    "en": "Fear that the battery will run out before reaching a charger."
+   },
+   "explain_simple": {
+    "en": "Worry about running out of charge."
+   }
+  },
+  {
+   "id": "u8.ev.f04",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Most EVs use lithium-ion batteries. Common types are NMC (nickel manganese cobalt) and LFP (lithium iron phosphate)."
+   },
+   "why": {
+    "en": "Lithium-ion stores much energy for its weight."
+   },
+   "recall_q": {
+    "en": "Most common battery type in EVs?"
+   },
+   "recall_a": {
+    "en": "Lithium-ion."
+   },
+   "explain_simple": {
+    "en": "EVs use lithium-ion batteries."
+   }
+  },
+  {
+   "id": "u8.ev.f05",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "LFP batteries are safer and last more cycles but store less energy per kg. NMC stores more energy but costs more and is less heat-stable."
+   },
+   "why": {
+    "en": "Choice depends on cost, safety and range."
+   },
+   "recall_q": {
+    "en": "Which battery type is safer: LFP or NMC?"
+   },
+   "recall_a": {
+    "en": "LFP."
+   },
+   "explain_simple": {
+    "en": "LFP safe and long life; NMC more range."
+   }
+  },
+  {
+   "id": "u8.ev.f06",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Battery capacity is measured in kilowatt-hours (kWh). More kWh means more range."
+   },
+   "why": {
+    "en": "Energy stored decides distance."
+   },
+   "recall_q": {
+    "en": "Unit of EV battery capacity?"
+   },
+   "recall_a": {
+    "en": "kWh (kilowatt-hour)."
+   },
+   "explain_simple": {
+    "en": "Bigger kWh, longer drive."
+   }
+  },
+  {
+   "id": "u8.ev.s01",
+   "topic": "u8.ev",
+   "type": "steps",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: EV range"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A 30 kWh battery car uses 150 Wh per km. Find range."
+     }
+    },
+    {
+     "text": {
+      "en": "Change to the same unit: 30 kWh = 30,000 Wh."
+     }
+    },
+    {
+     "text": {
+      "en": "Range = 30,000 ÷ 150 = 200 km."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "Range = battery energy ÷ energy per km."
+    },
+    {
+     "en": "Keep units the same (Wh with Wh)."
+    }
+   ],
+   "recall_q": {
+    "en": "30 kWh battery, 150 Wh/km. Range?"
+   },
+   "recall_a": {
+    "en": "200 km."
+   }
+  },
+  {
+   "id": "u8.ev.s02",
+   "topic": "u8.ev",
+   "type": "steps",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: charging time"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A 30 kWh battery is charged from empty with a 7.5 kW AC charger. Find time."
+     }
+    },
+    {
+     "text": {
+      "en": "Time = energy ÷ power = 30 ÷ 7.5."
+     }
+    },
+    {
+     "text": {
+      "en": "Time = 4 hours (a little more in real life because of losses)."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "Charging time = kWh ÷ kW."
+    },
+    {
+     "en": "Real time is longer due to losses."
+    }
+   ],
+   "recall_q": {
+    "en": "30 kWh with 7.5 kW charger takes about?"
+   },
+   "recall_a": {
+    "en": "4 hours (plus losses)."
+   }
+  },
+  {
+   "id": "u8.ev.f07",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "BMS (battery management system) watches each cell's voltage and temperature, finds the state of charge (SOC), balances cells and protects against overcharge and overheating."
+   },
+   "why": {
+    "en": "Lithium cells are damaged or catch fire if abused."
+   },
+   "recall_q": {
+    "en": "What does SOC mean?"
+   },
+   "recall_a": {
+    "en": "State of charge (how full the battery is)."
+   },
+   "explain_simple": {
+    "en": "BMS is the battery's guard."
+   }
+  },
+  {
+   "id": "u8.ev.f08",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermal runaway is when a lithium cell overheats, which makes it hotter still, leading to fire. Cooling systems and BMS prevent it."
+   },
+   "why": {
+    "en": "Cause of EV and scooter fires."
+   },
+   "recall_q": {
+    "en": "Uncontrolled heating that can cause a battery fire is called?"
+   },
+   "recall_a": {
+    "en": "Thermal runaway."
+   },
+   "explain_simple": {
+    "en": "Heat makes more heat, then fire."
+   }
+  },
+  {
+   "id": "u8.ev.f09",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "AIS-156 sets battery safety tests for L-category (two and three wheeler) EVs. It was tightened in 2022–23 after e-scooter fires."
+   },
+   "why": {
+    "en": "To stop battery fires."
+   },
+   "recall_q": {
+    "en": "Which AIS standard covers EV battery safety for two-wheelers?"
+   },
+   "recall_a": {
+    "en": "AIS-156."
+   },
+   "explain_simple": {
+    "en": "AIS-156 = scooter battery safety."
+   }
+  },
+  {
+   "id": "u8.ev.f10",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "EV motors: BLDC (brushless DC) in scooters, PMSM (permanent magnet synchronous motor) in most cars, and induction motors in some cars."
+   },
+   "why": {
+    "en": "Brushless motors need little maintenance."
+   },
+   "recall_q": {
+    "en": "Motor commonly used in electric scooters?"
+   },
+   "recall_a": {
+    "en": "BLDC (brushless DC) motor."
+   },
+   "explain_simple": {
+    "en": "Scooters BLDC, cars mostly PMSM."
+   }
+  },
+  {
+   "id": "u8.ev.f11",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A hub motor sits inside the wheel hub and drives the wheel directly. It is common in electric scooters."
+   },
+   "why": {
+    "en": "No chain, belt or gearbox needed."
+   },
+   "recall_q": {
+    "en": "Motor fitted inside the wheel is called?"
+   },
+   "recall_a": {
+    "en": "Hub motor."
+   },
+   "explain_simple": {
+    "en": "Motor inside the wheel."
+   }
+  },
+  {
+   "id": "u8.ev.f12",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The inverter changes battery DC into AC for the motor and controls its speed. A DC-DC converter lowers high voltage to 12 V for lights and accessories."
+   },
+   "why": {
+    "en": "The motor runs on AC; accessories run on 12 V."
+   },
+   "recall_q": {
+    "en": "Which part converts battery DC to AC for the motor?"
+   },
+   "recall_a": {
+    "en": "Inverter (motor controller)."
+   },
+   "explain_simple": {
+    "en": "Inverter: DC to AC."
+   }
+  },
+  {
+   "id": "u8.ev.f13",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "EVs usually have a single-speed reduction gear and no clutch or multi-speed gearbox."
+   },
+   "why": {
+    "en": "Electric motors give high torque over a wide speed range."
+   },
+   "recall_q": {
+    "en": "Does a typical EV have a multi-speed gearbox?"
+   },
+   "recall_a": {
+    "en": "No, a single-speed reduction gear."
+   },
+   "explain_simple": {
+    "en": "One gear is enough for an EV."
+   }
+  },
+  {
+   "id": "u8.ev.f14",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Regenerative braking uses the motor as a generator while slowing down. It charges the battery and reduces brake wear."
+   },
+   "why": {
+    "en": "Energy that would become heat is saved."
+   },
+   "recall_q": {
+    "en": "What is regenerative braking?"
+   },
+   "recall_a": {
+    "en": "Motor acts as generator during braking to charge the battery."
+   },
+   "explain_simple": {
+    "en": "Braking charges the battery."
+   }
+  },
+  {
+   "id": "u8.ev.f15",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "AC charging uses the car's on-board charger to change AC to DC. DC fast charging sends DC directly to the battery, bypassing the on-board charger."
+   },
+   "why": {
+    "en": "DC chargers are big and fast; on-board chargers are small."
+   },
+   "recall_q": {
+    "en": "In DC fast charging, which part is bypassed?"
+   },
+   "recall_a": {
+    "en": "On-board charger."
+   },
+   "explain_simple": {
+    "en": "AC slow via car's charger; DC fast direct."
+   }
+  },
+  {
+   "id": "u8.ev.f16",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Common charging standards in India: CCS2 for DC fast charging of cars, Type 2 for AC; older Bharat AC-001 and DC-001 standards; CHAdeMO in a few vehicles."
+   },
+   "why": {
+    "en": "Plug type must match the charger."
+   },
+   "recall_q": {
+    "en": "Main DC fast charging connector for cars in India?"
+   },
+   "recall_a": {
+    "en": "CCS2."
+   },
+   "explain_simple": {
+    "en": "CCS2 is the common fast-charge plug."
+   }
+  },
+  {
+   "id": "u8.ev.f17",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "EV high-voltage cables are orange. Before repair, the high-voltage system must be isolated using the service disconnect and insulated tools."
+   },
+   "why": {
+    "en": "Hundreds of volts can kill."
+   },
+   "recall_q": {
+    "en": "Colour of high-voltage cables in EVs?"
+   },
+   "recall_a": {
+    "en": "Orange."
+   },
+   "explain_simple": {
+    "en": "Orange cable = danger, high voltage."
+   }
+  },
+  {
+   "id": "u8.ev.f18",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A hybrid electric vehicle (HEV) has both an IC engine and an electric motor with a battery."
+   },
+   "why": {
+    "en": "Combines engine range with electric efficiency."
+   },
+   "recall_q": {
+    "en": "What two power sources does a hybrid have?"
+   },
+   "recall_a": {
+    "en": "IC engine and electric motor."
+   },
+   "explain_simple": {
+    "en": "Hybrid = engine + motor."
+   }
+  },
+  {
+   "id": "u8.ev.f19",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Series hybrid: the engine only drives a generator; the motor alone drives the wheels. A range-extender EV is a series hybrid."
+   },
+   "why": {
+    "en": "Engine runs at its best speed always."
+   },
+   "recall_q": {
+    "en": "In which hybrid does the engine never drive the wheels directly?"
+   },
+   "recall_a": {
+    "en": "Series hybrid."
+   },
+   "explain_simple": {
+    "en": "Series: engine makes power, motor drives."
+   }
+  },
+  {
+   "id": "u8.ev.f20",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Parallel hybrid: both the engine and the motor can drive the wheels, alone or together."
+   },
+   "why": {
+    "en": "Motor helps the engine when extra power is needed."
+   },
+   "recall_q": {
+    "en": "In which hybrid can both engine and motor drive the wheels?"
+   },
+   "recall_a": {
+    "en": "Parallel hybrid."
+   },
+   "explain_simple": {
+    "en": "Parallel: both push the car."
+   }
+  },
+  {
+   "id": "u8.ev.f21",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Series-parallel (power split) hybrid uses a planetary gear set to mix engine and motor power. Toyota's hybrid system is an example."
+   },
+   "why": {
+    "en": "It gets the best of both types."
+   },
+   "recall_q": {
+    "en": "Which gear set splits power in a series-parallel hybrid?"
+   },
+   "recall_a": {
+    "en": "Planetary (epicyclic) gear set."
+   },
+   "explain_simple": {
+    "en": "Planetary gear mixes engine and motor."
+   }
+  },
+  {
+   "id": "u8.ev.f22",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mild hybrid: a small motor (often 48 V starter-generator) helps the engine but cannot drive the car alone. Strong (full) hybrid can drive short distances on electricity only."
+   },
+   "why": {
+    "en": "PSC trap: mild hybrids cannot run in pure electric mode."
+   },
+   "recall_q": {
+    "en": "Can a mild hybrid run on electric power alone?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Mild helps; strong can drive alone."
+   }
+  },
+  {
+   "id": "u8.ev.f23",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Plug-in hybrid (PHEV) has a bigger battery that can be charged from the grid. It drives some distance on electricity, then uses the engine."
+   },
+   "why": {
+    "en": "Short daily trips can be fully electric."
+   },
+   "recall_q": {
+    "en": "Which hybrid can be charged from a wall socket?"
+   },
+   "recall_a": {
+    "en": "Plug-in hybrid (PHEV)."
+   },
+   "explain_simple": {
+    "en": "PHEV = hybrid you can plug in."
+   }
+  },
+  {
+   "id": "u8.ev.f24",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hybrid parts: IC engine, motor-generator, battery pack, power control unit (inverter), and power split device or transmission."
+   },
+   "why": {
+    "en": "These manage the flow between engine, battery and wheels."
+   },
+   "recall_q": {
+    "en": "Name two main parts of a hybrid vehicle."
+   },
+   "recall_a": {
+    "en": "Engine, motor-generator, battery, power control unit."
+   },
+   "explain_simple": {
+    "en": "Engine, motor, battery, controller."
+   }
+  },
+  {
+   "id": "u8.ev.f25",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fuel cell electric vehicle (FCEV) makes electricity from hydrogen and oxygen in a fuel cell. The only exhaust is water."
+   },
+   "why": {
+    "en": "Fast refuelling and long range, but hydrogen is costly."
+   },
+   "recall_q": {
+    "en": "Only exhaust from a hydrogen fuel cell vehicle?"
+   },
+   "recall_a": {
+    "en": "Water (vapour)."
+   },
+   "explain_simple": {
+    "en": "Hydrogen in, water out."
+   }
+  },
+  {
+   "id": "u8.ev.f26",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "FAME India scheme (Faster Adoption and Manufacturing of Hybrid and Electric Vehicles) gave subsidies: FAME I from 2015, FAME II from 2019 (₹10,000 crore)."
+   },
+   "why": {
+    "en": "To make EVs cheaper to buy."
+   },
+   "recall_q": {
+    "en": "Full form of FAME?"
+   },
+   "recall_a": {
+    "en": "Faster Adoption and Manufacturing of (Hybrid &) Electric Vehicles."
+   },
+   "explain_simple": {
+    "en": "FAME = EV subsidy scheme."
+   }
+  },
+  {
+   "id": "u8.ev.f27",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PM E-DRIVE scheme (2024) replaced FAME II to support e-two-wheelers, e-three-wheelers, e-buses and charging stations."
+   },
+   "why": {
+    "en": "Continues government support for EVs."
+   },
+   "recall_q": {
+    "en": "Which scheme followed FAME II in 2024?"
+   },
+   "recall_a": {
+    "en": "PM E-DRIVE."
+   },
+   "explain_simple": {
+    "en": "FAME II then PM E-DRIVE."
+   }
+  },
+  {
+   "id": "u8.ev.f28",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Other EV support: GST on EVs 5% (petrol cars up to 28%), no registration fee for battery vehicles, permit exemption for battery-operated transport vehicles, and green plates."
+   },
+   "why": {
+    "en": "Lower costs push people to buy EVs."
+   },
+   "recall_q": {
+    "en": "GST rate on electric vehicles?"
+   },
+   "recall_a": {
+    "en": "5%."
+   },
+   "explain_simple": {
+    "en": "EVs taxed only 5%."
+   }
+  },
+  {
+   "id": "u8.ev.f29",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "National Electric Mobility Mission Plan (NEMMP) 2020 was launched in 2013. Kerala brought its own EV policy in 2019."
+   },
+   "why": {
+    "en": "Long-term plans for EV growth."
+   },
+   "recall_q": {
+    "en": "Year NEMMP 2020 was launched?"
+   },
+   "recall_a": {
+    "en": "2013."
+   },
+   "explain_simple": {
+    "en": "NEMMP 2013 started the EV push."
+   }
+  },
+  {
+   "id": "u8.ev.f30",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Low-speed e-scooters with top speed up to 25 km/h and motor up to 250 W are not 'motor vehicles' under CMVR. They need no registration or licence."
+   },
+   "why": {
+    "en": "PSC trap on what counts as a motor vehicle."
+   },
+   "recall_q": {
+    "en": "Does a 250 W, 25 km/h e-scooter need registration?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Slow small e-scooter: no RC, no DL."
+   }
+  },
+  {
+   "id": "u8.ev.f31",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "E-rickshaw and e-cart were added by the 2015 amendment (Section 2A). Top speed is up to 25 km/h; an e-rickshaw carries up to 4 passengers and 40 kg luggage."
+   },
+   "why": {
+    "en": "Brought these vehicles under law."
+   },
+   "recall_q": {
+    "en": "Maximum speed of an e-rickshaw?"
+   },
+   "recall_a": {
+    "en": "25 km/h."
+   },
+   "explain_simple": {
+    "en": "E-rickshaw: slow, 4 passengers."
+   }
+  },
+  {
+   "id": "u8.ev.f32",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Old petrol or diesel vehicles can be converted to EV or hybrid with approved retrofit kits (AIS-123), and the change is entered in the RC."
+   },
+   "why": {
+    "en": "Allows cleaner use of existing vehicles."
+   },
+   "recall_q": {
+    "en": "Can a diesel car be legally converted to electric?"
+   },
+   "recall_a": {
+    "en": "Yes, with an approved retrofit kit, endorsed in the RC."
+   },
+   "explain_simple": {
+    "en": "Approved kit and RC update."
+   }
+  },
+  {
+   "id": "u8.ev.sum",
+   "topic": "u8.ev",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Electric and hybrid vehicles"
+   },
+   "points": [
+    {
+     "en": "BEV: battery, BMS, inverter, motor, single-speed gear."
+    },
+    {
+     "en": "Range = kWh ÷ Wh/km; charge time = kWh ÷ kW."
+    },
+    {
+     "en": "Series: engine only generates; parallel: both drive; PHEV plugs in."
+    },
+    {
+     "en": "Mild hybrid cannot run on electricity alone."
+    },
+    {
+     "en": "FAME I 2015, FAME II 2019, PM E-DRIVE 2024; GST 5%."
+    }
+   ]
   }
  ],
  "questions": [
@@ -32606,6 +38204,366 @@
    "source": "Practice — exam pattern (not from a past paper)",
    "covers": [
     "u7.ignition.f18"
+   ]
+  },
+  {
+   "id": "q.practice.u8.1",
+   "topic": "u8.mvact_basics",
+   "kind": "mcq",
+   "q": {
+    "en": "The shape of a STOP sign is"
+   },
+   "options": [
+    {
+     "en": "Circle"
+    },
+    {
+     "en": "Inverted triangle"
+    },
+    {
+     "en": "Octagon"
+    },
+    {
+     "en": "Rectangle"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "STOP is a red octagon; GIVE WAY is an inverted triangle."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.mvact_basics.f19"
+   ]
+  },
+  {
+   "id": "q.practice.u8.2",
+   "topic": "u8.mvact_basics",
+   "kind": "mcq",
+   "q": {
+    "en": "Number plate of a commercial electric vehicle has"
+   },
+   "options": [
+    {
+     "en": "White letters on green"
+    },
+    {
+     "en": "Yellow letters on green"
+    },
+    {
+     "en": "Black letters on yellow"
+    },
+    {
+     "en": "Yellow letters on black"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Commercial EV: yellow on green; private EV: white on green."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.mvact_basics.f25"
+   ]
+  },
+  {
+   "id": "q.practice.u8.3",
+   "topic": "u8.road",
+   "kind": "mcq",
+   "q": {
+    "en": "Super elevation as per IRC is given by"
+   },
+   "options": [
+    {
+     "en": "V²/127R"
+    },
+    {
+     "en": "V²/225R"
+    },
+    {
+     "en": "V²/254f"
+    },
+    {
+     "en": "0.278Vt"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "e = V²/(225R) with 75% design speed and no friction."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.road.f11"
+   ]
+  },
+  {
+   "id": "q.practice.u8.4",
+   "topic": "u8.road",
+   "kind": "mcq",
+   "q": {
+    "en": "Ruling gradient for plain terrain is"
+   },
+   "options": [
+    {
+     "en": "1 in 15"
+    },
+    {
+     "en": "1 in 20"
+    },
+    {
+     "en": "1 in 30"
+    },
+    {
+     "en": "1 in 40"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Plains: ruling 1 in 30, limiting 1 in 20, exceptional 1 in 15."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.road.f16"
+   ]
+  },
+  {
+   "id": "q.practice.u8.5",
+   "topic": "u8.insurance",
+   "kind": "mcq",
+   "q": {
+    "en": "Depreciation applicable to glass parts in a motor claim is"
+   },
+   "options": [
+    {
+     "en": "Nil"
+    },
+    {
+     "en": "30%"
+    },
+    {
+     "en": "50%"
+    },
+    {
+     "en": "Based on age"
+    }
+   ],
+   "answer": 0,
+   "explain": {
+    "en": "Glass parts have nil depreciation."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.insurance.f12"
+   ]
+  },
+  {
+   "id": "q.practice.u8.6",
+   "topic": "u8.efi",
+   "kind": "mcq",
+   "q": {
+    "en": "Failure of which sensor will cause a no-start in an MPFI engine?"
+   },
+   "options": [
+    {
+     "en": "Coolant temperature sensor"
+    },
+    {
+     "en": "Crankshaft position sensor"
+    },
+    {
+     "en": "Knock sensor"
+    },
+    {
+     "en": "Intake air temperature sensor"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Without CKP signal, no spark or injection timing."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.efi.f18"
+   ]
+  },
+  {
+   "id": "q.practice.u8.7",
+   "topic": "u8.efi",
+   "kind": "mcq",
+   "q": {
+    "en": "The resistance of an NTC coolant temperature sensor as engine warms up"
+   },
+   "options": [
+    {
+     "en": "Increases"
+    },
+    {
+     "en": "Decreases"
+    },
+    {
+     "en": "Stays the same"
+    },
+    {
+     "en": "Becomes zero"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "NTC: negative temperature coefficient."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.efi.f15"
+   ]
+  },
+  {
+   "id": "q.practice.u8.8",
+   "topic": "u8.pollution",
+   "kind": "mcq",
+   "q": {
+    "en": "Which catalyst metal reduces NOx in a three-way converter?"
+   },
+   "options": [
+    {
+     "en": "Platinum"
+    },
+    {
+     "en": "Palladium"
+    },
+    {
+     "en": "Rhodium"
+    },
+    {
+     "en": "Cerium"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Rhodium reduces NOx; Pt and Pd oxidise CO and HC."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.pollution.f12"
+   ]
+  },
+  {
+   "id": "q.practice.u8.9",
+   "topic": "u8.pollution",
+   "kind": "mcq",
+   "q": {
+    "en": "EGR is used mainly to control"
+   },
+   "options": [
+    {
+     "en": "CO"
+    },
+    {
+     "en": "HC"
+    },
+    {
+     "en": "NOx"
+    },
+    {
+     "en": "Particulate matter"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Recirculated exhaust lowers combustion temperature."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.pollution.f09"
+   ]
+  },
+  {
+   "id": "q.practice.u8.10",
+   "topic": "u8.accessories",
+   "kind": "mcq",
+   "q": {
+    "en": "Which of the following is a passive safety system?"
+   },
+   "options": [
+    {
+     "en": "ABS"
+    },
+    {
+     "en": "ESC"
+    },
+    {
+     "en": "Airbag"
+    },
+    {
+     "en": "Traction control"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Passive systems protect during a crash."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.accessories.f01"
+   ]
+  },
+  {
+   "id": "q.practice.u8.11",
+   "topic": "u8.ev",
+   "kind": "mcq",
+   "q": {
+    "en": "In which hybrid does the engine only drive a generator?"
+   },
+   "options": [
+    {
+     "en": "Parallel"
+    },
+    {
+     "en": "Series"
+    },
+    {
+     "en": "Mild"
+    },
+    {
+     "en": "Series-parallel"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "In a series hybrid only the motor drives the wheels."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.ev.f19"
+   ]
+  },
+  {
+   "id": "q.practice.u8.12",
+   "topic": "u8.ev",
+   "kind": "mcq",
+   "q": {
+    "en": "Battery capacity of an EV is expressed in"
+   },
+   "options": [
+    {
+     "en": "kW"
+    },
+    {
+     "en": "kWh"
+    },
+    {
+     "en": "Ah only"
+    },
+    {
+     "en": "Volts"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Energy stored = kWh."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u8.ev.f06"
    ]
   }
  ]
