@@ -36,12 +36,84 @@
    "freq": 1.0
   },
   {
+   "id": "law.defs",
+   "subject": "job_related_law",
+   "title": {
+    "en": "MV Act Section 2: definitions"
+   },
+   "order": 3,
+   "freq": 1.0
+  },
+  {
+   "id": "law.registration",
+   "subject": "job_related_law",
+   "title": {
+    "en": "Registration: Sections 39 to 56"
+   },
+   "order": 4,
+   "freq": 0.9
+  },
+  {
+   "id": "law.permits",
+   "subject": "job_related_law",
+   "title": {
+    "en": "Permits (Sec 66) and STU schemes (Sec 99)"
+   },
+   "order": 5,
+   "freq": 0.8
+  },
+  {
+   "id": "law.construction",
+   "subject": "job_related_law",
+   "title": {
+    "en": "Construction, recall and type approval (Sec 109, 110A, 110B)"
+   },
+   "order": 6,
+   "freq": 0.8
+  },
+  {
+   "id": "law.traffic",
+   "subject": "job_related_law",
+   "title": {
+    "en": "Control of traffic: Sections 112 to 136A"
+   },
+   "order": 7,
+   "freq": 1.0
+  },
+  {
+   "id": "law.insurance",
+   "subject": "job_related_law",
+   "title": {
+    "en": "Third-party insurance (Sec 146)"
+   },
+   "order": 8,
+   "freq": 0.8
+  },
+  {
+   "id": "law.offences",
+   "subject": "job_related_law",
+   "title": {
+    "en": "Offences, penalties and procedure (Sec 177 to 213)"
+   },
+   "order": 9,
+   "freq": 1.0
+  },
+  {
+   "id": "law.kmvt",
+   "subject": "job_related_law",
+   "title": {
+    "en": "Kerala Motor Vehicles Taxation Act, 1976"
+   },
+   "order": 10,
+   "freq": 0.9
+  },
+  {
    "id": "u1.properties",
    "subject": "fluid_mechanics",
    "title": {
     "en": "Properties of fluids"
    },
-   "order": 3,
+   "order": 11,
    "freq": 0.8
   },
   {
@@ -50,7 +122,7 @@
    "title": {
     "en": "Fluid pressure and Pascal's law"
    },
-   "order": 4,
+   "order": 12,
    "freq": 0.7
   },
   {
@@ -59,7 +131,7 @@
    "title": {
     "en": "Pressure measuring instruments"
    },
-   "order": 5,
+   "order": 13,
    "freq": 0.6
   },
   {
@@ -68,7 +140,7 @@
    "title": {
     "en": "Types of fluids"
    },
-   "order": 6,
+   "order": 14,
    "freq": 0.5
   },
   {
@@ -77,7 +149,7 @@
    "title": {
     "en": "Flow types, orifice, notch, venturimeter, continuity"
    },
-   "order": 7,
+   "order": 15,
    "freq": 0.7
   },
   {
@@ -86,7 +158,7 @@
    "title": {
     "en": "Head losses, Darcy and Chezy formulas"
    },
-   "order": 8,
+   "order": 16,
    "freq": 0.5
   },
   {
@@ -95,7 +167,7 @@
    "title": {
     "en": "Properties of hydraulic oils"
    },
-   "order": 9,
+   "order": 17,
    "freq": 0.5
   },
   {
@@ -104,7 +176,7 @@
    "title": {
     "en": "Pumps and turbines"
    },
-   "order": 10,
+   "order": 18,
    "freq": 0.7
   },
   {
@@ -113,7 +185,7 @@
    "title": {
     "en": "Basic terms of thermodynamics"
    },
-   "order": 11,
+   "order": 19,
    "freq": 0.6
   },
   {
@@ -122,7 +194,7 @@
    "title": {
     "en": "Laws of thermodynamics"
    },
-   "order": 12,
+   "order": 20,
    "freq": 0.8
   },
   {
@@ -131,7 +203,7 @@
    "title": {
     "en": "Thermodynamic processes and PV diagrams"
    },
-   "order": 13,
+   "order": 21,
    "freq": 0.7
   },
   {
@@ -140,7 +212,7 @@
    "title": {
     "en": "Air standard cycles"
    },
-   "order": 14,
+   "order": 22,
    "freq": 0.8
   },
   {
@@ -149,7 +221,7 @@
    "title": {
     "en": "Two-stroke and four-stroke engines, valve timing"
    },
-   "order": 15,
+   "order": 23,
    "freq": 0.9
   },
   {
@@ -158,7 +230,7 @@
    "title": {
     "en": "IC engine performance and testing"
    },
-   "order": 16,
+   "order": 24,
    "freq": 0.8
   },
   {
@@ -167,7 +239,7 @@
    "title": {
     "en": "Air compressors"
    },
-   "order": 17,
+   "order": 25,
    "freq": 0.6
   },
   {
@@ -176,7 +248,7 @@
    "title": {
     "en": "Heat transfer"
    },
-   "order": 18,
+   "order": 26,
    "freq": 0.6
   },
   {
@@ -185,7 +257,7 @@
    "title": {
     "en": "Stress and strain"
    },
-   "order": 19,
+   "order": 27,
    "freq": 0.8
   },
   {
@@ -194,7 +266,7 @@
    "title": {
     "en": "Stress–strain diagram and factor of safety"
    },
-   "order": 20,
+   "order": 28,
    "freq": 0.8
   },
   {
@@ -203,7 +275,7 @@
    "title": {
     "en": "Hooke's law, elastic constants, varying and composite sections"
    },
-   "order": 21,
+   "order": 29,
    "freq": 0.8
   },
   {
@@ -212,7 +284,7 @@
    "title": {
     "en": "Thermal stress and strain"
    },
-   "order": 22,
+   "order": 30,
    "freq": 0.6
   },
   {
@@ -221,7 +293,7 @@
    "title": {
     "en": "Friction"
    },
-   "order": 23,
+   "order": 31,
    "freq": 0.6
   },
   {
@@ -230,7 +302,7 @@
    "title": {
     "en": "Centre of gravity and moment of inertia"
    },
-   "order": 24,
+   "order": 32,
    "freq": 0.6
   },
   {
@@ -239,7 +311,7 @@
    "title": {
     "en": "Beams, shear force and bending moment"
    },
-   "order": 25,
+   "order": 33,
    "freq": 0.8
   },
   {
@@ -248,7 +320,7 @@
    "title": {
     "en": "Riveted joints"
    },
-   "order": 26,
+   "order": 34,
    "freq": 0.6
   },
   {
@@ -257,7 +329,7 @@
    "title": {
     "en": "Bolts and springs"
    },
-   "order": 27,
+   "order": 35,
    "freq": 0.6
   },
   {
@@ -266,7 +338,7 @@
    "title": {
     "en": "Welded joints"
    },
-   "order": 28,
+   "order": 36,
    "freq": 0.5
   },
   {
@@ -275,7 +347,7 @@
    "title": {
     "en": "Bearings"
    },
-   "order": 29,
+   "order": 37,
    "freq": 0.7
   },
   {
@@ -284,7 +356,7 @@
    "title": {
     "en": "Governors"
    },
-   "order": 30,
+   "order": 38,
    "freq": 0.7
   },
   {
@@ -293,7 +365,7 @@
    "title": {
     "en": "Flywheels"
    },
-   "order": 31,
+   "order": 39,
    "freq": 0.7
   },
   {
@@ -302,7 +374,7 @@
    "title": {
     "en": "Gears and gear trains"
    },
-   "order": 32,
+   "order": 40,
    "freq": 0.7
   },
   {
@@ -311,7 +383,7 @@
    "title": {
     "en": "Boilers and steam engine"
    },
-   "order": 33,
+   "order": 41,
    "freq": 0.6
   },
   {
@@ -320,7 +392,7 @@
    "title": {
     "en": "Engineering materials and heat treatment"
    },
-   "order": 34,
+   "order": 42,
    "freq": 0.8
   },
   {
@@ -329,7 +401,7 @@
    "title": {
     "en": "Cylinder block, liners, head and gasket"
    },
-   "order": 35,
+   "order": 43,
    "freq": 0.8
   },
   {
@@ -338,7 +410,7 @@
    "title": {
     "en": "Piston, rings, connecting rod and crankshaft"
    },
-   "order": 36,
+   "order": 44,
    "freq": 0.9
   },
   {
@@ -347,7 +419,7 @@
    "title": {
     "en": "Valves, valve mechanisms and camshaft"
    },
-   "order": 37,
+   "order": 45,
    "freq": 0.9
   },
   {
@@ -356,7 +428,7 @@
    "title": {
     "en": "Petrol fuel feed, filters and air cleaners"
    },
-   "order": 38,
+   "order": 46,
    "freq": 0.7
   },
   {
@@ -365,7 +437,7 @@
    "title": {
     "en": "Carburettors"
    },
-   "order": 39,
+   "order": 47,
    "freq": 0.8
   },
   {
@@ -374,7 +446,7 @@
    "title": {
     "en": "Manifolds, VVT, catalytic converter and muffler"
    },
-   "order": 40,
+   "order": 48,
    "freq": 0.8
   },
   {
@@ -383,7 +455,7 @@
    "title": {
     "en": "Diesel fuel system and turbocharger"
    },
-   "order": 41,
+   "order": 49,
    "freq": 0.9
   },
   {
@@ -392,7 +464,7 @@
    "title": {
     "en": "Lubrication system"
    },
-   "order": 42,
+   "order": 50,
    "freq": 0.8
   },
   {
@@ -401,7 +473,7 @@
    "title": {
     "en": "Cooling system"
    },
-   "order": 43,
+   "order": 51,
    "freq": 0.8
   },
   {
@@ -410,7 +482,7 @@
    "title": {
     "en": "Chassis and frame"
    },
-   "order": 44,
+   "order": 52,
    "freq": 0.7
   },
   {
@@ -419,7 +491,7 @@
    "title": {
     "en": "Front axle and stub axle"
    },
-   "order": 45,
+   "order": 53,
    "freq": 0.7
   },
   {
@@ -428,7 +500,7 @@
    "title": {
     "en": "Suspension, springs and shock absorbers"
    },
-   "order": 46,
+   "order": 54,
    "freq": 0.8
   },
   {
@@ -437,7 +509,7 @@
    "title": {
     "en": "Steering system and wheel alignment"
    },
-   "order": 47,
+   "order": 55,
    "freq": 0.9
   },
   {
@@ -446,7 +518,7 @@
    "title": {
     "en": "Brake systems"
    },
-   "order": 48,
+   "order": 56,
    "freq": 0.9
   },
   {
@@ -455,7 +527,7 @@
    "title": {
     "en": "Clutches and fluid flywheel"
    },
-   "order": 49,
+   "order": 57,
    "freq": 0.9
   },
   {
@@ -464,7 +536,7 @@
    "title": {
     "en": "Gearboxes, torque converter, CVT and automatics"
    },
-   "order": 50,
+   "order": 58,
    "freq": 0.9
   },
   {
@@ -473,7 +545,7 @@
    "title": {
     "en": "Propeller shaft, joints, differential and rear axles"
    },
-   "order": 51,
+   "order": 59,
    "freq": 0.8
   },
   {
@@ -482,7 +554,7 @@
    "title": {
     "en": "Wheels and tyres"
    },
-   "order": 52,
+   "order": 60,
    "freq": 0.8
   },
   {
@@ -491,7 +563,7 @@
    "title": {
     "en": "Dynamo, alternator and charging system"
    },
-   "order": 53,
+   "order": 61,
    "freq": 0.7
   },
   {
@@ -500,7 +572,7 @@
    "title": {
     "en": "Starter motor and drives"
    },
-   "order": 54,
+   "order": 62,
    "freq": 0.7
   },
   {
@@ -509,7 +581,7 @@
    "title": {
     "en": "Ignition systems"
    },
-   "order": 55,
+   "order": 63,
    "freq": 0.9
   },
   {
@@ -518,7 +590,7 @@
    "title": {
     "en": "MV Act basics, signs and the MVD"
    },
-   "order": 56,
+   "order": 64,
    "freq": 0.9
   },
   {
@@ -527,7 +599,7 @@
    "title": {
     "en": "Highway engineering basics"
    },
-   "order": 57,
+   "order": 65,
    "freq": 0.7
   },
   {
@@ -536,7 +608,7 @@
    "title": {
     "en": "Motor insurance and surveying"
    },
-   "order": 58,
+   "order": 66,
    "freq": 0.7
   },
   {
@@ -545,7 +617,7 @@
    "title": {
     "en": "Electronic fuel injection, sensors and CRDI"
    },
-   "order": 59,
+   "order": 67,
    "freq": 0.9
   },
   {
@@ -554,7 +626,7 @@
    "title": {
     "en": "Vehicle pollution and its control"
    },
-   "order": 60,
+   "order": 68,
    "freq": 0.9
   },
   {
@@ -563,7 +635,7 @@
    "title": {
     "en": "Comfort and safety systems"
    },
-   "order": 61,
+   "order": 69,
    "freq": 0.8
   },
   {
@@ -572,7 +644,7 @@
    "title": {
     "en": "Electric and hybrid vehicles"
    },
-   "order": 62,
+   "order": 70,
    "freq": 0.9
   }
  ],
@@ -3437,6 +3509,5473 @@
     },
     {
      "en": "Sec 19 authority disqualifies; 20 court; 24 endorsement; 25A national register."
+    }
+   ]
+  },
+  {
+   "id": "law.defs.f01",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 2 of the MV Act gives the definitions. Exam questions often ask the clause number or the key limit in a definition."
+   },
+   "why": {
+    "en": "Every other section depends on these meanings."
+   },
+   "recall_q": {
+    "en": "Which section of the MV Act contains definitions?"
+   },
+   "recall_a": {
+    "en": "Section 2."
+   },
+   "explain_simple": {
+    "en": "Sec 2 = meanings of words."
+   }
+  },
+  {
+   "id": "law.defs.f02",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Adapted vehicle, Section 2(1): a vehicle specially designed, or altered under Section 52, for the sole use of a person with a physical defect or disability."
+   },
+   "why": {
+    "en": "It allows disabled people to drive safely."
+   },
+   "recall_q": {
+    "en": "Define adapted vehicle."
+   },
+   "recall_a": {
+    "en": "Vehicle built or altered for the sole use of a person with disability (Sec 2(1))."
+   },
+   "explain_simple": {
+    "en": "Vehicle made for a disabled person."
+   }
+  },
+  {
+   "id": "law.defs.f03",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Adapted vehicle can be made by alteration under Section 52, and it must be used only by or for that disabled person."
+   },
+   "why": {
+    "en": "PSC links 2(1) to Section 52."
+   },
+   "recall_q": {
+    "en": "Alteration for an adapted vehicle is allowed under which section?"
+   },
+   "recall_a": {
+    "en": "Section 52."
+   },
+   "explain_simple": {
+    "en": "2(1) with 52."
+   }
+  },
+  {
+   "id": "law.defs.f04",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Aggregator, Section 2(1A): a digital intermediary or marketplace that connects a passenger with a driver for transport, like Uber or Ola. Added in 2019."
+   },
+   "why": {
+    "en": "App taxis needed legal control."
+   },
+   "recall_q": {
+    "en": "Which clause defines aggregator?"
+   },
+   "recall_a": {
+    "en": "Section 2(1A)."
+   },
+   "explain_simple": {
+    "en": "Aggregator = taxi app."
+   }
+  },
+  {
+   "id": "law.defs.f05",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Aggregators need a licence under Section 93 and must follow the guidelines issued by the Central Government."
+   },
+   "why": {
+    "en": "To protect passengers and drivers."
+   },
+   "recall_q": {
+    "en": "Aggregator licence is issued under which section?"
+   },
+   "recall_a": {
+    "en": "Section 93."
+   },
+   "explain_simple": {
+    "en": "App taxi needs Sec 93 licence."
+   }
+  },
+  {
+   "id": "law.defs.f06",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Articulated vehicle, Section 2(2): a motor vehicle to which a semi-trailer is attached."
+   },
+   "why": {
+    "en": "Tractor-trailer trucks are articulated vehicles."
+   },
+   "recall_q": {
+    "en": "Define articulated vehicle."
+   },
+   "recall_a": {
+    "en": "Motor vehicle with a semi-trailer attached (Sec 2(2))."
+   },
+   "explain_simple": {
+    "en": "Truck head + semi-trailer."
+   }
+  },
+  {
+   "id": "law.defs.f07",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gross vehicle weight (GVW), Section 2(15): the total weight of the vehicle and load certified and registered by the registering authority as permissible for that vehicle."
+   },
+   "why": {
+    "en": "GVW decides class, tax and overloading."
+   },
+   "recall_q": {
+    "en": "Define gross vehicle weight."
+   },
+   "recall_a": {
+    "en": "Total permissible weight of vehicle + load, certified and registered."
+   },
+   "explain_simple": {
+    "en": "Max allowed weight with load."
+   }
+  },
+  {
+   "id": "law.defs.f08",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Unladen weight, Section 2(48): weight of the vehicle with all equipment ordinarily used, but without the driver or attendant."
+   },
+   "why": {
+    "en": "PSC trap: driver's weight is excluded."
+   },
+   "recall_q": {
+    "en": "Is the driver's weight included in unladen weight?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Empty vehicle weight, no driver."
+   }
+  },
+  {
+   "id": "law.defs.f09",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "If alternative bodies or parts are used, unladen weight is taken with the heaviest such body or part."
+   },
+   "why": {
+    "en": "The safe, higher value is used."
+   },
+   "recall_q": {
+    "en": "Unladen weight with alternative bodies is taken with?"
+   },
+   "recall_a": {
+    "en": "The heaviest alternative body or part."
+   },
+   "explain_simple": {
+    "en": "Use the heaviest body."
+   }
+  },
+  {
+   "id": "law.defs.f10",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Light motor vehicle, Section 2(21): transport vehicle or omnibus with GVW, or motor car, tractor or road roller with unladen weight, not exceeding 7,500 kg."
+   },
+   "why": {
+    "en": "Limit for LMV licence."
+   },
+   "recall_q": {
+    "en": "Weight limit for a light motor vehicle?"
+   },
+   "recall_a": {
+    "en": "Not exceeding 7,500 kg."
+   },
+   "explain_simple": {
+    "en": "LMV ≤ 7,500 kg."
+   }
+  },
+  {
+   "id": "law.defs.f11",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heavy goods vehicle, Section 2(16): a goods carriage with GVW, or a tractor or road roller with unladen weight, exceeding 12,000 kg."
+   },
+   "why": {
+    "en": "Above 12 tonnes is heavy."
+   },
+   "recall_q": {
+    "en": "Heavy goods vehicle GVW exceeds?"
+   },
+   "recall_a": {
+    "en": "12,000 kg."
+   },
+   "explain_simple": {
+    "en": "HGV > 12,000 kg."
+   }
+  },
+  {
+   "id": "law.defs.f12",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heavy passenger motor vehicle, Section 2(17): public or private service vehicle, educational institution bus or omnibus with GVW, or a motor car with unladen weight, exceeding 12,000 kg."
+   },
+   "why": {
+    "en": "Big buses are HPMV."
+   },
+   "recall_q": {
+    "en": "HPMV limit?"
+   },
+   "recall_a": {
+    "en": "GVW (or motor car unladen weight) above 12,000 kg."
+   },
+   "explain_simple": {
+    "en": "HPMV > 12,000 kg."
+   }
+  },
+  {
+   "id": "law.defs.f13",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Medium goods vehicle, Section 2(23): any goods carriage that is neither a light motor vehicle nor a heavy goods vehicle."
+   },
+   "why": {
+    "en": "So its GVW is above 7,500 kg up to 12,000 kg."
+   },
+   "recall_q": {
+    "en": "GVW range of a medium goods vehicle?"
+   },
+   "recall_a": {
+    "en": "Above 7,500 kg up to 12,000 kg."
+   },
+   "explain_simple": {
+    "en": "Between light and heavy."
+   }
+  },
+  {
+   "id": "law.defs.f14",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Medium passenger motor vehicle, Section 2(24): a public or private service vehicle or educational institution bus other than a motorcycle, invalid carriage, LMV or HPMV."
+   },
+   "why": {
+    "en": "Defined by what it is not."
+   },
+   "recall_q": {
+    "en": "Which clause defines medium passenger motor vehicle?"
+   },
+   "recall_a": {
+    "en": "Section 2(24)."
+   },
+   "explain_simple": {
+    "en": "Middle-size bus."
+   }
+  },
+  {
+   "id": "law.defs.s01",
+   "topic": "law.defs",
+   "type": "steps",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Classify a goods vehicle by GVW"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A goods carriage has GVW 9,000 kg. Which class?"
+     }
+    },
+    {
+     "text": {
+      "en": "LMV is up to 7,500 kg. 9,000 is more, so not LMV."
+     }
+    },
+    {
+     "text": {
+      "en": "HGV is above 12,000 kg. 9,000 is less, so not HGV."
+     }
+    },
+    {
+     "text": {
+      "en": "So it is a medium goods vehicle, Section 2(23)."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "≤7,500 LMV; 7,500–12,000 medium; >12,000 heavy."
+    },
+    {
+     "en": "Goods and passenger classes use GVW."
+    }
+   ],
+   "recall_q": {
+    "en": "Goods carriage of GVW 9,000 kg is?"
+   },
+   "recall_a": {
+    "en": "Medium goods vehicle."
+   }
+  },
+  {
+   "id": "law.defs.f15",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Motor cab, Section 2(25): a vehicle made or adapted to carry not more than 6 passengers, excluding the driver, for hire or reward."
+   },
+   "why": {
+    "en": "Taxi cars are motor cabs."
+   },
+   "recall_q": {
+    "en": "Maximum passengers in a motor cab?"
+   },
+   "recall_a": {
+    "en": "6 (excluding driver)."
+   },
+   "explain_simple": {
+    "en": "Taxi: up to 6 passengers."
+   }
+  },
+  {
+   "id": "law.defs.f16",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Maxi cab, Section 2(22): a vehicle made or adapted to carry more than 6 but not more than 12 passengers, excluding the driver, for hire or reward."
+   },
+   "why": {
+    "en": "Tempo travellers and vans for hire."
+   },
+   "recall_q": {
+    "en": "Passenger range of a maxi cab?"
+   },
+   "recall_a": {
+    "en": "More than 6, up to 12 (excluding driver)."
+   },
+   "explain_simple": {
+    "en": "Maxi cab: 7 to 12."
+   }
+  },
+  {
+   "id": "law.defs.f17",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Motor car, Section 2(26): any motor vehicle other than a transport vehicle, omnibus, road roller, tractor, motorcycle or invalid carriage."
+   },
+   "why": {
+    "en": "It is a private car, defined by exclusion."
+   },
+   "recall_q": {
+    "en": "Is a taxi a 'motor car' under Section 2(26)?"
+   },
+   "recall_a": {
+    "en": "No; it is a transport vehicle."
+   },
+   "explain_simple": {
+    "en": "Motor car = private car."
+   }
+  },
+  {
+   "id": "law.defs.f18",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Omnibus, Section 2(29): any motor vehicle made or adapted to carry more than 6 persons, excluding the driver."
+   },
+   "why": {
+    "en": "PSC trap: omnibus counts persons, not hire."
+   },
+   "recall_q": {
+    "en": "Define omnibus."
+   },
+   "recall_a": {
+    "en": "Vehicle to carry more than 6 persons, excluding driver (Sec 2(29))."
+   },
+   "explain_simple": {
+    "en": "More than 6 people = omnibus."
+   }
+  },
+  {
+   "id": "law.defs.f19",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Private service vehicle, Section 2(33): carries more than 6 persons, excluding driver, used by the owner for their trade or business, not for hire or reward."
+   },
+   "why": {
+    "en": "Example: a company bus for its staff."
+   },
+   "recall_q": {
+    "en": "A company's own staff bus is which vehicle?"
+   },
+   "recall_a": {
+    "en": "Private service vehicle (Sec 2(33))."
+   },
+   "explain_simple": {
+    "en": "Company bus = private service vehicle."
+   }
+  },
+  {
+   "id": "law.defs.f20",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A private service vehicle does not include a motor vehicle used for public purposes."
+   },
+   "why": {
+    "en": "Government vehicles are excluded."
+   },
+   "recall_q": {
+    "en": "Does a vehicle used for public purposes count as a private service vehicle?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Public purpose vehicle is excluded."
+   }
+  },
+  {
+   "id": "law.defs.f21",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Public service vehicle, Section 2(35): any motor vehicle used for carrying passengers for hire or reward. It includes maxi cab, motor cab, contract carriage and stage carriage."
+   },
+   "why": {
+    "en": "Buses and taxis for hire."
+   },
+   "recall_q": {
+    "en": "Name four vehicles included in public service vehicle."
+   },
+   "recall_a": {
+    "en": "Maxi cab, motor cab, contract carriage, stage carriage."
+   },
+   "explain_simple": {
+    "en": "Any vehicle carrying people for money."
+   }
+  },
+  {
+   "id": "law.defs.f22",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stage carriage, Section 2(40): carries more than 6 passengers for hire, charging separate fares per passenger for the whole or stages of a journey."
+   },
+   "why": {
+    "en": "Ordinary route buses."
+   },
+   "recall_q": {
+    "en": "A route bus collecting fares by stages is a?"
+   },
+   "recall_a": {
+    "en": "Stage carriage."
+   },
+   "explain_simple": {
+    "en": "Route bus = stage carriage."
+   }
+  },
+  {
+   "id": "law.defs.f23",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Contract carriage, Section 2(7): carries passengers for hire under a contract for the whole vehicle, for a fixed or agreed rate, without stopping to pick up others."
+   },
+   "why": {
+    "en": "Tourist buses and hired vehicles."
+   },
+   "recall_q": {
+    "en": "A tourist bus hired for a trip is a?"
+   },
+   "recall_a": {
+    "en": "Contract carriage."
+   },
+   "explain_simple": {
+    "en": "Whole vehicle hired = contract carriage."
+   }
+  },
+  {
+   "id": "law.defs.f24",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Transport vehicle, Section 2(47): a public service vehicle, a goods carriage, an educational institution bus or a private service vehicle."
+   },
+   "why": {
+    "en": "These need permits and fitness."
+   },
+   "recall_q": {
+    "en": "Four kinds of transport vehicle?"
+   },
+   "recall_a": {
+    "en": "Public service vehicle, goods carriage, educational institution bus, private service vehicle."
+   },
+   "explain_simple": {
+    "en": "Public, goods, school bus, private service."
+   }
+  },
+  {
+   "id": "law.defs.f25",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: an educational institution bus and a private service vehicle are transport vehicles even though they are not for hire."
+   },
+   "why": {
+    "en": "Options often miss these two."
+   },
+   "recall_q": {
+    "en": "Is a school-owned bus a transport vehicle?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "School bus = transport vehicle."
+   }
+  },
+  {
+   "id": "law.defs.f26",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Goods carriage, Section 2(14): a motor vehicle made or adapted only for carrying goods, or any vehicle used for carrying goods."
+   },
+   "why": {
+    "en": "Lorries, pickups, tankers."
+   },
+   "recall_q": {
+    "en": "Which clause defines goods carriage?"
+   },
+   "recall_a": {
+    "en": "Section 2(14)."
+   },
+   "explain_simple": {
+    "en": "Vehicle for goods."
+   }
+  },
+  {
+   "id": "law.defs.f27",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap with numbers: 2(15) GVW, 2(16) heavy goods, 2(17) heavy passenger, 2(21) LMV, 2(22) maxi cab, 2(25) motor cab, 2(26) motor car, 2(29) omnibus."
+   },
+   "why": {
+    "en": "Clause numbers are asked directly."
+   },
+   "recall_q": {
+    "en": "Clause 2(22) defines?"
+   },
+   "recall_a": {
+    "en": "Maxi cab."
+   },
+   "explain_simple": {
+    "en": "15 GVW, 21 LMV, 22 maxi, 25 cab, 29 omnibus."
+   }
+  },
+  {
+   "id": "law.defs.f28",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "More clause numbers: 2(1) adapted vehicle, 2(1A) aggregator, 2(2) articulated vehicle, 2(33) private service vehicle, 2(35) public service vehicle, 2(47) transport vehicle, 2(48) unladen weight."
+   },
+   "why": {
+    "en": "Matching questions use these."
+   },
+   "recall_q": {
+    "en": "Clause 2(47) defines?"
+   },
+   "recall_a": {
+    "en": "Transport vehicle."
+   },
+   "explain_simple": {
+    "en": "33 private service, 35 public service, 47 transport, 48 unladen."
+   }
+  },
+  {
+   "id": "law.defs.f29",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Motor vehicle, Section 2(28): any mechanically propelled vehicle adapted for use on roads. It excludes vehicles on fixed rails and special factory vehicles, and vehicles with engine up to 25 cc."
+   },
+   "why": {
+    "en": "Basic test for whether the Act applies."
+   },
+   "recall_q": {
+    "en": "Engine capacity below which a vehicle is not a 'motor vehicle'?"
+   },
+   "recall_a": {
+    "en": "25 cc or less."
+   },
+   "explain_simple": {
+    "en": "Up to 25 cc: not a motor vehicle."
+   }
+  },
+  {
+   "id": "law.defs.f30",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Good Samaritan, Section 2(12A): a person who, in good faith and without expecting reward, gives emergency help at an accident or takes the victim to hospital."
+   },
+   "why": {
+    "en": "Linked with protection in Section 134A."
+   },
+   "recall_q": {
+    "en": "Which clause defines Good Samaritan?"
+   },
+   "recall_a": {
+    "en": "Section 2(12A)."
+   },
+   "explain_simple": {
+    "en": "Helper without reward."
+   }
+  },
+  {
+   "id": "law.defs.sum",
+   "topic": "law.defs",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "MV Act Section 2: definitions"
+   },
+   "points": [
+    {
+     "en": "LMV ≤ 7,500 kg; medium up to 12,000 kg; heavy above 12,000 kg."
+    },
+    {
+     "en": "Motor cab ≤ 6; maxi cab 7–12; omnibus > 6 persons."
+    },
+    {
+     "en": "Transport = public service, goods, school bus, private service."
+    },
+    {
+     "en": "Unladen weight excludes driver; heaviest alternative body."
+    },
+    {
+     "en": "2(1) adapted, 2(1A) aggregator, 2(2) articulated."
+    }
+   ]
+  },
+  {
+   "id": "law.registration.f01",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 39: no person shall drive, and no owner shall allow, a motor vehicle in a public place unless it is registered and shows its registration mark."
+   },
+   "why": {
+    "en": "Every vehicle on the road must be traceable to an owner."
+   },
+   "recall_q": {
+    "en": "Which section makes registration necessary?"
+   },
+   "recall_a": {
+    "en": "Section 39."
+   },
+   "explain_simple": {
+    "en": "Sec 39: register before road use."
+   }
+  },
+  {
+   "id": "law.registration.f02",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 39 also needs the RC to be valid: not suspended or cancelled."
+   },
+   "why": {
+    "en": "A suspended RC means the vehicle is not validly registered."
+   },
+   "recall_q": {
+    "en": "Can a vehicle with a suspended RC be driven?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Suspended RC = not registered."
+   }
+  },
+  {
+   "id": "law.registration.f03",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exception to Section 39: a vehicle in the possession of a dealer, used under a trade certificate."
+   },
+   "why": {
+    "en": "Dealers move unregistered new vehicles."
+   },
+   "recall_q": {
+    "en": "Under what certificate can a dealer move an unregistered vehicle?"
+   },
+   "recall_a": {
+    "en": "Trade certificate."
+   },
+   "explain_simple": {
+    "en": "Dealer uses trade certificate."
+   }
+  },
+  {
+   "id": "law.registration.f04",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Using a vehicle without registration is punished under Section 192: first offence ₹2,000 to ₹5,000; later offences up to 1 year jail or ₹5,000 to ₹10,000 fine, or both."
+   },
+   "why": {
+    "en": "2019 amounts."
+   },
+   "recall_q": {
+    "en": "Penalty section for using an unregistered vehicle?"
+   },
+   "recall_a": {
+    "en": "Section 192."
+   },
+   "explain_simple": {
+    "en": "No registration → Sec 192."
+   }
+  },
+  {
+   "id": "law.registration.f05",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Temporary registration (Section 43) is valid for one month. It lets a new vehicle be driven until permanent registration."
+   },
+   "why": {
+    "en": "Not in the syllabus list, but often asked with Section 39."
+   },
+   "recall_q": {
+    "en": "Validity of temporary registration?"
+   },
+   "recall_a": {
+    "en": "One month (Section 43)."
+   },
+   "explain_simple": {
+    "en": "Temporary RC = 1 month."
+   }
+  },
+  {
+   "id": "law.registration.f06",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 44: the registering authority may ask the owner to produce the vehicle at the time of registration to check its details."
+   },
+   "why": {
+    "en": "To match chassis number, engine number and body."
+   },
+   "recall_q": {
+    "en": "Which section deals with production of vehicle at registration?"
+   },
+   "recall_a": {
+    "en": "Section 44."
+   },
+   "explain_simple": {
+    "en": "Sec 44: show the vehicle."
+   }
+  },
+  {
+   "id": "law.registration.f07",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "After the 2019 amendment, a new non-transport vehicle sold by an authorised dealer can be registered at the dealer's place without producing it before the authority."
+   },
+   "why": {
+    "en": "Dealer-point registration saves time."
+   },
+   "recall_q": {
+    "en": "Must a new private car be produced at the RTO for registration?"
+   },
+   "recall_a": {
+    "en": "No, dealer-point registration is allowed (2019)."
+   },
+   "explain_simple": {
+    "en": "New private car registered at dealer."
+   }
+  },
+  {
+   "id": "law.registration.f08",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 46: a vehicle registered in any State does not need to be registered again in another State. Registration is valid throughout India."
+   },
+   "why": {
+    "en": "Free movement across States."
+   },
+   "recall_q": {
+    "en": "Is a Kerala-registered car's registration valid in Karnataka?"
+   },
+   "recall_a": {
+    "en": "Yes (Section 46)."
+   },
+   "explain_simple": {
+    "en": "One registration, all India."
+   }
+  },
+  {
+   "id": "law.registration.f09",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "But under Section 47, if the vehicle is kept in another State for more than 12 months, the owner must apply for a new registration mark there."
+   },
+   "why": {
+    "en": "PSC trap: Section 46 valid everywhere; Section 47 the 12-month rule."
+   },
+   "recall_q": {
+    "en": "After how long in another State must a new registration mark be taken?"
+   },
+   "recall_a": {
+    "en": "More than 12 months (Section 47)."
+   },
+   "explain_simple": {
+    "en": "Over 12 months in new State → new number."
+   }
+  },
+  {
+   "id": "law.registration.f10",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 52: no owner shall alter a vehicle so that its details in the RC differ from those originally given by the manufacturer."
+   },
+   "why": {
+    "en": "Unsafe changes put people at risk."
+   },
+   "recall_q": {
+    "en": "Which section prohibits alteration in a motor vehicle?"
+   },
+   "recall_a": {
+    "en": "Section 52."
+   },
+   "explain_simple": {
+    "en": "Sec 52: no illegal alteration."
+   }
+  },
+  {
+   "id": "law.registration.f11",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Allowed alterations under Section 52: change of fuel (like CNG, LPG or electric kits) using approved kits, retro-fitment for adapted vehicles, and others notified by the Central Government."
+   },
+   "why": {
+    "en": "Useful changes are allowed with approval."
+   },
+   "recall_q": {
+    "en": "Is CNG conversion allowed under Section 52?"
+   },
+   "recall_a": {
+    "en": "Yes, with an approved kit and RC endorsement."
+   },
+   "explain_simple": {
+    "en": "Approved kit changes are OK."
+   }
+  },
+  {
+   "id": "law.registration.f12",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Replacing the engine with one of the same type is allowed, but the owner must inform the registering authority."
+   },
+   "why": {
+    "en": "The RC must show the correct engine number."
+   },
+   "recall_q": {
+    "en": "Must the RTO be told about an engine replacement?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "New engine → tell RTO."
+   }
+  },
+  {
+   "id": "law.registration.f13",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "When an approved alteration is made, the owner must inform the registering authority within 14 days so the RC can be endorsed."
+   },
+   "why": {
+    "en": "Records must match the vehicle."
+   },
+   "recall_q": {
+    "en": "Time limit to inform the RTO of an approved alteration?"
+   },
+   "recall_a": {
+    "en": "14 days."
+   },
+   "explain_simple": {
+    "en": "Report alteration in 14 days."
+   }
+  },
+  {
+   "id": "law.registration.f14",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Illegal alteration is punished under Section 182A(4) with ₹5,000 for each alteration."
+   },
+   "why": {
+    "en": "Each illegal change is a separate fine."
+   },
+   "recall_q": {
+    "en": "Fine for each illegal alteration?"
+   },
+   "recall_a": {
+    "en": "₹5,000 per alteration (Section 182A(4))."
+   },
+   "explain_simple": {
+    "en": "₹5,000 per change."
+   }
+  },
+  {
+   "id": "law.registration.f15",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 53: the registering authority can suspend the registration if the vehicle is unsafe to use or does not meet Chapter VII standards."
+   },
+   "why": {
+    "en": "Dangerous vehicles must be kept off the road."
+   },
+   "recall_q": {
+    "en": "Which section allows suspension of registration?"
+   },
+   "recall_a": {
+    "en": "Section 53."
+   },
+   "explain_simple": {
+    "en": "Sec 53: suspend RC."
+   }
+  },
+  {
+   "id": "law.registration.f16",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Registration can also be suspended under Section 53 if a vehicle is used for hire or reward without a valid permit."
+   },
+   "why": {
+    "en": "Illegal taxi services are stopped this way."
+   },
+   "recall_q": {
+    "en": "Give two grounds for suspension of RC."
+   },
+   "recall_a": {
+    "en": "Unsafe condition; used for hire without permit."
+   },
+   "explain_simple": {
+    "en": "Unsafe or illegal hire → suspend."
+   }
+  },
+  {
+   "id": "law.registration.f17",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The owner must be given a chance to be heard before suspension, and must surrender the RC when suspended."
+   },
+   "why": {
+    "en": "Natural justice and enforcement."
+   },
+   "recall_q": {
+    "en": "What must the owner surrender when RC is suspended?"
+   },
+   "recall_a": {
+    "en": "The registration certificate."
+   },
+   "explain_simple": {
+    "en": "Suspended → hand over RC."
+   }
+  },
+  {
+   "id": "law.registration.f18",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 55: cancellation of registration. If a vehicle is destroyed or permanently unusable, the owner must report within 14 days and send the RC to the registering authority."
+   },
+   "why": {
+    "en": "Stops misuse of the papers of a scrapped vehicle."
+   },
+   "recall_q": {
+    "en": "Time limit to report a destroyed vehicle for cancellation?"
+   },
+   "recall_a": {
+    "en": "14 days (Section 55)."
+   },
+   "explain_simple": {
+    "en": "Vehicle destroyed → report in 14 days."
+   }
+  },
+  {
+   "id": "law.registration.f19",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Other grounds for cancellation under Section 55: vehicle permanently taken out of India, registration got by fraud, or chassis or engine details do not match records."
+   },
+   "why": {
+    "en": "False or useless registrations must end."
+   },
+   "recall_q": {
+    "en": "Give one ground for cancellation of registration other than destruction."
+   },
+   "recall_a": {
+    "en": "Permanently removed from India, fraud, mismatched chassis."
+   },
+   "explain_simple": {
+    "en": "Fraud or gone → cancel."
+   }
+  },
+  {
+   "id": "law.registration.f20",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 56: a transport vehicle is not validly registered unless it carries a certificate of fitness."
+   },
+   "why": {
+    "en": "Commercial vehicles must be checked regularly for safety."
+   },
+   "recall_q": {
+    "en": "Which section requires a fitness certificate?"
+   },
+   "recall_a": {
+    "en": "Section 56."
+   },
+   "explain_simple": {
+    "en": "Sec 56: transport vehicle needs fitness."
+   }
+  },
+  {
+   "id": "law.registration.f21",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fitness certificates are issued by the prescribed authority (MVI) or by an authorised or automated testing station."
+   },
+   "why": {
+    "en": "2019 brought automated testing stations."
+   },
+   "recall_q": {
+    "en": "Who issues fitness certificates?"
+   },
+   "recall_a": {
+    "en": "Prescribed authority or authorised (automated) testing station."
+   },
+   "explain_simple": {
+    "en": "Inspector or test centre issues fitness."
+   }
+  },
+  {
+   "id": "law.registration.f22",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The authority can cancel a fitness certificate if the vehicle no longer meets the rules. The Central Government can extend fitness checks to other classes of vehicles."
+   },
+   "why": {
+    "en": "Fitness must stay true all the time."
+   },
+   "recall_q": {
+    "en": "Can a fitness certificate be cancelled before expiry?"
+   },
+   "recall_a": {
+    "en": "Yes, if the vehicle becomes unfit."
+   },
+   "explain_simple": {
+    "en": "Unfit vehicle loses fitness."
+   }
+  },
+  {
+   "id": "law.registration.f23",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Non-transport vehicle RC is valid for 15 years from issue, then renewable for 5 years at a time (Section 41)."
+   },
+   "why": {
+    "en": "Old vehicles get checked again."
+   },
+   "recall_q": {
+    "en": "RC renewal period after 15 years?"
+   },
+   "recall_a": {
+    "en": "5 years."
+   },
+   "explain_simple": {
+    "en": "15 years, then 5-year renewals."
+   }
+  },
+  {
+   "id": "law.registration.f24",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: Section 39 necessity, 44 production, 46 valid all India, 52 alteration, 53 suspension, 55 cancellation, 56 fitness."
+   },
+   "why": {
+    "en": "Matching questions use these numbers."
+   },
+   "recall_q": {
+    "en": "Section 55 deals with?"
+   },
+   "recall_a": {
+    "en": "Cancellation of registration."
+   },
+   "explain_simple": {
+    "en": "39 need, 44 show, 46 India, 52 alter, 53 suspend, 55 cancel, 56 fitness."
+   }
+  },
+  {
+   "id": "law.registration.sum",
+   "topic": "law.registration",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Registration: Sections 39 to 56"
+   },
+   "points": [
+    {
+     "en": "Sec 39 registration needed; penalty Sec 192."
+    },
+    {
+     "en": "Sec 44 produce vehicle; dealer-point registration for new private vehicles."
+    },
+    {
+     "en": "Sec 46 valid in India; Sec 47 new mark after 12 months."
+    },
+    {
+     "en": "Sec 52 no alteration; ₹5,000 per alteration."
+    },
+    {
+     "en": "Sec 53 suspend; Sec 55 cancel (14 days); Sec 56 fitness."
+    }
+   ]
+  },
+  {
+   "id": "law.permits.f01",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 66: no owner shall use a transport vehicle in a public place except under the conditions of a permit granted or countersigned by an RTA, STA or prescribed authority."
+   },
+   "why": {
+    "en": "Permits control routes, number and type of commercial vehicles."
+   },
+   "recall_q": {
+    "en": "Which section makes permits necessary?"
+   },
+   "recall_a": {
+    "en": "Section 66."
+   },
+   "explain_simple": {
+    "en": "Sec 66: transport vehicle needs permit."
+   }
+  },
+  {
+   "id": "law.permits.f02",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Permit exemptions under Section 66(3) include government vehicles not used commercially, police, ambulances, fire services and funeral vehicles."
+   },
+   "why": {
+    "en": "These serve the public, not for profit."
+   },
+   "recall_q": {
+    "en": "Does an ambulance need a permit?"
+   },
+   "recall_a": {
+    "en": "No (Section 66(3) exemption)."
+   },
+   "explain_simple": {
+    "en": "Ambulance, police, fire: no permit."
+   }
+  },
+  {
+   "id": "law.permits.f03",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Another Section 66(3) exemption: goods vehicles with GVW not exceeding 3,000 kg."
+   },
+   "why": {
+    "en": "Small goods vehicles are freed from permit rules."
+   },
+   "recall_q": {
+    "en": "Goods vehicles up to what GVW are exempt from permit?"
+   },
+   "recall_a": {
+    "en": "3,000 kg."
+   },
+   "explain_simple": {
+    "en": "Small goods vehicle ≤ 3,000 kg: no permit."
+   }
+  },
+  {
+   "id": "law.permits.f04",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Battery-operated transport vehicles (and those running on ethanol or methanol) are exempted from permit requirement by central notification."
+   },
+   "why": {
+    "en": "To promote clean vehicles."
+   },
+   "recall_q": {
+    "en": "Do battery-operated transport vehicles need a permit?"
+   },
+   "recall_a": {
+    "en": "No, they are exempted."
+   },
+   "explain_simple": {
+    "en": "Electric commercial vehicle: no permit."
+   }
+  },
+  {
+   "id": "law.permits.f05",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Using a vehicle without a permit is punished under Section 192A: up to ₹10,000 fine and up to 6 months' imprisonment for the first offence."
+   },
+   "why": {
+    "en": "2019 amounts."
+   },
+   "recall_q": {
+    "en": "Penalty section for using a vehicle without a permit?"
+   },
+   "recall_a": {
+    "en": "Section 192A."
+   },
+   "explain_simple": {
+    "en": "No permit → Sec 192A."
+   }
+  },
+  {
+   "id": "law.permits.f06",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Types of permits: stage carriage, contract carriage, private service vehicle, goods carriage, temporary, national, tourist and special permits."
+   },
+   "why": {
+    "en": "Each type allows a different kind of use."
+   },
+   "recall_q": {
+    "en": "Name four types of permit."
+   },
+   "recall_a": {
+    "en": "Stage carriage, contract carriage, goods carriage, tourist."
+   },
+   "explain_simple": {
+    "en": "Different jobs, different permits."
+   }
+  },
+  {
+   "id": "law.permits.f07",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A temporary permit (Section 87) is for a short need, like a festival or season. It is valid for up to 4 months."
+   },
+   "why": {
+    "en": "Not in the list but asked with Section 66."
+   },
+   "recall_q": {
+    "en": "Maximum validity of a temporary permit?"
+   },
+   "recall_a": {
+    "en": "4 months."
+   },
+   "explain_simple": {
+    "en": "Temporary permit ≤ 4 months."
+   }
+  },
+  {
+   "id": "law.permits.f08",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Regular permits are generally valid for 5 years (Section 81)."
+   },
+   "why": {
+    "en": "Long-term permits give stability to operators."
+   },
+   "recall_q": {
+    "en": "Normal validity of a stage carriage permit?"
+   },
+   "recall_a": {
+    "en": "5 years."
+   },
+   "explain_simple": {
+    "en": "Permit lasts 5 years."
+   }
+  },
+  {
+   "id": "law.permits.f09",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A State Transport Undertaking (STU) is a government-run transport service. KSRTC is Kerala's STU."
+   },
+   "why": {
+    "en": "Chapter VI gives STUs special powers."
+   },
+   "recall_q": {
+    "en": "Name Kerala's State Transport Undertaking."
+   },
+   "recall_a": {
+    "en": "KSRTC."
+   },
+   "explain_simple": {
+    "en": "KSRTC = Kerala's STU."
+   }
+  },
+  {
+   "id": "law.permits.f10",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Chapter VI of the MV Act has special provisions for State Transport Undertakings."
+   },
+   "why": {
+    "en": "Section 99 is in this chapter."
+   },
+   "recall_q": {
+    "en": "Which chapter deals with State Transport Undertakings?"
+   },
+   "recall_a": {
+    "en": "Chapter VI."
+   },
+   "explain_simple": {
+    "en": "Chapter VI = STU."
+   }
+  },
+  {
+   "id": "law.permits.f11",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 99: if the State thinks it is in the public interest, it may prepare a proposal for road transport services to be run by an STU, fully or partly excluding private operators."
+   },
+   "why": {
+    "en": "For efficient, adequate, economical and coordinated transport."
+   },
+   "recall_q": {
+    "en": "Which section deals with STU scheme proposals?"
+   },
+   "recall_a": {
+    "en": "Section 99."
+   },
+   "explain_simple": {
+    "en": "Sec 99: plan for govt buses on routes."
+   }
+  },
+  {
+   "id": "law.permits.f12",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The Section 99 proposal must give the nature of services and the area or route. It is published in the Official Gazette and in at least one regional-language newspaper."
+   },
+   "why": {
+    "en": "The public must know and can object."
+   },
+   "recall_q": {
+    "en": "Where must a Section 99 proposal be published?"
+   },
+   "recall_a": {
+    "en": "Official Gazette and at least one regional-language newspaper."
+   },
+   "explain_simple": {
+    "en": "Gazette + local newspaper."
+   }
+  },
+  {
+   "id": "law.permits.f13",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Objections to the proposal can be filed within 30 days of publication (Section 100). The scheme must be approved within one year, or the proposal lapses."
+   },
+   "why": {
+    "en": "Fair hearing and time limit."
+   },
+   "recall_q": {
+    "en": "Time to file objections to an STU proposal?"
+   },
+   "recall_a": {
+    "en": "30 days."
+   },
+   "explain_simple": {
+    "en": "30 days to object; 1 year to approve."
+   }
+  },
+  {
+   "id": "law.permits.f14",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "When an approved scheme excludes private operators from a route, it is called a nationalised route. Private permits are not granted there."
+   },
+   "why": {
+    "en": "Explains why only KSRTC runs on some routes."
+   },
+   "recall_q": {
+    "en": "A route reserved for the STU is called?"
+   },
+   "recall_a": {
+    "en": "Nationalised (notified) route."
+   },
+   "explain_simple": {
+    "en": "Nationalised route = only govt buses."
+   }
+  },
+  {
+   "id": "law.permits.f15",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Purpose words in Section 99: 'efficient, adequate, economical and properly coordinated road transport service'."
+   },
+   "why": {
+    "en": "PSC asks these exact words."
+   },
+   "recall_q": {
+    "en": "Four qualities of service that Section 99 aims at?"
+   },
+   "recall_a": {
+    "en": "Efficient, adequate, economical, properly coordinated."
+   },
+   "explain_simple": {
+    "en": "Good, enough, cheap, coordinated."
+   }
+  },
+  {
+   "id": "law.permits.sum",
+   "topic": "law.permits",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Permits (Sec 66) and STU schemes (Sec 99)"
+   },
+   "points": [
+    {
+     "en": "Sec 66 permit needed; penalty Sec 192A."
+    },
+    {
+     "en": "Exempt: govt, police, ambulance, fire, hearse, goods ≤ 3,000 kg, EVs."
+    },
+    {
+     "en": "Temporary permit ≤ 4 months; regular 5 years."
+    },
+    {
+     "en": "Sec 99 STU proposal: Gazette + regional newspaper."
+    },
+    {
+     "en": "Objections in 30 days; approval within 1 year."
+    }
+   ]
+  },
+  {
+   "id": "law.construction.f01",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 109: every motor vehicle must be built and maintained so that the driver has effective control of it at all times."
+   },
+   "why": {
+    "en": "Basic safety for every vehicle."
+   },
+   "recall_q": {
+    "en": "Which section gives the general rule for construction and maintenance?"
+   },
+   "recall_a": {
+    "en": "Section 109."
+   },
+   "explain_simple": {
+    "en": "Sec 109: vehicle must be under control."
+   }
+  },
+  {
+   "id": "law.construction.f02",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 109 also says vehicles must have right-hand steering, unless fitted with a proper mechanical or electrical signalling device."
+   },
+   "why": {
+    "en": "India drives on the left, so the driver sits on the right."
+   },
+   "recall_q": {
+    "en": "What must a left-hand steered vehicle have?"
+   },
+   "recall_a": {
+    "en": "A mechanical or electrical signalling device."
+   },
+   "explain_simple": {
+    "en": "Left-hand drive needs signal device."
+   }
+  },
+  {
+   "id": "law.construction.f03",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 109, the Central Government can notify standards for vehicles and components, such as AIS and BIS standards, for safety."
+   },
+   "why": {
+    "en": "Common standards make every vehicle safe."
+   },
+   "recall_q": {
+    "en": "Who notifies standards for vehicle components?"
+   },
+   "recall_a": {
+    "en": "Central Government."
+   },
+   "explain_simple": {
+    "en": "Centre sets vehicle standards."
+   }
+  },
+  {
+   "id": "law.construction.f04",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 110: the Central Government makes rules on construction, equipment and maintenance (lights, brakes, tyres, emissions, and more). These are in CMVR."
+   },
+   "why": {
+    "en": "Detailed technical rules."
+   },
+   "recall_q": {
+    "en": "Rules on vehicle construction are made by Centre or State?"
+   },
+   "recall_a": {
+    "en": "Central Government (Section 110)."
+   },
+   "explain_simple": {
+    "en": "Sec 110: Centre makes construction rules."
+   }
+  },
+  {
+   "id": "law.construction.f05",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 110A (2019): the Central Government can order a manufacturer to recall vehicles of a type or variant that have a defect harmful to the environment, driver, passengers or other road users."
+   },
+   "why": {
+    "en": "Faulty vehicles must be fixed or replaced."
+   },
+   "recall_q": {
+    "en": "Which section deals with recall of motor vehicles?"
+   },
+   "recall_a": {
+    "en": "Section 110A."
+   },
+   "explain_simple": {
+    "en": "Sec 110A = recall."
+   }
+  },
+  {
+   "id": "law.construction.f06",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A recall can follow complaints from a set percentage of owners, a testing agency's report, or other sources."
+   },
+   "why": {
+    "en": "Many sources can show a common defect."
+   },
+   "recall_q": {
+    "en": "Give one trigger for a vehicle recall."
+   },
+   "recall_a": {
+    "en": "Complaints from a notified percentage of owners, or a testing agency report."
+   },
+   "explain_simple": {
+    "en": "Many complaints → recall."
+   }
+  },
+  {
+   "id": "law.construction.f07",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In a recall, the manufacturer must reimburse buyers the full cost, or replace the vehicle with a similar or better one, or fix it, and may also pay a penalty."
+   },
+   "why": {
+    "en": "The buyer should not suffer for the maker's defect."
+   },
+   "recall_q": {
+    "en": "What must a manufacturer offer in a recall?"
+   },
+   "recall_a": {
+    "en": "Repair, replacement or full refund (and pay penalty)."
+   },
+   "explain_simple": {
+    "en": "Fix, replace or refund."
+   }
+  },
+  {
+   "id": "law.construction.f08",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A manufacturer who finds a defect itself must inform the Central Government and start a voluntary recall."
+   },
+   "why": {
+    "en": "Makers must not hide defects."
+   },
+   "recall_q": {
+    "en": "Can a manufacturer recall vehicles on its own?"
+   },
+   "recall_a": {
+    "en": "Yes, voluntary recall after informing the Government."
+   },
+   "explain_simple": {
+    "en": "Maker can recall by itself."
+   }
+  },
+  {
+   "id": "law.construction.f09",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 110B (2019): every motor vehicle must have a type-approval certificate showing it meets the standards, issued by an authorised testing agency."
+   },
+   "why": {
+    "en": "Only approved designs may be sold."
+   },
+   "recall_q": {
+    "en": "Which section deals with type-approval certificate?"
+   },
+   "recall_a": {
+    "en": "Section 110B."
+   },
+   "explain_simple": {
+    "en": "Sec 110B = type approval."
+   }
+  },
+  {
+   "id": "law.construction.f10",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Testing agencies include ARAI (Pune), ICAT (Manesar), CIRT (Pune), VRDE (Ahmednagar) and NATRAX (Indore)."
+   },
+   "why": {
+    "en": "They test vehicles for type approval."
+   },
+   "recall_q": {
+    "en": "Where is ARAI located?"
+   },
+   "recall_a": {
+    "en": "Pune."
+   },
+   "explain_simple": {
+    "en": "ARAI Pune, ICAT Manesar."
+   }
+  },
+  {
+   "id": "law.construction.f11",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 110B also allows the Central Government to regulate testing agencies, and to exempt some vehicles, like those for research or export, from type approval."
+   },
+   "why": {
+    "en": "Not every vehicle needs full approval."
+   },
+   "recall_q": {
+    "en": "Can some vehicles be exempted from type approval?"
+   },
+   "recall_a": {
+    "en": "Yes, by the Central Government."
+   },
+   "explain_simple": {
+    "en": "Centre can exempt some vehicles."
+   }
+  },
+  {
+   "id": "law.construction.f12",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Selling vehicles that break Chapter VII standards is punished under Section 182A(1): up to 1 year jail or fine up to ₹100 crore, or both, for manufacturers, importers or dealers."
+   },
+   "why": {
+    "en": "Heavy fines to make makers careful."
+   },
+   "recall_q": {
+    "en": "Maximum fine on a manufacturer under Section 182A(1)?"
+   },
+   "recall_a": {
+    "en": "₹100 crore."
+   },
+   "explain_simple": {
+    "en": "Unsafe vehicle sale → up to ₹100 crore."
+   }
+  },
+  {
+   "id": "law.construction.f13",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 182A(2), makers of unsafe components can be fined up to ₹1 crore or jailed up to 1 year, or both."
+   },
+   "why": {
+    "en": "Parts matter for safety too."
+   },
+   "recall_q": {
+    "en": "Maximum fine on an unsafe component maker?"
+   },
+   "recall_a": {
+    "en": "₹1 crore."
+   },
+   "explain_simple": {
+    "en": "Bad parts → up to ₹1 crore."
+   }
+  },
+  {
+   "id": "law.construction.f14",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 182B punishes contravention of Section 62A, which deals with over-dimensioned vehicles."
+   },
+   "why": {
+    "en": "Over-sized vehicles damage roads and endanger others."
+   },
+   "recall_q": {
+    "en": "Section 182B punishes contravention of which section?"
+   },
+   "recall_a": {
+    "en": "Section 62A."
+   },
+   "explain_simple": {
+    "en": "182B ↔ 62A."
+   }
+  },
+  {
+   "id": "law.construction.f15",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: 109 general construction, 110 central rules, 110A recall, 110B type approval. Recall and type approval were both added in 2019."
+   },
+   "why": {
+    "en": "Common matching question."
+   },
+   "recall_q": {
+    "en": "Sections added in 2019 on recall and type approval?"
+   },
+   "recall_a": {
+    "en": "110A and 110B."
+   },
+   "explain_simple": {
+    "en": "110A recall, 110B approval."
+   }
+  },
+  {
+   "id": "law.construction.sum",
+   "topic": "law.construction",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Construction, recall and type approval (Sec 109, 110A, 110B)"
+   },
+   "points": [
+    {
+     "en": "Sec 109: effective control; right-hand steering or signal device."
+    },
+    {
+     "en": "Sec 110: central construction rules (CMVR)."
+    },
+    {
+     "en": "Sec 110A recall: repair, replace or refund."
+    },
+    {
+     "en": "Sec 110B type approval by ARAI, ICAT etc."
+    },
+    {
+     "en": "Sec 182A: maker up to ₹100 crore; alteration ₹5,000 each."
+    }
+   ]
+  },
+  {
+   "id": "law.traffic.f01",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Chapter VIII of the MV Act deals with control of traffic (Sections 112 to 138)."
+   },
+   "why": {
+    "en": "Most road duties of drivers are here."
+   },
+   "recall_q": {
+    "en": "Which chapter deals with control of traffic?"
+   },
+   "recall_a": {
+    "en": "Chapter VIII."
+   },
+   "explain_simple": {
+    "en": "Chapter VIII = traffic."
+   }
+  },
+  {
+   "id": "law.traffic.f02",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 112: no one shall drive a vehicle faster than the maximum speed, or slower than the minimum speed, fixed for it."
+   },
+   "why": {
+    "en": "Both too fast and too slow can be dangerous."
+   },
+   "recall_q": {
+    "en": "Which section fixes limits of speed?"
+   },
+   "recall_a": {
+    "en": "Section 112."
+   },
+   "explain_simple": {
+    "en": "Sec 112 = speed limits."
+   }
+  },
+  {
+   "id": "law.traffic.f03",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 112, the State Government or an authorised authority can set lower speed limits for certain areas or roads, by notification and road signs. They cannot exceed the central maximum."
+   },
+   "why": {
+    "en": "Schools, markets and ghats need lower speeds."
+   },
+   "recall_q": {
+    "en": "Can a State set speed limits above the central maximum?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "State can lower, not raise, the limit."
+   }
+  },
+  {
+   "id": "law.traffic.f04",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 112 speed limits do not apply to fire, ambulance and police vehicles used on duty when needed."
+   },
+   "why": {
+    "en": "Emergency services must reach fast."
+   },
+   "recall_q": {
+    "en": "Do speed limits bind an ambulance on emergency duty?"
+   },
+   "recall_a": {
+    "en": "No, it is exempted when needed."
+   },
+   "explain_simple": {
+    "en": "Emergency vehicles can exceed limits."
+   }
+  },
+  {
+   "id": "law.traffic.f05",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 113: limits of weight and limits on use. No one shall drive a vehicle whose laden weight is more than the GVW in its RC, or whose axle load is more than allowed."
+   },
+   "why": {
+    "en": "Overloading damages roads, brakes and tyres."
+   },
+   "recall_q": {
+    "en": "Which section deals with limits of weight?"
+   },
+   "recall_a": {
+    "en": "Section 113."
+   },
+   "explain_simple": {
+    "en": "Sec 113: no overloading."
+   }
+  },
+  {
+   "id": "law.traffic.f06",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 113, the State can also make conditions on the use of transport vehicles, such as banning heavy vehicles on certain roads."
+   },
+   "why": {
+    "en": "Weak bridges and narrow roads need limits."
+   },
+   "recall_q": {
+    "en": "Can a State restrict heavy vehicles on certain roads under Section 113?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "State can ban heavy trucks on weak roads."
+   }
+  },
+  {
+   "id": "law.traffic.f07",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 114: an authorised MVD officer who suspects overloading can make the driver take the vehicle to a weighing device within 10 km."
+   },
+   "why": {
+    "en": "Overloading must be measured, not guessed."
+   },
+   "recall_q": {
+    "en": "Within what distance can a vehicle be sent for weighing?"
+   },
+   "recall_a": {
+    "en": "10 km (Section 114)."
+   },
+   "explain_simple": {
+    "en": "Weigh within 10 km."
+   }
+  },
+  {
+   "id": "law.traffic.f08",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "If the vehicle is overloaded, the officer can order the extra load to be unloaded at the owner's risk before it moves on."
+   },
+   "why": {
+    "en": "The overloaded vehicle should not continue."
+   },
+   "recall_q": {
+    "en": "Who bears the risk when extra load is offloaded?"
+   },
+   "recall_a": {
+    "en": "The owner."
+   },
+   "explain_simple": {
+    "en": "Extra load removed at owner's risk."
+   }
+  },
+  {
+   "id": "law.traffic.f09",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Overloading is punished under Section 194: ₹20,000 plus ₹2,000 per extra tonne, and the cost of offloading."
+   },
+   "why": {
+    "en": "2019 fines."
+   },
+   "recall_q": {
+    "en": "Fine for overloading a goods vehicle?"
+   },
+   "recall_a": {
+    "en": "₹20,000 + ₹2,000 per extra tonne."
+   },
+   "explain_simple": {
+    "en": "Overload: 20,000 + 2,000 per tonne."
+   }
+  },
+  {
+   "id": "law.traffic.f10",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Refusing to stop for weighing, or removing load before weighing, is punished under Section 194(2) with ₹40,000."
+   },
+   "why": {
+    "en": "Avoiding the check is treated more seriously."
+   },
+   "recall_q": {
+    "en": "Fine for refusing to stop for weighing?"
+   },
+   "recall_a": {
+    "en": "₹40,000."
+   },
+   "explain_simple": {
+    "en": "Run from weighbridge: ₹40,000."
+   }
+  },
+  {
+   "id": "law.traffic.f11",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 120: a vehicle with left-hand steering must not be driven unless it has a working mechanical or electrical signalling device."
+   },
+   "why": {
+    "en": "Hand signals from the left side cannot be seen by traffic."
+   },
+   "recall_q": {
+    "en": "Which section is about vehicles with left-hand control?"
+   },
+   "recall_a": {
+    "en": "Section 120."
+   },
+   "explain_simple": {
+    "en": "Sec 120: left-hand drive needs signal device."
+   }
+  },
+  {
+   "id": "law.traffic.f12",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 122: no person in charge shall leave a vehicle or trailer in a public place in a position that causes danger, obstruction or inconvenience to others."
+   },
+   "why": {
+    "en": "Badly left vehicles cause crashes and jams."
+   },
+   "recall_q": {
+    "en": "Which section deals with leaving a vehicle in a dangerous position?"
+   },
+   "recall_a": {
+    "en": "Section 122."
+   },
+   "explain_simple": {
+    "en": "Sec 122: don't leave vehicle dangerously."
+   }
+  },
+  {
+   "id": "law.traffic.f13",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Obstructing traffic flow by a parked or left vehicle is punished under Section 201: ₹500 per hour, plus towing charges."
+   },
+   "why": {
+    "en": "Cost rises with time of obstruction."
+   },
+   "recall_q": {
+    "en": "Fine per hour for obstructing traffic flow (Sec 201)?"
+   },
+   "recall_a": {
+    "en": "₹500 per hour."
+   },
+   "explain_simple": {
+    "en": "Blocking road: ₹500 every hour."
+   }
+  },
+  {
+   "id": "law.traffic.f14",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 123: no driver shall carry people on the running board, roof or bonnet, and no person shall travel there."
+   },
+   "why": {
+    "en": "People fall off and die."
+   },
+   "recall_q": {
+    "en": "Which section bans riding on the footboard or roof?"
+   },
+   "recall_a": {
+    "en": "Section 123."
+   },
+   "explain_simple": {
+    "en": "Sec 123: no footboard or roof travel."
+   }
+  },
+  {
+   "id": "law.traffic.f15",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 123 binds both the driver (must not allow) and the passenger (must not travel)."
+   },
+   "why": {
+    "en": "Both are responsible."
+   },
+   "recall_q": {
+    "en": "Is a passenger also liable for riding on the footboard?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "Both driver and rider are guilty."
+   }
+  },
+  {
+   "id": "law.traffic.f16",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 125: a driver shall not allow any person to stand or sit, or anything to be placed, in a way that hampers control of the vehicle."
+   },
+   "why": {
+    "en": "The driver needs free space and view."
+   },
+   "recall_q": {
+    "en": "Which section deals with obstruction of driver?"
+   },
+   "recall_a": {
+    "en": "Section 125."
+   },
+   "explain_simple": {
+    "en": "Sec 125: keep driver's space free."
+   }
+  },
+  {
+   "id": "law.traffic.f17",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 126: a vehicle must not be left stationary in a public place unless a licensed driver is in the seat, or the engine is stopped and brakes applied so it cannot move."
+   },
+   "why": {
+    "en": "An unattended vehicle can roll away."
+   },
+   "recall_q": {
+    "en": "Which section deals with stationary vehicles?"
+   },
+   "recall_a": {
+    "en": "Section 126."
+   },
+   "explain_simple": {
+    "en": "Sec 126: engine off, brake on."
+   }
+  },
+  {
+   "id": "law.traffic.f18",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 127: a vehicle left unattended in a public place for 10 hours or more, or parked where banned, can be towed or clamped on a uniformed police officer's order."
+   },
+   "why": {
+    "en": "Clears roads of abandoned vehicles."
+   },
+   "recall_q": {
+    "en": "After how many hours can an unattended vehicle be removed?"
+   },
+   "recall_a": {
+    "en": "10 hours or more (Section 127)."
+   },
+   "explain_simple": {
+    "en": "Left 10 hours → can be towed."
+   }
+  },
+  {
+   "id": "law.traffic.f19",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 127, wrecked, burnt or dismantled vehicles causing a hazard can be removed to a police station or authorised place. The owner pays the towing and storage costs."
+   },
+   "why": {
+    "en": "The owner caused the problem."
+   },
+   "recall_q": {
+    "en": "Who pays the towing cost under Section 127?"
+   },
+   "recall_a": {
+    "en": "The owner."
+   },
+   "explain_simple": {
+    "en": "Owner pays for towing."
+   }
+  },
+  {
+   "id": "law.traffic.f20",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 128: a two-wheeler driver shall not carry more than one person besides themselves, and the pillion must sit on a proper seat fixed behind the driver."
+   },
+   "why": {
+    "en": "Overloaded bikes are unstable."
+   },
+   "recall_q": {
+    "en": "Which section limits a motorcycle to one pillion?"
+   },
+   "recall_a": {
+    "en": "Section 128."
+   },
+   "explain_simple": {
+    "en": "Sec 128: one pillion only."
+   }
+  },
+  {
+   "id": "law.traffic.f21",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 128 lets the Central Government prescribe safety measures like hand grips, footrests and saree guards for pillion riders."
+   },
+   "why": {
+    "en": "Pillion riders need support and safety."
+   },
+   "recall_q": {
+    "en": "Give one pillion safety fitting."
+   },
+   "recall_a": {
+    "en": "Hand grip, footrest or saree guard."
+   },
+   "explain_simple": {
+    "en": "Grip, footrest, saree guard."
+   }
+  },
+  {
+   "id": "law.traffic.f22",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Breaking Section 128 is punished under Section 194C: ₹1,000 and licence disqualification for 3 months."
+   },
+   "why": {
+    "en": "2019 penalty."
+   },
+   "recall_q": {
+    "en": "Penalty for triple riding?"
+   },
+   "recall_a": {
+    "en": "₹1,000 and DL disqualified for 3 months (Sec 194C)."
+   },
+   "explain_simple": {
+    "en": "Triple riding: ₹1,000 + 3 months no licence."
+   }
+  },
+  {
+   "id": "law.traffic.f23",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 129: every person driving or riding a motorcycle in a public place must wear protective headgear (helmet) meeting BIS standards."
+   },
+   "why": {
+    "en": "Helmets prevent most head injury deaths."
+   },
+   "recall_q": {
+    "en": "Which section makes helmets compulsory?"
+   },
+   "recall_a": {
+    "en": "Section 129."
+   },
+   "explain_simple": {
+    "en": "Sec 129: helmet."
+   }
+  },
+  {
+   "id": "law.traffic.f24",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exemption under Section 129: a Sikh person wearing a turban."
+   },
+   "why": {
+    "en": "Religious practice is respected."
+   },
+   "recall_q": {
+    "en": "Who is exempt from wearing a helmet under Section 129?"
+   },
+   "recall_a": {
+    "en": "A Sikh wearing a turban."
+   },
+   "explain_simple": {
+    "en": "Turban-wearing Sikh exempt."
+   }
+  },
+  {
+   "id": "law.traffic.f25",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Protective headgear means a helmet that gives protection by its shape, material and build, and is fastened securely to the head by straps."
+   },
+   "why": {
+    "en": "An unstrapped helmet flies off in a crash."
+   },
+   "recall_q": {
+    "en": "Two conditions for 'protective headgear'?"
+   },
+   "recall_a": {
+    "en": "Protective shape/material and securely fastened with straps."
+   },
+   "explain_simple": {
+    "en": "Strong helmet, strap tied."
+   }
+  },
+  {
+   "id": "law.traffic.f26",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 129 (2019) applies to all persons above 4 years, and the Centre can make safety rules for children below 4 on motorcycles."
+   },
+   "why": {
+    "en": "Children were often unprotected."
+   },
+   "recall_q": {
+    "en": "Age above which helmet is compulsory?"
+   },
+   "recall_a": {
+    "en": "4 years."
+   },
+   "explain_simple": {
+    "en": "Above 4 years: helmet."
+   }
+  },
+  {
+   "id": "law.traffic.f27",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Not wearing a helmet is punished under Section 194D: ₹1,000 and licence disqualification for 3 months."
+   },
+   "why": {
+    "en": "2019 penalty."
+   },
+   "recall_q": {
+    "en": "Penalty for not wearing a helmet?"
+   },
+   "recall_a": {
+    "en": "₹1,000 + DL disqualified for 3 months (Sec 194D)."
+   },
+   "explain_simple": {
+    "en": "No helmet: ₹1,000 + 3 months."
+   }
+  },
+  {
+   "id": "law.traffic.f28",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 131: at an unguarded railway level crossing, the driver must stop. The conductor, cleaner or another person must walk to the crossing to check both sides for trains."
+   },
+   "why": {
+    "en": "Trains cannot stop in time."
+   },
+   "recall_q": {
+    "en": "Which section covers duty at unguarded railway crossings?"
+   },
+   "recall_a": {
+    "en": "Section 131."
+   },
+   "explain_simple": {
+    "en": "Sec 131: stop and check for trains."
+   }
+  },
+  {
+   "id": "law.traffic.f29",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "If there is no one else in the vehicle, the driver must get down and check for trains before crossing (Section 131)."
+   },
+   "why": {
+    "en": "Someone must look along the track."
+   },
+   "recall_q": {
+    "en": "Who checks for trains if the driver is alone?"
+   },
+   "recall_a": {
+    "en": "The driver gets down and checks."
+   },
+   "explain_simple": {
+    "en": "Alone? Get down and look."
+   }
+  },
+  {
+   "id": "law.traffic.f30",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 132: the driver must stop and stay when asked by a police officer not below Sub-Inspector in uniform, if the vehicle was in an accident."
+   },
+   "why": {
+    "en": "Police need facts at the spot."
+   },
+   "recall_q": {
+    "en": "Which section is about the duty of driver to stop?"
+   },
+   "recall_a": {
+    "en": "Section 132."
+   },
+   "explain_simple": {
+    "en": "Sec 132: stop when police ask after accident."
+   }
+  },
+  {
+   "id": "law.traffic.f31",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 132 also says the driver must stop if a person in charge of an animal asks, fearing the animal may become unmanageable."
+   },
+   "why": {
+    "en": "Frightened animals can cause accidents."
+   },
+   "recall_q": {
+    "en": "Must a driver stop when a person leading an animal asks?"
+   },
+   "recall_a": {
+    "en": "Yes, if the animal may become unmanageable."
+   },
+   "explain_simple": {
+    "en": "Stop for scared animals."
+   }
+  },
+  {
+   "id": "law.traffic.f32",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 132, the driver must give their name and address and the owner's name and address when asked."
+   },
+   "why": {
+    "en": "Identifies those involved."
+   },
+   "recall_q": {
+    "en": "What details must the driver give under Section 132?"
+   },
+   "recall_a": {
+    "en": "Own name and address, and owner's name and address."
+   },
+   "explain_simple": {
+    "en": "Give names and addresses."
+   }
+  },
+  {
+   "id": "law.traffic.f33",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 133: the owner must give, when an authorised police officer asks, the name, address and licence details of the driver or conductor."
+   },
+   "why": {
+    "en": "Helps trace who was driving."
+   },
+   "recall_q": {
+    "en": "Which section makes the owner give driver details?"
+   },
+   "recall_a": {
+    "en": "Section 133."
+   },
+   "explain_simple": {
+    "en": "Sec 133: owner tells who drove."
+   }
+  },
+  {
+   "id": "law.traffic.f34",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 134: after an accident with injury, the driver must take reasonable steps to get medical help for the injured, by taking them to the nearest doctor or hospital."
+   },
+   "why": {
+    "en": "Saving life comes first."
+   },
+   "recall_q": {
+    "en": "First duty of a driver after an injury accident?"
+   },
+   "recall_a": {
+    "en": "Get medical help for the injured (Sec 134)."
+   },
+   "explain_simple": {
+    "en": "Take the injured to hospital."
+   }
+  },
+  {
+   "id": "law.traffic.f35",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exception in Section 134: the driver need not do this if it is not possible due to mob fury or other reasons beyond control."
+   },
+   "why": {
+    "en": "The driver's safety is also considered."
+   },
+   "recall_q": {
+    "en": "When is the driver excused from taking the injured to hospital?"
+   },
+   "recall_a": {
+    "en": "Mob fury or reasons beyond control."
+   },
+   "explain_simple": {
+    "en": "Mob attack: excused."
+   }
+  },
+  {
+   "id": "law.traffic.f36",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 134, the doctor or hospital must treat the injured at once, without waiting for procedural formalities."
+   },
+   "why": {
+    "en": "Police formalities must not delay treatment."
+   },
+   "recall_q": {
+    "en": "Must a hospital wait for police papers before treating an accident victim?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Treat first, papers later."
+   }
+  },
+  {
+   "id": "law.traffic.f37",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 134, the driver must report the accident at the nearest police station as soon as possible, and within 24 hours."
+   },
+   "why": {
+    "en": "Records and investigation."
+   },
+   "recall_q": {
+    "en": "Time limit to report an accident to police?"
+   },
+   "recall_a": {
+    "en": "Within 24 hours."
+   },
+   "explain_simple": {
+    "en": "Tell police within 24 hours."
+   }
+  },
+  {
+   "id": "law.traffic.f38",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 134, the driver must give the insurer in writing: policy number and validity, date, time and place of accident, details of persons hurt or killed, and driver and licence details."
+   },
+   "why": {
+    "en": "Helps quick claim processing."
+   },
+   "recall_q": {
+    "en": "Name two details the driver must give the insurer."
+   },
+   "recall_a": {
+    "en": "Policy number, date/time/place, injured persons, driver and DL details."
+   },
+   "explain_simple": {
+    "en": "Tell insurer the facts in writing."
+   }
+  },
+  {
+   "id": "law.traffic.f39",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Failing in duties under Sections 132, 133 or 134 is punished under Section 187: up to 6 months or ₹5,000, or both; later offences up to 1 year or ₹10,000."
+   },
+   "why": {
+    "en": "2019 amounts."
+   },
+   "recall_q": {
+    "en": "Penalty section for failing duties after an accident?"
+   },
+   "recall_a": {
+    "en": "Section 187."
+   },
+   "explain_simple": {
+    "en": "Run from accident duties → Sec 187."
+   }
+  },
+  {
+   "id": "law.traffic.f40",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 134A: a Good Samaritan is not liable in any civil or criminal action for injury or death of the victim caused by their negligence while helping."
+   },
+   "why": {
+    "en": "People should not fear helping."
+   },
+   "recall_q": {
+    "en": "Which section protects Good Samaritans?"
+   },
+   "recall_a": {
+    "en": "Section 134A."
+   },
+   "explain_simple": {
+    "en": "Helpers can't be sued."
+   }
+  },
+  {
+   "id": "law.traffic.f41",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Good Samaritan rules: a helper cannot be forced to give their name or be a witness, and cannot be detained at the hospital or asked to pay."
+   },
+   "why": {
+    "en": "Removes fear of police and hospital trouble."
+   },
+   "recall_q": {
+    "en": "Can a hospital demand payment from a Good Samaritan?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Helper: no fees, no forced name."
+   }
+  },
+  {
+   "id": "law.traffic.f42",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 136: after an accident, a person authorised by the State (usually an MVI) can inspect the vehicle, enter premises where it is kept, and remove it for examination."
+   },
+   "why": {
+    "en": "To find mechanical causes of the accident."
+   },
+   "recall_q": {
+    "en": "Which section allows inspection of vehicles involved in accidents?"
+   },
+   "recall_a": {
+    "en": "Section 136."
+   },
+   "explain_simple": {
+    "en": "Sec 136: inspect accident vehicle."
+   }
+  },
+  {
+   "id": "law.traffic.f43",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 136, the owner is told where the vehicle is taken, and it is returned after the inspection formalities."
+   },
+   "why": {
+    "en": "Owner's property rights."
+   },
+   "recall_q": {
+    "en": "Is the owner told where the accident vehicle is taken?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "Owner is informed and vehicle returned."
+   }
+  },
+  {
+   "id": "law.traffic.f44",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 136A (2019): the State must ensure electronic monitoring and enforcement of road safety on National and State Highways and city roads as notified."
+   },
+   "why": {
+    "en": "Cameras catch offences without stopping traffic."
+   },
+   "recall_q": {
+    "en": "Which section deals with electronic enforcement of road safety?"
+   },
+   "recall_a": {
+    "en": "Section 136A."
+   },
+   "explain_simple": {
+    "en": "Sec 136A: traffic cameras."
+   }
+  },
+  {
+   "id": "law.traffic.f45",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Devices under Section 136A include speed cameras, CCTV, speed guns, body-worn cameras, dashboard cameras and ANPR (automatic number plate recognition)."
+   },
+   "why": {
+    "en": "Evidence can be electronic."
+   },
+   "recall_q": {
+    "en": "Name two devices for electronic enforcement."
+   },
+   "recall_a": {
+    "en": "Speed camera, CCTV, body-worn camera, ANPR."
+   },
+   "explain_simple": {
+    "en": "Cameras and speed guns."
+   }
+  },
+  {
+   "id": "law.traffic.f46",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rule 167A of CMVR gives details of electronic enforcement. Notice of the offence (e-challan) is sent within 15 days."
+   },
+   "why": {
+    "en": "Fast notice is fair to the owner."
+   },
+   "recall_q": {
+    "en": "Within how many days is an e-challan notice sent?"
+   },
+   "recall_a": {
+    "en": "15 days."
+   },
+   "explain_simple": {
+    "en": "Camera fine sent in 15 days."
+   }
+  },
+  {
+   "id": "law.traffic.f47",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Kerala's 'Safe Kerala' project uses AI cameras across the State for electronic enforcement under Section 136A."
+   },
+   "why": {
+    "en": "Example from the AMVI's own department."
+   },
+   "recall_q": {
+    "en": "Name Kerala's AI-camera enforcement project."
+   },
+   "recall_a": {
+    "en": "Safe Kerala."
+   },
+   "explain_simple": {
+    "en": "Safe Kerala = AI cameras."
+   }
+  },
+  {
+   "id": "law.traffic.f48",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: 112 speed, 113 weight, 114 weighing, 120 left-hand control, 122 dangerous position, 123 running board, 125 obstruction of driver, 126 stationary vehicle, 127 abandoned vehicle."
+   },
+   "why": {
+    "en": "Matching questions use these."
+   },
+   "recall_q": {
+    "en": "Section 126 deals with?"
+   },
+   "recall_a": {
+    "en": "Stationary vehicles."
+   },
+   "explain_simple": {
+    "en": "122 danger, 123 footboard, 125 driver space, 126 parked, 127 abandoned."
+   }
+  },
+  {
+   "id": "law.traffic.f49",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "More numbers: 128 pillion safety, 129 helmet, 131 rail crossing, 132 stop, 133 owner info, 134 accident duty, 134A Good Samaritan, 136 inspection, 136A electronic enforcement."
+   },
+   "why": {
+    "en": "Matching questions use these."
+   },
+   "recall_q": {
+    "en": "Section 133 deals with?"
+   },
+   "recall_a": {
+    "en": "Duty of owner to give information."
+   },
+   "explain_simple": {
+    "en": "131 rail, 132 stop, 133 owner, 134 accident."
+   }
+  },
+  {
+   "id": "law.traffic.sum",
+   "topic": "law.traffic",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Control of traffic: Sections 112 to 136A"
+   },
+   "points": [
+    {
+     "en": "112 speed; 113 weight; 114 weigh within 10 km."
+    },
+    {
+     "en": "120 left-hand control; 122 danger; 123 footboard; 125 driver space."
+    },
+    {
+     "en": "126 stationary; 127 abandoned 10 hours; 128 one pillion; 129 helmet."
+    },
+    {
+     "en": "131 rail crossing; 132 stop; 133 owner info; 134 accident, 24 hours."
+    },
+    {
+     "en": "134A Good Samaritan; 136 inspection; 136A cameras."
+    }
+   ]
+  },
+  {
+   "id": "law.insurance.f01",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 146: no person shall use, or allow another to use, a motor vehicle in a public place without a valid third-party insurance policy, except as a passenger."
+   },
+   "why": {
+    "en": "Accident victims must be compensated."
+   },
+   "recall_q": {
+    "en": "Which section makes third-party insurance necessary?"
+   },
+   "recall_a": {
+    "en": "Section 146."
+   },
+   "explain_simple": {
+    "en": "Sec 146: insurance must."
+   }
+  },
+  {
+   "id": "law.insurance.f02",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Chapter XI of the MV Act deals with insurance of motor vehicles against third-party risks."
+   },
+   "why": {
+    "en": "Section 146 opens this chapter."
+   },
+   "recall_q": {
+    "en": "Which chapter covers third-party insurance?"
+   },
+   "recall_a": {
+    "en": "Chapter XI."
+   },
+   "explain_simple": {
+    "en": "Chapter XI = insurance."
+   }
+  },
+  {
+   "id": "law.insurance.f03",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exemption from Section 146: vehicles owned by Central or State Government used for government purposes not connected with commerce."
+   },
+   "why": {
+    "en": "The Government pays compensation itself."
+   },
+   "recall_q": {
+    "en": "Which vehicles are exempt from compulsory insurance?"
+   },
+   "recall_a": {
+    "en": "Government vehicles used for non-commercial government purposes."
+   },
+   "explain_simple": {
+    "en": "Govt vehicles (non-commercial) exempt."
+   }
+  },
+  {
+   "id": "law.insurance.f04",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The Government may also exempt vehicles of a local authority or State Transport Undertaking if they keep a fund to meet claims."
+   },
+   "why": {
+    "en": "Their own fund acts like insurance."
+   },
+   "recall_q": {
+    "en": "On what condition can an STU be exempted from insurance?"
+   },
+   "recall_a": {
+    "en": "If it maintains a fund to meet liabilities."
+   },
+   "explain_simple": {
+    "en": "Own fund → exemption possible."
+   }
+  },
+  {
+   "id": "law.insurance.f05",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A paid employee driving an uninsured vehicle is not guilty unless they knew or had reason to believe there was no insurance."
+   },
+   "why": {
+    "en": "The owner is mainly responsible."
+   },
+   "recall_q": {
+    "en": "Is a paid driver guilty if they did not know the vehicle was uninsured?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Innocent paid driver not guilty."
+   }
+  },
+  {
+   "id": "law.insurance.f06",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vehicles carrying dangerous or hazardous goods must also be insured under the Public Liability Insurance Act, 1991 (added 2019)."
+   },
+   "why": {
+    "en": "Chemical accidents harm many people."
+   },
+   "recall_q": {
+    "en": "Extra insurance needed for hazardous goods vehicles?"
+   },
+   "recall_a": {
+    "en": "Under the Public Liability Insurance Act, 1991."
+   },
+   "explain_simple": {
+    "en": "Hazardous load: extra insurance."
+   }
+  },
+  {
+   "id": "law.insurance.f07",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Driving an uninsured vehicle is punished under Section 196: first offence up to 3 months or ₹2,000, or both; later offences up to 3 months or ₹4,000, or both."
+   },
+   "why": {
+    "en": "2019 amounts."
+   },
+   "recall_q": {
+    "en": "Penalty section for driving an uninsured vehicle?"
+   },
+   "recall_a": {
+    "en": "Section 196."
+   },
+   "explain_simple": {
+    "en": "No insurance → Sec 196."
+   }
+  },
+  {
+   "id": "law.insurance.f08",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hit-and-run compensation (Section 161): ₹2 lakh for death and ₹50,000 for grievous hurt, paid from the Motor Vehicle Accident Fund."
+   },
+   "why": {
+    "en": "Victims get help even when the vehicle is not found."
+   },
+   "recall_q": {
+    "en": "Hit-and-run compensation for death?"
+   },
+   "recall_a": {
+    "en": "₹2 lakh."
+   },
+   "explain_simple": {
+    "en": "Hit and run: 2 lakh death, 50,000 injury."
+   }
+  },
+  {
+   "id": "law.insurance.f09",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 164: compensation without proving fault: ₹5 lakh for death and ₹2.5 lakh for grievous hurt."
+   },
+   "why": {
+    "en": "Quick relief without long fault cases."
+   },
+   "recall_q": {
+    "en": "No-fault compensation for death under Section 164?"
+   },
+   "recall_a": {
+    "en": "₹5 lakh."
+   },
+   "explain_simple": {
+    "en": "No-fault: 5 lakh death, 2.5 lakh injury."
+   }
+  },
+  {
+   "id": "law.insurance.f10",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Claims for compensation are decided by the Motor Accident Claims Tribunal (MACT) under Section 165."
+   },
+   "why": {
+    "en": "A special court for accident claims."
+   },
+   "recall_q": {
+    "en": "Which tribunal hears motor accident claims?"
+   },
+   "recall_a": {
+    "en": "Motor Accident Claims Tribunal (MACT)."
+   },
+   "explain_simple": {
+    "en": "MACT decides claims."
+   }
+  },
+  {
+   "id": "law.insurance.f11",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 162 provides cashless treatment for accident victims during the golden hour. A 2025 central scheme gives up to ₹1.5 lakh per victim for 7 days."
+   },
+   "why": {
+    "en": "Money must not delay treatment; check current scheme limits."
+   },
+   "recall_q": {
+    "en": "Which section provides for golden hour cashless treatment?"
+   },
+   "recall_a": {
+    "en": "Section 162."
+   },
+   "explain_simple": {
+    "en": "Free treatment in golden hour."
+   }
+  },
+  {
+   "id": "law.insurance.sum",
+   "topic": "law.insurance",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Third-party insurance (Sec 146)"
+   },
+   "points": [
+    {
+     "en": "Sec 146: third-party insurance compulsory; Chapter XI."
+    },
+    {
+     "en": "Exempt: govt non-commercial; STU/local body with fund."
+    },
+    {
+     "en": "Uninsured: Sec 196, ₹2,000 then ₹4,000."
+    },
+    {
+     "en": "Hit and run ₹2 lakh / ₹50,000; no-fault ₹5 lakh / ₹2.5 lakh."
+    }
+   ]
+  },
+  {
+   "id": "law.offences.f01",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Chapter XIII of the MV Act deals with offences, penalties and procedure (Sections 177 to 210). Fines were raised sharply in 2019."
+   },
+   "why": {
+    "en": "Most fine questions come from here."
+   },
+   "recall_q": {
+    "en": "Which chapter covers offences and penalties?"
+   },
+   "recall_a": {
+    "en": "Chapter XIII."
+   },
+   "explain_simple": {
+    "en": "Chapter XIII = fines."
+   }
+  },
+  {
+   "id": "law.offences.f02",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 177: general punishment when no separate penalty is given: ₹500 for the first offence and ₹1,500 for later offences."
+   },
+   "why": {
+    "en": "A catch-all for minor breaches."
+   },
+   "recall_q": {
+    "en": "General penalty under Section 177 for first offence?"
+   },
+   "recall_a": {
+    "en": "₹500 (later ₹1,500)."
+   },
+   "explain_simple": {
+    "en": "No special fine? ₹500, then ₹1,500."
+   }
+  },
+  {
+   "id": "law.offences.f03",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 177A: breaking the driving regulations made under Section 118 gives the same fine: ₹500 first, ₹1,500 later."
+   },
+   "why": {
+    "en": "Road rule breaches."
+   },
+   "recall_q": {
+    "en": "Section 177A is about?"
+   },
+   "recall_a": {
+    "en": "Contravention of regulations under Section 118."
+   },
+   "explain_simple": {
+    "en": "177A = road regulations fine."
+   }
+  },
+  {
+   "id": "law.offences.f04",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 178: travelling in a stage carriage without a ticket is fined ₹500. A conductor who fails to issue tickets or does their duty wrongly is also fined ₹500."
+   },
+   "why": {
+    "en": "Protects fare collection."
+   },
+   "recall_q": {
+    "en": "Fine for ticketless travel in a bus?"
+   },
+   "recall_a": {
+    "en": "₹500 (Section 178)."
+   },
+   "explain_simple": {
+    "en": "No ticket: ₹500."
+   }
+  },
+  {
+   "id": "law.offences.f05",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 178 also punishes refusing to ply a contract carriage (like a taxi or auto) or refusing to take passengers without good reason."
+   },
+   "why": {
+    "en": "Taxis must not refuse rides unfairly."
+   },
+   "recall_q": {
+    "en": "Taxi refusing a passenger is punished under which section?"
+   },
+   "recall_a": {
+    "en": "Section 178."
+   },
+   "explain_simple": {
+    "en": "Auto refusal → Sec 178."
+   }
+  },
+  {
+   "id": "law.offences.f06",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 179: disobeying lawful orders or obstructing an officer: ₹2,000. Withholding or giving false information: up to 1 month jail or ₹2,000, or both."
+   },
+   "why": {
+    "en": "Officers must be able to do their duty."
+   },
+   "recall_q": {
+    "en": "Fine for disobeying a lawful direction of an officer?"
+   },
+   "recall_a": {
+    "en": "₹2,000 (Section 179)."
+   },
+   "explain_simple": {
+    "en": "Disobey officer: ₹2,000."
+   }
+  },
+  {
+   "id": "law.offences.f07",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 180: owner allowing an unauthorised person to drive: up to 3 months or ₹5,000, or both."
+   },
+   "why": {
+    "en": "Owner shares the blame."
+   },
+   "recall_q": {
+    "en": "Section 180 punishes?"
+   },
+   "recall_a": {
+    "en": "Allowing unauthorised persons to drive."
+   },
+   "explain_simple": {
+    "en": "Owner gives key to unlicensed: ₹5,000."
+   }
+  },
+  {
+   "id": "law.offences.f08",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 181: driving against Section 3 or 4 (no licence or under age): up to 3 months or ₹5,000, or both."
+   },
+   "why": {
+    "en": "2019 amount."
+   },
+   "recall_q": {
+    "en": "Section 181 punishes?"
+   },
+   "recall_a": {
+    "en": "Driving without licence or under age (Sec 3 or 4)."
+   },
+   "explain_simple": {
+    "en": "No licence: ₹5,000."
+   }
+  },
+  {
+   "id": "law.offences.f09",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 182: driving while disqualified, or getting a licence while disqualified: up to 3 months or ₹10,000, or both. Conductor offences: up to 1 month or ₹10,000."
+   },
+   "why": {
+    "en": "Licence-related offences."
+   },
+   "recall_q": {
+    "en": "Fine for driving while disqualified?"
+   },
+   "recall_a": {
+    "en": "₹10,000 (Section 182)."
+   },
+   "explain_simple": {
+    "en": "Disqualified driving: ₹10,000."
+   }
+  },
+  {
+   "id": "law.offences.f10",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 182A: offences on construction, maintenance, sale and alteration of vehicles and parts. Manufacturer up to ₹100 crore; component maker up to ₹1 crore; illegal alteration ₹5,000 each."
+   },
+   "why": {
+    "en": "Added by the 2019 amendment."
+   },
+   "recall_q": {
+    "en": "Section 182A is about?"
+   },
+   "recall_a": {
+    "en": "Construction, maintenance, sale and alteration offences."
+   },
+   "explain_simple": {
+    "en": "182A = vehicle making and altering."
+   }
+  },
+  {
+   "id": "law.offences.f11",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 183: speeding. Light motor vehicles: ₹1,000 to ₹2,000. Medium and heavy vehicles: ₹2,000 to ₹4,000. Repeat offence can lead to licence seizure."
+   },
+   "why": {
+    "en": "2019 amounts."
+   },
+   "recall_q": {
+    "en": "Speeding fine range for a car?"
+   },
+   "recall_a": {
+    "en": "₹1,000 to ₹2,000 (Section 183)."
+   },
+   "explain_simple": {
+    "en": "Car speeding: 1,000–2,000."
+   }
+  },
+  {
+   "id": "law.offences.f12",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 184: dangerous driving includes jumping red lights, breaking stop signs, using hand-held phones, illegal overtaking and driving against traffic."
+   },
+   "why": {
+    "en": "These acts endanger the public."
+   },
+   "recall_q": {
+    "en": "Is using a hand-held phone while driving 'dangerous driving'?"
+   },
+   "recall_a": {
+    "en": "Yes (Section 184)."
+   },
+   "explain_simple": {
+    "en": "Phone, red light, wrong side = dangerous."
+   }
+  },
+  {
+   "id": "law.offences.f13",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 184 penalty: first offence 6 months to 1 year jail, or ₹1,000 to ₹5,000 fine, or both. Repeat within 3 years: up to 2 years or ₹10,000, or both."
+   },
+   "why": {
+    "en": "2019 amounts."
+   },
+   "recall_q": {
+    "en": "Maximum fine for first dangerous driving offence?"
+   },
+   "recall_a": {
+    "en": "₹5,000."
+   },
+   "explain_simple": {
+    "en": "Dangerous driving: up to ₹5,000 first."
+   }
+  },
+  {
+   "id": "law.offences.f14",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 185: drunk driving means blood alcohol above 30 mg per 100 ml (by breath analyser), or driving under the influence of drugs."
+   },
+   "why": {
+    "en": "Alcohol and drugs slow the brain."
+   },
+   "recall_q": {
+    "en": "Blood alcohol limit under Section 185?"
+   },
+   "recall_a": {
+    "en": "30 mg per 100 ml of blood."
+   },
+   "explain_simple": {
+    "en": "Over 30 mg = drunk."
+   }
+  },
+  {
+   "id": "law.offences.f15",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 185 penalty: first offence up to 6 months or ₹10,000, or both. Repeat within 3 years: up to 2 years or ₹15,000, or both."
+   },
+   "why": {
+    "en": "2019 amounts."
+   },
+   "recall_q": {
+    "en": "Fine for first drunk driving offence?"
+   },
+   "recall_a": {
+    "en": "Up to ₹10,000 (and/or 6 months)."
+   },
+   "explain_simple": {
+    "en": "Drunk: ₹10,000, then ₹15,000."
+   }
+  },
+  {
+   "id": "law.offences.f16",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 186: driving when knowingly mentally or physically unfit: ₹1,000 first, ₹2,000 later."
+   },
+   "why": {
+    "en": "An unfit driver is a danger."
+   },
+   "recall_q": {
+    "en": "Section 186 deals with?"
+   },
+   "recall_a": {
+    "en": "Driving when mentally or physically unfit."
+   },
+   "explain_simple": {
+    "en": "Unfit driving: ₹1,000."
+   }
+  },
+  {
+   "id": "law.offences.f17",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 187: failing duties after an accident (Sections 132, 133, 134): up to 6 months or ₹5,000, or both; later up to 1 year or ₹10,000."
+   },
+   "why": {
+    "en": "2019 amounts."
+   },
+   "recall_q": {
+    "en": "Section 187 punishes?"
+   },
+   "recall_a": {
+    "en": "Offences relating to accident (duties not done)."
+   },
+   "explain_simple": {
+    "en": "Accident duties broken: Sec 187."
+   }
+  },
+  {
+   "id": "law.offences.f18",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 188: anyone who abets an offence under Sections 183, 184 or 189 gets the same punishment as for the offence."
+   },
+   "why": {
+    "en": "Encouraging speeding or racing is equally wrong."
+   },
+   "recall_q": {
+    "en": "Punishment for abetting a racing offence?"
+   },
+   "recall_a": {
+    "en": "Same as for the offence (Section 188)."
+   },
+   "explain_simple": {
+    "en": "Helper gets the same punishment."
+   }
+  },
+  {
+   "id": "law.offences.f19",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 189: racing and speed trials on public roads without written consent of the State Government: first offence up to 3 months or ₹5,000, or both; later up to 1 year or ₹10,000."
+   },
+   "why": {
+    "en": "Road racing kills."
+   },
+   "recall_q": {
+    "en": "Section on racing and trials of speed?"
+   },
+   "recall_a": {
+    "en": "Section 189."
+   },
+   "explain_simple": {
+    "en": "Road racing: Sec 189."
+   }
+  },
+  {
+   "id": "law.offences.f20",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 190(1): driving a vehicle with a defect likely to cause an accident: up to 3 months or ₹5,000; if it causes injury or damage, up to 6 months or ₹10,000."
+   },
+   "why": {
+    "en": "Owners must fix known defects."
+   },
+   "recall_q": {
+    "en": "Section 190 deals with?"
+   },
+   "recall_a": {
+    "en": "Using vehicle in unsafe condition."
+   },
+   "explain_simple": {
+    "en": "Unsafe vehicle: Sec 190."
+   }
+  },
+  {
+   "id": "law.offences.f21",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 190(2): breaking road safety, noise or air pollution standards (such as no valid PUC): up to 3 months or ₹10,000, and licence disqualified for 3 months."
+   },
+   "why": {
+    "en": "Pollution control is enforced strictly."
+   },
+   "recall_q": {
+    "en": "Fine for violating air pollution standards?"
+   },
+   "recall_a": {
+    "en": "Up to ₹10,000 + 3 months DL disqualification."
+   },
+   "explain_simple": {
+    "en": "No PUC: ₹10,000."
+   }
+  },
+  {
+   "id": "law.offences.f22",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 190(3): carrying dangerous or hazardous goods without following the rules: up to 1 year or ₹10,000; later up to 3 years or ₹20,000."
+   },
+   "why": {
+    "en": "Chemical spills cause disasters."
+   },
+   "recall_q": {
+    "en": "Section 190(3) is about?"
+   },
+   "recall_a": {
+    "en": "Carrying hazardous goods against the rules."
+   },
+   "explain_simple": {
+    "en": "Hazardous goods broken rules: Sec 190(3)."
+   }
+  },
+  {
+   "id": "law.offences.f23",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 192: using a vehicle without registration: first offence ₹2,000 to ₹5,000; later up to 1 year jail or ₹5,000 to ₹10,000 fine, or both."
+   },
+   "why": {
+    "en": "2019 amounts."
+   },
+   "recall_q": {
+    "en": "Section 192 punishes?"
+   },
+   "recall_a": {
+    "en": "Using vehicle without registration."
+   },
+   "explain_simple": {
+    "en": "No RC: Sec 192."
+   }
+  },
+  {
+   "id": "law.offences.f24",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 192A: using a vehicle without a permit or against permit conditions: first offence up to ₹10,000 and up to 6 months."
+   },
+   "why": {
+    "en": "Illegal operators lose to legal ones."
+   },
+   "recall_q": {
+    "en": "Section 192A punishes?"
+   },
+   "recall_a": {
+    "en": "Using vehicle without permit."
+   },
+   "explain_simple": {
+    "en": "No permit: Sec 192A."
+   }
+  },
+  {
+   "id": "law.offences.f25",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 193: punishment of agents and canvassers (and aggregators) working without the licence required under Section 93."
+   },
+   "why": {
+    "en": "Booking agents and apps must be licensed."
+   },
+   "recall_q": {
+    "en": "Section 193 punishes whom?"
+   },
+   "recall_a": {
+    "en": "Agents, canvassers or aggregators without authority."
+   },
+   "explain_simple": {
+    "en": "Unlicensed booking agent: Sec 193."
+   }
+  },
+  {
+   "id": "law.offences.f26",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 194: driving a vehicle beyond permissible weight: ₹20,000 plus ₹2,000 per extra tonne. Refusing to stop for weighing: ₹40,000."
+   },
+   "why": {
+    "en": "Overloading destroys roads."
+   },
+   "recall_q": {
+    "en": "Section 194 deals with?"
+   },
+   "recall_a": {
+    "en": "Driving vehicle exceeding permissible weight."
+   },
+   "explain_simple": {
+    "en": "Overloading: Sec 194."
+   }
+  },
+  {
+   "id": "law.offences.f27",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 194A: carrying excess passengers in a transport vehicle: ₹200 per extra passenger, and the extra passengers can be off-loaded."
+   },
+   "why": {
+    "en": "Overcrowding causes deaths."
+   },
+   "recall_q": {
+    "en": "Fine per excess passenger?"
+   },
+   "recall_a": {
+    "en": "₹200 (Section 194A)."
+   },
+   "explain_simple": {
+    "en": "₹200 per extra person."
+   }
+  },
+  {
+   "id": "law.offences.f28",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 194B(1): driving without a seat belt, or carrying passengers without seat belts: ₹1,000."
+   },
+   "why": {
+    "en": "Seat belts save lives."
+   },
+   "recall_q": {
+    "en": "Fine for not wearing a seat belt?"
+   },
+   "recall_a": {
+    "en": "₹1,000 (Section 194B)."
+   },
+   "explain_simple": {
+    "en": "No belt: ₹1,000."
+   }
+  },
+  {
+   "id": "law.offences.f29",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 194B(2): carrying a child below 14 years not secured by a seat belt or child restraint system: ₹1,000."
+   },
+   "why": {
+    "en": "Children need proper restraints."
+   },
+   "recall_q": {
+    "en": "Age below which a child must use a belt or child restraint?"
+   },
+   "recall_a": {
+    "en": "14 years."
+   },
+   "explain_simple": {
+    "en": "Child under 14 not secured: ₹1,000."
+   }
+  },
+  {
+   "id": "law.offences.f30",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 194C: breaking motorcycle safety rules of Section 128 (like triple riding): ₹1,000 and 3 months disqualification."
+   },
+   "why": {
+    "en": "2019 penalty."
+   },
+   "recall_q": {
+    "en": "Section 194C is about?"
+   },
+   "recall_a": {
+    "en": "Safety measures for motorcycle drivers and pillion riders."
+   },
+   "explain_simple": {
+    "en": "194C ↔ 128."
+   }
+  },
+  {
+   "id": "law.offences.f31",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 194D: not wearing a helmet: ₹1,000 and 3 months disqualification."
+   },
+   "why": {
+    "en": "2019 penalty."
+   },
+   "recall_q": {
+    "en": "Section 194D is about?"
+   },
+   "recall_a": {
+    "en": "Not wearing protective headgear."
+   },
+   "explain_simple": {
+    "en": "194D ↔ 129."
+   }
+  },
+  {
+   "id": "law.offences.f32",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 194E: not giving way to emergency vehicles: up to 6 months or ₹10,000, or both."
+   },
+   "why": {
+    "en": "Ambulances and fire engines save lives."
+   },
+   "recall_q": {
+    "en": "Fine for blocking an ambulance?"
+   },
+   "recall_a": {
+    "en": "₹10,000 (Section 194E)."
+   },
+   "explain_simple": {
+    "en": "Block ambulance: ₹10,000."
+   }
+  },
+  {
+   "id": "law.offences.f33",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 194F: needless or continuous horn use, or horn in a silence zone: ₹1,000 first, ₹2,000 later."
+   },
+   "why": {
+    "en": "Noise pollution."
+   },
+   "recall_q": {
+    "en": "Fine for using horn in a silence zone?"
+   },
+   "recall_a": {
+    "en": "₹1,000 first, ₹2,000 later."
+   },
+   "explain_simple": {
+    "en": "Silence zone horn: ₹1,000."
+   }
+  },
+  {
+   "id": "law.offences.f34",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 196: driving an uninsured vehicle: up to 3 months or ₹2,000, or both; later ₹4,000."
+   },
+   "why": {
+    "en": "2019 amounts."
+   },
+   "recall_q": {
+    "en": "Section 196 punishes?"
+   },
+   "recall_a": {
+    "en": "Driving an uninsured vehicle."
+   },
+   "explain_simple": {
+    "en": "No insurance: ₹2,000."
+   }
+  },
+  {
+   "id": "law.offences.f35",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 197: taking a vehicle without the owner's consent or lawful authority: up to 3 months or ₹5,000, or both."
+   },
+   "why": {
+    "en": "Joyriding in others' vehicles."
+   },
+   "recall_q": {
+    "en": "Section 197 deals with?"
+   },
+   "recall_a": {
+    "en": "Taking vehicle without authority."
+   },
+   "explain_simple": {
+    "en": "Taking someone's vehicle: Sec 197."
+   }
+  },
+  {
+   "id": "law.offences.f36",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 198: climbing on a stationary vehicle or tampering with its brakes or parts without lawful reason: ₹1,000."
+   },
+   "why": {
+    "en": "Tampering can cause accidents."
+   },
+   "recall_q": {
+    "en": "Section 198 deals with?"
+   },
+   "recall_a": {
+    "en": "Unauthorised interference with vehicle."
+   },
+   "explain_simple": {
+    "en": "Tampering: ₹1,000."
+   }
+  },
+  {
+   "id": "law.offences.f37",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 198A: a contractor, consultant or road authority who fails to follow road design and maintenance standards, causing death or disability, is fined up to ₹1 lakh."
+   },
+   "why": {
+    "en": "Bad roads also kill."
+   },
+   "recall_q": {
+    "en": "Who is punished under Section 198A?"
+   },
+   "recall_a": {
+    "en": "Road authority, contractor or consultant failing road standards."
+   },
+   "explain_simple": {
+    "en": "Bad road builder pays."
+   }
+  },
+  {
+   "id": "law.offences.f38",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 199A: when a juvenile commits an offence, the guardian or owner is deemed guilty: up to 3 years jail and ₹25,000 fine."
+   },
+   "why": {
+    "en": "Parents must not give vehicles to minors."
+   },
+   "recall_q": {
+    "en": "Fine on guardian for juvenile offence?"
+   },
+   "recall_a": {
+    "en": "₹25,000 + up to 3 years (Section 199A)."
+   },
+   "explain_simple": {
+    "en": "Minor drives → parent punished."
+   }
+  },
+  {
+   "id": "law.offences.f39",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 199A, the vehicle's registration is cancelled for 12 months, and the juvenile cannot get a licence until age 25."
+   },
+   "why": {
+    "en": "Strong deterrent."
+   },
+   "recall_q": {
+    "en": "RC cancelled for how long in a juvenile offence?"
+   },
+   "recall_a": {
+    "en": "12 months."
+   },
+   "explain_simple": {
+    "en": "RC gone 1 year; no licence till 25."
+   }
+  },
+  {
+   "id": "law.offences.f40",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Defence under Section 199A: the guardian is not guilty if the offence was committed without their knowledge or they took all care to prevent it."
+   },
+   "why": {
+    "en": "Fairness to careful parents."
+   },
+   "recall_q": {
+    "en": "When is a guardian not liable under Section 199A?"
+   },
+   "recall_a": {
+    "en": "Without knowledge, or after all due diligence."
+   },
+   "explain_simple": {
+    "en": "Didn't know and took care → not guilty."
+   }
+  },
+  {
+   "id": "law.offences.f41",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A juvenile with a valid learner's or driving licence for that vehicle is outside Section 199A's guardian liability."
+   },
+   "why": {
+    "en": "E.g. a 16-year-old on a 50 cc bike with licence."
+   },
+   "recall_q": {
+    "en": "Does Section 199A apply to a juvenile with a valid licence for that vehicle?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Licensed minor: rule doesn't apply."
+   }
+  },
+  {
+   "id": "law.offences.f42",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 200: certain offences can be compounded (settled by paying a fixed amount) by officers notified by the State, before or after prosecution starts."
+   },
+   "why": {
+    "en": "Quick disposal without court."
+   },
+   "recall_q": {
+    "en": "Which section allows composition of offences?"
+   },
+   "recall_a": {
+    "en": "Section 200."
+   },
+   "explain_simple": {
+    "en": "Sec 200: pay and settle."
+   }
+  },
+  {
+   "id": "law.offences.f43",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Drunk driving (Section 185) is not compoundable. It must go to court."
+   },
+   "why": {
+    "en": "Too serious to settle on the spot."
+   },
+   "recall_q": {
+    "en": "Is drunk driving compoundable under Section 200?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Drunk driving: court only."
+   }
+  },
+  {
+   "id": "law.offences.f44",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compoundable offences include speeding (183), dangerous driving (184), no helmet (194D), no seat belt (194B), overloading (194), no insurance (196) and others listed in Section 200."
+   },
+   "why": {
+    "en": "Most daily offences are compounded."
+   },
+   "recall_q": {
+    "en": "Is speeding compoundable?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "Most fines can be paid on the spot."
+   }
+  },
+  {
+   "id": "law.offences.f45",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 202: a police officer in uniform may arrest without warrant a person who, in his presence, commits an offence under Section 184, 185 or 197."
+   },
+   "why": {
+    "en": "Dangerous driving, drunk driving and taking vehicles need instant action."
+   },
+   "recall_q": {
+    "en": "Offences for which arrest without warrant is allowed?"
+   },
+   "recall_a": {
+    "en": "Sections 184, 185 and 197."
+   },
+   "explain_simple": {
+    "en": "Dangerous, drunk, taking vehicle → arrest."
+   }
+  },
+  {
+   "id": "law.offences.f46",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 206: a police officer or authorised person can seize a document or registration mark that they believe is false."
+   },
+   "why": {
+    "en": "Fake papers must be taken out of use."
+   },
+   "recall_q": {
+    "en": "Which section allows seizure of false documents?"
+   },
+   "recall_a": {
+    "en": "Section 206."
+   },
+   "explain_simple": {
+    "en": "Sec 206: seize fake papers."
+   }
+  },
+  {
+   "id": "law.offences.f47",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 206(4): for offences under Sections 183, 184, 185, 189, 190, 194C, 194D or 194E, the officer shall seize the DL and send it to the licensing authority for disqualification under Section 19."
+   },
+   "why": {
+    "en": "Serious offenders lose their licence."
+   },
+   "recall_q": {
+    "en": "Where is a seized DL sent under Section 206(4)?"
+   },
+   "recall_a": {
+    "en": "To the licensing authority."
+   },
+   "explain_simple": {
+    "en": "Serious offence: DL taken and sent to RTO."
+   }
+  },
+  {
+   "id": "law.offences.f48",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "When a DL is seized, the officer gives a temporary acknowledgement that lets the person drive until the case is decided."
+   },
+   "why": {
+    "en": "Fairness until a decision."
+   },
+   "recall_q": {
+    "en": "What does an officer give when seizing a DL?"
+   },
+   "recall_a": {
+    "en": "A temporary acknowledgement."
+   },
+   "explain_simple": {
+    "en": "Receipt allows driving for now."
+   }
+  },
+  {
+   "id": "law.offences.f49",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 207: a police officer or authorised person can seize and detain a vehicle used without licence, registration or permit (against Sections 3, 4, 39 or 66)."
+   },
+   "why": {
+    "en": "Illegal vehicles are taken off the road."
+   },
+   "recall_q": {
+    "en": "Which section allows detention of a vehicle used without RC or permit?"
+   },
+   "recall_a": {
+    "en": "Section 207."
+   },
+   "explain_simple": {
+    "en": "Sec 207: detain illegal vehicle."
+   }
+  },
+  {
+   "id": "law.offences.f50",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "On seizing a vehicle under Section 207, the officer arranges safe custody and gives an acknowledgement. The vehicle is released when documents are produced or by order of the authority or court."
+   },
+   "why": {
+    "en": "Owner can get it back legally."
+   },
+   "recall_q": {
+    "en": "How is a detained vehicle released?"
+   },
+   "recall_a": {
+    "en": "On producing documents, by order of authority or court."
+   },
+   "explain_simple": {
+    "en": "Show papers, get vehicle back."
+   }
+  },
+  {
+   "id": "law.offences.f51",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 208: summary disposal. For offences not punishable with jail, the court summons can let the accused plead guilty by post or electronically and pay the fine."
+   },
+   "why": {
+    "en": "Saves time for courts and people."
+   },
+   "recall_q": {
+    "en": "Section 208 is about?"
+   },
+   "recall_a": {
+    "en": "Summary disposal of cases."
+   },
+   "explain_simple": {
+    "en": "Plead guilty by post, pay fine."
+   }
+  },
+  {
+   "id": "law.offences.f52",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 213: the State Government may set up a Motor Vehicles Department and appoint motor vehicles officers. They are public servants."
+   },
+   "why": {
+    "en": "This section gives MVIs and AMVIs their powers."
+   },
+   "recall_q": {
+    "en": "Which section allows appointment of motor vehicles officers?"
+   },
+   "recall_a": {
+    "en": "Section 213."
+   },
+   "explain_simple": {
+    "en": "Sec 213: MVD officers."
+   }
+  },
+  {
+   "id": "law.offences.f53",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Powers under Section 213: make enquiries, stop vehicles and check documents, enter and search premises, examine persons, and seize records and documents."
+   },
+   "why": {
+    "en": "Needed for enforcement."
+   },
+   "recall_q": {
+    "en": "Give two powers of motor vehicles officers under Section 213."
+   },
+   "recall_a": {
+    "en": "Stop vehicles and check papers; enter and search premises; seize records."
+   },
+   "explain_simple": {
+    "en": "Stop, check, search, seize."
+   }
+  },
+  {
+   "id": "law.offences.f54",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under Section 213, a motor vehicles officer must be in uniform when exercising powers. The Central Government can prescribe minimum qualifications for these officers."
+   },
+   "why": {
+    "en": "Uniform shows authority; qualification ensures skill."
+   },
+   "recall_q": {
+    "en": "Must an MVD officer be in uniform to stop vehicles?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "Officer acts in uniform."
+   }
+  },
+  {
+   "id": "law.offences.f55",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: the syllabus prints Section 213 under 'Chapter XIV', which is the Miscellaneous chapter."
+   },
+   "why": {
+    "en": "Chapter XIII is offences; XIV is miscellaneous."
+   },
+   "recall_q": {
+    "en": "Section 213 falls in which chapter?"
+   },
+   "recall_a": {
+    "en": "Chapter XIV (Miscellaneous)."
+   },
+   "explain_simple": {
+    "en": "213 is in Chapter XIV."
+   }
+  },
+  {
+   "id": "law.offences.f56",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fines matched to sections: 194A ₹200 per passenger; 177 ₹500; 194B, 194C, 194D ₹1,000; 179 ₹2,000; 180, 181 ₹5,000; 182, 185, 194E ₹10,000; 194 ₹20,000; 199A ₹25,000."
+   },
+   "why": {
+    "en": "Quick revision table."
+   },
+   "recall_q": {
+    "en": "Which section has a ₹25,000 fine?"
+   },
+   "recall_a": {
+    "en": "Section 199A (juvenile)."
+   },
+   "explain_simple": {
+    "en": "200, 500, 1000, 2000, 5000, 10000, 20000, 25000."
+   }
+  },
+  {
+   "id": "law.offences.f57",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Offences with 3-month DL disqualification: 190(2) pollution, 194C pillion rules, 194D helmet."
+   },
+   "why": {
+    "en": "Common PSC question."
+   },
+   "recall_q": {
+    "en": "Name a 2019 offence that carries 3 months DL disqualification."
+   },
+   "recall_a": {
+    "en": "No helmet (194D), triple riding (194C) or pollution (190(2))."
+   },
+   "explain_simple": {
+    "en": "Helmet, pillion, pollution: 3 months."
+   }
+  },
+  {
+   "id": "law.offences.s01",
+   "topic": "law.offences",
+   "type": "steps",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: overloading fine"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A lorry with GVW 16 tonnes is found carrying 19 tonnes. Find the fine under Section 194."
+     }
+    },
+    {
+     "text": {
+      "en": "Excess = 19 − 16 = 3 tonnes."
+     }
+    },
+    {
+     "text": {
+      "en": "Fine = ₹20,000 + (3 × ₹2,000) = ₹20,000 + ₹6,000."
+     }
+    },
+    {
+     "text": {
+      "en": "Total fine = ₹26,000, plus the excess load is off-loaded at the owner's cost."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "Fine = 20,000 + 2,000 × extra tonnes."
+    },
+    {
+     "en": "Excess load is off-loaded too."
+    }
+   ],
+   "recall_q": {
+    "en": "3 tonnes overload. Fine?"
+   },
+   "recall_a": {
+    "en": "₹26,000."
+   }
+  },
+  {
+   "id": "law.offences.sum",
+   "topic": "law.offences",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Offences, penalties and procedure (Sec 177 to 213)"
+   },
+   "points": [
+    {
+     "en": "177 ₹500/1,500; 179 ₹2,000; 180, 181 ₹5,000; 182 ₹10,000."
+    },
+    {
+     "en": "183 speed; 184 dangerous; 185 drunk (30 mg); 189 racing."
+    },
+    {
+     "en": "194 overload ₹20,000+2,000/t; 194A ₹200 each; 194B–D ₹1,000."
+    },
+    {
+     "en": "199A juvenile ₹25,000; 200 compounding (not 185)."
+    },
+    {
+     "en": "202 arrest (184, 185, 197); 206 seize DL; 207 detain; 213 officers."
+    }
+   ]
+  },
+  {
+   "id": "law.kmvt.f01",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The Kerala Motor Vehicles Taxation Act, 1976 (KMVT Act) lets the State collect tax on motor vehicles used or kept for use in Kerala."
+   },
+   "why": {
+    "en": "Vehicle tax is a State subject."
+   },
+   "recall_q": {
+    "en": "Which Act governs vehicle tax in Kerala?"
+   },
+   "recall_a": {
+    "en": "Kerala Motor Vehicles Taxation Act, 1976."
+   },
+   "explain_simple": {
+    "en": "KMVT Act 1976 = Kerala vehicle tax."
+   }
+  },
+  {
+   "id": "law.kmvt.f02",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 2(e) of the KMVT Act defines purchase value: the value of the vehicle shown in the purchase invoice, including taxes, which is used to work out one-time tax."
+   },
+   "why": {
+    "en": "One-time tax is a percentage of purchase value."
+   },
+   "recall_q": {
+    "en": "Which clause defines purchase value?"
+   },
+   "recall_a": {
+    "en": "Section 2(e)."
+   },
+   "explain_simple": {
+    "en": "Invoice price = purchase value."
+   }
+  },
+  {
+   "id": "law.kmvt.f03",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 3: levy of tax. Tax is charged on every motor vehicle used or kept for use in Kerala, at rates fixed by the Government within the limits in the Schedule."
+   },
+   "why": {
+    "en": "Main charging section."
+   },
+   "recall_q": {
+    "en": "Which KMVT section levies tax?"
+   },
+   "recall_a": {
+    "en": "Section 3."
+   },
+   "explain_simple": {
+    "en": "Sec 3: tax is charged."
+   }
+  },
+  {
+   "id": "law.kmvt.f04",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Private (non-transport) vehicles like motorcycles and cars pay a one-time tax for 15 years, worked out as a percentage of purchase value in slabs."
+   },
+   "why": {
+    "en": "One payment instead of yearly tax."
+   },
+   "recall_q": {
+    "en": "For how many years is one-time tax paid for a private car?"
+   },
+   "recall_a": {
+    "en": "15 years."
+   },
+   "explain_simple": {
+    "en": "Pay once for 15 years."
+   }
+  },
+  {
+   "id": "law.kmvt.f05",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Transport vehicles usually pay tax quarterly (every three months) in advance. Rates depend on seats for passenger vehicles and on weight for goods vehicles."
+   },
+   "why": {
+    "en": "Commercial vehicles pay regularly as they earn."
+   },
+   "recall_q": {
+    "en": "How often do stage carriages pay tax in Kerala?"
+   },
+   "recall_a": {
+    "en": "Quarterly, in advance."
+   },
+   "explain_simple": {
+    "en": "Buses pay every quarter."
+   }
+  },
+  {
+   "id": "law.kmvt.f06",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 3A: levy of green tax on older vehicles, to discourage polluting vehicles. The money is used for environment-related measures."
+   },
+   "why": {
+    "en": "Old vehicles pollute more."
+   },
+   "recall_q": {
+    "en": "Which KMVT section levies green tax?"
+   },
+   "recall_a": {
+    "en": "Section 3A."
+   },
+   "explain_simple": {
+    "en": "Sec 3A: green tax on old vehicles."
+   }
+  },
+  {
+   "id": "law.kmvt.f07",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 4: tax must be paid in advance by the registered owner or person in possession, and a licence (tax token or receipt) is issued."
+   },
+   "why": {
+    "en": "Proof that tax was paid."
+   },
+   "recall_q": {
+    "en": "Who must pay vehicle tax under Section 4?"
+   },
+   "recall_a": {
+    "en": "Registered owner or person in possession or control."
+   },
+   "explain_simple": {
+    "en": "Owner pays in advance, gets receipt."
+   }
+  },
+  {
+   "id": "law.kmvt.f08",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: KMVT Section 4 is 'Payment of tax and issue of licence'. The 'licence' here is the tax licence, not a driving licence."
+   },
+   "why": {
+    "en": "Options may confuse the two."
+   },
+   "recall_q": {
+    "en": "What 'licence' is issued under KMVT Section 4?"
+   },
+   "recall_a": {
+    "en": "Tax licence (proof of tax payment)."
+   },
+   "explain_simple": {
+    "en": "Tax licence, not driving licence."
+   }
+  },
+  {
+   "id": "law.kmvt.f09",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 5: exemption from tax. The Government can exempt any class of vehicles, fully or partly, by notification."
+   },
+   "why": {
+    "en": "E.g. vehicles for disabled persons or special purposes."
+   },
+   "recall_q": {
+    "en": "Which KMVT section allows exemption from tax?"
+   },
+   "recall_a": {
+    "en": "Section 5."
+   },
+   "explain_simple": {
+    "en": "Sec 5: Government can exempt."
+   }
+  },
+  {
+   "id": "law.kmvt.f10",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A vehicle not used for a period can avoid tax if the owner gives advance non-use intimation and follows the rules (such as surrendering documents)."
+   },
+   "why": {
+    "en": "No use, no tax."
+   },
+   "recall_q": {
+    "en": "How can an owner avoid tax for a period of non-use?"
+   },
+   "recall_a": {
+    "en": "Give advance intimation of non-use as per rules."
+   },
+   "explain_simple": {
+    "en": "Tell in advance you won't use it."
+   }
+  },
+  {
+   "id": "law.kmvt.f11",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 6: refund of tax. Tax paid can be refunded for periods the vehicle was not used, subject to conditions in the Act and rules."
+   },
+   "why": {
+    "en": "Fairness when tax was paid but vehicle not used."
+   },
+   "recall_q": {
+    "en": "Which KMVT section deals with refund of tax?"
+   },
+   "recall_a": {
+    "en": "Section 6."
+   },
+   "explain_simple": {
+    "en": "Sec 6: refund."
+   }
+  },
+  {
+   "id": "law.kmvt.f12",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Refund of one-time tax is also possible, in proportion, when a Kerala vehicle is moved and registered in another State, or is destroyed."
+   },
+   "why": {
+    "en": "Owner pays tax again in the new State."
+   },
+   "recall_q": {
+    "en": "Give one case for refund of one-time tax."
+   },
+   "recall_a": {
+    "en": "Vehicle moved to another State, or destroyed."
+   },
+   "explain_simple": {
+    "en": "Moved out → part refund."
+   }
+  },
+  {
+   "id": "law.kmvt.f13",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 7: additional tax. If a vehicle is altered or used in a way that needs a higher tax, the owner must pay the extra (difference) tax before using it so."
+   },
+   "why": {
+    "en": "Example: private car turned into a taxi, or more seats added."
+   },
+   "recall_q": {
+    "en": "Which KMVT section deals with payment of additional tax?"
+   },
+   "recall_a": {
+    "en": "Section 7."
+   },
+   "explain_simple": {
+    "en": "Sec 7: pay the extra."
+   }
+  },
+  {
+   "id": "law.kmvt.f14",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 10: officers of Police or MVD (of prescribed rank, in uniform) can stop a motor vehicle and keep it stationary to check tax payment and documents."
+   },
+   "why": {
+    "en": "To enforce tax collection."
+   },
+   "recall_q": {
+    "en": "Which KMVT section empowers officers to stop vehicles?"
+   },
+   "recall_a": {
+    "en": "Section 10."
+   },
+   "explain_simple": {
+    "en": "Sec 10: stop to check tax."
+   }
+  },
+  {
+   "id": "law.kmvt.f15",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 11: if tax is not paid, the authorised officer can seize and detain the vehicle until the tax is paid. If still unpaid, the vehicle can be sold to recover the dues."
+   },
+   "why": {
+    "en": "Strong tool against tax evaders."
+   },
+   "recall_q": {
+    "en": "Which KMVT section allows seizure and sale of vehicles?"
+   },
+   "recall_a": {
+    "en": "Section 11."
+   },
+   "explain_simple": {
+    "en": "Sec 11: seize, detain, sell."
+   }
+  },
+  {
+   "id": "law.kmvt.f16",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "When seizing under Section 11, the officer must arrange for the safety of passengers and goods in the vehicle."
+   },
+   "why": {
+    "en": "Passengers should not be stranded."
+   },
+   "recall_q": {
+    "en": "What must an officer arrange when seizing a bus for tax?"
+   },
+   "recall_a": {
+    "en": "Safety of passengers and goods."
+   },
+   "explain_simple": {
+    "en": "Look after passengers."
+   }
+  },
+  {
+   "id": "law.kmvt.f17",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 12: additional tax payable when tax is not paid in time. A penalty amount is added to the unpaid tax."
+   },
+   "why": {
+    "en": "Late payment costs more."
+   },
+   "recall_q": {
+    "en": "Which KMVT section adds extra tax for non-payment?"
+   },
+   "recall_a": {
+    "en": "Section 12."
+   },
+   "explain_simple": {
+    "en": "Sec 12: late tax costs more."
+   }
+  },
+  {
+   "id": "law.kmvt.f18",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 13: unpaid tax and additional tax can be recovered as arrears of land revenue (under the Kerala Revenue Recovery Act)."
+   },
+   "why": {
+    "en": "Revenue recovery can attach property."
+   },
+   "recall_q": {
+    "en": "How are unpaid vehicle taxes recovered under Section 13?"
+   },
+   "recall_a": {
+    "en": "As arrears of land revenue."
+   },
+   "explain_simple": {
+    "en": "Sec 13: recover like land tax."
+   }
+  },
+  {
+   "id": "law.kmvt.f19",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 26: escaped assessment. If tax was not assessed or was assessed too low, the taxation officer can assess and demand it later, after notice."
+   },
+   "why": {
+    "en": "Missed tax is still due."
+   },
+   "recall_q": {
+    "en": "Which KMVT section deals with escaped assessment?"
+   },
+   "recall_a": {
+    "en": "Section 26."
+   },
+   "explain_simple": {
+    "en": "Sec 26: catch missed tax."
+   }
+  },
+  {
+   "id": "law.kmvt.f20",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Before demanding escaped tax under Section 26, the owner must be given notice and a chance to be heard."
+   },
+   "why": {
+    "en": "Natural justice."
+   },
+   "recall_q": {
+    "en": "Is notice needed before demanding escaped tax?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "Notice first, then demand."
+   }
+  },
+  {
+   "id": "law.kmvt.f21",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The taxation officer under the KMVT Act is usually the RTO or Joint RTO (Sub RTO)."
+   },
+   "why": {
+    "en": "AMVIs assist in tax enforcement."
+   },
+   "recall_q": {
+    "en": "Who is the taxation officer in Kerala?"
+   },
+   "recall_a": {
+    "en": "RTO or Joint RTO."
+   },
+   "explain_simple": {
+    "en": "RTO collects tax."
+   }
+  },
+  {
+   "id": "law.kmvt.f22",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: KMVT 2(e) purchase value, 3 levy, 3A green tax, 4 payment, 5 exemption, 6 refund, 7 additional tax, 10 stop, 11 seize, 12 late tax, 13 recovery, 26 escaped assessment."
+   },
+   "why": {
+    "en": "Matching questions use these."
+   },
+   "recall_q": {
+    "en": "KMVT Section 13 deals with?"
+   },
+   "recall_a": {
+    "en": "Recovery as arrears of land revenue."
+   },
+   "explain_simple": {
+    "en": "3 levy, 3A green, 6 refund, 11 seize, 13 recover, 26 escaped."
+   }
+  },
+  {
+   "id": "law.kmvt.f23",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: Section 7 'additional tax' is for changed use or alteration; Section 12 'additional tax' is a penalty for not paying tax in time."
+   },
+   "why": {
+    "en": "Same words, different meaning."
+   },
+   "recall_q": {
+    "en": "Additional tax for late payment is under Section 7 or 12?"
+   },
+   "recall_a": {
+    "en": "Section 12."
+   },
+   "explain_simple": {
+    "en": "7 = changed use; 12 = late."
+   }
+  },
+  {
+   "id": "law.kmvt.sum",
+   "topic": "law.kmvt",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Kerala Motor Vehicles Taxation Act, 1976"
+   },
+   "points": [
+    {
+     "en": "KMVT Act 1976; 2(e) purchase value; Sec 3 levy; 3A green tax."
+    },
+    {
+     "en": "Sec 4 pay in advance, tax licence; Sec 5 exemption; Sec 6 refund."
+    },
+    {
+     "en": "Sec 7 extra tax for changed use; Sec 12 extra for late payment."
+    },
+    {
+     "en": "Sec 10 stop; Sec 11 seize and sell; Sec 13 land revenue arrears."
+    },
+    {
+     "en": "Sec 26 escaped assessment after notice."
     }
    ]
   },
@@ -39975,6 +45514,456 @@
    "source": "Practice — exam pattern (not from a past paper)",
    "covers": [
     "dl.licensing.f11"
+   ]
+  },
+  {
+   "id": "q.practice.law.1",
+   "topic": "law.defs",
+   "kind": "mcq",
+   "q": {
+    "en": "A motor vehicle constructed to carry more than six but not more than twelve passengers excluding driver, for hire or reward, is a"
+   },
+   "options": [
+    {
+     "en": "Motor cab"
+    },
+    {
+     "en": "Maxi cab"
+    },
+    {
+     "en": "Omnibus"
+    },
+    {
+     "en": "Stage carriage"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Maxi cab, Section 2(22)."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.defs.f16"
+   ]
+  },
+  {
+   "id": "q.practice.law.2",
+   "topic": "law.defs",
+   "kind": "mcq",
+   "q": {
+    "en": "Light motor vehicle means a vehicle whose GVW does not exceed"
+   },
+   "options": [
+    {
+     "en": "3,500 kg"
+    },
+    {
+     "en": "6,000 kg"
+    },
+    {
+     "en": "7,500 kg"
+    },
+    {
+     "en": "12,000 kg"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Section 2(21): not exceeding 7,500 kg."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.defs.f10"
+   ]
+  },
+  {
+   "id": "q.practice.law.3",
+   "topic": "law.defs",
+   "kind": "mcq",
+   "q": {
+    "en": "Which of the following is NOT a transport vehicle?"
+   },
+   "options": [
+    {
+     "en": "Educational institution bus"
+    },
+    {
+     "en": "Private service vehicle"
+    },
+    {
+     "en": "Goods carriage"
+    },
+    {
+     "en": "Motor car"
+    }
+   ],
+   "answer": 3,
+   "explain": {
+    "en": "Motor car (2(26)) excludes transport vehicles."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.defs.f24"
+   ]
+  },
+  {
+   "id": "q.practice.law.4",
+   "topic": "law.registration",
+   "kind": "mcq",
+   "q": {
+    "en": "Alteration in motor vehicle is dealt with in section"
+   },
+   "options": [
+    {
+     "en": "44"
+    },
+    {
+     "en": "46"
+    },
+    {
+     "en": "52"
+    },
+    {
+     "en": "55"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Section 52."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.registration.f10"
+   ]
+  },
+  {
+   "id": "q.practice.law.5",
+   "topic": "law.registration",
+   "kind": "mcq",
+   "q": {
+    "en": "Certificate of fitness of transport vehicles is under section"
+   },
+   "options": [
+    {
+     "en": "53"
+    },
+    {
+     "en": "55"
+    },
+    {
+     "en": "56"
+    },
+    {
+     "en": "66"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Section 56."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.registration.f20"
+   ]
+  },
+  {
+   "id": "q.practice.law.6",
+   "topic": "law.permits",
+   "kind": "mcq",
+   "q": {
+    "en": "Goods vehicles exempted from permit have GVW not exceeding"
+   },
+   "options": [
+    {
+     "en": "1,500 kg"
+    },
+    {
+     "en": "3,000 kg"
+    },
+    {
+     "en": "5,000 kg"
+    },
+    {
+     "en": "7,500 kg"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Section 66(3): goods vehicles up to 3,000 kg GVW."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.permits.f03"
+   ]
+  },
+  {
+   "id": "q.practice.law.7",
+   "topic": "law.construction",
+   "kind": "mcq",
+   "q": {
+    "en": "Recall of motor vehicles is provided in section"
+   },
+   "options": [
+    {
+     "en": "109"
+    },
+    {
+     "en": "110"
+    },
+    {
+     "en": "110A"
+    },
+    {
+     "en": "110B"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Section 110A (2019)."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.construction.f05"
+   ]
+  },
+  {
+   "id": "q.practice.law.8",
+   "topic": "law.traffic",
+   "kind": "mcq",
+   "q": {
+    "en": "A vehicle left unattended in a public place may be towed after"
+   },
+   "options": [
+    {
+     "en": "2 hours"
+    },
+    {
+     "en": "6 hours"
+    },
+    {
+     "en": "10 hours"
+    },
+    {
+     "en": "24 hours"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Section 127: 10 hours or more."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.traffic.f18"
+   ]
+  },
+  {
+   "id": "q.practice.law.9",
+   "topic": "law.traffic",
+   "kind": "mcq",
+   "q": {
+    "en": "Protection of Good Samaritans is under section"
+   },
+   "options": [
+    {
+     "en": "134"
+    },
+    {
+     "en": "134A"
+    },
+    {
+     "en": "135"
+    },
+    {
+     "en": "136A"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Section 134A."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.traffic.f40"
+   ]
+  },
+  {
+   "id": "q.practice.law.10",
+   "topic": "law.traffic",
+   "kind": "mcq",
+   "q": {
+    "en": "A vehicle suspected of overloading can be directed to a weighing device within"
+   },
+   "options": [
+    {
+     "en": "5 km"
+    },
+    {
+     "en": "10 km"
+    },
+    {
+     "en": "20 km"
+    },
+    {
+     "en": "25 km"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Section 114: within 10 km."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.traffic.f07"
+   ]
+  },
+  {
+   "id": "q.practice.law.11",
+   "topic": "law.offences",
+   "kind": "mcq",
+   "q": {
+    "en": "Penalty for carrying excess passengers per passenger is"
+   },
+   "options": [
+    {
+     "en": "₹100"
+    },
+    {
+     "en": "₹200"
+    },
+    {
+     "en": "₹500"
+    },
+    {
+     "en": "₹1,000"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Section 194A: ₹200 per excess passenger."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.offences.f27"
+   ]
+  },
+  {
+   "id": "q.practice.law.12",
+   "topic": "law.offences",
+   "kind": "mcq",
+   "q": {
+    "en": "Arrest without warrant is possible for offences under sections"
+   },
+   "options": [
+    {
+     "en": "183, 184, 185"
+    },
+    {
+     "en": "184, 185, 197"
+    },
+    {
+     "en": "185, 194, 196"
+    },
+    {
+     "en": "181, 184, 185"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Section 202: 184, 185 and 197."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.offences.f45"
+   ]
+  },
+  {
+   "id": "q.practice.law.13",
+   "topic": "law.offences",
+   "kind": "mcq",
+   "q": {
+    "en": "Offences by juveniles are dealt with in section"
+   },
+   "options": [
+    {
+     "en": "199"
+    },
+    {
+     "en": "199A"
+    },
+    {
+     "en": "200"
+    },
+    {
+     "en": "198A"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Section 199A."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.offences.f38"
+   ]
+  },
+  {
+   "id": "q.practice.law.14",
+   "topic": "law.kmvt",
+   "kind": "mcq",
+   "q": {
+    "en": "Levy of Green Tax is under which section of the KMVT Act, 1976?"
+   },
+   "options": [
+    {
+     "en": "3"
+    },
+    {
+     "en": "3A"
+    },
+    {
+     "en": "4"
+    },
+    {
+     "en": "7"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Section 3A."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.kmvt.f06"
+   ]
+  },
+  {
+   "id": "q.practice.law.15",
+   "topic": "law.kmvt",
+   "kind": "mcq",
+   "q": {
+    "en": "Under the KMVT Act, escaped assessment is dealt with in section"
+   },
+   "options": [
+    {
+     "en": "12"
+    },
+    {
+     "en": "13"
+    },
+    {
+     "en": "24"
+    },
+    {
+     "en": "26"
+    }
+   ],
+   "answer": 3,
+   "explain": {
+    "en": "Section 26."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "law.kmvt.f19"
    ]
   },
   {
