@@ -1,0 +1,1878 @@
+unit: u7
+subject: transmission_electrical
+title: "Module VII — Transmission system and electrical system (10 marks)"
+
+topics:
+  - {id: u7.clutch, title: "Clutches and fluid flywheel", freq: 0.9}
+  - {id: u7.gearbox, title: "Gearboxes, torque converter, CVT and automatics", freq: 0.9}
+  - {id: u7.driveline, title: "Propeller shaft, joints, differential and rear axles", freq: 0.8}
+  - {id: u7.wheels, title: "Wheels and tyres", freq: 0.8}
+  - {id: u7.charging, title: "Dynamo, alternator and charging system", freq: 0.7}
+  - {id: u7.starting, title: "Starter motor and drives", freq: 0.7}
+  - {id: u7.ignition, title: "Ignition systems", freq: 0.9}
+
+cards:
+  # ---------- Clutch ----------
+  - id: f01
+    topic: u7.clutch
+    difficulty: 1
+    learn: "A clutch connects and disconnects the engine from the gearbox."
+    why: "We must disconnect the engine to start, stop and change gears smoothly."
+    q: "Main function of a clutch?"
+    a: "Engage and disengage engine power to the gearbox."
+    simple: "It joins and separates engine and gearbox."
+  - id: f02
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Friction clutch principle: two friction surfaces pressed together by springs turn together; separated, they turn freely."
+    why: "Friction passes the torque."
+    q: "Principle of a friction clutch?"
+    a: "Friction between surfaces pressed together transmits torque."
+    simple: "Pressed plates grip and turn together."
+  - id: f03
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Torque transmitted by a clutch T = μ W R n (μ friction coefficient, W spring force, R mean radius, n number of friction faces)."
+    why: "More pressure, more radius or more faces give more torque."
+    q: "Factors affecting clutch torque capacity?"
+    a: "μ, spring force, mean radius, number of friction surfaces."
+    simple: "Grip × push × size × faces."
+  - id: f04
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Requirements of a clutch: smooth engagement, quick disengagement, enough torque capacity, good heat dissipation, low inertia of driven parts, light pedal."
+    why: "Each makes gear changes easy and long-lasting."
+    q: "Why should the clutch plate have low inertia?"
+    a: "So it stops quickly for easy gear changes."
+    simple: "Light plate stops fast."
+  - id: f05
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Single plate dry clutch parts: flywheel, clutch (friction) plate, pressure plate, clutch springs, cover, release levers, release (thrust) bearing, clutch shaft."
+    why: "The friction plate is clamped between flywheel and pressure plate."
+    q: "The clutch plate is clamped between which two parts?"
+    a: "Flywheel and pressure plate."
+    simple: "The plate is a sandwich filling."
+  - id: f06
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Clutch plate is splined to the gearbox input (clutch) shaft, so it can slide but must turn with it."
+    why: "It slides to engage and disengage."
+    q: "How is the clutch plate fixed to the clutch shaft?"
+    a: "By splines."
+    simple: "Grooves let it slide but not spin alone."
+  - id: f07
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Clutch plate has friction linings on both sides, torsional (damper) springs in the hub and cushion springs (wavy segments) between the linings."
+    why: "Damper springs absorb shocks; cushion springs give smooth take-up."
+    q: "Purpose of torsional springs in the clutch plate hub?"
+    a: "Absorb shocks and torsional vibration."
+    simple: "Little springs cushion jerks."
+  - id: f08
+    topic: u7.clutch
+    difficulty: 2
+    learn: "When the pedal is pressed, the release bearing pushes the levers (or diaphragm fingers), pulling the pressure plate back so the clutch plate is free."
+    why: "Spring force is removed from the plate."
+    q: "What happens when the clutch pedal is pressed?"
+    a: "Pressure plate moves back; clutch disengages."
+    simple: "Pedal down = plates apart."
+  - id: f09
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Coil spring clutch uses several coil springs around the pressure plate."
+    why: "Older design; springs weaken at high speed due to centrifugal force."
+    q: "Clutch using several coil springs around the pressure plate?"
+    a: "Coil spring (single plate) clutch."
+    simple: "Many springs push the plate."
+  - id: f10
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Diaphragm clutch uses one dish-shaped steel diaphragm spring instead of coil springs. Its fingers act as release levers."
+    why: "Lighter, fewer parts, even pressure, lower pedal effort."
+    q: "What replaces coil springs in a diaphragm clutch?"
+    a: "A single diaphragm (Belleville) spring."
+    simple: "One dish-shaped spring does it all."
+  - id: f11
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Diaphragm clutch advantages: compact, balanced, less pedal effort, pressure does not drop much as lining wears, not affected by centrifugal force."
+    why: "It is used in almost all modern cars."
+    q: "Clutch used in most modern cars?"
+    a: "Diaphragm spring clutch."
+    simple: "Simple and light to press."
+  - id: f12
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Multi-plate clutch has several driving and driven plates stacked together."
+    why: "More friction faces give more torque in a small diameter."
+    example: "Motorcycles, scooters with gears, heavy vehicles and automatic gearboxes."
+    q: "Why is a multi-plate clutch used in motorcycles?"
+    a: "High torque in small diameter."
+    simple: "Many small plates instead of one big one."
+  - id: f13
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Wet clutch runs in oil; dry clutch runs without oil. Motorcycle multi-plate clutches are usually wet."
+    why: "Oil cools and smooths engagement, but lowers friction (more plates needed)."
+    q: "Do most motorcycle clutches run wet or dry?"
+    a: "Wet (in oil)."
+    simple: "Wet clutch sits in oil."
+  - id: f14
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Cone clutch: friction surfaces are cone-shaped. The wedge action gives high torque for little spring force."
+    why: "Pressure on a cone multiplies normal force."
+    q: "Clutch with conical friction surfaces?"
+    a: "Cone clutch."
+    simple: "A cone pushed into a cup."
+  - id: f15
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Cone clutch drawbacks: tends to stick (grab) and is hard to disengage; used now mostly in synchromesh units."
+    why: "Small cone angle makes it jam."
+    q: "Where is the cone clutch principle used today?"
+    a: "In synchromesh gearboxes (synchro cones)."
+    simple: "Cone clutches live inside synchros."
+  - id: f16
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Centrifugal clutch engages automatically as engine speed rises: weights fly out and press the shoes on a drum."
+    why: "No clutch pedal needed."
+    example: "Gearless scooters, mopeds, chain saws."
+    q: "Which clutch engages automatically with engine speed?"
+    a: "Centrifugal clutch."
+    simple: "Spin faster and it grips by itself."
+  - id: f17
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Semi-centrifugal clutch uses both springs and centrifugal weights. Springs carry normal torque; weights add pressure at high speed."
+    why: "Lighter springs give a lighter pedal at low speed."
+    q: "Clutch using both springs and centrifugal force?"
+    a: "Semi-centrifugal clutch."
+    simple: "Springs plus flying weights."
+  - id: f18
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Vacuum clutch uses engine manifold vacuum to operate the clutch through a vacuum cylinder, often triggered by a switch on the gear lever."
+    why: "No clutch pedal effort for the driver."
+    q: "What power operates a vacuum clutch?"
+    a: "Engine manifold vacuum."
+    simple: "Vacuum pulls the clutch apart."
+  - id: f19
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Hydraulic clutch uses a master cylinder at the pedal and a slave cylinder at the clutch to operate the release fork."
+    why: "Smooth, self-adjusting and easy to route."
+    q: "Two cylinders in a hydraulic clutch?"
+    a: "Master cylinder and slave cylinder."
+    simple: "Oil carries pedal push to the clutch."
+  - id: f20
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Electromagnetic clutch: an electromagnet pulls the plates together when current flows."
+    why: "Can be switched electrically."
+    example: "Car AC compressor clutch."
+    q: "Where is an electromagnetic clutch used in a car?"
+    a: "AC compressor."
+    simple: "Electric magnet grabs the plate."
+  - id: f21
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Fluid flywheel (fluid coupling): a driving impeller (pump) and a driven turbine (runner) face each other in oil. Oil thrown by the pump drives the turbine."
+    why: "Power passes through oil with no mechanical contact."
+    q: "Two main members of a fluid flywheel?"
+    a: "Impeller (pump) and turbine (runner)."
+    simple: "One fan throws oil to spin another."
+  - id: f22
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Fluid coupling cannot multiply torque. Output torque = input torque; there is always some slip (about 2%)."
+    why: "There is no reaction member (stator)."
+    q: "Can a fluid coupling increase torque?"
+    a: "No."
+    simple: "Same torque out, a little slip."
+  - id: f23
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Fluid flywheel advantages: smooth start, no wear, absorbs shocks, engine does not stall when vehicle stops."
+    why: "Slip at idle lets the engine keep running."
+    q: "Advantage of a fluid flywheel?"
+    a: "Smooth take-up, no wear, shock absorption."
+    simple: "Smooth and never wears out."
+  - id: f24
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Clutch linings: organic (non-asbestos), ceramic, sintered metal (cerametallic), Kevlar."
+    why: "Need high friction, heat and wear resistance."
+    q: "Name one clutch lining material."
+    a: "Organic, ceramic, sintered metal, Kevlar."
+    simple: "Grippy, heat-proof material."
+  - id: f25
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Clutch pedal free play: small pedal movement before the release bearing touches the levers (about 20–25 mm)."
+    why: "Without it, the clutch slips and the bearing wears."
+    q: "Effect of no clutch pedal free play?"
+    a: "Clutch slip and release bearing wear."
+    simple: "A little slack keeps the clutch fully engaged."
+  - id: f26
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Clutch slip: engine speed rises but vehicle does not speed up. Causes: worn or oily linings, weak springs, no free play."
+    why: "Not enough grip."
+    q: "Engine revs rise without vehicle speeding up — what is the fault?"
+    a: "Clutch slip."
+    simple: "Engine roars, car does not go."
+  - id: f27
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Clutch drag: clutch does not fully disengage, so gears grind. Causes: too much free play, warped plate, air in hydraulic clutch."
+    why: "Plate keeps spinning."
+    q: "Gears grind when changing even with clutch pressed — what fault?"
+    a: "Clutch drag (not disengaging)."
+    simple: "Clutch never fully lets go."
+  - id: f28
+    topic: u7.clutch
+    difficulty: 2
+    learn: "Clutch judder (grabbing): jerky take-up. Causes: oily or glazed linings, worn mountings, warped plates."
+    why: "Grip comes on unevenly."
+    q: "Jerky clutch take-up is called?"
+    a: "Clutch judder (grabbing)."
+    simple: "Shaky start = judder."
+  - id: sum
+    topic: u7.clutch
+    type: summary
+    points:
+      - "Friction clutch: T = μWRn."
+      - "Single plate (coil springs), diaphragm (cars), multi-plate wet (bikes)."
+      - "Cone, centrifugal (scooters), semi-centrifugal, vacuum, hydraulic, electromagnetic (AC)."
+      - "Fluid flywheel: impeller + turbine, no torque multiplication."
+      - "Faults: slip, drag, judder; keep pedal free play."
+
+  # ---------- Gearbox ----------
+  - id: f01
+    topic: u7.gearbox
+    difficulty: 1
+    learn: "A gearbox (transmission) changes the torque and speed from the engine to suit the road, and gives reverse and neutral."
+    why: "Engine torque is limited; starting and climbing need more."
+    q: "Why is a gearbox needed?"
+    a: "Vary torque and speed, give reverse and neutral."
+    simple: "Low gear for pulling, high gear for speed."
+  - id: f02
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Resistances to vehicle motion: rolling resistance, air resistance, gradient resistance."
+    why: "Total resistance changes, so the needed torque changes."
+    q: "Three resistances acting on a moving vehicle?"
+    a: "Rolling, air and gradient resistance."
+    simple: "Road, wind and hill."
+  - id: f03
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Air resistance increases with the square of speed."
+    why: "Faster air hits harder and more often."
+    q: "Air resistance varies with speed how?"
+    a: "As the square of speed."
+    simple: "Twice as fast = four times wind drag."
+  - id: f04
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Low gear: high torque, low speed. High gear: low torque, high speed. Top gear is often direct (1:1); overdrive is less than 1:1."
+    why: "Gear ratio trades speed for torque."
+    q: "Gear ratio of an overdrive?"
+    a: "Less than 1:1 (output faster than input)."
+    simple: "Overdrive spins the output faster than the engine."
+  - id: f05
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Gearbox types: sliding mesh, constant mesh, synchromesh, epicyclic, automatic, CVT."
+    why: "Each improved ease of shifting."
+    q: "Name three types of manual gearbox."
+    a: "Sliding mesh, constant mesh, synchromesh."
+    simple: "Old to new: sliding, constant, synchro."
+  - id: f06
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Sliding mesh gearbox: gears on the main shaft slide along splines to mesh with gears on the countershaft (lay shaft)."
+    why: "Simplest design."
+    q: "In which gearbox do the gears themselves slide to mesh?"
+    a: "Sliding mesh gearbox."
+    simple: "Gears move to bite each other."
+  - id: f07
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Sliding mesh gearboxes use spur gears and need double de-clutching to change gears quietly."
+    why: "Gear speeds must match before meshing."
+    q: "Shifting technique needed in a sliding mesh gearbox?"
+    a: "Double de-clutching."
+    simple: "Clutch twice to match speeds."
+  - id: f08
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Gearbox shafts: primary (input/clutch) shaft, lay shaft (countershaft), main (output) shaft, reverse idler shaft."
+    why: "Lay shaft is driven by the input and drives main shaft gears."
+    q: "Shaft parallel to the main shaft carrying cluster gears?"
+    a: "Lay shaft (countershaft)."
+    simple: "Input → lay shaft → output."
+  - id: f09
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Reverse gear uses an idler gear between lay shaft and main shaft to reverse direction."
+    why: "An extra gear flips rotation."
+    q: "What gives reverse in a manual gearbox?"
+    a: "Reverse idler gear."
+    simple: "One extra gear makes it go backward."
+  - id: f10
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Constant mesh gearbox: all gears are always in mesh. Main shaft gears spin freely; dog clutches lock the selected gear to the shaft."
+    why: "Teeth are not damaged during shifting, and helical gears can be used."
+    q: "In a constant mesh gearbox, what locks the gear to the shaft?"
+    a: "Dog clutch."
+    simple: "Gears always mesh; a dog clutch picks one."
+  - id: f11
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Constant mesh gearboxes are quieter and allow helical gears, but still need double de-clutching."
+    why: "Dog clutches have no speed-matching."
+    q: "Advantage of constant mesh over sliding mesh?"
+    a: "Quieter, helical gears, less tooth damage."
+    simple: "Quieter, but still not easy shifting."
+  - id: f12
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Synchromesh gearbox: like constant mesh, but has synchronisers (cone clutches) that match gear speeds before the dog teeth engage."
+    why: "No double de-clutching; quiet, easy shifts."
+    q: "Device that equalises gear speeds before engagement?"
+    a: "Synchroniser (synchro cone)."
+    simple: "A small cone clutch matches speeds first."
+  - id: f13
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Synchroniser types: constant load (pin type) and inertia lock (baulk ring type). Baulk ring is common."
+    why: "Baulk ring prevents engagement until speeds are equal."
+    q: "Most common synchroniser type?"
+    a: "Inertia lock (baulk ring)."
+    simple: "Baulk ring blocks until speeds match."
+  - id: f14
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Synchromesh is used in all modern manual cars. Reverse gear is often not synchronised."
+    why: "Reverse is engaged only when stopped."
+    q: "Which gear often has no synchromesh?"
+    a: "Reverse."
+    simple: "Stop fully before selecting reverse."
+  - id: f15
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Progressive gearbox: gears must be changed in order (1-2-3-4), one after another, as in motorcycles."
+    why: "A rotating drum selects gears in sequence."
+    example: "Motorcycles: one down, rest up (1-N-2-3-4-5)."
+    q: "Gearbox where gears are changed one after another in sequence?"
+    a: "Progressive (sequential) gearbox."
+    simple: "Step by step, no skipping."
+  - id: f16
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Selective gearbox: any gear can be selected directly from neutral (H-pattern in cars)."
+    why: "Gear lever moves in a gate."
+    q: "Car gearboxes with H-pattern are which type?"
+    a: "Selective."
+    simple: "Pick any gear directly."
+  - id: f17
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Epicyclic gearbox: uses planetary gear sets (sun, planets, carrier, annulus). Holding one member with a brake band or clutch gives different ratios."
+    why: "Gears always in mesh; shifting without breaking power."
+    example: "Wilson pre-selector gearbox; automatic transmissions."
+    q: "How are ratios obtained in an epicyclic gearbox?"
+    a: "By holding one member (sun, carrier or annulus) with brakes/clutches."
+    simple: "Lock one part, the others give a new ratio."
+  - id: f18
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "In a planetary set: hold annulus, drive sun → reduction (low gear). Lock any two members → direct drive. Hold carrier → reverse."
+    why: "These rules give all basic ratios."
+    q: "Holding the planet carrier in an epicyclic set gives?"
+    a: "Reverse."
+    simple: "Carrier held = reverse; two locked = direct."
+  - id: f19
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Torque converter: like a fluid coupling with a third member, the stator (reactor), which multiplies torque (up to about 2–2.5 times) at low speed."
+    why: "The stator redirects oil back to the impeller to add push."
+    q: "Which member of a torque converter multiplies torque?"
+    a: "Stator (reactor)."
+    simple: "A fluid coupling plus a stator."
+  - id: f20
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Torque converter members: impeller (pump, connected to engine), turbine (connected to gearbox), stator (on a one-way clutch)."
+    why: "The one-way clutch lets the stator freewheel at coupling speed."
+    q: "On what is the stator mounted?"
+    a: "A one-way (freewheel) clutch."
+    simple: "The stator only locks one way."
+  - id: f21
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Coupling point: speed at which the turbine almost matches the impeller and the stator starts to freewheel. Converter then acts as a fluid coupling."
+    why: "Torque multiplication ends there."
+    q: "Point where torque converter starts acting as a fluid coupling?"
+    a: "Coupling point."
+    simple: "When torque boost ends."
+  - id: f22
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Lock-up clutch in modern torque converters mechanically joins impeller and turbine at cruising speed."
+    why: "Removes slip and saves fuel."
+    q: "Why is a lock-up clutch fitted in a torque converter?"
+    a: "Remove slip, improve fuel economy."
+    simple: "Lock it solid when cruising."
+  - id: f23
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Fluid coupling vs torque converter: coupling has 2 members and no torque multiplication; converter has 3 members (with stator) and multiplies torque."
+    why: "Common comparison question."
+    q: "How many elements in a basic torque converter?"
+    a: "Three (impeller, turbine, stator)."
+    simple: "Two for coupling, three for converter."
+  - id: f24
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Automatic transmission (AT): torque converter + epicyclic gear sets + hydraulic/electronic controls that shift gears without driver action."
+    why: "Driver only selects P, R, N, D."
+    q: "Main parts of a conventional automatic transmission?"
+    a: "Torque converter, planetary gear sets, hydraulic/electronic control."
+    simple: "Converter plus planet gears, shifted by computer."
+  - id: f25
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Automatic selector positions: P (park — locks output), R (reverse), N (neutral), D (drive), L/2 (low)."
+    why: "P uses a parking pawl to lock the gearbox."
+    q: "What locks the output shaft in Park?"
+    a: "Parking pawl."
+    simple: "P locks the wheels through the gearbox."
+  - id: f26
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Engine can be started only in P or N in automatics (neutral safety switch)."
+    why: "Prevents the car moving on starting."
+    q: "In which positions can an automatic car be started?"
+    a: "P or N."
+    simple: "Start only in Park or Neutral."
+  - id: f27
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "AMT (automated manual transmission): a normal manual gearbox where an ECU and actuators work the clutch and gear shifts."
+    why: "Cheap automatic used in many Indian small cars."
+    q: "Gearbox that is a manual box with automatic clutch and shift actuators?"
+    a: "AMT (automated manual transmission)."
+    simple: "A manual box shifted by a robot."
+  - id: f28
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "DCT (dual clutch transmission): two clutches, one for odd and one for even gears, giving very fast shifts."
+    why: "Next gear is pre-selected on the other shaft."
+    q: "In DCT, why are there two clutches?"
+    a: "One for odd gears, one for even gears, for fast shifts."
+    simple: "Next gear is always ready."
+  - id: f29
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "CVT (continuously variable transmission): gives endless ratios between limits using two variable-width pulleys and a belt or chain."
+    why: "Engine can stay at its best speed."
+    example: "Gearless scooters use a CVT with a rubber V-belt."
+    q: "What transmission do gearless scooters use?"
+    a: "CVT (variable pulley and V-belt)."
+    simple: "Pulleys change size smoothly; no steps."
+  - id: f30
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "In a scooter CVT, centrifugal rollers push the drive pulley halves together as speed rises, making the belt ride higher and the ratio taller."
+    why: "Automatic change with speed."
+    q: "What changes the drive pulley size in a scooter CVT?"
+    a: "Centrifugal rollers (variator weights)."
+    simple: "Spinning rollers push the pulley closed."
+  - id: f31
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Two-wheeler transmissions: primary drive (engine to clutch, by gears or chain), gearbox (constant mesh, sequential), final drive (chain, belt or shaft)."
+    why: "Each stage reduces speed."
+    q: "Most common final drive in motorcycles?"
+    a: "Chain drive."
+    simple: "Engine → gears → chain → wheel."
+  - id: f32
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Chain drive: cheap, efficient (about 98%), but needs lubrication and tension adjustment. Belt drive: quiet and clean. Shaft drive: little maintenance, heavier."
+    why: "Each has trade-offs."
+    q: "Final drive needing regular tension adjustment?"
+    a: "Chain drive."
+    simple: "Chains need oil and tightening."
+  - id: f33
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Gear selector mechanism: gear lever moves selector rods (rails), which move selector forks that slide synchro sleeves or gears."
+    why: "This transfers the driver's hand motion into the box."
+    q: "Part that slides the synchro sleeve?"
+    a: "Selector fork."
+    simple: "Lever → rod → fork → sleeve."
+  - id: f34
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Interlock mechanism prevents two gears from being engaged at the same time."
+    why: "Two gears at once would lock the gearbox."
+    q: "What stops two gears engaging together?"
+    a: "Interlock mechanism."
+    simple: "One gear at a time only."
+  - id: f35
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Detent (locating) mechanism: spring-loaded balls in notches hold the selector rod in each gear position."
+    why: "Prevents jumping out of gear."
+    q: "What holds the selected gear in position?"
+    a: "Detent balls and springs."
+    simple: "Spring balls click into place."
+  - id: f36
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Jumping out of gear causes: worn detents, worn dog teeth or synchro, weak springs, misaligned engine mounts."
+    why: "Gear is not held firmly."
+    q: "Name one cause of a gear slipping out."
+    a: "Worn detent spring/ball or worn dog teeth."
+    simple: "Worn locks let gears pop out."
+  - id: f37
+    topic: u7.gearbox
+    difficulty: 2
+    learn: "Transfer case (4WD vehicles) splits power between front and rear axles and often gives a low range."
+    why: "Extra grip and low ratio for off-road."
+    q: "Unit that sends drive to both axles in 4WD?"
+    a: "Transfer case."
+    simple: "Shares power front and back."
+  - id: s01
+    topic: u7.gearbox
+    type: steps
+    difficulty: 3
+    title: "Worked example: overall gear ratio"
+    steps:
+      - text: "Question: First gear ratio is 3.5:1 and final drive is 4:1. Find overall ratio."
+      - text: "Overall ratio = gearbox ratio × final drive ratio."
+      - text: "= 3.5 × 4 = 14 : 1."
+      - text: "Engine turns 14 times for one wheel turn; torque at wheel ≈ 14 × engine torque (ignoring losses)."
+    summary:
+      - "Overall = gearbox × final drive."
+      - "Torque multiplies by the same ratio."
+    q: "Gear 3.5:1 and final drive 4:1 give overall ratio?"
+    a: "14 : 1"
+  - id: sum
+    topic: u7.gearbox
+    type: summary
+    points:
+      - "Sliding mesh (double de-clutch) → constant mesh (dog clutch) → synchromesh (cone)."
+      - "Progressive (bikes) vs selective (cars)."
+      - "Epicyclic: sun, planets, carrier, annulus; hold carrier = reverse."
+      - "Torque converter = impeller + turbine + stator (torque ×2)."
+      - "AT, AMT, DCT, CVT (scooters); interlock and detents."
+
+  # ---------- Driveline ----------
+  - id: f01
+    topic: u7.driveline
+    difficulty: 1
+    learn: "Propeller shaft carries power from the gearbox to the rear axle (differential) in front-engine rear-drive vehicles."
+    why: "Gearbox and axle are far apart."
+    q: "Shaft connecting gearbox to differential?"
+    a: "Propeller shaft."
+    simple: "The long shaft under the vehicle."
+  - id: f02
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Propeller shaft is a hollow steel tube, balanced to avoid vibration. Long shafts are made in two parts with a centre bearing."
+    why: "Hollow gives strength with less weight; long shafts whirl."
+    q: "Why are long propeller shafts split with a centre bearing?"
+    a: "To avoid whirling/vibration."
+    simple: "Two short shafts shake less than one long one."
+  - id: f03
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Slip joint (sliding spline joint) lets the propeller shaft change length as the rear axle moves up and down."
+    why: "Axle movement changes the distance to the gearbox."
+    q: "What allows change in propeller shaft length?"
+    a: "Slip joint (splined)."
+    simple: "A sliding spline lets the shaft stretch."
+  - id: f04
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Universal joint (Hooke's joint) allows the shaft to drive at an angle that keeps changing."
+    why: "Gearbox and axle are not in line, and the axle moves."
+    q: "What joint allows a shaft to transmit power at an angle?"
+    a: "Universal joint (Hooke's joint)."
+    simple: "A cross-shaped joint lets the shaft bend."
+  - id: f05
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Hooke's joint parts: two yokes and a cross (spider) with needle roller bearings."
+    why: "The cross lets the yokes swing in two planes."
+    q: "Central part of a Hooke's joint?"
+    a: "Cross (spider)."
+    simple: "Two forks joined by a cross."
+  - id: f06
+    topic: u7.driveline
+    difficulty: 2
+    learn: "A single Hooke's joint at an angle does not give constant speed: the output speeds up and slows down twice per turn."
+    why: "Geometry of the cross causes speed fluctuation."
+    q: "Does a single Hooke's joint give uniform output speed?"
+    a: "No — output speed fluctuates."
+    simple: "It wobbles in speed at an angle."
+  - id: f07
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Using two Hooke's joints with yokes in the same plane and equal angles cancels the speed variation."
+    why: "The second joint undoes the first joint's error."
+    q: "How is speed fluctuation of Hooke's joint cancelled?"
+    a: "Two joints in phase with equal angles."
+    simple: "Two joints balance each other."
+  - id: f08
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Other universal joints: flexible (rubber) joint, cross-type, ring-type."
+    why: "Flexible joints suit small angles and absorb vibration."
+    q: "Joint with rubber discs for small angles?"
+    a: "Flexible (rubber) joint."
+    simple: "A rubber coupling that bends a little."
+  - id: f09
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Constant velocity (CV) joint gives the same output speed as input at any angle."
+    why: "Front wheels steer and move, so large angles occur."
+    q: "Which joint is used at front-wheel-drive axles?"
+    a: "Constant velocity (CV) joint."
+    simple: "A joint that keeps speed steady at big angles."
+  - id: f10
+    topic: u7.driveline
+    difficulty: 2
+    learn: "CV joint types: Rzeppa (ball type, outer wheel end), tripod (inner, plunging), Bendix-Weiss, Tracta, double Cardan."
+    why: "Rzeppa allows large steering angles."
+    q: "Ball-type CV joint used at the wheel end?"
+    a: "Rzeppa joint."
+    simple: "Rzeppa has balls in grooves."
+  - id: f11
+    topic: u7.driveline
+    difficulty: 2
+    learn: "CV joints are covered by rubber boots filled with grease. A torn boot lets dirt in and the joint fails (clicking on turns)."
+    why: "Dirt and lost grease ruin the joint."
+    q: "Clicking noise on sharp turns in a FWD car suggests?"
+    a: "Worn outer CV joint."
+    simple: "Click on turns = CV joint."
+  - id: f12
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Hotchkiss drive: the leaf springs carry the driving thrust and torque reaction from the axle to the frame. Uses an open propeller shaft with two UJs and a slip joint."
+    why: "Simple; common in trucks and buses."
+    q: "In Hotchkiss drive, what takes the driving thrust?"
+    a: "The leaf springs."
+    simple: "Springs push the vehicle along."
+  - id: f13
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Torque tube drive: the propeller shaft runs inside a rigid tube fixed to the axle. The tube takes torque reaction and drive thrust. Needs only one UJ and no slip joint."
+    why: "The tube pivots at the gearbox end."
+    q: "Drive with one UJ and the shaft inside a tube?"
+    a: "Torque tube drive."
+    simple: "Shaft in a tube that pushes the vehicle."
+  - id: f14
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Torque tube drive allows coil springs, since springs need not carry thrust."
+    why: "The tube does that job."
+    q: "Which drive allows coil springs to be used: Hotchkiss or torque tube?"
+    a: "Torque tube drive."
+    simple: "Tube takes the push, so springs can be coils."
+  - id: f15
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Torque reaction: when the propeller shaft drives the crown wheel, the axle casing tends to turn the opposite way."
+    why: "Newton's third law."
+    q: "Tendency of axle casing to rotate opposite to wheels is called?"
+    a: "Torque reaction."
+    simple: "The axle tries to twist back."
+  - id: f16
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Driving thrust: force from the driving wheels that pushes the vehicle forward, passed to the frame by springs or radius rods."
+    why: "Wheels push on axle, axle pushes frame."
+    q: "Force that moves the vehicle forward from the axle is?"
+    a: "Driving thrust."
+    simple: "The push from the wheels."
+  - id: f17
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Front wheel drive (FWD): engine, gearbox and differential in one unit (transaxle) driving front wheels through CV-jointed drive shafts."
+    why: "No propeller shaft; more cabin space."
+    q: "Combined gearbox and differential in FWD cars is called?"
+    a: "Transaxle."
+    simple: "Gearbox and diff together at the front."
+  - id: f18
+    topic: u7.driveline
+    difficulty: 2
+    learn: "FWD advantages: more space, flat floor, good traction (engine weight on driving wheels), cheaper. Disadvantages: torque steer, heavier steering, more wear on front tyres."
+    why: "Front wheels steer and drive."
+    q: "Give one advantage of FWD."
+    a: "More space / good traction / lower cost."
+    simple: "Roomy and grippy."
+  - id: f19
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Final drive: crown wheel and pinion give a fixed speed reduction (about 3.5:1 to 6:1) and turn the drive by 90°."
+    why: "Engine speed is too high for wheels."
+    q: "Two jobs of the final drive?"
+    a: "Fixed speed reduction and turn drive through 90°."
+    simple: "Slow it down and turn the corner."
+  - id: f20
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Differential lets the outer wheel turn faster than the inner wheel on a turn, while driving both."
+    why: "The outer wheel covers a longer path."
+    q: "Why is a differential needed?"
+    a: "Let driving wheels turn at different speeds on turns."
+    simple: "Outer wheel can spin faster on a bend."
+  - id: f21
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Differential parts: pinion, crown wheel, differential cage (case), two sun (side) gears, two or four planet (star) pinions on a spider."
+    why: "Planet pinions both drive and let side gears differ in speed."
+    q: "Gears connected to the axle half-shafts?"
+    a: "Sun (side) gears."
+    simple: "Crown wheel turns cage; planets turn side gears."
+  - id: f22
+    topic: u7.driveline
+    difficulty: 2
+    learn: "On straight roads, planet pinions do not rotate on their own pins; the whole cage turns as one unit."
+    why: "Both wheels need the same speed."
+    q: "Do planet pinions spin on their pins on a straight road?"
+    a: "No."
+    simple: "On straight road, everything turns together."
+  - id: f23
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Sum of the two wheel speeds = 2 × crown wheel (cage) speed. If one wheel stops, the other turns at twice cage speed."
+    why: "Differential gear rule."
+    q: "One wheel is jacked up and spinning; the other is stopped. Speed of the spinning wheel?"
+    a: "Twice the cage speed."
+    simple: "One stops, the other goes double."
+  - id: f24
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Drawback of a normal differential: if one wheel is on mud or ice, it spins and the other gets almost no torque."
+    why: "Torque is shared equally, limited by the slipping wheel."
+    q: "Main drawback of an open differential?"
+    a: "Loses traction if one wheel slips."
+    simple: "One wheel in mud spins; car does not move."
+  - id: f25
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Limited slip differential (LSD) and differential lock reduce or stop wheel spin so the gripping wheel gets torque."
+    why: "Useful for off-road and heavy vehicles."
+    q: "Device that prevents one wheel spinning freely?"
+    a: "Limited slip differential (or diff lock)."
+    simple: "It forces both wheels to help."
+  - id: f26
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Rear axle types by support: semi-floating, three-quarter floating, fully floating."
+    why: "They differ in which loads the half-shaft carries."
+    q: "Three types of rear axle by half-shaft support?"
+    a: "Semi-floating, three-quarter floating, fully floating."
+    simple: "How much load the shaft carries."
+  - id: f27
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Semi-floating axle: the half-shaft carries driving torque, bending and vehicle weight; bearing is between shaft and casing. Used in cars."
+    why: "Simple and light."
+    q: "Rear axle type used in cars where shaft carries weight too?"
+    a: "Semi-floating axle."
+    simple: "Shaft does all the work."
+  - id: f28
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Fully floating axle: the half-shaft carries only driving torque; wheel hub runs on two bearings on the axle casing. Used in trucks and buses."
+    why: "Shaft can be removed without removing the wheel; vehicle can stand on it."
+    q: "Axle where half-shaft carries only torque?"
+    a: "Fully floating axle."
+    simple: "Casing takes weight; shaft only turns."
+  - id: f29
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Three-quarter floating: one bearing between hub and casing; shaft carries torque and side loads but not weight."
+    why: "In-between design."
+    q: "Axle with a single bearing between hub and casing?"
+    a: "Three-quarter floating."
+    simple: "Middle option."
+  - id: f30
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Axle casing types: banjo type (one-piece with central bulge) and split (carrier) type."
+    why: "Banjo is common and easy to service."
+    q: "Axle casing with central bulge for the differential?"
+    a: "Banjo type."
+    simple: "Shaped like a banjo."
+  - id: f31
+    topic: u7.driveline
+    difficulty: 2
+    learn: "Tandem axle: two rear axles close together on heavy trucks to share load. Lift axles can be raised when empty."
+    why: "Spreads weight on roads."
+    q: "Two rear axles close together on a truck are called?"
+    a: "Tandem axle."
+    simple: "Two axles share the heavy load."
+  - id: sum
+    topic: u7.driveline
+    type: summary
+    points:
+      - "Propeller shaft: hollow, slip joint, Hooke's joints (2 in phase)."
+      - "CV joints (Rzeppa, tripod) for FWD; transaxle."
+      - "Hotchkiss (springs take thrust) vs torque tube (tube takes thrust, 1 UJ)."
+      - "Differential: outer wheel faster; LSD stops wheel spin."
+      - "Semi-floating (cars), ¾, fully floating (trucks)."
+
+  # ---------- Wheels & tyres ----------
+  - id: f01
+    topic: u7.wheels
+    difficulty: 1
+    learn: "Wheel types: spoked (wire) wheel, pressed steel disc wheel, light alloy cast wheel, composite wheel."
+    why: "Each balances cost, weight and strength."
+    q: "Name the four types of wheels."
+    a: "Spoked, disc, alloy cast, composite."
+    simple: "Wire, steel disc, alloy, composite."
+  - id: f02
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Spoked wheel: hub joined to rim by tensioned wire spokes. Light and strong; used on bicycles and some motorcycles. Needs tubes."
+    why: "Spoke holes in the rim stop it holding air."
+    q: "Why do spoked wheels usually need tubes?"
+    a: "Spoke holes in the rim leak air."
+    simple: "Holes in the rim, so a tube is needed."
+  - id: f03
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Pressed steel disc wheel: rim and disc pressed from steel and welded. Cheap, strong; used on most budget cars and trucks."
+    why: "Easy mass production."
+    q: "Most common wheel on trucks and budget cars?"
+    a: "Pressed steel disc wheel."
+    simple: "Cheap strong steel wheel."
+  - id: f04
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Alloy cast wheel (aluminium or magnesium alloy): light, good looking, better heat removal from brakes, reduces unsprung weight."
+    why: "Lighter wheels improve ride and handling."
+    q: "Advantage of alloy wheels?"
+    a: "Light, better cooling of brakes, looks."
+    simple: "Light and cool."
+  - id: f05
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Composite wheel: made of materials like carbon fibre or a steel rim with alloy centre."
+    why: "Very light and stiff."
+    q: "What is a composite wheel?"
+    a: "Wheel made of combined materials like carbon fibre or steel/alloy."
+    simple: "Wheel built from mixed materials."
+  - id: f06
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Rim types: drop centre (well base) rim for cars, flat base/divided rims for heavy vehicles."
+    why: "The well lets the tyre bead drop in for fitting."
+    q: "Rim with a central well for fitting the tyre?"
+    a: "Drop centre (well base) rim."
+    simple: "A dip in the middle to fit the tyre."
+  - id: f07
+    topic: u7.wheels
+    difficulty: 1
+    learn: "Tyre jobs: carry the vehicle weight, grip the road for driving, braking and steering, and absorb small road shocks."
+    why: "The tyre is the only contact with the road."
+    q: "Give two functions of a tyre."
+    a: "Carry load, grip, absorb shocks."
+    simple: "Hold, grip and cushion."
+  - id: f08
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Tyre parts: tread, shoulder, sidewall, carcass (plies), bead (with steel wire), breaker/belt, inner liner."
+    why: "Each layer has its own job."
+    q: "Part of the tyre that grips the rim?"
+    a: "Bead (with steel bead wire)."
+    simple: "The bead locks onto the rim."
+  - id: f09
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Tread is the part touching the road; its pattern clears water and gives grip. Sidewall carries markings and flexes."
+    why: "Grooves push water out to avoid aquaplaning."
+    q: "Part of a tyre in contact with the road?"
+    a: "Tread."
+    simple: "The patterned rubber on the road."
+  - id: f10
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Cross-ply (bias ply) tyre: cords run diagonally (about 30–40°) bead to bead, crossing each other in layers."
+    why: "Stiff sidewalls; used in older vehicles and some heavy vehicles."
+    q: "Tyre in which plies cross diagonally?"
+    a: "Cross-ply (bias) tyre."
+    simple: "Criss-cross layers."
+  - id: f11
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Radial ply tyre: carcass cords run at 90° across from bead to bead, with steel or textile belts under the tread."
+    why: "Flexible sidewalls and stiff tread."
+    q: "In a radial tyre, at what angle do the carcass cords run?"
+    a: "90° (radially, bead to bead)."
+    simple: "Cords run straight across."
+  - id: f12
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Radial tyres: better grip, longer life, less rolling resistance (better fuel economy), cooler running. Cross-ply: cheaper, stronger sidewalls, harsher ride."
+    why: "The tread stays flat on the road in radials."
+    q: "Which tyre gives better fuel economy: radial or cross-ply?"
+    a: "Radial."
+    simple: "Radials last longer and save fuel."
+  - id: f13
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Belted bias tyre: cross-ply carcass with belts under the tread. Between cross-ply and radial."
+    why: "A compromise design."
+    q: "Tyre with bias plies plus belts under the tread?"
+    a: "Belted bias tyre."
+    simple: "Cross-ply with belts."
+  - id: f14
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Never mix radial and cross-ply tyres on the same axle."
+    why: "Different handling causes instability."
+    q: "Can radial and cross-ply tyres be fitted on the same axle?"
+    a: "No."
+    simple: "Same type on each axle."
+  - id: f15
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Tubeless tyre: no inner tube; an airtight inner liner and tight bead seal hold air on a sealed rim with a valve fixed to the rim."
+    why: "Air leaks slowly when punctured."
+    q: "What holds air in a tubeless tyre?"
+    a: "Inner liner and bead seal against the rim."
+    simple: "Tyre and rim seal air themselves."
+  - id: f16
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Tubeless advantages: slow air loss on puncture, cooler running, lighter, easy repair. Drawback: needs an airtight rim."
+    why: "No tube to burst suddenly."
+    q: "Main safety advantage of tubeless tyres?"
+    a: "Slow loss of air on puncture (no sudden burst)."
+    simple: "Punctures leak slowly."
+  - id: f17
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Tread patterns: rib (grooves around the tyre — steering wheels, good on highways), lug (cross bars — driving wheels, traction), rib-lug (mixed), block (off-road/snow), directional, asymmetric."
+    why: "Pattern suits the job."
+    q: "Tread pattern for front steering wheels on highways?"
+    a: "Rib pattern."
+    simple: "Ribs for steering, lugs for pulling."
+  - id: f18
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Minimum tread depth: 1.6 mm (tread wear indicators show this)."
+    why: "Below it, wet grip falls sharply."
+    q: "Legal minimum tyre tread depth?"
+    a: "1.6 mm"
+    simple: "Below 1.6 mm, change the tyre."
+  - id: f19
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Aquaplaning: tyre rides on a film of water and loses contact with the road."
+    why: "Tread cannot clear water fast enough at speed."
+    q: "Tyre riding on a water film is called?"
+    a: "Aquaplaning (hydroplaning)."
+    simple: "Tyre surfing on water."
+  - id: f20
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Under-inflation: both shoulders wear, tyre heats up, more fuel used, heavy steering, risk of burst."
+    why: "Tyre flexes too much."
+    q: "Both edges of tread worn more than the centre means?"
+    a: "Under-inflation."
+    simple: "Low air wears the edges."
+  - id: f21
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Over-inflation: centre of tread wears, less grip, hard ride, more damage from impacts."
+    why: "Only the middle touches the road."
+    q: "Centre of tread worn more means?"
+    a: "Over-inflation."
+    simple: "Too much air wears the middle."
+  - id: f22
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Check tyre pressure when cold, as given on the door label or manual."
+    why: "Hot tyres show higher pressure."
+    q: "When should tyre pressure be checked?"
+    a: "When tyres are cold."
+    simple: "Check before driving."
+  - id: f23
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Nitrogen inflation: leaks more slowly and has no moisture, so pressure stays steadier."
+    why: "Nitrogen molecules pass through rubber more slowly."
+    q: "Advantage of nitrogen in tyres?"
+    a: "Steadier pressure, less moisture."
+    simple: "Pressure stays right longer."
+  - id: f24
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Factors affecting tyre life and performance: inflation pressure, load, speed, wheel alignment, wheel balance, road surface, driving habits, temperature, brakes."
+    why: "Each adds heat or uneven wear."
+    q: "Name three factors that affect tyre performance."
+    a: "Pressure, load, speed, alignment, balance, road, driving."
+    simple: "Air, load, speed and alignment."
+  - id: f25
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Wheel balancing: weights added to the rim so the wheel spins without vibration. Static and dynamic balance."
+    why: "Unbalance causes shake and uneven wear."
+    q: "Purpose of wheel balancing?"
+    a: "Prevent vibration and uneven tyre wear."
+    simple: "Small weights stop the wheel shaking."
+  - id: f26
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Tyre rotation: moving tyres between positions at set intervals so they wear evenly."
+    why: "Front and rear tyres wear differently."
+    q: "Why are tyres rotated?"
+    a: "For even wear."
+    simple: "Swap places to wear evenly."
+  - id: f27
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Tyre size 195/65 R15 91H: 195 mm width, 65% aspect ratio, R = radial, 15-inch rim, 91 = load index, H = speed rating (210 km/h)."
+    why: "Read size code from the sidewall."
+    q: "In 195/65 R15, what is 65?"
+    a: "Aspect ratio (sidewall height = 65% of width)."
+    simple: "Width / height% / Radial / rim inches."
+  - id: f28
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Aspect ratio = section height ÷ section width × 100. Low-profile tyres have low aspect ratio."
+    why: "Lower sidewall gives sharper handling, harder ride."
+    q: "Formula for aspect ratio?"
+    a: "Section height ÷ section width × 100."
+    simple: "How tall the sidewall is compared to width."
+  - id: f29
+    topic: u7.wheels
+    difficulty: 2
+    learn: "DOT/date code on the sidewall: last four digits show week and year of manufacture (e.g. 2324 = 23rd week of 2024)."
+    why: "Old tyres harden even if tread is good."
+    q: "In date code 2324, what is the year?"
+    a: "2024."
+    simple: "Week then year."
+  - id: f30
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Retreading: putting new tread on a worn tyre casing. Common for trucks and buses. Retreaded tyres are not allowed on front wheels of buses."
+    why: "Saves cost, but front tyres are safety critical."
+    q: "Process of adding new tread to a worn tyre?"
+    a: "Retreading."
+    simple: "New tread on old body."
+  - id: f31
+    topic: u7.wheels
+    difficulty: 2
+    learn: "Standing waves form in an under-inflated tyre at high speed, causing heat build-up and possible blowout."
+    why: "The tyre cannot recover its shape fast enough."
+    q: "Wave-like deformation of tyre at high speed is called?"
+    a: "Standing wave."
+    simple: "The tyre ripples and overheats."
+  - id: f32
+    topic: u7.wheels
+    difficulty: 2
+    learn: "TPMS (tyre pressure monitoring system) warns the driver of low tyre pressure. Mandatory in new cars in India (M1 category) from 2022."
+    why: "Low pressure is a big safety risk."
+    q: "What does TPMS do?"
+    a: "Warns of low tyre pressure."
+    simple: "A dashboard warning for flat tyres."
+  - id: sum
+    topic: u7.wheels
+    type: summary
+    points:
+      - "Wheels: spoked, steel disc, alloy cast, composite."
+      - "Tyre parts: tread, sidewall, carcass, bead, belt."
+      - "Radial (90°, better economy) vs cross-ply (diagonal)."
+      - "Rib for steering, lug for traction; min tread 1.6 mm."
+      - "Under-inflation wears edges, over-inflation centre; 195/65 R15 code."
+
+  # ---------- Charging ----------
+  - id: f01
+    topic: u7.charging
+    difficulty: 1
+    learn: "The charging system recharges the battery and supplies electricity to all loads when the engine runs."
+    why: "The battery alone would soon go flat."
+    q: "Why is a charging system needed?"
+    a: "Recharge battery and power loads while running."
+    simple: "It refills the battery."
+  - id: f02
+    topic: u7.charging
+    difficulty: 2
+    learn: "Charging system parts: generator (dynamo or alternator), regulator, battery, ammeter or warning lamp, wiring."
+    why: "Generator makes power; regulator controls it."
+    q: "Name the parts of the charging system."
+    a: "Generator, regulator, battery, warning lamp/ammeter."
+    simple: "Generator, controller, battery."
+  - id: f03
+    topic: u7.charging
+    difficulty: 2
+    learn: "Dynamo (DC generator): armature rotates inside a stationary magnetic field; a commutator and brushes collect DC output."
+    why: "The commutator converts AC in the armature to DC."
+    q: "In a dynamo, which part rotates?"
+    a: "Armature."
+    simple: "Coils spin inside magnets."
+  - id: f04
+    topic: u7.charging
+    difficulty: 2
+    learn: "Dynamo parts: yoke (frame), field poles and coils, armature, commutator, carbon brushes, end covers, pulley."
+    why: "Commutator and brushes wear and need service."
+    q: "Part of a dynamo that converts AC to DC?"
+    a: "Commutator."
+    simple: "Commutator straightens the current."
+  - id: f05
+    topic: u7.charging
+    difficulty: 2
+    learn: "Dynamos give little or no charge at idle and cannot run at high speed. They are heavy for their output."
+    why: "Commutator sparks and armature fly apart at high rpm."
+    q: "Main drawback of a dynamo?"
+    a: "No charging at idle; low output; cannot run fast."
+    simple: "Weak at idle, can't spin fast."
+  - id: f06
+    topic: u7.charging
+    difficulty: 2
+    learn: "Alternator (AC generator): a rotor (field magnet) rotates inside a stationary stator (output windings). Diodes rectify AC to DC."
+    why: "Output is taken from fixed windings, so no heavy commutator."
+    q: "In an alternator, which part rotates?"
+    a: "Rotor (field)."
+    simple: "Magnet spins inside fixed coils."
+  - id: f07
+    topic: u7.charging
+    difficulty: 2
+    learn: "Alternator parts: rotor (claw-pole field), stator (3-phase star or delta windings), slip rings and brushes (carry small field current), rectifier (diode pack), regulator, fan, pulley."
+    why: "Slip rings carry only small field current, so brushes last long."
+    q: "What carries current to the alternator rotor?"
+    a: "Slip rings and brushes."
+    simple: "Small current through slip rings."
+  - id: f08
+    topic: u7.charging
+    difficulty: 2
+    learn: "Alternator uses 6 diodes (3-phase bridge rectifier) to change AC to DC. Diodes also stop battery current flowing back."
+    why: "No cut-out relay needed."
+    q: "How many diodes in a basic alternator rectifier?"
+    a: "Six."
+    simple: "Six diodes change AC to DC."
+  - id: f09
+    topic: u7.charging
+    difficulty: 2
+    learn: "Alternator advantages over dynamo: charges at idle, lighter, higher output, higher speed, less maintenance, no cut-out needed."
+    why: "That is why all modern vehicles use alternators."
+    q: "Give two advantages of alternator over dynamo."
+    a: "Charges at idle, lighter, higher output, less maintenance."
+    simple: "Alternator: stronger, lighter, works at idle."
+  - id: f10
+    topic: u7.charging
+    difficulty: 2
+    learn: "Never disconnect the battery while the alternator is running, and never reverse battery polarity."
+    why: "Voltage spikes and reverse current destroy the diodes."
+    q: "Why must battery not be disconnected with engine running?"
+    a: "Voltage surge can damage diodes/electronics."
+    simple: "It can burn the alternator's diodes."
+  - id: f11
+    topic: u7.charging
+    difficulty: 2
+    learn: "Regulator controls generator output voltage (about 13.8–14.4 V in a 12 V system) by controlling field current."
+    why: "Too high overcharges and boils the battery; too low undercharges."
+    q: "Charging voltage in a 12 V system?"
+    a: "About 13.8–14.4 V."
+    simple: "Regulator keeps voltage about 14 V."
+  - id: f12
+    topic: u7.charging
+    difficulty: 2
+    learn: "Dynamo regulator has three units: cut-out (stops battery discharging into dynamo), voltage regulator, current regulator."
+    why: "Dynamo needs all three."
+    q: "Purpose of the cut-out in a dynamo regulator?"
+    a: "Prevent battery discharging through the dynamo."
+    simple: "A one-way switch for the dynamo."
+  - id: f13
+    topic: u7.charging
+    difficulty: 2
+    learn: "Alternator needs only a voltage regulator. No cut-out (diodes block reverse flow) and no current regulator (stator limits current itself)."
+    why: "Self-limiting by stator reactance."
+    q: "Why does an alternator not need a current regulator?"
+    a: "It limits its own current (stator reactance)."
+    simple: "The alternator caps its own current."
+  - id: f14
+    topic: u7.charging
+    difficulty: 2
+    learn: "Types of regulators: electromechanical (vibrating contact), electronic (transistor), integrated circuit (IC) built into the alternator, ECU-controlled."
+    why: "Electronic types have no moving parts."
+    q: "Type of regulator in modern alternators?"
+    a: "Electronic IC regulator (built-in)."
+    simple: "A small chip inside the alternator."
+  - id: f15
+    topic: u7.charging
+    difficulty: 2
+    learn: "Charging warning lamp glows with ignition on and engine off, and goes out when the alternator charges. If it stays on while running, charging has failed."
+    why: "It shows the difference between battery and alternator voltage."
+    q: "Charging light stays on while driving — what does it mean?"
+    a: "Alternator not charging."
+    simple: "Red battery light on = no charging."
+  - id: f16
+    topic: u7.charging
+    difficulty: 2
+    learn: "Lead-acid battery: 12 V has 6 cells of about 2.1 V each. Electrolyte is dilute sulphuric acid."
+    why: "Cells in series add voltage."
+    q: "How many cells in a 12 V lead-acid battery?"
+    a: "Six."
+    simple: "Six 2-volt cells make 12 V."
+  - id: f17
+    topic: u7.charging
+    difficulty: 2
+    learn: "Specific gravity of battery acid: about 1.26–1.28 when fully charged, about 1.12 when discharged. Checked with a hydrometer."
+    why: "Acid is used up during discharge."
+    q: "Instrument to check battery acid specific gravity?"
+    a: "Hydrometer."
+    simple: "Heavier acid = fuller battery."
+  - id: f18
+    topic: u7.charging
+    difficulty: 2
+    learn: "Battery capacity is given in ampere-hours (Ah), e.g. 35 Ah."
+    why: "Shows how much charge it can store."
+    q: "Unit of battery capacity?"
+    a: "Ampere-hour (Ah)."
+    simple: "How many amps for how many hours."
+  - id: f19
+    topic: u7.charging
+    difficulty: 2
+    learn: "Battery plates: positive = lead peroxide (PbO₂), negative = spongy lead (Pb). Both change to lead sulphate on discharge."
+    why: "Chemical change stores and releases energy."
+    q: "Material of positive plates in a lead-acid battery?"
+    a: "Lead peroxide (PbO₂)."
+    simple: "Brown lead peroxide (+), grey sponge lead (−)."
+  - id: f20
+    topic: u7.charging
+    difficulty: 2
+    learn: "Sulphation: hard lead sulphate forms on plates if a battery stays discharged, reducing capacity."
+    why: "Hard crystals do not convert back."
+    q: "Hardening of lead sulphate on idle battery plates is called?"
+    a: "Sulphation."
+    simple: "A flat battery left long gets ruined."
+  - id: f21
+    topic: u7.charging
+    difficulty: 2
+    learn: "Topping up a conventional battery is done with distilled water only, not acid."
+    why: "Only water evaporates during charging."
+    q: "What is used to top up a battery?"
+    a: "Distilled water."
+    simple: "Add pure water, not acid."
+  - id: f22
+    topic: u7.charging
+    difficulty: 2
+    learn: "Maintenance-free (MF) batteries use calcium-lead grids, lose very little water and are sealed."
+    why: "Calcium reduces gassing."
+    q: "Grid alloy in maintenance-free batteries?"
+    a: "Lead-calcium."
+    simple: "Sealed and needs no water."
+  - id: f23
+    topic: u7.charging
+    difficulty: 2
+    learn: "Negative earth system: battery negative is connected to the vehicle body. Almost all vehicles use negative earth."
+    why: "Less corrosion and standard for electronics."
+    q: "Which battery terminal is earthed in most vehicles?"
+    a: "Negative."
+    simple: "Minus goes to the body."
+  - id: f24
+    topic: u7.charging
+    difficulty: 2
+    learn: "When removing a battery, disconnect the negative (earth) terminal first; connect it last."
+    why: "Avoids short circuit if the spanner touches the body."
+    q: "Which battery terminal is removed first?"
+    a: "Negative (earth)."
+    simple: "Minus off first, minus on last."
+  - id: sum
+    topic: u7.charging
+    type: summary
+    points:
+      - "Dynamo: armature rotates, commutator; no charge at idle."
+      - "Alternator: rotor rotates, stator fixed, 6 diodes rectify."
+      - "Dynamo regulator: cut-out + voltage + current; alternator: voltage only."
+      - "Charging voltage ~14 V; warning lamp on = not charging."
+      - "Battery 6 cells, SG 1.28 full; distilled water; negative earth."
+
+  # ---------- Starting ----------
+  - id: f01
+    topic: u7.starting
+    difficulty: 1
+    learn: "Starter motor cranks the engine until it can run on its own."
+    why: "An engine cannot start itself; it needs to be turned to begin the cycle."
+    q: "Function of a starter motor?"
+    a: "Crank the engine to start it."
+    simple: "It spins the engine to start."
+  - id: f02
+    topic: u7.starting
+    difficulty: 2
+    learn: "Starting system parts: battery, ignition/starter switch, solenoid (relay), starter motor, drive pinion, flywheel ring gear, heavy cables."
+    why: "High current flows only through short, thick cables."
+    q: "Name the parts of a starting system."
+    a: "Battery, switch, solenoid, starter motor, pinion, ring gear."
+    simple: "Key → solenoid → motor → flywheel."
+  - id: f03
+    topic: u7.starting
+    difficulty: 2
+    learn: "Starter motor is a DC series-wound motor."
+    why: "Series motors give very high torque at zero speed."
+    q: "Type of motor used as a starter?"
+    a: "DC series-wound motor."
+    simple: "Series motor = big starting torque."
+  - id: f04
+    topic: u7.starting
+    difficulty: 2
+    learn: "Starter motor draws a very high current (about 150–400 A for cars, more for trucks)."
+    why: "Engine compression resists cranking."
+    q: "Why are starter cables thick?"
+    a: "To carry very high current."
+    simple: "Huge current needs fat wires."
+  - id: f05
+    topic: u7.starting
+    difficulty: 2
+    learn: "Starter motor parts: yoke, field coils, armature, commutator, brushes, end frames, drive mechanism with pinion."
+    why: "Similar to a dynamo but built for torque."
+    q: "Where does the brush rub in a starter motor?"
+    a: "On the commutator."
+    simple: "Brushes feed current to the spinning armature."
+  - id: f06
+    topic: u7.starting
+    difficulty: 2
+    learn: "Gear ratio between starter pinion and flywheel ring gear is about 10:1 to 20:1."
+    why: "Gives high cranking torque from a small motor."
+    q: "Typical starter pinion to ring gear ratio?"
+    a: "About 15:1 (10–20:1)."
+    simple: "Small gear turns big gear for torque."
+  - id: f07
+    topic: u7.starting
+    difficulty: 2
+    learn: "Starter drive engages the pinion with the ring gear for cranking and disengages it once the engine starts."
+    why: "A running engine would spin the starter too fast and wreck it."
+    q: "Why must the starter pinion disengage after starting?"
+    a: "To avoid over-speeding the starter motor."
+    simple: "The engine would spin the starter to pieces."
+  - id: f08
+    topic: u7.starting
+    difficulty: 2
+    learn: "Starter drive types: Bendix (inertia) drive (inboard and outboard), overrunning (roller) clutch drive, axial (sliding armature), pre-engaged drive."
+    why: "Each engages and protects in a different way."
+    q: "Name four types of starter drives."
+    a: "Bendix, overrunning clutch, axial (sliding armature), pre-engaged."
+    simple: "Different ways to push the gear in."
+  - id: f09
+    topic: u7.starting
+    difficulty: 2
+    learn: "Bendix drive: pinion sits on a screwed sleeve on the armature shaft. When the motor spins, the pinion's inertia makes it run along the thread into mesh."
+    why: "Pinion is heavy on one side; it lags and screws forward."
+    q: "What makes the pinion move into mesh in a Bendix drive?"
+    a: "Inertia of the pinion on a helical sleeve."
+    simple: "The pinion screws itself forward."
+  - id: f10
+    topic: u7.starting
+    difficulty: 2
+    learn: "When the engine starts, the ring gear spins the pinion faster, screwing it back out of mesh. A drive spring cushions the shock."
+    why: "The thread works in reverse."
+    q: "How does a Bendix pinion disengage?"
+    a: "Engine spins it faster and it screws back."
+    simple: "The engine throws the pinion back."
+  - id: f11
+    topic: u7.starting
+    difficulty: 2
+    learn: "Inboard Bendix: pinion moves towards the motor to engage. Outboard Bendix: pinion moves away from the motor."
+    why: "Depends on how the starter is mounted relative to the flywheel."
+    q: "In outboard Bendix drive, which way does the pinion move to engage?"
+    a: "Away from the motor."
+    simple: "Inboard moves in; outboard moves out."
+  - id: f12
+    topic: u7.starting
+    difficulty: 2
+    learn: "Overrunning (roller) clutch drive: a one-way roller clutch lets the pinion freewheel if the engine drives it, protecting the armature."
+    why: "Rollers lock one way and slip the other."
+    q: "What protects the armature in an overrunning clutch drive?"
+    a: "One-way roller clutch freewheels."
+    simple: "A one-way clutch lets the pinion spin free."
+  - id: f13
+    topic: u7.starting
+    difficulty: 2
+    learn: "Pre-engaged starter: a solenoid first pushes the pinion into mesh using a shift lever, then closes the main contacts to spin the motor. Uses an overrunning clutch."
+    why: "Pinion meshes before turning, so less gear wear."
+    q: "In a pre-engaged starter, what pushes the pinion into mesh?"
+    a: "Solenoid via shift (engagement) lever."
+    simple: "Mesh first, spin second."
+  - id: f14
+    topic: u7.starting
+    difficulty: 2
+    learn: "Pre-engaged starter is the most common in modern vehicles."
+    why: "Smooth, positive engagement and long life."
+    q: "Most common starter drive in modern cars?"
+    a: "Pre-engaged type."
+    simple: "Modern cars use pre-engaged starters."
+  - id: f15
+    topic: u7.starting
+    difficulty: 2
+    learn: "Axial (sliding armature) starter: the whole armature slides forward by magnetic force to mesh the pinion. Used in large diesel engines."
+    why: "Gives full engagement before full power."
+    q: "Starter where the armature moves along its axis to engage?"
+    a: "Axial (sliding armature) starter."
+    simple: "The whole motor shaft slides forward."
+  - id: f16
+    topic: u7.starting
+    difficulty: 2
+    learn: "Starter solenoid has a pull-in winding (moves plunger) and a hold-in winding (keeps it in)."
+    why: "Pull-in needs more current; hold-in saves current once engaged."
+    q: "Two windings in a starter solenoid?"
+    a: "Pull-in and hold-in windings."
+    simple: "One pulls, one holds."
+  - id: f17
+    topic: u7.starting
+    difficulty: 2
+    learn: "Gear reduction starter has a small high-speed motor with internal reduction gears."
+    why: "Lighter and draws less current for the same torque."
+    q: "Advantage of a gear reduction starter?"
+    a: "Smaller, lighter, less current."
+    simple: "Small fast motor with gears inside."
+  - id: f18
+    topic: u7.starting
+    difficulty: 2
+    learn: "Do not crank for more than about 10–15 seconds at a time."
+    why: "Starter overheats and battery drains."
+    q: "Maximum cranking time at once?"
+    a: "About 10–15 seconds."
+    simple: "Short tries only."
+  - id: f19
+    topic: u7.starting
+    difficulty: 2
+    learn: "Starter only clicks: low battery, loose terminals, faulty solenoid contacts. Starter spins but engine does not turn: drive/pinion failure."
+    why: "Symptoms point to the faulty part."
+    q: "Starter spins but engine does not crank — likely fault?"
+    a: "Starter drive (pinion/Bendix) failure."
+    simple: "Spinning without cranking = drive problem."
+  - id: sum
+    topic: u7.starting
+    type: summary
+    points:
+      - "Starter: DC series motor, high torque, 150–400 A."
+      - "Pinion : ring gear ≈ 15:1."
+      - "Bendix inertia drive (inboard/outboard)."
+      - "Overrunning clutch; pre-engaged (solenoid + lever) most common."
+      - "Axial (sliding armature) for big diesels; crank ≤15 s."
+
+  # ---------- Ignition ----------
+  - id: f01
+    topic: u7.ignition
+    difficulty: 1
+    learn: "Ignition system produces a high-voltage spark at the spark plug at the right moment to ignite the mixture in a petrol engine."
+    why: "Petrol needs a spark to burn."
+    q: "Function of the ignition system?"
+    a: "Produce a timed high-voltage spark at the plug."
+    simple: "It lights the fire at the right time."
+  - id: f02
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Ignition types: battery (coil) ignition, magneto ignition, electronic ignition (transistorised, capacitor discharge), computer controlled, distributor-less (DLI)."
+    why: "From old mechanical to modern electronic."
+    q: "Name three types of ignition systems."
+    a: "Coil (battery), magneto, electronic, DLI."
+    simple: "Coil, magneto, electronic."
+  - id: f03
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Spark plug needs about 10,000–30,000 volts (modern systems up to 40,000 V)."
+    why: "Compressed mixture resists sparking."
+    q: "Voltage needed at the spark plug?"
+    a: "About 10,000 to 30,000 V."
+    simple: "Very high voltage to jump the gap."
+  - id: f04
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Coil ignition circuit: primary circuit (battery, switch, ballast resistor, primary winding, contact breaker, condenser) and secondary circuit (secondary winding, distributor, HT leads, plugs)."
+    why: "Low voltage primary creates high voltage secondary."
+    q: "Is the contact breaker in the primary or secondary circuit?"
+    a: "Primary circuit."
+    simple: "Low voltage side and high voltage side."
+  - id: f05
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Ignition coil is a step-up transformer: primary has few turns of thick wire (about 200–300); secondary has many turns of thin wire (about 20,000)."
+    why: "Turns ratio steps voltage up."
+    q: "Which coil winding has more turns?"
+    a: "Secondary."
+    simple: "Many turns make high voltage."
+  - id: f06
+    topic: u7.ignition
+    difficulty: 2
+    learn: "High voltage is induced when the primary current is suddenly broken and the magnetic field collapses."
+    why: "Fast change in magnetic field induces high voltage (mutual induction)."
+    q: "When is high voltage produced in the coil?"
+    a: "When primary current is broken (field collapses)."
+    simple: "Cut the current suddenly and a big spark comes."
+  - id: f07
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Contact breaker (CB) points open and close the primary circuit, worked by a cam on the distributor shaft."
+    why: "Opening the points triggers the spark."
+    q: "What opens the contact breaker points?"
+    a: "Cam on the distributor shaft."
+    simple: "A cam flicks the points open."
+  - id: f08
+    topic: u7.ignition
+    difficulty: 2
+    learn: "CB point gap is about 0.35–0.45 mm. Points are made of tungsten."
+    why: "Tungsten resists arcing and wear."
+    q: "Material of contact breaker points?"
+    a: "Tungsten."
+    simple: "Tough tungsten tips."
+  - id: f09
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Cam angle (dwell angle): number of degrees of distributor cam rotation during which the points stay closed."
+    why: "Longer dwell lets the coil build up full current."
+    q: "Define dwell angle."
+    a: "Cam angle during which CB points remain closed."
+    simple: "How long the points stay shut."
+  - id: f10
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Larger point gap → smaller dwell angle. Smaller gap → larger dwell."
+    why: "A wider gap means the points open earlier and close later."
+    q: "If point gap increases, what happens to dwell angle?"
+    a: "It decreases."
+    simple: "Wider gap, less closed time."
+  - id: f11
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Condenser (capacitor) is connected across the CB points. It stops arcing at the points and makes the primary current collapse faster."
+    why: "Faster collapse gives higher secondary voltage."
+    q: "Two functions of the condenser in coil ignition?"
+    a: "Prevent arcing at points and speed up field collapse."
+    simple: "It saves the points and boosts the spark."
+  - id: f12
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Faulty condenser: burnt, pitted points and weak spark."
+    why: "Arcing eats the point surfaces."
+    q: "Burnt and pitted CB points suggest which fault?"
+    a: "Faulty condenser."
+    simple: "Bad condenser burns the points."
+  - id: f13
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Distributor sends high voltage to each spark plug in firing order, and houses the CB points, cam, condenser and advance mechanisms."
+    why: "One coil serves all cylinders."
+    q: "Part that sends spark to each plug in order?"
+    a: "Distributor (rotor and cap)."
+    simple: "It shares sparks among cylinders."
+  - id: f14
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Distributor rotor turns inside the cap and passes HT current to the cap's side terminals, one for each cylinder."
+    why: "Rotor points to each plug lead in turn."
+    q: "Rotating arm inside the distributor cap is called?"
+    a: "Rotor."
+    simple: "A spinning pointer sends the spark."
+  - id: f15
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Distributor runs at camshaft speed (half crankshaft speed) in four-stroke engines."
+    why: "Each plug fires once every two crank turns."
+    q: "Speed of the distributor shaft?"
+    a: "Half crankshaft speed (= camshaft speed)."
+    simple: "Same speed as the camshaft."
+  - id: f16
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Spark advance: the spark must come earlier at higher speed, because the burn takes nearly the same time but the piston moves faster."
+    why: "Peak pressure should come just after TDC."
+    q: "Why must the spark be advanced at high speed?"
+    a: "To give time for burning before piston passes TDC."
+    simple: "Faster engine → spark earlier."
+  - id: f17
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Centrifugal advance: weights in the distributor fly out with speed and turn the cam forward, advancing the spark."
+    why: "It follows engine speed."
+    q: "Advance mechanism that depends on engine speed?"
+    a: "Centrifugal advance."
+    simple: "Spinning weights move the spark earlier."
+  - id: f18
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Vacuum advance: a diaphragm connected to manifold vacuum turns the CB base plate, advancing the spark at part load (high vacuum)."
+    why: "Lean part-load mixture burns slowly and needs more advance."
+    q: "Advance mechanism that depends on engine load?"
+    a: "Vacuum advance."
+    simple: "Light load → more advance by vacuum."
+  - id: f19
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Too much advance causes knocking and overheating. Too little (retarded) causes power loss, overheating and high fuel use."
+    why: "Burn timing is wrong either way."
+    q: "Effect of over-advanced ignition?"
+    a: "Knocking (pinking)."
+    simple: "Too early = knock; too late = weak."
+  - id: f20
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Ignition timing is checked with a stroboscopic timing light aimed at marks on the crank pulley."
+    why: "The flash freezes the moving mark."
+    q: "Instrument used to check ignition timing?"
+    a: "Timing light (stroboscope)."
+    simple: "A flashing light shows the timing mark."
+  - id: f21
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Ballast resistor in the primary circuit reduces coil current at normal running and is bypassed during cranking for a stronger spark."
+    why: "Battery voltage drops while cranking."
+    q: "Why is the ballast resistor bypassed during starting?"
+    a: "To give full voltage to the coil for a strong spark."
+    simple: "More voltage for starting."
+  - id: f22
+    topic: u7.ignition
+    difficulty: 1
+    learn: "Spark plug parts: terminal, insulator (ceramic), metal shell with threads, centre electrode, side (ground) electrode, gasket."
+    why: "Insulator stops HT current leaking to the shell."
+    q: "Material of spark plug insulator?"
+    a: "Ceramic (alumina)."
+    simple: "Ceramic body, metal threads, two electrodes."
+  - id: f23
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Spark plug gap is usually about 0.6–1.1 mm."
+    why: "Too small: weak spark; too large: misfire."
+    q: "Typical spark plug gap?"
+    a: "About 0.6 to 1.1 mm."
+    simple: "Less than a millimetre or so."
+  - id: f24
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Hot plug: long insulator nose, runs hot, used in low-speed, cool engines. Cold plug: short nose, loses heat fast, used in high-speed, high-compression engines."
+    why: "Plug must stay hot enough to burn off carbon but not cause pre-ignition."
+    q: "Which plug suits a high-speed, high-compression engine?"
+    a: "Cold plug."
+    simple: "Hot engine, cold plug. Cool engine, hot plug."
+  - id: f25
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Spark plug reading: light tan/grey = normal; black sooty = rich mixture; oily = oil burning; white blistered = overheating/lean."
+    why: "Plug colour shows engine condition."
+    q: "Black sooty spark plug shows?"
+    a: "Rich mixture."
+    simple: "Black = too much fuel."
+  - id: f26
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Spark plug types: standard, projected nose, resistor type (reduces radio interference), platinum/iridium tip (long life), multi-electrode."
+    why: "Iridium plugs last much longer."
+    q: "Purpose of a resistor spark plug?"
+    a: "Reduce radio/electronic interference."
+    simple: "Stops crackling in the radio."
+  - id: f27
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Magneto ignition makes its own current using magnets; no battery is needed."
+    why: "Used where no battery exists: small bikes, outboard engines, aircraft."
+    q: "Does magneto ignition need a battery?"
+    a: "No."
+    simple: "It makes its own electricity."
+  - id: f28
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Magneto gives a weak spark at low speed (starting) and a strong spark at high speed. Coil ignition is the opposite: strong at low speed."
+    why: "Magneto output depends on speed."
+    q: "Which ignition gives a better spark at starting: coil or magneto?"
+    a: "Coil (battery) ignition."
+    simple: "Magneto is weak at start, strong at speed."
+  - id: f29
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Low tension magneto: produces low voltage; a separate coil steps it up near the plug. High tension magneto: has both windings inside and gives high voltage directly."
+    why: "Differ in where voltage is stepped up."
+    q: "Magneto that gives high voltage directly?"
+    a: "High tension magneto."
+    simple: "HT magneto does it all inside."
+  - id: f30
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Rotating armature magneto: windings rotate between fixed magnets. Rotating magnet magneto: magnets rotate, windings fixed (more common)."
+    why: "Fixed windings are more reliable."
+    q: "More common magneto type?"
+    a: "Rotating magnet type."
+    simple: "Spin the magnet, keep the coils still."
+  - id: f31
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Flywheel magneto: magnets are cast in the flywheel. Used in scooters, mopeds and small engines."
+    why: "Compact and simple."
+    q: "Magneto with magnets in the flywheel?"
+    a: "Flywheel magneto."
+    simple: "The flywheel is the magnet."
+  - id: f32
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Electronic ignition replaces CB points with a transistor switch triggered by a sensor (magnetic pick-up, Hall effect or optical)."
+    why: "No point wear, accurate timing, stronger spark."
+    q: "What replaces CB points in electronic ignition?"
+    a: "Transistor switching (with a pick-up sensor)."
+    simple: "Electronics switch the coil instead of points."
+  - id: f33
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Transistorised coil ignition (TCI): points carry only a tiny trigger current; a transistor switches the coil current. Fully electronic versions use a pulse generator."
+    why: "Points last longer or are not needed at all."
+    q: "In transistor-assisted ignition, what does the transistor switch?"
+    a: "The heavy primary coil current."
+    simple: "Transistor does the heavy switching."
+  - id: f34
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Capacitor discharge ignition (CDI): a capacitor is charged to about 400 V and discharged into the coil primary by a thyristor (SCR)."
+    why: "Very fast rise of voltage, strong spark at high speed."
+    example: "Used in motorcycles and scooters."
+    q: "Ignition used in most two-wheelers?"
+    a: "CDI (capacitor discharge ignition)."
+    simple: "A charged capacitor fires the coil."
+  - id: f35
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Pulse generators: magnetic (inductive) pick-up — reluctor and coil; Hall-effect sensor — voltage changes when a vane passes; optical — light beam interrupted."
+    why: "They tell the module when to fire."
+    q: "Sensor that produces voltage when a magnetic vane passes a semiconductor?"
+    a: "Hall-effect sensor."
+    simple: "Sensors tell the computer when to spark."
+  - id: f36
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Computer controlled (programmed/mapped) ignition: ECU sets spark timing from sensors (crank position, speed, load/MAP, coolant temperature, knock sensor) using a stored map."
+    why: "Gives exact timing for every condition; no mechanical advance."
+    q: "What replaces centrifugal and vacuum advance in computer ignition?"
+    a: "ECU timing map using sensor inputs."
+    simple: "A computer chooses the best spark time."
+  - id: f37
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Knock sensor (piezoelectric) on the block detects knocking; the ECU retards timing to stop it."
+    why: "Allows running close to the knock limit safely."
+    q: "Sensor that detects engine knock?"
+    a: "Knock sensor (piezoelectric)."
+    simple: "It hears knocking and the ECU delays the spark."
+  - id: f38
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Distributor-less ignition (DLI / DIS): no distributor. Separate coils are triggered by the ECU using a crankshaft position sensor."
+    why: "No rotor or cap to wear; stronger, accurate spark."
+    q: "Ignition system without a distributor?"
+    a: "Distributor-less ignition (DLI/DIS)."
+    simple: "Each coil fired directly by computer."
+  - id: f39
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Wasted spark DLI: one coil fires two cylinders at once — one on compression (useful) and one on exhaust (wasted)."
+    why: "Pairs of cylinders reach TDC together."
+    q: "In a wasted spark system, how many plugs does one coil fire?"
+    a: "Two."
+    simple: "One spark used, one wasted."
+  - id: f40
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Coil-on-plug (COP / direct ignition): a separate coil sits directly on each spark plug. No HT leads."
+    why: "Least energy loss and interference."
+    q: "System with an individual coil on each spark plug?"
+    a: "Coil-on-plug (direct ignition)."
+    simple: "Every plug has its own coil."
+  - id: f41
+    topic: u7.ignition
+    difficulty: 2
+    learn: "Crankshaft position sensor (CKP) tells the ECU crank angle and speed; camshaft position sensor (CMP) tells which cylinder is on compression."
+    why: "Needed for spark and injection timing."
+    q: "Sensor giving crank angle and engine speed?"
+    a: "Crankshaft position sensor."
+    simple: "It tells the computer where the crank is."
+  - id: f42
+    topic: u7.ignition
+    difficulty: 2
+    learn: "HT leads (ignition cables) are resistance or suppression cables (carbon core) to reduce radio interference."
+    why: "Sparks create electrical noise."
+    q: "Why are HT leads made of carbon-core resistance wire?"
+    a: "To suppress radio interference."
+    simple: "Cuts electrical noise."
+  - id: sum
+    topic: u7.ignition
+    type: summary
+    points:
+      - "Coil = step-up transformer; spark when primary is broken."
+      - "CB points (tungsten), dwell angle, condenser stops arcing."
+      - "Centrifugal advance (speed), vacuum advance (load)."
+      - "Magneto: LT/HT, rotating magnet/armature; weak at start."
+      - "Electronic, CDI (bikes), computer, DLI (wasted spark, COP)."
+
+mcq:
+  - topic: u7.clutch
+    q: "Clutch commonly used in gearless scooters is"
+    options: ["Cone clutch", "Centrifugal clutch", "Diaphragm clutch", "Electromagnetic clutch"]
+    answer: 1
+    explain: "Centrifugal clutches engage automatically with engine speed."
+    covers: [f16]
+  - topic: u7.gearbox
+    q: "The member of a torque converter that multiplies torque is"
+    options: ["Impeller", "Turbine", "Stator", "Lock-up clutch"]
+    answer: 2
+    explain: "The stator redirects oil to multiply torque."
+    covers: [f19]
+  - topic: u7.gearbox
+    q: "Double de-clutching is not required in"
+    options: ["Sliding mesh gearbox", "Constant mesh gearbox", "Synchromesh gearbox", "All of these"]
+    answer: 2
+    explain: "Synchronisers match speeds, so no double de-clutching."
+    covers: [f12]
+  - topic: u7.driveline
+    q: "In a torque tube drive, the driving thrust is taken by"
+    options: ["Leaf springs", "Torque tube", "Propeller shaft", "Radius rods only"]
+    answer: 1
+    explain: "The torque tube carries thrust and torque reaction."
+    covers: [f13]
+  - topic: u7.driveline
+    q: "In a fully floating rear axle, the half-shaft carries"
+    options: ["Only driving torque", "Only vehicle weight", "Torque and weight", "Bending and side loads"]
+    answer: 0
+    explain: "Fully floating half-shafts carry only driving torque."
+    covers: [f28]
+  - topic: u7.wheels
+    q: "Excessive wear on both shoulders of a tyre indicates"
+    options: ["Over-inflation", "Under-inflation", "Wrong toe", "Unbalanced wheel"]
+    answer: 1
+    explain: "Under-inflated tyres wear on both edges."
+    covers: [f20]
+  - topic: u7.charging
+    q: "In an alternator, AC is converted to DC by"
+    options: ["Commutator", "Diodes", "Regulator", "Cut-out"]
+    answer: 1
+    explain: "A diode bridge rectifies the output."
+    covers: [f08]
+  - topic: u7.starting
+    q: "In a Bendix drive, the pinion engages the ring gear due to"
+    options: ["Solenoid force", "Inertia of the pinion", "Centrifugal force", "Spring force"]
+    answer: 1
+    explain: "The pinion's inertia makes it screw along the sleeve into mesh."
+    covers: [f09]
+  - topic: u7.ignition
+    q: "The condenser in a coil ignition system is connected"
+    options: ["In series with the plug", "Across the contact breaker points", "Across the battery", "In the secondary circuit"]
+    answer: 1
+    explain: "It is across the CB points to stop arcing."
+    covers: [f11]
+  - topic: u7.ignition
+    q: "Vacuum advance mechanism advances the spark according to"
+    options: ["Engine speed", "Engine load", "Coolant temperature", "Battery voltage"]
+    answer: 1
+    explain: "Manifold vacuum reflects load."
+    covers: [f18]
