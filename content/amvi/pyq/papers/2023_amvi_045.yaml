@@ -1,0 +1,676 @@
+paper:
+  id: amvi2023
+  exam: "Motor Vehicle Inspector / Assistant Motor Vehicle Inspector (Motor Vehicles Dept)"
+  cat: "517/2022, 610/2022, 613/2022"
+  code: "045/2023"
+  date: "2023-05-26"
+  qp_url: "https://keralapsc.gov.in/sites/default/files/2023-05/qp__45_2023.pdf"
+  key_url: "https://www.keralapsc.gov.in/sites/default/files/2023-07/045_2023%20F.K.pdf"
+  key_source: "PSC final answer key 045/2023 (column A; the published booklet 'M' follows the A order — checked against 40+ technically certain answers)"
+
+# Questions deleted by PSC in the final key are not turned into cards.
+skipped:
+  - {n: 4, why: "Deleted by PSC in final key"}
+  - {n: 10, why: "Deleted by PSC in final key"}
+  - {n: 23, why: "Deleted by PSC in final key"}
+  - {n: 25, why: "Deleted by PSC in final key"}
+  - {n: 28, why: "Deleted by PSC in final key"}
+  - {n: 33, why: "Deleted by PSC in final key"}
+  - {n: 34, why: "Deleted by PSC in final key"}
+  - {n: 72, why: "Deleted by PSC in final key"}
+  - {n: 76, why: "Deleted by PSC in final key"}
+
+questions:
+  - n: 1
+    topic: u1.properties
+    q: "Viscosity of liquids decreases when temperature rises. Why?"
+    options: ["Cohesive forces decrease", "Cohesive forces increase", "Molecular momentum transfer decreases", "Molecular momentum transfer increases"]
+    key: A
+    learn: "In liquids, heat weakens the pull between molecules (cohesion), so the liquid flows more easily — viscosity goes down."
+    why: "Liquid viscosity comes mainly from cohesion. Gases are opposite: their viscosity rises with heat."
+    simple: "Hot coconut oil pours faster than cold coconut oil."
+  - n: 2
+    topic: u1.fluidtypes
+    q: "In a Newtonian fluid, shear stress is ___."
+    options: ["Directly proportional to viscosity", "Inversely proportional to viscosity", "Directly proportional to rate of deformation", "Directly proportional to shear strain"]
+    key: C
+    learn: "Newton's law of viscosity: shear stress = viscosity × rate of shear strain (velocity gradient du/dy)."
+    why: "A Newtonian fluid (water, air) has constant viscosity, so stress grows in a straight line with the rate of deformation."
+    note: "Provisional key = C. The final-key column A was read as D by the extractor — check the printed final key."
+  - n: 3
+    topic: u1.oils
+    q: "Which is correct about fire point and flash point?"
+    options: ["Fire point is higher than flash point", "Fire point is lower than flash point", "No relation", "Sometimes higher, sometimes lower"]
+    key: A
+    learn: "Fire point is always higher than flash point. Flash point: vapour flashes for a moment. Fire point: oil keeps burning."
+    why: "To keep burning, the oil must give off more vapour, so it must be hotter."
+    simple: "Flash first, then fire."
+  - n: 5
+    topic: u1.flow
+    q: "Flow in which velocity at a given time does not change from point to point (with space) is called?"
+    options: ["Uniform flow", "Compressible flow", "Steady flow", "Rotational flow"]
+    key: A
+    learn: "Uniform flow: velocity is the same at every point (no change with space). Steady flow: velocity does not change with time."
+    why: "Uniform talks about place; steady talks about time."
+    simple: "Uniform = same everywhere. Steady = same all the time."
+  - n: 6
+    topic: u1.flow
+    q: "Why is a venturimeter preferred to an orifice meter?"
+    options: ["It is cheaper", "It is easy to install", "Less energy loss", "Very long life"]
+    key: C
+    learn: "A venturimeter loses much less energy (head) than an orifice meter, because its throat narrows and widens smoothly."
+    why: "Smooth change of area causes few eddies; a sharp orifice plate makes big eddies and wastes energy."
+  - n: 7
+    topic: u1.losses
+    q: "Hydraulic radius (hydraulic mean depth) equals?"
+    options: ["Area / (wetted perimeter)²", "Area / wetted perimeter", "Wetted perimeter / area", "Square root of area"]
+    key: B
+    learn: "Hydraulic radius (hydraulic mean depth) m = flow area A / wetted perimeter P."
+    why: "It tells how much water there is compared with how much wall it rubs against. It is used in Chezy's formula V = C√(mi)."
+  - n: 8
+    topic: u1.losses
+    q: "Unit of Chezy's constant C?"
+    options: ["m/s", "m/s²", "m²/s", "m^1/2 / s"]
+    key: D
+    learn: "Chezy's constant C has the unit m^½/s (square root of metre per second)."
+    why: "V = C√(m·i). V is m/s, √m is m^½, i has no unit, so C = m^½/s."
+  - n: 9
+    topic: u1.losses
+    q: "Which causes the significant (major) head loss in pipe flow?"
+    options: ["Gradual contraction", "Friction", "Sudden enlargement", "Sudden contraction"]
+    key: B
+    learn: "Friction at the pipe wall is the major loss in pipe flow. Bends, enlargements and contractions are minor losses."
+    why: "Friction acts over the whole pipe length; fittings act only at one spot."
+  - n: 11
+    topic: u2.laws
+    q: "'Energy of an isolated system is always constant' is given by which law?"
+    options: ["Zeroth law", "First law", "Second law", "Third law"]
+    key: B
+    learn: "First law of thermodynamics: energy is neither created nor destroyed. Energy of an isolated system stays constant."
+    why: "It is the law of conservation of energy applied to heat and work."
+  - n: 12
+    topic: u2.laws
+    q: "A series of operations in a fixed order that brings the system back to its initial state is called?"
+    options: ["Reversible cycle", "Irreversible cycle", "Thermodynamic cycle", "None"]
+    key: C
+    learn: "A thermodynamic cycle is a series of processes that returns the working substance to its starting state."
+    why: "Engines repeat cycles again and again, so the gas must come back to where it started."
+  - n: 13
+    topic: u2.compressors
+    q: "The most efficient way to compress air is?"
+    options: ["Adiabatically", "Isentropically", "Isothermally", "Isochorically"]
+    key: C
+    learn: "Isothermal compression (temperature kept constant) needs the least work, so it is the most efficient way to compress air."
+    why: "Hot air pushes back harder. Cooling it while compressing saves work — that is why compressors use intercoolers."
+  - n: 14
+    topic: u2.laws
+    q: "1 °C equals?"
+    options: ["273.15 K", "274.15 K", "283.15 K", "263.15 K"]
+    key: B
+    learn: "K = °C + 273.15. So 1 °C = 274.15 K, and 0 °C = 273.15 K."
+    why: "Kelvin starts at absolute zero, 273.15 degrees below 0 °C."
+  - n: 15
+    topic: u2.laws
+    q: "Which device works on the Clausius statement of the second law?"
+    options: ["Closed-cycle gas turbine", "IC engine", "Steam power plant", "Domestic refrigerator"]
+    key: D
+    learn: "Clausius statement: heat cannot flow from a cold body to a hot body without outside work. A refrigerator follows it."
+    why: "The fridge needs electric work (compressor) to move heat from inside (cold) to the room (hot)."
+  - n: 16
+    topic: u2.cycles
+    q: "The Carnot cycle consists of?"
+    options: ["Two constant-volume and two isentropic", "Two isothermal and two isentropic", "Two constant-pressure and two isentropic", "One constant-volume, one constant-pressure, two isentropic"]
+    key: B
+    learn: "Carnot cycle = 2 isothermal + 2 isentropic (reversible adiabatic) processes."
+    why: "Heat is taken and given at constant temperature; the two adiabatic steps change the temperature."
+  - n: 17
+    topic: u2.performance
+    q: "Ratio of brake power to indicated power of an IC engine is?"
+    options: ["Mechanical efficiency", "Thermal efficiency", "Volumetric efficiency", "Relative efficiency"]
+    key: A
+    learn: "Mechanical efficiency = Brake power / Indicated power."
+    why: "Indicated power is made inside the cylinder; brake power is what reaches the shaft after friction losses."
+  - n: 18
+    topic: u2.performance
+    q: "Morse test on a multi-cylinder engine is used to find?"
+    options: ["Volumetric efficiency", "Brake thermal efficiency", "Indicated power", "Brake power"]
+    key: C
+    learn: "Morse test finds the indicated power (and friction power) of a multi-cylinder engine by cutting off one cylinder at a time."
+    why: "The drop in brake power when a cylinder is cut off equals that cylinder's indicated power."
+  - n: 19
+    topic: u2.heat
+    q: "Thermal conductivity of copper when temperature rises?"
+    options: ["Decreases", "Increases", "Stays constant", "None"]
+    key: A
+    learn: "For pure metals like copper, thermal conductivity decreases as temperature rises."
+    why: "Hot atoms vibrate more and scatter the free electrons that carry heat."
+  - n: 20
+    topic: u2.heat
+    q: "Heat loss from an insulated pipe to still surrounding air is mainly by?"
+    options: ["Conduction", "Radiation", "Forced convection", "Natural convection"]
+    key: D
+    learn: "Heat from a hot surface to still air goes mainly by natural (free) convection."
+    why: "Warm air near the pipe becomes light and rises by itself — no fan, so it is natural, not forced."
+  - n: 21
+    topic: u4.bearings
+    q: "A sliding bearing that carries steady loads with no relative motion of journal and bearing is?"
+    options: ["Zero film bearing", "Boundary lubricated bearing", "Hydrodynamic lubricated bearing", "Hydrostatic lubricated bearing"]
+    key: D
+    learn: "A hydrostatic bearing gets its oil film from an outside pump, so it can carry load even when the shaft is not turning."
+    why: "A hydrodynamic bearing makes its film only by shaft rotation; hydrostatic uses pumped oil pressure."
+  - n: 22
+    topic: u4.bearings
+    q: "Piston pin bearings in heavy-duty diesel engines are?"
+    options: ["Needle roller bearings", "Tapered roller bearings", "Collar bearings", "Cylindrical roller bearings"]
+    key: A
+    learn: "Needle roller bearings are used for piston pins in heavy diesel engines."
+    why: "Needle rollers are thin, so they carry heavy load in very little space."
+  - n: 24
+    topic: u4.gears
+    q: "Spur gear with pitch circle diameter D and T teeth — module m is?"
+    options: ["D/T", "T/D", "πD/T", "D × T"]
+    key: A
+    learn: "Module m = pitch circle diameter D / number of teeth T (in mm)."
+    why: "Module tells tooth size. Two gears must have the same module to mesh."
+  - n: 26
+    topic: u4.bearings
+    q: "Bearing characteristic number (Z = viscosity, N = speed in rpm, p = bearing pressure) is?"
+    options: ["ZN/p", "Zp/N", "Z/(pN)", "pN/Z"]
+    key: A
+    learn: "Bearing characteristic number = ZN/p (viscosity × speed / pressure)."
+    why: "Thicker oil and higher speed build the oil film; higher pressure squeezes it. The ratio decides friction."
+  - n: 27
+    topic: u4.gears
+    q: "Difference between tooth space and tooth thickness, measured on the pitch circle, is called?"
+    options: ["Tooth depth", "Clearance", "Backlash", "Total depth"]
+    key: C
+    learn: "Backlash = tooth space − tooth thickness, measured along the pitch circle."
+    why: "A little gap stops the gears jamming when they heat up and expand."
+  - n: 29
+    topic: u4.governors
+    q: "Height of a Watt governor (N = speed in rpm)?"
+    options: ["8.95/N² m", "89.5/N² m", "895/N² m", "8950/N² m"]
+    key: C
+    learn: "Watt governor height h = 895/N² metres (N in rpm)."
+    why: "h = g/ω². With g = 9.81 and ω = 2πN/60, it works out to 895/N²."
+  - n: 30
+    topic: u4.boilers
+    q: "Which device puts out the boiler furnace fire when water level falls to an unsafe level?"
+    options: ["Blow-off cock", "Superheater", "Fusible plug", "Economiser"]
+    key: C
+    learn: "A fusible plug melts when water level falls too low; steam and water rush in and put out the furnace fire."
+    why: "Its low-melting metal is normally cooled by water. No water → it overheats and melts."
+  - n: 31
+    topic: u3.elastic
+    q: "Modulus of elasticity is the ratio of?"
+    options: ["Stress to strain", "Deformation to original length", "Stress to original length", "Strain to original length"]
+    key: A
+    learn: "Modulus of elasticity (Young's modulus) E = stress / strain, within the elastic limit."
+    why: "Hooke's law says stress is proportional to strain; E is that constant."
+  - n: 32
+    topic: u3.stress
+    q: "Ratio of lateral strain to linear (longitudinal) strain is?"
+    options: ["Modulus of elasticity", "Modulus of rigidity", "Bulk modulus", "Poisson's ratio"]
+    key: D
+    learn: "Poisson's ratio = lateral strain / longitudinal strain. For steel it is about 0.3."
+    why: "When you stretch a rubber band, it also gets thinner; Poisson's ratio compares the two."
+  - n: 35
+    topic: u3.cg
+    q: "Centre of gravity of an equilateral triangle of side a lies at what distance from any side?"
+    options: ["a√3/2", "a√2/3", "a/(2√3)", "a/(3√3)"]
+    key: C
+    learn: "In an equilateral triangle, the CG is one-third of the height from each side: (1/3)(a√3/2) = a/(2√3)."
+    why: "CG of any triangle is at h/3 from the base; height of an equilateral triangle is a√3/2."
+    note: "Option text in the source was garbled; check the printed options."
+  - n: 36
+    topic: u3.cg
+    q: "Moment of inertia of a triangle (base b, height h) about its CG axis parallel to the base?"
+    options: ["bh³/12", "bh³/24", "bh³/36", "bh³/48"]
+    key: C
+    learn: "Triangle: I about CG axis parallel to base = bh³/36. About the base itself = bh³/12."
+    why: "Moving the axis from the base to the CG removes A·(h/3)², which turns /12 into /36."
+  - n: 37
+    topic: u3.beams
+    q: "Bending moment at the centre of a simply supported beam with UDL w per metre over span l?"
+    options: ["wl", "wl/2", "wl²/4", "wl²/8"]
+    key: D
+    learn: "Simply supported beam with UDL w over span l: maximum bending moment at centre = wl²/8."
+    why: "Each support carries wl/2. Taking moments at the centre: (wl/2)(l/2) − (wl/2)(l/4) = wl²/8."
+  - n: 38
+    topic: u3.rivets
+    q: "Shearing strength of one rivet (diameter d, permissible shear stress τ) in single shear?"
+    options: ["(π/8)d²τ", "(π/4)d²τ", "(π/36)d²τ", "(π/16)d²τ"]
+    key: B
+    learn: "Shearing strength of one rivet in single shear Ps = (π/4)d² × τ."
+    why: "Strength = area that is cut × allowed shear stress. Area of a circle = (π/4)d²."
+  - n: 39
+    topic: u3.welds
+    q: "Strength P of a fillet weld with weld area A and permissible stress σ?"
+    options: ["A × σ", "A / σ", "2A × σ", "σ / A"]
+    key: A
+    learn: "Strength of a weld P = throat area A × permissible stress."
+    why: "Force = stress × area, the same rule as for any joint."
+  - n: 40
+    topic: u3.bolts_springs
+    q: "Load needed to produce unit deflection in a spring is called?"
+    options: ["Torsion of spring", "Stiffness of spring", "Bending of spring", "Deflection of spring"]
+    key: B
+    learn: "Spring stiffness (spring rate) k = load / deflection — the load for 1 unit of deflection."
+    why: "A stiff spring needs a big load to compress it a little."
+  - n: 41
+    topic: u2.engines
+    q: "Which is true of a two-stroke engine?"
+    options: ["One suction and one exhaust valve, two cams", "Only ports covered and uncovered by the piston for charging and exhaust", "One suction and one exhaust valve, one cam", "None"]
+    key: B
+    learn: "A simple two-stroke engine has no valves: the piston opens and closes ports for charging and exhaust."
+    why: "The piston itself acts as the valve as it moves up and down past the ports."
+  - n: 42
+    topic: u7.ignition
+    q: "In an SI engine, what gives the required firing order?"
+    options: ["Battery", "Ignition coil", "Distributor", "Carburettor"]
+    key: C
+    learn: "The distributor sends the high-voltage spark to each spark plug in the correct firing order."
+    why: "Its rotor turns with the camshaft and points to each cylinder's lead in turn."
+  - n: 43
+    topic: u2.engines
+    q: "In a four-stroke engine, power is produced?"
+    options: ["Every revolution", "Every stroke", "Every alternate revolution", "None"]
+    key: C
+    learn: "A four-stroke engine gives one power stroke every two crankshaft revolutions (every alternate revolution)."
+    why: "Four strokes = two revolutions, and only one stroke is the power stroke."
+  - n: 44
+    topic: u5.piston
+    q: "Cross-section of compression rings is usually?"
+    options: ["Triangular", "Rectangular", "Circular", "Square"]
+    key: B
+    learn: "Compression rings usually have a rectangular cross-section."
+    why: "A flat face presses evenly on the cylinder wall and seals the gas."
+  - n: 45
+    topic: u6.axle
+    q: "The distance between the centres of the front wheels is called?"
+    options: ["Wheel base", "Axle width", "Turning circle", "Track"]
+    key: D
+    learn: "Track (tread) = distance between the centres of the left and right wheels on one axle. Wheel base = front axle to rear axle."
+    why: "Track is side to side; wheel base is front to back."
+  - n: 46
+    topic: u5.carb
+    q: "The venturi in a carburettor causes?"
+    options: ["Increase of air velocity", "Increase of manifold vacuum", "Decrease of air velocity", "Decrease of fuel flow"]
+    key: A
+    learn: "The venturi (narrow throat) speeds up the air, which lowers pressure and sucks fuel from the jet."
+    why: "Bernoulli: where air moves faster, its pressure drops."
+  - n: 47
+    topic: u5.dieselfuel
+    q: "A turbocharger uses ___ energy."
+    options: ["Exhaust gas", "Engine", "Radiator", "Flywheel"]
+    key: A
+    learn: "A turbocharger uses the energy of exhaust gas to spin a turbine that drives the intake air compressor."
+    why: "Exhaust energy is otherwise wasted; using it pushes more air into the cylinders."
+  - n: 48
+    topic: u5.cooling
+    q: "The thermostat in the cooling system controls?"
+    options: ["Flow of water", "Temperature of water", "Both A and B", "None"]
+    key: C
+    learn: "The thermostat controls water flow to the radiator, and by that it controls engine water temperature."
+    why: "It stays shut when cold so the engine warms quickly, and opens when hot."
+  - n: 49
+    topic: u5.lube
+    q: "Lubrication system where oil is kept in a separate tank and fed to the engine?"
+    options: ["Wet sump", "Mist", "Splash", "Dry sump"]
+    key: D
+    learn: "Dry sump: oil is stored in a separate tank, not in the crankcase sump. Wet sump: oil sits in the sump under the crankcase."
+    why: "Dry sump suits racing and off-road vehicles where oil would slosh."
+  - n: 50
+    topic: u5.manifold
+    q: "Technology that changes the timing of intake/exhaust valves while the engine runs?"
+    options: ["DOHC", "CRDI", "VVT", "TDI"]
+    key: C
+    learn: "VVT (Variable Valve Timing) changes when the valves open and close while the engine runs."
+    why: "Best timing at low speed differs from high speed; VVT gives better power and mileage at both."
+  - n: 51
+    topic: u6.frame
+    q: "Members that join the longitudinal chassis members across are called?"
+    options: ["Bumpers", "Cross members", "X-members", "None"]
+    key: B
+    learn: "Cross members are the transverse pieces joining the two long side members of a ladder frame."
+    why: "They stop the side members twisting and hold them parallel."
+  - n: 52
+    topic: u6.frame
+    q: "Vehicle weight produces which load in the frame side members?"
+    options: ["Vertical bending", "Horizontal bending", "Torsion", "All of these"]
+    key: A
+    learn: "The weight of the vehicle and load bends the frame side members vertically (vertical bending)."
+    why: "Weight acts downward between the axles, like a beam sagging under load."
+  - n: 53
+    topic: u6.suspension
+    q: "Suspension spring most commonly used in heavy vehicles?"
+    options: ["Coil spring", "Quarter elliptic leaf spring", "Semi-elliptic leaf spring", "Torsion bar"]
+    key: C
+    learn: "Heavy vehicles (buses, lorries) mostly use semi-elliptic leaf springs."
+    why: "They carry heavy loads and also locate the axle, so no extra links are needed."
+  - n: 54
+    topic: u6.steering
+    q: "In a recirculating-ball steering gear, the balls run between the ball nut and the?"
+    options: ["Worm wheel", "Worm shaft", "Gear rack", "Steering wheel shaft"]
+    key: B
+    learn: "In recirculating-ball steering, steel balls roll between the worm shaft and the ball nut."
+    why: "Rolling balls cut friction, so steering heavy vehicles is lighter."
+  - n: 55
+    topic: u6.steering
+    q: "Tilting of the front wheels in or out from the vertical, seen from the front, is?"
+    options: ["Caster", "Toe-in", "Kingpin inclination", "Camber"]
+    key: D
+    learn: "Camber = inward or outward tilt of the wheel from vertical, seen from the front."
+    why: "Outward tilt at top = positive camber; inward = negative camber."
+  - n: 56
+    topic: u6.brakes
+    q: "During braking, the push rod directly operates the?"
+    options: ["Residual pressure valve", "Secondary piston", "Primary piston", "Compensating port"]
+    key: C
+    learn: "In a tandem master cylinder, the brake pedal push rod pushes the primary piston directly; the secondary piston is moved by fluid pressure."
+    why: "The pedal is at the rear end, where the primary piston sits."
+  - n: 57
+    topic: u7.wheels
+    q: "Tyre marking 175/65 R14 82 S — the aspect ratio is?"
+    options: ["82", "175", "65", "14"]
+    key: C
+    learn: "In 175/65 R14 82 S: 175 = width (mm), 65 = aspect ratio (%), R = radial, 14 = rim size (inch), 82 = load index, S = speed rating."
+    why: "Aspect ratio = sidewall height as % of width."
+  - n: 58
+    topic: u6.brakes
+    q: "The main function of the master cylinder is?"
+    options: ["Give equal pressure to all wheels", "Convert pedal force into hydraulic pressure", "Adjust pedal free play", "Boost pedal force"]
+    key: B
+    learn: "The master cylinder converts the driver's pedal force into hydraulic pressure in the brake fluid."
+    why: "That pressure travels through the brake lines to the wheel cylinders or callipers."
+  - n: 59
+    topic: u6.brakes
+    q: "The parking brake generally acts on?"
+    options: ["Rear wheels", "Front wheels", "Front and rear wheels", "Differential"]
+    key: A
+    learn: "The parking (hand) brake usually acts on the rear wheels."
+    why: "It is a separate mechanical link, kept simple by fitting it to the rear brakes."
+  - n: 60
+    topic: u6.suspension
+    q: "Which part allows a leaf spring to change length as it bends?"
+    options: ["Spring hanger", "Clamp bolt", "Centre bolt", "Shackle"]
+    key: D
+    learn: "The shackle lets the leaf spring's length change as it flexes."
+    why: "A bending leaf spring straightens and gets longer; one end must swing on the shackle."
+  - n: 61
+    topic: u7.clutch
+    q: "Where is the clutch located?"
+    options: ["Between engine and transmission", "Between transmission and rear axle", "Between transmission and propeller shaft", "Between transmission and differential"]
+    key: A
+    learn: "The clutch sits between the engine (flywheel) and the gearbox."
+    why: "It connects and disconnects engine power to the gearbox for starting and gear changes."
+  - n: 62
+    topic: u7.clutch
+    q: "A disadvantage of the cone clutch is?"
+    options: ["Silent operation", "Hard to disengage if cone angle is less than 20°", "Normal force larger than axial force", "Same torque as plate clutch of same size"]
+    key: B
+    learn: "A cone clutch tends to bind (hard to disengage) when the cone angle is small, below about 20°."
+    why: "A narrow cone wedges itself in tightly."
+  - n: 63
+    topic: u7.gearbox
+    q: "Gearbox in which all gears are always in mesh?"
+    options: ["Constant-mesh", "Sliding-mesh", "Synchromesh", "Epicyclic"]
+    key: A
+    learn: "In a constant-mesh gearbox all gears are always in mesh; dog clutches lock the chosen gear to the shaft."
+    why: "Gears don't slide in and out, so they are not damaged on engagement."
+  - n: 64
+    topic: u7.driveline
+    q: "Joint used when two shafts are inclined to each other?"
+    options: ["Pivot joint", "Hinge joint", "Ball and socket joint", "Universal joint"]
+    key: D
+    learn: "A universal joint connects two shafts at an angle and passes rotation between them."
+    why: "The propeller shaft angle changes as the rear axle moves up and down."
+  - n: 65
+    topic: u6.steering
+    q: "Angle between the steering axis and the vertical, seen in the plane of the wheel (from the side)?"
+    options: ["Castor", "Camber", "Steering axis inclination", "Kingpin inclination"]
+    key: A
+    learn: "Castor = backward or forward tilt of the steering axis from vertical, seen from the side."
+    why: "Castor gives self-centring — the wheels come back straight after a turn."
+  - n: 66
+    topic: u7.ignition
+    q: "A disadvantage of magneto ignition is?"
+    options: ["More maintenance", "Occupies more space", "Poor spark when starting", "Used mainly in four-wheelers"]
+    key: C
+    learn: "Magneto ignition gives a weak spark at low (starting) speed."
+    why: "A magneto makes its own current; at low speed it makes little current."
+  - n: 67
+    topic: u7.ignition
+    q: "Ignition timing is affected by?"
+    options: ["Combustion chamber design", "Throttle opening", "Engine temperature", "All of these"]
+    key: D
+    a: "All: chamber design, throttle opening and engine temperature."
+    learn: "Ignition timing depends on combustion chamber design, throttle opening (load) and engine temperature, as well as speed."
+    why: "All of these change how fast the mixture burns, so the spark must come earlier or later."
+  - n: 68
+    topic: u7.wheels
+    q: "'Ply rating' of a tyre refers to?"
+    options: ["Aspect ratio", "Rated strength", "Recommended inflation pressure", "Actual number of plies"]
+    key: B
+    learn: "Ply rating shows the tyre's strength (load capacity), not the actual number of plies."
+    why: "Modern cords are stronger, so fewer plies can give the same strength rating."
+  - n: 69
+    topic: u7.wheels
+    q: "Which wheel cannot be used with a tubeless tyre?"
+    options: ["Disc wheel", "Light alloy wheel", "Wire wheel", "Composite wheel"]
+    key: C
+    learn: "Wire (spoke) wheels cannot normally take tubeless tyres."
+    why: "Spoke holes in the rim let air leak, so a tube is needed."
+  - n: 70
+    topic: u7.ignition
+    q: "Essential parts of a battery ignition system?"
+    options: ["Battery", "Ignition switch", "Ballast resistor", "All of these"]
+    key: D
+    a: "All: battery, ignition switch, ballast resistor."
+    learn: "Battery (coil) ignition parts: battery, ignition switch, ballast resistor, ignition coil, contact breaker, condenser, distributor, spark plugs."
+    why: "The battery feeds the coil, the breaker cuts the current, and the coil makes high voltage."
+  - n: 71
+    topic: u8.mvact_basics
+    q: "The licensing authority may refuse a conductor's licence if?"
+    options: ["Minimum education not held", "Medical certificate shows physically unfit", "Earlier conductor licence was revoked", "All of these"]
+    key: D
+    a: "All: no minimum education, medically unfit, or earlier licence revoked."
+    learn: "A conductor's licence can be refused for lack of minimum education, medical unfitness, or an earlier revoked licence."
+    why: "A conductor handles passengers and cash, so the Act sets fitness and record conditions."
+  - n: 73
+    topic: u8.pollution
+    q: "Purpose of rhodium in a catalytic converter?"
+    options: ["Reduce CO and HC", "Reduce NOx", "Reduce CO", "Reduce HC"]
+    key: B
+    learn: "In a three-way catalytic converter, rhodium reduces NOx; platinum and palladium oxidise CO and HC."
+    why: "Rhodium helps split NOx into nitrogen and oxygen."
+  - n: 74
+    topic: u8.efi
+    q: "Types of multi-point fuel injection?"
+    options: ["Port injection", "Throttle body injection", "Port and throttle body injection", "None"]
+    key: C
+    learn: "This PSC key lists both port injection and throttle body injection as types of (multi-point) petrol injection."
+    why: "Port injection has one injector per cylinder; throttle body injection sprays at the throttle body."
+    note: "Strictly, TBI is single-point; PSC's key accepts C. Teach as given in the key."
+  - n: 75
+    topic: u8.efi
+    q: "Electronic fuel injection (EFI) gives precise control of?"
+    options: ["Fuel injection quantity", "Injection rate in stages", "Injection pressure", "All of these"]
+    key: D
+    a: "All: quantity, rate in stages and pressure."
+    learn: "EFI precisely controls fuel quantity, injection rate (in stages) and injection pressure."
+    why: "The ECU reads sensors and opens the injectors exactly as needed."
+  - n: 77
+    topic: u8.ev
+    q: "In which year was the first electric car invented?"
+    options: ["1830", "1985", "1832", "1945"]
+    key: C
+    learn: "The first crude electric carriage was built around 1832 (Robert Anderson, Scotland), as per this PSC key."
+    why: "Electric motors came before petrol engines were practical."
+    note: "Sources give 1832–1839 for Anderson's carriage. Keyed C (1832)."
+  - n: 78
+    topic: u8.efi
+    q: "Common rail injection pressures are of the order of ___ bar."
+    options: ["1000", "1500", "2000", "None"]
+    key: B
+    learn: "As per this PSC key, common rail (CRDI) injection pressure is about 1500 bar (modern systems reach 2000 bar and more)."
+    why: "Very high pressure gives very fine fuel spray, so diesel burns cleaner."
+  - n: 79
+    topic: u8.efi
+    q: "In MPFI, which sensor sends engine speed information?"
+    options: ["Speed sensor", "Ignition sensor", "Air-flow sensor", "Air-mass sensor"]
+    key: B
+    learn: "As per this PSC key, the ignition (crank/ignition pulse) sensor sends engine speed information to the MPFI ECU."
+    why: "Engine speed is read from ignition pulses or the crankshaft position sensor."
+    note: "Keyed B (ignition). Check against textbook terminology."
+  - n: 80
+    topic: u8.pollution
+    q: "What causes photochemical smog?"
+    options: ["Excess O2", "CO and CO2", "Soot and particulate matter", "NOx and HC"]
+    key: D
+    learn: "Photochemical smog forms when NOx and hydrocarbons (HC) react in sunlight."
+    why: "Sunlight drives the reaction that makes ozone and brown haze."
+  - n: 81
+    topic: dl.regulations
+    q: "On a highway, reflective warning triangles are placed behind a broken-down vehicle at?"
+    options: ["10 m", "20 m", "30 m", "50 m"]
+    key: D
+    learn: "Driving Regulations: place the reflective warning triangle about 50 metres behind a broken-down vehicle on a highway."
+    why: "Fast vehicles need distance to see it and slow down."
+  - n: 82
+    topic: dl.regulations
+    q: "Order of priority among emergency vehicles?"
+    options: ["Ambulance, fire, police", "Fire, police, ambulance", "Fire, ambulance, police", "Ambulance, police, fire"]
+    key: C
+    learn: "Priority order among emergency vehicles: fire service first, then ambulance, then police."
+    why: "Driving Regulations, 2017 give this order of right of way."
+  - n: 83
+    topic: dl.regulations
+    q: "Under the Driving Regulations, 'traffic' includes?"
+    options: ["Vehicles of every description", "Pedestrians", "Herded animals", "All of these"]
+    key: D
+    a: "All: vehicles, pedestrians and herded animals."
+    learn: "'Traffic' includes all vehicles, pedestrians and animals being herded on the road."
+    why: "Everyone using the road counts as traffic."
+  - n: 84
+    topic: dl.regulations
+    q: "A vehicle may be overtaken from the left when?"
+    options: ["Multi-lane road with marked left lane", "Vehicle ahead signals right turn or U-turn", "Vehicle is stationary", "All of these"]
+    key: D
+    a: "All three: multi-lane road, vehicle turning right, or stationary vehicle — when safe."
+    learn: "Left-side overtaking is allowed only on marked multi-lane roads, when the vehicle ahead is turning right, or when it is stopped — and only if safe."
+    why: "Normally overtake on the right; these are the exceptions in the Driving Regulations, 2017."
+  - n: 85
+    topic: dl.regulations
+    q: "Fog lights are used only when visibility is poor, together with?"
+    options: ["Dipped headlamps", "High beam", "Extra light", "Spot light"]
+    key: A
+    learn: "Fog lights are used with dipped headlamps, only when visibility is affected."
+    why: "High beam reflects off fog and blinds the driver."
+  - n: 86
+    topic: dl.licensing
+    q: "To get a learner's licence for a transport vehicle, one must have held an LMV licence for at least?"
+    options: ["2 years", "1 year", "3 years", "6 months"]
+    key: B
+    learn: "To get a learner's licence for a transport vehicle, you must have held a light motor vehicle licence for at least 1 year."
+    why: "Some driving experience is needed before driving buses and lorries."
+  - n: 87
+    topic: dl.licensing
+    q: "A person gets an LMV (non-transport) licence at 18 years 1 month. Valid until?"
+    options: ["20 years", "Until age 50", "Until age 40", "10 years"]
+    key: C
+    learn: "A non-transport licence issued before age 30 is valid until the holder turns 40 (Section 14)."
+    why: "After the 2019 amendment: below 30 → till 40; 30–50 → 10 years; 50–55 → till 60; above 55 → 5 years."
+  - n: 88
+    topic: dl.licensing
+    q: "A licence to drive a transport vehicle carrying hazardous goods is valid for?"
+    options: ["1 year", "2 years", "3 years", "5 years"]
+    key: C
+    learn: "A licence for vehicles carrying dangerous or hazardous goods is valid for 3 years (Section 14)."
+    why: "Hazardous-goods drivers are checked more often for safety."
+  - n: 89
+    topic: dl.licensing
+    q: "If licence renewal is applied for more than ___ after expiry, a competence test is needed?"
+    options: ["1 month", "1 year", "3 years", "5 years"]
+    key: B
+    learn: "If you apply for renewal more than 1 year after the licence expired, you must pass the driving competence test again (Section 15)."
+    why: "A long gap means skills must be checked again."
+  - n: 90
+    topic: dl.licensing
+    q: "Which is NOT a vehicle class in Section 10(2) of the MV Act, 1988?"
+    options: ["Motor cycle with gear", "Adapted vehicle", "Transport vehicle", "Medium goods vehicle"]
+    key: D
+    learn: "Section 10(2) DL classes: motor cycle without/with gear, LMV, transport vehicle, road roller, adapted vehicle, other notified classes. 'Medium goods vehicle' is not a class now."
+    why: "The 1994 amendment merged medium and heavy classes into 'transport vehicle'."
+  - n: 91
+    topic: law.defs
+    q: "Which of these is NOT a transport vehicle?"
+    options: ["Public service vehicle", "Private service vehicle", "Educational institution bus", "None of the above"]
+    key: D
+    a: "None — all three are transport vehicles."
+    learn: "Section 2(47): transport vehicle = public service vehicle, goods carriage, educational institution bus or private service vehicle."
+    why: "All vehicles used for carrying people or goods commercially or in bulk are transport vehicles."
+  - n: 92
+    topic: law.defs
+    q: "A vehicle for more than 6 but not more than 12 passengers (excluding driver) for hire or reward is?"
+    options: ["Omnibus", "Private service vehicle", "Maxi cab", "Motor cab"]
+    key: C
+    learn: "Maxi cab (Section 2(22)): more than 6 but not more than 12 passengers, excluding driver, for hire or reward."
+    why: "Motor cab is up to 6; omnibus is more than 6 (any use)."
+  - n: 93
+    topic: law.offences
+    q: "A juvenile rides a motorcycle with the guardian's knowledge. Result?"
+    options: ["Guardian: up to 3 years imprisonment", "Guardian pays Rs 25,000 fine", "Registration temporarily suspended", "All of these"]
+    key: A
+    learn: "Section 199A: for a juvenile's offence, the guardian/owner is guilty — up to 3 years imprisonment and Rs 25,000 fine; registration is cancelled for 12 months."
+    why: "Adults who let children drive are held responsible."
+    note: "Provisional key D; PSC final key changed it to A (registration is cancelled, not 'temporarily suspended')."
+  - n: 94
+    topic: law.defs
+    q: "A goods carriage with GVW 11,500 kg is categorised as?"
+    options: ["Light motor vehicle", "Medium motor vehicle", "Heavy motor vehicle", "N1 category"]
+    key: B
+    learn: "Goods vehicle categories: N1 up to 3.5 t, N2 3.5–12 t, N3 above 12 t. 11,500 kg is N2 (medium)."
+    why: "LMV is up to 7,500 kg GVW; above 12,000 kg is heavy."
+  - n: 95
+    topic: law.kmvt
+    q: "Which is excluded from purchase value for lifetime tax of a motor car (KMVT)?"
+    options: ["Dealer discount", "GST", "TCS", "Customs/excise duty on an imported car"]
+    key: C
+    learn: "Under KMVT, 'purchase value' for lifetime tax includes GST and duties, but TCS (tax collected at source) is excluded."
+    why: "TCS is an advance income tax, not part of the vehicle's price."
+  - n: 96
+    topic: law.traffic
+    q: "Who is exempt from wearing a helmet while riding a motorcycle?"
+    options: ["A Sikh wearing a turban", "Children below 6", "Pillion riders", "None"]
+    key: D
+    learn: "Section 129 exempts a Sikh wearing a turban. Here the option said 'Sikh persons (turban or not)', so PSC keyed 'None'."
+    why: "The exemption needs the turban to be worn; read options carefully."
+  - n: 97
+    topic: law.kmvt
+    q: "Which officer can seize and detain a vehicle for unpaid tax and auction it (KMVT Act)?"
+    options: ["JRTO", "MVI", "AMVI", "All of these"]
+    key: A
+    learn: "Under the KMVT Act, the taxation officer — e.g. the Joint RTO — can seize, detain and auction a vehicle for unpaid tax."
+    why: "Recovery of tax is a power of the taxation officer, not of inspectors."
+  - n: 98
+    topic: law.kmvt
+    q: "Which vehicles are liable to green tax at new registration in Kerala?"
+    options: ["All diesel vehicles", "Diesel motor cars", "Four-wheelers using fuel other than LPG/CNG/electric", "Petrol four-wheelers"]
+    key: B
+    learn: "As per this PSC key, green tax at new registration in Kerala applies to diesel motor cars."
+    why: "Green tax discourages more polluting diesel cars."
+  - n: 99
+    topic: law.registration
+    q: "Cancellation of registration does NOT apply when the vehicle is?"
+    options: ["Moved to another state", "Moved to another country", "Permanently destroyed", "None of these"]
+    key: A
+    learn: "Moving a vehicle to another state needs a new registration mark (Section 47), not cancellation. Cancellation is for destroyed vehicles or ones taken out of India."
+    why: "The vehicle still exists in India, so only its registration mark changes."
+  - n: 100
+    topic: dl.licensing
+    q: "Who can apply for a transport vehicle driving licence?"
+    options: ["Age 18 + 1 year LMV experience", "Age 18 + passed 8th", "Age 20 + 1 year LMV experience", "Age 20 + passed 8th"]
+    key: C
+    learn: "Transport vehicle licence: minimum age 20 and at least 1 year of driving a light motor vehicle (Sections 4 and 7)."
+    why: "The 2019 amendment removed the 8th standard pass rule."
