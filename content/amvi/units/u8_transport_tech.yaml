@@ -1938,6 +1938,272 @@ cards:
       - "Mild hybrid cannot run on electricity alone."
       - "FAME I 2015, FAME II 2019, PM E-DRIVE 2024; GST 5%."
 
+  # ---------- Extra: pavements, road safety, more tech ----------
+  - id: f31
+    topic: u8.road
+    difficulty: 1
+    learn: "Pavements are of two types: flexible (bituminous, tar roads) and rigid (cement concrete roads)."
+    why: "They carry loads in different ways."
+    q: "Two types of road pavement?"
+    a: "Flexible (bituminous) and rigid (cement concrete)."
+    simple: "Tar road or concrete road."
+  - id: f32
+    topic: u8.road
+    difficulty: 2
+    learn: "A flexible pavement spreads load through layers: subgrade (soil), sub-base, base and surface (wearing) course."
+    why: "Each layer spreads the wheel load wider before it reaches the soil."
+    q: "Bottom layer of a flexible pavement?"
+    a: "Subgrade (natural soil)."
+    simple: "Soil, sub-base, base, top."
+  - id: f33
+    topic: u8.road
+    difficulty: 2
+    learn: "A rigid pavement (concrete slab) carries load by slab bending action. It lasts longer and needs less maintenance, but costs more at first."
+    why: "Concrete is stiff and spreads load over a wide area."
+    q: "How does a rigid pavement carry load?"
+    a: "By slab (flexural) action."
+    simple: "Concrete slab bends a little and spreads load."
+  - id: f34
+    topic: u8.road
+    difficulty: 2
+    learn: "CBR (California Bearing Ratio) test measures the strength of the subgrade soil. It is used to design the thickness of flexible pavements."
+    why: "Weak soil needs a thicker pavement."
+    q: "Test used to find subgrade strength for pavement design?"
+    a: "CBR test."
+    simple: "CBR = soil strength."
+  - id: f35
+    topic: u8.road
+    difficulty: 2
+    learn: "Benkelman beam measures the deflection (bending) of a flexible pavement under a loaded truck wheel."
+    why: "Tells how much life is left in a road."
+    q: "Instrument to measure pavement deflection?"
+    a: "Benkelman beam."
+    simple: "Beam measures how much road bends."
+  - id: f36
+    topic: u8.road
+    difficulty: 2
+    learn: "Bitumen tests: penetration (hardness), ductility (stretch), softening point (ring and ball), flash and fire point (safety in heating)."
+    why: "Good bitumen must not melt or crack."
+    q: "Test that finds the softening point of bitumen?"
+    a: "Ring and ball test."
+    simple: "Ring and ball = softening point."
+  - id: f37
+    topic: u8.road
+    difficulty: 2
+    learn: "Aggregate tests: Los Angeles abrasion (wear), impact value (toughness), crushing value (strength) and shape tests (flakiness)."
+    why: "Stones in the road must resist wear and blows."
+    q: "Test for abrasion of road aggregates?"
+    a: "Los Angeles abrasion test."
+    simple: "LA test = how stone wears."
+  - id: f38
+    topic: u8.road
+    difficulty: 2
+    learn: "WBM (water bound macadam) is a road base of broken stones bound with stone dust and water, rolled hard."
+    why: "Cheap base for village and district roads."
+    q: "Full form of WBM?"
+    a: "Water bound macadam."
+    simple: "Stones + dust + water, rolled."
+  - id: f39
+    topic: u8.road
+    difficulty: 1
+    learn: "NHAI (National Highways Authority of India) builds and maintains National Highways. It was set up under the NHAI Act, 1988."
+    why: "Main agency for highways."
+    q: "Which body develops National Highways?"
+    a: "NHAI."
+    simple: "NHAI = national highways."
+  - id: f40
+    topic: u8.road
+    difficulty: 2
+    learn: "Highway programmes: Golden Quadrilateral (links Delhi, Mumbai, Chennai, Kolkata), Bharatmala (highways and corridors) and PMGSY (rural roads, 2000)."
+    why: "PSC asks scheme names."
+    q: "Which scheme builds rural roads?"
+    a: "PMGSY (Pradhan Mantri Gram Sadak Yojana)."
+    simple: "Golden Quadrilateral, Bharatmala, PMGSY."
+  - id: f41
+    topic: u8.road
+    difficulty: 1
+    learn: "Road safety is built on the 4 Es: Education, Enforcement, Engineering and Emergency care."
+    why: "All four are needed to cut deaths."
+    q: "What are the 4 Es of road safety?"
+    a: "Education, Enforcement, Engineering, Emergency care."
+    simple: "Teach, enforce, build well, treat fast."
+  - id: f42
+    topic: u8.road
+    difficulty: 2
+    learn: "A black spot is a short stretch of road where many serious accidents happen. Engineers fix it with signs, lighting, speed control or redesign."
+    why: "Fixing a few spots saves many lives."
+    q: "What is an accident black spot?"
+    a: "Short road stretch with many serious accidents."
+    simple: "Danger spot on the road."
+  - id: f43
+    topic: u8.road
+    difficulty: 2
+    learn: "Traffic calming slows vehicles in towns: speed humps, rumble strips, raised crossings, narrow lanes and roundabouts."
+    why: "Lower speed means fewer and milder crashes."
+    q: "Give two traffic calming measures."
+    a: "Speed humps, rumble strips, raised crossings."
+    simple: "Bumps and strips slow cars."
+  - id: f44
+    topic: u8.road
+    difficulty: 2
+    learn: "Road markings are white for most lines; yellow is used for no-parking kerbs, no-overtaking lines and some centre lines."
+    why: "Colour tells the meaning."
+    q: "Colour of double no-overtaking centre lines?"
+    a: "Yellow."
+    simple: "White = guide; yellow = restriction."
+  - id: f45
+    topic: u8.road
+    difficulty: 2
+    learn: "A median separates traffic in opposite directions. Crash barriers stop vehicles from crossing the median or falling off the road."
+    why: "Head-on crashes are the deadliest."
+    q: "Purpose of a median?"
+    a: "Separates opposite traffic flows."
+    simple: "Median divides the two sides."
+  - id: f33
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Lean-burn engines run on excess air to save fuel and cut CO and HC, but they make more NOx."
+    why: "More oxygen means more complete burning but hotter flames."
+    q: "Lean-burn engines raise which pollutant?"
+    a: "NOx."
+    simple: "Lean burn: less CO, more NOx."
+  - id: f34
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Two-stroke engines give high HC because some fresh charge escapes through the exhaust port during scavenging (short-circuiting)."
+    why: "That is why most two-strokes were phased out."
+    q: "Why do two-stroke engines emit more HC?"
+    a: "Fresh charge escapes during scavenging."
+    simple: "Some petrol goes straight out."
+  - id: f35
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Particulate matter PM2.5 and PM10 are tiny particles (below 2.5 and 10 micrometres). PM2.5 goes deep into the lungs."
+    why: "Diesel soot is mostly fine particles."
+    q: "Which is more harmful: PM10 or PM2.5?"
+    a: "PM2.5."
+    simple: "Smaller dust goes deeper."
+  - id: f36
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Photochemical smog forms when HC and NOx react in sunlight, making ozone at ground level."
+    why: "It harms eyes and lungs on sunny city days."
+    q: "Two pollutants that form photochemical smog?"
+    a: "HC and NOx (in sunlight)."
+    simple: "HC + NOx + sun = smog."
+  - id: f37
+    topic: u8.pollution
+    difficulty: 2
+    learn: "CO₂ is not toxic like CO, but it is the main greenhouse gas from vehicles. Burning less fuel is the only way to cut it."
+    why: "Catalysts turn CO into CO₂, not remove it."
+    q: "Does a catalytic converter reduce CO₂?"
+    a: "No; it changes CO to CO₂."
+    simple: "Less fuel = less CO₂."
+  - id: f38
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Vehicle Scrappage Policy (2021): old vehicles can be scrapped at registered centres; a certificate of deposit gives tax and registration benefits for a new vehicle."
+    why: "Removes old polluting vehicles."
+    q: "Document given when a vehicle is scrapped?"
+    a: "Certificate of deposit."
+    simple: "Scrap old, get benefit on new."
+  - id: f39
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Under the scrappage policy, fitness of old vehicles is checked at automated testing stations. Unfit vehicles must be scrapped."
+    why: "Machine tests remove human error."
+    q: "Where are old vehicles tested for fitness under the scrappage policy?"
+    a: "Automated testing stations."
+    simple: "Machines test old vehicles."
+  - id: f40
+    topic: u8.pollution
+    difficulty: 2
+    learn: "Flex-fuel vehicles can run on petrol blended with high ethanol (up to E85 or E100)."
+    why: "Cuts oil imports and emissions."
+    q: "What is a flex-fuel vehicle?"
+    a: "Vehicle that runs on petrol-ethanol blends up to E85/E100."
+    simple: "Runs on lots of ethanol."
+  - id: f33
+    topic: u8.ev
+    difficulty: 2
+    learn: "kW is power (how fast energy is used or charged). kWh is energy (how much is stored). Battery size is kWh; motor and charger rating is kW."
+    why: "PSC trap: the two units are often mixed."
+    q: "Motor rating is in kW or kWh?"
+    a: "kW."
+    simple: "kW = speed of energy; kWh = amount."
+  - id: f34
+    topic: u8.ev
+    difficulty: 2
+    learn: "C-rate tells how fast a battery charges or discharges. 1C means full charge or discharge in one hour; 2C means in half an hour."
+    why: "High C-rate heats the battery."
+    q: "What does 1C mean for a battery?"
+    a: "Full charge or discharge in one hour."
+    simple: "1C = one hour."
+  - id: f35
+    topic: u8.ev
+    difficulty: 2
+    learn: "Battery swapping replaces an empty battery with a charged one in minutes. It suits e-rickshaws and two-wheelers."
+    why: "Saves charging time."
+    q: "What is battery swapping?"
+    a: "Exchanging an empty battery for a charged one."
+    simple: "Swap battery instead of charging."
+  - id: f36
+    topic: u8.ev
+    difficulty: 2
+    learn: "EVs are very quiet at low speed, so an Acoustic Vehicle Alerting System (AVAS) makes a sound to warn pedestrians."
+    why: "Blind and distracted pedestrians may not hear an EV."
+    q: "Why do EVs have AVAS?"
+    a: "To warn pedestrians of a quiet vehicle."
+    simple: "Fake sound so people hear the EV."
+  - id: f37
+    topic: u8.ev
+    difficulty: 2
+    learn: "State of health (SOH) shows how much capacity a battery still has compared with new. An EV battery is often replaced around 70–80% SOH."
+    why: "Batteries slowly lose capacity."
+    q: "What does SOH mean?"
+    a: "State of health of the battery."
+    simple: "SOH = battery health."
+  - id: f38
+    topic: u8.ev
+    difficulty: 2
+    learn: "Used EV batteries can get a second life in energy storage, and then be recycled to recover lithium, cobalt and nickel. India has Battery Waste Management Rules, 2022."
+    why: "Reduces waste and imports."
+    q: "Rules on battery waste in India?"
+    a: "Battery Waste Management Rules, 2022."
+    simple: "Reuse, then recycle batteries."
+  - id: f39
+    topic: u8.ev
+    difficulty: 2
+    learn: "Vehicle-to-grid (V2G) lets an EV send power back to the grid when parked."
+    why: "EV batteries can support the grid at peak times."
+    q: "What is V2G?"
+    a: "EV supplying power back to the grid."
+    simple: "Car battery helps the grid."
+  - id: f40
+    topic: u8.ev
+    difficulty: 3
+    learn: "PSC trap: a hybrid EV still needs PUC and pays fuel-vehicle rules for its engine; a pure BEV needs no PUC."
+    why: "No engine, no exhaust test."
+    q: "Does a pure battery EV need a PUC certificate?"
+    a: "No."
+    simple: "BEV: no PUC; hybrid: yes."
+  - id: f41
+    topic: u8.ev
+    difficulty: 2
+    learn: "EV fires should be fought with plenty of water to cool the battery; the high-voltage system must be treated as live."
+    why: "Lithium batteries can re-ignite."
+    q: "Main method to fight an EV battery fire?"
+    a: "Large amounts of water for cooling."
+    simple: "Cool with lots of water."
+  - id: f42
+    topic: u8.ev
+    difficulty: 2
+    learn: "Charging stations need not have a separate electricity licence in India; public charging guidelines set standards for chargers and spacing."
+    why: "Makes it easier to set up chargers."
+    q: "Is a separate electricity licence needed to run an EV charging station?"
+    a: "No."
+    simple: "Anyone can set up a charger."
+
 mcq:
   - topic: u8.mvact_basics
     q: "The shape of a STOP sign is"

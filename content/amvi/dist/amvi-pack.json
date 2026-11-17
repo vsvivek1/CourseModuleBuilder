@@ -3513,6 +3513,926 @@
    ]
   },
   {
+   "id": "dl.regulations.f59",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Directions given by a traffic police officer take priority over traffic lights and road signs."
+   },
+   "why": {
+    "en": "The officer sees the real situation at the junction."
+   },
+   "recall_q": {
+    "en": "Police signal says go but light is red. Follow which?"
+   },
+   "recall_a": {
+    "en": "The police officer's direction."
+   },
+   "explain_simple": {
+    "en": "Police signal beats the light."
+   }
+  },
+  {
+   "id": "dl.regulations.f60",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Before any move, follow Mirror – Signal – Manoeuvre: check mirrors, give the signal, then turn or change lane."
+   },
+   "why": {
+    "en": "Others get time to react."
+   },
+   "recall_q": {
+    "en": "Correct order before a turn?"
+   },
+   "recall_a": {
+    "en": "Mirror, signal, manoeuvre."
+   },
+   "explain_simple": {
+    "en": "Look, signal, then move."
+   }
+  },
+  {
+   "id": "dl.regulations.f61",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A blind spot is the area beside and behind the vehicle that mirrors do not show. Turn your head to check it before changing lanes."
+   },
+   "why": {
+    "en": "Two-wheelers often hide in blind spots."
+   },
+   "recall_q": {
+    "en": "How do you check the blind spot?"
+   },
+   "recall_a": {
+    "en": "Turn your head and look over the shoulder."
+   },
+   "explain_simple": {
+    "en": "Mirrors miss some places; look yourself."
+   }
+  },
+  {
+   "id": "dl.regulations.f62",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Braking distance grows with the square of speed. Doubling speed makes the braking distance about four times longer."
+   },
+   "why": {
+    "en": "Small extra speed needs much more room to stop."
+   },
+   "recall_q": {
+    "en": "Speed doubles. Braking distance becomes?"
+   },
+   "recall_a": {
+    "en": "About four times."
+   },
+   "explain_simple": {
+    "en": "2× speed = 4× braking distance."
+   }
+  },
+  {
+   "id": "dl.regulations.f63",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Aquaplaning: at speed on a wet road, a water layer lifts the tyres off the road and steering stops working. Ease off the accelerator; do not brake hard."
+   },
+   "why": {
+    "en": "Hard braking without grip causes a skid."
+   },
+   "recall_q": {
+    "en": "What should you do when aquaplaning?"
+   },
+   "recall_a": {
+    "en": "Ease off the accelerator, hold steering straight, no hard braking."
+   },
+   "explain_simple": {
+    "en": "Lift foot gently, keep straight."
+   }
+  },
+  {
+   "id": "dl.regulations.f64",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In a rear-wheel skid, steer in the same direction the rear of the car is sliding, and ease off the brake and accelerator."
+   },
+   "why": {
+    "en": "This brings the car back in line."
+   },
+   "recall_q": {
+    "en": "Rear slides to the left. Which way do you steer?"
+   },
+   "recall_a": {
+    "en": "To the left (into the skid)."
+   },
+   "explain_simple": {
+    "en": "Steer the way the back slides."
+   }
+  },
+  {
+   "id": "dl.regulations.f65",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brake failure: pump the brake pedal, shift to a lower gear, use the hand brake slowly, warn others with horn and lights, and steer to a safe place."
+   },
+   "why": {
+    "en": "Engine braking and handbrake slow the vehicle."
+   },
+   "recall_q": {
+    "en": "Give two actions on brake failure."
+   },
+   "recall_a": {
+    "en": "Pump brakes, change to lower gear, use handbrake gradually."
+   },
+   "explain_simple": {
+    "en": "Pump, downshift, handbrake slowly."
+   }
+  },
+  {
+   "id": "dl.regulations.f66",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Tyre burst: hold the steering firmly, keep straight, do not brake suddenly, slow down gradually and stop at the left side."
+   },
+   "why": {
+    "en": "Sudden braking makes the vehicle swerve."
+   },
+   "recall_q": {
+    "en": "First reaction to a front tyre burst?"
+   },
+   "recall_a": {
+    "en": "Hold the steering firmly and keep straight."
+   },
+   "explain_simple": {
+    "en": "Hold tight, slow down gently."
+   }
+  },
+  {
+   "id": "dl.regulations.f67",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "When dazzled by oncoming headlights at night, slow down and look towards the left edge of the road, not into the lights."
+   },
+   "why": {
+    "en": "Looking into lights blinds you for seconds."
+   },
+   "recall_q": {
+    "en": "Where should you look when dazzled at night?"
+   },
+   "recall_a": {
+    "en": "At the left edge of the road."
+   },
+   "explain_simple": {
+    "en": "Look left, not at the lights."
+   }
+  },
+  {
+   "id": "dl.regulations.f68",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Going down a ghat road, use the same low gear you would use going up. Never coast in neutral downhill."
+   },
+   "why": {
+    "en": "Engine braking saves the brakes from overheating (brake fade)."
+   },
+   "recall_q": {
+    "en": "Why use a low gear when going downhill?"
+   },
+   "recall_a": {
+    "en": "For engine braking; prevents brake fade."
+   },
+   "explain_simple": {
+    "en": "Low gear downhill, not neutral."
+   }
+  },
+  {
+   "id": "dl.regulations.f69",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Take a rest break about every two hours on long drives. Tiredness slows reactions like alcohol does."
+   },
+   "why": {
+    "en": "Fatigue causes many highway crashes."
+   },
+   "recall_q": {
+    "en": "About how often should you rest on a long drive?"
+   },
+   "recall_a": {
+    "en": "Every two hours."
+   },
+   "explain_simple": {
+    "en": "Rest every 2 hours."
+   }
+  },
+  {
+   "id": "dl.regulations.f70",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Defensive driving means expecting others' mistakes and keeping space and time to avoid them."
+   },
+   "why": {
+    "en": "You cannot control others, only your own driving."
+   },
+   "recall_q": {
+    "en": "What is defensive driving?"
+   },
+   "recall_a": {
+    "en": "Driving to avoid crashes despite others' mistakes."
+   },
+   "explain_simple": {
+    "en": "Expect mistakes; stay ready."
+   }
+  },
+  {
+   "id": "dl.regulations.f71",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Drive slowly and carefully past a school bus that has stopped to let children get in or out, and near schools."
+   },
+   "why": {
+    "en": "Children may run onto the road."
+   },
+   "recall_q": {
+    "en": "What should you do near a stopped school bus?"
+   },
+   "recall_a": {
+    "en": "Slow down and be ready to stop."
+   },
+   "explain_simple": {
+    "en": "School bus stopped: crawl past."
+   }
+  },
+  {
+   "id": "dl.regulations.f72",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "When turning into a side road, give way to pedestrians who are already crossing it."
+   },
+   "why": {
+    "en": "They have started to cross and are vulnerable."
+   },
+   "recall_q": {
+    "en": "Turning left into a side road; pedestrians are crossing it. Who goes first?"
+   },
+   "recall_a": {
+    "en": "Pedestrians."
+   },
+   "explain_simple": {
+    "en": "Turning? Let walkers finish."
+   }
+  },
+  {
+   "id": "dl.regulations.f73",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "On expressways: do not stop, reverse or take a U-turn, and do not walk on the carriageway. Slow vehicles like tractors and two-wheelers may be banned."
+   },
+   "why": {
+    "en": "Very high speeds leave no room for surprises."
+   },
+   "recall_q": {
+    "en": "Can you reverse on an expressway if you miss an exit?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Expressway: no stop, no reverse, no U-turn."
+   }
+  },
+  {
+   "id": "dl.regulations.f74",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Switch on headlights (low beam) in tunnels, in heavy rain, and from sunset to sunrise."
+   },
+   "why": {
+    "en": "To see and to be seen."
+   },
+   "recall_q": {
+    "en": "Should headlights be on in a tunnel during day?"
+   },
+   "recall_a": {
+    "en": "Yes, low beam."
+   },
+   "explain_simple": {
+    "en": "Tunnel or rain: lights on."
+   }
+  },
+  {
+   "id": "dl.regulations.f75",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A free left turn at a signal is allowed only if a sign or a green left arrow allows it. Otherwise wait for green."
+   },
+   "why": {
+    "en": "Pedestrians may be crossing on the left."
+   },
+   "recall_q": {
+    "en": "Is left turn on red always allowed?"
+   },
+   "recall_a": {
+    "en": "No, only if a sign or green arrow allows."
+   },
+   "explain_simple": {
+    "en": "Free left only if marked."
+   }
+  },
+  {
+   "id": "dl.regulations.f76",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Do not straddle two lanes. Keep the vehicle within one lane, especially on curves."
+   },
+   "why": {
+    "en": "Straddling blocks both lanes and confuses others."
+   },
+   "recall_q": {
+    "en": "May you drive on the line between two lanes?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "One vehicle, one lane."
+   }
+  },
+  {
+   "id": "dl.regulations.f77",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Slow down and give space to animals on or near the road. Do not use the horn loudly near them."
+   },
+   "why": {
+    "en": "Frightened animals move unpredictably."
+   },
+   "recall_q": {
+    "en": "Why avoid loud horn near animals?"
+   },
+   "recall_a": {
+    "en": "It frightens them and they move unpredictably."
+   },
+   "explain_simple": {
+    "en": "Animals: slow, quiet, wide."
+   }
+  },
+  {
+   "id": "dl.regulations.f78",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Use parking lights when a vehicle is parked at night on a road without street lights."
+   },
+   "why": {
+    "en": "Others can see the stopped vehicle."
+   },
+   "recall_q": {
+    "en": "Lights to use when parked on a dark road at night?"
+   },
+   "recall_a": {
+    "en": "Parking lights."
+   },
+   "explain_simple": {
+    "en": "Dark road parking: parking lights on."
+   }
+  },
+  {
+   "id": "dl.regulations.f79",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: a police officer's signal overrides the traffic light, and a traffic light overrides a fixed road sign."
+   },
+   "why": {
+    "en": "Order of priority at junctions."
+   },
+   "recall_q": {
+    "en": "Order of priority: sign, light, police?"
+   },
+   "recall_a": {
+    "en": "Police first, then traffic light, then sign."
+   },
+   "explain_simple": {
+    "en": "Police > light > sign."
+   }
+  },
+  {
+   "id": "dl.regulations.f80",
+   "topic": "dl.regulations",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Motor Vehicles (Driving) Regulations, 2017; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Before starting, check mirrors, seat position, seat belt, fuel, brakes and lights. Start moving only after signalling and checking traffic."
+   },
+   "why": {
+    "en": "A good start prevents mistakes later."
+   },
+   "recall_q": {
+    "en": "Name two checks before moving off."
+   },
+   "recall_a": {
+    "en": "Seat belt and mirrors (also brakes, lights)."
+   },
+   "explain_simple": {
+    "en": "Check, belt, mirror, signal, go."
+   }
+  },
+  {
+   "id": "dl.licensing.f63",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "CMVR forms: Form 1 self-declaration of fitness, Form 1A medical certificate, Form 2 application for learner's licence, Form 3 learner's licence."
+   },
+   "why": {
+    "en": "PSC asks form numbers."
+   },
+   "recall_q": {
+    "en": "Learner's licence is issued in which form?"
+   },
+   "recall_a": {
+    "en": "Form 3."
+   },
+   "explain_simple": {
+    "en": "1 fitness, 1A doctor, 2 LL apply, 3 LL."
+   }
+  },
+  {
+   "id": "dl.licensing.f64",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "More forms: Form 4 application for driving licence, Form 5 driving certificate from a driving school, Form 6 driving licence."
+   },
+   "why": {
+    "en": "PSC asks form numbers."
+   },
+   "recall_q": {
+    "en": "Driving licence is issued in which form?"
+   },
+   "recall_a": {
+    "en": "Form 6."
+   },
+   "explain_simple": {
+    "en": "4 DL apply, 5 school certificate, 6 DL."
+   }
+  },
+  {
+   "id": "dl.licensing.f65",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A driver of vehicles carrying hazardous goods must have passed a course on handling such goods, and the DL must be endorsed for it."
+   },
+   "why": {
+    "en": "Chemicals and fuel can explode or poison."
+   },
+   "recall_q": {
+    "en": "Extra need for a hazardous goods vehicle driver?"
+   },
+   "recall_a": {
+    "en": "Training course in hazardous goods and DL endorsement."
+   },
+   "explain_simple": {
+    "en": "Hazardous load = special training."
+   }
+  },
+  {
+   "id": "dl.licensing.f66",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The minimum education requirement (8th pass) for a transport vehicle licence was removed in 2019."
+   },
+   "why": {
+    "en": "To meet the shortage of trained drivers."
+   },
+   "recall_q": {
+    "en": "Is 8th pass needed for a transport DL now?"
+   },
+   "recall_a": {
+    "en": "No, removed in 2019."
+   },
+   "explain_simple": {
+    "en": "No school pass needed now."
+   }
+  },
+  {
+   "id": "dl.licensing.f67",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Learner's licence test can be taken online (Sarathi), with Aadhaar-based identity check, without visiting the RTO."
+   },
+   "why": {
+    "en": "Faceless service saves time."
+   },
+   "recall_q": {
+    "en": "Can the LL test be taken online?"
+   },
+   "recall_a": {
+    "en": "Yes, through Sarathi with Aadhaar."
+   },
+   "explain_simple": {
+    "en": "LL test from home."
+   }
+  },
+  {
+   "id": "dl.licensing.f68",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Learner's licence test is on traffic rules, signs and driving regulations. Only a pass in this test gives the learner's licence."
+   },
+   "why": {
+    "en": "Basic knowledge before touching the road."
+   },
+   "recall_q": {
+    "en": "LL test is mainly on?"
+   },
+   "recall_a": {
+    "en": "Traffic signs, rules and regulations."
+   },
+   "explain_simple": {
+    "en": "LL test = signs and rules."
+   }
+  },
+  {
+   "id": "dl.licensing.f69",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A driving licence can be renewed by any licensing authority in India, not only the one that issued it."
+   },
+   "why": {
+    "en": "People move for work."
+   },
+   "recall_q": {
+    "en": "Must you renew a DL only at the issuing RTO?"
+   },
+   "recall_a": {
+    "en": "No, any licensing authority."
+   },
+   "explain_simple": {
+    "en": "Renew anywhere."
+   }
+  },
+  {
+   "id": "dl.licensing.f70",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Change of address on a DL must be reported to the licensing authority, and a new address can be added online."
+   },
+   "why": {
+    "en": "Notices must reach the holder."
+   },
+   "recall_q": {
+    "en": "Should a change of address be updated on the DL?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "Moved? Update your DL."
+   }
+  },
+  {
+   "id": "dl.licensing.f71",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A duplicate licence is issued if the original is lost or damaged, on application to the licensing authority."
+   },
+   "why": {
+    "en": "The holder must always carry a valid licence."
+   },
+   "recall_q": {
+    "en": "What do you apply for if your DL is lost?"
+   },
+   "recall_a": {
+    "en": "Duplicate driving licence."
+   },
+   "explain_simple": {
+    "en": "Lost licence → duplicate."
+   }
+  },
+  {
+   "id": "dl.licensing.f72",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Conductor licence (Chapter III) needs age at least 18, first-aid knowledge and a medical certificate."
+   },
+   "why": {
+    "en": "Conductors may need to help injured passengers."
+   },
+   "recall_q": {
+    "en": "Minimum age for a conductor licence?"
+   },
+   "recall_a": {
+    "en": "18 years."
+   },
+   "explain_simple": {
+    "en": "Conductor: 18 + first aid."
+   }
+  },
+  {
+   "id": "dl.licensing.f73",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Disqualification under Section 19 needs a hearing: the licence holder must get a chance to explain before the order."
+   },
+   "why": {
+    "en": "Natural justice."
+   },
+   "recall_q": {
+    "en": "Can a DL be disqualified without hearing the holder?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Hear first, then decide."
+   }
+  },
+  {
+   "id": "dl.licensing.f74",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Holding a fake licence or one got by giving false information is a ground for revocation under Section 19, and the document can be seized under Section 206."
+   },
+   "why": {
+    "en": "Fraud must not give driving rights."
+   },
+   "recall_q": {
+    "en": "Section to seize a fake DL?"
+   },
+   "recall_a": {
+    "en": "Section 206."
+   },
+   "explain_simple": {
+    "en": "Fake DL: revoke and seize."
+   }
+  },
+  {
+   "id": "dl.licensing.f75",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A foreigner can drive in India for up to one year with an International Driving Permit issued in their country."
+   },
+   "why": {
+    "en": "Visitors need not take an Indian test."
+   },
+   "recall_q": {
+    "en": "How long can a foreign visitor drive on their IDP in India?"
+   },
+   "recall_a": {
+    "en": "Up to one year."
+   },
+   "explain_simple": {
+    "en": "Visitor with IDP: 1 year."
+   }
+  },
+  {
+   "id": "dl.licensing.f76",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: Section 14 (validity) for transport vehicles is 5 years, but the fitness certificate of a new transport vehicle is 2 years."
+   },
+   "why": {
+    "en": "Two different 'transport' periods."
+   },
+   "recall_q": {
+    "en": "Validity of transport DL vs first fitness certificate?"
+   },
+   "recall_a": {
+    "en": "DL 5 years; fitness 2 years."
+   },
+   "explain_simple": {
+    "en": "Driver 5 years, vehicle 2 years."
+   }
+  },
+  {
+   "id": "dl.licensing.f77",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: learner's licence is valid 6 months, temporary registration 1 month, temporary permit 4 months."
+   },
+   "why": {
+    "en": "Short validity periods are often swapped."
+   },
+   "recall_q": {
+    "en": "Which lasts 1 month: LL, temporary RC or temporary permit?"
+   },
+   "recall_a": {
+    "en": "Temporary registration."
+   },
+   "explain_simple": {
+    "en": "LL 6, temp RC 1, temp permit 4 months."
+   }
+  },
+  {
+   "id": "dl.licensing.f78",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Motorcycle without gear licence covers scooters and mopeds. A geared motorcycle needs a 'motorcycle with gear' licence."
+   },
+   "why": {
+    "en": "Gear handling is a separate skill."
+   },
+   "recall_q": {
+    "en": "Can an MCWOG licence holder ride a geared bike?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Scooter licence ≠ geared bike."
+   }
+  },
+  {
+   "id": "dl.licensing.f79",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An LMV licence covers cars, jeeps and light vans. An e-rickshaw needs its own class or the LMV class as notified."
+   },
+   "why": {
+    "en": "Class must match the vehicle."
+   },
+   "recall_q": {
+    "en": "Does an LMV licence cover a car?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "LMV = cars, jeeps, vans."
+   }
+  },
+  {
+   "id": "dl.licensing.f80",
+   "topic": "dl.licensing",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Licensing of drivers: MV Act sections 3 to 28; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Driving with an expired licence is the same as driving without a licence (Section 3), punished under Section 181."
+   },
+   "why": {
+    "en": "Only an effective licence counts."
+   },
+   "recall_q": {
+    "en": "Driving on an expired DL is punished under?"
+   },
+   "recall_a": {
+    "en": "Section 181."
+   },
+   "explain_simple": {
+    "en": "Expired = no licence."
+   }
+  },
+  {
    "id": "law.defs.f01",
    "topic": "law.defs",
    "type": "fact",
@@ -8978,6 +9898,1156 @@
      "en": "Sec 26 escaped assessment after notice."
     }
    ]
+  },
+  {
+   "id": "law.registration.f25",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 50 (transfer of ownership): the seller reports the sale within 14 days (same State) and the buyer reports within 30 days to get the RC transferred."
+   },
+   "why": {
+    "en": "The RC must show the real owner."
+   },
+   "recall_q": {
+    "en": "Time for the buyer to report a transfer of ownership?"
+   },
+   "recall_a": {
+    "en": "30 days."
+   },
+   "explain_simple": {
+    "en": "Seller 14 days, buyer 30 days."
+   }
+  },
+  {
+   "id": "law.registration.f26",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 49: an owner who changes address must inform the registering authority within 30 days."
+   },
+   "why": {
+    "en": "Notices and challans must reach the owner."
+   },
+   "recall_q": {
+    "en": "Time limit to report change of address on RC?"
+   },
+   "recall_a": {
+    "en": "30 days (Section 49)."
+   },
+   "explain_simple": {
+    "en": "Moved house → tell RTO in 30 days."
+   }
+  },
+  {
+   "id": "law.registration.f27",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 51: when a vehicle is bought on loan (hire purchase or hypothecation), the financier's name is entered in the RC."
+   },
+   "why": {
+    "en": "The vehicle cannot be sold without clearing the loan."
+   },
+   "recall_q": {
+    "en": "Entry of financier in RC is under which section?"
+   },
+   "recall_a": {
+    "en": "Section 51."
+   },
+   "explain_simple": {
+    "en": "Loan vehicle: bank's name in RC."
+   }
+  },
+  {
+   "id": "law.registration.f28",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Registration marks must be shown on the front and back of the vehicle on HSRP plates in the prescribed way (Section 39 and CMVR)."
+   },
+   "why": {
+    "en": "Clear plates help enforcement cameras."
+   },
+   "recall_q": {
+    "en": "Where must registration plates be displayed?"
+   },
+   "recall_a": {
+    "en": "Front and rear."
+   },
+   "explain_simple": {
+    "en": "Number plate front and back."
+   }
+  },
+  {
+   "id": "law.registration.f29",
+   "topic": "law.registration",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Registration: Sections 39 to 56; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: Section 46 says registration is valid all over India; Section 47 needs a new mark after 12 months in another State; Section 50 deals with transfer."
+   },
+   "why": {
+    "en": "These three are often mixed."
+   },
+   "recall_q": {
+    "en": "Transfer of ownership is under 46, 47 or 50?"
+   },
+   "recall_a": {
+    "en": "Section 50."
+   },
+   "explain_simple": {
+    "en": "46 India, 47 new State, 50 sale."
+   }
+  },
+  {
+   "id": "law.permits.f16",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Permit sections: 72 stage carriage, 74 contract carriage, 76 private service vehicle, 79 goods carriage, 87 temporary, 88 national and tourist permits."
+   },
+   "why": {
+    "en": "PSC matches permit types to sections."
+   },
+   "recall_q": {
+    "en": "Stage carriage permit is granted under which section?"
+   },
+   "recall_a": {
+    "en": "Section 72."
+   },
+   "explain_simple": {
+    "en": "72 stage, 74 contract, 79 goods."
+   }
+  },
+  {
+   "id": "law.permits.f17",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 93: licence for agents, canvassers and aggregators. Working without it is punished under Section 193."
+   },
+   "why": {
+    "en": "Booking businesses must be controlled."
+   },
+   "recall_q": {
+    "en": "Which section licenses booking agents and aggregators?"
+   },
+   "recall_a": {
+    "en": "Section 93."
+   },
+   "explain_simple": {
+    "en": "93 licence; 193 punishment."
+   }
+  },
+  {
+   "id": "law.permits.f18",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A national permit lets a goods carriage run across all of India. An all-India tourist permit does the same for tourist vehicles."
+   },
+   "why": {
+    "en": "Long-distance trade and tourism."
+   },
+   "recall_q": {
+    "en": "Which permit lets a goods vehicle run all over India?"
+   },
+   "recall_a": {
+    "en": "National permit."
+   },
+   "explain_simple": {
+    "en": "National permit = all India goods."
+   }
+  },
+  {
+   "id": "law.permits.f19",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Permits are granted by the RTA for one region and by the STA for routes across regions in a State."
+   },
+   "why": {
+    "en": "Area of operation decides the authority."
+   },
+   "recall_q": {
+    "en": "Who grants a permit for an inter-regional route in Kerala?"
+   },
+   "recall_a": {
+    "en": "State Transport Authority (STA)."
+   },
+   "explain_simple": {
+    "en": "One region RTA; many regions STA."
+   }
+  },
+  {
+   "id": "law.permits.f20",
+   "topic": "law.permits",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Permits (Sec 66) and STU schemes (Sec 99); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: using a transport vehicle against permit conditions (like wrong route) is also 'without permit' under Section 192A."
+   },
+   "why": {
+    "en": "Breaking conditions is treated like having no permit."
+   },
+   "recall_q": {
+    "en": "Is plying on a different route a permit offence?"
+   },
+   "recall_a": {
+    "en": "Yes (Section 192A)."
+   },
+   "explain_simple": {
+    "en": "Wrong route = no permit."
+   }
+  },
+  {
+   "id": "law.traffic.f50",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 116: power to erect traffic signs. Section 117: parking places and halting stations. Section 118: driving regulations. Section 119: duty to obey traffic signs."
+   },
+   "why": {
+    "en": "Sections around the syllabus list."
+   },
+   "recall_q": {
+    "en": "Duty to obey traffic signs is in which section?"
+   },
+   "recall_a": {
+    "en": "Section 119."
+   },
+   "explain_simple": {
+    "en": "116 signs, 117 parking, 118 regulations, 119 obey."
+   }
+  },
+  {
+   "id": "law.traffic.f51",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 121: signals and signalling devices. The driver must give the prescribed signals when turning or stopping."
+   },
+   "why": {
+    "en": "Signals tell others what you will do."
+   },
+   "recall_q": {
+    "en": "Which section deals with signals by drivers?"
+   },
+   "recall_a": {
+    "en": "Section 121."
+   },
+   "explain_simple": {
+    "en": "Sec 121 = signals."
+   }
+  },
+  {
+   "id": "law.traffic.f52",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 124: no person shall travel in a stage carriage without a proper pass or ticket. Section 178 gives the penalty."
+   },
+   "why": {
+    "en": "Fare evasion."
+   },
+   "recall_q": {
+    "en": "Which section bans ticketless travel?"
+   },
+   "recall_a": {
+    "en": "Section 124 (penalty in 178)."
+   },
+   "explain_simple": {
+    "en": "124 rule, 178 fine."
+   }
+  },
+  {
+   "id": "law.traffic.f53",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 130: the driver must produce the licence, and the owner or driver must produce RC, insurance, fitness and permit, when asked by a police officer in uniform or an authorised MVD officer."
+   },
+   "why": {
+    "en": "Checking documents is basic enforcement."
+   },
+   "recall_q": {
+    "en": "Duty to produce licence and RC is in which section?"
+   },
+   "recall_a": {
+    "en": "Section 130."
+   },
+   "explain_simple": {
+    "en": "Sec 130: show your papers."
+   }
+  },
+  {
+   "id": "law.traffic.f54",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 135: the State can make schemes for investigating accident causes, for wayside amenities like rest places, and for traffic aid posts on highways."
+   },
+   "why": {
+    "en": "Learn from accidents and help drivers."
+   },
+   "recall_q": {
+    "en": "Which section deals with schemes for accident investigation and wayside amenities?"
+   },
+   "recall_a": {
+    "en": "Section 135."
+   },
+   "explain_simple": {
+    "en": "Sec 135: study accidents, build rest stops."
+   }
+  },
+  {
+   "id": "law.traffic.f55",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: Section 136 is inspection of accident vehicles by an authorised officer; Section 135 is schemes for accident investigation."
+   },
+   "why": {
+    "en": "Similar words, different sections."
+   },
+   "recall_q": {
+    "en": "Inspection of a vehicle after an accident is under 135 or 136?"
+   },
+   "recall_a": {
+    "en": "Section 136."
+   },
+   "explain_simple": {
+    "en": "135 schemes; 136 inspection."
+   }
+  },
+  {
+   "id": "law.traffic.f56",
+   "topic": "law.traffic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Control of traffic: Sections 112 to 136A; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "On-the-spot checking of overloading, helmets, seat belts and documents is done by MVD enforcement squads using powers under Sections 114, 130, 206, 207 and 213."
+   },
+   "why": {
+    "en": "Shows how sections work together in an AMVI's job."
+   },
+   "recall_q": {
+    "en": "Under which section can an MVD officer ask for documents?"
+   },
+   "recall_a": {
+    "en": "Section 130 (with Section 213 powers)."
+   },
+   "explain_simple": {
+    "en": "Several sections together give check powers."
+   }
+  },
+  {
+   "id": "law.offences.f58",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 199B: fines under the Act go up by up to 10% every year on 1 April, as notified by the Central Government."
+   },
+   "why": {
+    "en": "Keeps fines in line with inflation."
+   },
+   "recall_q": {
+    "en": "By how much can MV Act fines rise each year?"
+   },
+   "recall_a": {
+    "en": "Up to 10% (Section 199B)."
+   },
+   "explain_simple": {
+    "en": "Fines can rise 10% a year."
+   }
+  },
+  {
+   "id": "law.offences.f59",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 210A: a State Government can raise fines for its State, up to 10 times the amounts in the Act."
+   },
+   "why": {
+    "en": "States can set stronger fines."
+   },
+   "recall_q": {
+    "en": "Up to how many times can a State raise fines?"
+   },
+   "recall_a": {
+    "en": "10 times (Section 210A)."
+   },
+   "explain_simple": {
+    "en": "State can multiply fines up to 10×."
+   }
+  },
+  {
+   "id": "law.offences.f60",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 210B: an enforcing officer who commits an offence under the Act pays twice the normal penalty."
+   },
+   "why": {
+    "en": "Those who enforce the law must obey it."
+   },
+   "recall_q": {
+    "en": "Penalty for an enforcing officer who breaks the MV Act?"
+   },
+   "recall_a": {
+    "en": "Twice the normal penalty (Section 210B)."
+   },
+   "explain_simple": {
+    "en": "Officer breaks rule: double fine."
+   }
+  },
+  {
+   "id": "law.offences.f61",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 201: a vehicle that blocks free flow of traffic: ₹500 per hour of obstruction, plus towing charges. Broken-down vehicles being repaired are not covered."
+   },
+   "why": {
+    "en": "Clears roads quickly."
+   },
+   "recall_q": {
+    "en": "Fine under Section 201 for blocking traffic?"
+   },
+   "recall_a": {
+    "en": "₹500 per hour."
+   },
+   "explain_simple": {
+    "en": "Block road: ₹500 an hour."
+   }
+  },
+  {
+   "id": "law.offences.f62",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 203: a police officer in uniform or authorised MVD officer can ask a driver to take a breath test if drunk driving is suspected."
+   },
+   "why": {
+    "en": "Quick check on the road."
+   },
+   "recall_q": {
+    "en": "Which section allows breath tests?"
+   },
+   "recall_a": {
+    "en": "Section 203."
+   },
+   "explain_simple": {
+    "en": "203 breath test."
+   }
+  },
+  {
+   "id": "law.offences.f63",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 204: if the breath test is positive or refused, a laboratory test of blood can be done by a registered doctor."
+   },
+   "why": {
+    "en": "Confirms the level for court."
+   },
+   "recall_q": {
+    "en": "Which section deals with laboratory (blood) tests?"
+   },
+   "recall_a": {
+    "en": "Section 204."
+   },
+   "explain_simple": {
+    "en": "204 blood test."
+   }
+  },
+  {
+   "id": "law.offences.f64",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 205: refusing a breath or blood test without good reason may be presumed to show that the person was unfit to drive."
+   },
+   "why": {
+    "en": "Refusal should not help the offender."
+   },
+   "recall_q": {
+    "en": "Effect of refusing a breath test?"
+   },
+   "recall_a": {
+    "en": "Presumption of unfitness (Section 205)."
+   },
+   "explain_simple": {
+    "en": "Refuse test → assumed drunk."
+   }
+  },
+  {
+   "id": "law.offences.f65",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: Section 185 offence, 202 arrest, 203 breath test, 204 blood test, 205 presumption."
+   },
+   "why": {
+    "en": "Drink-driving procedure in order."
+   },
+   "recall_q": {
+    "en": "Order of sections for drunk driving procedure?"
+   },
+   "recall_a": {
+    "en": "185, 202, 203, 204, 205."
+   },
+   "explain_simple": {
+    "en": "Offence, arrest, breath, blood, presume."
+   }
+  },
+  {
+   "id": "law.offences.f66",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Using a vehicle without fitness certificate makes it invalidly registered (Section 56), so it is punishable under Section 192."
+   },
+   "why": {
+    "en": "No fitness = no valid registration."
+   },
+   "recall_q": {
+    "en": "Driving a transport vehicle without fitness is punished under?"
+   },
+   "recall_a": {
+    "en": "Section 192 (as invalidly registered)."
+   },
+   "explain_simple": {
+    "en": "No fitness → like no RC."
+   }
+  },
+  {
+   "id": "law.offences.f67",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Racing or speed trials are allowed only with written consent of the State Government, on a closed or permitted course."
+   },
+   "why": {
+    "en": "Organised events need safety arrangements."
+   },
+   "recall_q": {
+    "en": "Who can permit a speed trial on a public road?"
+   },
+   "recall_a": {
+    "en": "State Government (written consent)."
+   },
+   "explain_simple": {
+    "en": "Racing only with State permission."
+   }
+  },
+  {
+   "id": "law.offences.f68",
+   "topic": "law.offences",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Offences, penalties and procedure (Sec 177 to 213); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: 192 no registration, 192A no permit, 196 no insurance, 181 no licence."
+   },
+   "why": {
+    "en": "'No document' offences are often swapped."
+   },
+   "recall_q": {
+    "en": "Driving without insurance: 192A or 196?"
+   },
+   "recall_a": {
+    "en": "196."
+   },
+   "explain_simple": {
+    "en": "181 DL, 192 RC, 192A permit, 196 insurance."
+   }
+  },
+  {
+   "id": "law.kmvt.f24",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vehicles from other States entering Kerala for a short stay may need to pay Kerala tax for the period, unless they hold an all-India permit with tax paid."
+   },
+   "why": {
+    "en": "Kerala roads are used, so tax is due."
+   },
+   "recall_q": {
+    "en": "Do other-State tourist vehicles pay Kerala tax?"
+   },
+   "recall_a": {
+    "en": "Yes, unless covered by an all-India permit with tax paid."
+   },
+   "explain_simple": {
+    "en": "Outside vehicle pays Kerala tax."
+   }
+  },
+  {
+   "id": "law.kmvt.f25",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Tax must be paid before the vehicle is used. Using a vehicle with tax unpaid can lead to stopping (Sec 10), seizure (Sec 11) and additional tax (Sec 12)."
+   },
+   "why": {
+    "en": "Shows how the sections connect."
+   },
+   "recall_q": {
+    "en": "Name the three KMVT steps against unpaid tax."
+   },
+   "recall_a": {
+    "en": "Stop (10), seize (11), additional tax (12)."
+   },
+   "explain_simple": {
+    "en": "Stop, seize, pay more."
+   }
+  },
+  {
+   "id": "law.kmvt.f26",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Electric vehicles have received tax concessions in Kerala to promote clean transport. Check the current rate notified by the Government."
+   },
+   "why": {
+    "en": "Policy changes often."
+   },
+   "recall_q": {
+    "en": "Do EVs get tax concessions in Kerala?"
+   },
+   "recall_a": {
+    "en": "Yes, as notified by Government."
+   },
+   "explain_simple": {
+    "en": "EVs pay less tax."
+   }
+  },
+  {
+   "id": "law.kmvt.f27",
+   "topic": "law.kmvt",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Kerala Motor Vehicles Taxation Act, 1976; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Tax on a goods vehicle is based on its registered laden weight (GVW). Tax on a stage carriage is based on seating and standing capacity."
+   },
+   "why": {
+    "en": "Bigger earning capacity means more tax."
+   },
+   "recall_q": {
+    "en": "Basis of tax for a goods vehicle?"
+   },
+   "recall_a": {
+    "en": "Registered laden weight (GVW)."
+   },
+   "explain_simple": {
+    "en": "Goods by weight; bus by seats."
+   }
+  },
+  {
+   "id": "law.insurance.f12",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section 147 lists what a third-party policy must cover: death or injury to any person, including the owner of goods or their agent, and damage to third-party property."
+   },
+   "why": {
+    "en": "Defines the minimum compulsory cover."
+   },
+   "recall_q": {
+    "en": "Which section gives the requirements of a policy?"
+   },
+   "recall_a": {
+    "en": "Section 147."
+   },
+   "explain_simple": {
+    "en": "Sec 147: what the policy must cover."
+   }
+  },
+  {
+   "id": "law.insurance.f13",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The certificate of insurance must be carried in the vehicle and produced when asked (Section 130). An electronic copy is accepted."
+   },
+   "why": {
+    "en": "Proof of cover on the road."
+   },
+   "recall_q": {
+    "en": "Must the insurance certificate be produced on demand?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "Carry insurance proof."
+   }
+  },
+  {
+   "id": "law.insurance.f14",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Motor Vehicle Accident Fund (Section 164B, 2019) gives compulsory cover to all road users, pays hit-and-run victims and golden hour treatment."
+   },
+   "why": {
+    "en": "Victims are paid even when no insurer is liable."
+   },
+   "recall_q": {
+    "en": "Which fund pays hit-and-run compensation?"
+   },
+   "recall_a": {
+    "en": "Motor Vehicle Accident Fund (Section 164B)."
+   },
+   "explain_simple": {
+    "en": "Govt fund pays when no one else does."
+   }
+  },
+  {
+   "id": "law.insurance.f15",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A claim for compensation must be filed before the MACT within six months of the accident (Section 166, 2019)."
+   },
+   "why": {
+    "en": "Time limit added to speed up cases."
+   },
+   "recall_q": {
+    "en": "Time limit to file a claim before MACT?"
+   },
+   "recall_a": {
+    "en": "Six months from the accident."
+   },
+   "explain_simple": {
+    "en": "Claim within 6 months."
+   }
+  },
+  {
+   "id": "law.insurance.f16",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Police must send the accident report to the Claims Tribunal and insurer, which helps settle claims without a separate application."
+   },
+   "why": {
+    "en": "Speeds up compensation."
+   },
+   "recall_q": {
+    "en": "Who sends the accident information report to the MACT?"
+   },
+   "recall_a": {
+    "en": "The police (investigating officer)."
+   },
+   "explain_simple": {
+    "en": "Police report starts the claim."
+   }
+  },
+  {
+   "id": "law.insurance.f17",
+   "topic": "law.insurance",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Third-party insurance (Sec 146); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: Section 146 makes insurance necessary; Section 147 gives policy requirements; Section 196 punishes driving uninsured."
+   },
+   "why": {
+    "en": "Three insurance sections often swapped."
+   },
+   "recall_q": {
+    "en": "Penalty for an uninsured vehicle is in 146, 147 or 196?"
+   },
+   "recall_a": {
+    "en": "196."
+   },
+   "explain_simple": {
+    "en": "146 need, 147 cover, 196 fine."
+   }
+  },
+  {
+   "id": "law.construction.f16",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "AIS (Automotive Industry Standards) are technical standards for vehicles and parts, prepared by ARAI-led committees and notified under CMVR."
+   },
+   "why": {
+    "en": "Type approval checks against these."
+   },
+   "recall_q": {
+    "en": "What are AIS?"
+   },
+   "recall_a": {
+    "en": "Automotive Industry Standards for vehicles and parts."
+   },
+   "explain_simple": {
+    "en": "AIS = vehicle rule book."
+   }
+  },
+  {
+   "id": "law.construction.f17",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Conformity of Production (COP) tests check that vehicles made later still match the type-approved sample."
+   },
+   "why": {
+    "en": "Makers must not cut corners after approval."
+   },
+   "recall_q": {
+    "en": "What does COP testing check?"
+   },
+   "recall_a": {
+    "en": "That production vehicles match the approved type."
+   },
+   "explain_simple": {
+    "en": "Later vehicles = approved sample."
+   }
+  },
+  {
+   "id": "law.construction.f18",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bharat NCAP (2023) gives star ratings (1 to 5) for crash safety of cars up to 3.5 tonnes, tested at Indian agencies."
+   },
+   "why": {
+    "en": "Helps buyers choose safer cars."
+   },
+   "recall_q": {
+    "en": "What does Bharat NCAP rate?"
+   },
+   "recall_a": {
+    "en": "Crash safety of cars (star ratings)."
+   },
+   "explain_simple": {
+    "en": "Bharat NCAP = car safety stars."
+   }
+  },
+  {
+   "id": "law.construction.f19",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Construction rules in CMVR cover brakes, lights, horn, silencer, tyres, reflectors, speed governors, seat belts and emission limits."
+   },
+   "why": {
+    "en": "These are what an AMVI checks in inspection."
+   },
+   "recall_q": {
+    "en": "Give three items covered by construction rules."
+   },
+   "recall_a": {
+    "en": "Brakes, lights, tyres (also horn, seat belts, emissions)."
+   },
+   "explain_simple": {
+    "en": "Brakes, lights, tyres, horn, belts."
+   }
+  },
+  {
+   "id": "law.construction.f20",
+   "topic": "law.construction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Construction, recall and type approval (Sec 109, 110A, 110B); standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fitting unapproved lights, sirens, extra-bright LED bars or loud horns breaks construction rules and Section 52 (alteration)."
+   },
+   "why": {
+    "en": "They dazzle or frighten others."
+   },
+   "recall_q": {
+    "en": "Is fitting a siren on a private car allowed?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "No illegal lights or sirens."
+   }
+  },
+  {
+   "id": "law.defs.f31",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Educational institution bus, Section 2(11): an omnibus owned by a college, school or other educational institution, used only for carrying its students or staff."
+   },
+   "why": {
+    "en": "Special safety rules apply to school buses."
+   },
+   "recall_q": {
+    "en": "Which clause defines educational institution bus?"
+   },
+   "recall_a": {
+    "en": "Section 2(11)."
+   },
+   "explain_simple": {
+    "en": "School-owned bus."
+   }
+  },
+  {
+   "id": "law.defs.f32",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Invalid carriage, Section 2(18): a vehicle specially made for a person with a physical defect or disability, used only by them."
+   },
+   "why": {
+    "en": "Different from adapted vehicle: built only as invalid carriage."
+   },
+   "recall_q": {
+    "en": "Which clause defines invalid carriage?"
+   },
+   "recall_a": {
+    "en": "Section 2(18)."
+   },
+   "explain_simple": {
+    "en": "Special vehicle for a disabled person."
+   }
+  },
+  {
+   "id": "law.defs.f33",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Tractor, Section 2(44): a vehicle not built to carry any load itself, other than equipment for propulsion. Trailer, Section 2(46): a vehicle drawn by a motor vehicle."
+   },
+   "why": {
+    "en": "Tractor-trailers are common in rural Kerala."
+   },
+   "recall_q": {
+    "en": "Define trailer."
+   },
+   "recall_a": {
+    "en": "A vehicle drawn or meant to be drawn by a motor vehicle."
+   },
+   "explain_simple": {
+    "en": "Tractor pulls; trailer is pulled."
+   }
+  },
+  {
+   "id": "law.defs.f34",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Public place, Section 2(34): a road, street or any other place to which the public has a right of access, including places where passengers board stage carriages."
+   },
+   "why": {
+    "en": "Most MV Act rules apply in public places."
+   },
+   "recall_q": {
+    "en": "Is a bus stand a public place under the MV Act?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "Any place the public can go."
+   }
+  },
+  {
+   "id": "law.defs.f35",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Owner, Section 2(30): the person in whose name the vehicle is registered; for a minor, the guardian; under hire purchase or lease, the person in possession."
+   },
+   "why": {
+    "en": "Liability falls on the owner."
+   },
+   "recall_q": {
+    "en": "Who is the owner of a vehicle on hire purchase?"
+   },
+   "recall_a": {
+    "en": "The person in possession under the agreement."
+   },
+   "explain_simple": {
+    "en": "Owner = registered person (or user under lease)."
+   }
+  },
+  {
+   "id": "law.defs.f36",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Registering authority, Section 2(41): the authority empowered to register motor vehicles under Chapter IV (in Kerala, the RTO or Joint RTO)."
+   },
+   "why": {
+    "en": "AMVIs assist this authority."
+   },
+   "recall_q": {
+    "en": "Who is the registering authority in Kerala?"
+   },
+   "recall_a": {
+    "en": "RTO / Joint RTO."
+   },
+   "explain_simple": {
+    "en": "RTO registers vehicles."
+   }
+  },
+  {
+   "id": "law.defs.f37",
+   "topic": "law.defs",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — MV Act Section 2: definitions; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: an omnibus (2(29)) counts persons and need not be for hire; a maxi cab (2(22)) and motor cab (2(25)) are for hire."
+   },
+   "why": {
+    "en": "Hire is the key difference."
+   },
+   "recall_q": {
+    "en": "Which definition does not require hire or reward: omnibus or maxi cab?"
+   },
+   "recall_a": {
+    "en": "Omnibus."
+   },
+   "explain_simple": {
+    "en": "Omnibus: size only; cabs: for hire."
+   }
   },
   {
    "id": "u1.properties.f01",
@@ -45213,6 +47283,765 @@
      "en": "FAME I 2015, FAME II 2019, PM E-DRIVE 2024; GST 5%."
     }
    ]
+  },
+  {
+   "id": "u8.road.f31",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pavements are of two types: flexible (bituminous, tar roads) and rigid (cement concrete roads)."
+   },
+   "why": {
+    "en": "They carry loads in different ways."
+   },
+   "recall_q": {
+    "en": "Two types of road pavement?"
+   },
+   "recall_a": {
+    "en": "Flexible (bituminous) and rigid (cement concrete)."
+   },
+   "explain_simple": {
+    "en": "Tar road or concrete road."
+   }
+  },
+  {
+   "id": "u8.road.f32",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A flexible pavement spreads load through layers: subgrade (soil), sub-base, base and surface (wearing) course."
+   },
+   "why": {
+    "en": "Each layer spreads the wheel load wider before it reaches the soil."
+   },
+   "recall_q": {
+    "en": "Bottom layer of a flexible pavement?"
+   },
+   "recall_a": {
+    "en": "Subgrade (natural soil)."
+   },
+   "explain_simple": {
+    "en": "Soil, sub-base, base, top."
+   }
+  },
+  {
+   "id": "u8.road.f33",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A rigid pavement (concrete slab) carries load by slab bending action. It lasts longer and needs less maintenance, but costs more at first."
+   },
+   "why": {
+    "en": "Concrete is stiff and spreads load over a wide area."
+   },
+   "recall_q": {
+    "en": "How does a rigid pavement carry load?"
+   },
+   "recall_a": {
+    "en": "By slab (flexural) action."
+   },
+   "explain_simple": {
+    "en": "Concrete slab bends a little and spreads load."
+   }
+  },
+  {
+   "id": "u8.road.f34",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "CBR (California Bearing Ratio) test measures the strength of the subgrade soil. It is used to design the thickness of flexible pavements."
+   },
+   "why": {
+    "en": "Weak soil needs a thicker pavement."
+   },
+   "recall_q": {
+    "en": "Test used to find subgrade strength for pavement design?"
+   },
+   "recall_a": {
+    "en": "CBR test."
+   },
+   "explain_simple": {
+    "en": "CBR = soil strength."
+   }
+  },
+  {
+   "id": "u8.road.f35",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Benkelman beam measures the deflection (bending) of a flexible pavement under a loaded truck wheel."
+   },
+   "why": {
+    "en": "Tells how much life is left in a road."
+   },
+   "recall_q": {
+    "en": "Instrument to measure pavement deflection?"
+   },
+   "recall_a": {
+    "en": "Benkelman beam."
+   },
+   "explain_simple": {
+    "en": "Beam measures how much road bends."
+   }
+  },
+  {
+   "id": "u8.road.f36",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bitumen tests: penetration (hardness), ductility (stretch), softening point (ring and ball), flash and fire point (safety in heating)."
+   },
+   "why": {
+    "en": "Good bitumen must not melt or crack."
+   },
+   "recall_q": {
+    "en": "Test that finds the softening point of bitumen?"
+   },
+   "recall_a": {
+    "en": "Ring and ball test."
+   },
+   "explain_simple": {
+    "en": "Ring and ball = softening point."
+   }
+  },
+  {
+   "id": "u8.road.f37",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Aggregate tests: Los Angeles abrasion (wear), impact value (toughness), crushing value (strength) and shape tests (flakiness)."
+   },
+   "why": {
+    "en": "Stones in the road must resist wear and blows."
+   },
+   "recall_q": {
+    "en": "Test for abrasion of road aggregates?"
+   },
+   "recall_a": {
+    "en": "Los Angeles abrasion test."
+   },
+   "explain_simple": {
+    "en": "LA test = how stone wears."
+   }
+  },
+  {
+   "id": "u8.road.f38",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "WBM (water bound macadam) is a road base of broken stones bound with stone dust and water, rolled hard."
+   },
+   "why": {
+    "en": "Cheap base for village and district roads."
+   },
+   "recall_q": {
+    "en": "Full form of WBM?"
+   },
+   "recall_a": {
+    "en": "Water bound macadam."
+   },
+   "explain_simple": {
+    "en": "Stones + dust + water, rolled."
+   }
+  },
+  {
+   "id": "u8.road.f39",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "NHAI (National Highways Authority of India) builds and maintains National Highways. It was set up under the NHAI Act, 1988."
+   },
+   "why": {
+    "en": "Main agency for highways."
+   },
+   "recall_q": {
+    "en": "Which body develops National Highways?"
+   },
+   "recall_a": {
+    "en": "NHAI."
+   },
+   "explain_simple": {
+    "en": "NHAI = national highways."
+   }
+  },
+  {
+   "id": "u8.road.f40",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Highway programmes: Golden Quadrilateral (links Delhi, Mumbai, Chennai, Kolkata), Bharatmala (highways and corridors) and PMGSY (rural roads, 2000)."
+   },
+   "why": {
+    "en": "PSC asks scheme names."
+   },
+   "recall_q": {
+    "en": "Which scheme builds rural roads?"
+   },
+   "recall_a": {
+    "en": "PMGSY (Pradhan Mantri Gram Sadak Yojana)."
+   },
+   "explain_simple": {
+    "en": "Golden Quadrilateral, Bharatmala, PMGSY."
+   }
+  },
+  {
+   "id": "u8.road.f41",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Road safety is built on the 4 Es: Education, Enforcement, Engineering and Emergency care."
+   },
+   "why": {
+    "en": "All four are needed to cut deaths."
+   },
+   "recall_q": {
+    "en": "What are the 4 Es of road safety?"
+   },
+   "recall_a": {
+    "en": "Education, Enforcement, Engineering, Emergency care."
+   },
+   "explain_simple": {
+    "en": "Teach, enforce, build well, treat fast."
+   }
+  },
+  {
+   "id": "u8.road.f42",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A black spot is a short stretch of road where many serious accidents happen. Engineers fix it with signs, lighting, speed control or redesign."
+   },
+   "why": {
+    "en": "Fixing a few spots saves many lives."
+   },
+   "recall_q": {
+    "en": "What is an accident black spot?"
+   },
+   "recall_a": {
+    "en": "Short road stretch with many serious accidents."
+   },
+   "explain_simple": {
+    "en": "Danger spot on the road."
+   }
+  },
+  {
+   "id": "u8.road.f43",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Traffic calming slows vehicles in towns: speed humps, rumble strips, raised crossings, narrow lanes and roundabouts."
+   },
+   "why": {
+    "en": "Lower speed means fewer and milder crashes."
+   },
+   "recall_q": {
+    "en": "Give two traffic calming measures."
+   },
+   "recall_a": {
+    "en": "Speed humps, rumble strips, raised crossings."
+   },
+   "explain_simple": {
+    "en": "Bumps and strips slow cars."
+   }
+  },
+  {
+   "id": "u8.road.f44",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Road markings are white for most lines; yellow is used for no-parking kerbs, no-overtaking lines and some centre lines."
+   },
+   "why": {
+    "en": "Colour tells the meaning."
+   },
+   "recall_q": {
+    "en": "Colour of double no-overtaking centre lines?"
+   },
+   "recall_a": {
+    "en": "Yellow."
+   },
+   "explain_simple": {
+    "en": "White = guide; yellow = restriction."
+   }
+  },
+  {
+   "id": "u8.road.f45",
+   "topic": "u8.road",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Highway engineering basics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A median separates traffic in opposite directions. Crash barriers stop vehicles from crossing the median or falling off the road."
+   },
+   "why": {
+    "en": "Head-on crashes are the deadliest."
+   },
+   "recall_q": {
+    "en": "Purpose of a median?"
+   },
+   "recall_a": {
+    "en": "Separates opposite traffic flows."
+   },
+   "explain_simple": {
+    "en": "Median divides the two sides."
+   }
+  },
+  {
+   "id": "u8.pollution.f33",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Lean-burn engines run on excess air to save fuel and cut CO and HC, but they make more NOx."
+   },
+   "why": {
+    "en": "More oxygen means more complete burning but hotter flames."
+   },
+   "recall_q": {
+    "en": "Lean-burn engines raise which pollutant?"
+   },
+   "recall_a": {
+    "en": "NOx."
+   },
+   "explain_simple": {
+    "en": "Lean burn: less CO, more NOx."
+   }
+  },
+  {
+   "id": "u8.pollution.f34",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Two-stroke engines give high HC because some fresh charge escapes through the exhaust port during scavenging (short-circuiting)."
+   },
+   "why": {
+    "en": "That is why most two-strokes were phased out."
+   },
+   "recall_q": {
+    "en": "Why do two-stroke engines emit more HC?"
+   },
+   "recall_a": {
+    "en": "Fresh charge escapes during scavenging."
+   },
+   "explain_simple": {
+    "en": "Some petrol goes straight out."
+   }
+  },
+  {
+   "id": "u8.pollution.f35",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Particulate matter PM2.5 and PM10 are tiny particles (below 2.5 and 10 micrometres). PM2.5 goes deep into the lungs."
+   },
+   "why": {
+    "en": "Diesel soot is mostly fine particles."
+   },
+   "recall_q": {
+    "en": "Which is more harmful: PM10 or PM2.5?"
+   },
+   "recall_a": {
+    "en": "PM2.5."
+   },
+   "explain_simple": {
+    "en": "Smaller dust goes deeper."
+   }
+  },
+  {
+   "id": "u8.pollution.f36",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Photochemical smog forms when HC and NOx react in sunlight, making ozone at ground level."
+   },
+   "why": {
+    "en": "It harms eyes and lungs on sunny city days."
+   },
+   "recall_q": {
+    "en": "Two pollutants that form photochemical smog?"
+   },
+   "recall_a": {
+    "en": "HC and NOx (in sunlight)."
+   },
+   "explain_simple": {
+    "en": "HC + NOx + sun = smog."
+   }
+  },
+  {
+   "id": "u8.pollution.f37",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "CO₂ is not toxic like CO, but it is the main greenhouse gas from vehicles. Burning less fuel is the only way to cut it."
+   },
+   "why": {
+    "en": "Catalysts turn CO into CO₂, not remove it."
+   },
+   "recall_q": {
+    "en": "Does a catalytic converter reduce CO₂?"
+   },
+   "recall_a": {
+    "en": "No; it changes CO to CO₂."
+   },
+   "explain_simple": {
+    "en": "Less fuel = less CO₂."
+   }
+  },
+  {
+   "id": "u8.pollution.f38",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vehicle Scrappage Policy (2021): old vehicles can be scrapped at registered centres; a certificate of deposit gives tax and registration benefits for a new vehicle."
+   },
+   "why": {
+    "en": "Removes old polluting vehicles."
+   },
+   "recall_q": {
+    "en": "Document given when a vehicle is scrapped?"
+   },
+   "recall_a": {
+    "en": "Certificate of deposit."
+   },
+   "explain_simple": {
+    "en": "Scrap old, get benefit on new."
+   }
+  },
+  {
+   "id": "u8.pollution.f39",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Under the scrappage policy, fitness of old vehicles is checked at automated testing stations. Unfit vehicles must be scrapped."
+   },
+   "why": {
+    "en": "Machine tests remove human error."
+   },
+   "recall_q": {
+    "en": "Where are old vehicles tested for fitness under the scrappage policy?"
+   },
+   "recall_a": {
+    "en": "Automated testing stations."
+   },
+   "explain_simple": {
+    "en": "Machines test old vehicles."
+   }
+  },
+  {
+   "id": "u8.pollution.f40",
+   "topic": "u8.pollution",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Vehicle pollution and its control; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Flex-fuel vehicles can run on petrol blended with high ethanol (up to E85 or E100)."
+   },
+   "why": {
+    "en": "Cuts oil imports and emissions."
+   },
+   "recall_q": {
+    "en": "What is a flex-fuel vehicle?"
+   },
+   "recall_a": {
+    "en": "Vehicle that runs on petrol-ethanol blends up to E85/E100."
+   },
+   "explain_simple": {
+    "en": "Runs on lots of ethanol."
+   }
+  },
+  {
+   "id": "u8.ev.f33",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "kW is power (how fast energy is used or charged). kWh is energy (how much is stored). Battery size is kWh; motor and charger rating is kW."
+   },
+   "why": {
+    "en": "PSC trap: the two units are often mixed."
+   },
+   "recall_q": {
+    "en": "Motor rating is in kW or kWh?"
+   },
+   "recall_a": {
+    "en": "kW."
+   },
+   "explain_simple": {
+    "en": "kW = speed of energy; kWh = amount."
+   }
+  },
+  {
+   "id": "u8.ev.f34",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "C-rate tells how fast a battery charges or discharges. 1C means full charge or discharge in one hour; 2C means in half an hour."
+   },
+   "why": {
+    "en": "High C-rate heats the battery."
+   },
+   "recall_q": {
+    "en": "What does 1C mean for a battery?"
+   },
+   "recall_a": {
+    "en": "Full charge or discharge in one hour."
+   },
+   "explain_simple": {
+    "en": "1C = one hour."
+   }
+  },
+  {
+   "id": "u8.ev.f35",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Battery swapping replaces an empty battery with a charged one in minutes. It suits e-rickshaws and two-wheelers."
+   },
+   "why": {
+    "en": "Saves charging time."
+   },
+   "recall_q": {
+    "en": "What is battery swapping?"
+   },
+   "recall_a": {
+    "en": "Exchanging an empty battery for a charged one."
+   },
+   "explain_simple": {
+    "en": "Swap battery instead of charging."
+   }
+  },
+  {
+   "id": "u8.ev.f36",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "EVs are very quiet at low speed, so an Acoustic Vehicle Alerting System (AVAS) makes a sound to warn pedestrians."
+   },
+   "why": {
+    "en": "Blind and distracted pedestrians may not hear an EV."
+   },
+   "recall_q": {
+    "en": "Why do EVs have AVAS?"
+   },
+   "recall_a": {
+    "en": "To warn pedestrians of a quiet vehicle."
+   },
+   "explain_simple": {
+    "en": "Fake sound so people hear the EV."
+   }
+  },
+  {
+   "id": "u8.ev.f37",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "State of health (SOH) shows how much capacity a battery still has compared with new. An EV battery is often replaced around 70–80% SOH."
+   },
+   "why": {
+    "en": "Batteries slowly lose capacity."
+   },
+   "recall_q": {
+    "en": "What does SOH mean?"
+   },
+   "recall_a": {
+    "en": "State of health of the battery."
+   },
+   "explain_simple": {
+    "en": "SOH = battery health."
+   }
+  },
+  {
+   "id": "u8.ev.f38",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Used EV batteries can get a second life in energy storage, and then be recycled to recover lithium, cobalt and nickel. India has Battery Waste Management Rules, 2022."
+   },
+   "why": {
+    "en": "Reduces waste and imports."
+   },
+   "recall_q": {
+    "en": "Rules on battery waste in India?"
+   },
+   "recall_a": {
+    "en": "Battery Waste Management Rules, 2022."
+   },
+   "explain_simple": {
+    "en": "Reuse, then recycle batteries."
+   }
+  },
+  {
+   "id": "u8.ev.f39",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vehicle-to-grid (V2G) lets an EV send power back to the grid when parked."
+   },
+   "why": {
+    "en": "EV batteries can support the grid at peak times."
+   },
+   "recall_q": {
+    "en": "What is V2G?"
+   },
+   "recall_a": {
+    "en": "EV supplying power back to the grid."
+   },
+   "explain_simple": {
+    "en": "Car battery helps the grid."
+   }
+  },
+  {
+   "id": "u8.ev.f40",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: a hybrid EV still needs PUC and pays fuel-vehicle rules for its engine; a pure BEV needs no PUC."
+   },
+   "why": {
+    "en": "No engine, no exhaust test."
+   },
+   "recall_q": {
+    "en": "Does a pure battery EV need a PUC certificate?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "BEV: no PUC; hybrid: yes."
+   }
+  },
+  {
+   "id": "u8.ev.f41",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "EV fires should be fought with plenty of water to cool the battery; the high-voltage system must be treated as live."
+   },
+   "why": {
+    "en": "Lithium batteries can re-ignite."
+   },
+   "recall_q": {
+    "en": "Main method to fight an EV battery fire?"
+   },
+   "recall_a": {
+    "en": "Large amounts of water for cooling."
+   },
+   "explain_simple": {
+    "en": "Cool with lots of water."
+   }
+  },
+  {
+   "id": "u8.ev.f42",
+   "topic": "u8.ev",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Electric and hybrid vehicles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Charging stations need not have a separate electricity licence in India; public charging guidelines set standards for chargers and spacing."
+   },
+   "why": {
+    "en": "Makes it easier to set up chargers."
+   },
+   "recall_q": {
+    "en": "Is a separate electricity licence needed to run an EV charging station?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Anyone can set up a charger."
+   }
   }
  ],
  "questions": [

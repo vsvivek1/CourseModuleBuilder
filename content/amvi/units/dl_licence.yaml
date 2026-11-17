@@ -1004,6 +1004,328 @@ cards:
       - "Sec 15 renewal; late >1 year = retest."
       - "Sec 19 authority disqualifies; 20 court; 24 endorsement; 25A national register."
 
+  # ---------- Extra: safe driving and licence forms ----------
+  - id: f59
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Directions given by a traffic police officer take priority over traffic lights and road signs."
+    why: "The officer sees the real situation at the junction."
+    q: "Police signal says go but light is red. Follow which?"
+    a: "The police officer's direction."
+    simple: "Police signal beats the light."
+  - id: f60
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Before any move, follow Mirror – Signal – Manoeuvre: check mirrors, give the signal, then turn or change lane."
+    why: "Others get time to react."
+    q: "Correct order before a turn?"
+    a: "Mirror, signal, manoeuvre."
+    simple: "Look, signal, then move."
+  - id: f61
+    topic: dl.regulations
+    difficulty: 2
+    learn: "A blind spot is the area beside and behind the vehicle that mirrors do not show. Turn your head to check it before changing lanes."
+    why: "Two-wheelers often hide in blind spots."
+    q: "How do you check the blind spot?"
+    a: "Turn your head and look over the shoulder."
+    simple: "Mirrors miss some places; look yourself."
+  - id: f62
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Braking distance grows with the square of speed. Doubling speed makes the braking distance about four times longer."
+    why: "Small extra speed needs much more room to stop."
+    q: "Speed doubles. Braking distance becomes?"
+    a: "About four times."
+    simple: "2× speed = 4× braking distance."
+  - id: f63
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Aquaplaning: at speed on a wet road, a water layer lifts the tyres off the road and steering stops working. Ease off the accelerator; do not brake hard."
+    why: "Hard braking without grip causes a skid."
+    q: "What should you do when aquaplaning?"
+    a: "Ease off the accelerator, hold steering straight, no hard braking."
+    simple: "Lift foot gently, keep straight."
+  - id: f64
+    topic: dl.regulations
+    difficulty: 2
+    learn: "In a rear-wheel skid, steer in the same direction the rear of the car is sliding, and ease off the brake and accelerator."
+    why: "This brings the car back in line."
+    q: "Rear slides to the left. Which way do you steer?"
+    a: "To the left (into the skid)."
+    simple: "Steer the way the back slides."
+  - id: f65
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Brake failure: pump the brake pedal, shift to a lower gear, use the hand brake slowly, warn others with horn and lights, and steer to a safe place."
+    why: "Engine braking and handbrake slow the vehicle."
+    q: "Give two actions on brake failure."
+    a: "Pump brakes, change to lower gear, use handbrake gradually."
+    simple: "Pump, downshift, handbrake slowly."
+  - id: f66
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Tyre burst: hold the steering firmly, keep straight, do not brake suddenly, slow down gradually and stop at the left side."
+    why: "Sudden braking makes the vehicle swerve."
+    q: "First reaction to a front tyre burst?"
+    a: "Hold the steering firmly and keep straight."
+    simple: "Hold tight, slow down gently."
+  - id: f67
+    topic: dl.regulations
+    difficulty: 2
+    learn: "When dazzled by oncoming headlights at night, slow down and look towards the left edge of the road, not into the lights."
+    why: "Looking into lights blinds you for seconds."
+    q: "Where should you look when dazzled at night?"
+    a: "At the left edge of the road."
+    simple: "Look left, not at the lights."
+  - id: f68
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Going down a ghat road, use the same low gear you would use going up. Never coast in neutral downhill."
+    why: "Engine braking saves the brakes from overheating (brake fade)."
+    q: "Why use a low gear when going downhill?"
+    a: "For engine braking; prevents brake fade."
+    simple: "Low gear downhill, not neutral."
+  - id: f69
+    topic: dl.regulations
+    difficulty: 1
+    learn: "Take a rest break about every two hours on long drives. Tiredness slows reactions like alcohol does."
+    why: "Fatigue causes many highway crashes."
+    q: "About how often should you rest on a long drive?"
+    a: "Every two hours."
+    simple: "Rest every 2 hours."
+  - id: f70
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Defensive driving means expecting others' mistakes and keeping space and time to avoid them."
+    why: "You cannot control others, only your own driving."
+    q: "What is defensive driving?"
+    a: "Driving to avoid crashes despite others' mistakes."
+    simple: "Expect mistakes; stay ready."
+  - id: f71
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Drive slowly and carefully past a school bus that has stopped to let children get in or out, and near schools."
+    why: "Children may run onto the road."
+    q: "What should you do near a stopped school bus?"
+    a: "Slow down and be ready to stop."
+    simple: "School bus stopped: crawl past."
+  - id: f72
+    topic: dl.regulations
+    difficulty: 2
+    learn: "When turning into a side road, give way to pedestrians who are already crossing it."
+    why: "They have started to cross and are vulnerable."
+    q: "Turning left into a side road; pedestrians are crossing it. Who goes first?"
+    a: "Pedestrians."
+    simple: "Turning? Let walkers finish."
+  - id: f73
+    topic: dl.regulations
+    difficulty: 2
+    learn: "On expressways: do not stop, reverse or take a U-turn, and do not walk on the carriageway. Slow vehicles like tractors and two-wheelers may be banned."
+    why: "Very high speeds leave no room for surprises."
+    q: "Can you reverse on an expressway if you miss an exit?"
+    a: "No."
+    simple: "Expressway: no stop, no reverse, no U-turn."
+  - id: f74
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Switch on headlights (low beam) in tunnels, in heavy rain, and from sunset to sunrise."
+    why: "To see and to be seen."
+    q: "Should headlights be on in a tunnel during day?"
+    a: "Yes, low beam."
+    simple: "Tunnel or rain: lights on."
+  - id: f75
+    topic: dl.regulations
+    difficulty: 2
+    learn: "A free left turn at a signal is allowed only if a sign or a green left arrow allows it. Otherwise wait for green."
+    why: "Pedestrians may be crossing on the left."
+    q: "Is left turn on red always allowed?"
+    a: "No, only if a sign or green arrow allows."
+    simple: "Free left only if marked."
+  - id: f76
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Do not straddle two lanes. Keep the vehicle within one lane, especially on curves."
+    why: "Straddling blocks both lanes and confuses others."
+    q: "May you drive on the line between two lanes?"
+    a: "No."
+    simple: "One vehicle, one lane."
+  - id: f77
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Slow down and give space to animals on or near the road. Do not use the horn loudly near them."
+    why: "Frightened animals move unpredictably."
+    q: "Why avoid loud horn near animals?"
+    a: "It frightens them and they move unpredictably."
+    simple: "Animals: slow, quiet, wide."
+  - id: f78
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Use parking lights when a vehicle is parked at night on a road without street lights."
+    why: "Others can see the stopped vehicle."
+    q: "Lights to use when parked on a dark road at night?"
+    a: "Parking lights."
+    simple: "Dark road parking: parking lights on."
+  - id: f79
+    topic: dl.regulations
+    difficulty: 3
+    learn: "PSC trap: a police officer's signal overrides the traffic light, and a traffic light overrides a fixed road sign."
+    why: "Order of priority at junctions."
+    q: "Order of priority: sign, light, police?"
+    a: "Police first, then traffic light, then sign."
+    simple: "Police > light > sign."
+  - id: f80
+    topic: dl.regulations
+    difficulty: 2
+    learn: "Before starting, check mirrors, seat position, seat belt, fuel, brakes and lights. Start moving only after signalling and checking traffic."
+    why: "A good start prevents mistakes later."
+    q: "Name two checks before moving off."
+    a: "Seat belt and mirrors (also brakes, lights)."
+    simple: "Check, belt, mirror, signal, go."
+  - id: f63
+    topic: dl.licensing
+    difficulty: 2
+    learn: "CMVR forms: Form 1 self-declaration of fitness, Form 1A medical certificate, Form 2 application for learner's licence, Form 3 learner's licence."
+    why: "PSC asks form numbers."
+    q: "Learner's licence is issued in which form?"
+    a: "Form 3."
+    simple: "1 fitness, 1A doctor, 2 LL apply, 3 LL."
+  - id: f64
+    topic: dl.licensing
+    difficulty: 2
+    learn: "More forms: Form 4 application for driving licence, Form 5 driving certificate from a driving school, Form 6 driving licence."
+    why: "PSC asks form numbers."
+    q: "Driving licence is issued in which form?"
+    a: "Form 6."
+    simple: "4 DL apply, 5 school certificate, 6 DL."
+  - id: f65
+    topic: dl.licensing
+    difficulty: 2
+    learn: "A driver of vehicles carrying hazardous goods must have passed a course on handling such goods, and the DL must be endorsed for it."
+    why: "Chemicals and fuel can explode or poison."
+    q: "Extra need for a hazardous goods vehicle driver?"
+    a: "Training course in hazardous goods and DL endorsement."
+    simple: "Hazardous load = special training."
+  - id: f66
+    topic: dl.licensing
+    difficulty: 2
+    learn: "The minimum education requirement (8th pass) for a transport vehicle licence was removed in 2019."
+    why: "To meet the shortage of trained drivers."
+    q: "Is 8th pass needed for a transport DL now?"
+    a: "No, removed in 2019."
+    simple: "No school pass needed now."
+  - id: f67
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Learner's licence test can be taken online (Sarathi), with Aadhaar-based identity check, without visiting the RTO."
+    why: "Faceless service saves time."
+    q: "Can the LL test be taken online?"
+    a: "Yes, through Sarathi with Aadhaar."
+    simple: "LL test from home."
+  - id: f68
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Learner's licence test is on traffic rules, signs and driving regulations. Only a pass in this test gives the learner's licence."
+    why: "Basic knowledge before touching the road."
+    q: "LL test is mainly on?"
+    a: "Traffic signs, rules and regulations."
+    simple: "LL test = signs and rules."
+  - id: f69
+    topic: dl.licensing
+    difficulty: 2
+    learn: "A driving licence can be renewed by any licensing authority in India, not only the one that issued it."
+    why: "People move for work."
+    q: "Must you renew a DL only at the issuing RTO?"
+    a: "No, any licensing authority."
+    simple: "Renew anywhere."
+  - id: f70
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Change of address on a DL must be reported to the licensing authority, and a new address can be added online."
+    why: "Notices must reach the holder."
+    q: "Should a change of address be updated on the DL?"
+    a: "Yes."
+    simple: "Moved? Update your DL."
+  - id: f71
+    topic: dl.licensing
+    difficulty: 2
+    learn: "A duplicate licence is issued if the original is lost or damaged, on application to the licensing authority."
+    why: "The holder must always carry a valid licence."
+    q: "What do you apply for if your DL is lost?"
+    a: "Duplicate driving licence."
+    simple: "Lost licence → duplicate."
+  - id: f72
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Conductor licence (Chapter III) needs age at least 18, first-aid knowledge and a medical certificate."
+    why: "Conductors may need to help injured passengers."
+    q: "Minimum age for a conductor licence?"
+    a: "18 years."
+    simple: "Conductor: 18 + first aid."
+  - id: f73
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Disqualification under Section 19 needs a hearing: the licence holder must get a chance to explain before the order."
+    why: "Natural justice."
+    q: "Can a DL be disqualified without hearing the holder?"
+    a: "No."
+    simple: "Hear first, then decide."
+  - id: f74
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Holding a fake licence or one got by giving false information is a ground for revocation under Section 19, and the document can be seized under Section 206."
+    why: "Fraud must not give driving rights."
+    q: "Section to seize a fake DL?"
+    a: "Section 206."
+    simple: "Fake DL: revoke and seize."
+  - id: f75
+    topic: dl.licensing
+    difficulty: 2
+    learn: "A foreigner can drive in India for up to one year with an International Driving Permit issued in their country."
+    why: "Visitors need not take an Indian test."
+    q: "How long can a foreign visitor drive on their IDP in India?"
+    a: "Up to one year."
+    simple: "Visitor with IDP: 1 year."
+  - id: f76
+    topic: dl.licensing
+    difficulty: 3
+    learn: "PSC trap: Section 14 (validity) for transport vehicles is 5 years, but the fitness certificate of a new transport vehicle is 2 years."
+    why: "Two different 'transport' periods."
+    q: "Validity of transport DL vs first fitness certificate?"
+    a: "DL 5 years; fitness 2 years."
+    simple: "Driver 5 years, vehicle 2 years."
+  - id: f77
+    topic: dl.licensing
+    difficulty: 3
+    learn: "PSC trap: learner's licence is valid 6 months, temporary registration 1 month, temporary permit 4 months."
+    why: "Short validity periods are often swapped."
+    q: "Which lasts 1 month: LL, temporary RC or temporary permit?"
+    a: "Temporary registration."
+    simple: "LL 6, temp RC 1, temp permit 4 months."
+  - id: f78
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Motorcycle without gear licence covers scooters and mopeds. A geared motorcycle needs a 'motorcycle with gear' licence."
+    why: "Gear handling is a separate skill."
+    q: "Can an MCWOG licence holder ride a geared bike?"
+    a: "No."
+    simple: "Scooter licence ≠ geared bike."
+  - id: f79
+    topic: dl.licensing
+    difficulty: 2
+    learn: "An LMV licence covers cars, jeeps and light vans. An e-rickshaw needs its own class or the LMV class as notified."
+    why: "Class must match the vehicle."
+    q: "Does an LMV licence cover a car?"
+    a: "Yes."
+    simple: "LMV = cars, jeeps, vans."
+  - id: f80
+    topic: dl.licensing
+    difficulty: 2
+    learn: "Driving with an expired licence is the same as driving without a licence (Section 3), punished under Section 181."
+    why: "Only an effective licence counts."
+    q: "Driving on an expired DL is punished under?"
+    a: "Section 181."
+    simple: "Expired = no licence."
+
 mcq:
   - topic: dl.regulations
     q: "The Motor Vehicles (Driving) Regulations, 2017 were made under section"

@@ -1922,6 +1922,409 @@ cards:
       - "Sec 10 stop; Sec 11 seize and sell; Sec 13 land revenue arrears."
       - "Sec 26 escaped assessment after notice."
 
+  # ---------- Extra: related sections ----------
+  - id: f25
+    topic: law.registration
+    difficulty: 2
+    learn: "Section 50 (transfer of ownership): the seller reports the sale within 14 days (same State) and the buyer reports within 30 days to get the RC transferred."
+    why: "The RC must show the real owner."
+    q: "Time for the buyer to report a transfer of ownership?"
+    a: "30 days."
+    simple: "Seller 14 days, buyer 30 days."
+  - id: f26
+    topic: law.registration
+    difficulty: 2
+    learn: "Section 49: an owner who changes address must inform the registering authority within 30 days."
+    why: "Notices and challans must reach the owner."
+    q: "Time limit to report change of address on RC?"
+    a: "30 days (Section 49)."
+    simple: "Moved house → tell RTO in 30 days."
+  - id: f27
+    topic: law.registration
+    difficulty: 2
+    learn: "Section 51: when a vehicle is bought on loan (hire purchase or hypothecation), the financier's name is entered in the RC."
+    why: "The vehicle cannot be sold without clearing the loan."
+    q: "Entry of financier in RC is under which section?"
+    a: "Section 51."
+    simple: "Loan vehicle: bank's name in RC."
+  - id: f28
+    topic: law.registration
+    difficulty: 2
+    learn: "Registration marks must be shown on the front and back of the vehicle on HSRP plates in the prescribed way (Section 39 and CMVR)."
+    why: "Clear plates help enforcement cameras."
+    q: "Where must registration plates be displayed?"
+    a: "Front and rear."
+    simple: "Number plate front and back."
+  - id: f29
+    topic: law.registration
+    difficulty: 3
+    learn: "PSC trap: Section 46 says registration is valid all over India; Section 47 needs a new mark after 12 months in another State; Section 50 deals with transfer."
+    why: "These three are often mixed."
+    q: "Transfer of ownership is under 46, 47 or 50?"
+    a: "Section 50."
+    simple: "46 India, 47 new State, 50 sale."
+  - id: f16
+    topic: law.permits
+    difficulty: 2
+    learn: "Permit sections: 72 stage carriage, 74 contract carriage, 76 private service vehicle, 79 goods carriage, 87 temporary, 88 national and tourist permits."
+    why: "PSC matches permit types to sections."
+    q: "Stage carriage permit is granted under which section?"
+    a: "Section 72."
+    simple: "72 stage, 74 contract, 79 goods."
+  - id: f17
+    topic: law.permits
+    difficulty: 2
+    learn: "Section 93: licence for agents, canvassers and aggregators. Working without it is punished under Section 193."
+    why: "Booking businesses must be controlled."
+    q: "Which section licenses booking agents and aggregators?"
+    a: "Section 93."
+    simple: "93 licence; 193 punishment."
+  - id: f18
+    topic: law.permits
+    difficulty: 2
+    learn: "A national permit lets a goods carriage run across all of India. An all-India tourist permit does the same for tourist vehicles."
+    why: "Long-distance trade and tourism."
+    q: "Which permit lets a goods vehicle run all over India?"
+    a: "National permit."
+    simple: "National permit = all India goods."
+  - id: f19
+    topic: law.permits
+    difficulty: 2
+    learn: "Permits are granted by the RTA for one region and by the STA for routes across regions in a State."
+    why: "Area of operation decides the authority."
+    q: "Who grants a permit for an inter-regional route in Kerala?"
+    a: "State Transport Authority (STA)."
+    simple: "One region RTA; many regions STA."
+  - id: f20
+    topic: law.permits
+    difficulty: 3
+    learn: "PSC trap: using a transport vehicle against permit conditions (like wrong route) is also 'without permit' under Section 192A."
+    why: "Breaking conditions is treated like having no permit."
+    q: "Is plying on a different route a permit offence?"
+    a: "Yes (Section 192A)."
+    simple: "Wrong route = no permit."
+  - id: f50
+    topic: law.traffic
+    difficulty: 2
+    learn: "Section 116: power to erect traffic signs. Section 117: parking places and halting stations. Section 118: driving regulations. Section 119: duty to obey traffic signs."
+    why: "Sections around the syllabus list."
+    q: "Duty to obey traffic signs is in which section?"
+    a: "Section 119."
+    simple: "116 signs, 117 parking, 118 regulations, 119 obey."
+  - id: f51
+    topic: law.traffic
+    difficulty: 2
+    learn: "Section 121: signals and signalling devices. The driver must give the prescribed signals when turning or stopping."
+    why: "Signals tell others what you will do."
+    q: "Which section deals with signals by drivers?"
+    a: "Section 121."
+    simple: "Sec 121 = signals."
+  - id: f52
+    topic: law.traffic
+    difficulty: 2
+    learn: "Section 124: no person shall travel in a stage carriage without a proper pass or ticket. Section 178 gives the penalty."
+    why: "Fare evasion."
+    q: "Which section bans ticketless travel?"
+    a: "Section 124 (penalty in 178)."
+    simple: "124 rule, 178 fine."
+  - id: f53
+    topic: law.traffic
+    difficulty: 2
+    learn: "Section 130: the driver must produce the licence, and the owner or driver must produce RC, insurance, fitness and permit, when asked by a police officer in uniform or an authorised MVD officer."
+    why: "Checking documents is basic enforcement."
+    q: "Duty to produce licence and RC is in which section?"
+    a: "Section 130."
+    simple: "Sec 130: show your papers."
+  - id: f54
+    topic: law.traffic
+    difficulty: 2
+    learn: "Section 135: the State can make schemes for investigating accident causes, for wayside amenities like rest places, and for traffic aid posts on highways."
+    why: "Learn from accidents and help drivers."
+    q: "Which section deals with schemes for accident investigation and wayside amenities?"
+    a: "Section 135."
+    simple: "Sec 135: study accidents, build rest stops."
+  - id: f55
+    topic: law.traffic
+    difficulty: 3
+    learn: "PSC trap: Section 136 is inspection of accident vehicles by an authorised officer; Section 135 is schemes for accident investigation."
+    why: "Similar words, different sections."
+    q: "Inspection of a vehicle after an accident is under 135 or 136?"
+    a: "Section 136."
+    simple: "135 schemes; 136 inspection."
+  - id: f56
+    topic: law.traffic
+    difficulty: 2
+    learn: "On-the-spot checking of overloading, helmets, seat belts and documents is done by MVD enforcement squads using powers under Sections 114, 130, 206, 207 and 213."
+    why: "Shows how sections work together in an AMVI's job."
+    q: "Under which section can an MVD officer ask for documents?"
+    a: "Section 130 (with Section 213 powers)."
+    simple: "Several sections together give check powers."
+  - id: f58
+    topic: law.offences
+    difficulty: 2
+    learn: "Section 199B: fines under the Act go up by up to 10% every year on 1 April, as notified by the Central Government."
+    why: "Keeps fines in line with inflation."
+    q: "By how much can MV Act fines rise each year?"
+    a: "Up to 10% (Section 199B)."
+    simple: "Fines can rise 10% a year."
+  - id: f59
+    topic: law.offences
+    difficulty: 2
+    learn: "Section 210A: a State Government can raise fines for its State, up to 10 times the amounts in the Act."
+    why: "States can set stronger fines."
+    q: "Up to how many times can a State raise fines?"
+    a: "10 times (Section 210A)."
+    simple: "State can multiply fines up to 10×."
+  - id: f60
+    topic: law.offences
+    difficulty: 2
+    learn: "Section 210B: an enforcing officer who commits an offence under the Act pays twice the normal penalty."
+    why: "Those who enforce the law must obey it."
+    q: "Penalty for an enforcing officer who breaks the MV Act?"
+    a: "Twice the normal penalty (Section 210B)."
+    simple: "Officer breaks rule: double fine."
+  - id: f61
+    topic: law.offences
+    difficulty: 2
+    learn: "Section 201: a vehicle that blocks free flow of traffic: ₹500 per hour of obstruction, plus towing charges. Broken-down vehicles being repaired are not covered."
+    why: "Clears roads quickly."
+    q: "Fine under Section 201 for blocking traffic?"
+    a: "₹500 per hour."
+    simple: "Block road: ₹500 an hour."
+  - id: f62
+    topic: law.offences
+    difficulty: 2
+    learn: "Section 203: a police officer in uniform or authorised MVD officer can ask a driver to take a breath test if drunk driving is suspected."
+    why: "Quick check on the road."
+    q: "Which section allows breath tests?"
+    a: "Section 203."
+    simple: "203 breath test."
+  - id: f63
+    topic: law.offences
+    difficulty: 2
+    learn: "Section 204: if the breath test is positive or refused, a laboratory test of blood can be done by a registered doctor."
+    why: "Confirms the level for court."
+    q: "Which section deals with laboratory (blood) tests?"
+    a: "Section 204."
+    simple: "204 blood test."
+  - id: f64
+    topic: law.offences
+    difficulty: 2
+    learn: "Section 205: refusing a breath or blood test without good reason may be presumed to show that the person was unfit to drive."
+    why: "Refusal should not help the offender."
+    q: "Effect of refusing a breath test?"
+    a: "Presumption of unfitness (Section 205)."
+    simple: "Refuse test → assumed drunk."
+  - id: f65
+    topic: law.offences
+    difficulty: 3
+    learn: "PSC trap: Section 185 offence, 202 arrest, 203 breath test, 204 blood test, 205 presumption."
+    why: "Drink-driving procedure in order."
+    q: "Order of sections for drunk driving procedure?"
+    a: "185, 202, 203, 204, 205."
+    simple: "Offence, arrest, breath, blood, presume."
+  - id: f66
+    topic: law.offences
+    difficulty: 2
+    learn: "Using a vehicle without fitness certificate makes it invalidly registered (Section 56), so it is punishable under Section 192."
+    why: "No fitness = no valid registration."
+    q: "Driving a transport vehicle without fitness is punished under?"
+    a: "Section 192 (as invalidly registered)."
+    simple: "No fitness → like no RC."
+  - id: f67
+    topic: law.offences
+    difficulty: 2
+    learn: "Racing or speed trials are allowed only with written consent of the State Government, on a closed or permitted course."
+    why: "Organised events need safety arrangements."
+    q: "Who can permit a speed trial on a public road?"
+    a: "State Government (written consent)."
+    simple: "Racing only with State permission."
+  - id: f68
+    topic: law.offences
+    difficulty: 3
+    learn: "PSC trap: 192 no registration, 192A no permit, 196 no insurance, 181 no licence."
+    why: "'No document' offences are often swapped."
+    q: "Driving without insurance: 192A or 196?"
+    a: "196."
+    simple: "181 DL, 192 RC, 192A permit, 196 insurance."
+  - id: f24
+    topic: law.kmvt
+    difficulty: 2
+    learn: "Vehicles from other States entering Kerala for a short stay may need to pay Kerala tax for the period, unless they hold an all-India permit with tax paid."
+    why: "Kerala roads are used, so tax is due."
+    q: "Do other-State tourist vehicles pay Kerala tax?"
+    a: "Yes, unless covered by an all-India permit with tax paid."
+    simple: "Outside vehicle pays Kerala tax."
+  - id: f25
+    topic: law.kmvt
+    difficulty: 2
+    learn: "Tax must be paid before the vehicle is used. Using a vehicle with tax unpaid can lead to stopping (Sec 10), seizure (Sec 11) and additional tax (Sec 12)."
+    why: "Shows how the sections connect."
+    q: "Name the three KMVT steps against unpaid tax."
+    a: "Stop (10), seize (11), additional tax (12)."
+    simple: "Stop, seize, pay more."
+  - id: f26
+    topic: law.kmvt
+    difficulty: 2
+    learn: "Electric vehicles have received tax concessions in Kerala to promote clean transport. Check the current rate notified by the Government."
+    why: "Policy changes often."
+    q: "Do EVs get tax concessions in Kerala?"
+    a: "Yes, as notified by Government."
+    simple: "EVs pay less tax."
+  - id: f27
+    topic: law.kmvt
+    difficulty: 2
+    learn: "Tax on a goods vehicle is based on its registered laden weight (GVW). Tax on a stage carriage is based on seating and standing capacity."
+    why: "Bigger earning capacity means more tax."
+    q: "Basis of tax for a goods vehicle?"
+    a: "Registered laden weight (GVW)."
+    simple: "Goods by weight; bus by seats."
+
+  - id: f12
+    topic: law.insurance
+    difficulty: 2
+    learn: "Section 147 lists what a third-party policy must cover: death or injury to any person, including the owner of goods or their agent, and damage to third-party property."
+    why: "Defines the minimum compulsory cover."
+    q: "Which section gives the requirements of a policy?"
+    a: "Section 147."
+    simple: "Sec 147: what the policy must cover."
+  - id: f13
+    topic: law.insurance
+    difficulty: 2
+    learn: "The certificate of insurance must be carried in the vehicle and produced when asked (Section 130). An electronic copy is accepted."
+    why: "Proof of cover on the road."
+    q: "Must the insurance certificate be produced on demand?"
+    a: "Yes."
+    simple: "Carry insurance proof."
+  - id: f14
+    topic: law.insurance
+    difficulty: 2
+    learn: "Motor Vehicle Accident Fund (Section 164B, 2019) gives compulsory cover to all road users, pays hit-and-run victims and golden hour treatment."
+    why: "Victims are paid even when no insurer is liable."
+    q: "Which fund pays hit-and-run compensation?"
+    a: "Motor Vehicle Accident Fund (Section 164B)."
+    simple: "Govt fund pays when no one else does."
+  - id: f15
+    topic: law.insurance
+    difficulty: 2
+    learn: "A claim for compensation must be filed before the MACT within six months of the accident (Section 166, 2019)."
+    why: "Time limit added to speed up cases."
+    q: "Time limit to file a claim before MACT?"
+    a: "Six months from the accident."
+    simple: "Claim within 6 months."
+  - id: f16
+    topic: law.insurance
+    difficulty: 2
+    learn: "Police must send the accident report to the Claims Tribunal and insurer, which helps settle claims without a separate application."
+    why: "Speeds up compensation."
+    q: "Who sends the accident information report to the MACT?"
+    a: "The police (investigating officer)."
+    simple: "Police report starts the claim."
+  - id: f17
+    topic: law.insurance
+    difficulty: 3
+    learn: "PSC trap: Section 146 makes insurance necessary; Section 147 gives policy requirements; Section 196 punishes driving uninsured."
+    why: "Three insurance sections often swapped."
+    q: "Penalty for an uninsured vehicle is in 146, 147 or 196?"
+    a: "196."
+    simple: "146 need, 147 cover, 196 fine."
+  - id: f16
+    topic: law.construction
+    difficulty: 2
+    learn: "AIS (Automotive Industry Standards) are technical standards for vehicles and parts, prepared by ARAI-led committees and notified under CMVR."
+    why: "Type approval checks against these."
+    q: "What are AIS?"
+    a: "Automotive Industry Standards for vehicles and parts."
+    simple: "AIS = vehicle rule book."
+  - id: f17
+    topic: law.construction
+    difficulty: 2
+    learn: "Conformity of Production (COP) tests check that vehicles made later still match the type-approved sample."
+    why: "Makers must not cut corners after approval."
+    q: "What does COP testing check?"
+    a: "That production vehicles match the approved type."
+    simple: "Later vehicles = approved sample."
+  - id: f18
+    topic: law.construction
+    difficulty: 2
+    learn: "Bharat NCAP (2023) gives star ratings (1 to 5) for crash safety of cars up to 3.5 tonnes, tested at Indian agencies."
+    why: "Helps buyers choose safer cars."
+    q: "What does Bharat NCAP rate?"
+    a: "Crash safety of cars (star ratings)."
+    simple: "Bharat NCAP = car safety stars."
+  - id: f19
+    topic: law.construction
+    difficulty: 2
+    learn: "Construction rules in CMVR cover brakes, lights, horn, silencer, tyres, reflectors, speed governors, seat belts and emission limits."
+    why: "These are what an AMVI checks in inspection."
+    q: "Give three items covered by construction rules."
+    a: "Brakes, lights, tyres (also horn, seat belts, emissions)."
+    simple: "Brakes, lights, tyres, horn, belts."
+  - id: f20
+    topic: law.construction
+    difficulty: 2
+    learn: "Fitting unapproved lights, sirens, extra-bright LED bars or loud horns breaks construction rules and Section 52 (alteration)."
+    why: "They dazzle or frighten others."
+    q: "Is fitting a siren on a private car allowed?"
+    a: "No."
+    simple: "No illegal lights or sirens."
+  - id: f31
+    topic: law.defs
+    difficulty: 2
+    learn: "Educational institution bus, Section 2(11): an omnibus owned by a college, school or other educational institution, used only for carrying its students or staff."
+    why: "Special safety rules apply to school buses."
+    q: "Which clause defines educational institution bus?"
+    a: "Section 2(11)."
+    simple: "School-owned bus."
+  - id: f32
+    topic: law.defs
+    difficulty: 2
+    learn: "Invalid carriage, Section 2(18): a vehicle specially made for a person with a physical defect or disability, used only by them."
+    why: "Different from adapted vehicle: built only as invalid carriage."
+    q: "Which clause defines invalid carriage?"
+    a: "Section 2(18)."
+    simple: "Special vehicle for a disabled person."
+  - id: f33
+    topic: law.defs
+    difficulty: 2
+    learn: "Tractor, Section 2(44): a vehicle not built to carry any load itself, other than equipment for propulsion. Trailer, Section 2(46): a vehicle drawn by a motor vehicle."
+    why: "Tractor-trailers are common in rural Kerala."
+    q: "Define trailer."
+    a: "A vehicle drawn or meant to be drawn by a motor vehicle."
+    simple: "Tractor pulls; trailer is pulled."
+  - id: f34
+    topic: law.defs
+    difficulty: 2
+    learn: "Public place, Section 2(34): a road, street or any other place to which the public has a right of access, including places where passengers board stage carriages."
+    why: "Most MV Act rules apply in public places."
+    q: "Is a bus stand a public place under the MV Act?"
+    a: "Yes."
+    simple: "Any place the public can go."
+  - id: f35
+    topic: law.defs
+    difficulty: 2
+    learn: "Owner, Section 2(30): the person in whose name the vehicle is registered; for a minor, the guardian; under hire purchase or lease, the person in possession."
+    why: "Liability falls on the owner."
+    q: "Who is the owner of a vehicle on hire purchase?"
+    a: "The person in possession under the agreement."
+    simple: "Owner = registered person (or user under lease)."
+  - id: f36
+    topic: law.defs
+    difficulty: 2
+    learn: "Registering authority, Section 2(41): the authority empowered to register motor vehicles under Chapter IV (in Kerala, the RTO or Joint RTO)."
+    why: "AMVIs assist this authority."
+    q: "Who is the registering authority in Kerala?"
+    a: "RTO / Joint RTO."
+    simple: "RTO registers vehicles."
+  - id: f37
+    topic: law.defs
+    difficulty: 3
+    learn: "PSC trap: an omnibus (2(29)) counts persons and need not be for hire; a maxi cab (2(22)) and motor cab (2(25)) are for hire."
+    why: "Hire is the key difference."
+    q: "Which definition does not require hire or reward: omnibus or maxi cab?"
+    a: "Omnibus."
+    simple: "Omnibus: size only; cabs: for hire."
+
 mcq:
   - topic: law.defs
     q: "A motor vehicle constructed to carry more than six but not more than twelve passengers excluding driver, for hire or reward, is a"
