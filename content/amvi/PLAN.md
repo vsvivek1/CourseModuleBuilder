@@ -58,9 +58,12 @@ Each topic also gets one `summary` card (3–5 points) for revision and cram.
 
 ## Topic tree and card targets
 
-Marks show weight; the card count follows it. Total target ≈ **450 cards**.
+Marks show weight; the card count follows it. Total target **2,000+ cards**
+(vivek's choice, 17 Nov 2026): every syllabus term, formula, number and
+section gets its own card, plus cards on common PSC traps (look-alike terms,
+'which is higher', units) and worked numericals as step cards.
 
-### Unit I — Fluid mechanics and hydraulic machines (10 marks, ~45 cards)
+### Unit I — Fluid mechanics and hydraulic machines (10 marks, ~180 cards)
 | Topic id | Covers |
 |---|---|
 | u1.properties | density, specific weight, specific volume, specific gravity, viscosity, kinematic viscosity, Newton's law of viscosity, compressibility, surface tension, capillarity |
@@ -72,7 +75,7 @@ Marks show weight; the card count follows it. Total target ≈ **450 cards**.
 | u1.oils | hydraulic oil properties: viscosity index, oxidation stability, demulsibility, lubricity, rust prevention, pour point, flash & fire point, neutralisation number |
 | u1.machines | pumps (centrifugal, reciprocating), slip, efficiency, discharge, specific speed, turbines (impulse, reaction), comparison |
 
-### Unit II — Thermal engineering (10 marks, ~45 cards)
+### Unit II — Thermal engineering (10 marks, ~180 cards)
 | Topic id | Covers |
 |---|---|
 | u2.laws | zeroth, first, second law of thermodynamics |
@@ -83,7 +86,7 @@ Marks show weight; the card count follows it. Total target ≈ **450 cards**.
 | u2.compressors | uses, types, single/multi stage, single/double acting, work and efficiency |
 | u2.heat | conduction, convection, radiation, Fourier's law, thermal conductivity |
 
-### Unit III — Strength of materials (10 marks, ~50 cards)
+### Unit III — Strength of materials (10 marks, ~180 cards)
 | Topic id | Covers |
 |---|---|
 | u3.stress | tensile, compressive, shear stress and strain, longitudinal/lateral strain, Poisson's ratio, volumetric strain |
@@ -97,7 +100,7 @@ Marks show weight; the card count follows it. Total target ≈ **450 cards**.
 | u3.bolts_springs | bolts, springs, spring index, deflection, stiffness |
 | u3.welds | fillet and butt welds, terms, strength |
 
-### Unit IV — Machine elements, materials and boilers (10 marks, ~45 cards)
+### Unit IV — Machine elements, materials and boilers (10 marks, ~180 cards)
 | Topic id | Covers |
 |---|---|
 | u4.bearings | functions, radial/thrust, sliding/rolling, journal, bearing characteristic number, heat generated |
@@ -107,7 +110,7 @@ Marks show weight; the card count follows it. Total target ≈ **450 cards**.
 | u4.boilers | types, mountings, accessories, steam engine parts and working |
 | u4.materials | cast iron types, steel types and composition, heat treatment, alloy steels, non-ferrous metals and alloys |
 
-### Module V — Engine construction and systems (10 marks, ~55 cards)
+### Module V — Engine construction and systems (10 marks, ~200 cards)
 | Topic id | Covers |
 |---|---|
 | u5.block | cylinder block, liners, head, gasket |
@@ -120,7 +123,7 @@ Marks show weight; the card count follows it. Total target ≈ **450 cards**.
 | u5.lube | wet/dry sump, splash/pressure feed, oil pump, relief valve, coolers, filters, seals, crankcase ventilation |
 | u5.cooling | air/water cooling, thermosyphon, pump circulation, thermostat, radiator, pressure cap, coolant, antifreeze, fan |
 
-### Module VI — Chassis (10 marks, ~50 cards)
+### Module VI — Chassis (10 marks, ~180 cards)
 | Topic id | Covers |
 |---|---|
 | u6.frame | chassis, frame types and sections, bumpers, sub-frames, materials |
@@ -129,7 +132,7 @@ Marks show weight; the card count follows it. Total target ≈ **450 cards**.
 | u6.steering | Ackermann, Davis, steering gearboxes, linkages, power steering, collapsible column, wheel alignment (camber, caster, toe, KPI) |
 | u6.brakes | mechanical, hydraulic, air, servo brakes, drum/disc, master cylinder, wheel cylinder, bleeding |
 
-### Module VII — Transmission and electrical (10 marks, ~60 cards)
+### Module VII — Transmission and electrical (10 marks, ~220 cards)
 | Topic id | Covers |
 |---|---|
 | u7.clutch | friction clutch principle, single plate, diaphragm, cone, centrifugal, semi-centrifugal, vacuum, hydraulic, electromagnetic, multiplate, fluid flywheel |
@@ -140,7 +143,7 @@ Marks show weight; the card count follows it. Total target ≈ **450 cards**.
 | u7.starting | starter motor, Bendix, overrunning clutch, axial, pre-engaged |
 | u7.ignition | coil ignition parts, cam angle, condenser, distributor, spark plugs, advance, magneto, electronic, transistorised, computer controlled, DLI |
 
-### Unit VIII — Transport management and modern technology (10 marks, ~55 cards)
+### Unit VIII — Transport management and modern technology (10 marks, ~200 cards)
 | Topic id | Covers |
 |---|---|
 | u8.mvact_basics | features of MV Act, driver/conductor tests and duties, registration, traffic signs, MVD wings |
@@ -151,13 +154,13 @@ Marks show weight; the card count follows it. Total target ≈ **450 cards**.
 | u8.accessories | cruise control, power seat/mirror, rain-sensing wiper, climate control, noise control, parking sensors, seat belt, airbag, ESC, ABS, keyless entry, immobiliser, traction control, GPS |
 | u8.ev | EV and hybrid benefits, challenges, policies, EV drive and parts, hybrid types and parts |
 
-### Part II — Driving licence (10 marks, ~35 cards)
+### Part II — Driving licence (10 marks, ~150 cards)
 | Topic id | Covers |
 |---|---|
 | dl.regulations | Motor Vehicles (Driving) Regulations, 2017: lane driving, overtaking, signals, parking, speed, use of horn, hand signals, right of way |
 | dl.licensing | MV Act 1988 Chapter II, sections 3–28: need for licence, age limits, learner's licence, DL classes, tests, validity, renewal, disqualification, endorsement |
 
-### Part III — Job related laws (10 marks, ~70 cards)
+### Part III — Job related laws (10 marks, ~250 cards)
 | Topic id | Covers |
 |---|---|
 | law.defs | Section 2 definitions listed in the syllabus (adapted vehicle … unladen weight) |

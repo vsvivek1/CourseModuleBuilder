@@ -1,0 +1,4198 @@
+{
+ "schema_version": "1.0",
+ "course": {
+  "id": "amvi",
+  "title": {
+   "en": "AMVI Exam Prep — Assistant Motor Vehicle Inspector"
+  },
+  "audience": "adult",
+  "languages": [
+   "en"
+  ],
+  "exam": {
+   "name": "Kerala PSC Assistant Motor Vehicle Inspector (next notification)",
+   "date": "2027-06-30",
+   "status": "estimated",
+   "source": "https://www.keralapsc.gov.in"
+  }
+ },
+ "topics": [
+  {
+   "id": "u1.properties",
+   "subject": "fluid_mechanics",
+   "title": {
+    "en": "Properties of fluids"
+   },
+   "order": 1,
+   "freq": 0.8
+  },
+  {
+   "id": "u1.pressure",
+   "subject": "fluid_mechanics",
+   "title": {
+    "en": "Fluid pressure and Pascal's law"
+   },
+   "order": 2,
+   "freq": 0.7
+  },
+  {
+   "id": "u1.measure",
+   "subject": "fluid_mechanics",
+   "title": {
+    "en": "Pressure measuring instruments"
+   },
+   "order": 3,
+   "freq": 0.6
+  },
+  {
+   "id": "u1.fluidtypes",
+   "subject": "fluid_mechanics",
+   "title": {
+    "en": "Types of fluids"
+   },
+   "order": 4,
+   "freq": 0.5
+  },
+  {
+   "id": "u1.flow",
+   "subject": "fluid_mechanics",
+   "title": {
+    "en": "Flow types, orifice, notch, venturimeter, continuity"
+   },
+   "order": 5,
+   "freq": 0.7
+  },
+  {
+   "id": "u1.losses",
+   "subject": "fluid_mechanics",
+   "title": {
+    "en": "Head losses, Darcy and Chezy formulas"
+   },
+   "order": 6,
+   "freq": 0.5
+  },
+  {
+   "id": "u1.oils",
+   "subject": "fluid_mechanics",
+   "title": {
+    "en": "Properties of hydraulic oils"
+   },
+   "order": 7,
+   "freq": 0.5
+  },
+  {
+   "id": "u1.machines",
+   "subject": "fluid_mechanics",
+   "title": {
+    "en": "Pumps and turbines"
+   },
+   "order": 8,
+   "freq": 0.7
+  }
+ ],
+ "cards": [
+  {
+   "id": "u1.properties.f01",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A fluid is anything that flows: liquids and gases. It cannot keep its own shape."
+   },
+   "why": {
+    "en": "Its particles slide past each other easily, so it takes the shape of its container."
+   },
+   "example": {
+    "en": "Water takes the shape of a glass. Air fills a tyre."
+   },
+   "recall_q": {
+    "en": "What is a fluid?"
+   },
+   "recall_a": {
+    "en": "A substance that flows — liquid or gas."
+   },
+   "explain_simple": {
+    "en": "If it can be poured or it spreads out, it is a fluid."
+   }
+  },
+  {
+   "id": "u1.properties.f02",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Density (mass density) is mass per unit volume. Density = Mass / Volume. Unit: kg/m³. Symbol: ρ (rho)."
+   },
+   "why": {
+    "en": "It tells how much 'stuff' is packed into a space."
+   },
+   "example": {
+    "en": "Water is 1000 kg/m³. Petrol is lighter, about 750 kg/m³, so petrol floats on water."
+   },
+   "recall_q": {
+    "en": "Density of water in kg/m³?"
+   },
+   "recall_a": {
+    "en": "1000 kg/m³."
+   },
+   "explain_simple": {
+    "en": "Heavy for its size = high density."
+   }
+  },
+  {
+   "id": "u1.properties.f03",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Specific weight (weight density) is weight per unit volume. w = ρ × g. Unit: N/m³."
+   },
+   "why": {
+    "en": "Weight is mass pulled by gravity, so multiply density by g (9.81 m/s²)."
+   },
+   "example": {
+    "en": "Water: 1000 × 9.81 = 9810 N/m³."
+   },
+   "recall_q": {
+    "en": "Formula for specific weight?"
+   },
+   "recall_a": {
+    "en": "w = ρ × g (unit N/m³)."
+   },
+   "explain_simple": {
+    "en": "Density talks about mass. Specific weight talks about weight."
+   }
+  },
+  {
+   "id": "u1.properties.f04",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Specific volume is volume per unit mass. It is 1 / density. Unit: m³/kg."
+   },
+   "why": {
+    "en": "It is just density turned upside down."
+   },
+   "example": {
+    "en": "Water: 1/1000 = 0.001 m³/kg."
+   },
+   "recall_q": {
+    "en": "Specific volume is the reciprocal of what?"
+   },
+   "recall_a": {
+    "en": "Density."
+   },
+   "explain_simple": {
+    "en": "How much space one kilogram takes."
+   }
+  },
+  {
+   "id": "u1.properties.f05",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Specific gravity (relative density) = density of the liquid / density of water. It has no unit."
+   },
+   "why": {
+    "en": "It compares a liquid with water, so the units cancel."
+   },
+   "example": {
+    "en": "Mercury has specific gravity 13.6 — it is 13.6 times heavier than water."
+   },
+   "recall_q": {
+    "en": "Specific gravity of mercury?"
+   },
+   "recall_a": {
+    "en": "13.6"
+   },
+   "explain_simple": {
+    "en": "How many times heavier than water."
+   }
+  },
+  {
+   "id": "u1.properties.f06",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Viscosity is a fluid's resistance to flow — its inner friction. Thick fluid = high viscosity."
+   },
+   "why": {
+    "en": "Layers of the fluid rub against each other when they move."
+   },
+   "example": {
+    "en": "Honey and engine oil flow slowly. Water and petrol flow fast."
+   },
+   "recall_q": {
+    "en": "What is viscosity?"
+   },
+   "recall_a": {
+    "en": "Resistance to flow (internal friction of a fluid)."
+   },
+   "explain_simple": {
+    "en": "Viscosity means thickness of a liquid."
+   }
+  },
+  {
+   "id": "u1.properties.f07",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Dynamic viscosity (μ) unit: N·s/m² or Pa·s. CGS unit: poise. 1 poise = 0.1 N·s/m²."
+   },
+   "why": {
+    "en": "It is shear stress divided by velocity gradient."
+   },
+   "recall_q": {
+    "en": "CGS unit of dynamic viscosity?"
+   },
+   "recall_a": {
+    "en": "Poise (1 poise = 0.1 N·s/m²)."
+   },
+   "explain_simple": {
+    "en": "Viscosity is measured in poise or Pa·s."
+   }
+  },
+  {
+   "id": "u1.properties.f08",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Kinematic viscosity (ν) = dynamic viscosity / density. SI unit: m²/s. CGS unit: stoke."
+   },
+   "why": {
+    "en": "Dividing by density removes the mass part; only length and time remain."
+   },
+   "example": {
+    "en": "1 stoke = 1 cm²/s = 10⁻⁴ m²/s."
+   },
+   "recall_q": {
+    "en": "Unit of kinematic viscosity in CGS?"
+   },
+   "recall_a": {
+    "en": "Stoke (cm²/s)."
+   },
+   "explain_simple": {
+    "en": "Kinematic viscosity = μ / ρ."
+   }
+  },
+  {
+   "id": "u1.properties.f09",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Newton's law of viscosity: shear stress is proportional to velocity gradient. τ = μ × (du/dy)."
+   },
+   "why": {
+    "en": "The faster one layer slides over the next, the more force is needed."
+   },
+   "example": {
+    "en": "Stirring honey fast needs more effort than stirring slowly."
+   },
+   "recall_q": {
+    "en": "State Newton's law of viscosity as a formula."
+   },
+   "recall_a": {
+    "en": "τ = μ × du/dy"
+   },
+   "explain_simple": {
+    "en": "Faster sliding of layers → more drag."
+   }
+  },
+  {
+   "id": "u1.properties.f10",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Viscosity of liquids falls when heated. Viscosity of gases rises when heated."
+   },
+   "why": {
+    "en": "In liquids, heat weakens the pull between molecules. In gases, heat makes molecules collide more."
+   },
+   "example": {
+    "en": "Cold engine oil is thick in the morning; warm oil is thin."
+   },
+   "recall_q": {
+    "en": "What happens to the viscosity of a liquid when it is heated?"
+   },
+   "recall_a": {
+    "en": "It decreases."
+   },
+   "explain_simple": {
+    "en": "Hot oil = thin oil. Hot gas = thicker gas."
+   }
+  },
+  {
+   "id": "u1.properties.f11",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compressibility is how much a fluid's volume shrinks under pressure. It is 1 / bulk modulus."
+   },
+   "why": {
+    "en": "Gases squeeze easily; liquids hardly squeeze at all."
+   },
+   "example": {
+    "en": "You can pump much air into a tyre. You cannot squeeze water into a bottle that is full."
+   },
+   "recall_q": {
+    "en": "Compressibility is the reciprocal of what?"
+   },
+   "recall_a": {
+    "en": "Bulk modulus (K)."
+   },
+   "explain_simple": {
+    "en": "Easy to squeeze = high compressibility."
+   }
+  },
+  {
+   "id": "u1.properties.f12",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Surface tension is the pull on a liquid surface that makes it act like a stretched skin. Unit: N/m."
+   },
+   "why": {
+    "en": "Molecules on the surface are pulled inward by the molecules below."
+   },
+   "example": {
+    "en": "Water drops are round. A small insect can walk on water."
+   },
+   "recall_q": {
+    "en": "Unit of surface tension?"
+   },
+   "recall_a": {
+    "en": "N/m"
+   },
+   "explain_simple": {
+    "en": "The surface of water behaves like a thin rubber sheet."
+   }
+  },
+  {
+   "id": "u1.properties.f13",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Capillarity: a liquid rises or falls in a thin tube. Water rises (wets glass). Mercury falls (does not wet glass)."
+   },
+   "why": {
+    "en": "It is caused by surface tension and the attraction between the liquid and the tube wall."
+   },
+   "example": {
+    "en": "Kerosene climbs up the wick of a lamp."
+   },
+   "recall_q": {
+    "en": "In a thin glass tube, does mercury rise or fall?"
+   },
+   "recall_a": {
+    "en": "Falls (capillary depression)."
+   },
+   "explain_simple": {
+    "en": "Water climbs a thin tube; mercury goes down."
+   }
+  },
+  {
+   "id": "u1.properties.f14",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Capillary rise h = 4σcosθ / (ρgd). Thinner tube → higher rise."
+   },
+   "why": {
+    "en": "The diameter d is in the bottom of the formula."
+   },
+   "recall_q": {
+    "en": "If the tube is made thinner, what happens to capillary rise?"
+   },
+   "recall_a": {
+    "en": "It increases."
+   },
+   "explain_simple": {
+    "en": "Smaller tube, taller rise."
+   }
+  },
+  {
+   "id": "u1.properties.sum",
+   "topic": "u1.properties",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Properties of fluids"
+   },
+   "points": [
+    {
+     "en": "Density = mass/volume (water 1000 kg/m³)."
+    },
+    {
+     "en": "Specific weight = ρg; specific gravity has no unit."
+    },
+    {
+     "en": "Viscosity = resistance to flow; τ = μ du/dy."
+    },
+    {
+     "en": "Kinematic viscosity = μ/ρ, unit stoke."
+    },
+    {
+     "en": "Surface tension N/m; water rises, mercury falls in a tube."
+    }
+   ]
+  },
+  {
+   "id": "u1.pressure.f01",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pressure = Force / Area. Unit: pascal (Pa) = 1 N/m². 1 bar = 10⁵ Pa."
+   },
+   "why": {
+    "en": "The same force on a small area pushes harder."
+   },
+   "example": {
+    "en": "A sharp knife cuts better than a blunt one."
+   },
+   "recall_q": {
+    "en": "1 bar equals how many pascal?"
+   },
+   "recall_a": {
+    "en": "100,000 Pa (10⁵ Pa)."
+   },
+   "explain_simple": {
+    "en": "Pressure is push on each square metre."
+   }
+  },
+  {
+   "id": "u1.pressure.f02",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pressure in a liquid at depth h is p = ρgh. Pressure head h = p / (ρg)."
+   },
+   "why": {
+    "en": "Deeper down, more liquid sits on top and presses down."
+   },
+   "example": {
+    "en": "Ears hurt at the bottom of a deep pond."
+   },
+   "recall_q": {
+    "en": "Formula for pressure at depth h in a liquid?"
+   },
+   "recall_a": {
+    "en": "p = ρgh"
+   },
+   "explain_simple": {
+    "en": "Deeper = more pressure."
+   }
+  },
+  {
+   "id": "u1.pressure.f03",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Absolute pressure = Atmospheric pressure + Gauge pressure."
+   },
+   "why": {
+    "en": "A gauge reads zero at normal air pressure, so it misses the air's share."
+   },
+   "example": {
+    "en": "A tyre gauge shows 30 psi; real (absolute) pressure is about 30 + 14.7 psi."
+   },
+   "recall_q": {
+    "en": "Absolute pressure = ?"
+   },
+   "recall_a": {
+    "en": "Atmospheric + gauge pressure."
+   },
+   "explain_simple": {
+    "en": "Real pressure = air pressure + what the gauge shows."
+   }
+  },
+  {
+   "id": "u1.pressure.f04",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vacuum pressure is pressure below atmospheric. Absolute = Atmospheric − Vacuum."
+   },
+   "why": {
+    "en": "Vacuum is how much less than air pressure there is."
+   },
+   "example": {
+    "en": "The inlet manifold of a running petrol engine has vacuum."
+   },
+   "recall_q": {
+    "en": "Absolute pressure when there is vacuum = ?"
+   },
+   "recall_a": {
+    "en": "Atmospheric − vacuum pressure."
+   },
+   "explain_simple": {
+    "en": "Vacuum is 'less than air pressure'."
+   }
+  },
+  {
+   "id": "u1.pressure.f05",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Standard atmospheric pressure = 101.325 kN/m² = 760 mm of mercury = 10.3 m of water."
+   },
+   "why": {
+    "en": "The weight of the air above us presses on everything."
+   },
+   "recall_q": {
+    "en": "Atmospheric pressure in mm of mercury?"
+   },
+   "recall_a": {
+    "en": "760 mm of Hg."
+   },
+   "explain_simple": {
+    "en": "Air pressure holds up 760 mm of mercury."
+   }
+  },
+  {
+   "id": "u1.pressure.f06",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pascal's law: pressure applied on a confined fluid is passed equally in all directions."
+   },
+   "why": {
+    "en": "A fluid at rest cannot hold different pressures at the same level."
+   },
+   "example": {
+    "en": "Hydraulic brakes, hydraulic jack and hydraulic press work on Pascal's law."
+   },
+   "recall_q": {
+    "en": "Hydraulic brakes work on which law?"
+   },
+   "recall_a": {
+    "en": "Pascal's law."
+   },
+   "explain_simple": {
+    "en": "Push the fluid at one end; the push reaches every side equally."
+   }
+  },
+  {
+   "id": "u1.pressure.sum",
+   "topic": "u1.pressure",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Fluid pressure and Pascal's law"
+   },
+   "points": [
+    {
+     "en": "Pressure = F/A, unit Pa; 1 bar = 10⁵ Pa."
+    },
+    {
+     "en": "p = ρgh; pressure head = p/ρg."
+    },
+    {
+     "en": "Absolute = atmospheric + gauge (− vacuum)."
+    },
+    {
+     "en": "Atmosphere = 760 mm Hg = 10.3 m water."
+    },
+    {
+     "en": "Pascal's law → hydraulic brake, jack, press."
+    }
+   ]
+  },
+  {
+   "id": "u1.measure.f01",
+   "topic": "u1.measure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pressure measuring instruments; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A piezometer is a simple open glass tube fixed to a pipe. Liquid rises in it to show pressure."
+   },
+   "why": {
+    "en": "Height of liquid in the tube = pressure head."
+   },
+   "recall_q": {
+    "en": "Can a piezometer measure vacuum (negative) pressure?"
+   },
+   "recall_a": {
+    "en": "No. Only small positive pressures of liquids."
+   },
+   "explain_simple": {
+    "en": "A straight tube where water climbs to show pressure."
+   }
+  },
+  {
+   "id": "u1.measure.f02",
+   "topic": "u1.measure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pressure measuring instruments; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A U-tube manometer has a liquid (often mercury) in a U-shaped tube. It measures high or negative pressure."
+   },
+   "why": {
+    "en": "Heavy mercury balances high pressure in a short tube."
+   },
+   "recall_q": {
+    "en": "Which instrument measures pressure at one point, including vacuum: piezometer or U-tube manometer?"
+   },
+   "recall_a": {
+    "en": "U-tube manometer."
+   },
+   "explain_simple": {
+    "en": "Two arms of a U; the level difference shows pressure."
+   }
+  },
+  {
+   "id": "u1.measure.f03",
+   "topic": "u1.measure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pressure measuring instruments; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A differential manometer measures the pressure difference between two points or two pipes."
+   },
+   "why": {
+    "en": "Each arm is connected to a different point; the level gap shows the difference."
+   },
+   "recall_q": {
+    "en": "What does a differential manometer measure?"
+   },
+   "recall_a": {
+    "en": "Pressure difference between two points."
+   },
+   "explain_simple": {
+    "en": "It compares two pressures."
+   }
+  },
+  {
+   "id": "u1.measure.f04",
+   "topic": "u1.measure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pressure measuring instruments; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A Bourdon tube pressure gauge has a bent oval tube that straightens under pressure and turns a pointer."
+   },
+   "why": {
+    "en": "Pressure inside a curved tube tries to make it straight."
+   },
+   "example": {
+    "en": "Air pressure gauges at petrol pumps and on air-brake trucks."
+   },
+   "recall_q": {
+    "en": "What part moves inside a Bourdon gauge?"
+   },
+   "recall_a": {
+    "en": "A curved (C-shaped) oval tube."
+   },
+   "explain_simple": {
+    "en": "Pressure straightens a bent tube, and the pointer moves."
+   }
+  },
+  {
+   "id": "u1.measure.f05",
+   "topic": "u1.measure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pressure measuring instruments; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A barometer measures atmospheric pressure. A manometer measures fluid pressure in pipes or vessels."
+   },
+   "why": {
+    "en": "Different jobs: one reads the air, one reads a system."
+   },
+   "recall_q": {
+    "en": "Instrument that measures atmospheric pressure?"
+   },
+   "recall_a": {
+    "en": "Barometer."
+   },
+   "explain_simple": {
+    "en": "Baro = air pressure. Mano = pipe pressure."
+   }
+  },
+  {
+   "id": "u1.measure.sum",
+   "topic": "u1.measure",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pressure measuring instruments; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Pressure measuring instruments"
+   },
+   "points": [
+    {
+     "en": "Piezometer: open tube, low positive pressure only."
+    },
+    {
+     "en": "U-tube manometer: high and vacuum pressure."
+    },
+    {
+     "en": "Differential manometer: difference between two points."
+    },
+    {
+     "en": "Bourdon gauge: curved tube straightens."
+    },
+    {
+     "en": "Barometer: atmospheric pressure."
+    }
+   ]
+  },
+  {
+   "id": "u1.fluidtypes.f01",
+   "topic": "u1.fluidtypes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Types of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ideal fluid: no viscosity and cannot be compressed. It does not exist in real life."
+   },
+   "why": {
+    "en": "It is an imaginary fluid used to make calculations easy."
+   },
+   "recall_q": {
+    "en": "Does an ideal fluid have viscosity?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "A perfect, friction-free fluid that exists only on paper."
+   }
+  },
+  {
+   "id": "u1.fluidtypes.f02",
+   "topic": "u1.fluidtypes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Types of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Real fluid: has viscosity. All actual fluids are real fluids."
+   },
+   "why": {
+    "en": "Every real liquid and gas has some inner friction."
+   },
+   "example": {
+    "en": "Water, air, oil, petrol."
+   },
+   "recall_q": {
+    "en": "A fluid that has viscosity is called?"
+   },
+   "recall_a": {
+    "en": "Real fluid."
+   },
+   "explain_simple": {
+    "en": "Every fluid you can touch is a real fluid."
+   }
+  },
+  {
+   "id": "u1.fluidtypes.f03",
+   "topic": "u1.fluidtypes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Types of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Newtonian fluid obeys Newton's law of viscosity: viscosity stays the same however fast you stir."
+   },
+   "why": {
+    "en": "Shear stress and velocity gradient form a straight line."
+   },
+   "example": {
+    "en": "Water, air, petrol, thin oils."
+   },
+   "recall_q": {
+    "en": "Is water Newtonian or non-Newtonian?"
+   },
+   "recall_a": {
+    "en": "Newtonian."
+   },
+   "explain_simple": {
+    "en": "Stir slow or fast — thickness stays the same."
+   }
+  },
+  {
+   "id": "u1.fluidtypes.f04",
+   "topic": "u1.fluidtypes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Types of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Non-Newtonian fluid does not obey Newton's law: its thickness changes when stirred or pushed."
+   },
+   "why": {
+    "en": "Shear stress and velocity gradient do not form a straight line."
+   },
+   "example": {
+    "en": "Grease, toothpaste, paint, blood, ketchup."
+   },
+   "recall_q": {
+    "en": "Give one example of a non-Newtonian fluid."
+   },
+   "recall_a": {
+    "en": "Grease (or toothpaste, paint, blood)."
+   },
+   "explain_simple": {
+    "en": "Its thickness changes when you push it."
+   }
+  },
+  {
+   "id": "u1.flow.f01",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steady flow: speed and pressure at a point do not change with time. Unsteady flow: they change with time."
+   },
+   "why": {
+    "en": "We watch one fixed point and see if things change over time."
+   },
+   "example": {
+    "en": "Steady: a tap kept open the same. Unsteady: a tap being opened or closed."
+   },
+   "recall_q": {
+    "en": "Flow where conditions at a point do not change with time?"
+   },
+   "recall_a": {
+    "en": "Steady flow."
+   },
+   "explain_simple": {
+    "en": "Steady = same over time."
+   }
+  },
+  {
+   "id": "u1.flow.f02",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Uniform flow: velocity is the same at every point along the flow. Non-uniform: velocity changes from point to point."
+   },
+   "why": {
+    "en": "Here we compare places, not times."
+   },
+   "example": {
+    "en": "Uniform: water in a long straight pipe of same size. Non-uniform: a pipe that narrows."
+   },
+   "recall_q": {
+    "en": "Velocity changes from place to place — which flow?"
+   },
+   "recall_a": {
+    "en": "Non-uniform flow."
+   },
+   "explain_simple": {
+    "en": "Uniform = same everywhere along the pipe."
+   }
+  },
+  {
+   "id": "u1.flow.f03",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Laminar flow: fluid moves in smooth parallel layers. Turbulent flow: fluid moves in a mixed, swirling way."
+   },
+   "why": {
+    "en": "Slow, thick flow stays orderly; fast flow breaks into whirls."
+   },
+   "example": {
+    "en": "Honey poured slowly is laminar. A river in flood is turbulent."
+   },
+   "recall_q": {
+    "en": "Flow in smooth parallel layers is called?"
+   },
+   "recall_a": {
+    "en": "Laminar flow."
+   },
+   "explain_simple": {
+    "en": "Laminar = neat layers. Turbulent = messy swirls."
+   }
+  },
+  {
+   "id": "u1.flow.f04",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Reynolds number decides the flow type in a pipe: below 2000 laminar, 2000–4000 transition, above 4000 turbulent."
+   },
+   "why": {
+    "en": "Re = ρVD/μ compares inertia force with viscous force."
+   },
+   "recall_q": {
+    "en": "Reynolds number above which pipe flow is turbulent?"
+   },
+   "recall_a": {
+    "en": "About 4000."
+   },
+   "explain_simple": {
+    "en": "Small Re = calm flow. Big Re = rough flow."
+   }
+  },
+  {
+   "id": "u1.flow.f05",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Continuity equation: A₁V₁ = A₂V₂. Discharge stays the same through a pipe."
+   },
+   "why": {
+    "en": "Liquid cannot vanish or pile up, so what goes in must come out."
+   },
+   "example": {
+    "en": "Pinch a garden hose and the water comes out faster."
+   },
+   "recall_q": {
+    "en": "Write the continuity equation."
+   },
+   "recall_a": {
+    "en": "A₁V₁ = A₂V₂ (Q = AV constant)."
+   },
+   "explain_simple": {
+    "en": "Narrow pipe = faster water."
+   }
+  },
+  {
+   "id": "u1.flow.f06",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Discharge (Q) = Area × Velocity. Unit: m³/s."
+   },
+   "why": {
+    "en": "It is the volume that passes each second."
+   },
+   "recall_q": {
+    "en": "Unit of discharge?"
+   },
+   "recall_a": {
+    "en": "m³/s"
+   },
+   "explain_simple": {
+    "en": "How many cubic metres of water flow each second."
+   }
+  },
+  {
+   "id": "u1.flow.f07",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bernoulli's equation: pressure head + velocity head + datum head = constant, for an ideal flowing fluid."
+   },
+   "why": {
+    "en": "Energy is not lost; it only changes form."
+   },
+   "example": {
+    "en": "Where water speeds up in a narrow pipe, its pressure falls."
+   },
+   "recall_q": {
+    "en": "In a narrow part of a pipe, velocity rises. What happens to pressure?"
+   },
+   "recall_a": {
+    "en": "Pressure falls."
+   },
+   "explain_simple": {
+    "en": "Fast fluid = low pressure."
+   }
+  },
+  {
+   "id": "u1.flow.f08",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A venturimeter measures discharge in a pipe. It has a converging part, a throat and a diverging part."
+   },
+   "why": {
+    "en": "Flow speeds up at the throat; the pressure drop there tells the flow rate (Bernoulli)."
+   },
+   "example": {
+    "en": "The carburettor venturi uses the same idea to suck petrol."
+   },
+   "recall_q": {
+    "en": "What does a venturimeter measure?"
+   },
+   "recall_a": {
+    "en": "Rate of flow (discharge) in a pipe."
+   },
+   "explain_simple": {
+    "en": "A pipe with a waist; the pressure drop at the waist shows the flow."
+   }
+  },
+  {
+   "id": "u1.flow.f09",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An orifice is a small opening in the side or bottom of a tank. It is used to measure discharge."
+   },
+   "why": {
+    "en": "Velocity through it is about √(2gh), where h is the water height above it."
+   },
+   "recall_q": {
+    "en": "Velocity of water from an orifice under head h (ideal)?"
+   },
+   "recall_a": {
+    "en": "√(2gh)"
+   },
+   "explain_simple": {
+    "en": "A hole in a tank; higher water level, faster jet."
+   }
+  },
+  {
+   "id": "u1.flow.f10",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vena contracta is the narrowest part of a jet just after it leaves an orifice."
+   },
+   "why": {
+    "en": "Water streams curve inward as they leave the hole."
+   },
+   "recall_q": {
+    "en": "The narrowest section of a jet after an orifice is called?"
+   },
+   "recall_a": {
+    "en": "Vena contracta."
+   },
+   "explain_simple": {
+    "en": "The jet gets thinnest just outside the hole."
+   }
+  },
+  {
+   "id": "u1.flow.f11",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Coefficient of discharge Cd = Cc × Cv. For an orifice, Cd is about 0.62."
+   },
+   "why": {
+    "en": "Real flow is less than ideal because of contraction (Cc) and friction (Cv)."
+   },
+   "recall_q": {
+    "en": "Cd in terms of Cc and Cv?"
+   },
+   "recall_a": {
+    "en": "Cd = Cc × Cv"
+   },
+   "explain_simple": {
+    "en": "Real flow ÷ ideal flow."
+   }
+  },
+  {
+   "id": "u1.flow.f12",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A notch is an opening at the top of a tank or channel wall, with the water surface below its top. Used to measure flow in open channels."
+   },
+   "why": {
+    "en": "The water height over the notch tells the discharge."
+   },
+   "example": {
+    "en": "Rectangular, triangular (V-notch) and trapezoidal notches. V-notch is best for small flows."
+   },
+   "recall_q": {
+    "en": "Which notch is best for measuring small discharges?"
+   },
+   "recall_a": {
+    "en": "Triangular (V) notch."
+   },
+   "explain_simple": {
+    "en": "A cut in a channel wall that measures flowing water."
+   }
+  },
+  {
+   "id": "u1.flow.sum",
+   "topic": "u1.flow",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Flow types, orifice, notch, venturimeter, continuity"
+   },
+   "points": [
+    {
+     "en": "Steady/unsteady = time; uniform/non-uniform = place."
+    },
+    {
+     "en": "Laminar Re < 2000, turbulent Re > 4000."
+    },
+    {
+     "en": "Continuity: A₁V₁ = A₂V₂."
+    },
+    {
+     "en": "Bernoulli: fast fluid, low pressure."
+    },
+    {
+     "en": "Venturimeter (pipes), orifice (tanks), notch (channels) measure flow."
+    }
+   ]
+  },
+  {
+   "id": "u1.losses.f01",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Major loss in a pipe is loss of head due to friction along its length."
+   },
+   "why": {
+    "en": "Fluid rubs against the pipe wall all along the way."
+   },
+   "recall_q": {
+    "en": "Loss of head due to pipe friction is called?"
+   },
+   "recall_a": {
+    "en": "Major loss."
+   },
+   "explain_simple": {
+    "en": "Long pipe = big friction loss."
+   }
+  },
+  {
+   "id": "u1.losses.f02",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Minor losses come from bends, valves, sudden enlargement, sudden contraction, pipe entry and exit."
+   },
+   "why": {
+    "en": "The flow is disturbed and swirls at each fitting."
+   },
+   "recall_q": {
+    "en": "Name two causes of minor loss."
+   },
+   "recall_a": {
+    "en": "Bends, valves, sudden enlargement/contraction, entry, exit."
+   },
+   "explain_simple": {
+    "en": "Every bend or fitting wastes a little energy."
+   }
+  },
+  {
+   "id": "u1.losses.f03",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Darcy–Weisbach formula: hf = 4fLV² / (2gD). Loss grows with pipe length and with velocity squared."
+   },
+   "why": {
+    "en": "Longer pipe and faster flow mean more rubbing."
+   },
+   "recall_q": {
+    "en": "Darcy's formula for head loss due to friction?"
+   },
+   "recall_a": {
+    "en": "hf = 4fLV²/(2gD)"
+   },
+   "explain_simple": {
+    "en": "Double the speed → four times the loss."
+   }
+  },
+  {
+   "id": "u1.losses.f04",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Chezy's formula: V = C √(m i). m = hydraulic mean depth, i = slope (loss of head per unit length)."
+   },
+   "why": {
+    "en": "Used for flow in pipes and open channels."
+   },
+   "recall_q": {
+    "en": "In Chezy's formula V = C√(mi), what is m?"
+   },
+   "recall_a": {
+    "en": "Hydraulic mean depth (area / wetted perimeter)."
+   },
+   "explain_simple": {
+    "en": "Chezy gives speed from slope and depth."
+   }
+  },
+  {
+   "id": "u1.losses.f05",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydraulic mean depth m = Area / wetted perimeter. For a full circular pipe, m = D/4."
+   },
+   "why": {
+    "en": "πD²/4 divided by πD gives D/4."
+   },
+   "recall_q": {
+    "en": "Hydraulic mean depth of a full pipe?"
+   },
+   "recall_a": {
+    "en": "D/4"
+   },
+   "explain_simple": {
+    "en": "Pipe diameter divided by four."
+   }
+  },
+  {
+   "id": "u1.oils.f01",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Viscosity index (VI) shows how little an oil's viscosity changes with temperature. High VI = good oil."
+   },
+   "why": {
+    "en": "A good oil should not get too thin when hot or too thick when cold."
+   },
+   "example": {
+    "en": "Multigrade engine oils like 20W-40 have high VI."
+   },
+   "recall_q": {
+    "en": "Is a high or low viscosity index better?"
+   },
+   "recall_a": {
+    "en": "High."
+   },
+   "explain_simple": {
+    "en": "High VI = oil thickness stays steady in heat and cold."
+   }
+  },
+  {
+   "id": "u1.oils.f02",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oxidation stability is an oil's ability to resist reacting with oxygen and forming sludge and acids."
+   },
+   "why": {
+    "en": "Hot oil plus air slowly turns into gum and varnish."
+   },
+   "recall_q": {
+    "en": "Resistance of oil to sludge and acid formation by air is called?"
+   },
+   "recall_a": {
+    "en": "Oxidation stability."
+   },
+   "explain_simple": {
+    "en": "Good oil does not 'rot' when hot."
+   }
+  },
+  {
+   "id": "u1.oils.f03",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Demulsibility is an oil's ability to separate from water quickly."
+   },
+   "why": {
+    "en": "Water mixed into oil (emulsion) causes rust and poor lubrication."
+   },
+   "recall_q": {
+    "en": "Ability of oil to separate from water is called?"
+   },
+   "recall_a": {
+    "en": "Demulsibility."
+   },
+   "explain_simple": {
+    "en": "Good oil lets water fall out."
+   }
+  },
+  {
+   "id": "u1.oils.f04",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Lubricity (oiliness) is an oil's ability to reduce friction and wear between surfaces."
+   },
+   "why": {
+    "en": "It forms a thin slippery film on metal."
+   },
+   "recall_q": {
+    "en": "Ability of oil to reduce friction and wear?"
+   },
+   "recall_a": {
+    "en": "Lubricity (oiliness)."
+   },
+   "explain_simple": {
+    "en": "How slippery the oil is."
+   }
+  },
+  {
+   "id": "u1.oils.f05",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rust prevention: hydraulic oil must protect steel parts from rusting, using added inhibitors."
+   },
+   "why": {
+    "en": "Moisture enters hydraulic systems and attacks metal."
+   },
+   "recall_q": {
+    "en": "Why are rust inhibitors added to hydraulic oil?"
+   },
+   "recall_a": {
+    "en": "To protect metal parts from rust."
+   },
+   "explain_simple": {
+    "en": "Oil coats metal so water cannot rust it."
+   }
+  },
+  {
+   "id": "u1.oils.f06",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pour point is the lowest temperature at which an oil will still flow."
+   },
+   "why": {
+    "en": "Below it, wax in the oil sets and the oil stops pouring."
+   },
+   "example": {
+    "en": "Important for vehicles in cold hill areas like Munnar."
+   },
+   "recall_q": {
+    "en": "Lowest temperature at which oil flows is?"
+   },
+   "recall_a": {
+    "en": "Pour point."
+   },
+   "explain_simple": {
+    "en": "Colder than pour point, the oil will not pour."
+   }
+  },
+  {
+   "id": "u1.oils.f07",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Flash point: lowest temperature at which oil vapour flashes briefly near a flame. Fire point: lowest temperature at which it keeps burning (at least 5 s). Fire point is higher."
+   },
+   "why": {
+    "en": "First a quick flash, then, a little hotter, steady burning."
+   },
+   "recall_q": {
+    "en": "Which is higher: flash point or fire point?"
+   },
+   "recall_a": {
+    "en": "Fire point."
+   },
+   "explain_simple": {
+    "en": "Flash first, fire later."
+   }
+  },
+  {
+   "id": "u1.oils.f08",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Neutralisation number shows how acidic or basic an oil is. Rising acid number means the oil is getting old."
+   },
+   "why": {
+    "en": "Oxidation makes acids that attack metal."
+   },
+   "recall_q": {
+    "en": "What does the neutralisation number of oil indicate?"
+   },
+   "recall_a": {
+    "en": "Its acidity (or alkalinity)."
+   },
+   "explain_simple": {
+    "en": "An 'acid level' test for oil."
+   }
+  },
+  {
+   "id": "u1.oils.sum",
+   "topic": "u1.oils",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Properties of hydraulic oils"
+   },
+   "points": [
+    {
+     "en": "High viscosity index = steady thickness."
+    },
+    {
+     "en": "Oxidation stability = no sludge; demulsibility = separates from water."
+    },
+    {
+     "en": "Lubricity = slipperiness; rust inhibitors protect steel."
+    },
+    {
+     "en": "Pour point = lowest flow temperature."
+    },
+    {
+     "en": "Flash point < fire point; neutralisation no. = acidity."
+    }
+   ]
+  },
+  {
+   "id": "u1.machines.f01",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A pump turns mechanical energy into hydraulic (pressure) energy. A turbine turns hydraulic energy into mechanical energy."
+   },
+   "why": {
+    "en": "They do opposite jobs."
+   },
+   "example": {
+    "en": "A water pump fills a tank. A turbine at Idukki dam makes power."
+   },
+   "recall_q": {
+    "en": "Which machine changes hydraulic energy to mechanical energy?"
+   },
+   "recall_a": {
+    "en": "Turbine."
+   },
+   "explain_simple": {
+    "en": "Pump pushes water. Turbine is pushed by water."
+   }
+  },
+  {
+   "id": "u1.machines.f02",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A centrifugal pump spins an impeller. The spinning throws water outward, building pressure. It is a rotodynamic pump."
+   },
+   "why": {
+    "en": "Centrifugal force pushes water from the centre to the rim."
+   },
+   "example": {
+    "en": "Most house water pumps and engine coolant pumps."
+   },
+   "recall_q": {
+    "en": "The rotating part of a centrifugal pump is called?"
+   },
+   "recall_a": {
+    "en": "Impeller."
+   },
+   "explain_simple": {
+    "en": "A spinning wheel flings water out."
+   }
+  },
+  {
+   "id": "u1.machines.f03",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A centrifugal pump must be primed (filled with liquid) before starting."
+   },
+   "why": {
+    "en": "An impeller spinning in air cannot create enough suction."
+   },
+   "recall_q": {
+    "en": "What is priming?"
+   },
+   "recall_a": {
+    "en": "Filling the pump and suction pipe with liquid before starting."
+   },
+   "explain_simple": {
+    "en": "Fill it with water first, or it will not pick up water."
+   }
+  },
+  {
+   "id": "u1.machines.f04",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A reciprocating pump uses a piston moving to and fro inside a cylinder. It is a positive displacement pump."
+   },
+   "why": {
+    "en": "Each stroke pushes out a fixed volume."
+   },
+   "example": {
+    "en": "Hand pumps and high-pressure washer pumps."
+   },
+   "recall_q": {
+    "en": "Is a reciprocating pump rotodynamic or positive displacement?"
+   },
+   "recall_a": {
+    "en": "Positive displacement."
+   },
+   "explain_simple": {
+    "en": "A piston sucks in and pushes out water."
+   }
+  },
+  {
+   "id": "u1.machines.f05",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Slip = theoretical discharge − actual discharge. % slip = (Qth − Qact)/Qth × 100."
+   },
+   "why": {
+    "en": "Some liquid leaks back past valves and the piston."
+   },
+   "recall_q": {
+    "en": "Formula for slip of a reciprocating pump?"
+   },
+   "recall_a": {
+    "en": "Qth − Qact"
+   },
+   "explain_simple": {
+    "en": "Water that should come out but leaks back."
+   }
+  },
+  {
+   "id": "u1.machines.f06",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Negative slip happens when actual discharge is more than theoretical. It occurs with long suction pipe, short delivery pipe and high speed."
+   },
+   "why": {
+    "en": "Water keeps moving by its own momentum and the delivery valve opens early."
+   },
+   "recall_q": {
+    "en": "When is slip of a reciprocating pump negative?"
+   },
+   "recall_a": {
+    "en": "When actual discharge > theoretical discharge."
+   },
+   "explain_simple": {
+    "en": "More water comes out than the piston pushed."
+   }
+  },
+  {
+   "id": "u1.machines.f07",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Theoretical discharge of a single-acting reciprocating pump: Q = A L N / 60. Double acting: Q = 2 A L N / 60."
+   },
+   "why": {
+    "en": "Double acting pushes water on both sides of the piston."
+   },
+   "recall_q": {
+    "en": "Discharge of a double-acting reciprocating pump?"
+   },
+   "recall_a": {
+    "en": "Q = 2ALN/60"
+   },
+   "explain_simple": {
+    "en": "Double acting gives twice the water."
+   }
+  },
+  {
+   "id": "u1.machines.f08",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An air vessel on a reciprocating pump gives a steady flow and saves power."
+   },
+   "why": {
+    "en": "It stores and releases water like a cushion, smoothing the pulses."
+   },
+   "recall_q": {
+    "en": "Purpose of an air vessel in a reciprocating pump?"
+   },
+   "recall_a": {
+    "en": "Steady flow and saving power (less friction)."
+   },
+   "explain_simple": {
+    "en": "A shock-absorber for water."
+   }
+  },
+  {
+   "id": "u1.machines.f09",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Specific speed of a pump: Ns = N√Q / H^(3/4). Of a turbine: Ns = N√P / H^(5/4)."
+   },
+   "why": {
+    "en": "It compares machines of different sizes on one scale."
+   },
+   "recall_q": {
+    "en": "Specific speed formula of a turbine?"
+   },
+   "recall_a": {
+    "en": "Ns = N√P / H^(5/4)"
+   },
+   "explain_simple": {
+    "en": "A single number that tells which type of machine suits a job."
+   }
+  },
+  {
+   "id": "u1.machines.f10",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Impulse turbine: water hits buckets as a high-speed jet at atmospheric pressure. Example: Pelton wheel. Used for high head."
+   },
+   "why": {
+    "en": "All pressure is changed to speed in the nozzle before hitting the wheel."
+   },
+   "recall_q": {
+    "en": "Pelton wheel is which type of turbine?"
+   },
+   "recall_a": {
+    "en": "Impulse turbine (high head)."
+   },
+   "explain_simple": {
+    "en": "A jet of water hits cups on a wheel."
+   }
+  },
+  {
+   "id": "u1.machines.f11",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Reaction turbine: water enters under pressure and both pressure and speed drop inside the runner. Examples: Francis (medium head), Kaplan (low head)."
+   },
+   "why": {
+    "en": "The runner is pushed by the reaction of water leaving it."
+   },
+   "recall_q": {
+    "en": "Kaplan turbine is used for what head?"
+   },
+   "recall_a": {
+    "en": "Low head (large flow)."
+   },
+   "explain_simple": {
+    "en": "Water fills the turbine and pushes as it leaves."
+   }
+  },
+  {
+   "id": "u1.machines.f12",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A draft tube is used in reaction turbines, not in impulse turbines. It recovers energy at the outlet."
+   },
+   "why": {
+    "en": "It lets water leave slowly, gaining back some head."
+   },
+   "recall_q": {
+    "en": "Is a draft tube used in a Pelton wheel?"
+   },
+   "recall_a": {
+    "en": "No — only in reaction turbines."
+   },
+   "explain_simple": {
+    "en": "Reaction turbines have a draft tube; Pelton does not."
+   }
+  },
+  {
+   "id": "u1.machines.sum",
+   "topic": "u1.machines",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Pumps and turbines"
+   },
+   "points": [
+    {
+     "en": "Pump: mechanical → hydraulic. Turbine: hydraulic → mechanical."
+    },
+    {
+     "en": "Centrifugal pump: impeller, needs priming."
+    },
+    {
+     "en": "Reciprocating pump: piston, slip = Qth − Qact, air vessel."
+    },
+    {
+     "en": "Pelton = impulse, high head."
+    },
+    {
+     "en": "Francis (medium), Kaplan (low head) = reaction, draft tube."
+    }
+   ]
+  },
+  {
+   "id": "u1.properties.f15",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A liquid has a fixed volume but no fixed shape. A gas has neither a fixed volume nor a fixed shape."
+   },
+   "why": {
+    "en": "Gas molecules are far apart and spread to fill any space."
+   },
+   "example": {
+    "en": "One litre of milk stays one litre in any vessel. LPG gas spreads through a whole room."
+   },
+   "recall_q": {
+    "en": "Which has a fixed volume: liquid or gas?"
+   },
+   "recall_a": {
+    "en": "Liquid."
+   },
+   "explain_simple": {
+    "en": "Liquid keeps its amount. Gas spreads everywhere."
+   }
+  },
+  {
+   "id": "u1.properties.f16",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Density of mercury is 13,600 kg/m³. Density of air at room temperature is about 1.2 kg/m³."
+   },
+   "why": {
+    "en": "Mercury is a heavy metal; air is mostly empty space."
+   },
+   "recall_q": {
+    "en": "Density of mercury?"
+   },
+   "recall_a": {
+    "en": "13,600 kg/m³."
+   },
+   "explain_simple": {
+    "en": "Mercury is 13.6 times heavier than water."
+   }
+  },
+  {
+   "id": "u1.properties.f17",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Specific weight of water = 9.81 kN/m³ (9810 N/m³)."
+   },
+   "why": {
+    "en": "1000 kg/m³ × 9.81 m/s² = 9810 N/m³."
+   },
+   "recall_q": {
+    "en": "Specific weight of water in kN/m³?"
+   },
+   "recall_a": {
+    "en": "9.81 kN/m³."
+   },
+   "explain_simple": {
+    "en": "One cubic metre of water weighs about 9.81 kN."
+   }
+  },
+  {
+   "id": "u1.properties.f18",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Density of a liquid = specific gravity × 1000 kg/m³."
+   },
+   "why": {
+    "en": "Specific gravity tells how many times heavier than water it is."
+   },
+   "example": {
+    "en": "Oil with S = 0.8 has density 0.8 × 1000 = 800 kg/m³."
+   },
+   "recall_q": {
+    "en": "Density of oil with specific gravity 0.9?"
+   },
+   "recall_a": {
+    "en": "900 kg/m³."
+   },
+   "explain_simple": {
+    "en": "Multiply specific gravity by 1000."
+   }
+  },
+  {
+   "id": "u1.properties.f19",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Dimensions of dynamic viscosity: M L⁻¹ T⁻¹. Dimensions of kinematic viscosity: L² T⁻¹."
+   },
+   "why": {
+    "en": "Kinematic viscosity has no mass because density is divided out."
+   },
+   "recall_q": {
+    "en": "Dimension of kinematic viscosity?"
+   },
+   "recall_a": {
+    "en": "L² T⁻¹"
+   },
+   "explain_simple": {
+    "en": "Kinematic viscosity has only length and time."
+   }
+  },
+  {
+   "id": "u1.properties.f20",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Viscosity of water at 20°C is about 1 centipoise (0.001 Pa·s)."
+   },
+   "why": {
+    "en": "This is a handy reference value."
+   },
+   "recall_q": {
+    "en": "Viscosity of water at 20°C in centipoise?"
+   },
+   "recall_a": {
+    "en": "About 1 centipoise."
+   },
+   "explain_simple": {
+    "en": "Water ≈ 1 cP."
+   }
+  },
+  {
+   "id": "u1.properties.f21",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cohesion is attraction between molecules of the same liquid. Adhesion is attraction between the liquid and another surface."
+   },
+   "why": {
+    "en": "These two forces decide whether a liquid wets a surface."
+   },
+   "example": {
+    "en": "Water sticks to glass (adhesion stronger). Mercury forms balls (cohesion stronger)."
+   },
+   "recall_q": {
+    "en": "Attraction between molecules of the same liquid is called?"
+   },
+   "recall_a": {
+    "en": "Cohesion."
+   },
+   "explain_simple": {
+    "en": "Cohesion = same sticks to same. Adhesion = sticks to others."
+   }
+  },
+  {
+   "id": "u1.properties.f22",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Water wets glass because adhesion is more than cohesion. Mercury does not wet glass because cohesion is more."
+   },
+   "why": {
+    "en": "The stronger force wins at the contact line."
+   },
+   "recall_q": {
+    "en": "Why does mercury not wet glass?"
+   },
+   "recall_a": {
+    "en": "Its cohesion is greater than adhesion."
+   },
+   "explain_simple": {
+    "en": "Mercury likes itself more than it likes glass."
+   }
+  },
+  {
+   "id": "u1.properties.f23",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Water's surface in a glass tube curves down in the middle (concave). Mercury's surface curves up (convex)."
+   },
+   "why": {
+    "en": "Water climbs the wall; mercury pulls away from it."
+   },
+   "recall_q": {
+    "en": "Shape of the mercury surface in a glass tube?"
+   },
+   "recall_a": {
+    "en": "Convex (bulges up)."
+   },
+   "explain_simple": {
+    "en": "Water dips; mercury bulges."
+   }
+  },
+  {
+   "id": "u1.properties.f24",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Surface tension falls when temperature rises."
+   },
+   "why": {
+    "en": "Heat weakens the pull between surface molecules."
+   },
+   "example": {
+    "en": "Hot water cleans better partly because it spreads more easily."
+   },
+   "recall_q": {
+    "en": "Effect of heating on surface tension?"
+   },
+   "recall_a": {
+    "en": "Surface tension decreases."
+   },
+   "explain_simple": {
+    "en": "Hotter liquid, weaker skin."
+   }
+  },
+  {
+   "id": "u1.properties.f25",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pressure inside a liquid droplet: p = 4σ/d. Inside a soap bubble: p = 8σ/d."
+   },
+   "why": {
+    "en": "A soap bubble has two surfaces (inside and outside), so double."
+   },
+   "recall_q": {
+    "en": "Pressure inside a soap bubble of diameter d?"
+   },
+   "recall_a": {
+    "en": "8σ/d"
+   },
+   "explain_simple": {
+    "en": "Bubble has two skins, so twice the droplet value."
+   }
+  },
+  {
+   "id": "u1.properties.f26",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vapour pressure is the pressure of a liquid's vapour above it. It rises with temperature."
+   },
+   "why": {
+    "en": "Hotter liquid sends more molecules into the air."
+   },
+   "example": {
+    "en": "Petrol has high vapour pressure — it evaporates fast."
+   },
+   "recall_q": {
+    "en": "What happens to vapour pressure when temperature rises?"
+   },
+   "recall_a": {
+    "en": "It increases."
+   },
+   "explain_simple": {
+    "en": "Hot liquid gives off more vapour."
+   }
+  },
+  {
+   "id": "u1.properties.f27",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cavitation: when local pressure falls below vapour pressure, vapour bubbles form and then collapse violently."
+   },
+   "why": {
+    "en": "Collapsing bubbles hammer metal surfaces."
+   },
+   "example": {
+    "en": "Pitting on pump impellers, propellers and turbine blades."
+   },
+   "recall_q": {
+    "en": "What damage does cavitation cause?"
+   },
+   "recall_a": {
+    "en": "Pitting and erosion of metal, noise and vibration."
+   },
+   "explain_simple": {
+    "en": "Tiny bubbles burst and chip the metal."
+   }
+  },
+  {
+   "id": "u1.properties.f28",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bulk modulus K = increase in pressure / volumetric strain. Unit: N/m². Water ≈ 2.1 × 10⁹ N/m²."
+   },
+   "why": {
+    "en": "It measures how hard a fluid is to squeeze."
+   },
+   "recall_q": {
+    "en": "Formula for bulk modulus?"
+   },
+   "recall_a": {
+    "en": "K = dp / (dV/V)"
+   },
+   "explain_simple": {
+    "en": "Big K = very hard to squeeze."
+   }
+  },
+  {
+   "id": "u1.properties.f29",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Liquids are taken as incompressible. Gases are compressible."
+   },
+   "why": {
+    "en": "A liquid's volume hardly changes even under large pressure."
+   },
+   "example": {
+    "en": "That is why brake fluid can pass pedal force to the wheels."
+   },
+   "recall_q": {
+    "en": "Why is brake fluid good for passing force?"
+   },
+   "recall_a": {
+    "en": "It is practically incompressible."
+   },
+   "explain_simple": {
+    "en": "Liquid does not squash, so it carries the push."
+   }
+  },
+  {
+   "id": "u1.properties.f30",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PSC trap: viscosity measures resistance to flow; viscosity index measures how viscosity changes with temperature."
+   },
+   "why": {
+    "en": "Two similar words, two different ideas."
+   },
+   "recall_q": {
+    "en": "Which one tells change of thickness with temperature: viscosity or viscosity index?"
+   },
+   "recall_a": {
+    "en": "Viscosity index."
+   },
+   "explain_simple": {
+    "en": "Viscosity = how thick. VI = how steady."
+   }
+  },
+  {
+   "id": "u1.properties.f31",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A Redwood or Saybolt viscometer measures oil viscosity by timing how long 50 or 60 ml of oil takes to flow out."
+   },
+   "why": {
+    "en": "Thicker oil takes more seconds."
+   },
+   "recall_q": {
+    "en": "Name an instrument used to measure oil viscosity."
+   },
+   "recall_a": {
+    "en": "Redwood (or Saybolt) viscometer."
+   },
+   "explain_simple": {
+    "en": "Time how long oil takes to drain — longer = thicker."
+   }
+  },
+  {
+   "id": "u1.properties.f32",
+   "topic": "u1.properties",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gas law for an ideal gas: p v = R T (per kg) or pV = mRT. For air, R = 287 J/kg·K."
+   },
+   "why": {
+    "en": "Pressure, volume and temperature of a gas are linked."
+   },
+   "recall_q": {
+    "en": "Gas constant R for air?"
+   },
+   "recall_a": {
+    "en": "287 J/kg·K"
+   },
+   "explain_simple": {
+    "en": "pV = mRT ties together pressure, volume and temperature."
+   }
+  },
+  {
+   "id": "u1.pressure.f07",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "1 kgf/cm² ≈ 0.981 bar ≈ 98.1 kPa. Tyre pressure in India is often written in psi; 1 bar ≈ 14.5 psi."
+   },
+   "why": {
+    "en": "Gauges use different units; know the conversions."
+   },
+   "example": {
+    "en": "A car tyre at 32 psi ≈ 2.2 bar."
+   },
+   "recall_q": {
+    "en": "1 bar is about how many psi?"
+   },
+   "recall_a": {
+    "en": "14.5 psi."
+   },
+   "explain_simple": {
+    "en": "1 bar ≈ 1 kgf/cm² ≈ 14.5 psi."
+   }
+  },
+  {
+   "id": "u1.pressure.f08",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pressure at a point in a fluid at rest is the same in all directions."
+   },
+   "why": {
+    "en": "This is the hydrostatic law; a still fluid cannot push more one way than another."
+   },
+   "recall_q": {
+    "en": "Is pressure at a point in a still fluid the same in all directions?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "At one spot, fluid pushes equally every way."
+   }
+  },
+  {
+   "id": "u1.pressure.f09",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pressure in a liquid depends only on depth, not on the shape or width of the vessel. This is the hydrostatic paradox."
+   },
+   "why": {
+    "en": "p = ρgh has no area in it."
+   },
+   "example": {
+    "en": "A narrow pipe and a wide tank of the same depth have the same pressure at the bottom."
+   },
+   "recall_q": {
+    "en": "Does the shape of a vessel change the pressure at its bottom?"
+   },
+   "recall_a": {
+    "en": "No — only depth matters."
+   },
+   "explain_simple": {
+    "en": "Same depth, same pressure — any shape."
+   }
+  },
+  {
+   "id": "u1.pressure.f10",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "10 m of water head ≈ 1 bar ≈ 1 atmosphere."
+   },
+   "why": {
+    "en": "1000 × 9.81 × 10 ≈ 98,100 Pa ≈ 1 bar."
+   },
+   "recall_q": {
+    "en": "About how many metres of water make 1 bar?"
+   },
+   "recall_a": {
+    "en": "About 10 m."
+   },
+   "explain_simple": {
+    "en": "Every 10 m deeper in water adds about 1 bar."
+   }
+  },
+  {
+   "id": "u1.pressure.f11",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "To change head of one liquid to another: h₁ × S₁ = h₂ × S₂."
+   },
+   "why": {
+    "en": "The same pressure needs a shorter column of a heavier liquid."
+   },
+   "example": {
+    "en": "760 mm Hg × 13.6 ≈ 10,336 mm (10.3 m) of water."
+   },
+   "recall_q": {
+    "en": "760 mm of mercury equals about how many metres of water?"
+   },
+   "recall_a": {
+    "en": "About 10.3 m."
+   },
+   "explain_simple": {
+    "en": "Heavier liquid, shorter column."
+   }
+  },
+  {
+   "id": "u1.pressure.f12",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydraulic jack: force multiplication F₂ = F₁ × (A₂/A₁)."
+   },
+   "why": {
+    "en": "Same pressure acts on both pistons; bigger piston gets bigger force."
+   },
+   "example": {
+    "en": "A small push on the jack handle lifts a car."
+   },
+   "recall_q": {
+    "en": "In a hydraulic jack, which piston gives the bigger force?"
+   },
+   "recall_a": {
+    "en": "The bigger (larger area) piston."
+   },
+   "explain_simple": {
+    "en": "Small push on small piston = big push on big piston."
+   }
+  },
+  {
+   "id": "u1.pressure.f13",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Total pressure (force) on a flat surface under liquid = ρ g A h̄, where h̄ is depth of its centroid."
+   },
+   "why": {
+    "en": "Average pressure is at the centre of the area."
+   },
+   "recall_q": {
+    "en": "Total pressure on an immersed plane surface?"
+   },
+   "recall_a": {
+    "en": "F = ρ g A h̄"
+   },
+   "explain_simple": {
+    "en": "Area × pressure at its centre."
+   }
+  },
+  {
+   "id": "u1.pressure.f14",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Centre of pressure is the point where the total liquid force acts. On a vertical surface it is always below the centroid."
+   },
+   "why": {
+    "en": "Pressure is bigger lower down."
+   },
+   "recall_q": {
+    "en": "On a vertical immersed plate, is the centre of pressure above or below the centroid?"
+   },
+   "recall_a": {
+    "en": "Below."
+   },
+   "explain_simple": {
+    "en": "The push acts lower than the middle."
+   }
+  },
+  {
+   "id": "u1.pressure.f15",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Buoyancy (Archimedes): a body in a fluid feels an upward force equal to the weight of fluid it pushes aside."
+   },
+   "why": {
+    "en": "Pressure below the body is more than pressure above it."
+   },
+   "example": {
+    "en": "A ship floats; an iron nail sinks."
+   },
+   "recall_q": {
+    "en": "Upward force on a body in a fluid equals?"
+   },
+   "recall_a": {
+    "en": "Weight of fluid displaced."
+   },
+   "explain_simple": {
+    "en": "Water pushes up as much as the water moved away weighs."
+   }
+  },
+  {
+   "id": "u1.pressure.f16",
+   "topic": "u1.pressure",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Fluid pressure and Pascal's law; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Metacentre: a floating body is stable if the metacentre (M) is above its centre of gravity (G)."
+   },
+   "why": {
+    "en": "When tilted, buoyancy then turns it back upright."
+   },
+   "recall_q": {
+    "en": "Condition for stable equilibrium of a floating body?"
+   },
+   "recall_a": {
+    "en": "Metacentre above centre of gravity."
+   },
+   "explain_simple": {
+    "en": "M above G = boat comes back up."
+   }
+  },
+  {
+   "id": "u1.measure.f06",
+   "topic": "u1.measure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pressure measuring instruments; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mercury is used in manometers because it is heavy, does not stick to glass, and does not evaporate easily."
+   },
+   "why": {
+    "en": "A heavy liquid keeps the tube short for high pressures."
+   },
+   "recall_q": {
+    "en": "Give one reason mercury is used in manometers."
+   },
+   "recall_a": {
+    "en": "High density (also non-wetting, low vapour pressure)."
+   },
+   "explain_simple": {
+    "en": "Heavy and clean — short tube, clear reading."
+   }
+  },
+  {
+   "id": "u1.measure.f07",
+   "topic": "u1.measure",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pressure measuring instruments; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An inverted U-tube differential manometer uses a light liquid (or air) at the top. It measures small pressure differences."
+   },
+   "why": {
+    "en": "A light liquid gives a larger, easier-to-read level difference."
+   },
+   "recall_q": {
+    "en": "Which manometer measures very small pressure differences between two points?"
+   },
+   "recall_a": {
+    "en": "Inverted U-tube differential manometer."
+   },
+   "explain_simple": {
+    "en": "U upside down with light liquid for tiny differences."
+   }
+  },
+  {
+   "id": "u1.measure.f08",
+   "topic": "u1.measure",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pressure measuring instruments; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A micromanometer (single-column with a large reservoir or inclined tube) measures very small pressures accurately."
+   },
+   "why": {
+    "en": "Tilting the tube stretches a small rise into a long reading."
+   },
+   "recall_q": {
+    "en": "Why is an inclined tube manometer used?"
+   },
+   "recall_a": {
+    "en": "To read very small pressures more accurately."
+   },
+   "explain_simple": {
+    "en": "A slanted tube makes small changes look bigger."
+   }
+  },
+  {
+   "id": "u1.measure.f09",
+   "topic": "u1.measure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pressure measuring instruments; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A Pitot tube measures the velocity of flow at a point. It is an L-shaped tube facing the flow."
+   },
+   "why": {
+    "en": "The flow stops at its mouth, and the rise in liquid shows velocity head: V = √(2gh)."
+   },
+   "example": {
+    "en": "Aircraft speed sensors use Pitot tubes."
+   },
+   "recall_q": {
+    "en": "Instrument to measure velocity at a point in a flow?"
+   },
+   "recall_a": {
+    "en": "Pitot tube."
+   },
+   "explain_simple": {
+    "en": "A bent tube facing the flow shows how fast it is moving."
+   }
+  },
+  {
+   "id": "u1.measure.f10",
+   "topic": "u1.measure",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pressure measuring instruments; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A rotameter measures flow with a float inside a tapered glass tube. Higher flow lifts the float higher."
+   },
+   "why": {
+    "en": "More flow needs a wider gap, which is higher up the tapered tube."
+   },
+   "recall_q": {
+    "en": "In which instrument does a float rise in a tapered tube?"
+   },
+   "recall_a": {
+    "en": "Rotameter."
+   },
+   "explain_simple": {
+    "en": "More flow, higher float."
+   }
+  },
+  {
+   "id": "u1.fluidtypes.f05",
+   "topic": "u1.fluidtypes",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Types of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ideal plastic (Bingham) fluid needs a minimum stress before it starts to flow."
+   },
+   "why": {
+    "en": "Below that stress it acts like a solid."
+   },
+   "example": {
+    "en": "Toothpaste and sewage sludge."
+   },
+   "recall_q": {
+    "en": "Toothpaste starts flowing only after a minimum push. What type of fluid?"
+   },
+   "recall_a": {
+    "en": "Bingham plastic (ideal plastic) fluid."
+   },
+   "explain_simple": {
+    "en": "It stays put until you squeeze hard enough."
+   }
+  },
+  {
+   "id": "u1.fluidtypes.f06",
+   "topic": "u1.fluidtypes",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Types of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thixotropic fluids get thinner the longer they are stirred. Example: paint, printer ink."
+   },
+   "why": {
+    "en": "Stirring breaks their inner structure."
+   },
+   "recall_q": {
+    "en": "Paint gets thinner when stirred for a while. This is called?"
+   },
+   "recall_a": {
+    "en": "Thixotropy."
+   },
+   "explain_simple": {
+    "en": "Stir it longer, it gets thinner."
+   }
+  },
+  {
+   "id": "u1.fluidtypes.f07",
+   "topic": "u1.fluidtypes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Types of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compressible fluid: density changes with pressure (gases). Incompressible fluid: density stays nearly constant (liquids)."
+   },
+   "why": {
+    "en": "Gas molecules can be pushed closer; liquid molecules cannot."
+   },
+   "recall_q": {
+    "en": "Air in a tyre is compressible or incompressible?"
+   },
+   "recall_a": {
+    "en": "Compressible."
+   },
+   "explain_simple": {
+    "en": "Gas squashes, liquid does not."
+   }
+  },
+  {
+   "id": "u1.fluidtypes.sum",
+   "topic": "u1.fluidtypes",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Types of fluids; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Types of fluids"
+   },
+   "points": [
+    {
+     "en": "Ideal fluid: no viscosity, imaginary."
+    },
+    {
+     "en": "Real fluid: has viscosity."
+    },
+    {
+     "en": "Newtonian: water, air, petrol."
+    },
+    {
+     "en": "Non-Newtonian: grease, paint, blood, toothpaste."
+    },
+    {
+     "en": "Gases compressible; liquids incompressible."
+    }
+   ]
+  },
+  {
+   "id": "u1.flow.f13",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compressible flow: density changes along the flow (gases at high speed). Incompressible flow: density stays constant (liquids)."
+   },
+   "why": {
+    "en": "Fast gas gets squeezed and expanded as it moves."
+   },
+   "recall_q": {
+    "en": "Flow of water in a pipe is compressible or incompressible?"
+   },
+   "recall_a": {
+    "en": "Incompressible."
+   },
+   "explain_simple": {
+    "en": "Water keeps the same density as it flows."
+   }
+  },
+  {
+   "id": "u1.flow.f14",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rotational flow: fluid particles spin about their own axis. Irrotational flow: they do not spin."
+   },
+   "why": {
+    "en": "Viscosity near walls makes particles rotate."
+   },
+   "recall_q": {
+    "en": "Flow in which particles do not rotate about their own axis?"
+   },
+   "recall_a": {
+    "en": "Irrotational flow."
+   },
+   "explain_simple": {
+    "en": "Rotational = particles spin. Irrotational = no spin."
+   }
+  },
+  {
+   "id": "u1.flow.f15",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "One-dimensional flow: velocity changes in one direction only. Two- and three-dimensional flows change in more directions."
+   },
+   "why": {
+    "en": "Engineers simplify pipe flow as one-dimensional."
+   },
+   "recall_q": {
+    "en": "Pipe flow is usually treated as how many dimensional?"
+   },
+   "recall_a": {
+    "en": "One-dimensional."
+   },
+   "explain_simple": {
+    "en": "Count the directions in which speed changes."
+   }
+  },
+  {
+   "id": "u1.flow.f16",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A streamline is an imaginary line that shows the direction of flow at every point. Streamlines never cross."
+   },
+   "why": {
+    "en": "A particle cannot move in two directions at once."
+   },
+   "recall_q": {
+    "en": "Can two streamlines cross?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Flow lines never cut each other."
+   }
+  },
+  {
+   "id": "u1.flow.f17",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In Bernoulli's equation the three heads are: pressure head p/ρg, velocity (kinetic) head V²/2g and datum (potential) head z."
+   },
+   "why": {
+    "en": "Each is energy per unit weight, measured in metres."
+   },
+   "recall_q": {
+    "en": "Velocity head in Bernoulli's equation?"
+   },
+   "recall_a": {
+    "en": "V²/2g"
+   },
+   "explain_simple": {
+    "en": "Pressure, speed and height — each as metres of fluid."
+   }
+  },
+  {
+   "id": "u1.flow.f18",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bernoulli's equation assumes: ideal (non-viscous), incompressible, steady flow along a streamline."
+   },
+   "why": {
+    "en": "Real flows have losses, so a loss term is added later."
+   },
+   "recall_q": {
+    "en": "Name one assumption of Bernoulli's equation."
+   },
+   "recall_a": {
+    "en": "Ideal, incompressible, steady flow along a streamline."
+   },
+   "explain_simple": {
+    "en": "It works best for smooth, frictionless, steady flow."
+   }
+  },
+  {
+   "id": "u1.flow.f19",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydraulic gradient line (HGL) joins pressure + datum heads. Total energy line (TEL) is higher than HGL by V²/2g."
+   },
+   "why": {
+    "en": "TEL adds the velocity head on top."
+   },
+   "recall_q": {
+    "en": "TEL lies above HGL by how much?"
+   },
+   "recall_a": {
+    "en": "Velocity head V²/2g."
+   },
+   "explain_simple": {
+    "en": "Energy line sits above the pressure line by the speed part."
+   }
+  },
+  {
+   "id": "u1.flow.f20",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Venturimeter's coefficient of discharge is high, about 0.96–0.98. Orifice meter's is low, about 0.6."
+   },
+   "why": {
+    "en": "A venturimeter's smooth shape wastes little energy."
+   },
+   "recall_q": {
+    "en": "Which has a higher Cd: venturimeter or orifice meter?"
+   },
+   "recall_a": {
+    "en": "Venturimeter."
+   },
+   "explain_simple": {
+    "en": "Smooth shape → less loss → higher Cd."
+   }
+  },
+  {
+   "id": "u1.flow.f21",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In a venturimeter, the converging cone is short and the diverging cone is long (angle about 5–7°)."
+   },
+   "why": {
+    "en": "A slow, gentle widening stops the flow from breaking away and losing energy."
+   },
+   "recall_q": {
+    "en": "Which part of a venturimeter is longer: converging or diverging?"
+   },
+   "recall_a": {
+    "en": "Diverging part."
+   },
+   "explain_simple": {
+    "en": "Quick narrowing, slow widening."
+   }
+  },
+  {
+   "id": "u1.flow.f22",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An orifice meter is a thin plate with a hole fitted in a pipe. It is cheaper but loses more energy than a venturimeter."
+   },
+   "why": {
+    "en": "The sudden hole creates swirls."
+   },
+   "recall_q": {
+    "en": "Cheaper flow meter with more loss: venturimeter or orifice meter?"
+   },
+   "recall_a": {
+    "en": "Orifice meter."
+   },
+   "explain_simple": {
+    "en": "A plate with a hole: cheap but wasteful."
+   }
+  },
+  {
+   "id": "u1.flow.f23",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Coefficient of contraction Cc = jet area at vena contracta / orifice area (about 0.64). Coefficient of velocity Cv ≈ 0.97–0.99."
+   },
+   "why": {
+    "en": "The jet narrows (Cc) and slows a little by friction (Cv)."
+   },
+   "recall_q": {
+    "en": "Approximate value of Cc for a sharp orifice?"
+   },
+   "recall_a": {
+    "en": "About 0.64."
+   },
+   "explain_simple": {
+    "en": "The jet is only about two-thirds the hole size."
+   }
+  },
+  {
+   "id": "u1.flow.f24",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A mouthpiece is a short tube (2–3 times its diameter) fitted to an orifice. It increases discharge."
+   },
+   "why": {
+    "en": "It reduces jet contraction."
+   },
+   "recall_q": {
+    "en": "Effect of fitting a mouthpiece on an orifice?"
+   },
+   "recall_a": {
+    "en": "Discharge increases."
+   },
+   "explain_simple": {
+    "en": "A short pipe on the hole lets more water out."
+   }
+  },
+  {
+   "id": "u1.flow.f25",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Discharge over a rectangular notch Q ∝ H^(3/2). Over a triangular (V) notch Q ∝ H^(5/2)."
+   },
+   "why": {
+    "en": "The V shape widens as water rises, so flow grows faster with H."
+   },
+   "recall_q": {
+    "en": "Discharge over a V-notch is proportional to H to the power?"
+   },
+   "recall_a": {
+    "en": "5/2"
+   },
+   "explain_simple": {
+    "en": "Rectangle: H^1.5. Triangle: H^2.5."
+   }
+  },
+  {
+   "id": "u1.flow.f26",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A weir is a large notch, usually built of masonry across a river or canal. A notch is small and made of metal plate."
+   },
+   "why": {
+    "en": "Same idea, different size and material."
+   },
+   "recall_q": {
+    "en": "Difference between a notch and a weir?"
+   },
+   "recall_a": {
+    "en": "Notch: small, metal plate. Weir: large, masonry structure."
+   },
+   "explain_simple": {
+    "en": "A weir is a big notch across a river."
+   }
+  },
+  {
+   "id": "u1.flow.f27",
+   "topic": "u1.flow",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Momentum equation: force on a fluid = rate of change of momentum. Used to find force of a jet on a plate."
+   },
+   "why": {
+    "en": "Newton's second law applied to flowing fluid."
+   },
+   "recall_q": {
+    "en": "Force of a jet on a flat plate comes from which principle?"
+   },
+   "recall_a": {
+    "en": "Impulse-momentum principle."
+   },
+   "explain_simple": {
+    "en": "Stopping a water jet needs a force."
+   }
+  },
+  {
+   "id": "u1.flow.s01",
+   "topic": "u1.flow",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: continuity equation"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: Water flows at 2 m/s in a pipe of area 0.02 m². It enters a pipe of area 0.01 m². Find the new velocity."
+     }
+    },
+    {
+     "text": {
+      "en": "Use A₁V₁ = A₂V₂."
+     },
+     "explain": {
+      "en": "Same water must pass both pipes each second."
+     }
+    },
+    {
+     "text": {
+      "en": "0.02 × 2 = 0.01 × V₂, so 0.04 = 0.01 × V₂."
+     }
+    },
+    {
+     "text": {
+      "en": "V₂ = 0.04 / 0.01 = 4 m/s."
+     },
+     "explain": {
+      "en": "Half the area, double the speed."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "A₁V₁ = A₂V₂."
+    },
+    {
+     "en": "Half the area → double the speed."
+    }
+   ],
+   "recall_q": {
+    "en": "Area halves. What happens to velocity?"
+   },
+   "recall_a": {
+    "en": "It doubles."
+   }
+  },
+  {
+   "id": "u1.flow.s02",
+   "topic": "u1.flow",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Flow types, orifice, notch, venturimeter, continuity; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: discharge"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A pipe of area 0.05 m² carries water at 3 m/s. Find discharge."
+     }
+    },
+    {
+     "text": {
+      "en": "Use Q = A × V."
+     }
+    },
+    {
+     "text": {
+      "en": "Q = 0.05 × 3 = 0.15 m³/s."
+     }
+    },
+    {
+     "text": {
+      "en": "In litres: 0.15 × 1000 = 150 litres per second."
+     },
+     "explain": {
+      "en": "1 m³ = 1000 litres."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "Q = A × V, unit m³/s."
+    },
+    {
+     "en": "1 m³ = 1000 litres."
+    }
+   ],
+   "recall_q": {
+    "en": "Formula for discharge?"
+   },
+   "recall_a": {
+    "en": "Q = A × V"
+   }
+  },
+  {
+   "id": "u1.losses.f06",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Loss due to sudden enlargement = (V₁ − V₂)² / 2g."
+   },
+   "why": {
+    "en": "Fast water hits slow water and swirls, wasting energy."
+   },
+   "recall_q": {
+    "en": "Head loss at sudden enlargement?"
+   },
+   "recall_a": {
+    "en": "(V₁ − V₂)²/2g"
+   },
+   "explain_simple": {
+    "en": "Loss depends on the drop in speed, squared."
+   }
+  },
+  {
+   "id": "u1.losses.f07",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Loss at pipe entrance = 0.5 V²/2g. Loss at pipe exit = V²/2g."
+   },
+   "why": {
+    "en": "At exit, all the velocity energy is lost into the tank."
+   },
+   "recall_q": {
+    "en": "Head loss at exit of a pipe into a tank?"
+   },
+   "recall_a": {
+    "en": "V²/2g"
+   },
+   "explain_simple": {
+    "en": "Entry loses half a velocity head; exit loses a full one."
+   }
+  },
+  {
+   "id": "u1.losses.f08",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Loss due to sudden contraction ≈ 0.5 V₂²/2g (V₂ = velocity in the smaller pipe)."
+   },
+   "why": {
+    "en": "The vena contracta forms and then the flow expands again."
+   },
+   "recall_q": {
+    "en": "Approximate head loss at sudden contraction?"
+   },
+   "recall_a": {
+    "en": "0.5 V₂²/2g"
+   },
+   "explain_simple": {
+    "en": "About half the velocity head of the small pipe."
+   }
+  },
+  {
+   "id": "u1.losses.f09",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "For laminar flow, friction factor f = 16/Re (or Darcy f' = 64/Re)."
+   },
+   "why": {
+    "en": "In laminar flow, friction depends only on Reynolds number, not on roughness."
+   },
+   "recall_q": {
+    "en": "Darcy friction factor for laminar flow?"
+   },
+   "recall_a": {
+    "en": "64/Re (or f = 16/Re in the 4f form)."
+   },
+   "explain_simple": {
+    "en": "Laminar flow: friction = 64 divided by Re."
+   }
+  },
+  {
+   "id": "u1.losses.f10",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hagen–Poiseuille equation gives head loss in laminar pipe flow: hf = 32 μ V L / (ρ g D²)."
+   },
+   "why": {
+    "en": "In laminar flow, loss grows directly with velocity (not velocity squared)."
+   },
+   "recall_q": {
+    "en": "In laminar flow, head loss varies with velocity to which power?"
+   },
+   "recall_a": {
+    "en": "Power 1 (directly proportional)."
+   },
+   "explain_simple": {
+    "en": "Laminar: double speed → double loss."
+   }
+  },
+  {
+   "id": "u1.losses.f11",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Moody diagram links friction factor with Reynolds number and pipe roughness for turbulent flow."
+   },
+   "why": {
+    "en": "In turbulent flow, roughness also matters."
+   },
+   "recall_q": {
+    "en": "Which chart gives friction factor for rough pipes?"
+   },
+   "recall_a": {
+    "en": "Moody diagram."
+   },
+   "explain_simple": {
+    "en": "A chart to look up pipe friction."
+   }
+  },
+  {
+   "id": "u1.losses.f12",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Water hammer is a pressure surge when a valve in a pipe is closed suddenly."
+   },
+   "why": {
+    "en": "Moving water is stopped quickly, and its momentum turns into a pressure wave."
+   },
+   "example": {
+    "en": "A banging noise in house pipes when a tap shuts quickly."
+   },
+   "recall_q": {
+    "en": "Pressure rise due to sudden closing of a valve is called?"
+   },
+   "recall_a": {
+    "en": "Water hammer."
+   },
+   "explain_simple": {
+    "en": "Stopping water fast makes a big pressure knock."
+   }
+  },
+  {
+   "id": "u1.losses.f13",
+   "topic": "u1.losses",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pipes in series: same discharge, head losses add. Pipes in parallel: same head loss, discharges add."
+   },
+   "why": {
+    "en": "Like electric circuits: series shares current, parallel shares voltage."
+   },
+   "recall_q": {
+    "en": "In pipes in parallel, what is the same in each pipe?"
+   },
+   "recall_a": {
+    "en": "Head loss."
+   },
+   "explain_simple": {
+    "en": "Series: same flow. Parallel: same loss."
+   }
+  },
+  {
+   "id": "u1.losses.sum",
+   "topic": "u1.losses",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Head losses, Darcy and Chezy formulas; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Head losses, Darcy and Chezy formulas"
+   },
+   "points": [
+    {
+     "en": "Major loss = pipe friction, Darcy hf = 4fLV²/2gD."
+    },
+    {
+     "en": "Minor losses: bends, valves, enlargement, contraction, entry, exit."
+    },
+    {
+     "en": "Enlargement: (V₁−V₂)²/2g; exit V²/2g; entry 0.5V²/2g."
+    },
+    {
+     "en": "Chezy V = C√(mi); m = D/4 for a full pipe."
+    },
+    {
+     "en": "Laminar f = 64/Re; water hammer = sudden valve closing."
+    }
+   ]
+  },
+  {
+   "id": "u1.oils.f09",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cloud point is the temperature at which wax crystals first make the oil look cloudy. It is a little above the pour point."
+   },
+   "why": {
+    "en": "Wax starts separating before the oil fully stops flowing."
+   },
+   "recall_q": {
+    "en": "Which is higher: cloud point or pour point?"
+   },
+   "recall_a": {
+    "en": "Cloud point."
+   },
+   "explain_simple": {
+    "en": "First it looks cloudy, then it stops pouring."
+   }
+  },
+  {
+   "id": "u1.oils.f10",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Foam resistance: a good hydraulic oil must not foam. Air bubbles make the system spongy."
+   },
+   "why": {
+    "en": "Air compresses, so the hydraulic action becomes soft and slow."
+   },
+   "recall_q": {
+    "en": "Why should hydraulic oil resist foaming?"
+   },
+   "recall_a": {
+    "en": "Air bubbles make the system spongy and weak."
+   },
+   "explain_simple": {
+    "en": "Foam = air = soft, weak hydraulics."
+   }
+  },
+  {
+   "id": "u1.oils.f11",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Main jobs of a hydraulic oil: pass power, lubricate, seal, cool and protect from rust."
+   },
+   "why": {
+    "en": "One liquid does many jobs inside the system."
+   },
+   "recall_q": {
+    "en": "Name the main job of a hydraulic fluid."
+   },
+   "recall_a": {
+    "en": "To transmit power (also lubricate, seal, cool)."
+   },
+   "explain_simple": {
+    "en": "It carries the push and keeps parts healthy."
+   }
+  },
+  {
+   "id": "u1.oils.f12",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "SAE number shows the viscosity grade of engine oil. 'W' means winter grade. In 20W-40, the oil acts like SAE 20 when cold and SAE 40 when hot."
+   },
+   "why": {
+    "en": "Multigrade oil works in both cold start and hot running."
+   },
+   "recall_q": {
+    "en": "In 20W-40 oil, what does W stand for?"
+   },
+   "recall_a": {
+    "en": "Winter."
+   },
+   "explain_simple": {
+    "en": "First number for cold, second for hot."
+   }
+  },
+  {
+   "id": "u1.oils.f13",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydraulic brake fluid is not mineral oil. It is glycol based (DOT 3, DOT 4)."
+   },
+   "why": {
+    "en": "Mineral oil swells and ruins the rubber seals of the brake system."
+   },
+   "recall_q": {
+    "en": "Is brake fluid a mineral oil?"
+   },
+   "recall_a": {
+    "en": "No — it is glycol-based (DOT grades)."
+   },
+   "explain_simple": {
+    "en": "Brake fluid is special; engine oil will damage brake seals."
+   }
+  },
+  {
+   "id": "u1.oils.f14",
+   "topic": "u1.oils",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Properties of hydraulic oils; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brake fluid absorbs moisture from air (hygroscopic). This lowers its boiling point, so it is changed regularly."
+   },
+   "why": {
+    "en": "Boiling fluid makes vapour, and the brake pedal goes soft (vapour lock)."
+   },
+   "recall_q": {
+    "en": "Why must brake fluid be replaced periodically?"
+   },
+   "recall_a": {
+    "en": "It absorbs water, which lowers its boiling point."
+   },
+   "explain_simple": {
+    "en": "Old brake fluid holds water and can boil."
+   }
+  },
+  {
+   "id": "u1.machines.f13",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Main parts of a centrifugal pump: impeller, casing, suction pipe with foot valve and strainer, delivery pipe."
+   },
+   "why": {
+    "en": "Each part moves water from sump to tank."
+   },
+   "recall_q": {
+    "en": "Which part stops water draining back when a centrifugal pump stops?"
+   },
+   "recall_a": {
+    "en": "Foot valve (a non-return valve)."
+   },
+   "explain_simple": {
+    "en": "The foot valve keeps the pipe full."
+   }
+  },
+  {
+   "id": "u1.machines.f14",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A volute casing is spiral-shaped; its area grows towards the outlet. It turns velocity into pressure."
+   },
+   "why": {
+    "en": "Water slows as the passage widens, raising pressure."
+   },
+   "recall_q": {
+    "en": "Shape of the casing of a centrifugal pump?"
+   },
+   "recall_a": {
+    "en": "Spiral (volute)."
+   },
+   "explain_simple": {
+    "en": "A snail-shell casing changes speed into pressure."
+   }
+  },
+  {
+   "id": "u1.machines.f15",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Manometric head of a centrifugal pump = actual head the pump develops (static head + losses + exit velocity head)."
+   },
+   "why": {
+    "en": "The pump must lift water and also overcome pipe losses."
+   },
+   "recall_q": {
+    "en": "What is manometric head?"
+   },
+   "recall_a": {
+    "en": "The total head the pump must develop."
+   },
+   "explain_simple": {
+    "en": "Height lifted plus losses."
+   }
+  },
+  {
+   "id": "u1.machines.f16",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Manometric efficiency = manometric head / head given by the impeller. Overall efficiency = water power / shaft power."
+   },
+   "why": {
+    "en": "Efficiencies show where energy is lost."
+   },
+   "recall_q": {
+    "en": "Overall efficiency of a pump?"
+   },
+   "recall_a": {
+    "en": "Water power ÷ shaft power."
+   },
+   "explain_simple": {
+    "en": "Useful output ÷ input."
+   }
+  },
+  {
+   "id": "u1.machines.f17",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pumps in series increase head. Pumps in parallel increase discharge."
+   },
+   "why": {
+    "en": "Series: each pump adds lift. Parallel: each pump adds flow."
+   },
+   "recall_q": {
+    "en": "To get more head, connect pumps in series or parallel?"
+   },
+   "recall_a": {
+    "en": "Series (multistage)."
+   },
+   "explain_simple": {
+    "en": "Series = higher. Parallel = more."
+   }
+  },
+  {
+   "id": "u1.machines.f18",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "NPSH (net positive suction head) must be enough at the pump inlet, or cavitation starts."
+   },
+   "why": {
+    "en": "Low suction pressure lets water boil into vapour bubbles."
+   },
+   "recall_q": {
+    "en": "What happens if available NPSH is too low?"
+   },
+   "recall_a": {
+    "en": "Cavitation."
+   },
+   "explain_simple": {
+    "en": "Too little suction pressure → bubbles → damage."
+   }
+  },
+  {
+   "id": "u1.machines.f19",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A centrifugal pump suits large flow at low or medium head. A reciprocating pump suits small flow at high head."
+   },
+   "why": {
+    "en": "Spinning impellers move lots of water; pistons build high pressure."
+   },
+   "recall_q": {
+    "en": "Which pump suits high head with small flow?"
+   },
+   "recall_a": {
+    "en": "Reciprocating pump."
+   },
+   "explain_simple": {
+    "en": "Lots of water → centrifugal. High pressure → reciprocating."
+   }
+  },
+  {
+   "id": "u1.machines.f20",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gear pumps and vane pumps are rotary positive displacement pumps. They are used for oil and power steering."
+   },
+   "why": {
+    "en": "They trap oil and push a fixed amount each turn."
+   },
+   "example": {
+    "en": "The engine oil pump is usually a gear pump."
+   },
+   "recall_q": {
+    "en": "Engine oil pumps are commonly which type?"
+   },
+   "recall_a": {
+    "en": "Gear pump (or rotor pump)."
+   },
+   "explain_simple": {
+    "en": "Gears trap oil and carry it round."
+   }
+  },
+  {
+   "id": "u1.machines.f21",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pelton wheel parts: nozzle with spear, runner with buckets, casing, breaking jet. Buckets have a splitter in the middle."
+   },
+   "why": {
+    "en": "The splitter divides the jet into two halves so there is no side thrust."
+   },
+   "recall_q": {
+    "en": "Purpose of the splitter in a Pelton bucket?"
+   },
+   "recall_a": {
+    "en": "To divide the jet into two equal parts (avoid side thrust)."
+   },
+   "explain_simple": {
+    "en": "The middle ridge splits the jet into two."
+   }
+  },
+  {
+   "id": "u1.machines.f22",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Best speed ratio of a Pelton wheel is about 0.46 (bucket speed ≈ half the jet speed)."
+   },
+   "why": {
+    "en": "Maximum work when bucket speed is half the jet speed."
+   },
+   "recall_q": {
+    "en": "Ideal ratio of bucket speed to jet speed in a Pelton wheel?"
+   },
+   "recall_a": {
+    "en": "About 0.5 (practically 0.46)."
+   },
+   "explain_simple": {
+    "en": "Buckets move at about half the jet speed."
+   }
+  },
+  {
+   "id": "u1.machines.f23",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Francis turbine is an inward mixed-flow reaction turbine with fixed runner blades and guide vanes."
+   },
+   "why": {
+    "en": "Water enters radially and leaves axially."
+   },
+   "recall_q": {
+    "en": "Francis turbine flow direction?"
+   },
+   "recall_a": {
+    "en": "Inward radial to axial (mixed flow)."
+   },
+   "explain_simple": {
+    "en": "Water comes in from the sides and leaves down the middle."
+   }
+  },
+  {
+   "id": "u1.machines.f24",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Kaplan turbine is an axial-flow reaction turbine with adjustable runner blades. A propeller turbine has fixed blades."
+   },
+   "why": {
+    "en": "Adjustable blades keep efficiency high when flow changes."
+   },
+   "recall_q": {
+    "en": "Which axial turbine has adjustable runner blades?"
+   },
+   "recall_a": {
+    "en": "Kaplan turbine."
+   },
+   "explain_simple": {
+    "en": "Kaplan = a ship's propeller with blades that turn."
+   }
+  },
+  {
+   "id": "u1.machines.f25",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Specific speed ranges: Pelton low (about 10–35), Francis medium (about 60–300), Kaplan high (300–1000)."
+   },
+   "why": {
+    "en": "Low head machines must spin fast for their size."
+   },
+   "recall_q": {
+    "en": "Which turbine has the highest specific speed?"
+   },
+   "recall_a": {
+    "en": "Kaplan."
+   },
+   "explain_simple": {
+    "en": "Pelton slow, Francis middle, Kaplan fast."
+   }
+  },
+  {
+   "id": "u1.machines.f26",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Impulse vs reaction: impulse works at atmospheric pressure, partly filled, no draft tube. Reaction runs full of water under pressure, with a draft tube."
+   },
+   "why": {
+    "en": "In impulse turbines all energy is speed; in reaction both pressure and speed act."
+   },
+   "recall_q": {
+    "en": "Which turbine runs full of water under pressure?"
+   },
+   "recall_a": {
+    "en": "Reaction turbine."
+   },
+   "explain_simple": {
+    "en": "Impulse = jet hits cups. Reaction = water fills and pushes."
+   }
+  },
+  {
+   "id": "u1.machines.f27",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Governing of a turbine keeps its speed constant when load changes, by controlling the water flow."
+   },
+   "why": {
+    "en": "Generators must run at fixed speed to give 50 Hz power."
+   },
+   "recall_q": {
+    "en": "Why are turbines governed?"
+   },
+   "recall_a": {
+    "en": "To keep speed constant as load changes."
+   },
+   "explain_simple": {
+    "en": "Less load → less water, so speed stays the same."
+   }
+  },
+  {
+   "id": "u1.machines.f28",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A hydraulic ram lifts part of a water flow to a higher level using water hammer. It needs no outside power."
+   },
+   "why": {
+    "en": "The pressure surge of stopped water pushes some water up."
+   },
+   "recall_q": {
+    "en": "Which device lifts water using water hammer, without a motor?"
+   },
+   "recall_a": {
+    "en": "Hydraulic ram."
+   },
+   "explain_simple": {
+    "en": "A pump that runs on the knock of stopped water."
+   }
+  },
+  {
+   "id": "u1.machines.f29",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydraulic accumulator stores hydraulic energy (pressurised liquid) for later use."
+   },
+   "why": {
+    "en": "It supplies extra flow when demand is high."
+   },
+   "recall_q": {
+    "en": "Device that stores energy as pressurised liquid?"
+   },
+   "recall_a": {
+    "en": "Hydraulic accumulator."
+   },
+   "explain_simple": {
+    "en": "A storage tank for hydraulic pressure."
+   }
+  },
+  {
+   "id": "u1.machines.f30",
+   "topic": "u1.machines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydraulic intensifier increases the pressure of a liquid using a large and a small piston."
+   },
+   "why": {
+    "en": "Low pressure on the big piston gives high pressure under the small one."
+   },
+   "recall_q": {
+    "en": "Device that raises liquid pressure?"
+   },
+   "recall_a": {
+    "en": "Hydraulic intensifier."
+   },
+   "explain_simple": {
+    "en": "Big piston pushes small piston to raise pressure."
+   }
+  },
+  {
+   "id": "u1.machines.s01",
+   "topic": "u1.machines",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Pumps and turbines; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: slip of a reciprocating pump"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: Theoretical discharge is 10 litres/s. Actual is 9.5 litres/s. Find percentage slip."
+     }
+    },
+    {
+     "text": {
+      "en": "Slip = Qth − Qact = 10 − 9.5 = 0.5 L/s."
+     }
+    },
+    {
+     "text": {
+      "en": "% slip = 0.5 / 10 × 100 = 5%."
+     }
+    },
+    {
+     "text": {
+      "en": "Coefficient of discharge = Qact/Qth = 9.5/10 = 0.95."
+     },
+     "explain": {
+      "en": "Cd and slip add up: 0.95 + 0.05 = 1."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "% slip = (Qth − Qact)/Qth × 100."
+    },
+    {
+     "en": "Cd = Qact/Qth."
+    }
+   ],
+   "recall_q": {
+    "en": "If Cd = 0.95, what is % slip?"
+   },
+   "recall_a": {
+    "en": "5%"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.practice.u1.1",
+   "topic": "u1.pressure",
+   "kind": "mcq",
+   "q": {
+    "en": "Hydraulic brakes in a car work on which principle?"
+   },
+   "options": [
+    {
+     "en": "Bernoulli's theorem"
+    },
+    {
+     "en": "Pascal's law"
+    },
+    {
+     "en": "Archimedes' principle"
+    },
+    {
+     "en": "Newton's law of viscosity"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Pascal's law: pressure in a confined fluid is passed equally in all directions."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u1.pressure.f06"
+   ]
+  },
+  {
+   "id": "q.practice.u1.2",
+   "topic": "u1.properties",
+   "kind": "mcq",
+   "q": {
+    "en": "The unit of kinematic viscosity in CGS system is"
+   },
+   "options": [
+    {
+     "en": "Poise"
+    },
+    {
+     "en": "Stoke"
+    },
+    {
+     "en": "Pascal"
+    },
+    {
+     "en": "N/m"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Kinematic viscosity = μ/ρ; CGS unit is stoke (cm²/s)."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u1.properties.f08"
+   ]
+  },
+  {
+   "id": "q.practice.u1.3",
+   "topic": "u1.flow",
+   "kind": "mcq",
+   "q": {
+    "en": "Flow in a pipe is laminar when Reynolds number is"
+   },
+   "options": [
+    {
+     "en": "Below 2000"
+    },
+    {
+     "en": "Between 2000 and 4000"
+    },
+    {
+     "en": "Above 4000"
+    },
+    {
+     "en": "Exactly 4000"
+    }
+   ],
+   "answer": 0,
+   "explain": {
+    "en": "Below about 2000 the flow is laminar."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u1.flow.f04"
+   ]
+  },
+  {
+   "id": "q.practice.u1.4",
+   "topic": "u1.machines",
+   "kind": "mcq",
+   "q": {
+    "en": "Pelton wheel is a"
+   },
+   "options": [
+    {
+     "en": "Low-head reaction turbine"
+    },
+    {
+     "en": "Medium-head reaction turbine"
+    },
+    {
+     "en": "High-head impulse turbine"
+    },
+    {
+     "en": "Centrifugal pump"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Pelton wheel is an impulse turbine used for high heads."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u1.machines.f10"
+   ]
+  },
+  {
+   "id": "q.practice.u1.5",
+   "topic": "u1.oils",
+   "kind": "mcq",
+   "q": {
+    "en": "The lowest temperature at which an oil will flow is called"
+   },
+   "options": [
+    {
+     "en": "Flash point"
+    },
+    {
+     "en": "Fire point"
+    },
+    {
+     "en": "Pour point"
+    },
+    {
+     "en": "Cloud point"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Pour point is the lowest temperature at which the oil still flows."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u1.oils.f06"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1441 @@
+unit: u1
+subject: fluid_mechanics
+title: "Unit I — Fluid mechanics and hydraulic machines (10 marks)"
+
+topics:
+  - {id: u1.properties, title: "Properties of fluids", freq: 0.8}
+  - {id: u1.pressure, title: "Fluid pressure and Pascal's law", freq: 0.7}
+  - {id: u1.measure, title: "Pressure measuring instruments", freq: 0.6}
+  - {id: u1.fluidtypes, title: "Types of fluids", freq: 0.5}
+  - {id: u1.flow, title: "Flow types, orifice, notch, venturimeter, continuity", freq: 0.7}
+  - {id: u1.losses, title: "Head losses, Darcy and Chezy formulas", freq: 0.5}
+  - {id: u1.oils, title: "Properties of hydraulic oils", freq: 0.5}
+  - {id: u1.machines, title: "Pumps and turbines", freq: 0.7}
+
+cards:
+  # ---------- Properties ----------
+  - id: f01
+    topic: u1.properties
+    difficulty: 1
+    learn: "A fluid is anything that flows: liquids and gases. It cannot keep its own shape."
+    why: "Its particles slide past each other easily, so it takes the shape of its container."
+    example: "Water takes the shape of a glass. Air fills a tyre."
+    q: "What is a fluid?"
+    a: "A substance that flows — liquid or gas."
+    simple: "If it can be poured or it spreads out, it is a fluid."
+  - id: f02
+    topic: u1.properties
+    difficulty: 1
+    learn: "Density (mass density) is mass per unit volume. Density = Mass / Volume. Unit: kg/m³. Symbol: ρ (rho)."
+    why: "It tells how much 'stuff' is packed into a space."
+    example: "Water is 1000 kg/m³. Petrol is lighter, about 750 kg/m³, so petrol floats on water."
+    q: "Density of water in kg/m³?"
+    a: "1000 kg/m³."
+    simple: "Heavy for its size = high density."
+  - id: f03
+    topic: u1.properties
+    difficulty: 2
+    learn: "Specific weight (weight density) is weight per unit volume. w = ρ × g. Unit: N/m³."
+    why: "Weight is mass pulled by gravity, so multiply density by g (9.81 m/s²)."
+    example: "Water: 1000 × 9.81 = 9810 N/m³."
+    q: "Formula for specific weight?"
+    a: "w = ρ × g (unit N/m³)."
+    simple: "Density talks about mass. Specific weight talks about weight."
+  - id: f04
+    topic: u1.properties
+    difficulty: 1
+    learn: "Specific volume is volume per unit mass. It is 1 / density. Unit: m³/kg."
+    why: "It is just density turned upside down."
+    example: "Water: 1/1000 = 0.001 m³/kg."
+    q: "Specific volume is the reciprocal of what?"
+    a: "Density."
+    simple: "How much space one kilogram takes."
+  - id: f05
+    topic: u1.properties
+    difficulty: 1
+    learn: "Specific gravity (relative density) = density of the liquid / density of water. It has no unit."
+    why: "It compares a liquid with water, so the units cancel."
+    example: "Mercury has specific gravity 13.6 — it is 13.6 times heavier than water."
+    q: "Specific gravity of mercury?"
+    a: "13.6"
+    simple: "How many times heavier than water."
+  - id: f06
+    topic: u1.properties
+    difficulty: 1
+    learn: "Viscosity is a fluid's resistance to flow — its inner friction. Thick fluid = high viscosity."
+    why: "Layers of the fluid rub against each other when they move."
+    example: "Honey and engine oil flow slowly. Water and petrol flow fast."
+    q: "What is viscosity?"
+    a: "Resistance to flow (internal friction of a fluid)."
+    simple: "Viscosity means thickness of a liquid."
+  - id: f07
+    topic: u1.properties
+    difficulty: 2
+    learn: "Dynamic viscosity (μ) unit: N·s/m² or Pa·s. CGS unit: poise. 1 poise = 0.1 N·s/m²."
+    why: "It is shear stress divided by velocity gradient."
+    q: "CGS unit of dynamic viscosity?"
+    a: "Poise (1 poise = 0.1 N·s/m²)."
+    simple: "Viscosity is measured in poise or Pa·s."
+  - id: f08
+    topic: u1.properties
+    difficulty: 2
+    learn: "Kinematic viscosity (ν) = dynamic viscosity / density. SI unit: m²/s. CGS unit: stoke."
+    why: "Dividing by density removes the mass part; only length and time remain."
+    example: "1 stoke = 1 cm²/s = 10⁻⁴ m²/s."
+    q: "Unit of kinematic viscosity in CGS?"
+    a: "Stoke (cm²/s)."
+    simple: "Kinematic viscosity = μ / ρ."
+  - id: f09
+    topic: u1.properties
+    difficulty: 2
+    learn: "Newton's law of viscosity: shear stress is proportional to velocity gradient. τ = μ × (du/dy)."
+    why: "The faster one layer slides over the next, the more force is needed."
+    example: "Stirring honey fast needs more effort than stirring slowly."
+    q: "State Newton's law of viscosity as a formula."
+    a: "τ = μ × du/dy"
+    simple: "Faster sliding of layers → more drag."
+  - id: f10
+    topic: u1.properties
+    difficulty: 2
+    learn: "Viscosity of liquids falls when heated. Viscosity of gases rises when heated."
+    why: "In liquids, heat weakens the pull between molecules. In gases, heat makes molecules collide more."
+    example: "Cold engine oil is thick in the morning; warm oil is thin."
+    q: "What happens to the viscosity of a liquid when it is heated?"
+    a: "It decreases."
+    simple: "Hot oil = thin oil. Hot gas = thicker gas."
+  - id: f11
+    topic: u1.properties
+    difficulty: 2
+    learn: "Compressibility is how much a fluid's volume shrinks under pressure. It is 1 / bulk modulus."
+    why: "Gases squeeze easily; liquids hardly squeeze at all."
+    example: "You can pump much air into a tyre. You cannot squeeze water into a bottle that is full."
+    q: "Compressibility is the reciprocal of what?"
+    a: "Bulk modulus (K)."
+    simple: "Easy to squeeze = high compressibility."
+  - id: f12
+    topic: u1.properties
+    difficulty: 2
+    learn: "Surface tension is the pull on a liquid surface that makes it act like a stretched skin. Unit: N/m."
+    why: "Molecules on the surface are pulled inward by the molecules below."
+    example: "Water drops are round. A small insect can walk on water."
+    q: "Unit of surface tension?"
+    a: "N/m"
+    simple: "The surface of water behaves like a thin rubber sheet."
+  - id: f13
+    topic: u1.properties
+    difficulty: 2
+    learn: "Capillarity: a liquid rises or falls in a thin tube. Water rises (wets glass). Mercury falls (does not wet glass)."
+    why: "It is caused by surface tension and the attraction between the liquid and the tube wall."
+    example: "Kerosene climbs up the wick of a lamp."
+    q: "In a thin glass tube, does mercury rise or fall?"
+    a: "Falls (capillary depression)."
+    simple: "Water climbs a thin tube; mercury goes down."
+  - id: f14
+    topic: u1.properties
+    difficulty: 3
+    learn: "Capillary rise h = 4σcosθ / (ρgd). Thinner tube → higher rise."
+    why: "The diameter d is in the bottom of the formula."
+    q: "If the tube is made thinner, what happens to capillary rise?"
+    a: "It increases."
+    simple: "Smaller tube, taller rise."
+  - id: sum
+    topic: u1.properties
+    type: summary
+    points:
+      - "Density = mass/volume (water 1000 kg/m³)."
+      - "Specific weight = ρg; specific gravity has no unit."
+      - "Viscosity = resistance to flow; τ = μ du/dy."
+      - "Kinematic viscosity = μ/ρ, unit stoke."
+      - "Surface tension N/m; water rises, mercury falls in a tube."
+
+  # ---------- Pressure ----------
+  - id: f01
+    topic: u1.pressure
+    difficulty: 1
+    learn: "Pressure = Force / Area. Unit: pascal (Pa) = 1 N/m². 1 bar = 10⁵ Pa."
+    why: "The same force on a small area pushes harder."
+    example: "A sharp knife cuts better than a blunt one."
+    q: "1 bar equals how many pascal?"
+    a: "100,000 Pa (10⁵ Pa)."
+    simple: "Pressure is push on each square metre."
+  - id: f02
+    topic: u1.pressure
+    difficulty: 2
+    learn: "Pressure in a liquid at depth h is p = ρgh. Pressure head h = p / (ρg)."
+    why: "Deeper down, more liquid sits on top and presses down."
+    example: "Ears hurt at the bottom of a deep pond."
+    q: "Formula for pressure at depth h in a liquid?"
+    a: "p = ρgh"
+    simple: "Deeper = more pressure."
+  - id: f03
+    topic: u1.pressure
+    difficulty: 2
+    learn: "Absolute pressure = Atmospheric pressure + Gauge pressure."
+    why: "A gauge reads zero at normal air pressure, so it misses the air's share."
+    example: "A tyre gauge shows 30 psi; real (absolute) pressure is about 30 + 14.7 psi."
+    q: "Absolute pressure = ?"
+    a: "Atmospheric + gauge pressure."
+    simple: "Real pressure = air pressure + what the gauge shows."
+  - id: f04
+    topic: u1.pressure
+    difficulty: 2
+    learn: "Vacuum pressure is pressure below atmospheric. Absolute = Atmospheric − Vacuum."
+    why: "Vacuum is how much less than air pressure there is."
+    example: "The inlet manifold of a running petrol engine has vacuum."
+    q: "Absolute pressure when there is vacuum = ?"
+    a: "Atmospheric − vacuum pressure."
+    simple: "Vacuum is 'less than air pressure'."
+  - id: f05
+    topic: u1.pressure
+    difficulty: 1
+    learn: "Standard atmospheric pressure = 101.325 kN/m² = 760 mm of mercury = 10.3 m of water."
+    why: "The weight of the air above us presses on everything."
+    q: "Atmospheric pressure in mm of mercury?"
+    a: "760 mm of Hg."
+    simple: "Air pressure holds up 760 mm of mercury."
+  - id: f06
+    topic: u1.pressure
+    difficulty: 1
+    learn: "Pascal's law: pressure applied on a confined fluid is passed equally in all directions."
+    why: "A fluid at rest cannot hold different pressures at the same level."
+    example: "Hydraulic brakes, hydraulic jack and hydraulic press work on Pascal's law."
+    q: "Hydraulic brakes work on which law?"
+    a: "Pascal's law."
+    simple: "Push the fluid at one end; the push reaches every side equally."
+  - id: sum
+    topic: u1.pressure
+    type: summary
+    points:
+      - "Pressure = F/A, unit Pa; 1 bar = 10⁵ Pa."
+      - "p = ρgh; pressure head = p/ρg."
+      - "Absolute = atmospheric + gauge (− vacuum)."
+      - "Atmosphere = 760 mm Hg = 10.3 m water."
+      - "Pascal's law → hydraulic brake, jack, press."
+
+  # ---------- Measuring ----------
+  - id: f01
+    topic: u1.measure
+    difficulty: 2
+    learn: "A piezometer is a simple open glass tube fixed to a pipe. Liquid rises in it to show pressure."
+    why: "Height of liquid in the tube = pressure head."
+    q: "Can a piezometer measure vacuum (negative) pressure?"
+    a: "No. Only small positive pressures of liquids."
+    simple: "A straight tube where water climbs to show pressure."
+  - id: f02
+    topic: u1.measure
+    difficulty: 2
+    learn: "A U-tube manometer has a liquid (often mercury) in a U-shaped tube. It measures high or negative pressure."
+    why: "Heavy mercury balances high pressure in a short tube."
+    q: "Which instrument measures pressure at one point, including vacuum: piezometer or U-tube manometer?"
+    a: "U-tube manometer."
+    simple: "Two arms of a U; the level difference shows pressure."
+  - id: f03
+    topic: u1.measure
+    difficulty: 2
+    learn: "A differential manometer measures the pressure difference between two points or two pipes."
+    why: "Each arm is connected to a different point; the level gap shows the difference."
+    q: "What does a differential manometer measure?"
+    a: "Pressure difference between two points."
+    simple: "It compares two pressures."
+  - id: f04
+    topic: u1.measure
+    difficulty: 2
+    learn: "A Bourdon tube pressure gauge has a bent oval tube that straightens under pressure and turns a pointer."
+    why: "Pressure inside a curved tube tries to make it straight."
+    example: "Air pressure gauges at petrol pumps and on air-brake trucks."
+    q: "What part moves inside a Bourdon gauge?"
+    a: "A curved (C-shaped) oval tube."
+    simple: "Pressure straightens a bent tube, and the pointer moves."
+  - id: f05
+    topic: u1.measure
+    difficulty: 2
+    learn: "A barometer measures atmospheric pressure. A manometer measures fluid pressure in pipes or vessels."
+    why: "Different jobs: one reads the air, one reads a system."
+    q: "Instrument that measures atmospheric pressure?"
+    a: "Barometer."
+    simple: "Baro = air pressure. Mano = pipe pressure."
+  - id: sum
+    topic: u1.measure
+    type: summary
+    points:
+      - "Piezometer: open tube, low positive pressure only."
+      - "U-tube manometer: high and vacuum pressure."
+      - "Differential manometer: difference between two points."
+      - "Bourdon gauge: curved tube straightens."
+      - "Barometer: atmospheric pressure."
+
+  # ---------- Fluid types ----------
+  - id: f01
+    topic: u1.fluidtypes
+    difficulty: 2
+    learn: "Ideal fluid: no viscosity and cannot be compressed. It does not exist in real life."
+    why: "It is an imaginary fluid used to make calculations easy."
+    q: "Does an ideal fluid have viscosity?"
+    a: "No."
+    simple: "A perfect, friction-free fluid that exists only on paper."
+  - id: f02
+    topic: u1.fluidtypes
+    difficulty: 2
+    learn: "Real fluid: has viscosity. All actual fluids are real fluids."
+    why: "Every real liquid and gas has some inner friction."
+    example: "Water, air, oil, petrol."
+    q: "A fluid that has viscosity is called?"
+    a: "Real fluid."
+    simple: "Every fluid you can touch is a real fluid."
+  - id: f03
+    topic: u1.fluidtypes
+    difficulty: 2
+    learn: "Newtonian fluid obeys Newton's law of viscosity: viscosity stays the same however fast you stir."
+    example: "Water, air, petrol, thin oils."
+    why: "Shear stress and velocity gradient form a straight line."
+    q: "Is water Newtonian or non-Newtonian?"
+    a: "Newtonian."
+    simple: "Stir slow or fast — thickness stays the same."
+  - id: f04
+    topic: u1.fluidtypes
+    difficulty: 2
+    learn: "Non-Newtonian fluid does not obey Newton's law: its thickness changes when stirred or pushed."
+    example: "Grease, toothpaste, paint, blood, ketchup."
+    why: "Shear stress and velocity gradient do not form a straight line."
+    q: "Give one example of a non-Newtonian fluid."
+    a: "Grease (or toothpaste, paint, blood)."
+    simple: "Its thickness changes when you push it."
+
+  # ---------- Flow ----------
+  - id: f01
+    topic: u1.flow
+    difficulty: 2
+    learn: "Steady flow: speed and pressure at a point do not change with time. Unsteady flow: they change with time."
+    why: "We watch one fixed point and see if things change over time."
+    example: "Steady: a tap kept open the same. Unsteady: a tap being opened or closed."
+    q: "Flow where conditions at a point do not change with time?"
+    a: "Steady flow."
+    simple: "Steady = same over time."
+  - id: f02
+    topic: u1.flow
+    difficulty: 2
+    learn: "Uniform flow: velocity is the same at every point along the flow. Non-uniform: velocity changes from point to point."
+    why: "Here we compare places, not times."
+    example: "Uniform: water in a long straight pipe of same size. Non-uniform: a pipe that narrows."
+    q: "Velocity changes from place to place — which flow?"
+    a: "Non-uniform flow."
+    simple: "Uniform = same everywhere along the pipe."
+  - id: f03
+    topic: u1.flow
+    difficulty: 2
+    learn: "Laminar flow: fluid moves in smooth parallel layers. Turbulent flow: fluid moves in a mixed, swirling way."
+    why: "Slow, thick flow stays orderly; fast flow breaks into whirls."
+    example: "Honey poured slowly is laminar. A river in flood is turbulent."
+    q: "Flow in smooth parallel layers is called?"
+    a: "Laminar flow."
+    simple: "Laminar = neat layers. Turbulent = messy swirls."
+  - id: f04
+    topic: u1.flow
+    difficulty: 3
+    learn: "Reynolds number decides the flow type in a pipe: below 2000 laminar, 2000–4000 transition, above 4000 turbulent."
+    why: "Re = ρVD/μ compares inertia force with viscous force."
+    q: "Reynolds number above which pipe flow is turbulent?"
+    a: "About 4000."
+    simple: "Small Re = calm flow. Big Re = rough flow."
+  - id: f05
+    topic: u1.flow
+    difficulty: 2
+    learn: "Continuity equation: A₁V₁ = A₂V₂. Discharge stays the same through a pipe."
+    why: "Liquid cannot vanish or pile up, so what goes in must come out."
+    example: "Pinch a garden hose and the water comes out faster."
+    q: "Write the continuity equation."
+    a: "A₁V₁ = A₂V₂ (Q = AV constant)."
+    simple: "Narrow pipe = faster water."
+  - id: f06
+    topic: u1.flow
+    difficulty: 2
+    learn: "Discharge (Q) = Area × Velocity. Unit: m³/s."
+    why: "It is the volume that passes each second."
+    q: "Unit of discharge?"
+    a: "m³/s"
+    simple: "How many cubic metres of water flow each second."
+  - id: f07
+    topic: u1.flow
+    difficulty: 2
+    learn: "Bernoulli's equation: pressure head + velocity head + datum head = constant, for an ideal flowing fluid."
+    why: "Energy is not lost; it only changes form."
+    example: "Where water speeds up in a narrow pipe, its pressure falls."
+    q: "In a narrow part of a pipe, velocity rises. What happens to pressure?"
+    a: "Pressure falls."
+    simple: "Fast fluid = low pressure."
+  - id: f08
+    topic: u1.flow
+    difficulty: 2
+    learn: "A venturimeter measures discharge in a pipe. It has a converging part, a throat and a diverging part."
+    why: "Flow speeds up at the throat; the pressure drop there tells the flow rate (Bernoulli)."
+    example: "The carburettor venturi uses the same idea to suck petrol."
+    q: "What does a venturimeter measure?"
+    a: "Rate of flow (discharge) in a pipe."
+    simple: "A pipe with a waist; the pressure drop at the waist shows the flow."
+  - id: f09
+    topic: u1.flow
+    difficulty: 2
+    learn: "An orifice is a small opening in the side or bottom of a tank. It is used to measure discharge."
+    why: "Velocity through it is about √(2gh), where h is the water height above it."
+    q: "Velocity of water from an orifice under head h (ideal)?"
+    a: "√(2gh)"
+    simple: "A hole in a tank; higher water level, faster jet."
+  - id: f10
+    topic: u1.flow
+    difficulty: 2
+    learn: "Vena contracta is the narrowest part of a jet just after it leaves an orifice."
+    why: "Water streams curve inward as they leave the hole."
+    q: "The narrowest section of a jet after an orifice is called?"
+    a: "Vena contracta."
+    simple: "The jet gets thinnest just outside the hole."
+  - id: f11
+    topic: u1.flow
+    difficulty: 2
+    learn: "Coefficient of discharge Cd = Cc × Cv. For an orifice, Cd is about 0.62."
+    why: "Real flow is less than ideal because of contraction (Cc) and friction (Cv)."
+    q: "Cd in terms of Cc and Cv?"
+    a: "Cd = Cc × Cv"
+    simple: "Real flow ÷ ideal flow."
+  - id: f12
+    topic: u1.flow
+    difficulty: 2
+    learn: "A notch is an opening at the top of a tank or channel wall, with the water surface below its top. Used to measure flow in open channels."
+    why: "The water height over the notch tells the discharge."
+    example: "Rectangular, triangular (V-notch) and trapezoidal notches. V-notch is best for small flows."
+    q: "Which notch is best for measuring small discharges?"
+    a: "Triangular (V) notch."
+    simple: "A cut in a channel wall that measures flowing water."
+  - id: sum
+    topic: u1.flow
+    type: summary
+    points:
+      - "Steady/unsteady = time; uniform/non-uniform = place."
+      - "Laminar Re < 2000, turbulent Re > 4000."
+      - "Continuity: A₁V₁ = A₂V₂."
+      - "Bernoulli: fast fluid, low pressure."
+      - "Venturimeter (pipes), orifice (tanks), notch (channels) measure flow."
+
+  # ---------- Losses ----------
+  - id: f01
+    topic: u1.losses
+    difficulty: 2
+    learn: "Major loss in a pipe is loss of head due to friction along its length."
+    why: "Fluid rubs against the pipe wall all along the way."
+    q: "Loss of head due to pipe friction is called?"
+    a: "Major loss."
+    simple: "Long pipe = big friction loss."
+  - id: f02
+    topic: u1.losses
+    difficulty: 2
+    learn: "Minor losses come from bends, valves, sudden enlargement, sudden contraction, pipe entry and exit."
+    why: "The flow is disturbed and swirls at each fitting."
+    q: "Name two causes of minor loss."
+    a: "Bends, valves, sudden enlargement/contraction, entry, exit."
+    simple: "Every bend or fitting wastes a little energy."
+  - id: f03
+    topic: u1.losses
+    difficulty: 3
+    learn: "Darcy–Weisbach formula: hf = 4fLV² / (2gD). Loss grows with pipe length and with velocity squared."
+    why: "Longer pipe and faster flow mean more rubbing."
+    q: "Darcy's formula for head loss due to friction?"
+    a: "hf = 4fLV²/(2gD)"
+    simple: "Double the speed → four times the loss."
+  - id: f04
+    topic: u1.losses
+    difficulty: 3
+    learn: "Chezy's formula: V = C √(m i). m = hydraulic mean depth, i = slope (loss of head per unit length)."
+    why: "Used for flow in pipes and open channels."
+    q: "In Chezy's formula V = C√(mi), what is m?"
+    a: "Hydraulic mean depth (area / wetted perimeter)."
+    simple: "Chezy gives speed from slope and depth."
+  - id: f05
+    topic: u1.losses
+    difficulty: 3
+    learn: "Hydraulic mean depth m = Area / wetted perimeter. For a full circular pipe, m = D/4."
+    why: "πD²/4 divided by πD gives D/4."
+    q: "Hydraulic mean depth of a full pipe?"
+    a: "D/4"
+    simple: "Pipe diameter divided by four."
+
+  # ---------- Oils ----------
+  - id: f01
+    topic: u1.oils
+    difficulty: 2
+    learn: "Viscosity index (VI) shows how little an oil's viscosity changes with temperature. High VI = good oil."
+    why: "A good oil should not get too thin when hot or too thick when cold."
+    example: "Multigrade engine oils like 20W-40 have high VI."
+    q: "Is a high or low viscosity index better?"
+    a: "High."
+    simple: "High VI = oil thickness stays steady in heat and cold."
+  - id: f02
+    topic: u1.oils
+    difficulty: 2
+    learn: "Oxidation stability is an oil's ability to resist reacting with oxygen and forming sludge and acids."
+    why: "Hot oil plus air slowly turns into gum and varnish."
+    q: "Resistance of oil to sludge and acid formation by air is called?"
+    a: "Oxidation stability."
+    simple: "Good oil does not 'rot' when hot."
+  - id: f03
+    topic: u1.oils
+    difficulty: 2
+    learn: "Demulsibility is an oil's ability to separate from water quickly."
+    why: "Water mixed into oil (emulsion) causes rust and poor lubrication."
+    q: "Ability of oil to separate from water is called?"
+    a: "Demulsibility."
+    simple: "Good oil lets water fall out."
+  - id: f04
+    topic: u1.oils
+    difficulty: 2
+    learn: "Lubricity (oiliness) is an oil's ability to reduce friction and wear between surfaces."
+    why: "It forms a thin slippery film on metal."
+    q: "Ability of oil to reduce friction and wear?"
+    a: "Lubricity (oiliness)."
+    simple: "How slippery the oil is."
+  - id: f05
+    topic: u1.oils
+    difficulty: 2
+    learn: "Rust prevention: hydraulic oil must protect steel parts from rusting, using added inhibitors."
+    why: "Moisture enters hydraulic systems and attacks metal."
+    q: "Why are rust inhibitors added to hydraulic oil?"
+    a: "To protect metal parts from rust."
+    simple: "Oil coats metal so water cannot rust it."
+  - id: f06
+    topic: u1.oils
+    difficulty: 2
+    learn: "Pour point is the lowest temperature at which an oil will still flow."
+    why: "Below it, wax in the oil sets and the oil stops pouring."
+    example: "Important for vehicles in cold hill areas like Munnar."
+    q: "Lowest temperature at which oil flows is?"
+    a: "Pour point."
+    simple: "Colder than pour point, the oil will not pour."
+  - id: f07
+    topic: u1.oils
+    difficulty: 2
+    learn: "Flash point: lowest temperature at which oil vapour flashes briefly near a flame. Fire point: lowest temperature at which it keeps burning (at least 5 s). Fire point is higher."
+    why: "First a quick flash, then, a little hotter, steady burning."
+    q: "Which is higher: flash point or fire point?"
+    a: "Fire point."
+    simple: "Flash first, fire later."
+  - id: f08
+    topic: u1.oils
+    difficulty: 3
+    learn: "Neutralisation number shows how acidic or basic an oil is. Rising acid number means the oil is getting old."
+    why: "Oxidation makes acids that attack metal."
+    q: "What does the neutralisation number of oil indicate?"
+    a: "Its acidity (or alkalinity)."
+    simple: "An 'acid level' test for oil."
+  - id: sum
+    topic: u1.oils
+    type: summary
+    points:
+      - "High viscosity index = steady thickness."
+      - "Oxidation stability = no sludge; demulsibility = separates from water."
+      - "Lubricity = slipperiness; rust inhibitors protect steel."
+      - "Pour point = lowest flow temperature."
+      - "Flash point < fire point; neutralisation no. = acidity."
+
+  # ---------- Machines ----------
+  - id: f01
+    topic: u1.machines
+    difficulty: 1
+    learn: "A pump turns mechanical energy into hydraulic (pressure) energy. A turbine turns hydraulic energy into mechanical energy."
+    why: "They do opposite jobs."
+    example: "A water pump fills a tank. A turbine at Idukki dam makes power."
+    q: "Which machine changes hydraulic energy to mechanical energy?"
+    a: "Turbine."
+    simple: "Pump pushes water. Turbine is pushed by water."
+  - id: f02
+    topic: u1.machines
+    difficulty: 2
+    learn: "A centrifugal pump spins an impeller. The spinning throws water outward, building pressure. It is a rotodynamic pump."
+    why: "Centrifugal force pushes water from the centre to the rim."
+    example: "Most house water pumps and engine coolant pumps."
+    q: "The rotating part of a centrifugal pump is called?"
+    a: "Impeller."
+    simple: "A spinning wheel flings water out."
+  - id: f03
+    topic: u1.machines
+    difficulty: 2
+    learn: "A centrifugal pump must be primed (filled with liquid) before starting."
+    why: "An impeller spinning in air cannot create enough suction."
+    q: "What is priming?"
+    a: "Filling the pump and suction pipe with liquid before starting."
+    simple: "Fill it with water first, or it will not pick up water."
+  - id: f04
+    topic: u1.machines
+    difficulty: 2
+    learn: "A reciprocating pump uses a piston moving to and fro inside a cylinder. It is a positive displacement pump."
+    why: "Each stroke pushes out a fixed volume."
+    example: "Hand pumps and high-pressure washer pumps."
+    q: "Is a reciprocating pump rotodynamic or positive displacement?"
+    a: "Positive displacement."
+    simple: "A piston sucks in and pushes out water."
+  - id: f05
+    topic: u1.machines
+    difficulty: 3
+    learn: "Slip = theoretical discharge − actual discharge. % slip = (Qth − Qact)/Qth × 100."
+    why: "Some liquid leaks back past valves and the piston."
+    q: "Formula for slip of a reciprocating pump?"
+    a: "Qth − Qact"
+    simple: "Water that should come out but leaks back."
+  - id: f06
+    topic: u1.machines
+    difficulty: 3
+    learn: "Negative slip happens when actual discharge is more than theoretical. It occurs with long suction pipe, short delivery pipe and high speed."
+    why: "Water keeps moving by its own momentum and the delivery valve opens early."
+    q: "When is slip of a reciprocating pump negative?"
+    a: "When actual discharge > theoretical discharge."
+    simple: "More water comes out than the piston pushed."
+  - id: f07
+    topic: u1.machines
+    difficulty: 3
+    learn: "Theoretical discharge of a single-acting reciprocating pump: Q = A L N / 60. Double acting: Q = 2 A L N / 60."
+    why: "Double acting pushes water on both sides of the piston."
+    q: "Discharge of a double-acting reciprocating pump?"
+    a: "Q = 2ALN/60"
+    simple: "Double acting gives twice the water."
+  - id: f08
+    topic: u1.machines
+    difficulty: 2
+    learn: "An air vessel on a reciprocating pump gives a steady flow and saves power."
+    why: "It stores and releases water like a cushion, smoothing the pulses."
+    q: "Purpose of an air vessel in a reciprocating pump?"
+    a: "Steady flow and saving power (less friction)."
+    simple: "A shock-absorber for water."
+  - id: f09
+    topic: u1.machines
+    difficulty: 3
+    learn: "Specific speed of a pump: Ns = N√Q / H^(3/4). Of a turbine: Ns = N√P / H^(5/4)."
+    why: "It compares machines of different sizes on one scale."
+    q: "Specific speed formula of a turbine?"
+    a: "Ns = N√P / H^(5/4)"
+    simple: "A single number that tells which type of machine suits a job."
+  - id: f10
+    topic: u1.machines
+    difficulty: 2
+    learn: "Impulse turbine: water hits buckets as a high-speed jet at atmospheric pressure. Example: Pelton wheel. Used for high head."
+    why: "All pressure is changed to speed in the nozzle before hitting the wheel."
+    q: "Pelton wheel is which type of turbine?"
+    a: "Impulse turbine (high head)."
+    simple: "A jet of water hits cups on a wheel."
+  - id: f11
+    topic: u1.machines
+    difficulty: 2
+    learn: "Reaction turbine: water enters under pressure and both pressure and speed drop inside the runner. Examples: Francis (medium head), Kaplan (low head)."
+    why: "The runner is pushed by the reaction of water leaving it."
+    q: "Kaplan turbine is used for what head?"
+    a: "Low head (large flow)."
+    simple: "Water fills the turbine and pushes as it leaves."
+  - id: f12
+    topic: u1.machines
+    difficulty: 2
+    learn: "A draft tube is used in reaction turbines, not in impulse turbines. It recovers energy at the outlet."
+    why: "It lets water leave slowly, gaining back some head."
+    q: "Is a draft tube used in a Pelton wheel?"
+    a: "No — only in reaction turbines."
+    simple: "Reaction turbines have a draft tube; Pelton does not."
+  - id: sum
+    topic: u1.machines
+    type: summary
+    points:
+      - "Pump: mechanical → hydraulic. Turbine: hydraulic → mechanical."
+      - "Centrifugal pump: impeller, needs priming."
+      - "Reciprocating pump: piston, slip = Qth − Qact, air vessel."
+      - "Pelton = impulse, high head."
+      - "Francis (medium), Kaplan (low head) = reaction, draft tube."
+
+  # ================= Unit I — deeper cards =================
+  # ---------- Properties (more) ----------
+  - id: f15
+    topic: u1.properties
+    difficulty: 1
+    learn: "A liquid has a fixed volume but no fixed shape. A gas has neither a fixed volume nor a fixed shape."
+    why: "Gas molecules are far apart and spread to fill any space."
+    example: "One litre of milk stays one litre in any vessel. LPG gas spreads through a whole room."
+    q: "Which has a fixed volume: liquid or gas?"
+    a: "Liquid."
+    simple: "Liquid keeps its amount. Gas spreads everywhere."
+  - id: f16
+    topic: u1.properties
+    difficulty: 2
+    learn: "Density of mercury is 13,600 kg/m³. Density of air at room temperature is about 1.2 kg/m³."
+    why: "Mercury is a heavy metal; air is mostly empty space."
+    q: "Density of mercury?"
+    a: "13,600 kg/m³."
+    simple: "Mercury is 13.6 times heavier than water."
+  - id: f17
+    topic: u1.properties
+    difficulty: 2
+    learn: "Specific weight of water = 9.81 kN/m³ (9810 N/m³)."
+    why: "1000 kg/m³ × 9.81 m/s² = 9810 N/m³."
+    q: "Specific weight of water in kN/m³?"
+    a: "9.81 kN/m³."
+    simple: "One cubic metre of water weighs about 9.81 kN."
+  - id: f18
+    topic: u1.properties
+    difficulty: 2
+    learn: "Density of a liquid = specific gravity × 1000 kg/m³."
+    why: "Specific gravity tells how many times heavier than water it is."
+    example: "Oil with S = 0.8 has density 0.8 × 1000 = 800 kg/m³."
+    q: "Density of oil with specific gravity 0.9?"
+    a: "900 kg/m³."
+    simple: "Multiply specific gravity by 1000."
+  - id: f19
+    topic: u1.properties
+    difficulty: 2
+    learn: "Dimensions of dynamic viscosity: M L⁻¹ T⁻¹. Dimensions of kinematic viscosity: L² T⁻¹."
+    why: "Kinematic viscosity has no mass because density is divided out."
+    q: "Dimension of kinematic viscosity?"
+    a: "L² T⁻¹"
+    simple: "Kinematic viscosity has only length and time."
+  - id: f20
+    topic: u1.properties
+    difficulty: 2
+    learn: "Viscosity of water at 20°C is about 1 centipoise (0.001 Pa·s)."
+    why: "This is a handy reference value."
+    q: "Viscosity of water at 20°C in centipoise?"
+    a: "About 1 centipoise."
+    simple: "Water ≈ 1 cP."
+  - id: f21
+    topic: u1.properties
+    difficulty: 2
+    learn: "Cohesion is attraction between molecules of the same liquid. Adhesion is attraction between the liquid and another surface."
+    why: "These two forces decide whether a liquid wets a surface."
+    example: "Water sticks to glass (adhesion stronger). Mercury forms balls (cohesion stronger)."
+    q: "Attraction between molecules of the same liquid is called?"
+    a: "Cohesion."
+    simple: "Cohesion = same sticks to same. Adhesion = sticks to others."
+  - id: f22
+    topic: u1.properties
+    difficulty: 2
+    learn: "Water wets glass because adhesion is more than cohesion. Mercury does not wet glass because cohesion is more."
+    why: "The stronger force wins at the contact line."
+    q: "Why does mercury not wet glass?"
+    a: "Its cohesion is greater than adhesion."
+    simple: "Mercury likes itself more than it likes glass."
+  - id: f23
+    topic: u1.properties
+    difficulty: 2
+    learn: "Water's surface in a glass tube curves down in the middle (concave). Mercury's surface curves up (convex)."
+    why: "Water climbs the wall; mercury pulls away from it."
+    q: "Shape of the mercury surface in a glass tube?"
+    a: "Convex (bulges up)."
+    simple: "Water dips; mercury bulges."
+  - id: f24
+    topic: u1.properties
+    difficulty: 2
+    learn: "Surface tension falls when temperature rises."
+    why: "Heat weakens the pull between surface molecules."
+    example: "Hot water cleans better partly because it spreads more easily."
+    q: "Effect of heating on surface tension?"
+    a: "Surface tension decreases."
+    simple: "Hotter liquid, weaker skin."
+  - id: f25
+    topic: u1.properties
+    difficulty: 3
+    learn: "Pressure inside a liquid droplet: p = 4σ/d. Inside a soap bubble: p = 8σ/d."
+    why: "A soap bubble has two surfaces (inside and outside), so double."
+    q: "Pressure inside a soap bubble of diameter d?"
+    a: "8σ/d"
+    simple: "Bubble has two skins, so twice the droplet value."
+  - id: f26
+    topic: u1.properties
+    difficulty: 2
+    learn: "Vapour pressure is the pressure of a liquid's vapour above it. It rises with temperature."
+    why: "Hotter liquid sends more molecules into the air."
+    example: "Petrol has high vapour pressure — it evaporates fast."
+    q: "What happens to vapour pressure when temperature rises?"
+    a: "It increases."
+    simple: "Hot liquid gives off more vapour."
+  - id: f27
+    topic: u1.properties
+    difficulty: 3
+    learn: "Cavitation: when local pressure falls below vapour pressure, vapour bubbles form and then collapse violently."
+    why: "Collapsing bubbles hammer metal surfaces."
+    example: "Pitting on pump impellers, propellers and turbine blades."
+    q: "What damage does cavitation cause?"
+    a: "Pitting and erosion of metal, noise and vibration."
+    simple: "Tiny bubbles burst and chip the metal."
+  - id: f28
+    topic: u1.properties
+    difficulty: 2
+    learn: "Bulk modulus K = increase in pressure / volumetric strain. Unit: N/m². Water ≈ 2.1 × 10⁹ N/m²."
+    why: "It measures how hard a fluid is to squeeze."
+    q: "Formula for bulk modulus?"
+    a: "K = dp / (dV/V)"
+    simple: "Big K = very hard to squeeze."
+  - id: f29
+    topic: u1.properties
+    difficulty: 2
+    learn: "Liquids are taken as incompressible. Gases are compressible."
+    why: "A liquid's volume hardly changes even under large pressure."
+    example: "That is why brake fluid can pass pedal force to the wheels."
+    q: "Why is brake fluid good for passing force?"
+    a: "It is practically incompressible."
+    simple: "Liquid does not squash, so it carries the push."
+  - id: f30
+    topic: u1.properties
+    difficulty: 2
+    learn: "PSC trap: viscosity measures resistance to flow; viscosity index measures how viscosity changes with temperature."
+    why: "Two similar words, two different ideas."
+    q: "Which one tells change of thickness with temperature: viscosity or viscosity index?"
+    a: "Viscosity index."
+    simple: "Viscosity = how thick. VI = how steady."
+  - id: f31
+    topic: u1.properties
+    difficulty: 2
+    learn: "A Redwood or Saybolt viscometer measures oil viscosity by timing how long 50 or 60 ml of oil takes to flow out."
+    why: "Thicker oil takes more seconds."
+    q: "Name an instrument used to measure oil viscosity."
+    a: "Redwood (or Saybolt) viscometer."
+    simple: "Time how long oil takes to drain — longer = thicker."
+  - id: f32
+    topic: u1.properties
+    difficulty: 3
+    learn: "Gas law for an ideal gas: p v = R T (per kg) or pV = mRT. For air, R = 287 J/kg·K."
+    why: "Pressure, volume and temperature of a gas are linked."
+    q: "Gas constant R for air?"
+    a: "287 J/kg·K"
+    simple: "pV = mRT ties together pressure, volume and temperature."
+
+  # ---------- Pressure (more) ----------
+  - id: f07
+    topic: u1.pressure
+    difficulty: 2
+    learn: "1 kgf/cm² ≈ 0.981 bar ≈ 98.1 kPa. Tyre pressure in India is often written in psi; 1 bar ≈ 14.5 psi."
+    why: "Gauges use different units; know the conversions."
+    example: "A car tyre at 32 psi ≈ 2.2 bar."
+    q: "1 bar is about how many psi?"
+    a: "14.5 psi."
+    simple: "1 bar ≈ 1 kgf/cm² ≈ 14.5 psi."
+  - id: f08
+    topic: u1.pressure
+    difficulty: 2
+    learn: "Pressure at a point in a fluid at rest is the same in all directions."
+    why: "This is the hydrostatic law; a still fluid cannot push more one way than another."
+    q: "Is pressure at a point in a still fluid the same in all directions?"
+    a: "Yes."
+    simple: "At one spot, fluid pushes equally every way."
+  - id: f09
+    topic: u1.pressure
+    difficulty: 2
+    learn: "Pressure in a liquid depends only on depth, not on the shape or width of the vessel. This is the hydrostatic paradox."
+    why: "p = ρgh has no area in it."
+    example: "A narrow pipe and a wide tank of the same depth have the same pressure at the bottom."
+    q: "Does the shape of a vessel change the pressure at its bottom?"
+    a: "No — only depth matters."
+    simple: "Same depth, same pressure — any shape."
+  - id: f10
+    topic: u1.pressure
+    difficulty: 2
+    learn: "10 m of water head ≈ 1 bar ≈ 1 atmosphere."
+    why: "1000 × 9.81 × 10 ≈ 98,100 Pa ≈ 1 bar."
+    q: "About how many metres of water make 1 bar?"
+    a: "About 10 m."
+    simple: "Every 10 m deeper in water adds about 1 bar."
+  - id: f11
+    topic: u1.pressure
+    difficulty: 3
+    learn: "To change head of one liquid to another: h₁ × S₁ = h₂ × S₂."
+    why: "The same pressure needs a shorter column of a heavier liquid."
+    example: "760 mm Hg × 13.6 ≈ 10,336 mm (10.3 m) of water."
+    q: "760 mm of mercury equals about how many metres of water?"
+    a: "About 10.3 m."
+    simple: "Heavier liquid, shorter column."
+  - id: f12
+    topic: u1.pressure
+    difficulty: 2
+    learn: "Hydraulic jack: force multiplication F₂ = F₁ × (A₂/A₁)."
+    why: "Same pressure acts on both pistons; bigger piston gets bigger force."
+    example: "A small push on the jack handle lifts a car."
+    q: "In a hydraulic jack, which piston gives the bigger force?"
+    a: "The bigger (larger area) piston."
+    simple: "Small push on small piston = big push on big piston."
+  - id: f13
+    topic: u1.pressure
+    difficulty: 2
+    learn: "Total pressure (force) on a flat surface under liquid = ρ g A h̄, where h̄ is depth of its centroid."
+    why: "Average pressure is at the centre of the area."
+    q: "Total pressure on an immersed plane surface?"
+    a: "F = ρ g A h̄"
+    simple: "Area × pressure at its centre."
+  - id: f14
+    topic: u1.pressure
+    difficulty: 3
+    learn: "Centre of pressure is the point where the total liquid force acts. On a vertical surface it is always below the centroid."
+    why: "Pressure is bigger lower down."
+    q: "On a vertical immersed plate, is the centre of pressure above or below the centroid?"
+    a: "Below."
+    simple: "The push acts lower than the middle."
+  - id: f15
+    topic: u1.pressure
+    difficulty: 2
+    learn: "Buoyancy (Archimedes): a body in a fluid feels an upward force equal to the weight of fluid it pushes aside."
+    why: "Pressure below the body is more than pressure above it."
+    example: "A ship floats; an iron nail sinks."
+    q: "Upward force on a body in a fluid equals?"
+    a: "Weight of fluid displaced."
+    simple: "Water pushes up as much as the water moved away weighs."
+  - id: f16
+    topic: u1.pressure
+    difficulty: 3
+    learn: "Metacentre: a floating body is stable if the metacentre (M) is above its centre of gravity (G)."
+    why: "When tilted, buoyancy then turns it back upright."
+    q: "Condition for stable equilibrium of a floating body?"
+    a: "Metacentre above centre of gravity."
+    simple: "M above G = boat comes back up."
+
+  # ---------- Measuring (more) ----------
+  - id: f06
+    topic: u1.measure
+    difficulty: 2
+    learn: "Mercury is used in manometers because it is heavy, does not stick to glass, and does not evaporate easily."
+    why: "A heavy liquid keeps the tube short for high pressures."
+    q: "Give one reason mercury is used in manometers."
+    a: "High density (also non-wetting, low vapour pressure)."
+    simple: "Heavy and clean — short tube, clear reading."
+  - id: f07
+    topic: u1.measure
+    difficulty: 3
+    learn: "An inverted U-tube differential manometer uses a light liquid (or air) at the top. It measures small pressure differences."
+    why: "A light liquid gives a larger, easier-to-read level difference."
+    q: "Which manometer measures very small pressure differences between two points?"
+    a: "Inverted U-tube differential manometer."
+    simple: "U upside down with light liquid for tiny differences."
+  - id: f08
+    topic: u1.measure
+    difficulty: 3
+    learn: "A micromanometer (single-column with a large reservoir or inclined tube) measures very small pressures accurately."
+    why: "Tilting the tube stretches a small rise into a long reading."
+    q: "Why is an inclined tube manometer used?"
+    a: "To read very small pressures more accurately."
+    simple: "A slanted tube makes small changes look bigger."
+  - id: f09
+    topic: u1.measure
+    difficulty: 2
+    learn: "A Pitot tube measures the velocity of flow at a point. It is an L-shaped tube facing the flow."
+    why: "The flow stops at its mouth, and the rise in liquid shows velocity head: V = √(2gh)."
+    example: "Aircraft speed sensors use Pitot tubes."
+    q: "Instrument to measure velocity at a point in a flow?"
+    a: "Pitot tube."
+    simple: "A bent tube facing the flow shows how fast it is moving."
+  - id: f10
+    topic: u1.measure
+    difficulty: 2
+    learn: "A rotameter measures flow with a float inside a tapered glass tube. Higher flow lifts the float higher."
+    why: "More flow needs a wider gap, which is higher up the tapered tube."
+    q: "In which instrument does a float rise in a tapered tube?"
+    a: "Rotameter."
+    simple: "More flow, higher float."
+
+  # ---------- Fluid types (more) ----------
+  - id: f05
+    topic: u1.fluidtypes
+    difficulty: 3
+    learn: "Ideal plastic (Bingham) fluid needs a minimum stress before it starts to flow."
+    example: "Toothpaste and sewage sludge."
+    why: "Below that stress it acts like a solid."
+    q: "Toothpaste starts flowing only after a minimum push. What type of fluid?"
+    a: "Bingham plastic (ideal plastic) fluid."
+    simple: "It stays put until you squeeze hard enough."
+  - id: f06
+    topic: u1.fluidtypes
+    difficulty: 3
+    learn: "Thixotropic fluids get thinner the longer they are stirred. Example: paint, printer ink."
+    why: "Stirring breaks their inner structure."
+    q: "Paint gets thinner when stirred for a while. This is called?"
+    a: "Thixotropy."
+    simple: "Stir it longer, it gets thinner."
+  - id: f07
+    topic: u1.fluidtypes
+    difficulty: 2
+    learn: "Compressible fluid: density changes with pressure (gases). Incompressible fluid: density stays nearly constant (liquids)."
+    why: "Gas molecules can be pushed closer; liquid molecules cannot."
+    q: "Air in a tyre is compressible or incompressible?"
+    a: "Compressible."
+    simple: "Gas squashes, liquid does not."
+  - id: sum
+    topic: u1.fluidtypes
+    type: summary
+    points:
+      - "Ideal fluid: no viscosity, imaginary."
+      - "Real fluid: has viscosity."
+      - "Newtonian: water, air, petrol."
+      - "Non-Newtonian: grease, paint, blood, toothpaste."
+      - "Gases compressible; liquids incompressible."
+
+  # ---------- Flow (more) ----------
+  - id: f13
+    topic: u1.flow
+    difficulty: 2
+    learn: "Compressible flow: density changes along the flow (gases at high speed). Incompressible flow: density stays constant (liquids)."
+    why: "Fast gas gets squeezed and expanded as it moves."
+    q: "Flow of water in a pipe is compressible or incompressible?"
+    a: "Incompressible."
+    simple: "Water keeps the same density as it flows."
+  - id: f14
+    topic: u1.flow
+    difficulty: 3
+    learn: "Rotational flow: fluid particles spin about their own axis. Irrotational flow: they do not spin."
+    why: "Viscosity near walls makes particles rotate."
+    q: "Flow in which particles do not rotate about their own axis?"
+    a: "Irrotational flow."
+    simple: "Rotational = particles spin. Irrotational = no spin."
+  - id: f15
+    topic: u1.flow
+    difficulty: 3
+    learn: "One-dimensional flow: velocity changes in one direction only. Two- and three-dimensional flows change in more directions."
+    why: "Engineers simplify pipe flow as one-dimensional."
+    q: "Pipe flow is usually treated as how many dimensional?"
+    a: "One-dimensional."
+    simple: "Count the directions in which speed changes."
+  - id: f16
+    topic: u1.flow
+    difficulty: 2
+    learn: "A streamline is an imaginary line that shows the direction of flow at every point. Streamlines never cross."
+    why: "A particle cannot move in two directions at once."
+    q: "Can two streamlines cross?"
+    a: "No."
+    simple: "Flow lines never cut each other."
+  - id: f17
+    topic: u1.flow
+    difficulty: 3
+    learn: "In Bernoulli's equation the three heads are: pressure head p/ρg, velocity (kinetic) head V²/2g and datum (potential) head z."
+    why: "Each is energy per unit weight, measured in metres."
+    q: "Velocity head in Bernoulli's equation?"
+    a: "V²/2g"
+    simple: "Pressure, speed and height — each as metres of fluid."
+  - id: f18
+    topic: u1.flow
+    difficulty: 3
+    learn: "Bernoulli's equation assumes: ideal (non-viscous), incompressible, steady flow along a streamline."
+    why: "Real flows have losses, so a loss term is added later."
+    q: "Name one assumption of Bernoulli's equation."
+    a: "Ideal, incompressible, steady flow along a streamline."
+    simple: "It works best for smooth, frictionless, steady flow."
+  - id: f19
+    topic: u1.flow
+    difficulty: 3
+    learn: "Hydraulic gradient line (HGL) joins pressure + datum heads. Total energy line (TEL) is higher than HGL by V²/2g."
+    why: "TEL adds the velocity head on top."
+    q: "TEL lies above HGL by how much?"
+    a: "Velocity head V²/2g."
+    simple: "Energy line sits above the pressure line by the speed part."
+  - id: f20
+    topic: u1.flow
+    difficulty: 2
+    learn: "Venturimeter's coefficient of discharge is high, about 0.96–0.98. Orifice meter's is low, about 0.6."
+    why: "A venturimeter's smooth shape wastes little energy."
+    q: "Which has a higher Cd: venturimeter or orifice meter?"
+    a: "Venturimeter."
+    simple: "Smooth shape → less loss → higher Cd."
+  - id: f21
+    topic: u1.flow
+    difficulty: 2
+    learn: "In a venturimeter, the converging cone is short and the diverging cone is long (angle about 5–7°)."
+    why: "A slow, gentle widening stops the flow from breaking away and losing energy."
+    q: "Which part of a venturimeter is longer: converging or diverging?"
+    a: "Diverging part."
+    simple: "Quick narrowing, slow widening."
+  - id: f22
+    topic: u1.flow
+    difficulty: 2
+    learn: "An orifice meter is a thin plate with a hole fitted in a pipe. It is cheaper but loses more energy than a venturimeter."
+    why: "The sudden hole creates swirls."
+    q: "Cheaper flow meter with more loss: venturimeter or orifice meter?"
+    a: "Orifice meter."
+    simple: "A plate with a hole: cheap but wasteful."
+  - id: f23
+    topic: u1.flow
+    difficulty: 2
+    learn: "Coefficient of contraction Cc = jet area at vena contracta / orifice area (about 0.64). Coefficient of velocity Cv ≈ 0.97–0.99."
+    why: "The jet narrows (Cc) and slows a little by friction (Cv)."
+    q: "Approximate value of Cc for a sharp orifice?"
+    a: "About 0.64."
+    simple: "The jet is only about two-thirds the hole size."
+  - id: f24
+    topic: u1.flow
+    difficulty: 2
+    learn: "A mouthpiece is a short tube (2–3 times its diameter) fitted to an orifice. It increases discharge."
+    why: "It reduces jet contraction."
+    q: "Effect of fitting a mouthpiece on an orifice?"
+    a: "Discharge increases."
+    simple: "A short pipe on the hole lets more water out."
+  - id: f25
+    topic: u1.flow
+    difficulty: 3
+    learn: "Discharge over a rectangular notch Q ∝ H^(3/2). Over a triangular (V) notch Q ∝ H^(5/2)."
+    why: "The V shape widens as water rises, so flow grows faster with H."
+    q: "Discharge over a V-notch is proportional to H to the power?"
+    a: "5/2"
+    simple: "Rectangle: H^1.5. Triangle: H^2.5."
+  - id: f26
+    topic: u1.flow
+    difficulty: 2
+    learn: "A weir is a large notch, usually built of masonry across a river or canal. A notch is small and made of metal plate."
+    why: "Same idea, different size and material."
+    q: "Difference between a notch and a weir?"
+    a: "Notch: small, metal plate. Weir: large, masonry structure."
+    simple: "A weir is a big notch across a river."
+  - id: f27
+    topic: u1.flow
+    difficulty: 2
+    learn: "Momentum equation: force on a fluid = rate of change of momentum. Used to find force of a jet on a plate."
+    why: "Newton's second law applied to flowing fluid."
+    q: "Force of a jet on a flat plate comes from which principle?"
+    a: "Impulse-momentum principle."
+    simple: "Stopping a water jet needs a force."
+  - id: s01
+    topic: u1.flow
+    type: steps
+    difficulty: 3
+    title: "Worked example: continuity equation"
+    steps:
+      - text: "Question: Water flows at 2 m/s in a pipe of area 0.02 m². It enters a pipe of area 0.01 m². Find the new velocity."
+      - text: "Use A₁V₁ = A₂V₂."
+        explain: "Same water must pass both pipes each second."
+      - text: "0.02 × 2 = 0.01 × V₂, so 0.04 = 0.01 × V₂."
+      - text: "V₂ = 0.04 / 0.01 = 4 m/s."
+        explain: "Half the area, double the speed."
+    summary:
+      - "A₁V₁ = A₂V₂."
+      - "Half the area → double the speed."
+    q: "Area halves. What happens to velocity?"
+    a: "It doubles."
+  - id: s02
+    topic: u1.flow
+    type: steps
+    difficulty: 3
+    title: "Worked example: discharge"
+    steps:
+      - text: "Question: A pipe of area 0.05 m² carries water at 3 m/s. Find discharge."
+      - text: "Use Q = A × V."
+      - text: "Q = 0.05 × 3 = 0.15 m³/s."
+      - text: "In litres: 0.15 × 1000 = 150 litres per second."
+        explain: "1 m³ = 1000 litres."
+    summary:
+      - "Q = A × V, unit m³/s."
+      - "1 m³ = 1000 litres."
+    q: "Formula for discharge?"
+    a: "Q = A × V"
+
+  # ---------- Losses (more) ----------
+  - id: f06
+    topic: u1.losses
+    difficulty: 3
+    learn: "Loss due to sudden enlargement = (V₁ − V₂)² / 2g."
+    why: "Fast water hits slow water and swirls, wasting energy."
+    q: "Head loss at sudden enlargement?"
+    a: "(V₁ − V₂)²/2g"
+    simple: "Loss depends on the drop in speed, squared."
+  - id: f07
+    topic: u1.losses
+    difficulty: 3
+    learn: "Loss at pipe entrance = 0.5 V²/2g. Loss at pipe exit = V²/2g."
+    why: "At exit, all the velocity energy is lost into the tank."
+    q: "Head loss at exit of a pipe into a tank?"
+    a: "V²/2g"
+    simple: "Entry loses half a velocity head; exit loses a full one."
+  - id: f08
+    topic: u1.losses
+    difficulty: 3
+    learn: "Loss due to sudden contraction ≈ 0.5 V₂²/2g (V₂ = velocity in the smaller pipe)."
+    why: "The vena contracta forms and then the flow expands again."
+    q: "Approximate head loss at sudden contraction?"
+    a: "0.5 V₂²/2g"
+    simple: "About half the velocity head of the small pipe."
+  - id: f09
+    topic: u1.losses
+    difficulty: 3
+    learn: "For laminar flow, friction factor f = 16/Re (or Darcy f' = 64/Re)."
+    why: "In laminar flow, friction depends only on Reynolds number, not on roughness."
+    q: "Darcy friction factor for laminar flow?"
+    a: "64/Re (or f = 16/Re in the 4f form)."
+    simple: "Laminar flow: friction = 64 divided by Re."
+  - id: f10
+    topic: u1.losses
+    difficulty: 3
+    learn: "Hagen–Poiseuille equation gives head loss in laminar pipe flow: hf = 32 μ V L / (ρ g D²)."
+    why: "In laminar flow, loss grows directly with velocity (not velocity squared)."
+    q: "In laminar flow, head loss varies with velocity to which power?"
+    a: "Power 1 (directly proportional)."
+    simple: "Laminar: double speed → double loss."
+  - id: f11
+    topic: u1.losses
+    difficulty: 3
+    learn: "Moody diagram links friction factor with Reynolds number and pipe roughness for turbulent flow."
+    why: "In turbulent flow, roughness also matters."
+    q: "Which chart gives friction factor for rough pipes?"
+    a: "Moody diagram."
+    simple: "A chart to look up pipe friction."
+  - id: f12
+    topic: u1.losses
+    difficulty: 3
+    learn: "Water hammer is a pressure surge when a valve in a pipe is closed suddenly."
+    why: "Moving water is stopped quickly, and its momentum turns into a pressure wave."
+    example: "A banging noise in house pipes when a tap shuts quickly."
+    q: "Pressure rise due to sudden closing of a valve is called?"
+    a: "Water hammer."
+    simple: "Stopping water fast makes a big pressure knock."
+  - id: f13
+    topic: u1.losses
+    difficulty: 3
+    learn: "Pipes in series: same discharge, head losses add. Pipes in parallel: same head loss, discharges add."
+    why: "Like electric circuits: series shares current, parallel shares voltage."
+    q: "In pipes in parallel, what is the same in each pipe?"
+    a: "Head loss."
+    simple: "Series: same flow. Parallel: same loss."
+  - id: sum
+    topic: u1.losses
+    type: summary
+    points:
+      - "Major loss = pipe friction, Darcy hf = 4fLV²/2gD."
+      - "Minor losses: bends, valves, enlargement, contraction, entry, exit."
+      - "Enlargement: (V₁−V₂)²/2g; exit V²/2g; entry 0.5V²/2g."
+      - "Chezy V = C√(mi); m = D/4 for a full pipe."
+      - "Laminar f = 64/Re; water hammer = sudden valve closing."
+
+  # ---------- Oils (more) ----------
+  - id: f09
+    topic: u1.oils
+    difficulty: 2
+    learn: "Cloud point is the temperature at which wax crystals first make the oil look cloudy. It is a little above the pour point."
+    why: "Wax starts separating before the oil fully stops flowing."
+    q: "Which is higher: cloud point or pour point?"
+    a: "Cloud point."
+    simple: "First it looks cloudy, then it stops pouring."
+  - id: f10
+    topic: u1.oils
+    difficulty: 2
+    learn: "Foam resistance: a good hydraulic oil must not foam. Air bubbles make the system spongy."
+    why: "Air compresses, so the hydraulic action becomes soft and slow."
+    q: "Why should hydraulic oil resist foaming?"
+    a: "Air bubbles make the system spongy and weak."
+    simple: "Foam = air = soft, weak hydraulics."
+  - id: f11
+    topic: u1.oils
+    difficulty: 2
+    learn: "Main jobs of a hydraulic oil: pass power, lubricate, seal, cool and protect from rust."
+    why: "One liquid does many jobs inside the system."
+    q: "Name the main job of a hydraulic fluid."
+    a: "To transmit power (also lubricate, seal, cool)."
+    simple: "It carries the push and keeps parts healthy."
+  - id: f12
+    topic: u1.oils
+    difficulty: 2
+    learn: "SAE number shows the viscosity grade of engine oil. 'W' means winter grade. In 20W-40, the oil acts like SAE 20 when cold and SAE 40 when hot."
+    why: "Multigrade oil works in both cold start and hot running."
+    q: "In 20W-40 oil, what does W stand for?"
+    a: "Winter."
+    simple: "First number for cold, second for hot."
+  - id: f13
+    topic: u1.oils
+    difficulty: 2
+    learn: "Hydraulic brake fluid is not mineral oil. It is glycol based (DOT 3, DOT 4)."
+    why: "Mineral oil swells and ruins the rubber seals of the brake system."
+    q: "Is brake fluid a mineral oil?"
+    a: "No — it is glycol-based (DOT grades)."
+    simple: "Brake fluid is special; engine oil will damage brake seals."
+  - id: f14
+    topic: u1.oils
+    difficulty: 2
+    learn: "Brake fluid absorbs moisture from air (hygroscopic). This lowers its boiling point, so it is changed regularly."
+    why: "Boiling fluid makes vapour, and the brake pedal goes soft (vapour lock)."
+    q: "Why must brake fluid be replaced periodically?"
+    a: "It absorbs water, which lowers its boiling point."
+    simple: "Old brake fluid holds water and can boil."
+
+  # ---------- Machines (more) ----------
+  - id: f13
+    topic: u1.machines
+    difficulty: 2
+    learn: "Main parts of a centrifugal pump: impeller, casing, suction pipe with foot valve and strainer, delivery pipe."
+    why: "Each part moves water from sump to tank."
+    q: "Which part stops water draining back when a centrifugal pump stops?"
+    a: "Foot valve (a non-return valve)."
+    simple: "The foot valve keeps the pipe full."
+  - id: f14
+    topic: u1.machines
+    difficulty: 2
+    learn: "A volute casing is spiral-shaped; its area grows towards the outlet. It turns velocity into pressure."
+    why: "Water slows as the passage widens, raising pressure."
+    q: "Shape of the casing of a centrifugal pump?"
+    a: "Spiral (volute)."
+    simple: "A snail-shell casing changes speed into pressure."
+  - id: f15
+    topic: u1.machines
+    difficulty: 3
+    learn: "Manometric head of a centrifugal pump = actual head the pump develops (static head + losses + exit velocity head)."
+    why: "The pump must lift water and also overcome pipe losses."
+    q: "What is manometric head?"
+    a: "The total head the pump must develop."
+    simple: "Height lifted plus losses."
+  - id: f16
+    topic: u1.machines
+    difficulty: 3
+    learn: "Manometric efficiency = manometric head / head given by the impeller. Overall efficiency = water power / shaft power."
+    why: "Efficiencies show where energy is lost."
+    q: "Overall efficiency of a pump?"
+    a: "Water power ÷ shaft power."
+    simple: "Useful output ÷ input."
+  - id: f17
+    topic: u1.machines
+    difficulty: 3
+    learn: "Pumps in series increase head. Pumps in parallel increase discharge."
+    why: "Series: each pump adds lift. Parallel: each pump adds flow."
+    q: "To get more head, connect pumps in series or parallel?"
+    a: "Series (multistage)."
+    simple: "Series = higher. Parallel = more."
+  - id: f18
+    topic: u1.machines
+    difficulty: 3
+    learn: "NPSH (net positive suction head) must be enough at the pump inlet, or cavitation starts."
+    why: "Low suction pressure lets water boil into vapour bubbles."
+    q: "What happens if available NPSH is too low?"
+    a: "Cavitation."
+    simple: "Too little suction pressure → bubbles → damage."
+  - id: f19
+    topic: u1.machines
+    difficulty: 2
+    learn: "A centrifugal pump suits large flow at low or medium head. A reciprocating pump suits small flow at high head."
+    why: "Spinning impellers move lots of water; pistons build high pressure."
+    q: "Which pump suits high head with small flow?"
+    a: "Reciprocating pump."
+    simple: "Lots of water → centrifugal. High pressure → reciprocating."
+  - id: f20
+    topic: u1.machines
+    difficulty: 2
+    learn: "Gear pumps and vane pumps are rotary positive displacement pumps. They are used for oil and power steering."
+    why: "They trap oil and push a fixed amount each turn."
+    example: "The engine oil pump is usually a gear pump."
+    q: "Engine oil pumps are commonly which type?"
+    a: "Gear pump (or rotor pump)."
+    simple: "Gears trap oil and carry it round."
+  - id: f21
+    topic: u1.machines
+    difficulty: 3
+    learn: "Pelton wheel parts: nozzle with spear, runner with buckets, casing, breaking jet. Buckets have a splitter in the middle."
+    why: "The splitter divides the jet into two halves so there is no side thrust."
+    q: "Purpose of the splitter in a Pelton bucket?"
+    a: "To divide the jet into two equal parts (avoid side thrust)."
+    simple: "The middle ridge splits the jet into two."
+  - id: f22
+    topic: u1.machines
+    difficulty: 3
+    learn: "Best speed ratio of a Pelton wheel is about 0.46 (bucket speed ≈ half the jet speed)."
+    why: "Maximum work when bucket speed is half the jet speed."
+    q: "Ideal ratio of bucket speed to jet speed in a Pelton wheel?"
+    a: "About 0.5 (practically 0.46)."
+    simple: "Buckets move at about half the jet speed."
+  - id: f23
+    topic: u1.machines
+    difficulty: 3
+    learn: "Francis turbine is an inward mixed-flow reaction turbine with fixed runner blades and guide vanes."
+    why: "Water enters radially and leaves axially."
+    q: "Francis turbine flow direction?"
+    a: "Inward radial to axial (mixed flow)."
+    simple: "Water comes in from the sides and leaves down the middle."
+  - id: f24
+    topic: u1.machines
+    difficulty: 3
+    learn: "Kaplan turbine is an axial-flow reaction turbine with adjustable runner blades. A propeller turbine has fixed blades."
+    why: "Adjustable blades keep efficiency high when flow changes."
+    q: "Which axial turbine has adjustable runner blades?"
+    a: "Kaplan turbine."
+    simple: "Kaplan = a ship's propeller with blades that turn."
+  - id: f25
+    topic: u1.machines
+    difficulty: 3
+    learn: "Specific speed ranges: Pelton low (about 10–35), Francis medium (about 60–300), Kaplan high (300–1000)."
+    why: "Low head machines must spin fast for their size."
+    q: "Which turbine has the highest specific speed?"
+    a: "Kaplan."
+    simple: "Pelton slow, Francis middle, Kaplan fast."
+  - id: f26
+    topic: u1.machines
+    difficulty: 2
+    learn: "Impulse vs reaction: impulse works at atmospheric pressure, partly filled, no draft tube. Reaction runs full of water under pressure, with a draft tube."
+    why: "In impulse turbines all energy is speed; in reaction both pressure and speed act."
+    q: "Which turbine runs full of water under pressure?"
+    a: "Reaction turbine."
+    simple: "Impulse = jet hits cups. Reaction = water fills and pushes."
+  - id: f27
+    topic: u1.machines
+    difficulty: 3
+    learn: "Governing of a turbine keeps its speed constant when load changes, by controlling the water flow."
+    why: "Generators must run at fixed speed to give 50 Hz power."
+    q: "Why are turbines governed?"
+    a: "To keep speed constant as load changes."
+    simple: "Less load → less water, so speed stays the same."
+  - id: f28
+    topic: u1.machines
+    difficulty: 3
+    learn: "A hydraulic ram lifts part of a water flow to a higher level using water hammer. It needs no outside power."
+    why: "The pressure surge of stopped water pushes some water up."
+    q: "Which device lifts water using water hammer, without a motor?"
+    a: "Hydraulic ram."
+    simple: "A pump that runs on the knock of stopped water."
+  - id: f29
+    topic: u1.machines
+    difficulty: 3
+    learn: "Hydraulic accumulator stores hydraulic energy (pressurised liquid) for later use."
+    why: "It supplies extra flow when demand is high."
+    q: "Device that stores energy as pressurised liquid?"
+    a: "Hydraulic accumulator."
+    simple: "A storage tank for hydraulic pressure."
+  - id: f30
+    topic: u1.machines
+    difficulty: 3
+    learn: "Hydraulic intensifier increases the pressure of a liquid using a large and a small piston."
+    why: "Low pressure on the big piston gives high pressure under the small one."
+    q: "Device that raises liquid pressure?"
+    a: "Hydraulic intensifier."
+    simple: "Big piston pushes small piston to raise pressure."
+  - id: s01
+    topic: u1.machines
+    type: steps
+    difficulty: 3
+    title: "Worked example: slip of a reciprocating pump"
+    steps:
+      - text: "Question: Theoretical discharge is 10 litres/s. Actual is 9.5 litres/s. Find percentage slip."
+      - text: "Slip = Qth − Qact = 10 − 9.5 = 0.5 L/s."
+      - text: "% slip = 0.5 / 10 × 100 = 5%."
+      - text: "Coefficient of discharge = Qact/Qth = 9.5/10 = 0.95."
+        explain: "Cd and slip add up: 0.95 + 0.05 = 1."
+    summary:
+      - "% slip = (Qth − Qact)/Qth × 100."
+      - "Cd = Qact/Qth."
+    q: "If Cd = 0.95, what is % slip?"
+    a: "5%"
+
+mcq:
+  - topic: u1.pressure
+    q: "Hydraulic brakes in a car work on which principle?"
+    options: ["Bernoulli's theorem", "Pascal's law", "Archimedes' principle", "Newton's law of viscosity"]
+    answer: 1
+    explain: "Pascal's law: pressure in a confined fluid is passed equally in all directions."
+    covers: [f06]
+  - topic: u1.properties
+    q: "The unit of kinematic viscosity in CGS system is"
+    options: ["Poise", "Stoke", "Pascal", "N/m"]
+    answer: 1
+    explain: "Kinematic viscosity = μ/ρ; CGS unit is stoke (cm²/s)."
+    covers: [f08]
+  - topic: u1.flow
+    q: "Flow in a pipe is laminar when Reynolds number is"
+    options: ["Below 2000", "Between 2000 and 4000", "Above 4000", "Exactly 4000"]
+    answer: 0
+    explain: "Below about 2000 the flow is laminar."
+    covers: [f04]
+  - topic: u1.machines
+    q: "Pelton wheel is a"
+    options: ["Low-head reaction turbine", "Medium-head reaction turbine", "High-head impulse turbine", "Centrifugal pump"]
+    answer: 2
+    explain: "Pelton wheel is an impulse turbine used for high heads."
+    covers: [f10]
+  - topic: u1.oils
+    q: "The lowest temperature at which an oil will flow is called"
+    options: ["Flash point", "Fire point", "Pour point", "Cloud point"]
+    answer: 2
+    explain: "Pour point is the lowest temperature at which the oil still flows."
+    covers: [f06]
