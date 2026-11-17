@@ -1,0 +1,1561 @@
+unit: u2
+subject: thermal_engineering
+title: "Unit II — Thermal engineering (10 marks)"
+
+topics:
+  - {id: u2.basics, title: "Basic terms of thermodynamics", freq: 0.6}
+  - {id: u2.laws, title: "Laws of thermodynamics", freq: 0.8}
+  - {id: u2.process, title: "Thermodynamic processes and PV diagrams", freq: 0.7}
+  - {id: u2.cycles, title: "Air standard cycles", freq: 0.8}
+  - {id: u2.engines, title: "Two-stroke and four-stroke engines, valve timing", freq: 0.9}
+  - {id: u2.performance, title: "IC engine performance and testing", freq: 0.8}
+  - {id: u2.compressors, title: "Air compressors", freq: 0.6}
+  - {id: u2.heat, title: "Heat transfer", freq: 0.6}
+
+cards:
+  # ---------- Basics ----------
+  - id: f01
+    topic: u2.basics
+    difficulty: 1
+    learn: "Thermodynamics is the study of heat, work and energy, and how one changes into another."
+    why: "Engines turn heat from fuel into work that moves the vehicle."
+    q: "What does thermodynamics study?"
+    a: "Heat, work and energy conversion."
+    simple: "How heat becomes motion."
+  - id: f02
+    topic: u2.basics
+    difficulty: 2
+    learn: "A system is the part we study. Everything outside it is the surroundings. The line between them is the boundary."
+    why: "We must decide what is 'inside' before counting energy."
+    example: "The gas inside an engine cylinder is the system; the piston and walls are the boundary."
+    q: "Everything outside a system is called?"
+    a: "Surroundings."
+    simple: "System = what you watch. Surroundings = the rest."
+  - id: f03
+    topic: u2.basics
+    difficulty: 2
+    learn: "Closed system: mass does not cross, energy can. Open system: both mass and energy cross. Isolated system: neither crosses."
+    why: "Different machines exchange different things."
+    example: "Closed: gas in a cylinder with valves shut. Open: a compressor. Isolated: a perfect thermos flask."
+    q: "In which system can neither mass nor energy cross?"
+    a: "Isolated system."
+    simple: "Closed lets heat out, open lets stuff out, isolated lets nothing out."
+  - id: f04
+    topic: u2.basics
+    difficulty: 2
+    learn: "Intensive properties do not depend on mass (pressure, temperature, density). Extensive properties depend on mass (volume, energy, mass)."
+    why: "Cut a system in half: intensive stays the same, extensive halves."
+    q: "Is temperature intensive or extensive?"
+    a: "Intensive."
+    simple: "Half a cup of hot tea is still just as hot."
+  - id: f05
+    topic: u2.basics
+    difficulty: 2
+    learn: "Heat and work are energy in transit. They are path functions, not properties."
+    why: "Their amount depends on how the change happens, not only on start and end."
+    q: "Is work a property or a path function?"
+    a: "Path function."
+    simple: "Heat and work depend on the road taken."
+  - id: f06
+    topic: u2.basics
+    difficulty: 2
+    learn: "Absolute temperature: K = °C + 273."
+    why: "Gas laws need temperature from absolute zero."
+    example: "27°C = 300 K."
+    q: "27°C in kelvin?"
+    a: "300 K."
+    simple: "Add 273 to Celsius."
+  - id: f07
+    topic: u2.basics
+    difficulty: 2
+    learn: "Specific heat is the heat needed to raise 1 kg of a substance by 1°C. For gases there are two: cp (constant pressure) and cv (constant volume)."
+    why: "At constant pressure the gas also expands and does work, so cp is bigger."
+    q: "Which is greater for a gas: cp or cv?"
+    a: "cp."
+    simple: "Heating with room to expand needs more heat."
+  - id: f08
+    topic: u2.basics
+    difficulty: 2
+    learn: "For air: cp = 1.005 kJ/kg·K, cv = 0.718 kJ/kg·K, γ = cp/cv = 1.4, R = cp − cv = 0.287 kJ/kg·K."
+    why: "These values are used in every air-cycle problem."
+    q: "Value of γ (gamma) for air?"
+    a: "1.4"
+    simple: "Air: γ = 1.4, R = 0.287."
+  - id: f09
+    topic: u2.basics
+    difficulty: 2
+    learn: "Internal energy is energy stored in a substance due to its molecules' motion. For an ideal gas it depends only on temperature."
+    why: "Hotter gas molecules move faster."
+    q: "Internal energy of an ideal gas depends on what?"
+    a: "Temperature only."
+    simple: "Hotter gas holds more energy."
+  - id: f10
+    topic: u2.basics
+    difficulty: 2
+    learn: "Enthalpy H = U + pV. It is the total heat content of a flowing fluid."
+    why: "Flowing fluid carries both internal energy and pressure energy."
+    q: "Formula of enthalpy?"
+    a: "H = U + pV"
+    simple: "Stored energy plus pushing energy."
+  - id: f11
+    topic: u2.basics
+    difficulty: 3
+    learn: "Entropy is a measure of disorder. In a reversible adiabatic process entropy stays constant."
+    why: "No heat crosses and no friction, so disorder does not grow."
+    q: "In which process does entropy stay constant?"
+    a: "Reversible adiabatic (isentropic)."
+    simple: "Entropy = messiness of energy."
+  - id: f12
+    topic: u2.basics
+    difficulty: 2
+    learn: "Boyle's law: pV = constant at constant temperature. Charles's law: V/T = constant at constant pressure."
+    why: "These two combine into the ideal gas law pV = mRT."
+    q: "Boyle's law holds at constant what?"
+    a: "Temperature."
+    simple: "Squeeze a gas at same temperature: pressure up, volume down."
+  - id: sum
+    topic: u2.basics
+    type: summary
+    points:
+      - "Closed, open, isolated systems."
+      - "Intensive (p, T) vs extensive (V, mass)."
+      - "Heat and work are path functions."
+      - "Air: cp 1.005, cv 0.718, γ 1.4, R 0.287."
+      - "H = U + pV; K = °C + 273."
+
+  # ---------- Laws ----------
+  - id: f01
+    topic: u2.laws
+    difficulty: 2
+    learn: "Zeroth law: if A and B are each in thermal balance with C, then A and B are in thermal balance with each other."
+    why: "This is the basis of temperature measurement with a thermometer."
+    q: "Which law is the basis of the thermometer?"
+    a: "Zeroth law."
+    simple: "If two things match a thermometer, they match each other."
+  - id: f02
+    topic: u2.laws
+    difficulty: 1
+    learn: "First law: energy can neither be created nor destroyed, only changed from one form to another."
+    why: "Heat from fuel becomes work plus heat lost — nothing vanishes."
+    q: "First law of thermodynamics is the law of?"
+    a: "Conservation of energy."
+    simple: "Energy only changes form."
+  - id: f03
+    topic: u2.laws
+    difficulty: 2
+    learn: "First law for a closed system: Q = ΔU + W (heat supplied = rise in internal energy + work done)."
+    why: "Heat goes partly into warming the gas, partly into pushing the piston."
+    q: "Write the first law for a closed system."
+    a: "Q = ΔU + W"
+    simple: "Heat in = energy stored + work out."
+  - id: f04
+    topic: u2.laws
+    difficulty: 2
+    learn: "For a cycle, net heat = net work (∮δQ = ∮δW)."
+    why: "After a full cycle the gas is back to its start, so ΔU = 0."
+    q: "In a complete cycle, net heat equals?"
+    a: "Net work."
+    simple: "Over one full cycle, heat in − heat out = work."
+  - id: f05
+    topic: u2.laws
+    difficulty: 2
+    learn: "A perpetual motion machine of the first kind (PMM-1) makes work without any energy input. The first law says it is impossible."
+    why: "Energy cannot come from nothing."
+    q: "Which law forbids PMM-1?"
+    a: "First law."
+    simple: "No machine gives free energy."
+  - id: f06
+    topic: u2.laws
+    difficulty: 2
+    learn: "Second law (Kelvin–Planck): no engine working in a cycle can turn all heat into work. Some heat must go to a cold sink."
+    why: "Every heat engine must throw away some heat."
+    example: "A car engine loses heat through the radiator and exhaust."
+    q: "Which law says no engine is 100% efficient?"
+    a: "Second law (Kelvin–Planck statement)."
+    simple: "Some heat is always wasted."
+  - id: f07
+    topic: u2.laws
+    difficulty: 2
+    learn: "Second law (Clausius): heat cannot flow from a cold body to a hot body by itself without outside work."
+    why: "A refrigerator needs a compressor (work) to move heat out."
+    q: "Which statement of the second law is linked to refrigerators?"
+    a: "Clausius statement."
+    simple: "Heat flows downhill unless you pump it."
+  - id: f08
+    topic: u2.laws
+    difficulty: 2
+    learn: "PMM-2 is an engine that turns all heat into work with one heat source. The second law says it is impossible."
+    why: "It would need no cold sink."
+    q: "PMM-2 violates which law?"
+    a: "Second law."
+    simple: "You cannot turn all heat into work."
+  - id: f09
+    topic: u2.laws
+    difficulty: 2
+    learn: "Third law: entropy of a perfect crystal at absolute zero (0 K) is zero."
+    why: "At 0 K there is no molecular motion, so no disorder."
+    q: "At what temperature is entropy of a perfect crystal zero?"
+    a: "Absolute zero (0 K)."
+    simple: "Coldest possible = no disorder."
+  - id: f10
+    topic: u2.laws
+    difficulty: 2
+    learn: "Heat engine efficiency η = Work output / Heat supplied = 1 − Q₂/Q₁."
+    why: "Q₂ is the heat thrown away."
+    q: "Efficiency of a heat engine?"
+    a: "W/Q₁ = 1 − Q₂/Q₁"
+    simple: "Useful work ÷ heat put in."
+  - id: f11
+    topic: u2.laws
+    difficulty: 3
+    learn: "COP of a refrigerator = heat removed / work input. COP of a heat pump = heat delivered / work input = COP(ref) + 1."
+    why: "A heat pump delivers both the removed heat and the work."
+    q: "COP of heat pump in terms of COP of refrigerator?"
+    a: "COP(HP) = COP(R) + 1"
+    simple: "A heat pump's COP is one more than a fridge's."
+  - id: sum
+    topic: u2.laws
+    type: summary
+    points:
+      - "Zeroth: thermal equilibrium → thermometer."
+      - "First: energy conserved, Q = ΔU + W; no PMM-1."
+      - "Second: Kelvin–Planck (no 100% engine), Clausius (fridge needs work); no PMM-2."
+      - "Third: entropy zero at 0 K."
+      - "η = 1 − Q₂/Q₁; COP(HP) = COP(R) + 1."
+
+  # ---------- Processes ----------
+  - id: f01
+    topic: u2.process
+    difficulty: 2
+    learn: "Constant volume (isochoric) process: volume does not change, so no work is done (W = 0)."
+    why: "Work needs the boundary to move."
+    example: "Heating gas in a closed rigid tank."
+    q: "Work done in a constant volume process?"
+    a: "Zero."
+    simple: "No movement, no work."
+  - id: f02
+    topic: u2.process
+    difficulty: 2
+    learn: "Constant pressure (isobaric) process: W = p (V₂ − V₁)."
+    why: "Force stays the same while the piston moves."
+    q: "Work in a constant pressure process?"
+    a: "W = p(V₂ − V₁)"
+    simple: "Pressure × change in volume."
+  - id: f03
+    topic: u2.process
+    difficulty: 2
+    learn: "Isothermal process: temperature stays constant, pV = constant. W = p₁V₁ ln(V₂/V₁)."
+    why: "Heat added equals work done, so temperature does not rise."
+    q: "Equation of an isothermal process?"
+    a: "pV = constant"
+    simple: "Same temperature throughout."
+  - id: f04
+    topic: u2.process
+    difficulty: 2
+    learn: "In an isothermal process of an ideal gas, ΔU = 0, so Q = W."
+    why: "Internal energy depends only on temperature, which does not change."
+    q: "In isothermal expansion, heat supplied equals?"
+    a: "Work done."
+    simple: "All the heat goes into work."
+  - id: f05
+    topic: u2.process
+    difficulty: 2
+    learn: "Adiabatic process: no heat crosses the boundary (Q = 0). Reversible adiabatic is called isentropic: pV^γ = constant."
+    why: "With no heat flow, work comes from internal energy."
+    q: "Equation of an isentropic process?"
+    a: "pV^γ = constant"
+    simple: "No heat in or out."
+  - id: f06
+    topic: u2.process
+    difficulty: 3
+    learn: "Work in an adiabatic process W = (p₁V₁ − p₂V₂)/(γ − 1). Polytropic: W = (p₁V₁ − p₂V₂)/(n − 1)."
+    why: "Same form, only the index changes."
+    q: "Work done in adiabatic expansion?"
+    a: "(p₁V₁ − p₂V₂)/(γ − 1)"
+    simple: "Pressure-volume difference divided by (γ − 1)."
+  - id: f07
+    topic: u2.process
+    difficulty: 3
+    learn: "Polytropic process: pVⁿ = constant. n = 0 constant pressure, n = 1 isothermal, n = γ adiabatic, n = ∞ constant volume."
+    why: "One formula covers all the basic processes."
+    q: "For which value of n is pVⁿ = C an isothermal process?"
+    a: "n = 1"
+    simple: "Change n to get every process."
+  - id: f08
+    topic: u2.process
+    difficulty: 3
+    learn: "On a PV diagram, the adiabatic curve is steeper than the isothermal curve."
+    why: "γ (1.4) is bigger than 1, so pressure changes faster with volume."
+    q: "Which curve is steeper on a PV diagram: adiabatic or isothermal?"
+    a: "Adiabatic."
+    simple: "Adiabatic falls faster."
+  - id: f09
+    topic: u2.process
+    difficulty: 2
+    learn: "Area under a curve on a PV diagram = work done. Area enclosed by a cycle = net work of the cycle."
+    why: "Work = ∫p dV, which is an area."
+    q: "What does the area of a closed loop on a PV diagram represent?"
+    a: "Net work done in the cycle."
+    simple: "Bigger loop, more work."
+  - id: f10
+    topic: u2.process
+    difficulty: 3
+    learn: "Throttling process: fluid passes through a narrow valve; enthalpy stays constant (h₁ = h₂) and no work is done."
+    why: "Pressure drops, but no heat or work crosses."
+    example: "The expansion valve in a car's AC."
+    q: "What stays constant in throttling?"
+    a: "Enthalpy."
+    simple: "Squeezing through a small hole drops pressure but keeps enthalpy."
+  - id: f11
+    topic: u2.process
+    difficulty: 3
+    learn: "Free expansion: gas expands into vacuum. Work done = 0 and heat = 0."
+    why: "Nothing resists the expansion, so no work."
+    q: "Work done in free expansion?"
+    a: "Zero."
+    simple: "Expanding into nothing does no work."
+  - id: sum
+    topic: u2.process
+    type: summary
+    points:
+      - "Constant volume: W = 0."
+      - "Constant pressure: W = p(V₂ − V₁)."
+      - "Isothermal: pV = C, Q = W."
+      - "Isentropic: pV^γ = C, Q = 0, steeper curve."
+      - "Polytropic pVⁿ = C; throttling h = const."
+
+  # ---------- Cycles ----------
+  - id: f01
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Air standard cycle assumptions: working fluid is air (ideal gas), constant specific heats, heat added from outside, processes reversible, no intake or exhaust losses."
+    why: "These make the cycle easy to calculate."
+    q: "In an air standard cycle, what is the working fluid assumed to be?"
+    a: "Air, as a perfect gas."
+    simple: "Pretend the engine runs on clean air only."
+  - id: f02
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Carnot cycle: two isothermal and two adiabatic (isentropic) processes. It has the highest possible efficiency."
+    why: "It is fully reversible, so no energy is wasted by friction."
+    q: "Carnot cycle consists of which processes?"
+    a: "Two isothermal + two adiabatic."
+    simple: "The perfect, ideal engine cycle."
+  - id: f03
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Carnot efficiency η = 1 − T₂/T₁ (temperatures in kelvin)."
+    why: "It depends only on the hot and cold temperatures."
+    example: "T₁ = 600 K, T₂ = 300 K → η = 1 − 0.5 = 50%."
+    q: "Carnot efficiency formula?"
+    a: "1 − T₂/T₁"
+    simple: "Bigger gap between hot and cold = better efficiency."
+  - id: f04
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Carnot cycle is not used in real engines. Isothermal processes are too slow and adiabatic ones too fast to achieve in one engine."
+    why: "The net work is also very small for the size of the engine."
+    q: "Is a practical engine built on the Carnot cycle?"
+    a: "No — it is only a standard for comparison."
+    simple: "Perfect on paper, impossible in real life."
+  - id: f05
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Otto cycle (petrol engine): 2 adiabatic + 2 constant volume processes. Heat is added at constant volume."
+    why: "Spark ignition burns the mixture very quickly, while the piston is almost still."
+    q: "In the Otto cycle, heat is added at constant?"
+    a: "Volume."
+    simple: "Petrol engine cycle: quick burn at constant volume."
+  - id: f06
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Otto cycle efficiency η = 1 − 1/r^(γ−1). r = compression ratio."
+    why: "Higher compression ratio squeezes more work out of the same heat."
+    q: "Otto efficiency depends only on what?"
+    a: "Compression ratio (and γ)."
+    simple: "More squeeze, more efficiency."
+  - id: f07
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Diesel cycle: 2 adiabatic, 1 constant pressure (heat added) and 1 constant volume (heat rejected)."
+    why: "Fuel is injected gradually and burns while the piston moves down."
+    q: "In the Diesel cycle, heat is added at constant?"
+    a: "Pressure."
+    simple: "Diesel cycle: steady burn at constant pressure."
+  - id: f08
+    topic: u2.cycles
+    difficulty: 3
+    learn: "Cut-off ratio ρ = V₃/V₂ in a Diesel cycle: volume when fuel injection stops ÷ clearance volume. Larger cut-off ratio lowers efficiency."
+    why: "Heat added late in the stroke has less chance to do work."
+    q: "Effect of increasing cut-off ratio on Diesel efficiency?"
+    a: "Efficiency decreases."
+    simple: "Burning fuel too late wastes it."
+  - id: f09
+    topic: u2.cycles
+    difficulty: 2
+    learn: "For the same compression ratio, Otto is more efficient than Diesel. For the same maximum pressure, Diesel is more efficient."
+    why: "Diesel engines can use much higher compression ratios."
+    q: "Same compression ratio: which is more efficient, Otto or Diesel?"
+    a: "Otto."
+    simple: "Same squeeze: petrol wins. Same peak pressure: diesel wins."
+  - id: f10
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Dual combustion (mixed or limited pressure) cycle: heat is added partly at constant volume and partly at constant pressure."
+    why: "Modern high-speed diesel engines burn this way."
+    q: "Cycle with heat added at both constant volume and constant pressure?"
+    a: "Dual combustion cycle."
+    simple: "Half Otto, half Diesel."
+  - id: f11
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Joule (Brayton) cycle: 2 adiabatic and 2 constant pressure processes. Used in gas turbines and jet engines."
+    why: "Gas turbines burn fuel continuously at constant pressure."
+    q: "Gas turbines work on which cycle?"
+    a: "Joule (Brayton) cycle."
+    simple: "The jet engine cycle."
+  - id: f12
+    topic: u2.cycles
+    difficulty: 3
+    learn: "Joule cycle efficiency η = 1 − 1/rp^((γ−1)/γ). rp = pressure ratio."
+    why: "Higher pressure ratio gives higher efficiency."
+    q: "Joule cycle efficiency depends on?"
+    a: "Pressure ratio."
+    simple: "More pressure rise, more efficiency."
+  - id: f13
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Compression ratio r = total cylinder volume / clearance volume = (Vs + Vc)/Vc."
+    why: "It shows how much the mixture is squeezed."
+    example: "Petrol engine 8–12. Diesel engine 14–22."
+    q: "Compression ratio formula?"
+    a: "(Vs + Vc)/Vc"
+    simple: "Big volume ÷ small volume."
+  - id: f14
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Petrol engines use low compression ratios (about 8–12) to avoid knocking. Diesel engines need high ratios (about 14–22) to self-ignite fuel."
+    why: "Diesel relies on hot compressed air to light the fuel."
+    q: "Typical compression ratio of a diesel engine?"
+    a: "About 14 to 22."
+    simple: "Diesel squeezes much harder than petrol."
+  - id: f15
+    topic: u2.cycles
+    difficulty: 3
+    learn: "Stirling cycle: 2 isothermal and 2 constant volume processes, with a regenerator. Ericsson cycle: 2 isothermal and 2 constant pressure."
+    why: "With perfect regeneration both reach Carnot efficiency."
+    q: "Stirling cycle has which processes?"
+    a: "2 isothermal + 2 constant volume."
+    simple: "Stirling = isothermal + constant volume."
+  - id: f16
+    topic: u2.cycles
+    difficulty: 3
+    learn: "Mean effective pressure (MEP) = net work of cycle / swept volume."
+    why: "It is the steady pressure that would give the same work in one stroke."
+    q: "MEP formula?"
+    a: "Net work ÷ swept volume."
+    simple: "Average push on the piston."
+  - id: s01
+    topic: u2.cycles
+    type: steps
+    difficulty: 3
+    title: "Worked example: Otto cycle efficiency"
+    steps:
+      - text: "Question: A petrol engine has compression ratio 8. Find air-standard efficiency (γ = 1.4)."
+      - text: "η = 1 − 1/r^(γ−1) = 1 − 1/8^0.4."
+      - text: "8^0.4 ≈ 2.297."
+        explain: "Use a calculator: 8 to the power 0.4."
+      - text: "η = 1 − 1/2.297 = 1 − 0.435 = 0.565 ≈ 56.5%."
+    summary:
+      - "η Otto = 1 − 1/r^(γ−1)."
+      - "r = 8 gives about 56.5%."
+    q: "Air-standard efficiency of an Otto engine with r = 8?"
+    a: "About 56.5%."
+  - id: s02
+    topic: u2.cycles
+    type: steps
+    difficulty: 3
+    title: "Worked example: Carnot efficiency"
+    steps:
+      - text: "Question: A Carnot engine works between 327°C and 27°C. Find its efficiency."
+      - text: "Change to kelvin: T₁ = 327 + 273 = 600 K, T₂ = 27 + 273 = 300 K."
+        explain: "Always use kelvin in Carnot formula."
+      - text: "η = 1 − T₂/T₁ = 1 − 300/600 = 0.5."
+      - text: "Efficiency = 50%."
+    summary:
+      - "Convert °C to K first."
+      - "η = 1 − T₂/T₁."
+    q: "Carnot efficiency between 600 K and 300 K?"
+    a: "50%"
+  - id: sum
+    topic: u2.cycles
+    type: summary
+    points:
+      - "Carnot: 2 isothermal + 2 adiabatic, η = 1 − T₂/T₁."
+      - "Otto: heat at constant volume, η = 1 − 1/r^(γ−1)."
+      - "Diesel: heat at constant pressure; cut-off ratio."
+      - "Dual: both; Joule/Brayton: gas turbine."
+      - "Same r: Otto > Dual > Diesel efficiency."
+
+  # ---------- Engines ----------
+  - id: f01
+    topic: u2.engines
+    difficulty: 1
+    learn: "An internal combustion (IC) engine burns fuel inside the cylinder. An external combustion engine burns fuel outside (e.g. steam engine)."
+    why: "In IC engines the hot gases push the piston directly."
+    q: "Is a steam engine IC or EC?"
+    a: "External combustion."
+    simple: "IC = fire inside. EC = fire outside."
+  - id: f02
+    topic: u2.engines
+    difficulty: 1
+    learn: "Petrol engine = spark ignition (SI). Diesel engine = compression ignition (CI)."
+    why: "Petrol is lit by a spark plug; diesel lights from the heat of squeezed air."
+    q: "How is fuel ignited in a diesel engine?"
+    a: "By heat of compressed air (compression ignition)."
+    simple: "Petrol needs a spark; diesel needs squeeze."
+  - id: f03
+    topic: u2.engines
+    difficulty: 1
+    learn: "Four-stroke engine strokes in order: suction, compression, power, exhaust."
+    why: "Each stroke is half a turn, so one cycle = 2 crank turns."
+    q: "Order of strokes in a four-stroke engine?"
+    a: "Suction, compression, power, exhaust."
+    simple: "Suck, squeeze, bang, blow."
+  - id: f04
+    topic: u2.engines
+    difficulty: 1
+    learn: "A four-stroke engine gives one power stroke every 2 revolutions of the crankshaft. A two-stroke engine gives one every revolution."
+    why: "Two-stroke engines merge suction and exhaust into the other strokes."
+    q: "Power strokes per revolution in a two-stroke engine?"
+    a: "One."
+    simple: "Two-stroke fires every turn; four-stroke every second turn."
+  - id: f05
+    topic: u2.engines
+    difficulty: 1
+    learn: "In a four-stroke engine, the camshaft turns at half the crankshaft speed."
+    why: "Each valve opens once per cycle, and one cycle is 2 crank turns."
+    q: "Camshaft speed compared to crankshaft in a four-stroke engine?"
+    a: "Half."
+    simple: "Crank turns twice; cam turns once."
+  - id: f06
+    topic: u2.engines
+    difficulty: 2
+    learn: "In a petrol engine, the suction stroke draws in an air–petrol mixture. In a diesel engine, it draws in air only."
+    why: "Diesel is injected later, at the end of compression."
+    q: "What enters a diesel engine during suction?"
+    a: "Air only."
+    simple: "Petrol: mix enters. Diesel: only air enters."
+  - id: f07
+    topic: u2.engines
+    difficulty: 2
+    learn: "Two-stroke engines use ports (holes in the cylinder wall) instead of valves: inlet, transfer and exhaust ports."
+    why: "The piston itself opens and closes the ports as it moves."
+    example: "Old scooters and autorickshaws used two-stroke engines."
+    q: "What opens and closes the ports in a two-stroke engine?"
+    a: "The piston."
+    simple: "The piston slides past holes to let gas in and out."
+  - id: f08
+    topic: u2.engines
+    difficulty: 2
+    learn: "In a two-stroke petrol engine, the crankcase is sealed and used to pre-compress the fresh mixture."
+    why: "The pressurised mixture then rushes through the transfer port into the cylinder."
+    q: "In a two-stroke petrol engine, where is the mixture first compressed?"
+    a: "In the crankcase."
+    simple: "The bottom box squeezes the mix before sending it up."
+  - id: f09
+    topic: u2.engines
+    difficulty: 2
+    learn: "Scavenging is pushing out burnt gases with fresh charge in a two-stroke engine."
+    why: "There is no separate exhaust stroke, so fresh charge sweeps out the old."
+    q: "What is scavenging?"
+    a: "Clearing exhaust gases from the cylinder using fresh charge."
+    simple: "New air pushes old smoke out."
+  - id: f10
+    topic: u2.engines
+    difficulty: 2
+    learn: "A deflector-top piston directs fresh charge upward in cross-scavenged two-stroke engines."
+    why: "It stops fresh mixture going straight out of the exhaust port."
+    q: "Why do some two-stroke pistons have a deflector on top?"
+    a: "To guide fresh charge up and reduce loss through the exhaust port."
+    simple: "A bump on the piston steers the fresh mix."
+  - id: f11
+    topic: u2.engines
+    difficulty: 2
+    learn: "Two-stroke vs four-stroke: two-stroke is lighter, simpler and more powerful for its size, but uses more fuel and pollutes more."
+    why: "Some fresh fuel escapes with the exhaust, and oil is burnt with fuel."
+    q: "Which is more fuel-efficient: two-stroke or four-stroke?"
+    a: "Four-stroke."
+    simple: "Two-stroke: light and peppy, but thirsty and smoky."
+  - id: f12
+    topic: u2.engines
+    difficulty: 2
+    learn: "Two-stroke petrol engines are lubricated by mixing oil with petrol (petroil), about 2–3%."
+    why: "The crankcase holds mixture, so it cannot hold an oil sump."
+    q: "How is a small two-stroke petrol engine lubricated?"
+    a: "Oil mixed with petrol (petroil lubrication)."
+    simple: "Oil goes in with the petrol."
+  - id: f13
+    topic: u2.engines
+    difficulty: 2
+    learn: "Diesel engines are heavier and costlier but more fuel-efficient and give more torque than petrol engines."
+    why: "High compression ratio and lean burning give better efficiency."
+    q: "Which engine gives better fuel economy: petrol or diesel?"
+    a: "Diesel."
+    simple: "Diesel: heavy and strong, but saves fuel."
+  - id: f14
+    topic: u2.engines
+    difficulty: 2
+    learn: "TDC (top dead centre) is the top-most piston position. BDC (bottom dead centre) is the bottom-most."
+    why: "At these points the piston stops and reverses direction."
+    q: "What is TDC?"
+    a: "Top dead centre — piston's highest position."
+    simple: "Top stop and bottom stop of the piston."
+  - id: f15
+    topic: u2.engines
+    difficulty: 2
+    learn: "Stroke = distance between TDC and BDC = 2 × crank radius. Bore = cylinder diameter."
+    why: "The crank throw sets how far the piston travels."
+    q: "Stroke length in terms of crank radius?"
+    a: "2 × crank radius."
+    simple: "Stroke = how far the piston travels."
+  - id: f16
+    topic: u2.engines
+    difficulty: 2
+    learn: "Swept volume Vs = (π/4) × D² × L. Engine capacity (cc) = swept volume × number of cylinders."
+    why: "It is the volume the piston sweeps in one stroke."
+    example: "A 150 cc motorcycle sweeps 150 cm³ per stroke."
+    q: "Formula for swept volume?"
+    a: "(π/4) D² L"
+    simple: "Cylinder area × stroke."
+  - id: f17
+    topic: u2.engines
+    difficulty: 2
+    learn: "Square engine: bore = stroke. Over-square (short stroke): bore > stroke. Under-square (long stroke): bore < stroke."
+    why: "Short stroke engines rev higher; long stroke give more low-speed torque."
+    q: "An engine with bore greater than stroke is called?"
+    a: "Over-square (short-stroke) engine."
+    simple: "Wide and short = over-square."
+  - id: f18
+    topic: u2.engines
+    difficulty: 2
+    learn: "Clearance volume is the space left above the piston at TDC."
+    why: "The combustion chamber is this space."
+    q: "Volume above the piston at TDC is called?"
+    a: "Clearance volume."
+    simple: "The small room left at the top."
+  - id: f19
+    topic: u2.engines
+    difficulty: 2
+    learn: "Valve timing diagram shows, in crank degrees, when inlet and exhaust valves open and close."
+    why: "Valves do not open exactly at TDC/BDC; early and late opening improves breathing."
+    q: "What does a valve timing diagram show?"
+    a: "Crank angles at which valves open and close."
+    simple: "A clock face for the valves."
+  - id: f20
+    topic: u2.engines
+    difficulty: 2
+    learn: "Inlet valve opens about 10–20° before TDC and closes about 30–50° after BDC."
+    why: "Opening early and closing late lets more charge fill the cylinder (gas inertia)."
+    q: "Does the inlet valve close before or after BDC?"
+    a: "After BDC."
+    simple: "Inlet opens early and shuts late to fill more."
+  - id: f21
+    topic: u2.engines
+    difficulty: 2
+    learn: "Exhaust valve opens about 40–50° before BDC and closes about 10–20° after TDC."
+    why: "Early opening lets high-pressure gas escape; late closing clears the cylinder fully."
+    q: "Does the exhaust valve open before or after BDC?"
+    a: "Before BDC."
+    simple: "Exhaust opens early to let gas out quickly."
+  - id: f22
+    topic: u2.engines
+    difficulty: 2
+    learn: "Valve overlap is the period when both inlet and exhaust valves are open together, near TDC."
+    why: "Outgoing exhaust helps pull in fresh charge."
+    q: "When are both valves open together?"
+    a: "During valve overlap, near TDC (end of exhaust, start of suction)."
+    simple: "A short moment when both doors are open."
+  - id: f23
+    topic: u2.engines
+    difficulty: 2
+    learn: "Valve lead: valve opens before the dead centre. Valve lag: valve closes after the dead centre."
+    why: "Lead and lag improve breathing at high speed."
+    q: "Valve opening before dead centre is called?"
+    a: "Valve lead."
+    simple: "Lead = early. Lag = late."
+  - id: f24
+    topic: u2.engines
+    difficulty: 2
+    learn: "Ignition timing: the spark occurs before TDC (spark advance). In diesel engines, injection starts before TDC."
+    why: "Burning takes time, so it must start early to peak just after TDC."
+    q: "Does the spark occur before or after TDC?"
+    a: "Before TDC."
+    simple: "Light the fire a little early."
+  - id: f25
+    topic: u2.engines
+    difficulty: 2
+    learn: "Knocking in petrol engines (detonation) is sudden self-ignition of the last part of the mixture, causing a metallic noise."
+    why: "Too much heat and pressure ahead of the flame."
+    q: "Rating of petrol against knocking?"
+    a: "Octane number."
+    simple: "Pinking noise = mixture exploding on its own."
+  - id: f26
+    topic: u2.engines
+    difficulty: 2
+    learn: "Octane number rates petrol's anti-knock quality (iso-octane = 100, n-heptane = 0). Cetane number rates diesel's ignition quality (cetane = 100)."
+    why: "Petrol should resist self-ignition; diesel should self-ignite easily."
+    q: "Ignition quality of diesel is rated by?"
+    a: "Cetane number."
+    simple: "Octane for petrol, cetane for diesel."
+  - id: f27
+    topic: u2.engines
+    difficulty: 3
+    learn: "Diesel knock is caused by a long ignition delay: too much fuel collects before burning, then explodes."
+    why: "Petrol knock happens late in combustion; diesel knock happens at the start."
+    q: "Main cause of diesel knock?"
+    a: "Long ignition delay."
+    simple: "Fuel waits too long, then bangs."
+  - id: f28
+    topic: u2.engines
+    difficulty: 3
+    learn: "Things that reduce petrol knock lead to more diesel knock, and vice versa. For example, high compression ratio reduces diesel knock but increases petrol knock."
+    why: "Diesel needs easy self-ignition; petrol must avoid it."
+    q: "Does high compression ratio increase or reduce diesel knock?"
+    a: "Reduces it."
+    simple: "Petrol and diesel need opposite things."
+  - id: f29
+    topic: u2.engines
+    difficulty: 2
+    learn: "On the PV diagram of an actual four-stroke engine, the small negative loop at the bottom is the pumping loss loop (suction and exhaust)."
+    why: "Work is spent pulling in charge and pushing out gases."
+    q: "What does the small lower loop on a four-stroke PV diagram show?"
+    a: "Pumping loss (negative work)."
+    simple: "Breathing costs some work."
+  - id: f30
+    topic: u2.engines
+    difficulty: 2
+    learn: "Firing order of a common 4-cylinder in-line engine: 1-3-4-2 (or 1-2-4-3)."
+    why: "Spreads power strokes evenly and balances the crankshaft."
+    q: "Common firing order of a four-cylinder engine?"
+    a: "1-3-4-2"
+    simple: "Fire cylinders in a balanced order, not 1-2-3-4."
+  - id: f31
+    topic: u2.engines
+    difficulty: 2
+    learn: "Wankel (rotary) engine uses a triangular rotor instead of a piston."
+    why: "The rotor turns in an oval housing to make the four strokes."
+    q: "What replaces the piston in a Wankel engine?"
+    a: "A triangular rotor."
+    simple: "A spinning triangle instead of an up-down piston."
+  - id: sum
+    topic: u2.engines
+    type: summary
+    points:
+      - "Four-stroke: suck, squeeze, power, exhaust; 1 power stroke per 2 turns."
+      - "Two-stroke: ports, crankcase compression, scavenging, petroil."
+      - "IVO before TDC, IVC after BDC; EVO before BDC, EVC after TDC."
+      - "Valve overlap near TDC."
+      - "Octane (petrol), cetane (diesel); firing order 1-3-4-2."
+
+  # ---------- Performance ----------
+  - id: f01
+    topic: u2.performance
+    difficulty: 2
+    learn: "Indicated power (IP) is power developed by the gas inside the cylinder. IP = p_m L A n k / 60 (n = power strokes per minute)."
+    why: "It is measured from the indicator diagram."
+    q: "Power developed inside the engine cylinder is called?"
+    a: "Indicated power."
+    simple: "Power made by burning gas."
+  - id: f02
+    topic: u2.performance
+    difficulty: 2
+    learn: "Brake power (BP) is the useful power at the crankshaft. BP = 2πNT / 60."
+    why: "It is measured with a brake (dynamometer)."
+    q: "Formula of brake power?"
+    a: "BP = 2πNT/60"
+    simple: "Power you actually get at the shaft."
+  - id: f03
+    topic: u2.performance
+    difficulty: 2
+    learn: "Frictional power FP = IP − BP."
+    why: "Some of the gas power is lost in rubbing parts and driving pumps."
+    q: "Frictional power = ?"
+    a: "IP − BP"
+    simple: "What friction eats."
+  - id: f04
+    topic: u2.performance
+    difficulty: 2
+    learn: "Mechanical efficiency ηm = BP / IP."
+    why: "It shows how much gas power reaches the shaft."
+    example: "IP 50 kW, BP 40 kW → ηm = 80%."
+    q: "Mechanical efficiency formula?"
+    a: "BP/IP"
+    simple: "Shaft power ÷ cylinder power."
+  - id: f05
+    topic: u2.performance
+    difficulty: 2
+    learn: "Indicated thermal efficiency = IP / (fuel mass per second × calorific value)."
+    why: "Compares gas power with energy in fuel."
+    q: "Indicated thermal efficiency = ?"
+    a: "IP ÷ (mf × CV)"
+    simple: "Cylinder power ÷ fuel energy."
+  - id: f06
+    topic: u2.performance
+    difficulty: 2
+    learn: "Brake thermal efficiency = BP / (mf × CV). Brake thermal efficiency = mechanical efficiency × indicated thermal efficiency."
+    why: "Fuel energy → gas power → shaft power."
+    q: "Brake thermal efficiency = ?"
+    a: "BP ÷ (mf × CV)"
+    simple: "Shaft power ÷ fuel energy."
+  - id: f07
+    topic: u2.performance
+    difficulty: 2
+    learn: "Relative efficiency (efficiency ratio) = actual thermal efficiency / air standard efficiency."
+    why: "It shows how close a real engine comes to its ideal cycle."
+    q: "Relative efficiency = ?"
+    a: "Actual thermal efficiency ÷ air standard efficiency."
+    simple: "How near the real engine is to the ideal."
+  - id: f08
+    topic: u2.performance
+    difficulty: 2
+    learn: "Specific fuel consumption (SFC) = fuel used per hour / brake power. Unit: kg/kWh. Lower SFC = better engine."
+    why: "It shows fuel needed for each unit of power."
+    q: "Is a lower or higher SFC better?"
+    a: "Lower."
+    simple: "Less fuel for the same work is better."
+  - id: f09
+    topic: u2.performance
+    difficulty: 2
+    learn: "Volumetric efficiency = actual volume of air drawn in / swept volume (at intake conditions)."
+    why: "Shows how well the engine breathes."
+    example: "Naturally aspirated engines get 70–90%; turbocharged can exceed 100%."
+    q: "Volumetric efficiency compares what?"
+    a: "Actual air drawn in with swept volume."
+    simple: "How full the cylinder really gets."
+  - id: f10
+    topic: u2.performance
+    difficulty: 2
+    learn: "A dynamometer measures brake power. Types: rope brake, Prony brake (absorption), hydraulic, eddy current, and transmission dynamometers."
+    why: "It applies a measured load to the shaft."
+    q: "Instrument used to measure brake power?"
+    a: "Dynamometer."
+    simple: "A machine that loads the engine to measure its power."
+  - id: f11
+    topic: u2.performance
+    difficulty: 2
+    learn: "Engine indicator draws the actual PV (indicator) diagram of a running engine. Its area gives indicated work."
+    why: "IP is found from the indicator diagram."
+    q: "Which instrument draws the PV diagram of a running engine?"
+    a: "Engine indicator."
+    simple: "It traces pressure against volume while the engine runs."
+  - id: f12
+    topic: u2.performance
+    difficulty: 3
+    learn: "Morse test finds IP of a multi-cylinder engine. Each cylinder is cut off in turn, and the fall in BP gives that cylinder's IP."
+    why: "Cutting one cylinder at constant speed leaves friction the same."
+    q: "Morse test is used for what kind of engine?"
+    a: "Multi-cylinder engine (to find IP)."
+    simple: "Switch off one cylinder at a time and see how much power drops."
+  - id: f13
+    topic: u2.performance
+    difficulty: 3
+    learn: "In the Morse test, IP of one cylinder = total BP − BP with that cylinder cut off. Sum for all cylinders gives engine IP."
+    why: "The missing power is what that cylinder gave."
+    q: "IP of cylinder 1 in Morse test?"
+    a: "BP (all firing) − BP (cylinder 1 cut off)."
+    simple: "Power lost = power that cylinder was making."
+  - id: f14
+    topic: u2.performance
+    difficulty: 3
+    learn: "Willan's line method (fuel rate extrapolation) finds frictional power of a diesel engine by plotting fuel consumption against BP and extending the line to zero fuel."
+    why: "The negative BP where fuel is zero equals the friction power."
+    q: "Willan's line method finds what?"
+    a: "Frictional power (of CI engines)."
+    simple: "Draw the fuel line back to zero to find friction."
+  - id: f15
+    topic: u2.performance
+    difficulty: 3
+    learn: "Motoring test: the engine is driven by an electric motor without firing; motor power needed = frictional power."
+    why: "With no combustion, the motor only overcomes friction and pumping."
+    q: "Which test drives an engine with a motor to find friction power?"
+    a: "Motoring test."
+    simple: "Spin the engine with a motor; the motor's effort is friction."
+  - id: f16
+    topic: u2.performance
+    difficulty: 2
+    learn: "Heat balance sheet shows where fuel heat goes: brake power, cooling water, exhaust gases and unaccounted losses."
+    why: "It helps find and reduce waste."
+    q: "Name the heads in a heat balance sheet."
+    a: "BP, cooling water, exhaust, unaccounted losses."
+    simple: "A bill showing where every unit of fuel heat went."
+  - id: f17
+    topic: u2.performance
+    difficulty: 2
+    learn: "A typical petrol engine turns only about 25–30% of fuel heat into brake power. About 30% goes to cooling and about 35% to exhaust."
+    why: "Most heat is lost, as the second law says."
+    q: "Roughly what share of fuel heat becomes useful power in a petrol engine?"
+    a: "About 25–30%."
+    simple: "Only about a quarter becomes motion."
+  - id: f18
+    topic: u2.performance
+    difficulty: 2
+    learn: "Calorific value is the heat released by burning 1 kg of fuel. Petrol and diesel are about 42–44 MJ/kg."
+    why: "It is used to find fuel energy in efficiency calculations."
+    q: "Approximate calorific value of petrol?"
+    a: "About 44 MJ/kg."
+    simple: "Energy packed in 1 kg of fuel."
+  - id: f19
+    topic: u2.performance
+    difficulty: 2
+    learn: "Stoichiometric (chemically correct) air–fuel ratio for petrol is about 14.7 : 1 by mass."
+    why: "That much air exactly burns all the fuel."
+    q: "Chemically correct air-fuel ratio for petrol?"
+    a: "About 14.7 : 1"
+    simple: "About 15 kg of air for 1 kg of petrol."
+  - id: f20
+    topic: u2.performance
+    difficulty: 2
+    learn: "Torque is turning force at the crankshaft (N·m). Power = torque × speed."
+    why: "Same torque at higher rpm gives more power."
+    q: "Relation between power and torque?"
+    a: "P = 2πNT/60"
+    simple: "Torque = twist; power = twist × speed."
+  - id: f21
+    topic: u2.performance
+    difficulty: 2
+    learn: "1 metric horsepower = 735.5 W. 1 kW ≈ 1.36 metric hp."
+    why: "Vehicle brochures give power in hp, PS or kW."
+    q: "1 metric hp is how many watts?"
+    a: "735.5 W"
+    simple: "One horse ≈ three-quarters of a kilowatt."
+  - id: s01
+    topic: u2.performance
+    type: steps
+    difficulty: 3
+    title: "Worked example: mechanical efficiency"
+    steps:
+      - text: "Question: An engine has IP = 50 kW and FP = 10 kW. Find BP and mechanical efficiency."
+      - text: "BP = IP − FP = 50 − 10 = 40 kW."
+      - text: "ηm = BP/IP = 40/50 = 0.8."
+      - text: "Mechanical efficiency = 80%."
+    summary:
+      - "BP = IP − FP."
+      - "ηm = BP/IP."
+    q: "IP 50 kW, BP 40 kW: mechanical efficiency?"
+    a: "80%"
+  - id: s02
+    topic: u2.performance
+    type: steps
+    difficulty: 3
+    title: "Worked example: brake power"
+    steps:
+      - text: "Question: Engine torque is 100 N·m at 3000 rpm. Find brake power."
+      - text: "BP = 2πNT/60."
+      - text: "BP = 2 × 3.14 × 3000 × 100 / 60 = 31,400 W."
+      - text: "BP ≈ 31.4 kW."
+        explain: "Divide watts by 1000 for kW."
+    summary:
+      - "BP = 2πNT/60 (watts)."
+      - "Divide by 1000 to get kW."
+    q: "Formula used to find BP from torque and rpm?"
+    a: "2πNT/60"
+  - id: sum
+    topic: u2.performance
+    type: summary
+    points:
+      - "IP inside, BP at shaft, FP = IP − BP."
+      - "ηm = BP/IP; ηbth = BP/(mf × CV)."
+      - "Relative efficiency = actual/air standard."
+      - "SFC kg/kWh — lower is better."
+      - "Morse test (multi-cylinder IP), Willan's line, heat balance sheet."
+
+  # ---------- Compressors ----------
+  - id: f01
+    topic: u2.compressors
+    difficulty: 1
+    learn: "An air compressor takes in air at low pressure and delivers it at high pressure."
+    why: "Work is done on the air to squeeze it."
+    q: "What does a compressor do?"
+    a: "Raises the pressure of air (or gas)."
+    simple: "It squeezes air."
+  - id: f02
+    topic: u2.compressors
+    difficulty: 1
+    learn: "Uses of compressed air in vehicles: air brakes, air suspension, tyre inflation, door opening in buses, horns, paint spraying in workshops."
+    why: "Compressed air stores energy and is safe and clean."
+    example: "KSRTC buses use air brakes and air-operated doors."
+    q: "Give one automobile use of compressed air."
+    a: "Air brakes (also tyre inflation, air suspension, doors)."
+    simple: "Air brakes in buses run on compressed air."
+  - id: f03
+    topic: u2.compressors
+    difficulty: 2
+    learn: "Types of compressors: reciprocating (piston), rotary (vane, screw, lobe/roots), centrifugal and axial."
+    why: "Reciprocating gives high pressure; rotary gives large steady flow."
+    q: "Which compressor type uses a piston?"
+    a: "Reciprocating compressor."
+    simple: "Piston type for high pressure, rotary type for lots of air."
+  - id: f04
+    topic: u2.compressors
+    difficulty: 2
+    learn: "Single acting compressor: air is compressed on one side of the piston. Double acting: on both sides."
+    why: "Double acting delivers twice the air per revolution."
+    q: "In a double-acting compressor, air is compressed on how many sides of the piston?"
+    a: "Both sides."
+    simple: "Double acting works both ways."
+  - id: f05
+    topic: u2.compressors
+    difficulty: 2
+    learn: "Single stage compressor: air compressed to final pressure in one cylinder. Multi-stage: in two or more cylinders with intercooling."
+    why: "High pressure in one stage makes air too hot and wastes work."
+    q: "Why use multi-stage compression for high pressure?"
+    a: "Saves work and keeps temperature low (with intercooling)."
+    simple: "Squeeze in steps and cool in between."
+  - id: f06
+    topic: u2.compressors
+    difficulty: 2
+    learn: "An intercooler cools air between stages of a multi-stage compressor."
+    why: "Cooler air is easier to compress, so work is saved."
+    q: "What is the job of an intercooler?"
+    a: "To cool air between compression stages."
+    simple: "Cool the air before squeezing again."
+  - id: f07
+    topic: u2.compressors
+    difficulty: 3
+    learn: "Perfect intercooling: air is cooled back to its starting temperature after each stage."
+    why: "This gives the least total work."
+    q: "What is perfect intercooling?"
+    a: "Cooling air to initial (suction) temperature after each stage."
+    simple: "Bring air back to start temperature each time."
+  - id: f08
+    topic: u2.compressors
+    difficulty: 3
+    learn: "For least work in a two-stage compressor, intermediate pressure p₂ = √(p₁ × p₃)."
+    why: "This divides the work equally between the two stages."
+    q: "Ideal intermediate pressure in a two-stage compressor?"
+    a: "√(p₁p₃)"
+    simple: "Middle pressure = square root of first × last."
+  - id: f09
+    topic: u2.compressors
+    difficulty: 3
+    learn: "Compression work is least for isothermal compression and most for adiabatic compression."
+    why: "Hot air resists squeezing; keeping it cool lowers work."
+    q: "Which compression needs the least work?"
+    a: "Isothermal."
+    simple: "Cool squeezing is easiest."
+  - id: f10
+    topic: u2.compressors
+    difficulty: 3
+    learn: "Isothermal efficiency of a compressor = isothermal work / actual work."
+    why: "It compares the real compressor with the ideal minimum work."
+    q: "Isothermal efficiency = ?"
+    a: "Isothermal work ÷ actual work input."
+    simple: "Ideal work ÷ real work."
+  - id: f11
+    topic: u2.compressors
+    difficulty: 3
+    learn: "Volumetric efficiency of a reciprocating compressor falls as clearance volume and pressure ratio rise."
+    why: "Compressed air left in the clearance re-expands and blocks fresh air."
+    q: "Effect of more clearance on compressor volumetric efficiency?"
+    a: "It decreases."
+    simple: "Leftover air takes the place of new air."
+  - id: f12
+    topic: u2.compressors
+    difficulty: 2
+    learn: "Free air delivered (FAD) is the compressed air output, expressed as volume at atmospheric conditions."
+    why: "This makes compressors of different makes comparable."
+    q: "What is FAD?"
+    a: "Free air delivered — output volume at atmospheric conditions."
+    simple: "How much normal air the compressor takes in and delivers."
+  - id: f13
+    topic: u2.compressors
+    difficulty: 2
+    learn: "Roots blower (lobe compressor) has no internal compression; it moves air and pressure rises at delivery. Used as superchargers."
+    why: "Two lobes trap air and carry it round."
+    q: "Which rotary compressor is used as a supercharger with two lobes?"
+    a: "Roots blower."
+    simple: "Two spinning lobes push air."
+  - id: f14
+    topic: u2.compressors
+    difficulty: 2
+    learn: "Centrifugal compressors (turbochargers) use a fast-spinning impeller to throw air outward and raise its pressure."
+    why: "Air speed is turned into pressure in the diffuser."
+    q: "Turbochargers use which type of compressor?"
+    a: "Centrifugal compressor."
+    simple: "A spinning wheel flings air to squeeze it."
+  - id: sum
+    topic: u2.compressors
+    type: summary
+    points:
+      - "Compressor raises air pressure; uses: air brakes, tyres, doors."
+      - "Reciprocating, rotary (vane, screw, roots), centrifugal, axial."
+      - "Single/double acting; single/multi stage."
+      - "Intercooler saves work; p₂ = √(p₁p₃)."
+      - "Isothermal = least work."
+
+  # ---------- Heat transfer ----------
+  - id: f01
+    topic: u2.heat
+    difficulty: 1
+    learn: "Heat moves in three ways: conduction, convection and radiation."
+    why: "Heat always flows from hot to cold."
+    q: "Three modes of heat transfer?"
+    a: "Conduction, convection, radiation."
+    simple: "Touch, flow, rays."
+  - id: f02
+    topic: u2.heat
+    difficulty: 1
+    learn: "Conduction is heat passing through a solid from particle to particle, with no movement of the material."
+    why: "Hot particles vibrate and pass energy to their neighbours."
+    example: "A steel spoon in hot tea gets hot at the handle."
+    q: "Heat through a solid by contact is called?"
+    a: "Conduction."
+    simple: "Heat passes hand to hand."
+  - id: f03
+    topic: u2.heat
+    difficulty: 1
+    learn: "Convection is heat carried by moving fluid (liquid or gas)."
+    why: "Hot fluid becomes lighter and rises; cold fluid sinks."
+    example: "Coolant carries heat from the engine to the radiator. Sea breeze."
+    q: "Heat carried by a moving fluid is called?"
+    a: "Convection."
+    simple: "The fluid itself carries the heat."
+  - id: f04
+    topic: u2.heat
+    difficulty: 2
+    learn: "Natural (free) convection: fluid moves due to density difference. Forced convection: a fan or pump moves the fluid."
+    why: "A radiator fan forces air through the core."
+    q: "A radiator with a fan uses which convection?"
+    a: "Forced convection."
+    simple: "Natural = by itself. Forced = by a fan or pump."
+  - id: f05
+    topic: u2.heat
+    difficulty: 1
+    learn: "Radiation is heat travelling as electromagnetic waves. It needs no medium and can cross vacuum."
+    why: "This is how the Sun's heat reaches Earth."
+    q: "Which mode of heat transfer works in vacuum?"
+    a: "Radiation."
+    simple: "Heat rays travel even through empty space."
+  - id: f06
+    topic: u2.heat
+    difficulty: 2
+    learn: "Fourier's law of conduction: Q = −k A (dT/dx). Heat flow is proportional to area and temperature gradient."
+    why: "Steeper temperature drop pushes more heat through."
+    q: "Which law governs heat conduction?"
+    a: "Fourier's law."
+    simple: "More area and bigger temperature drop = more heat flow."
+  - id: f07
+    topic: u2.heat
+    difficulty: 2
+    learn: "Thermal conductivity (k) is a material's ability to conduct heat. Unit: W/m·K."
+    why: "It appears in Fourier's law."
+    q: "SI unit of thermal conductivity?"
+    a: "W/m·K"
+    simple: "How easily heat passes through a material."
+  - id: f08
+    topic: u2.heat
+    difficulty: 2
+    learn: "Silver and copper have very high thermal conductivity. Air, wood and glass wool have low k (insulators)."
+    why: "Free electrons in metals carry heat quickly."
+    example: "Radiators use copper or aluminium. Silencer heat shields use insulation."
+    q: "Which metal has the highest thermal conductivity?"
+    a: "Silver (then copper)."
+    simple: "Metals pass heat fast; air and wool slow it down."
+  - id: f09
+    topic: u2.heat
+    difficulty: 2
+    learn: "Newton's law of cooling: convection heat Q = h A (Ts − T∞). h = heat transfer coefficient (W/m²K)."
+    why: "Heat loss depends on surface area and temperature difference."
+    q: "Law used for convection heat transfer?"
+    a: "Newton's law of cooling, Q = hAΔT."
+    simple: "Bigger surface and bigger temperature gap = faster cooling."
+  - id: f10
+    topic: u2.heat
+    difficulty: 2
+    learn: "Stefan–Boltzmann law: radiation energy E = σ T⁴. σ = 5.67 × 10⁻⁸ W/m²K⁴."
+    why: "Double the absolute temperature → 16 times the radiation."
+    q: "Radiation emitted is proportional to temperature to which power?"
+    a: "Fourth power (T⁴)."
+    simple: "A bit hotter gives off much more radiation."
+  - id: f11
+    topic: u2.heat
+    difficulty: 2
+    learn: "A black body absorbs all radiation falling on it and is the best emitter. Emissivity of a black body = 1."
+    why: "Dark, rough surfaces absorb and emit well; shiny ones do not."
+    example: "Radiators are painted black to give off heat better."
+    q: "Emissivity of a perfect black body?"
+    a: "1"
+    simple: "Black absorbs and gives off heat best."
+  - id: f12
+    topic: u2.heat
+    difficulty: 3
+    learn: "Kirchhoff's law: at thermal equilibrium, emissivity of a body equals its absorptivity."
+    why: "Good absorbers are good emitters."
+    q: "Which law says emissivity = absorptivity?"
+    a: "Kirchhoff's law."
+    simple: "A good absorber is a good emitter."
+  - id: f13
+    topic: u2.heat
+    difficulty: 3
+    learn: "Thermal resistance of a plane wall R = L/(kA). Walls in series: resistances add."
+    why: "Like electric resistance, it opposes heat flow."
+    q: "Thermal resistance of a plane wall?"
+    a: "L/(kA)"
+    simple: "Thicker wall or poorer conductor = more resistance."
+  - id: f14
+    topic: u2.heat
+    difficulty: 3
+    learn: "Heat exchanger types: parallel flow (both fluids same direction) and counter flow (opposite directions). Counter flow is more effective."
+    why: "In counter flow the temperature difference stays more even along the length."
+    example: "A car radiator is a cross-flow heat exchanger."
+    q: "Which heat exchanger is more effective: parallel or counter flow?"
+    a: "Counter flow."
+    simple: "Fluids moving opposite ways swap heat better."
+  - id: f15
+    topic: u2.heat
+    difficulty: 2
+    learn: "Fins are extended surfaces that increase heat transfer area."
+    why: "More area lets more heat escape by convection."
+    example: "Fins on motorcycle engine cylinders."
+    q: "Why do air-cooled engines have fins?"
+    a: "To increase surface area for heat loss."
+    simple: "Fins give heat more room to leave."
+  - id: sum
+    topic: u2.heat
+    type: summary
+    points:
+      - "Conduction (solids), convection (fluids), radiation (waves, vacuum)."
+      - "Fourier: Q = −kA dT/dx; k in W/m·K."
+      - "Newton cooling Q = hAΔT; Stefan–Boltzmann E = σT⁴."
+      - "Black body emissivity = 1; Kirchhoff: ε = α."
+      - "Fins add area; counter flow best."
+
+  # ================= Unit II — deeper cards =================
+  - id: f32
+    topic: u2.engines
+    difficulty: 2
+    learn: "Engines are classified by fuel (petrol, diesel, CNG, LPG), ignition (SI, CI), strokes (2, 4), cooling (air, water), cylinder layout (inline, V, flat/opposed, radial) and valve position."
+    why: "PSC often asks one of these classification bases."
+    q: "Name two bases for classifying IC engines."
+    a: "Fuel, ignition, strokes, cooling, cylinder arrangement, valve position."
+    simple: "Engines are grouped by fuel, firing, strokes, cooling and layout."
+  - id: f33
+    topic: u2.engines
+    difficulty: 2
+    learn: "V-engine: two rows of cylinders in a V shape on one crankshaft. Flat (boxer): two rows lying opposite each other."
+    why: "These layouts make long engines shorter and smoother."
+    q: "Engine with cylinders horizontally opposed is called?"
+    a: "Flat or boxer engine."
+    simple: "V = two rows at an angle. Boxer = two rows flat, facing out."
+  - id: f34
+    topic: u2.engines
+    difficulty: 2
+    learn: "Petrol engine has a spark plug and carburettor or petrol injector. Diesel engine has a fuel injection pump and injector, and no spark plug."
+    why: "The ignition method decides the parts."
+    q: "Which part is not found in a diesel engine: spark plug or injector?"
+    a: "Spark plug."
+    simple: "Spark plug = petrol. Injector pump = diesel."
+  - id: f35
+    topic: u2.engines
+    difficulty: 2
+    learn: "Petrol engine power is controlled by a throttle valve (quantity governing). Diesel engine power is controlled by the amount of fuel injected (quality governing)."
+    why: "Diesel always takes full air; only fuel quantity changes."
+    q: "How is a diesel engine's power controlled?"
+    a: "By changing the quantity of fuel injected (quality governing)."
+    simple: "Petrol: control air-fuel mix amount. Diesel: control fuel only."
+  - id: f36
+    topic: u2.engines
+    difficulty: 2
+    learn: "Diesel engines run at lower speeds than petrol engines and have heavier parts."
+    why: "High compression pressure needs strong, heavy parts."
+    q: "Which engine is heavier for the same power: petrol or diesel?"
+    a: "Diesel."
+    simple: "Diesel squeezes harder, so it is built heavier."
+  - id: f37
+    topic: u2.engines
+    difficulty: 3
+    learn: "Ignition delay in a diesel engine is the time between start of injection and start of combustion."
+    why: "Fuel must mix with air and heat up before it lights."
+    q: "Time between fuel injection and start of burning is called?"
+    a: "Ignition delay."
+    simple: "The short wait before diesel catches fire."
+  - id: f38
+    topic: u2.engines
+    difficulty: 3
+    learn: "Stages of combustion in a CI engine: ignition delay, rapid (uncontrolled) combustion, controlled combustion, after-burning."
+    why: "Fuel first waits, then burns all at once, then burns as it is injected."
+    q: "First stage of combustion in a diesel engine?"
+    a: "Ignition delay period."
+    simple: "Wait, bang, steady burn, after-burn."
+  - id: f39
+    topic: u2.engines
+    difficulty: 3
+    learn: "Stages of combustion in an SI engine: ignition lag (preparation), flame propagation, after-burning."
+    why: "The spark starts a small flame that spreads across the chamber."
+    q: "Main stage of combustion in a petrol engine after ignition lag?"
+    a: "Flame propagation."
+    simple: "Spark, spread, finish."
+  - id: f40
+    topic: u2.engines
+    difficulty: 2
+    learn: "Pre-ignition is ignition of the mixture before the spark, by a hot spot such as a glowing carbon deposit or overheated plug."
+    why: "Hot spots light the charge too early."
+    q: "Ignition caused by a hot spot before the spark is called?"
+    a: "Pre-ignition."
+    simple: "Fire starts before the spark — too early."
+  - id: f41
+    topic: u2.engines
+    difficulty: 2
+    learn: "Running-on (dieseling) is when a petrol engine keeps running after the ignition is switched off."
+    why: "Hot spots keep lighting the mixture."
+    q: "A petrol engine running after switch-off is called?"
+    a: "Running-on (dieseling)."
+    simple: "The engine refuses to stop because it is too hot inside."
+  - id: f42
+    topic: u2.engines
+    difficulty: 2
+    learn: "Tetra-ethyl lead (TEL) was once added to petrol to stop knocking. It is now banned because lead is poisonous and damages catalytic converters."
+    why: "India moved to unleaded petrol by 2000."
+    q: "Why was tetra-ethyl lead added to petrol?"
+    a: "As an anti-knock agent (now banned)."
+    simple: "Lead stopped knocking but poisoned the air."
+  - id: f43
+    topic: u2.engines
+    difficulty: 2
+    learn: "Supercharging is forcing more air into the cylinder than it would draw by itself. Turbocharger uses exhaust gas; supercharger is driven by the engine."
+    why: "More air allows more fuel to burn, giving more power."
+    q: "A turbocharger is driven by what?"
+    a: "Exhaust gases."
+    simple: "Pack in more air to get more power."
+  - id: f44
+    topic: u2.engines
+    difficulty: 2
+    learn: "Diesel combustion chambers: direct injection (open chamber) and indirect injection (pre-combustion chamber, swirl chamber)."
+    why: "Indirect chambers mix air and fuel better but lose more heat."
+    q: "Name two types of diesel combustion chamber."
+    a: "Direct injection (open) and indirect (pre-chamber, swirl chamber)."
+    simple: "Fuel sprayed straight in, or into a small side room first."
+  - id: f45
+    topic: u2.engines
+    difficulty: 2
+    learn: "Glow plugs heat the combustion chamber of indirect injection diesel engines for easy cold starting."
+    why: "Cold walls take away heat needed for self-ignition."
+    q: "Purpose of a glow plug?"
+    a: "To help cold starting of diesel engines."
+    simple: "A small heater to start a cold diesel."
+  - id: f46
+    topic: u2.engines
+    difficulty: 2
+    learn: "Squish is the squeezing of mixture out from between piston crown and head near TDC. Swirl is the rotating motion of air in the cylinder."
+    why: "Both mix air and fuel better for clean, fast burning."
+    q: "Rotating motion of air in a cylinder is called?"
+    a: "Swirl."
+    simple: "Squish squeezes; swirl spins."
+  - id: f47
+    topic: u2.engines
+    difficulty: 2
+    learn: "Mean piston speed = 2 L N / 60 (m/s)."
+    why: "The piston covers two strokes per revolution."
+    q: "Mean piston speed formula?"
+    a: "2LN/60"
+    simple: "Two strokes each turn × turns per second."
+  - id: f48
+    topic: u2.engines
+    difficulty: 2
+    learn: "Power strokes per minute: four-stroke n = N/2; two-stroke n = N (N = rpm)."
+    why: "Used in the indicated power formula."
+    q: "Power strokes per minute in a four-stroke engine at N rpm?"
+    a: "N/2"
+    simple: "Four-stroke fires at half the rpm."
+  - id: f49
+    topic: u2.engines
+    difficulty: 2
+    learn: "Fuel for SI engines must be volatile (evaporate easily). Fuel for CI engines must have good ignition quality and suitable viscosity."
+    why: "Petrol must mix as vapour; diesel must self-ignite and spray well."
+    q: "Which property is most important for petrol: volatility or cetane?"
+    a: "Volatility (and anti-knock)."
+    simple: "Petrol must evaporate easily."
+  - id: f50
+    topic: u2.engines
+    difficulty: 2
+    learn: "CNG has high octane (about 120) and suits SI engines. LPG is mainly propane and butane."
+    why: "Gas fuels burn clean and resist knock."
+    example: "Autorickshaws and city buses in Kochi run on CNG."
+    q: "Main gases in LPG?"
+    a: "Propane and butane."
+    simple: "CNG = methane; LPG = propane + butane."
+  - id: f51
+    topic: u2.engines
+    difficulty: 2
+    learn: "CNG is mostly methane, stored at about 200 bar in cylinders."
+    why: "Methane must be compressed to store enough in a small tank."
+    q: "Main component of CNG?"
+    a: "Methane."
+    simple: "CNG is squeezed methane gas."
+  - id: f52
+    topic: u2.performance
+    difficulty: 2
+    learn: "Brake mean effective pressure (bmep) = BP related to swept volume. imep relates to IP. bmep = ηm × imep."
+    why: "Mean effective pressure lets engines of different sizes be compared."
+    q: "bmep in terms of imep?"
+    a: "bmep = ηm × imep"
+    simple: "Shaft pressure = efficiency × cylinder pressure."
+  - id: f53
+    topic: u2.performance
+    difficulty: 2
+    learn: "Engine performance curves plot BP, torque and SFC against speed."
+    why: "Torque peaks at medium speed; BP keeps rising to a higher speed; SFC is lowest at medium load."
+    q: "At which speed is torque usually highest: low, medium or top?"
+    a: "Medium speed."
+    simple: "Torque peaks in the middle, power peaks near the top."
+  - id: f54
+    topic: u2.performance
+    difficulty: 2
+    learn: "Air consumption is measured with an air box and orifice, which steadies the pulsing intake flow."
+    why: "Engine intake is in pulses; the box smooths them for accurate reading."
+    q: "How is air flow into an engine measured on a test bed?"
+    a: "Air box with an orifice and manometer."
+    simple: "A big box calms the air so it can be measured."
+  - id: f55
+    topic: u2.performance
+    difficulty: 2
+    learn: "Fuel consumption is measured with a burette: time taken to use a known volume (e.g. 50 cc) of fuel."
+    why: "Volume × density ÷ time gives kg per second."
+    q: "Simple instrument to measure fuel consumption on a test bed?"
+    a: "Burette with stopwatch."
+    simple: "Time how fast 50 cc of fuel is used."
+  - id: f56
+    topic: u2.performance
+    difficulty: 2
+    learn: "Indicated thermal efficiency is always higher than brake thermal efficiency."
+    why: "BP is less than IP because of friction."
+    q: "Which is higher: indicated or brake thermal efficiency?"
+    a: "Indicated thermal efficiency."
+    simple: "Friction makes brake efficiency lower."
+  - id: f57
+    topic: u2.performance
+    difficulty: 2
+    learn: "Exhaust gas analysers measure CO, HC, CO₂ and O₂ in petrol exhaust. Smoke meters measure diesel smoke opacity."
+    why: "Used for pollution under control (PUC) testing."
+    q: "Diesel smoke is measured by?"
+    a: "Smoke meter (opacity meter)."
+    simple: "Gas analyser for petrol, smoke meter for diesel."
+  - id: f58
+    topic: u2.heat
+    difficulty: 2
+    learn: "Good insulators: asbestos (now avoided), glass wool, mineral wool, cork, thermocol."
+    why: "They trap air, which conducts heat poorly."
+    q: "Why is glass wool a good insulator?"
+    a: "It traps still air, which conducts heat poorly."
+    simple: "Trapped air blocks heat."
+  - id: f59
+    topic: u2.heat
+    difficulty: 2
+    learn: "Heat transfer in an engine: gas to cylinder wall by convection and radiation, through wall by conduction, wall to coolant by convection."
+    why: "All three modes work together."
+    q: "How does heat pass through the cylinder wall?"
+    a: "By conduction."
+    simple: "Gas → wall (convection/radiation), through wall (conduction), to coolant (convection)."
+  - id: f60
+    topic: u2.heat
+    difficulty: 2
+    learn: "Thermos flask: double glass walls with vacuum between (stops conduction and convection) and silvered surfaces (stop radiation)."
+    why: "It blocks all three modes."
+    q: "Why are thermos flask walls silvered?"
+    a: "To reduce heat transfer by radiation."
+    simple: "Shiny walls bounce heat rays back."
+  - id: f61
+    topic: u2.cycles
+    difficulty: 2
+    learn: "Otto cycle efficiency rises with compression ratio, but petrol engines cannot go very high because of knocking."
+    why: "High pressure and heat cause the mixture to self-ignite."
+    q: "What limits compression ratio in petrol engines?"
+    a: "Knocking (detonation)."
+    simple: "Squeeze petrol too much and it knocks."
+  - id: f62
+    topic: u2.cycles
+    difficulty: 3
+    learn: "Diesel cycle efficiency η = 1 − (1/r^(γ−1)) × [(ρ^γ − 1)/(γ(ρ − 1))]."
+    why: "The bracket term (always >1) makes Diesel lower than Otto for the same r."
+    q: "Is the Diesel efficiency term in brackets greater or less than 1?"
+    a: "Greater than 1."
+    simple: "Diesel formula = Otto formula with an extra penalty."
+  - id: f63
+    topic: u2.cycles
+    difficulty: 3
+    learn: "Gas turbines can use regeneration, reheating and intercooling to raise efficiency and work output."
+    why: "Regeneration reuses exhaust heat to warm air before combustion."
+    q: "Using exhaust heat to warm compressed air in a gas turbine is called?"
+    a: "Regeneration."
+    simple: "Reuse waste heat."
+  - id: f64
+    topic: u2.laws
+    difficulty: 2
+    learn: "A heat engine needs: a hot source, a working fluid, and a cold sink."
+    why: "Work is done only when heat flows from hot to cold."
+    q: "What three things does a heat engine need?"
+    a: "Hot source, working substance, cold sink."
+    simple: "Hot side, cold side, and something to carry heat."
+  - id: f65
+    topic: u2.laws
+    difficulty: 2
+    learn: "Reversible process: can be reversed with no change left in system or surroundings. All real processes are irreversible."
+    why: "Friction, heat transfer across a temperature gap and mixing make processes irreversible."
+    q: "Name one cause of irreversibility."
+    a: "Friction (or heat flow across finite temperature difference, mixing)."
+    simple: "Real life always loses a little energy you cannot get back."
+  - id: f66
+    topic: u2.compressors
+    difficulty: 2
+    learn: "Compressor parts: cylinder, piston, inlet and delivery valves (reed or plate type), unloader, air receiver tank, safety valve."
+    why: "The receiver stores air and steadies pressure."
+    q: "Tank that stores compressed air is called?"
+    a: "Air receiver."
+    simple: "The storage tank for squeezed air."
+  - id: f67
+    topic: u2.compressors
+    difficulty: 2
+    learn: "A governor (unloader) in a vehicle air compressor stops compression when tank pressure reaches its limit (about 7–8 bar)."
+    why: "It prevents over-pressure and saves engine power."
+    q: "What stops a vehicle air compressor at full pressure?"
+    a: "The governor / unloader valve."
+    simple: "It tells the compressor to rest when the tank is full."
+
+mcq:
+  - topic: u2.laws
+    q: "Which law of thermodynamics is the basis for temperature measurement?"
+    options: ["First law", "Second law", "Zeroth law", "Third law"]
+    answer: 2
+    explain: "Zeroth law deals with thermal equilibrium, the basis of the thermometer."
+    covers: [f01]
+  - topic: u2.cycles
+    q: "In the Otto cycle, heat is supplied at"
+    options: ["Constant pressure", "Constant volume", "Constant temperature", "Constant entropy"]
+    answer: 1
+    explain: "Otto cycle adds heat at constant volume."
+    covers: [f05]
+  - topic: u2.engines
+    q: "In a four-stroke engine the camshaft rotates at"
+    options: ["Same speed as crankshaft", "Twice the crankshaft speed", "Half the crankshaft speed", "Four times the crankshaft speed"]
+    answer: 2
+    explain: "Valves open once every 2 crank revolutions."
+    covers: [f05]
+  - topic: u2.performance
+    q: "Morse test is conducted to find"
+    options: ["BP of a single-cylinder engine", "IP of a multi-cylinder engine", "Fuel consumption", "Volumetric efficiency"]
+    answer: 1
+    explain: "Cylinders are cut off one by one to find IP of a multi-cylinder engine."
+    covers: [f12]
+  - topic: u2.heat
+    q: "Fourier's law is associated with"
+    options: ["Convection", "Radiation", "Conduction", "Evaporation"]
+    answer: 2
+    explain: "Fourier's law governs heat conduction."
+    covers: [f06]
+  - topic: u2.compressors
+    q: "Compression requiring the minimum work is"
+    options: ["Adiabatic", "Isothermal", "Polytropic", "Isentropic"]
+    answer: 1
+    explain: "Isothermal compression needs the least work."
+    covers: [f09]

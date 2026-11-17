@@ -88,6 +88,78 @@
    },
    "order": 8,
    "freq": 0.7
+  },
+  {
+   "id": "u2.basics",
+   "subject": "thermal_engineering",
+   "title": {
+    "en": "Basic terms of thermodynamics"
+   },
+   "order": 9,
+   "freq": 0.6
+  },
+  {
+   "id": "u2.laws",
+   "subject": "thermal_engineering",
+   "title": {
+    "en": "Laws of thermodynamics"
+   },
+   "order": 10,
+   "freq": 0.8
+  },
+  {
+   "id": "u2.process",
+   "subject": "thermal_engineering",
+   "title": {
+    "en": "Thermodynamic processes and PV diagrams"
+   },
+   "order": 11,
+   "freq": 0.7
+  },
+  {
+   "id": "u2.cycles",
+   "subject": "thermal_engineering",
+   "title": {
+    "en": "Air standard cycles"
+   },
+   "order": 12,
+   "freq": 0.8
+  },
+  {
+   "id": "u2.engines",
+   "subject": "thermal_engineering",
+   "title": {
+    "en": "Two-stroke and four-stroke engines, valve timing"
+   },
+   "order": 13,
+   "freq": 0.9
+  },
+  {
+   "id": "u2.performance",
+   "subject": "thermal_engineering",
+   "title": {
+    "en": "IC engine performance and testing"
+   },
+   "order": 14,
+   "freq": 0.8
+  },
+  {
+   "id": "u2.compressors",
+   "subject": "thermal_engineering",
+   "title": {
+    "en": "Air compressors"
+   },
+   "order": 15,
+   "freq": 0.6
+  },
+  {
+   "id": "u2.heat",
+   "subject": "thermal_engineering",
+   "title": {
+    "en": "Heat transfer"
+   },
+   "order": 16,
+   "freq": 0.6
   }
  ],
  "cards": [
@@ -4041,6 +4113,4328 @@
    "recall_a": {
     "en": "5%"
    }
+  },
+  {
+   "id": "u2.basics.f01",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermodynamics is the study of heat, work and energy, and how one changes into another."
+   },
+   "why": {
+    "en": "Engines turn heat from fuel into work that moves the vehicle."
+   },
+   "recall_q": {
+    "en": "What does thermodynamics study?"
+   },
+   "recall_a": {
+    "en": "Heat, work and energy conversion."
+   },
+   "explain_simple": {
+    "en": "How heat becomes motion."
+   }
+  },
+  {
+   "id": "u2.basics.f02",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A system is the part we study. Everything outside it is the surroundings. The line between them is the boundary."
+   },
+   "why": {
+    "en": "We must decide what is 'inside' before counting energy."
+   },
+   "example": {
+    "en": "The gas inside an engine cylinder is the system; the piston and walls are the boundary."
+   },
+   "recall_q": {
+    "en": "Everything outside a system is called?"
+   },
+   "recall_a": {
+    "en": "Surroundings."
+   },
+   "explain_simple": {
+    "en": "System = what you watch. Surroundings = the rest."
+   }
+  },
+  {
+   "id": "u2.basics.f03",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Closed system: mass does not cross, energy can. Open system: both mass and energy cross. Isolated system: neither crosses."
+   },
+   "why": {
+    "en": "Different machines exchange different things."
+   },
+   "example": {
+    "en": "Closed: gas in a cylinder with valves shut. Open: a compressor. Isolated: a perfect thermos flask."
+   },
+   "recall_q": {
+    "en": "In which system can neither mass nor energy cross?"
+   },
+   "recall_a": {
+    "en": "Isolated system."
+   },
+   "explain_simple": {
+    "en": "Closed lets heat out, open lets stuff out, isolated lets nothing out."
+   }
+  },
+  {
+   "id": "u2.basics.f04",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Intensive properties do not depend on mass (pressure, temperature, density). Extensive properties depend on mass (volume, energy, mass)."
+   },
+   "why": {
+    "en": "Cut a system in half: intensive stays the same, extensive halves."
+   },
+   "recall_q": {
+    "en": "Is temperature intensive or extensive?"
+   },
+   "recall_a": {
+    "en": "Intensive."
+   },
+   "explain_simple": {
+    "en": "Half a cup of hot tea is still just as hot."
+   }
+  },
+  {
+   "id": "u2.basics.f05",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heat and work are energy in transit. They are path functions, not properties."
+   },
+   "why": {
+    "en": "Their amount depends on how the change happens, not only on start and end."
+   },
+   "recall_q": {
+    "en": "Is work a property or a path function?"
+   },
+   "recall_a": {
+    "en": "Path function."
+   },
+   "explain_simple": {
+    "en": "Heat and work depend on the road taken."
+   }
+  },
+  {
+   "id": "u2.basics.f06",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Absolute temperature: K = °C + 273."
+   },
+   "why": {
+    "en": "Gas laws need temperature from absolute zero."
+   },
+   "example": {
+    "en": "27°C = 300 K."
+   },
+   "recall_q": {
+    "en": "27°C in kelvin?"
+   },
+   "recall_a": {
+    "en": "300 K."
+   },
+   "explain_simple": {
+    "en": "Add 273 to Celsius."
+   }
+  },
+  {
+   "id": "u2.basics.f07",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Specific heat is the heat needed to raise 1 kg of a substance by 1°C. For gases there are two: cp (constant pressure) and cv (constant volume)."
+   },
+   "why": {
+    "en": "At constant pressure the gas also expands and does work, so cp is bigger."
+   },
+   "recall_q": {
+    "en": "Which is greater for a gas: cp or cv?"
+   },
+   "recall_a": {
+    "en": "cp."
+   },
+   "explain_simple": {
+    "en": "Heating with room to expand needs more heat."
+   }
+  },
+  {
+   "id": "u2.basics.f08",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "For air: cp = 1.005 kJ/kg·K, cv = 0.718 kJ/kg·K, γ = cp/cv = 1.4, R = cp − cv = 0.287 kJ/kg·K."
+   },
+   "why": {
+    "en": "These values are used in every air-cycle problem."
+   },
+   "recall_q": {
+    "en": "Value of γ (gamma) for air?"
+   },
+   "recall_a": {
+    "en": "1.4"
+   },
+   "explain_simple": {
+    "en": "Air: γ = 1.4, R = 0.287."
+   }
+  },
+  {
+   "id": "u2.basics.f09",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Internal energy is energy stored in a substance due to its molecules' motion. For an ideal gas it depends only on temperature."
+   },
+   "why": {
+    "en": "Hotter gas molecules move faster."
+   },
+   "recall_q": {
+    "en": "Internal energy of an ideal gas depends on what?"
+   },
+   "recall_a": {
+    "en": "Temperature only."
+   },
+   "explain_simple": {
+    "en": "Hotter gas holds more energy."
+   }
+  },
+  {
+   "id": "u2.basics.f10",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Enthalpy H = U + pV. It is the total heat content of a flowing fluid."
+   },
+   "why": {
+    "en": "Flowing fluid carries both internal energy and pressure energy."
+   },
+   "recall_q": {
+    "en": "Formula of enthalpy?"
+   },
+   "recall_a": {
+    "en": "H = U + pV"
+   },
+   "explain_simple": {
+    "en": "Stored energy plus pushing energy."
+   }
+  },
+  {
+   "id": "u2.basics.f11",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Entropy is a measure of disorder. In a reversible adiabatic process entropy stays constant."
+   },
+   "why": {
+    "en": "No heat crosses and no friction, so disorder does not grow."
+   },
+   "recall_q": {
+    "en": "In which process does entropy stay constant?"
+   },
+   "recall_a": {
+    "en": "Reversible adiabatic (isentropic)."
+   },
+   "explain_simple": {
+    "en": "Entropy = messiness of energy."
+   }
+  },
+  {
+   "id": "u2.basics.f12",
+   "topic": "u2.basics",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Boyle's law: pV = constant at constant temperature. Charles's law: V/T = constant at constant pressure."
+   },
+   "why": {
+    "en": "These two combine into the ideal gas law pV = mRT."
+   },
+   "recall_q": {
+    "en": "Boyle's law holds at constant what?"
+   },
+   "recall_a": {
+    "en": "Temperature."
+   },
+   "explain_simple": {
+    "en": "Squeeze a gas at same temperature: pressure up, volume down."
+   }
+  },
+  {
+   "id": "u2.basics.sum",
+   "topic": "u2.basics",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Basic terms of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Basic terms of thermodynamics"
+   },
+   "points": [
+    {
+     "en": "Closed, open, isolated systems."
+    },
+    {
+     "en": "Intensive (p, T) vs extensive (V, mass)."
+    },
+    {
+     "en": "Heat and work are path functions."
+    },
+    {
+     "en": "Air: cp 1.005, cv 0.718, γ 1.4, R 0.287."
+    },
+    {
+     "en": "H = U + pV; K = °C + 273."
+    }
+   ]
+  },
+  {
+   "id": "u2.laws.f01",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Zeroth law: if A and B are each in thermal balance with C, then A and B are in thermal balance with each other."
+   },
+   "why": {
+    "en": "This is the basis of temperature measurement with a thermometer."
+   },
+   "recall_q": {
+    "en": "Which law is the basis of the thermometer?"
+   },
+   "recall_a": {
+    "en": "Zeroth law."
+   },
+   "explain_simple": {
+    "en": "If two things match a thermometer, they match each other."
+   }
+  },
+  {
+   "id": "u2.laws.f02",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "First law: energy can neither be created nor destroyed, only changed from one form to another."
+   },
+   "why": {
+    "en": "Heat from fuel becomes work plus heat lost — nothing vanishes."
+   },
+   "recall_q": {
+    "en": "First law of thermodynamics is the law of?"
+   },
+   "recall_a": {
+    "en": "Conservation of energy."
+   },
+   "explain_simple": {
+    "en": "Energy only changes form."
+   }
+  },
+  {
+   "id": "u2.laws.f03",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "First law for a closed system: Q = ΔU + W (heat supplied = rise in internal energy + work done)."
+   },
+   "why": {
+    "en": "Heat goes partly into warming the gas, partly into pushing the piston."
+   },
+   "recall_q": {
+    "en": "Write the first law for a closed system."
+   },
+   "recall_a": {
+    "en": "Q = ΔU + W"
+   },
+   "explain_simple": {
+    "en": "Heat in = energy stored + work out."
+   }
+  },
+  {
+   "id": "u2.laws.f04",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "For a cycle, net heat = net work (∮δQ = ∮δW)."
+   },
+   "why": {
+    "en": "After a full cycle the gas is back to its start, so ΔU = 0."
+   },
+   "recall_q": {
+    "en": "In a complete cycle, net heat equals?"
+   },
+   "recall_a": {
+    "en": "Net work."
+   },
+   "explain_simple": {
+    "en": "Over one full cycle, heat in − heat out = work."
+   }
+  },
+  {
+   "id": "u2.laws.f05",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A perpetual motion machine of the first kind (PMM-1) makes work without any energy input. The first law says it is impossible."
+   },
+   "why": {
+    "en": "Energy cannot come from nothing."
+   },
+   "recall_q": {
+    "en": "Which law forbids PMM-1?"
+   },
+   "recall_a": {
+    "en": "First law."
+   },
+   "explain_simple": {
+    "en": "No machine gives free energy."
+   }
+  },
+  {
+   "id": "u2.laws.f06",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Second law (Kelvin–Planck): no engine working in a cycle can turn all heat into work. Some heat must go to a cold sink."
+   },
+   "why": {
+    "en": "Every heat engine must throw away some heat."
+   },
+   "example": {
+    "en": "A car engine loses heat through the radiator and exhaust."
+   },
+   "recall_q": {
+    "en": "Which law says no engine is 100% efficient?"
+   },
+   "recall_a": {
+    "en": "Second law (Kelvin–Planck statement)."
+   },
+   "explain_simple": {
+    "en": "Some heat is always wasted."
+   }
+  },
+  {
+   "id": "u2.laws.f07",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Second law (Clausius): heat cannot flow from a cold body to a hot body by itself without outside work."
+   },
+   "why": {
+    "en": "A refrigerator needs a compressor (work) to move heat out."
+   },
+   "recall_q": {
+    "en": "Which statement of the second law is linked to refrigerators?"
+   },
+   "recall_a": {
+    "en": "Clausius statement."
+   },
+   "explain_simple": {
+    "en": "Heat flows downhill unless you pump it."
+   }
+  },
+  {
+   "id": "u2.laws.f08",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "PMM-2 is an engine that turns all heat into work with one heat source. The second law says it is impossible."
+   },
+   "why": {
+    "en": "It would need no cold sink."
+   },
+   "recall_q": {
+    "en": "PMM-2 violates which law?"
+   },
+   "recall_a": {
+    "en": "Second law."
+   },
+   "explain_simple": {
+    "en": "You cannot turn all heat into work."
+   }
+  },
+  {
+   "id": "u2.laws.f09",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Third law: entropy of a perfect crystal at absolute zero (0 K) is zero."
+   },
+   "why": {
+    "en": "At 0 K there is no molecular motion, so no disorder."
+   },
+   "recall_q": {
+    "en": "At what temperature is entropy of a perfect crystal zero?"
+   },
+   "recall_a": {
+    "en": "Absolute zero (0 K)."
+   },
+   "explain_simple": {
+    "en": "Coldest possible = no disorder."
+   }
+  },
+  {
+   "id": "u2.laws.f10",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heat engine efficiency η = Work output / Heat supplied = 1 − Q₂/Q₁."
+   },
+   "why": {
+    "en": "Q₂ is the heat thrown away."
+   },
+   "recall_q": {
+    "en": "Efficiency of a heat engine?"
+   },
+   "recall_a": {
+    "en": "W/Q₁ = 1 − Q₂/Q₁"
+   },
+   "explain_simple": {
+    "en": "Useful work ÷ heat put in."
+   }
+  },
+  {
+   "id": "u2.laws.f11",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "COP of a refrigerator = heat removed / work input. COP of a heat pump = heat delivered / work input = COP(ref) + 1."
+   },
+   "why": {
+    "en": "A heat pump delivers both the removed heat and the work."
+   },
+   "recall_q": {
+    "en": "COP of heat pump in terms of COP of refrigerator?"
+   },
+   "recall_a": {
+    "en": "COP(HP) = COP(R) + 1"
+   },
+   "explain_simple": {
+    "en": "A heat pump's COP is one more than a fridge's."
+   }
+  },
+  {
+   "id": "u2.laws.sum",
+   "topic": "u2.laws",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Laws of thermodynamics"
+   },
+   "points": [
+    {
+     "en": "Zeroth: thermal equilibrium → thermometer."
+    },
+    {
+     "en": "First: energy conserved, Q = ΔU + W; no PMM-1."
+    },
+    {
+     "en": "Second: Kelvin–Planck (no 100% engine), Clausius (fridge needs work); no PMM-2."
+    },
+    {
+     "en": "Third: entropy zero at 0 K."
+    },
+    {
+     "en": "η = 1 − Q₂/Q₁; COP(HP) = COP(R) + 1."
+    }
+   ]
+  },
+  {
+   "id": "u2.process.f01",
+   "topic": "u2.process",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Constant volume (isochoric) process: volume does not change, so no work is done (W = 0)."
+   },
+   "why": {
+    "en": "Work needs the boundary to move."
+   },
+   "example": {
+    "en": "Heating gas in a closed rigid tank."
+   },
+   "recall_q": {
+    "en": "Work done in a constant volume process?"
+   },
+   "recall_a": {
+    "en": "Zero."
+   },
+   "explain_simple": {
+    "en": "No movement, no work."
+   }
+  },
+  {
+   "id": "u2.process.f02",
+   "topic": "u2.process",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Constant pressure (isobaric) process: W = p (V₂ − V₁)."
+   },
+   "why": {
+    "en": "Force stays the same while the piston moves."
+   },
+   "recall_q": {
+    "en": "Work in a constant pressure process?"
+   },
+   "recall_a": {
+    "en": "W = p(V₂ − V₁)"
+   },
+   "explain_simple": {
+    "en": "Pressure × change in volume."
+   }
+  },
+  {
+   "id": "u2.process.f03",
+   "topic": "u2.process",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Isothermal process: temperature stays constant, pV = constant. W = p₁V₁ ln(V₂/V₁)."
+   },
+   "why": {
+    "en": "Heat added equals work done, so temperature does not rise."
+   },
+   "recall_q": {
+    "en": "Equation of an isothermal process?"
+   },
+   "recall_a": {
+    "en": "pV = constant"
+   },
+   "explain_simple": {
+    "en": "Same temperature throughout."
+   }
+  },
+  {
+   "id": "u2.process.f04",
+   "topic": "u2.process",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In an isothermal process of an ideal gas, ΔU = 0, so Q = W."
+   },
+   "why": {
+    "en": "Internal energy depends only on temperature, which does not change."
+   },
+   "recall_q": {
+    "en": "In isothermal expansion, heat supplied equals?"
+   },
+   "recall_a": {
+    "en": "Work done."
+   },
+   "explain_simple": {
+    "en": "All the heat goes into work."
+   }
+  },
+  {
+   "id": "u2.process.f05",
+   "topic": "u2.process",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Adiabatic process: no heat crosses the boundary (Q = 0). Reversible adiabatic is called isentropic: pV^γ = constant."
+   },
+   "why": {
+    "en": "With no heat flow, work comes from internal energy."
+   },
+   "recall_q": {
+    "en": "Equation of an isentropic process?"
+   },
+   "recall_a": {
+    "en": "pV^γ = constant"
+   },
+   "explain_simple": {
+    "en": "No heat in or out."
+   }
+  },
+  {
+   "id": "u2.process.f06",
+   "topic": "u2.process",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Work in an adiabatic process W = (p₁V₁ − p₂V₂)/(γ − 1). Polytropic: W = (p₁V₁ − p₂V₂)/(n − 1)."
+   },
+   "why": {
+    "en": "Same form, only the index changes."
+   },
+   "recall_q": {
+    "en": "Work done in adiabatic expansion?"
+   },
+   "recall_a": {
+    "en": "(p₁V₁ − p₂V₂)/(γ − 1)"
+   },
+   "explain_simple": {
+    "en": "Pressure-volume difference divided by (γ − 1)."
+   }
+  },
+  {
+   "id": "u2.process.f07",
+   "topic": "u2.process",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Polytropic process: pVⁿ = constant. n = 0 constant pressure, n = 1 isothermal, n = γ adiabatic, n = ∞ constant volume."
+   },
+   "why": {
+    "en": "One formula covers all the basic processes."
+   },
+   "recall_q": {
+    "en": "For which value of n is pVⁿ = C an isothermal process?"
+   },
+   "recall_a": {
+    "en": "n = 1"
+   },
+   "explain_simple": {
+    "en": "Change n to get every process."
+   }
+  },
+  {
+   "id": "u2.process.f08",
+   "topic": "u2.process",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "On a PV diagram, the adiabatic curve is steeper than the isothermal curve."
+   },
+   "why": {
+    "en": "γ (1.4) is bigger than 1, so pressure changes faster with volume."
+   },
+   "recall_q": {
+    "en": "Which curve is steeper on a PV diagram: adiabatic or isothermal?"
+   },
+   "recall_a": {
+    "en": "Adiabatic."
+   },
+   "explain_simple": {
+    "en": "Adiabatic falls faster."
+   }
+  },
+  {
+   "id": "u2.process.f09",
+   "topic": "u2.process",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Area under a curve on a PV diagram = work done. Area enclosed by a cycle = net work of the cycle."
+   },
+   "why": {
+    "en": "Work = ∫p dV, which is an area."
+   },
+   "recall_q": {
+    "en": "What does the area of a closed loop on a PV diagram represent?"
+   },
+   "recall_a": {
+    "en": "Net work done in the cycle."
+   },
+   "explain_simple": {
+    "en": "Bigger loop, more work."
+   }
+  },
+  {
+   "id": "u2.process.f10",
+   "topic": "u2.process",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Throttling process: fluid passes through a narrow valve; enthalpy stays constant (h₁ = h₂) and no work is done."
+   },
+   "why": {
+    "en": "Pressure drops, but no heat or work crosses."
+   },
+   "example": {
+    "en": "The expansion valve in a car's AC."
+   },
+   "recall_q": {
+    "en": "What stays constant in throttling?"
+   },
+   "recall_a": {
+    "en": "Enthalpy."
+   },
+   "explain_simple": {
+    "en": "Squeezing through a small hole drops pressure but keeps enthalpy."
+   }
+  },
+  {
+   "id": "u2.process.f11",
+   "topic": "u2.process",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Free expansion: gas expands into vacuum. Work done = 0 and heat = 0."
+   },
+   "why": {
+    "en": "Nothing resists the expansion, so no work."
+   },
+   "recall_q": {
+    "en": "Work done in free expansion?"
+   },
+   "recall_a": {
+    "en": "Zero."
+   },
+   "explain_simple": {
+    "en": "Expanding into nothing does no work."
+   }
+  },
+  {
+   "id": "u2.process.sum",
+   "topic": "u2.process",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermodynamic processes and PV diagrams; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Thermodynamic processes and PV diagrams"
+   },
+   "points": [
+    {
+     "en": "Constant volume: W = 0."
+    },
+    {
+     "en": "Constant pressure: W = p(V₂ − V₁)."
+    },
+    {
+     "en": "Isothermal: pV = C, Q = W."
+    },
+    {
+     "en": "Isentropic: pV^γ = C, Q = 0, steeper curve."
+    },
+    {
+     "en": "Polytropic pVⁿ = C; throttling h = const."
+    }
+   ]
+  },
+  {
+   "id": "u2.cycles.f01",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air standard cycle assumptions: working fluid is air (ideal gas), constant specific heats, heat added from outside, processes reversible, no intake or exhaust losses."
+   },
+   "why": {
+    "en": "These make the cycle easy to calculate."
+   },
+   "recall_q": {
+    "en": "In an air standard cycle, what is the working fluid assumed to be?"
+   },
+   "recall_a": {
+    "en": "Air, as a perfect gas."
+   },
+   "explain_simple": {
+    "en": "Pretend the engine runs on clean air only."
+   }
+  },
+  {
+   "id": "u2.cycles.f02",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Carnot cycle: two isothermal and two adiabatic (isentropic) processes. It has the highest possible efficiency."
+   },
+   "why": {
+    "en": "It is fully reversible, so no energy is wasted by friction."
+   },
+   "recall_q": {
+    "en": "Carnot cycle consists of which processes?"
+   },
+   "recall_a": {
+    "en": "Two isothermal + two adiabatic."
+   },
+   "explain_simple": {
+    "en": "The perfect, ideal engine cycle."
+   }
+  },
+  {
+   "id": "u2.cycles.f03",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Carnot efficiency η = 1 − T₂/T₁ (temperatures in kelvin)."
+   },
+   "why": {
+    "en": "It depends only on the hot and cold temperatures."
+   },
+   "example": {
+    "en": "T₁ = 600 K, T₂ = 300 K → η = 1 − 0.5 = 50%."
+   },
+   "recall_q": {
+    "en": "Carnot efficiency formula?"
+   },
+   "recall_a": {
+    "en": "1 − T₂/T₁"
+   },
+   "explain_simple": {
+    "en": "Bigger gap between hot and cold = better efficiency."
+   }
+  },
+  {
+   "id": "u2.cycles.f04",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Carnot cycle is not used in real engines. Isothermal processes are too slow and adiabatic ones too fast to achieve in one engine."
+   },
+   "why": {
+    "en": "The net work is also very small for the size of the engine."
+   },
+   "recall_q": {
+    "en": "Is a practical engine built on the Carnot cycle?"
+   },
+   "recall_a": {
+    "en": "No — it is only a standard for comparison."
+   },
+   "explain_simple": {
+    "en": "Perfect on paper, impossible in real life."
+   }
+  },
+  {
+   "id": "u2.cycles.f05",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Otto cycle (petrol engine): 2 adiabatic + 2 constant volume processes. Heat is added at constant volume."
+   },
+   "why": {
+    "en": "Spark ignition burns the mixture very quickly, while the piston is almost still."
+   },
+   "recall_q": {
+    "en": "In the Otto cycle, heat is added at constant?"
+   },
+   "recall_a": {
+    "en": "Volume."
+   },
+   "explain_simple": {
+    "en": "Petrol engine cycle: quick burn at constant volume."
+   }
+  },
+  {
+   "id": "u2.cycles.f06",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Otto cycle efficiency η = 1 − 1/r^(γ−1). r = compression ratio."
+   },
+   "why": {
+    "en": "Higher compression ratio squeezes more work out of the same heat."
+   },
+   "recall_q": {
+    "en": "Otto efficiency depends only on what?"
+   },
+   "recall_a": {
+    "en": "Compression ratio (and γ)."
+   },
+   "explain_simple": {
+    "en": "More squeeze, more efficiency."
+   }
+  },
+  {
+   "id": "u2.cycles.f07",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel cycle: 2 adiabatic, 1 constant pressure (heat added) and 1 constant volume (heat rejected)."
+   },
+   "why": {
+    "en": "Fuel is injected gradually and burns while the piston moves down."
+   },
+   "recall_q": {
+    "en": "In the Diesel cycle, heat is added at constant?"
+   },
+   "recall_a": {
+    "en": "Pressure."
+   },
+   "explain_simple": {
+    "en": "Diesel cycle: steady burn at constant pressure."
+   }
+  },
+  {
+   "id": "u2.cycles.f08",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cut-off ratio ρ = V₃/V₂ in a Diesel cycle: volume when fuel injection stops ÷ clearance volume. Larger cut-off ratio lowers efficiency."
+   },
+   "why": {
+    "en": "Heat added late in the stroke has less chance to do work."
+   },
+   "recall_q": {
+    "en": "Effect of increasing cut-off ratio on Diesel efficiency?"
+   },
+   "recall_a": {
+    "en": "Efficiency decreases."
+   },
+   "explain_simple": {
+    "en": "Burning fuel too late wastes it."
+   }
+  },
+  {
+   "id": "u2.cycles.f09",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "For the same compression ratio, Otto is more efficient than Diesel. For the same maximum pressure, Diesel is more efficient."
+   },
+   "why": {
+    "en": "Diesel engines can use much higher compression ratios."
+   },
+   "recall_q": {
+    "en": "Same compression ratio: which is more efficient, Otto or Diesel?"
+   },
+   "recall_a": {
+    "en": "Otto."
+   },
+   "explain_simple": {
+    "en": "Same squeeze: petrol wins. Same peak pressure: diesel wins."
+   }
+  },
+  {
+   "id": "u2.cycles.f10",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Dual combustion (mixed or limited pressure) cycle: heat is added partly at constant volume and partly at constant pressure."
+   },
+   "why": {
+    "en": "Modern high-speed diesel engines burn this way."
+   },
+   "recall_q": {
+    "en": "Cycle with heat added at both constant volume and constant pressure?"
+   },
+   "recall_a": {
+    "en": "Dual combustion cycle."
+   },
+   "explain_simple": {
+    "en": "Half Otto, half Diesel."
+   }
+  },
+  {
+   "id": "u2.cycles.f11",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Joule (Brayton) cycle: 2 adiabatic and 2 constant pressure processes. Used in gas turbines and jet engines."
+   },
+   "why": {
+    "en": "Gas turbines burn fuel continuously at constant pressure."
+   },
+   "recall_q": {
+    "en": "Gas turbines work on which cycle?"
+   },
+   "recall_a": {
+    "en": "Joule (Brayton) cycle."
+   },
+   "explain_simple": {
+    "en": "The jet engine cycle."
+   }
+  },
+  {
+   "id": "u2.cycles.f12",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Joule cycle efficiency η = 1 − 1/rp^((γ−1)/γ). rp = pressure ratio."
+   },
+   "why": {
+    "en": "Higher pressure ratio gives higher efficiency."
+   },
+   "recall_q": {
+    "en": "Joule cycle efficiency depends on?"
+   },
+   "recall_a": {
+    "en": "Pressure ratio."
+   },
+   "explain_simple": {
+    "en": "More pressure rise, more efficiency."
+   }
+  },
+  {
+   "id": "u2.cycles.f13",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compression ratio r = total cylinder volume / clearance volume = (Vs + Vc)/Vc."
+   },
+   "why": {
+    "en": "It shows how much the mixture is squeezed."
+   },
+   "example": {
+    "en": "Petrol engine 8–12. Diesel engine 14–22."
+   },
+   "recall_q": {
+    "en": "Compression ratio formula?"
+   },
+   "recall_a": {
+    "en": "(Vs + Vc)/Vc"
+   },
+   "explain_simple": {
+    "en": "Big volume ÷ small volume."
+   }
+  },
+  {
+   "id": "u2.cycles.f14",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Petrol engines use low compression ratios (about 8–12) to avoid knocking. Diesel engines need high ratios (about 14–22) to self-ignite fuel."
+   },
+   "why": {
+    "en": "Diesel relies on hot compressed air to light the fuel."
+   },
+   "recall_q": {
+    "en": "Typical compression ratio of a diesel engine?"
+   },
+   "recall_a": {
+    "en": "About 14 to 22."
+   },
+   "explain_simple": {
+    "en": "Diesel squeezes much harder than petrol."
+   }
+  },
+  {
+   "id": "u2.cycles.f15",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stirling cycle: 2 isothermal and 2 constant volume processes, with a regenerator. Ericsson cycle: 2 isothermal and 2 constant pressure."
+   },
+   "why": {
+    "en": "With perfect regeneration both reach Carnot efficiency."
+   },
+   "recall_q": {
+    "en": "Stirling cycle has which processes?"
+   },
+   "recall_a": {
+    "en": "2 isothermal + 2 constant volume."
+   },
+   "explain_simple": {
+    "en": "Stirling = isothermal + constant volume."
+   }
+  },
+  {
+   "id": "u2.cycles.f16",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mean effective pressure (MEP) = net work of cycle / swept volume."
+   },
+   "why": {
+    "en": "It is the steady pressure that would give the same work in one stroke."
+   },
+   "recall_q": {
+    "en": "MEP formula?"
+   },
+   "recall_a": {
+    "en": "Net work ÷ swept volume."
+   },
+   "explain_simple": {
+    "en": "Average push on the piston."
+   }
+  },
+  {
+   "id": "u2.cycles.s01",
+   "topic": "u2.cycles",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: Otto cycle efficiency"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A petrol engine has compression ratio 8. Find air-standard efficiency (γ = 1.4)."
+     }
+    },
+    {
+     "text": {
+      "en": "η = 1 − 1/r^(γ−1) = 1 − 1/8^0.4."
+     }
+    },
+    {
+     "text": {
+      "en": "8^0.4 ≈ 2.297."
+     },
+     "explain": {
+      "en": "Use a calculator: 8 to the power 0.4."
+     }
+    },
+    {
+     "text": {
+      "en": "η = 1 − 1/2.297 = 1 − 0.435 = 0.565 ≈ 56.5%."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "η Otto = 1 − 1/r^(γ−1)."
+    },
+    {
+     "en": "r = 8 gives about 56.5%."
+    }
+   ],
+   "recall_q": {
+    "en": "Air-standard efficiency of an Otto engine with r = 8?"
+   },
+   "recall_a": {
+    "en": "About 56.5%."
+   }
+  },
+  {
+   "id": "u2.cycles.s02",
+   "topic": "u2.cycles",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: Carnot efficiency"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A Carnot engine works between 327°C and 27°C. Find its efficiency."
+     }
+    },
+    {
+     "text": {
+      "en": "Change to kelvin: T₁ = 327 + 273 = 600 K, T₂ = 27 + 273 = 300 K."
+     },
+     "explain": {
+      "en": "Always use kelvin in Carnot formula."
+     }
+    },
+    {
+     "text": {
+      "en": "η = 1 − T₂/T₁ = 1 − 300/600 = 0.5."
+     }
+    },
+    {
+     "text": {
+      "en": "Efficiency = 50%."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "Convert °C to K first."
+    },
+    {
+     "en": "η = 1 − T₂/T₁."
+    }
+   ],
+   "recall_q": {
+    "en": "Carnot efficiency between 600 K and 300 K?"
+   },
+   "recall_a": {
+    "en": "50%"
+   }
+  },
+  {
+   "id": "u2.cycles.sum",
+   "topic": "u2.cycles",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Air standard cycles"
+   },
+   "points": [
+    {
+     "en": "Carnot: 2 isothermal + 2 adiabatic, η = 1 − T₂/T₁."
+    },
+    {
+     "en": "Otto: heat at constant volume, η = 1 − 1/r^(γ−1)."
+    },
+    {
+     "en": "Diesel: heat at constant pressure; cut-off ratio."
+    },
+    {
+     "en": "Dual: both; Joule/Brayton: gas turbine."
+    },
+    {
+     "en": "Same r: Otto > Dual > Diesel efficiency."
+    }
+   ]
+  },
+  {
+   "id": "u2.engines.f01",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An internal combustion (IC) engine burns fuel inside the cylinder. An external combustion engine burns fuel outside (e.g. steam engine)."
+   },
+   "why": {
+    "en": "In IC engines the hot gases push the piston directly."
+   },
+   "recall_q": {
+    "en": "Is a steam engine IC or EC?"
+   },
+   "recall_a": {
+    "en": "External combustion."
+   },
+   "explain_simple": {
+    "en": "IC = fire inside. EC = fire outside."
+   }
+  },
+  {
+   "id": "u2.engines.f02",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Petrol engine = spark ignition (SI). Diesel engine = compression ignition (CI)."
+   },
+   "why": {
+    "en": "Petrol is lit by a spark plug; diesel lights from the heat of squeezed air."
+   },
+   "recall_q": {
+    "en": "How is fuel ignited in a diesel engine?"
+   },
+   "recall_a": {
+    "en": "By heat of compressed air (compression ignition)."
+   },
+   "explain_simple": {
+    "en": "Petrol needs a spark; diesel needs squeeze."
+   }
+  },
+  {
+   "id": "u2.engines.f03",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Four-stroke engine strokes in order: suction, compression, power, exhaust."
+   },
+   "why": {
+    "en": "Each stroke is half a turn, so one cycle = 2 crank turns."
+   },
+   "recall_q": {
+    "en": "Order of strokes in a four-stroke engine?"
+   },
+   "recall_a": {
+    "en": "Suction, compression, power, exhaust."
+   },
+   "explain_simple": {
+    "en": "Suck, squeeze, bang, blow."
+   }
+  },
+  {
+   "id": "u2.engines.f04",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A four-stroke engine gives one power stroke every 2 revolutions of the crankshaft. A two-stroke engine gives one every revolution."
+   },
+   "why": {
+    "en": "Two-stroke engines merge suction and exhaust into the other strokes."
+   },
+   "recall_q": {
+    "en": "Power strokes per revolution in a two-stroke engine?"
+   },
+   "recall_a": {
+    "en": "One."
+   },
+   "explain_simple": {
+    "en": "Two-stroke fires every turn; four-stroke every second turn."
+   }
+  },
+  {
+   "id": "u2.engines.f05",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In a four-stroke engine, the camshaft turns at half the crankshaft speed."
+   },
+   "why": {
+    "en": "Each valve opens once per cycle, and one cycle is 2 crank turns."
+   },
+   "recall_q": {
+    "en": "Camshaft speed compared to crankshaft in a four-stroke engine?"
+   },
+   "recall_a": {
+    "en": "Half."
+   },
+   "explain_simple": {
+    "en": "Crank turns twice; cam turns once."
+   }
+  },
+  {
+   "id": "u2.engines.f06",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In a petrol engine, the suction stroke draws in an air–petrol mixture. In a diesel engine, it draws in air only."
+   },
+   "why": {
+    "en": "Diesel is injected later, at the end of compression."
+   },
+   "recall_q": {
+    "en": "What enters a diesel engine during suction?"
+   },
+   "recall_a": {
+    "en": "Air only."
+   },
+   "explain_simple": {
+    "en": "Petrol: mix enters. Diesel: only air enters."
+   }
+  },
+  {
+   "id": "u2.engines.f07",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Two-stroke engines use ports (holes in the cylinder wall) instead of valves: inlet, transfer and exhaust ports."
+   },
+   "why": {
+    "en": "The piston itself opens and closes the ports as it moves."
+   },
+   "example": {
+    "en": "Old scooters and autorickshaws used two-stroke engines."
+   },
+   "recall_q": {
+    "en": "What opens and closes the ports in a two-stroke engine?"
+   },
+   "recall_a": {
+    "en": "The piston."
+   },
+   "explain_simple": {
+    "en": "The piston slides past holes to let gas in and out."
+   }
+  },
+  {
+   "id": "u2.engines.f08",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In a two-stroke petrol engine, the crankcase is sealed and used to pre-compress the fresh mixture."
+   },
+   "why": {
+    "en": "The pressurised mixture then rushes through the transfer port into the cylinder."
+   },
+   "recall_q": {
+    "en": "In a two-stroke petrol engine, where is the mixture first compressed?"
+   },
+   "recall_a": {
+    "en": "In the crankcase."
+   },
+   "explain_simple": {
+    "en": "The bottom box squeezes the mix before sending it up."
+   }
+  },
+  {
+   "id": "u2.engines.f09",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Scavenging is pushing out burnt gases with fresh charge in a two-stroke engine."
+   },
+   "why": {
+    "en": "There is no separate exhaust stroke, so fresh charge sweeps out the old."
+   },
+   "recall_q": {
+    "en": "What is scavenging?"
+   },
+   "recall_a": {
+    "en": "Clearing exhaust gases from the cylinder using fresh charge."
+   },
+   "explain_simple": {
+    "en": "New air pushes old smoke out."
+   }
+  },
+  {
+   "id": "u2.engines.f10",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A deflector-top piston directs fresh charge upward in cross-scavenged two-stroke engines."
+   },
+   "why": {
+    "en": "It stops fresh mixture going straight out of the exhaust port."
+   },
+   "recall_q": {
+    "en": "Why do some two-stroke pistons have a deflector on top?"
+   },
+   "recall_a": {
+    "en": "To guide fresh charge up and reduce loss through the exhaust port."
+   },
+   "explain_simple": {
+    "en": "A bump on the piston steers the fresh mix."
+   }
+  },
+  {
+   "id": "u2.engines.f11",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Two-stroke vs four-stroke: two-stroke is lighter, simpler and more powerful for its size, but uses more fuel and pollutes more."
+   },
+   "why": {
+    "en": "Some fresh fuel escapes with the exhaust, and oil is burnt with fuel."
+   },
+   "recall_q": {
+    "en": "Which is more fuel-efficient: two-stroke or four-stroke?"
+   },
+   "recall_a": {
+    "en": "Four-stroke."
+   },
+   "explain_simple": {
+    "en": "Two-stroke: light and peppy, but thirsty and smoky."
+   }
+  },
+  {
+   "id": "u2.engines.f12",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Two-stroke petrol engines are lubricated by mixing oil with petrol (petroil), about 2–3%."
+   },
+   "why": {
+    "en": "The crankcase holds mixture, so it cannot hold an oil sump."
+   },
+   "recall_q": {
+    "en": "How is a small two-stroke petrol engine lubricated?"
+   },
+   "recall_a": {
+    "en": "Oil mixed with petrol (petroil lubrication)."
+   },
+   "explain_simple": {
+    "en": "Oil goes in with the petrol."
+   }
+  },
+  {
+   "id": "u2.engines.f13",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel engines are heavier and costlier but more fuel-efficient and give more torque than petrol engines."
+   },
+   "why": {
+    "en": "High compression ratio and lean burning give better efficiency."
+   },
+   "recall_q": {
+    "en": "Which engine gives better fuel economy: petrol or diesel?"
+   },
+   "recall_a": {
+    "en": "Diesel."
+   },
+   "explain_simple": {
+    "en": "Diesel: heavy and strong, but saves fuel."
+   }
+  },
+  {
+   "id": "u2.engines.f14",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "TDC (top dead centre) is the top-most piston position. BDC (bottom dead centre) is the bottom-most."
+   },
+   "why": {
+    "en": "At these points the piston stops and reverses direction."
+   },
+   "recall_q": {
+    "en": "What is TDC?"
+   },
+   "recall_a": {
+    "en": "Top dead centre — piston's highest position."
+   },
+   "explain_simple": {
+    "en": "Top stop and bottom stop of the piston."
+   }
+  },
+  {
+   "id": "u2.engines.f15",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stroke = distance between TDC and BDC = 2 × crank radius. Bore = cylinder diameter."
+   },
+   "why": {
+    "en": "The crank throw sets how far the piston travels."
+   },
+   "recall_q": {
+    "en": "Stroke length in terms of crank radius?"
+   },
+   "recall_a": {
+    "en": "2 × crank radius."
+   },
+   "explain_simple": {
+    "en": "Stroke = how far the piston travels."
+   }
+  },
+  {
+   "id": "u2.engines.f16",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Swept volume Vs = (π/4) × D² × L. Engine capacity (cc) = swept volume × number of cylinders."
+   },
+   "why": {
+    "en": "It is the volume the piston sweeps in one stroke."
+   },
+   "example": {
+    "en": "A 150 cc motorcycle sweeps 150 cm³ per stroke."
+   },
+   "recall_q": {
+    "en": "Formula for swept volume?"
+   },
+   "recall_a": {
+    "en": "(π/4) D² L"
+   },
+   "explain_simple": {
+    "en": "Cylinder area × stroke."
+   }
+  },
+  {
+   "id": "u2.engines.f17",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Square engine: bore = stroke. Over-square (short stroke): bore > stroke. Under-square (long stroke): bore < stroke."
+   },
+   "why": {
+    "en": "Short stroke engines rev higher; long stroke give more low-speed torque."
+   },
+   "recall_q": {
+    "en": "An engine with bore greater than stroke is called?"
+   },
+   "recall_a": {
+    "en": "Over-square (short-stroke) engine."
+   },
+   "explain_simple": {
+    "en": "Wide and short = over-square."
+   }
+  },
+  {
+   "id": "u2.engines.f18",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Clearance volume is the space left above the piston at TDC."
+   },
+   "why": {
+    "en": "The combustion chamber is this space."
+   },
+   "recall_q": {
+    "en": "Volume above the piston at TDC is called?"
+   },
+   "recall_a": {
+    "en": "Clearance volume."
+   },
+   "explain_simple": {
+    "en": "The small room left at the top."
+   }
+  },
+  {
+   "id": "u2.engines.f19",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve timing diagram shows, in crank degrees, when inlet and exhaust valves open and close."
+   },
+   "why": {
+    "en": "Valves do not open exactly at TDC/BDC; early and late opening improves breathing."
+   },
+   "recall_q": {
+    "en": "What does a valve timing diagram show?"
+   },
+   "recall_a": {
+    "en": "Crank angles at which valves open and close."
+   },
+   "explain_simple": {
+    "en": "A clock face for the valves."
+   }
+  },
+  {
+   "id": "u2.engines.f20",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Inlet valve opens about 10–20° before TDC and closes about 30–50° after BDC."
+   },
+   "why": {
+    "en": "Opening early and closing late lets more charge fill the cylinder (gas inertia)."
+   },
+   "recall_q": {
+    "en": "Does the inlet valve close before or after BDC?"
+   },
+   "recall_a": {
+    "en": "After BDC."
+   },
+   "explain_simple": {
+    "en": "Inlet opens early and shuts late to fill more."
+   }
+  },
+  {
+   "id": "u2.engines.f21",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exhaust valve opens about 40–50° before BDC and closes about 10–20° after TDC."
+   },
+   "why": {
+    "en": "Early opening lets high-pressure gas escape; late closing clears the cylinder fully."
+   },
+   "recall_q": {
+    "en": "Does the exhaust valve open before or after BDC?"
+   },
+   "recall_a": {
+    "en": "Before BDC."
+   },
+   "explain_simple": {
+    "en": "Exhaust opens early to let gas out quickly."
+   }
+  },
+  {
+   "id": "u2.engines.f22",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve overlap is the period when both inlet and exhaust valves are open together, near TDC."
+   },
+   "why": {
+    "en": "Outgoing exhaust helps pull in fresh charge."
+   },
+   "recall_q": {
+    "en": "When are both valves open together?"
+   },
+   "recall_a": {
+    "en": "During valve overlap, near TDC (end of exhaust, start of suction)."
+   },
+   "explain_simple": {
+    "en": "A short moment when both doors are open."
+   }
+  },
+  {
+   "id": "u2.engines.f23",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Valve lead: valve opens before the dead centre. Valve lag: valve closes after the dead centre."
+   },
+   "why": {
+    "en": "Lead and lag improve breathing at high speed."
+   },
+   "recall_q": {
+    "en": "Valve opening before dead centre is called?"
+   },
+   "recall_a": {
+    "en": "Valve lead."
+   },
+   "explain_simple": {
+    "en": "Lead = early. Lag = late."
+   }
+  },
+  {
+   "id": "u2.engines.f24",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ignition timing: the spark occurs before TDC (spark advance). In diesel engines, injection starts before TDC."
+   },
+   "why": {
+    "en": "Burning takes time, so it must start early to peak just after TDC."
+   },
+   "recall_q": {
+    "en": "Does the spark occur before or after TDC?"
+   },
+   "recall_a": {
+    "en": "Before TDC."
+   },
+   "explain_simple": {
+    "en": "Light the fire a little early."
+   }
+  },
+  {
+   "id": "u2.engines.f25",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Knocking in petrol engines (detonation) is sudden self-ignition of the last part of the mixture, causing a metallic noise."
+   },
+   "why": {
+    "en": "Too much heat and pressure ahead of the flame."
+   },
+   "recall_q": {
+    "en": "Rating of petrol against knocking?"
+   },
+   "recall_a": {
+    "en": "Octane number."
+   },
+   "explain_simple": {
+    "en": "Pinking noise = mixture exploding on its own."
+   }
+  },
+  {
+   "id": "u2.engines.f26",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Octane number rates petrol's anti-knock quality (iso-octane = 100, n-heptane = 0). Cetane number rates diesel's ignition quality (cetane = 100)."
+   },
+   "why": {
+    "en": "Petrol should resist self-ignition; diesel should self-ignite easily."
+   },
+   "recall_q": {
+    "en": "Ignition quality of diesel is rated by?"
+   },
+   "recall_a": {
+    "en": "Cetane number."
+   },
+   "explain_simple": {
+    "en": "Octane for petrol, cetane for diesel."
+   }
+  },
+  {
+   "id": "u2.engines.f27",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel knock is caused by a long ignition delay: too much fuel collects before burning, then explodes."
+   },
+   "why": {
+    "en": "Petrol knock happens late in combustion; diesel knock happens at the start."
+   },
+   "recall_q": {
+    "en": "Main cause of diesel knock?"
+   },
+   "recall_a": {
+    "en": "Long ignition delay."
+   },
+   "explain_simple": {
+    "en": "Fuel waits too long, then bangs."
+   }
+  },
+  {
+   "id": "u2.engines.f28",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Things that reduce petrol knock lead to more diesel knock, and vice versa. For example, high compression ratio reduces diesel knock but increases petrol knock."
+   },
+   "why": {
+    "en": "Diesel needs easy self-ignition; petrol must avoid it."
+   },
+   "recall_q": {
+    "en": "Does high compression ratio increase or reduce diesel knock?"
+   },
+   "recall_a": {
+    "en": "Reduces it."
+   },
+   "explain_simple": {
+    "en": "Petrol and diesel need opposite things."
+   }
+  },
+  {
+   "id": "u2.engines.f29",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "On the PV diagram of an actual four-stroke engine, the small negative loop at the bottom is the pumping loss loop (suction and exhaust)."
+   },
+   "why": {
+    "en": "Work is spent pulling in charge and pushing out gases."
+   },
+   "recall_q": {
+    "en": "What does the small lower loop on a four-stroke PV diagram show?"
+   },
+   "recall_a": {
+    "en": "Pumping loss (negative work)."
+   },
+   "explain_simple": {
+    "en": "Breathing costs some work."
+   }
+  },
+  {
+   "id": "u2.engines.f30",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Firing order of a common 4-cylinder in-line engine: 1-3-4-2 (or 1-2-4-3)."
+   },
+   "why": {
+    "en": "Spreads power strokes evenly and balances the crankshaft."
+   },
+   "recall_q": {
+    "en": "Common firing order of a four-cylinder engine?"
+   },
+   "recall_a": {
+    "en": "1-3-4-2"
+   },
+   "explain_simple": {
+    "en": "Fire cylinders in a balanced order, not 1-2-3-4."
+   }
+  },
+  {
+   "id": "u2.engines.f31",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Wankel (rotary) engine uses a triangular rotor instead of a piston."
+   },
+   "why": {
+    "en": "The rotor turns in an oval housing to make the four strokes."
+   },
+   "recall_q": {
+    "en": "What replaces the piston in a Wankel engine?"
+   },
+   "recall_a": {
+    "en": "A triangular rotor."
+   },
+   "explain_simple": {
+    "en": "A spinning triangle instead of an up-down piston."
+   }
+  },
+  {
+   "id": "u2.engines.sum",
+   "topic": "u2.engines",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Two-stroke and four-stroke engines, valve timing"
+   },
+   "points": [
+    {
+     "en": "Four-stroke: suck, squeeze, power, exhaust; 1 power stroke per 2 turns."
+    },
+    {
+     "en": "Two-stroke: ports, crankcase compression, scavenging, petroil."
+    },
+    {
+     "en": "IVO before TDC, IVC after BDC; EVO before BDC, EVC after TDC."
+    },
+    {
+     "en": "Valve overlap near TDC."
+    },
+    {
+     "en": "Octane (petrol), cetane (diesel); firing order 1-3-4-2."
+    }
+   ]
+  },
+  {
+   "id": "u2.performance.f01",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Indicated power (IP) is power developed by the gas inside the cylinder. IP = p_m L A n k / 60 (n = power strokes per minute)."
+   },
+   "why": {
+    "en": "It is measured from the indicator diagram."
+   },
+   "recall_q": {
+    "en": "Power developed inside the engine cylinder is called?"
+   },
+   "recall_a": {
+    "en": "Indicated power."
+   },
+   "explain_simple": {
+    "en": "Power made by burning gas."
+   }
+  },
+  {
+   "id": "u2.performance.f02",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brake power (BP) is the useful power at the crankshaft. BP = 2πNT / 60."
+   },
+   "why": {
+    "en": "It is measured with a brake (dynamometer)."
+   },
+   "recall_q": {
+    "en": "Formula of brake power?"
+   },
+   "recall_a": {
+    "en": "BP = 2πNT/60"
+   },
+   "explain_simple": {
+    "en": "Power you actually get at the shaft."
+   }
+  },
+  {
+   "id": "u2.performance.f03",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Frictional power FP = IP − BP."
+   },
+   "why": {
+    "en": "Some of the gas power is lost in rubbing parts and driving pumps."
+   },
+   "recall_q": {
+    "en": "Frictional power = ?"
+   },
+   "recall_a": {
+    "en": "IP − BP"
+   },
+   "explain_simple": {
+    "en": "What friction eats."
+   }
+  },
+  {
+   "id": "u2.performance.f04",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mechanical efficiency ηm = BP / IP."
+   },
+   "why": {
+    "en": "It shows how much gas power reaches the shaft."
+   },
+   "example": {
+    "en": "IP 50 kW, BP 40 kW → ηm = 80%."
+   },
+   "recall_q": {
+    "en": "Mechanical efficiency formula?"
+   },
+   "recall_a": {
+    "en": "BP/IP"
+   },
+   "explain_simple": {
+    "en": "Shaft power ÷ cylinder power."
+   }
+  },
+  {
+   "id": "u2.performance.f05",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Indicated thermal efficiency = IP / (fuel mass per second × calorific value)."
+   },
+   "why": {
+    "en": "Compares gas power with energy in fuel."
+   },
+   "recall_q": {
+    "en": "Indicated thermal efficiency = ?"
+   },
+   "recall_a": {
+    "en": "IP ÷ (mf × CV)"
+   },
+   "explain_simple": {
+    "en": "Cylinder power ÷ fuel energy."
+   }
+  },
+  {
+   "id": "u2.performance.f06",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brake thermal efficiency = BP / (mf × CV). Brake thermal efficiency = mechanical efficiency × indicated thermal efficiency."
+   },
+   "why": {
+    "en": "Fuel energy → gas power → shaft power."
+   },
+   "recall_q": {
+    "en": "Brake thermal efficiency = ?"
+   },
+   "recall_a": {
+    "en": "BP ÷ (mf × CV)"
+   },
+   "explain_simple": {
+    "en": "Shaft power ÷ fuel energy."
+   }
+  },
+  {
+   "id": "u2.performance.f07",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Relative efficiency (efficiency ratio) = actual thermal efficiency / air standard efficiency."
+   },
+   "why": {
+    "en": "It shows how close a real engine comes to its ideal cycle."
+   },
+   "recall_q": {
+    "en": "Relative efficiency = ?"
+   },
+   "recall_a": {
+    "en": "Actual thermal efficiency ÷ air standard efficiency."
+   },
+   "explain_simple": {
+    "en": "How near the real engine is to the ideal."
+   }
+  },
+  {
+   "id": "u2.performance.f08",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Specific fuel consumption (SFC) = fuel used per hour / brake power. Unit: kg/kWh. Lower SFC = better engine."
+   },
+   "why": {
+    "en": "It shows fuel needed for each unit of power."
+   },
+   "recall_q": {
+    "en": "Is a lower or higher SFC better?"
+   },
+   "recall_a": {
+    "en": "Lower."
+   },
+   "explain_simple": {
+    "en": "Less fuel for the same work is better."
+   }
+  },
+  {
+   "id": "u2.performance.f09",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Volumetric efficiency = actual volume of air drawn in / swept volume (at intake conditions)."
+   },
+   "why": {
+    "en": "Shows how well the engine breathes."
+   },
+   "example": {
+    "en": "Naturally aspirated engines get 70–90%; turbocharged can exceed 100%."
+   },
+   "recall_q": {
+    "en": "Volumetric efficiency compares what?"
+   },
+   "recall_a": {
+    "en": "Actual air drawn in with swept volume."
+   },
+   "explain_simple": {
+    "en": "How full the cylinder really gets."
+   }
+  },
+  {
+   "id": "u2.performance.f10",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A dynamometer measures brake power. Types: rope brake, Prony brake (absorption), hydraulic, eddy current, and transmission dynamometers."
+   },
+   "why": {
+    "en": "It applies a measured load to the shaft."
+   },
+   "recall_q": {
+    "en": "Instrument used to measure brake power?"
+   },
+   "recall_a": {
+    "en": "Dynamometer."
+   },
+   "explain_simple": {
+    "en": "A machine that loads the engine to measure its power."
+   }
+  },
+  {
+   "id": "u2.performance.f11",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Engine indicator draws the actual PV (indicator) diagram of a running engine. Its area gives indicated work."
+   },
+   "why": {
+    "en": "IP is found from the indicator diagram."
+   },
+   "recall_q": {
+    "en": "Which instrument draws the PV diagram of a running engine?"
+   },
+   "recall_a": {
+    "en": "Engine indicator."
+   },
+   "explain_simple": {
+    "en": "It traces pressure against volume while the engine runs."
+   }
+  },
+  {
+   "id": "u2.performance.f12",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Morse test finds IP of a multi-cylinder engine. Each cylinder is cut off in turn, and the fall in BP gives that cylinder's IP."
+   },
+   "why": {
+    "en": "Cutting one cylinder at constant speed leaves friction the same."
+   },
+   "recall_q": {
+    "en": "Morse test is used for what kind of engine?"
+   },
+   "recall_a": {
+    "en": "Multi-cylinder engine (to find IP)."
+   },
+   "explain_simple": {
+    "en": "Switch off one cylinder at a time and see how much power drops."
+   }
+  },
+  {
+   "id": "u2.performance.f13",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In the Morse test, IP of one cylinder = total BP − BP with that cylinder cut off. Sum for all cylinders gives engine IP."
+   },
+   "why": {
+    "en": "The missing power is what that cylinder gave."
+   },
+   "recall_q": {
+    "en": "IP of cylinder 1 in Morse test?"
+   },
+   "recall_a": {
+    "en": "BP (all firing) − BP (cylinder 1 cut off)."
+   },
+   "explain_simple": {
+    "en": "Power lost = power that cylinder was making."
+   }
+  },
+  {
+   "id": "u2.performance.f14",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Willan's line method (fuel rate extrapolation) finds frictional power of a diesel engine by plotting fuel consumption against BP and extending the line to zero fuel."
+   },
+   "why": {
+    "en": "The negative BP where fuel is zero equals the friction power."
+   },
+   "recall_q": {
+    "en": "Willan's line method finds what?"
+   },
+   "recall_a": {
+    "en": "Frictional power (of CI engines)."
+   },
+   "explain_simple": {
+    "en": "Draw the fuel line back to zero to find friction."
+   }
+  },
+  {
+   "id": "u2.performance.f15",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Motoring test: the engine is driven by an electric motor without firing; motor power needed = frictional power."
+   },
+   "why": {
+    "en": "With no combustion, the motor only overcomes friction and pumping."
+   },
+   "recall_q": {
+    "en": "Which test drives an engine with a motor to find friction power?"
+   },
+   "recall_a": {
+    "en": "Motoring test."
+   },
+   "explain_simple": {
+    "en": "Spin the engine with a motor; the motor's effort is friction."
+   }
+  },
+  {
+   "id": "u2.performance.f16",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heat balance sheet shows where fuel heat goes: brake power, cooling water, exhaust gases and unaccounted losses."
+   },
+   "why": {
+    "en": "It helps find and reduce waste."
+   },
+   "recall_q": {
+    "en": "Name the heads in a heat balance sheet."
+   },
+   "recall_a": {
+    "en": "BP, cooling water, exhaust, unaccounted losses."
+   },
+   "explain_simple": {
+    "en": "A bill showing where every unit of fuel heat went."
+   }
+  },
+  {
+   "id": "u2.performance.f17",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A typical petrol engine turns only about 25–30% of fuel heat into brake power. About 30% goes to cooling and about 35% to exhaust."
+   },
+   "why": {
+    "en": "Most heat is lost, as the second law says."
+   },
+   "recall_q": {
+    "en": "Roughly what share of fuel heat becomes useful power in a petrol engine?"
+   },
+   "recall_a": {
+    "en": "About 25–30%."
+   },
+   "explain_simple": {
+    "en": "Only about a quarter becomes motion."
+   }
+  },
+  {
+   "id": "u2.performance.f18",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Calorific value is the heat released by burning 1 kg of fuel. Petrol and diesel are about 42–44 MJ/kg."
+   },
+   "why": {
+    "en": "It is used to find fuel energy in efficiency calculations."
+   },
+   "recall_q": {
+    "en": "Approximate calorific value of petrol?"
+   },
+   "recall_a": {
+    "en": "About 44 MJ/kg."
+   },
+   "explain_simple": {
+    "en": "Energy packed in 1 kg of fuel."
+   }
+  },
+  {
+   "id": "u2.performance.f19",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stoichiometric (chemically correct) air–fuel ratio for petrol is about 14.7 : 1 by mass."
+   },
+   "why": {
+    "en": "That much air exactly burns all the fuel."
+   },
+   "recall_q": {
+    "en": "Chemically correct air-fuel ratio for petrol?"
+   },
+   "recall_a": {
+    "en": "About 14.7 : 1"
+   },
+   "explain_simple": {
+    "en": "About 15 kg of air for 1 kg of petrol."
+   }
+  },
+  {
+   "id": "u2.performance.f20",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Torque is turning force at the crankshaft (N·m). Power = torque × speed."
+   },
+   "why": {
+    "en": "Same torque at higher rpm gives more power."
+   },
+   "recall_q": {
+    "en": "Relation between power and torque?"
+   },
+   "recall_a": {
+    "en": "P = 2πNT/60"
+   },
+   "explain_simple": {
+    "en": "Torque = twist; power = twist × speed."
+   }
+  },
+  {
+   "id": "u2.performance.f21",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "1 metric horsepower = 735.5 W. 1 kW ≈ 1.36 metric hp."
+   },
+   "why": {
+    "en": "Vehicle brochures give power in hp, PS or kW."
+   },
+   "recall_q": {
+    "en": "1 metric hp is how many watts?"
+   },
+   "recall_a": {
+    "en": "735.5 W"
+   },
+   "explain_simple": {
+    "en": "One horse ≈ three-quarters of a kilowatt."
+   }
+  },
+  {
+   "id": "u2.performance.s01",
+   "topic": "u2.performance",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: mechanical efficiency"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: An engine has IP = 50 kW and FP = 10 kW. Find BP and mechanical efficiency."
+     }
+    },
+    {
+     "text": {
+      "en": "BP = IP − FP = 50 − 10 = 40 kW."
+     }
+    },
+    {
+     "text": {
+      "en": "ηm = BP/IP = 40/50 = 0.8."
+     }
+    },
+    {
+     "text": {
+      "en": "Mechanical efficiency = 80%."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "BP = IP − FP."
+    },
+    {
+     "en": "ηm = BP/IP."
+    }
+   ],
+   "recall_q": {
+    "en": "IP 50 kW, BP 40 kW: mechanical efficiency?"
+   },
+   "recall_a": {
+    "en": "80%"
+   }
+  },
+  {
+   "id": "u2.performance.s02",
+   "topic": "u2.performance",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: brake power"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: Engine torque is 100 N·m at 3000 rpm. Find brake power."
+     }
+    },
+    {
+     "text": {
+      "en": "BP = 2πNT/60."
+     }
+    },
+    {
+     "text": {
+      "en": "BP = 2 × 3.14 × 3000 × 100 / 60 = 31,400 W."
+     }
+    },
+    {
+     "text": {
+      "en": "BP ≈ 31.4 kW."
+     },
+     "explain": {
+      "en": "Divide watts by 1000 for kW."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "BP = 2πNT/60 (watts)."
+    },
+    {
+     "en": "Divide by 1000 to get kW."
+    }
+   ],
+   "recall_q": {
+    "en": "Formula used to find BP from torque and rpm?"
+   },
+   "recall_a": {
+    "en": "2πNT/60"
+   }
+  },
+  {
+   "id": "u2.performance.sum",
+   "topic": "u2.performance",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "IC engine performance and testing"
+   },
+   "points": [
+    {
+     "en": "IP inside, BP at shaft, FP = IP − BP."
+    },
+    {
+     "en": "ηm = BP/IP; ηbth = BP/(mf × CV)."
+    },
+    {
+     "en": "Relative efficiency = actual/air standard."
+    },
+    {
+     "en": "SFC kg/kWh — lower is better."
+    },
+    {
+     "en": "Morse test (multi-cylinder IP), Willan's line, heat balance sheet."
+    }
+   ]
+  },
+  {
+   "id": "u2.compressors.f01",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An air compressor takes in air at low pressure and delivers it at high pressure."
+   },
+   "why": {
+    "en": "Work is done on the air to squeeze it."
+   },
+   "recall_q": {
+    "en": "What does a compressor do?"
+   },
+   "recall_a": {
+    "en": "Raises the pressure of air (or gas)."
+   },
+   "explain_simple": {
+    "en": "It squeezes air."
+   }
+  },
+  {
+   "id": "u2.compressors.f02",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Uses of compressed air in vehicles: air brakes, air suspension, tyre inflation, door opening in buses, horns, paint spraying in workshops."
+   },
+   "why": {
+    "en": "Compressed air stores energy and is safe and clean."
+   },
+   "example": {
+    "en": "KSRTC buses use air brakes and air-operated doors."
+   },
+   "recall_q": {
+    "en": "Give one automobile use of compressed air."
+   },
+   "recall_a": {
+    "en": "Air brakes (also tyre inflation, air suspension, doors)."
+   },
+   "explain_simple": {
+    "en": "Air brakes in buses run on compressed air."
+   }
+  },
+  {
+   "id": "u2.compressors.f03",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Types of compressors: reciprocating (piston), rotary (vane, screw, lobe/roots), centrifugal and axial."
+   },
+   "why": {
+    "en": "Reciprocating gives high pressure; rotary gives large steady flow."
+   },
+   "recall_q": {
+    "en": "Which compressor type uses a piston?"
+   },
+   "recall_a": {
+    "en": "Reciprocating compressor."
+   },
+   "explain_simple": {
+    "en": "Piston type for high pressure, rotary type for lots of air."
+   }
+  },
+  {
+   "id": "u2.compressors.f04",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Single acting compressor: air is compressed on one side of the piston. Double acting: on both sides."
+   },
+   "why": {
+    "en": "Double acting delivers twice the air per revolution."
+   },
+   "recall_q": {
+    "en": "In a double-acting compressor, air is compressed on how many sides of the piston?"
+   },
+   "recall_a": {
+    "en": "Both sides."
+   },
+   "explain_simple": {
+    "en": "Double acting works both ways."
+   }
+  },
+  {
+   "id": "u2.compressors.f05",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Single stage compressor: air compressed to final pressure in one cylinder. Multi-stage: in two or more cylinders with intercooling."
+   },
+   "why": {
+    "en": "High pressure in one stage makes air too hot and wastes work."
+   },
+   "recall_q": {
+    "en": "Why use multi-stage compression for high pressure?"
+   },
+   "recall_a": {
+    "en": "Saves work and keeps temperature low (with intercooling)."
+   },
+   "explain_simple": {
+    "en": "Squeeze in steps and cool in between."
+   }
+  },
+  {
+   "id": "u2.compressors.f06",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "An intercooler cools air between stages of a multi-stage compressor."
+   },
+   "why": {
+    "en": "Cooler air is easier to compress, so work is saved."
+   },
+   "recall_q": {
+    "en": "What is the job of an intercooler?"
+   },
+   "recall_a": {
+    "en": "To cool air between compression stages."
+   },
+   "explain_simple": {
+    "en": "Cool the air before squeezing again."
+   }
+  },
+  {
+   "id": "u2.compressors.f07",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Perfect intercooling: air is cooled back to its starting temperature after each stage."
+   },
+   "why": {
+    "en": "This gives the least total work."
+   },
+   "recall_q": {
+    "en": "What is perfect intercooling?"
+   },
+   "recall_a": {
+    "en": "Cooling air to initial (suction) temperature after each stage."
+   },
+   "explain_simple": {
+    "en": "Bring air back to start temperature each time."
+   }
+  },
+  {
+   "id": "u2.compressors.f08",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "For least work in a two-stage compressor, intermediate pressure p₂ = √(p₁ × p₃)."
+   },
+   "why": {
+    "en": "This divides the work equally between the two stages."
+   },
+   "recall_q": {
+    "en": "Ideal intermediate pressure in a two-stage compressor?"
+   },
+   "recall_a": {
+    "en": "√(p₁p₃)"
+   },
+   "explain_simple": {
+    "en": "Middle pressure = square root of first × last."
+   }
+  },
+  {
+   "id": "u2.compressors.f09",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compression work is least for isothermal compression and most for adiabatic compression."
+   },
+   "why": {
+    "en": "Hot air resists squeezing; keeping it cool lowers work."
+   },
+   "recall_q": {
+    "en": "Which compression needs the least work?"
+   },
+   "recall_a": {
+    "en": "Isothermal."
+   },
+   "explain_simple": {
+    "en": "Cool squeezing is easiest."
+   }
+  },
+  {
+   "id": "u2.compressors.f10",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Isothermal efficiency of a compressor = isothermal work / actual work."
+   },
+   "why": {
+    "en": "It compares the real compressor with the ideal minimum work."
+   },
+   "recall_q": {
+    "en": "Isothermal efficiency = ?"
+   },
+   "recall_a": {
+    "en": "Isothermal work ÷ actual work input."
+   },
+   "explain_simple": {
+    "en": "Ideal work ÷ real work."
+   }
+  },
+  {
+   "id": "u2.compressors.f11",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Volumetric efficiency of a reciprocating compressor falls as clearance volume and pressure ratio rise."
+   },
+   "why": {
+    "en": "Compressed air left in the clearance re-expands and blocks fresh air."
+   },
+   "recall_q": {
+    "en": "Effect of more clearance on compressor volumetric efficiency?"
+   },
+   "recall_a": {
+    "en": "It decreases."
+   },
+   "explain_simple": {
+    "en": "Leftover air takes the place of new air."
+   }
+  },
+  {
+   "id": "u2.compressors.f12",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Free air delivered (FAD) is the compressed air output, expressed as volume at atmospheric conditions."
+   },
+   "why": {
+    "en": "This makes compressors of different makes comparable."
+   },
+   "recall_q": {
+    "en": "What is FAD?"
+   },
+   "recall_a": {
+    "en": "Free air delivered — output volume at atmospheric conditions."
+   },
+   "explain_simple": {
+    "en": "How much normal air the compressor takes in and delivers."
+   }
+  },
+  {
+   "id": "u2.compressors.f13",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Roots blower (lobe compressor) has no internal compression; it moves air and pressure rises at delivery. Used as superchargers."
+   },
+   "why": {
+    "en": "Two lobes trap air and carry it round."
+   },
+   "recall_q": {
+    "en": "Which rotary compressor is used as a supercharger with two lobes?"
+   },
+   "recall_a": {
+    "en": "Roots blower."
+   },
+   "explain_simple": {
+    "en": "Two spinning lobes push air."
+   }
+  },
+  {
+   "id": "u2.compressors.f14",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Centrifugal compressors (turbochargers) use a fast-spinning impeller to throw air outward and raise its pressure."
+   },
+   "why": {
+    "en": "Air speed is turned into pressure in the diffuser."
+   },
+   "recall_q": {
+    "en": "Turbochargers use which type of compressor?"
+   },
+   "recall_a": {
+    "en": "Centrifugal compressor."
+   },
+   "explain_simple": {
+    "en": "A spinning wheel flings air to squeeze it."
+   }
+  },
+  {
+   "id": "u2.compressors.sum",
+   "topic": "u2.compressors",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Air compressors"
+   },
+   "points": [
+    {
+     "en": "Compressor raises air pressure; uses: air brakes, tyres, doors."
+    },
+    {
+     "en": "Reciprocating, rotary (vane, screw, roots), centrifugal, axial."
+    },
+    {
+     "en": "Single/double acting; single/multi stage."
+    },
+    {
+     "en": "Intercooler saves work; p₂ = √(p₁p₃)."
+    },
+    {
+     "en": "Isothermal = least work."
+    }
+   ]
+  },
+  {
+   "id": "u2.heat.f01",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heat moves in three ways: conduction, convection and radiation."
+   },
+   "why": {
+    "en": "Heat always flows from hot to cold."
+   },
+   "recall_q": {
+    "en": "Three modes of heat transfer?"
+   },
+   "recall_a": {
+    "en": "Conduction, convection, radiation."
+   },
+   "explain_simple": {
+    "en": "Touch, flow, rays."
+   }
+  },
+  {
+   "id": "u2.heat.f02",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Conduction is heat passing through a solid from particle to particle, with no movement of the material."
+   },
+   "why": {
+    "en": "Hot particles vibrate and pass energy to their neighbours."
+   },
+   "example": {
+    "en": "A steel spoon in hot tea gets hot at the handle."
+   },
+   "recall_q": {
+    "en": "Heat through a solid by contact is called?"
+   },
+   "recall_a": {
+    "en": "Conduction."
+   },
+   "explain_simple": {
+    "en": "Heat passes hand to hand."
+   }
+  },
+  {
+   "id": "u2.heat.f03",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Convection is heat carried by moving fluid (liquid or gas)."
+   },
+   "why": {
+    "en": "Hot fluid becomes lighter and rises; cold fluid sinks."
+   },
+   "example": {
+    "en": "Coolant carries heat from the engine to the radiator. Sea breeze."
+   },
+   "recall_q": {
+    "en": "Heat carried by a moving fluid is called?"
+   },
+   "recall_a": {
+    "en": "Convection."
+   },
+   "explain_simple": {
+    "en": "The fluid itself carries the heat."
+   }
+  },
+  {
+   "id": "u2.heat.f04",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Natural (free) convection: fluid moves due to density difference. Forced convection: a fan or pump moves the fluid."
+   },
+   "why": {
+    "en": "A radiator fan forces air through the core."
+   },
+   "recall_q": {
+    "en": "A radiator with a fan uses which convection?"
+   },
+   "recall_a": {
+    "en": "Forced convection."
+   },
+   "explain_simple": {
+    "en": "Natural = by itself. Forced = by a fan or pump."
+   }
+  },
+  {
+   "id": "u2.heat.f05",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Radiation is heat travelling as electromagnetic waves. It needs no medium and can cross vacuum."
+   },
+   "why": {
+    "en": "This is how the Sun's heat reaches Earth."
+   },
+   "recall_q": {
+    "en": "Which mode of heat transfer works in vacuum?"
+   },
+   "recall_a": {
+    "en": "Radiation."
+   },
+   "explain_simple": {
+    "en": "Heat rays travel even through empty space."
+   }
+  },
+  {
+   "id": "u2.heat.f06",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fourier's law of conduction: Q = −k A (dT/dx). Heat flow is proportional to area and temperature gradient."
+   },
+   "why": {
+    "en": "Steeper temperature drop pushes more heat through."
+   },
+   "recall_q": {
+    "en": "Which law governs heat conduction?"
+   },
+   "recall_a": {
+    "en": "Fourier's law."
+   },
+   "explain_simple": {
+    "en": "More area and bigger temperature drop = more heat flow."
+   }
+  },
+  {
+   "id": "u2.heat.f07",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermal conductivity (k) is a material's ability to conduct heat. Unit: W/m·K."
+   },
+   "why": {
+    "en": "It appears in Fourier's law."
+   },
+   "recall_q": {
+    "en": "SI unit of thermal conductivity?"
+   },
+   "recall_a": {
+    "en": "W/m·K"
+   },
+   "explain_simple": {
+    "en": "How easily heat passes through a material."
+   }
+  },
+  {
+   "id": "u2.heat.f08",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Silver and copper have very high thermal conductivity. Air, wood and glass wool have low k (insulators)."
+   },
+   "why": {
+    "en": "Free electrons in metals carry heat quickly."
+   },
+   "example": {
+    "en": "Radiators use copper or aluminium. Silencer heat shields use insulation."
+   },
+   "recall_q": {
+    "en": "Which metal has the highest thermal conductivity?"
+   },
+   "recall_a": {
+    "en": "Silver (then copper)."
+   },
+   "explain_simple": {
+    "en": "Metals pass heat fast; air and wool slow it down."
+   }
+  },
+  {
+   "id": "u2.heat.f09",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Newton's law of cooling: convection heat Q = h A (Ts − T∞). h = heat transfer coefficient (W/m²K)."
+   },
+   "why": {
+    "en": "Heat loss depends on surface area and temperature difference."
+   },
+   "recall_q": {
+    "en": "Law used for convection heat transfer?"
+   },
+   "recall_a": {
+    "en": "Newton's law of cooling, Q = hAΔT."
+   },
+   "explain_simple": {
+    "en": "Bigger surface and bigger temperature gap = faster cooling."
+   }
+  },
+  {
+   "id": "u2.heat.f10",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stefan–Boltzmann law: radiation energy E = σ T⁴. σ = 5.67 × 10⁻⁸ W/m²K⁴."
+   },
+   "why": {
+    "en": "Double the absolute temperature → 16 times the radiation."
+   },
+   "recall_q": {
+    "en": "Radiation emitted is proportional to temperature to which power?"
+   },
+   "recall_a": {
+    "en": "Fourth power (T⁴)."
+   },
+   "explain_simple": {
+    "en": "A bit hotter gives off much more radiation."
+   }
+  },
+  {
+   "id": "u2.heat.f11",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A black body absorbs all radiation falling on it and is the best emitter. Emissivity of a black body = 1."
+   },
+   "why": {
+    "en": "Dark, rough surfaces absorb and emit well; shiny ones do not."
+   },
+   "example": {
+    "en": "Radiators are painted black to give off heat better."
+   },
+   "recall_q": {
+    "en": "Emissivity of a perfect black body?"
+   },
+   "recall_a": {
+    "en": "1"
+   },
+   "explain_simple": {
+    "en": "Black absorbs and gives off heat best."
+   }
+  },
+  {
+   "id": "u2.heat.f12",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Kirchhoff's law: at thermal equilibrium, emissivity of a body equals its absorptivity."
+   },
+   "why": {
+    "en": "Good absorbers are good emitters."
+   },
+   "recall_q": {
+    "en": "Which law says emissivity = absorptivity?"
+   },
+   "recall_a": {
+    "en": "Kirchhoff's law."
+   },
+   "explain_simple": {
+    "en": "A good absorber is a good emitter."
+   }
+  },
+  {
+   "id": "u2.heat.f13",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermal resistance of a plane wall R = L/(kA). Walls in series: resistances add."
+   },
+   "why": {
+    "en": "Like electric resistance, it opposes heat flow."
+   },
+   "recall_q": {
+    "en": "Thermal resistance of a plane wall?"
+   },
+   "recall_a": {
+    "en": "L/(kA)"
+   },
+   "explain_simple": {
+    "en": "Thicker wall or poorer conductor = more resistance."
+   }
+  },
+  {
+   "id": "u2.heat.f14",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heat exchanger types: parallel flow (both fluids same direction) and counter flow (opposite directions). Counter flow is more effective."
+   },
+   "why": {
+    "en": "In counter flow the temperature difference stays more even along the length."
+   },
+   "example": {
+    "en": "A car radiator is a cross-flow heat exchanger."
+   },
+   "recall_q": {
+    "en": "Which heat exchanger is more effective: parallel or counter flow?"
+   },
+   "recall_a": {
+    "en": "Counter flow."
+   },
+   "explain_simple": {
+    "en": "Fluids moving opposite ways swap heat better."
+   }
+  },
+  {
+   "id": "u2.heat.f15",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fins are extended surfaces that increase heat transfer area."
+   },
+   "why": {
+    "en": "More area lets more heat escape by convection."
+   },
+   "example": {
+    "en": "Fins on motorcycle engine cylinders."
+   },
+   "recall_q": {
+    "en": "Why do air-cooled engines have fins?"
+   },
+   "recall_a": {
+    "en": "To increase surface area for heat loss."
+   },
+   "explain_simple": {
+    "en": "Fins give heat more room to leave."
+   }
+  },
+  {
+   "id": "u2.heat.sum",
+   "topic": "u2.heat",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Heat transfer"
+   },
+   "points": [
+    {
+     "en": "Conduction (solids), convection (fluids), radiation (waves, vacuum)."
+    },
+    {
+     "en": "Fourier: Q = −kA dT/dx; k in W/m·K."
+    },
+    {
+     "en": "Newton cooling Q = hAΔT; Stefan–Boltzmann E = σT⁴."
+    },
+    {
+     "en": "Black body emissivity = 1; Kirchhoff: ε = α."
+    },
+    {
+     "en": "Fins add area; counter flow best."
+    }
+   ]
+  },
+  {
+   "id": "u2.engines.f32",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Engines are classified by fuel (petrol, diesel, CNG, LPG), ignition (SI, CI), strokes (2, 4), cooling (air, water), cylinder layout (inline, V, flat/opposed, radial) and valve position."
+   },
+   "why": {
+    "en": "PSC often asks one of these classification bases."
+   },
+   "recall_q": {
+    "en": "Name two bases for classifying IC engines."
+   },
+   "recall_a": {
+    "en": "Fuel, ignition, strokes, cooling, cylinder arrangement, valve position."
+   },
+   "explain_simple": {
+    "en": "Engines are grouped by fuel, firing, strokes, cooling and layout."
+   }
+  },
+  {
+   "id": "u2.engines.f33",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "V-engine: two rows of cylinders in a V shape on one crankshaft. Flat (boxer): two rows lying opposite each other."
+   },
+   "why": {
+    "en": "These layouts make long engines shorter and smoother."
+   },
+   "recall_q": {
+    "en": "Engine with cylinders horizontally opposed is called?"
+   },
+   "recall_a": {
+    "en": "Flat or boxer engine."
+   },
+   "explain_simple": {
+    "en": "V = two rows at an angle. Boxer = two rows flat, facing out."
+   }
+  },
+  {
+   "id": "u2.engines.f34",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Petrol engine has a spark plug and carburettor or petrol injector. Diesel engine has a fuel injection pump and injector, and no spark plug."
+   },
+   "why": {
+    "en": "The ignition method decides the parts."
+   },
+   "recall_q": {
+    "en": "Which part is not found in a diesel engine: spark plug or injector?"
+   },
+   "recall_a": {
+    "en": "Spark plug."
+   },
+   "explain_simple": {
+    "en": "Spark plug = petrol. Injector pump = diesel."
+   }
+  },
+  {
+   "id": "u2.engines.f35",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Petrol engine power is controlled by a throttle valve (quantity governing). Diesel engine power is controlled by the amount of fuel injected (quality governing)."
+   },
+   "why": {
+    "en": "Diesel always takes full air; only fuel quantity changes."
+   },
+   "recall_q": {
+    "en": "How is a diesel engine's power controlled?"
+   },
+   "recall_a": {
+    "en": "By changing the quantity of fuel injected (quality governing)."
+   },
+   "explain_simple": {
+    "en": "Petrol: control air-fuel mix amount. Diesel: control fuel only."
+   }
+  },
+  {
+   "id": "u2.engines.f36",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel engines run at lower speeds than petrol engines and have heavier parts."
+   },
+   "why": {
+    "en": "High compression pressure needs strong, heavy parts."
+   },
+   "recall_q": {
+    "en": "Which engine is heavier for the same power: petrol or diesel?"
+   },
+   "recall_a": {
+    "en": "Diesel."
+   },
+   "explain_simple": {
+    "en": "Diesel squeezes harder, so it is built heavier."
+   }
+  },
+  {
+   "id": "u2.engines.f37",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ignition delay in a diesel engine is the time between start of injection and start of combustion."
+   },
+   "why": {
+    "en": "Fuel must mix with air and heat up before it lights."
+   },
+   "recall_q": {
+    "en": "Time between fuel injection and start of burning is called?"
+   },
+   "recall_a": {
+    "en": "Ignition delay."
+   },
+   "explain_simple": {
+    "en": "The short wait before diesel catches fire."
+   }
+  },
+  {
+   "id": "u2.engines.f38",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stages of combustion in a CI engine: ignition delay, rapid (uncontrolled) combustion, controlled combustion, after-burning."
+   },
+   "why": {
+    "en": "Fuel first waits, then burns all at once, then burns as it is injected."
+   },
+   "recall_q": {
+    "en": "First stage of combustion in a diesel engine?"
+   },
+   "recall_a": {
+    "en": "Ignition delay period."
+   },
+   "explain_simple": {
+    "en": "Wait, bang, steady burn, after-burn."
+   }
+  },
+  {
+   "id": "u2.engines.f39",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stages of combustion in an SI engine: ignition lag (preparation), flame propagation, after-burning."
+   },
+   "why": {
+    "en": "The spark starts a small flame that spreads across the chamber."
+   },
+   "recall_q": {
+    "en": "Main stage of combustion in a petrol engine after ignition lag?"
+   },
+   "recall_a": {
+    "en": "Flame propagation."
+   },
+   "explain_simple": {
+    "en": "Spark, spread, finish."
+   }
+  },
+  {
+   "id": "u2.engines.f40",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pre-ignition is ignition of the mixture before the spark, by a hot spot such as a glowing carbon deposit or overheated plug."
+   },
+   "why": {
+    "en": "Hot spots light the charge too early."
+   },
+   "recall_q": {
+    "en": "Ignition caused by a hot spot before the spark is called?"
+   },
+   "recall_a": {
+    "en": "Pre-ignition."
+   },
+   "explain_simple": {
+    "en": "Fire starts before the spark — too early."
+   }
+  },
+  {
+   "id": "u2.engines.f41",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Running-on (dieseling) is when a petrol engine keeps running after the ignition is switched off."
+   },
+   "why": {
+    "en": "Hot spots keep lighting the mixture."
+   },
+   "recall_q": {
+    "en": "A petrol engine running after switch-off is called?"
+   },
+   "recall_a": {
+    "en": "Running-on (dieseling)."
+   },
+   "explain_simple": {
+    "en": "The engine refuses to stop because it is too hot inside."
+   }
+  },
+  {
+   "id": "u2.engines.f42",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Tetra-ethyl lead (TEL) was once added to petrol to stop knocking. It is now banned because lead is poisonous and damages catalytic converters."
+   },
+   "why": {
+    "en": "India moved to unleaded petrol by 2000."
+   },
+   "recall_q": {
+    "en": "Why was tetra-ethyl lead added to petrol?"
+   },
+   "recall_a": {
+    "en": "As an anti-knock agent (now banned)."
+   },
+   "explain_simple": {
+    "en": "Lead stopped knocking but poisoned the air."
+   }
+  },
+  {
+   "id": "u2.engines.f43",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Supercharging is forcing more air into the cylinder than it would draw by itself. Turbocharger uses exhaust gas; supercharger is driven by the engine."
+   },
+   "why": {
+    "en": "More air allows more fuel to burn, giving more power."
+   },
+   "recall_q": {
+    "en": "A turbocharger is driven by what?"
+   },
+   "recall_a": {
+    "en": "Exhaust gases."
+   },
+   "explain_simple": {
+    "en": "Pack in more air to get more power."
+   }
+  },
+  {
+   "id": "u2.engines.f44",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel combustion chambers: direct injection (open chamber) and indirect injection (pre-combustion chamber, swirl chamber)."
+   },
+   "why": {
+    "en": "Indirect chambers mix air and fuel better but lose more heat."
+   },
+   "recall_q": {
+    "en": "Name two types of diesel combustion chamber."
+   },
+   "recall_a": {
+    "en": "Direct injection (open) and indirect (pre-chamber, swirl chamber)."
+   },
+   "explain_simple": {
+    "en": "Fuel sprayed straight in, or into a small side room first."
+   }
+  },
+  {
+   "id": "u2.engines.f45",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Glow plugs heat the combustion chamber of indirect injection diesel engines for easy cold starting."
+   },
+   "why": {
+    "en": "Cold walls take away heat needed for self-ignition."
+   },
+   "recall_q": {
+    "en": "Purpose of a glow plug?"
+   },
+   "recall_a": {
+    "en": "To help cold starting of diesel engines."
+   },
+   "explain_simple": {
+    "en": "A small heater to start a cold diesel."
+   }
+  },
+  {
+   "id": "u2.engines.f46",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Squish is the squeezing of mixture out from between piston crown and head near TDC. Swirl is the rotating motion of air in the cylinder."
+   },
+   "why": {
+    "en": "Both mix air and fuel better for clean, fast burning."
+   },
+   "recall_q": {
+    "en": "Rotating motion of air in a cylinder is called?"
+   },
+   "recall_a": {
+    "en": "Swirl."
+   },
+   "explain_simple": {
+    "en": "Squish squeezes; swirl spins."
+   }
+  },
+  {
+   "id": "u2.engines.f47",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mean piston speed = 2 L N / 60 (m/s)."
+   },
+   "why": {
+    "en": "The piston covers two strokes per revolution."
+   },
+   "recall_q": {
+    "en": "Mean piston speed formula?"
+   },
+   "recall_a": {
+    "en": "2LN/60"
+   },
+   "explain_simple": {
+    "en": "Two strokes each turn × turns per second."
+   }
+  },
+  {
+   "id": "u2.engines.f48",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Power strokes per minute: four-stroke n = N/2; two-stroke n = N (N = rpm)."
+   },
+   "why": {
+    "en": "Used in the indicated power formula."
+   },
+   "recall_q": {
+    "en": "Power strokes per minute in a four-stroke engine at N rpm?"
+   },
+   "recall_a": {
+    "en": "N/2"
+   },
+   "explain_simple": {
+    "en": "Four-stroke fires at half the rpm."
+   }
+  },
+  {
+   "id": "u2.engines.f49",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fuel for SI engines must be volatile (evaporate easily). Fuel for CI engines must have good ignition quality and suitable viscosity."
+   },
+   "why": {
+    "en": "Petrol must mix as vapour; diesel must self-ignite and spray well."
+   },
+   "recall_q": {
+    "en": "Which property is most important for petrol: volatility or cetane?"
+   },
+   "recall_a": {
+    "en": "Volatility (and anti-knock)."
+   },
+   "explain_simple": {
+    "en": "Petrol must evaporate easily."
+   }
+  },
+  {
+   "id": "u2.engines.f50",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "CNG has high octane (about 120) and suits SI engines. LPG is mainly propane and butane."
+   },
+   "why": {
+    "en": "Gas fuels burn clean and resist knock."
+   },
+   "example": {
+    "en": "Autorickshaws and city buses in Kochi run on CNG."
+   },
+   "recall_q": {
+    "en": "Main gases in LPG?"
+   },
+   "recall_a": {
+    "en": "Propane and butane."
+   },
+   "explain_simple": {
+    "en": "CNG = methane; LPG = propane + butane."
+   }
+  },
+  {
+   "id": "u2.engines.f51",
+   "topic": "u2.engines",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Two-stroke and four-stroke engines, valve timing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "CNG is mostly methane, stored at about 200 bar in cylinders."
+   },
+   "why": {
+    "en": "Methane must be compressed to store enough in a small tank."
+   },
+   "recall_q": {
+    "en": "Main component of CNG?"
+   },
+   "recall_a": {
+    "en": "Methane."
+   },
+   "explain_simple": {
+    "en": "CNG is squeezed methane gas."
+   }
+  },
+  {
+   "id": "u2.performance.f52",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brake mean effective pressure (bmep) = BP related to swept volume. imep relates to IP. bmep = ηm × imep."
+   },
+   "why": {
+    "en": "Mean effective pressure lets engines of different sizes be compared."
+   },
+   "recall_q": {
+    "en": "bmep in terms of imep?"
+   },
+   "recall_a": {
+    "en": "bmep = ηm × imep"
+   },
+   "explain_simple": {
+    "en": "Shaft pressure = efficiency × cylinder pressure."
+   }
+  },
+  {
+   "id": "u2.performance.f53",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Engine performance curves plot BP, torque and SFC against speed."
+   },
+   "why": {
+    "en": "Torque peaks at medium speed; BP keeps rising to a higher speed; SFC is lowest at medium load."
+   },
+   "recall_q": {
+    "en": "At which speed is torque usually highest: low, medium or top?"
+   },
+   "recall_a": {
+    "en": "Medium speed."
+   },
+   "explain_simple": {
+    "en": "Torque peaks in the middle, power peaks near the top."
+   }
+  },
+  {
+   "id": "u2.performance.f54",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air consumption is measured with an air box and orifice, which steadies the pulsing intake flow."
+   },
+   "why": {
+    "en": "Engine intake is in pulses; the box smooths them for accurate reading."
+   },
+   "recall_q": {
+    "en": "How is air flow into an engine measured on a test bed?"
+   },
+   "recall_a": {
+    "en": "Air box with an orifice and manometer."
+   },
+   "explain_simple": {
+    "en": "A big box calms the air so it can be measured."
+   }
+  },
+  {
+   "id": "u2.performance.f55",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fuel consumption is measured with a burette: time taken to use a known volume (e.g. 50 cc) of fuel."
+   },
+   "why": {
+    "en": "Volume × density ÷ time gives kg per second."
+   },
+   "recall_q": {
+    "en": "Simple instrument to measure fuel consumption on a test bed?"
+   },
+   "recall_a": {
+    "en": "Burette with stopwatch."
+   },
+   "explain_simple": {
+    "en": "Time how fast 50 cc of fuel is used."
+   }
+  },
+  {
+   "id": "u2.performance.f56",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Indicated thermal efficiency is always higher than brake thermal efficiency."
+   },
+   "why": {
+    "en": "BP is less than IP because of friction."
+   },
+   "recall_q": {
+    "en": "Which is higher: indicated or brake thermal efficiency?"
+   },
+   "recall_a": {
+    "en": "Indicated thermal efficiency."
+   },
+   "explain_simple": {
+    "en": "Friction makes brake efficiency lower."
+   }
+  },
+  {
+   "id": "u2.performance.f57",
+   "topic": "u2.performance",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — IC engine performance and testing; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exhaust gas analysers measure CO, HC, CO₂ and O₂ in petrol exhaust. Smoke meters measure diesel smoke opacity."
+   },
+   "why": {
+    "en": "Used for pollution under control (PUC) testing."
+   },
+   "recall_q": {
+    "en": "Diesel smoke is measured by?"
+   },
+   "recall_a": {
+    "en": "Smoke meter (opacity meter)."
+   },
+   "explain_simple": {
+    "en": "Gas analyser for petrol, smoke meter for diesel."
+   }
+  },
+  {
+   "id": "u2.heat.f58",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Good insulators: asbestos (now avoided), glass wool, mineral wool, cork, thermocol."
+   },
+   "why": {
+    "en": "They trap air, which conducts heat poorly."
+   },
+   "recall_q": {
+    "en": "Why is glass wool a good insulator?"
+   },
+   "recall_a": {
+    "en": "It traps still air, which conducts heat poorly."
+   },
+   "explain_simple": {
+    "en": "Trapped air blocks heat."
+   }
+  },
+  {
+   "id": "u2.heat.f59",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heat transfer in an engine: gas to cylinder wall by convection and radiation, through wall by conduction, wall to coolant by convection."
+   },
+   "why": {
+    "en": "All three modes work together."
+   },
+   "recall_q": {
+    "en": "How does heat pass through the cylinder wall?"
+   },
+   "recall_a": {
+    "en": "By conduction."
+   },
+   "explain_simple": {
+    "en": "Gas → wall (convection/radiation), through wall (conduction), to coolant (convection)."
+   }
+  },
+  {
+   "id": "u2.heat.f60",
+   "topic": "u2.heat",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Heat transfer; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermos flask: double glass walls with vacuum between (stops conduction and convection) and silvered surfaces (stop radiation)."
+   },
+   "why": {
+    "en": "It blocks all three modes."
+   },
+   "recall_q": {
+    "en": "Why are thermos flask walls silvered?"
+   },
+   "recall_a": {
+    "en": "To reduce heat transfer by radiation."
+   },
+   "explain_simple": {
+    "en": "Shiny walls bounce heat rays back."
+   }
+  },
+  {
+   "id": "u2.cycles.f61",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Otto cycle efficiency rises with compression ratio, but petrol engines cannot go very high because of knocking."
+   },
+   "why": {
+    "en": "High pressure and heat cause the mixture to self-ignite."
+   },
+   "recall_q": {
+    "en": "What limits compression ratio in petrol engines?"
+   },
+   "recall_a": {
+    "en": "Knocking (detonation)."
+   },
+   "explain_simple": {
+    "en": "Squeeze petrol too much and it knocks."
+   }
+  },
+  {
+   "id": "u2.cycles.f62",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel cycle efficiency η = 1 − (1/r^(γ−1)) × [(ρ^γ − 1)/(γ(ρ − 1))]."
+   },
+   "why": {
+    "en": "The bracket term (always >1) makes Diesel lower than Otto for the same r."
+   },
+   "recall_q": {
+    "en": "Is the Diesel efficiency term in brackets greater or less than 1?"
+   },
+   "recall_a": {
+    "en": "Greater than 1."
+   },
+   "explain_simple": {
+    "en": "Diesel formula = Otto formula with an extra penalty."
+   }
+  },
+  {
+   "id": "u2.cycles.f63",
+   "topic": "u2.cycles",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air standard cycles; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gas turbines can use regeneration, reheating and intercooling to raise efficiency and work output."
+   },
+   "why": {
+    "en": "Regeneration reuses exhaust heat to warm air before combustion."
+   },
+   "recall_q": {
+    "en": "Using exhaust heat to warm compressed air in a gas turbine is called?"
+   },
+   "recall_a": {
+    "en": "Regeneration."
+   },
+   "explain_simple": {
+    "en": "Reuse waste heat."
+   }
+  },
+  {
+   "id": "u2.laws.f64",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A heat engine needs: a hot source, a working fluid, and a cold sink."
+   },
+   "why": {
+    "en": "Work is done only when heat flows from hot to cold."
+   },
+   "recall_q": {
+    "en": "What three things does a heat engine need?"
+   },
+   "recall_a": {
+    "en": "Hot source, working substance, cold sink."
+   },
+   "explain_simple": {
+    "en": "Hot side, cold side, and something to carry heat."
+   }
+  },
+  {
+   "id": "u2.laws.f65",
+   "topic": "u2.laws",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Laws of thermodynamics; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Reversible process: can be reversed with no change left in system or surroundings. All real processes are irreversible."
+   },
+   "why": {
+    "en": "Friction, heat transfer across a temperature gap and mixing make processes irreversible."
+   },
+   "recall_q": {
+    "en": "Name one cause of irreversibility."
+   },
+   "recall_a": {
+    "en": "Friction (or heat flow across finite temperature difference, mixing)."
+   },
+   "explain_simple": {
+    "en": "Real life always loses a little energy you cannot get back."
+   }
+  },
+  {
+   "id": "u2.compressors.f66",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compressor parts: cylinder, piston, inlet and delivery valves (reed or plate type), unloader, air receiver tank, safety valve."
+   },
+   "why": {
+    "en": "The receiver stores air and steadies pressure."
+   },
+   "recall_q": {
+    "en": "Tank that stores compressed air is called?"
+   },
+   "recall_a": {
+    "en": "Air receiver."
+   },
+   "explain_simple": {
+    "en": "The storage tank for squeezed air."
+   }
+  },
+  {
+   "id": "u2.compressors.f67",
+   "topic": "u2.compressors",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Air compressors; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A governor (unloader) in a vehicle air compressor stops compression when tank pressure reaches its limit (about 7–8 bar)."
+   },
+   "why": {
+    "en": "It prevents over-pressure and saves engine power."
+   },
+   "recall_q": {
+    "en": "What stops a vehicle air compressor at full pressure?"
+   },
+   "recall_a": {
+    "en": "The governor / unloader valve."
+   },
+   "explain_simple": {
+    "en": "It tells the compressor to rest when the tank is full."
+   }
   }
  ],
  "questions": [
@@ -4192,6 +8586,186 @@
    "source": "Practice — exam pattern (not from a past paper)",
    "covers": [
     "u1.oils.f06"
+   ]
+  },
+  {
+   "id": "q.practice.u2.1",
+   "topic": "u2.laws",
+   "kind": "mcq",
+   "q": {
+    "en": "Which law of thermodynamics is the basis for temperature measurement?"
+   },
+   "options": [
+    {
+     "en": "First law"
+    },
+    {
+     "en": "Second law"
+    },
+    {
+     "en": "Zeroth law"
+    },
+    {
+     "en": "Third law"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Zeroth law deals with thermal equilibrium, the basis of the thermometer."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u2.laws.f01"
+   ]
+  },
+  {
+   "id": "q.practice.u2.2",
+   "topic": "u2.cycles",
+   "kind": "mcq",
+   "q": {
+    "en": "In the Otto cycle, heat is supplied at"
+   },
+   "options": [
+    {
+     "en": "Constant pressure"
+    },
+    {
+     "en": "Constant volume"
+    },
+    {
+     "en": "Constant temperature"
+    },
+    {
+     "en": "Constant entropy"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Otto cycle adds heat at constant volume."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u2.cycles.f05"
+   ]
+  },
+  {
+   "id": "q.practice.u2.3",
+   "topic": "u2.engines",
+   "kind": "mcq",
+   "q": {
+    "en": "In a four-stroke engine the camshaft rotates at"
+   },
+   "options": [
+    {
+     "en": "Same speed as crankshaft"
+    },
+    {
+     "en": "Twice the crankshaft speed"
+    },
+    {
+     "en": "Half the crankshaft speed"
+    },
+    {
+     "en": "Four times the crankshaft speed"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Valves open once every 2 crank revolutions."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u2.engines.f05"
+   ]
+  },
+  {
+   "id": "q.practice.u2.4",
+   "topic": "u2.performance",
+   "kind": "mcq",
+   "q": {
+    "en": "Morse test is conducted to find"
+   },
+   "options": [
+    {
+     "en": "BP of a single-cylinder engine"
+    },
+    {
+     "en": "IP of a multi-cylinder engine"
+    },
+    {
+     "en": "Fuel consumption"
+    },
+    {
+     "en": "Volumetric efficiency"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Cylinders are cut off one by one to find IP of a multi-cylinder engine."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u2.performance.f12"
+   ]
+  },
+  {
+   "id": "q.practice.u2.5",
+   "topic": "u2.heat",
+   "kind": "mcq",
+   "q": {
+    "en": "Fourier's law is associated with"
+   },
+   "options": [
+    {
+     "en": "Convection"
+    },
+    {
+     "en": "Radiation"
+    },
+    {
+     "en": "Conduction"
+    },
+    {
+     "en": "Evaporation"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Fourier's law governs heat conduction."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u2.heat.f06"
+   ]
+  },
+  {
+   "id": "q.practice.u2.6",
+   "topic": "u2.compressors",
+   "kind": "mcq",
+   "q": {
+    "en": "Compression requiring the minimum work is"
+   },
+   "options": [
+    {
+     "en": "Adiabatic"
+    },
+    {
+     "en": "Isothermal"
+    },
+    {
+     "en": "Polytropic"
+    },
+    {
+     "en": "Isentropic"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Isothermal compression needs the least work."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u2.compressors.f09"
    ]
   }
  ]
