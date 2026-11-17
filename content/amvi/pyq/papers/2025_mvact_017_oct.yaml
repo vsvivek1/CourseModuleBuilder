@@ -1,0 +1,186 @@
+paper:
+  id: mvact2025oct
+  exam: "test paper 017 — Motor Vehicles Act"
+  cat: ""
+  code: "017"
+  date: "2025-10-22"
+  key_url: "https://www.keralapsc.gov.in/sites/default/files/2025-12/017f.pdf"
+  key_source: "PSC final answer key, Paper 017 Motor Vehicles Act, 22-10-2025"
+
+skipped:
+  - {n: "3, 6, 8-15, 17-22, 24-35, 40-42, 47, 49, 52, 53, 56, 58-65, 67-89, 91-95, 97, 99, 100", why: "CMVR/KMVR forms, fees, colours, dimensions, Kerala rules, permit procedure, rent schemes and authorities — not in AMVI syllabus list"}
+  - {n: "4", why: "Renewal effective-date rule needs the original wording"}
+
+questions:
+  - n: 1
+    topic: law.defs
+    q: "A trailer attached to a motor vehicle with part of its weight borne by that vehicle is a?"
+    options: ["Trailer", "Semi-trailer", "Articulated vehicle", "Heavy goods vehicle"]
+    key: B
+    learn: "Semi-trailer (Section 2(39)): a non-powered vehicle attached so that part of its weight rests on the towing vehicle."
+    why: "A full trailer stands on its own wheels; a semi-trailer leans on the tractor."
+  - n: 2
+    topic: law.defs
+    q: "Which is NOT always a public service vehicle?"
+    options: ["Contract carriage", "Stage carriage", "Omnibus", "Tourist motor cab"]
+    key: C
+    learn: "An omnibus is defined only by seats (more than 6). It may be private, so it is not always a public service vehicle."
+    why: "PSV depends on carrying passengers for hire."
+  - n: 5
+    topic: law.permits
+    q: "Permits are NOT required for?"
+    options: ["Local authority road cleaning vehicles", "Vehicle towing a disabled vehicle", "Financier moving a seized vehicle", "All of these"]
+    key: D
+    a: "All three."
+    learn: "Section 66(3) exempts from permits: local authority cleaning/watering vehicles, vehicles towing disabled vehicles, and vehicles moved by financiers after seizure, among others."
+    why: "These are not commercial passenger or goods trips."
+  - n: 7
+    topic: law.offences
+    q: "Penalty for dangerous driving is in Section?"
+    options: ["177A", "183", "184", "185"]
+    key: C
+    learn: "Section 184: driving dangerously — first offence 6–12 months jail and/or Rs 1,000–5,000 fine; repeat up to 2 years and/or Rs 10,000."
+    why: "Red-light jumping and phone use count as dangerous driving."
+  - n: 16
+    topic: law.defs
+    q: "'Golden hour' lasts how long after a traumatic injury?"
+    options: ["1 hour", "3 hours", "7 hours", "24 hours"]
+    key: A
+    learn: "Golden hour = 1 hour after a traumatic injury (Section 2(12A))."
+    why: "Quick care in this time saves most lives."
+  - n: 23
+    topic: law.defs
+    q: "A maxi cab is built to carry?"
+    options: ["More than 6 up to 13", "More than 7 up to 12", "More than 6 up to 12 passengers", "More than 7 up to 13"]
+    key: C
+    learn: "Maxi cab (Section 2(22)): more than 6 but not more than 12 passengers, excluding driver, for hire or reward."
+    why: "Motor cab: up to 6. Maxi cab: 7–12."
+  - n: 36
+    topic: dl.licensing
+    q: "Non-transport licence renewal needs a Form 1A medical certificate after age?"
+    options: ["18", "40", "50", "55"]
+    key: B
+    learn: "A medical certificate is needed to renew a non-transport licence after age 40."
+    why: "Fitness to drive may change after 40."
+  - n: 37
+    topic: u8.mvact_basics
+    q: "'Right hairpin bend' is a ___ sign."
+    options: ["Informatory", "Cautionary", "Mandatory", "None"]
+    key: B
+    learn: "Hairpin bend signs are cautionary (warning) signs — red triangles."
+    why: "They warn of a sharp turn ahead."
+  - n: 38
+    topic: law.offences
+    q: "Minimum fine for racing a motorcycle without State Government consent?"
+    options: ["Rs 1,000", "Rs 5,000", "Rs 10,000", "Rs 25,000"]
+    key: B
+    learn: "Section 189: racing or speed trials without permission — first offence up to 3 months jail and/or Rs 5,000; repeat up to 1 year and/or Rs 10,000."
+    why: "Public roads are not race tracks."
+  - n: 39
+    topic: law.traffic
+    q: "Helmets are compulsory for riders and passengers above age?"
+    options: ["12", "8", "4", "3"]
+    key: C
+    learn: "Section 129: everyone above 4 years on a motorcycle must wear a helmet."
+    why: "Head injuries kill most two-wheeler victims."
+  - n: 43
+    topic: law.registration
+    q: "In which case can registration NOT be suspended?"
+    options: ["Vehicle dangerous to the public", "Used for hire without permit", "Does not comply with the Act", "None of these"]
+    key: D
+    a: "None — registration can be suspended in all three cases."
+    learn: "Section 53: RC can be suspended if the vehicle is dangerous, used for hire without permit, or breaks the Act or rules."
+    why: "All three are listed grounds."
+  - n: 44
+    topic: dl.licensing
+    q: "Minimum age to drive a motor cab in a public place?"
+    options: ["18", "20", "21", "18 with 1 year experience"]
+    key: B
+    learn: "A motor cab is a transport vehicle, so its driver must be at least 20 years old."
+    why: "All transport vehicles need age 20."
+  - n: 45
+    topic: law.offences
+    q: "Fine for driving in contravention of Section 3 (no licence)?"
+    options: ["Rs 500", "Rs 1,000", "Rs 5,000", "Rs 10,000"]
+    key: C
+    learn: "Section 181: driving without a licence — up to Rs 5,000 and/or 3 months jail."
+    why: "Section 3 makes a licence necessary."
+  - n: 46
+    topic: law.defs
+    q: "A contract carriage is used under a contract that is?"
+    options: ["On a time basis", "From one point to another", "For any route or distance", "All of these"]
+    key: D
+    a: "All: time basis, point to point, any route or distance."
+    learn: "Contract carriage (Section 2(7)): hired as a whole under a contract for a fixed sum — by time, point to point, or for any route or distance."
+    why: "Passengers do not pay separate fares; the whole vehicle is hired."
+  - n: 48
+    topic: law.defs
+    q: "Which is NOT deemed a motor vehicle under the MV Act?"
+    options: ["Three-wheeled petrol vehicle up to 25 cc", "Battery two-wheeler 0.45 kW, under 25 km/h", "Special purpose vehicles", "All of these"]
+    key: A
+    learn: "Section 2(28): a vehicle with engine capacity not over 25 cc is not a 'motor vehicle'."
+    why: "Tiny engines are excluded from the definition."
+    note: "Option B also looks excluded by notification; PSC final key gives A."
+  - n: 50
+    topic: dl.licensing
+    q: "Driving licences for Central Government vehicles used for government work are dealt with in Section?"
+    options: ["9", "12", "18", "60"]
+    key: C
+    learn: "Section 18: driving licences to drive vehicles belonging to the Central Government."
+    why: "Government can licence its own drivers."
+  - n: 51
+    topic: law.offences
+    q: "Licence seized for driving under drugs: suspension for a first offence?"
+    options: ["1 month", "3 months", "6 months", "1 year"]
+    key: B
+    learn: "For offences sent under Section 206(4), including drink/drug driving, the licence is suspended for at least 3 months."
+    why: "Drivers under drugs are a danger to all."
+  - n: 54
+    topic: law.permits
+    q: "A national permit covers all of India or at least how many contiguous states (besides the home state)?"
+    options: ["2", "3", "4", "6"]
+    key: B
+    learn: "A national permit (goods) is valid for all of India or for at least 4 contiguous states including the home state (3 others)."
+    why: "It lets goods vehicles move across many states."
+  - n: 55
+    topic: law.offences
+    q: "Minimum penalty for violating lane traffic?"
+    options: ["Rs 250", "Rs 500", "Rs 1,000", "Rs 1,500"]
+    key: B
+    learn: "Section 177A: breaking driving regulations such as lane discipline — Rs 500 first time, Rs 1,500 repeat."
+    why: "Lane rules come from the Driving Regulations under Section 118."
+  - n: 57
+    topic: u8.mvact_basics
+    q: "Which is a mandatory sign?"
+    options: ["Direction sign", "Left hand curve", "Narrow bridge", "No entry"]
+    key: D
+    learn: "'No entry' is mandatory. Curve and narrow bridge are cautionary; direction signs are informatory."
+    why: "Mandatory signs are mostly circles with red borders."
+  - n: 66
+    topic: u8.mvact_basics
+    q: "On transfer of ownership, the transferor reports within?"
+    options: ["14 days", "15 days", "30 days", "3 months"]
+    key: A
+    learn: "The seller reports within 14 days; the buyer within 30 days (Section 50)."
+    why: "Records must show the true owner quickly."
+  - n: 90
+    topic: dl.licensing
+    q: "Who is NOT exempt from the driving test?"
+    options: ["Holder of Form 5B certificate", "Holder of a licence expired 5 years", "Holder of a foreign licence", "None"]
+    key: B
+    learn: "A person whose licence expired more than 5 years ago must take the driving test again; a foreign licence holder may be exempted (Section 9)."
+    why: "After a long gap, skills must be retested."
+  - n: 96
+    topic: dl.licensing
+    q: "A person aged 51 renews a licence. Validity?"
+    options: ["5 years", "10 years", "Till 55", "Till 60"]
+    key: D
+    learn: "Section 14: licence issued or renewed between 50 and 55 is valid until age 60."
+    why: "After 55, renewals are for 5 years."
+  - n: 98
+    topic: law.defs
+    q: "Passenger vehicle with 9+ seats besides driver, GVW not above 5 tonnes, is category?"
+    options: ["M1G", "M1", "M2", "M3"]
+    key: C
+    learn: "M2: 9 or more seats besides the driver and GVW up to 5 t. M3: above 5 t."
+    why: "M1 has up to 8 passenger seats."

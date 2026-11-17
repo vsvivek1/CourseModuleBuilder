@@ -1,0 +1,156 @@
+paper:
+  id: mvact2025may
+  exam: "test paper 017 — Motor Vehicles Act"
+  cat: ""
+  code: "017"
+  date: "2025-05-22"
+  key_url: "https://keralapsc.gov.in/sites/default/files/2025-06/017f.pdf"
+  key_source: "PSC final answer key, Paper 017 Motor Vehicles Act, 22-05-2025"
+
+skipped:
+  - {n: "1-10, 12-14, 18-20, 24-37, 39-42, 45-48, 50-53, 55-60, 62-64, 66, 68-72, 74-82, 84, 85, 87, 88, 92-99", why: "CMVR/KMVR forms, fees, colours, dimensions, Kerala rules, aggregator/rent-a-cab schemes, permit procedure and authorities — not in AMVI syllabus list"}
+  - {n: "38, 86", why: "Sections outside the AMVI syllabus list"}
+
+questions:
+  - n: 11
+    topic: dl.licensing
+    q: "Maximum validity of a fresh licence issued to a person aged 35?"
+    options: ["Till age 50", "Till age 40", "10 years", "5 years"]
+    key: C
+    learn: "Section 14: a non-transport licence issued between ages 30 and 50 is valid for 10 years."
+    why: "Below 30 → till 40; 30–50 → 10 years."
+  - n: 15
+    topic: law.offences
+    q: "Registration of a vehicle used by a juvenile offender is cancelled for?"
+    options: ["12 months", "6 months", "3 months", "3 years"]
+    key: A
+    learn: "Section 199A: the registration of the vehicle used by the juvenile is cancelled for 12 months."
+    why: "The vehicle itself is taken off the road for a year."
+  - n: 16
+    topic: dl.licensing
+    q: "Application to renew a driving licence can be made?"
+    options: ["Within 1 month before expiry", "Within 1 month after expiry", "Within 1 year before expiry", "Within 6 months after expiry"]
+    key: C
+    learn: "Section 15 (after 2019): a licence can be renewed up to one year before it expires (and up to one year after)."
+    why: "Early renewal avoids gaps in validity."
+  - n: 17
+    topic: law.defs
+    q: "A motor vehicle designed for a person with a physical defect and used solely by that person is?"
+    options: ["Invalid carriage", "Adapted vehicle", "Three-wheeler for personal use", "Motorcycle with side car"]
+    key: B
+    learn: "After 2019, the term used in the Act is 'adapted vehicle' (Section 2(1A)): specially designed or adapted for a person with a disability."
+    why: "It replaced 'invalid carriage'."
+  - n: 21
+    topic: law.defs
+    q: "A motor vehicle built to carry more than 6 persons excluding the driver is?"
+    options: ["Omnibus", "Maxi cab", "Private service vehicle", "None"]
+    key: A
+    learn: "Omnibus (Section 2(29)): any motor vehicle built or adapted to carry more than 6 persons excluding the driver."
+    why: "Omnibus is about seat count only."
+  - n: 22
+    topic: u8.mvact_basics
+    q: "Which is a mandatory sign?"
+    options: ["Right hand drive", "Park on both sides", "Give way", "School ahead"]
+    key: C
+    learn: "GIVE WAY is a mandatory sign. 'School ahead' is cautionary; parking signs are informatory."
+    why: "Give way is an order, not a warning."
+  - n: 23
+    topic: law.offences
+    q: "Fine for not wearing a helmet?"
+    options: ["Rs 1,000", "Rs 500", "Rs 250", "Rs 2,000"]
+    key: A
+    learn: "Section 194D: riding without a helmet — fine Rs 1,000 and licence disqualification for 3 months."
+    why: "Helmets prevent most head injuries."
+  - n: 43
+    topic: u8.pollution
+    q: "Bharat Stage VI was implemented nationwide from?"
+    options: ["01.04.2019", "01.04.2020", "01.04.2021", "01.07.2021"]
+    key: B
+    learn: "Bharat Stage VI emission norms came into force across India on 1 April 2020, skipping BS V."
+    why: "BS VI cuts NOx and particulates sharply."
+  - n: 44
+    topic: law.offences
+    q: "Which is NOT a compoundable offence?"
+    options: ["Section 180", "Section 185", "Section 186", "Section 192B"]
+    key: B
+    learn: "Section 185 (driving under drink or drugs) is not compoundable under Section 200."
+    why: "Serious offences go to court."
+  - n: 49
+    topic: dl.licensing
+    q: "A 20-year-old cannot drive a transport vehicle without LMV experience of?"
+    options: ["6 months", "1 year", "2 years", "None"]
+    key: B
+    learn: "To drive a transport vehicle you need age 20 and at least 1 year of LMV driving."
+    why: "Experience reduces accidents in heavy vehicles."
+  - n: 54
+    topic: law.offences
+    q: "Section 189 deals with?"
+    options: ["Dangerous driving", "Unsafe vehicles", "Racing and trials of speed", "Over-speeding"]
+    key: C
+    learn: "Section 189: racing and trials of speed. Section 184: dangerous driving. Section 183: over-speeding. Section 190: unsafe vehicles."
+    why: "Learn the 183–190 sequence together."
+  - n: 61
+    topic: law.defs
+    q: "Which is NOT a public service vehicle?"
+    options: ["Motor cab", "Private service vehicle", "Contract carriage", "Stage carriage"]
+    key: B
+    learn: "A private service vehicle carries people for the owner's trade, not for hire — so it is not a public service vehicle."
+    why: "PSV = carrying passengers for hire or reward."
+  - n: 65
+    topic: law.offences
+    q: "Police/authority can seize a licence for offences under Sections?"
+    options: ["183, 185, 194C", "184, 185, 190", "189, 194D, 194E", "All of these"]
+    key: D
+    a: "All: 183, 184, 185, 189, 190, 194C, 194D, 194E."
+    learn: "Section 206(4): a licence can be seized for offences under 183, 184, 185, 189, 190, 194C, 194D and 194E, and sent for disqualification."
+    why: "These offences put lives at risk."
+  - n: 67
+    topic: u8.ev
+    q: "Hybrid with stop-start, regenerative braking, and motor alone able to move the car from standstill?"
+    options: ["Strong hybrid", "Series-parallel hybrid", "Series hybrid", "Pure EV"]
+    key: A
+    learn: "A strong (full) hybrid can drive on the electric motor alone from standstill, and has stop-start and regenerative braking."
+    why: "A mild hybrid only assists; it cannot move on the motor alone."
+  - n: 73
+    topic: law.offences
+    q: "Maximum fine for driving without a driving licence?"
+    options: ["Rs 1,000", "Rs 2,000", "Rs 5,000", "Rs 10,000"]
+    key: C
+    learn: "Section 181: driving without a licence — up to Rs 5,000 and/or 3 months jail."
+    why: "Raised from Rs 500 in 2019."
+  - n: 83
+    topic: law.defs
+    q: "'Golden hour' is the period after a traumatic injury of?"
+    options: ["24 hours", "48 hours", "1 hour", "3 hours"]
+    key: C
+    learn: "Golden hour = the one hour after a traumatic injury (Section 2(12A))."
+    why: "Treatment in this hour saves the most lives."
+  - n: 89
+    topic: law.offences
+    q: "Which section punishes over-speeding?"
+    options: ["182", "183", "184", "186"]
+    key: B
+    learn: "Section 183: driving at excessive speed — LMV Rs 1,000–2,000; medium/heavy Rs 2,000–4,000."
+    why: "Speed limits are set under Section 112."
+  - n: 90
+    topic: law.offences
+    q: "Section 192 relates to?"
+    options: ["Racing", "Unsafe vehicles", "Using a vehicle without permit", "Using a vehicle without registration"]
+    key: D
+    learn: "Section 192: using a vehicle without registration. Section 192A: without permit."
+    why: "192 follows Section 39; 192A follows Section 66."
+  - n: 91
+    topic: u8.mvact_basics
+    q: "The 'Cross road' sign is a ___ sign."
+    options: ["Mandatory", "Cautionary", "Informatory", "None"]
+    key: B
+    learn: "'Cross road' is a cautionary (warning) sign — red triangle."
+    why: "It warns of a junction ahead."
+  - n: 100
+    topic: law.registration
+    q: "Vehicles in whose possession are exempt from registration requirement?"
+    options: ["Manufacturer", "Dealer", "Testing agency", "All of these"]
+    key: D
+    a: "All: manufacturer, dealer, testing agency (under trade certificate)."
+    learn: "Section 39 proviso: vehicles in the possession of a dealer (and manufacturer/testing agency under trade certificate conditions) need not be registered."
+    why: "They are not yet sold to a user."
