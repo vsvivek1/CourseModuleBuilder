@@ -1,0 +1,1405 @@
+unit: u6
+subject: chassis
+title: "Module VI — Chassis (10 marks)"
+
+topics:
+  - {id: u6.frame, title: "Chassis and frame", freq: 0.7}
+  - {id: u6.axle, title: "Front axle and stub axle", freq: 0.7}
+  - {id: u6.suspension, title: "Suspension, springs and shock absorbers", freq: 0.8}
+  - {id: u6.steering, title: "Steering system and wheel alignment", freq: 0.9}
+  - {id: u6.brakes, title: "Brake systems", freq: 0.9}
+
+cards:
+  # ---------- Frame ----------
+  - id: f01
+    topic: u6.frame
+    difficulty: 1
+    learn: "Chassis means the whole vehicle without the body: frame, engine, transmission, suspension, steering, brakes and wheels."
+    why: "It is everything needed to make the vehicle move."
+    q: "What is a chassis?"
+    a: "The vehicle without its body (frame + running gear)."
+    simple: "The running vehicle without the body shell."
+  - id: f02
+    topic: u6.frame
+    difficulty: 1
+    learn: "The frame is the backbone of the chassis. It supports the body, engine and all other units."
+    why: "It must carry loads and resist bending and twisting."
+    q: "Main job of the frame?"
+    a: "Support all parts and carry loads."
+    simple: "The skeleton of the vehicle."
+  - id: f03
+    topic: u6.frame
+    difficulty: 2
+    learn: "Loads on a frame: weight of vehicle and passengers (bending), road twisting (torsion), braking and acceleration (longitudinal), cornering (side), and impacts."
+    why: "The frame must handle all of these together."
+    q: "Name two loads acting on a vehicle frame."
+    a: "Bending, torsion, braking, side and impact loads."
+    simple: "Weight, twist, push, pull and knocks."
+  - id: f04
+    topic: u6.frame
+    difficulty: 2
+    learn: "Conventional (ladder) frame: two long side members joined by cross members, like a ladder. Used in trucks, buses and SUVs."
+    why: "Strong, simple and easy to repair."
+    q: "Frame used in trucks and buses?"
+    a: "Ladder (conventional) frame."
+    simple: "Two long rails with cross bars, like a ladder."
+  - id: f05
+    topic: u6.frame
+    difficulty: 2
+    learn: "Frameless (integral / unitary / monocoque) construction: body and frame are one welded shell. Used in most cars."
+    why: "Lighter and stiffer, with lower floor."
+    q: "Construction where body and frame are a single unit?"
+    a: "Integral (monocoque / unitary) construction."
+    simple: "The body itself is the frame."
+  - id: f06
+    topic: u6.frame
+    difficulty: 2
+    learn: "Semi-integral frame: a light frame is joined to the body through rubber mounts, sharing some loads."
+    why: "Combines parts of both designs."
+    q: "Frame between conventional and integral types?"
+    a: "Semi-integral frame."
+    simple: "Half frame, half body."
+  - id: f07
+    topic: u6.frame
+    difficulty: 2
+    learn: "Other frame types: backbone (central tube), X-frame, perimeter frame, space frame (tube cage, racing cars)."
+    why: "Each balances stiffness and weight."
+    q: "Frame made of many small tubes forming a cage?"
+    a: "Space frame (tubular frame)."
+    simple: "A cage of tubes."
+  - id: f08
+    topic: u6.frame
+    difficulty: 2
+    learn: "Frame sections used for side members: channel (C) section (most common), box section, tubular section, I-section."
+    why: "Channel is easy to make and good in bending; box resists twisting."
+    q: "Most common section for frame side members?"
+    a: "Channel (C) section."
+    simple: "C-shaped steel rails."
+  - id: f09
+    topic: u6.frame
+    difficulty: 2
+    learn: "Box section is best against torsion (twisting). Channel section is best in bending for its weight."
+    why: "A closed section resists twist much better."
+    q: "Which section best resists twisting?"
+    a: "Box section."
+    simple: "Closed box = hard to twist."
+  - id: f10
+    topic: u6.frame
+    difficulty: 2
+    learn: "Frame side members are deeper in the middle (between axles) where bending moment is greatest."
+    why: "More depth gives more strength where needed."
+    q: "Why is a frame deeper at the centre?"
+    a: "Bending moment is maximum there."
+    simple: "Make it strongest where it bends most."
+  - id: f11
+    topic: u6.frame
+    difficulty: 2
+    learn: "Frame is narrow at the front (kick-up / narrowed) to allow wheels to turn for steering, and upswept at the rear over the axle."
+    why: "Front wheels need room to turn; rear axle needs room to move."
+    q: "Why is the frame upswept at the rear?"
+    a: "To give room for rear axle movement."
+    simple: "Bent up over the axle for clearance."
+  - id: f12
+    topic: u6.frame
+    difficulty: 2
+    learn: "Frame material: mild steel or low-alloy steel sheet, pressed and riveted or welded. Some cars use aluminium."
+    why: "Steel is strong, cheap and repairable."
+    q: "Common material for vehicle frames?"
+    a: "Mild steel / low-alloy steel."
+    simple: "Pressed steel."
+  - id: f13
+    topic: u6.frame
+    difficulty: 2
+    learn: "Sub-frame: a smaller separate frame carrying the engine, suspension or axle, bolted to the main body through rubber mounts."
+    why: "It isolates vibration and makes assembly easier."
+    q: "What is a sub-frame?"
+    a: "A small frame carrying engine/suspension, mounted to the body."
+    simple: "A mini frame for the engine or suspension."
+  - id: f14
+    topic: u6.frame
+    difficulty: 2
+    learn: "Bumpers absorb small impacts and protect the body. Modern bumpers are plastic covers over energy-absorbing foam and a steel or aluminium beam."
+    why: "They soak up low-speed crash energy."
+    q: "Function of a bumper?"
+    a: "Absorb impact and protect body/occupants."
+    simple: "A cushion at the front and back."
+  - id: f15
+    topic: u6.frame
+    difficulty: 2
+    learn: "Fitting bull bars (crash guards) on cars is banned in India."
+    why: "They make crashes worse for pedestrians and stop airbag sensors working properly."
+    q: "Are bull bars allowed on cars in India?"
+    a: "No (illegal alteration)."
+    simple: "Metal guards on cars are not allowed."
+  - id: f16
+    topic: u6.frame
+    difficulty: 2
+    learn: "Crumple zones: front and rear parts of the body designed to crush in a crash, absorbing energy. The passenger cell stays rigid."
+    why: "Slower deceleration means less injury."
+    q: "Purpose of crumple zones?"
+    a: "Absorb crash energy so the cabin stays safe."
+    simple: "The ends crush so people do not."
+  - id: f17
+    topic: u6.frame
+    difficulty: 2
+    learn: "Frame defects: cracks, bending, sagging, twisting and loose rivets. Alignment is checked with diagonal measurements."
+    why: "Equal diagonals show the frame is square."
+    q: "How is frame alignment checked simply?"
+    a: "Diagonal measurements (should be equal)."
+    simple: "Cross measurements must match."
+  - id: f18
+    topic: u6.frame
+    difficulty: 2
+    learn: "Chassis layouts: front engine rear drive, front engine front drive, rear engine rear drive, mid engine, four-wheel drive."
+    why: "Layout affects space, traction and handling."
+    q: "Most common layout in Indian small cars?"
+    a: "Front engine, front-wheel drive."
+    simple: "Engine and drive both at the front."
+  - id: sum
+    topic: u6.frame
+    type: summary
+    points:
+      - "Chassis = vehicle without body; frame = backbone."
+      - "Ladder frame (trucks) vs integral/monocoque (cars), semi-integral."
+      - "Channel section common; box best for torsion."
+      - "Narrowed front, upswept rear, deeper middle."
+      - "Sub-frames, bumpers, crumple zones."
+
+  # ---------- Axle ----------
+  - id: f01
+    topic: u6.axle
+    difficulty: 1
+    learn: "Dead axle carries only weight; it does not drive the wheels. Live axle carries weight and also drives the wheels."
+    why: "Live axles have shafts inside to transmit power."
+    q: "An axle that carries load but does not transmit power is?"
+    a: "Dead axle."
+    simple: "Dead = just holds. Live = holds and drives."
+  - id: f02
+    topic: u6.axle
+    difficulty: 2
+    learn: "Front axle of a rear-wheel-drive vehicle is a dead axle. Front axle of a front-wheel-drive vehicle is a live axle."
+    why: "It depends on which wheels are driven."
+    q: "Front axle of a rear-wheel-drive truck is dead or live?"
+    a: "Dead."
+    simple: "Truck front axle just steers and carries."
+  - id: f03
+    topic: u6.axle
+    difficulty: 2
+    learn: "Front axle beam has an I-section in the middle and round or elliptical section near the ends."
+    why: "I-section resists bending; round ends resist twisting from braking."
+    q: "Cross section of a front axle beam in the middle?"
+    a: "I-section."
+    simple: "I-shape for strength in the middle."
+  - id: f04
+    topic: u6.axle
+    difficulty: 2
+    learn: "Front axle beam is dropped (bent down) in the middle."
+    why: "This lowers the chassis and engine for stability."
+    q: "Why is the front axle beam dropped at the centre?"
+    a: "To lower the chassis height."
+    simple: "Bent down to sit the vehicle lower."
+  - id: f05
+    topic: u6.axle
+    difficulty: 2
+    learn: "Front axle is made of drop-forged medium carbon steel or nickel steel."
+    why: "It needs high strength and toughness."
+    q: "Front axle material?"
+    a: "Drop-forged medium carbon or alloy steel."
+    simple: "Forged strong steel."
+  - id: f06
+    topic: u6.axle
+    difficulty: 2
+    learn: "Stub axle carries the front wheel and turns on a kingpin for steering."
+    why: "It lets the wheel steer while the axle beam stays still."
+    q: "The short axle on which the front wheel turns for steering?"
+    a: "Stub axle."
+    simple: "The small axle that pivots to steer."
+  - id: f07
+    topic: u6.axle
+    difficulty: 2
+    learn: "Stub axle types: Elliott, reversed Elliott, Lemoine, reversed Lemoine."
+    why: "They differ in how the stub axle and beam end fit together."
+    q: "Name the four types of stub axle."
+    a: "Elliott, reversed Elliott, Lemoine, reversed Lemoine."
+    simple: "Four ways to join stub axle and beam."
+  - id: f08
+    topic: u6.axle
+    difficulty: 2
+    learn: "Elliott type: the axle beam end fits between the forked (yoke) stub axle. Reversed Elliott: the beam end is forked and the stub axle fits inside."
+    why: "Reversed Elliott is the most common."
+    q: "Most common stub axle arrangement?"
+    a: "Reversed Elliott."
+    simple: "In reversed Elliott, the beam has the fork."
+  - id: f09
+    topic: u6.axle
+    difficulty: 2
+    learn: "Lemoine type: an L-shaped stub axle fits under the beam end (no fork). Reversed Lemoine fits above."
+    why: "Used where height is limited."
+    q: "Stub axle with L-shaped spindle and no fork?"
+    a: "Lemoine type."
+    simple: "Lemoine = L-shape, no yoke."
+  - id: f10
+    topic: u6.axle
+    difficulty: 2
+    learn: "Kingpin (swivel pin) joins the stub axle to the axle beam and lets it swing for steering."
+    why: "It is the steering pivot."
+    q: "Pin on which the stub axle swivels?"
+    a: "Kingpin."
+    simple: "The hinge pin for steering."
+  - id: f11
+    topic: u6.axle
+    difficulty: 2
+    learn: "Modern cars with independent suspension use ball joints instead of kingpins."
+    why: "Ball joints allow both steering and suspension movement."
+    q: "What replaces kingpins in independent front suspension?"
+    a: "Ball joints."
+    simple: "Ball joints swivel in all directions."
+  - id: f12
+    topic: u6.axle
+    difficulty: 2
+    learn: "Thrust bearing between the stub axle and the beam carries the vehicle weight while letting the stub axle turn."
+    why: "Makes steering light."
+    q: "Bearing that takes vehicle weight at the kingpin?"
+    a: "Thrust bearing."
+    simple: "A bearing under the pivot for easy steering."
+  - id: f13
+    topic: u6.axle
+    difficulty: 2
+    learn: "Steering knuckle is the part carrying the stub axle, steering arm and brake parts."
+    why: "It joins steering, suspension and wheel."
+    q: "Part that carries the stub axle and steering arm?"
+    a: "Steering knuckle."
+    simple: "The joint that holds the wheel and turns."
+  - id: sum
+    topic: u6.axle
+    type: summary
+    points:
+      - "Dead axle carries load; live axle also drives."
+      - "Front beam: I-section middle, dropped centre, forged steel."
+      - "Stub axle types: Elliott, reversed Elliott (common), Lemoine, reversed Lemoine."
+      - "Kingpin pivot; ball joints in independent suspension."
+      - "Thrust bearing carries weight at kingpin."
+
+  # ---------- Suspension ----------
+  - id: f01
+    topic: u6.suspension
+    difficulty: 1
+    learn: "Suspension connects wheels to the frame and absorbs road shocks."
+    why: "It gives comfort, keeps tyres on the road and protects the vehicle."
+    q: "Main job of suspension?"
+    a: "Absorb road shocks and keep wheels on road."
+    simple: "It makes the ride smooth and safe."
+  - id: f02
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Functions of suspension: comfort, road holding, stability on turns and braking, protect load and parts, carry weight."
+    why: "Each is needed for safe driving."
+    q: "Name two functions of suspension."
+    a: "Comfort, road holding, stability, carry load."
+    simple: "Comfort and grip."
+  - id: f03
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Sprung weight: parts supported by springs (body, frame, engine). Unsprung weight: parts not supported by springs (wheels, tyres, axles, brakes)."
+    why: "Low unsprung weight gives better ride and grip."
+    q: "Is the wheel sprung or unsprung weight?"
+    a: "Unsprung."
+    simple: "Above springs = sprung. Below = unsprung."
+  - id: f04
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Rigid axle (dependent) suspension: both wheels are on one axle, so a bump on one wheel affects the other."
+    why: "The axle is a single beam."
+    q: "Suspension where a bump on one wheel affects the other?"
+    a: "Rigid axle (dependent) suspension."
+    simple: "Both wheels joined by one bar."
+  - id: f05
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Independent suspension: each wheel moves up and down separately."
+    why: "Better comfort and road grip."
+    q: "Main advantage of independent suspension?"
+    a: "One wheel's bump does not affect the other; better ride."
+    simple: "Each wheel moves on its own."
+  - id: f06
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Independent front suspension types: MacPherson strut, double wishbone, trailing link, swinging axle."
+    why: "MacPherson is the most common in cars."
+    q: "Most common front suspension in cars?"
+    a: "MacPherson strut."
+    simple: "MacPherson strut for most cars."
+  - id: f07
+    topic: u6.suspension
+    difficulty: 2
+    learn: "MacPherson strut: a shock absorber and coil spring in one unit, which also acts as the steering pivot, with one lower arm."
+    why: "Simple, compact and leaves room for engine."
+    q: "In a MacPherson strut, what acts as the steering pivot?"
+    a: "The strut itself (top mount and lower ball joint)."
+    simple: "Spring + shock in one tube that also steers."
+  - id: f08
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Double wishbone: upper and lower A-shaped arms hold the wheel. Gives good control of camber."
+    why: "Used in SUVs, sports cars and premium cars."
+    q: "Suspension with upper and lower A-arms?"
+    a: "Double wishbone."
+    simple: "Two triangle arms, one above, one below."
+  - id: f09
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Two-wheeler front suspension: telescopic fork (most common), leading link, trailing link. Rear: swing arm with twin shocks or mono-shock."
+    why: "Telescopic forks are simple and strong."
+    q: "Most common motorcycle front suspension?"
+    a: "Telescopic fork."
+    simple: "Two sliding tubes with springs inside."
+  - id: f10
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Three-wheeler (autorickshaw) front: single trailing/leading link with coil spring or torsion bar and shock absorber. Rear: swing arms with coil springs."
+    why: "One front wheel needs a single-arm design."
+    q: "Front suspension of an autorickshaw is usually?"
+    a: "Single link (trailing/leading) with spring and shock absorber."
+    simple: "One arm for the single front wheel."
+  - id: f11
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Rear suspension types: rigid axle with leaf springs (trucks, buses), rigid axle with coil springs and links, twist beam (small FWD cars), independent multi-link."
+    why: "Load capacity and cost decide the choice."
+    q: "Rear suspension in most small front-wheel-drive cars?"
+    a: "Twist (torsion) beam."
+    simple: "A bendy beam linking the rear wheels."
+  - id: f12
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Spring types used: leaf (laminated), coil, torsion bar, rubber, air (pneumatic), hydro-pneumatic."
+    why: "Each stores energy in a different way."
+    q: "Spring that twists to give springing action?"
+    a: "Torsion bar."
+    simple: "Leaf, coil, twist bar, rubber, air."
+  - id: f13
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Leaf spring types: semi-elliptic (most common), quarter-elliptic, three-quarter elliptic, full elliptic, transverse."
+    why: "Semi-elliptic suits trucks and buses."
+    q: "Most common leaf spring type?"
+    a: "Semi-elliptic."
+    simple: "A curved stack of steel strips."
+  - id: f14
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Leaf spring parts: master leaf with eyes, other leaves, centre bolt, rebound clips, U-bolts, spring seat, shackle."
+    why: "Rebound clips keep leaves together on rebound."
+    q: "What holds leaves together and stops them spreading on rebound?"
+    a: "Rebound clips."
+    simple: "Clips hold the stack together."
+  - id: f15
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Leaves are of graded length so the spring has nearly uniform strength along its length."
+    why: "Bending moment is highest at the centre."
+    q: "Why do leaves have different lengths?"
+    a: "To give uniform strength (more leaves at centre)."
+    simple: "Thickest where bending is most."
+  - id: f16
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Leaf springs also locate the axle and transmit driving and braking forces (Hotchkiss drive)."
+    why: "No extra links needed."
+    q: "Besides springing, what else do leaf springs do?"
+    a: "Locate the axle and carry drive/brake forces."
+    simple: "They spring and hold the axle in place."
+  - id: f17
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Interleaf friction in a leaf spring damps vibration, but makes the ride harsher. Leaves are greased or have plastic inserts."
+    why: "Too much friction stiffens the spring."
+    q: "Why are leaf springs lubricated?"
+    a: "To reduce interleaf friction and noise."
+    simple: "Grease stops the leaves squeaking and sticking."
+  - id: f18
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Spring shackle: a swinging link at one end of the leaf spring that allows the spring length to change as it flexes."
+    why: "A bent spring gets longer when it straightens."
+    q: "Why is a shackle fitted at one end of a leaf spring?"
+    a: "To allow change in spring length during flexing."
+    simple: "A swinging link lets the spring stretch."
+  - id: f19
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Shackle pin connects the shackle to the spring eye and frame. Eyes have bushes (bronze or rubber)."
+    why: "Pins and bushes wear and need greasing."
+    q: "Pin joining the shackle and spring eye?"
+    a: "Shackle pin."
+    simple: "The pin through the spring eye."
+  - id: f20
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Front end of a leaf spring is usually fixed to the frame by a bracket; the rear end has the shackle."
+    why: "Fixed front end keeps the axle located during braking."
+    q: "Which end of a leaf spring usually has the shackle?"
+    a: "Rear end."
+    simple: "Front fixed, rear swinging."
+  - id: f21
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Helper spring: an extra small leaf spring above the main spring that works only under heavy load."
+    why: "Soft ride when empty, strong support when loaded."
+    example: "Pick-up trucks and lorries."
+    q: "What is a helper spring?"
+    a: "An extra spring that acts only under heavy load."
+    simple: "A backup spring for heavy loads."
+  - id: f22
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Coil springs: light, compact, need no lubrication, but cannot locate the axle, so links or arms are needed."
+    why: "They only take vertical load."
+    q: "Drawback of coil springs compared to leaf springs?"
+    a: "Cannot locate axle/carry side or drive forces; need links."
+    simple: "Coils only push up; arms are needed to hold the axle."
+  - id: f23
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Coil spring arrangements: around the shock absorber (coil-over), between lower arm and body, on rigid axle with links (four-link, Panhard rod)."
+    why: "Layout depends on suspension design."
+    q: "A rod that stops sideways movement of a rigid axle?"
+    a: "Panhard rod."
+    simple: "A side rod to keep the axle centred."
+  - id: f24
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Air suspension uses rubber air bags (bellows) with compressed air. A levelling valve keeps ride height constant with load."
+    why: "Same ride height empty or full."
+    example: "Volvo and Scania buses in KSRTC use air suspension."
+    q: "Advantage of air suspension in buses?"
+    a: "Constant height and soft ride at any load."
+    simple: "Air bags adjust to the load."
+  - id: f25
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Anti-roll bar (stabiliser bar) links left and right suspension to reduce body roll on turns."
+    why: "It twists when one side moves more than the other."
+    q: "Purpose of an anti-roll bar?"
+    a: "Reduce body roll on turns."
+    simple: "Stops the car leaning too much."
+  - id: f26
+    topic: u6.suspension
+    difficulty: 1
+    learn: "A shock absorber (damper) controls spring oscillations. It turns movement energy into heat in oil."
+    why: "Without it, the car would keep bouncing after a bump."
+    q: "Main function of a shock absorber?"
+    a: "Damp spring oscillations."
+    simple: "It stops the bouncing."
+  - id: f27
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Springs absorb shocks; shock absorbers do not absorb shocks — they damp (calm) the spring movement."
+    why: "Common PSC trap."
+    q: "Do shock absorbers absorb road shocks?"
+    a: "No — springs absorb, dampers control the bounce."
+    simple: "Spring takes the hit; damper stops the bounce."
+  - id: f28
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Telescopic shock absorber: piston with small valves moves in an oil-filled cylinder. Oil forced through valves resists motion."
+    why: "Small holes slow the oil flow."
+    q: "Most common type of shock absorber?"
+    a: "Telescopic (hydraulic) type."
+    simple: "A piston pushing oil through tiny holes."
+  - id: f29
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Telescopic damper parts: inner pressure tube, outer reservoir tube, piston with valves, piston rod, foot (base) valve, seal and dust cover."
+    why: "Twin-tube design keeps extra oil in the reservoir."
+    q: "Tube that stores reserve oil in a twin-tube damper?"
+    a: "Outer (reservoir) tube."
+    simple: "Inner tube works, outer tube stores oil."
+  - id: f30
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Shock absorbers usually resist more on rebound (extension) than on bump (compression)."
+    why: "Soft bump for comfort, firm rebound to control bounce."
+    q: "Is damping usually stronger on bump or rebound?"
+    a: "Rebound."
+    simple: "Easy going down, slow coming up."
+  - id: f31
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Single-acting damper works only on rebound. Double-acting works on both bump and rebound. Most are double-acting."
+    why: "Control in both directions is better."
+    q: "Damper that works in both directions is called?"
+    a: "Double-acting."
+    simple: "Double-acting controls up and down."
+  - id: f32
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Gas-charged (monotube) shock absorbers have nitrogen gas under pressure to stop oil foaming (aeration)."
+    why: "Foamed oil gives weak damping."
+    q: "Why is nitrogen filled in gas shock absorbers?"
+    a: "Prevent oil foaming/aeration."
+    simple: "Gas keeps the oil from bubbling."
+  - id: f33
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Other damper types: lever arm (older), friction (old), adjustable and electronically controlled (adaptive) dampers."
+    why: "Adaptive dampers change stiffness as needed."
+    q: "Old type of damper using rubbing plates?"
+    a: "Friction damper."
+    simple: "Old dampers rubbed; new ones use oil."
+  - id: f34
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Worn shock absorbers: car keeps bouncing, nose dives on braking, poor grip, uneven (cupped) tyre wear, oil leaks."
+    why: "Damping is lost."
+    q: "How can you check a shock absorber quickly?"
+    a: "Bounce test: push down and see if it bounces more than once or twice."
+    simple: "Push the car; it should settle quickly."
+  - id: f35
+    topic: u6.suspension
+    difficulty: 2
+    learn: "Rubber bump stops (bumpers) prevent metal-to-metal contact at full suspension travel."
+    why: "They cushion the last bit of movement."
+    q: "Purpose of bump stops?"
+    a: "Prevent metal contact at full compression."
+    simple: "Rubber blocks at the end of travel."
+  - id: sum
+    topic: u6.suspension
+    type: summary
+    points:
+      - "Sprung vs unsprung weight; rigid vs independent."
+      - "Front: MacPherson, double wishbone; bikes: telescopic fork."
+      - "Leaf spring: master leaf, rebound clips, U-bolts, shackle at rear."
+      - "Helper spring for heavy loads; anti-roll bar cuts roll."
+      - "Springs absorb; telescopic dampers damp, stronger on rebound."
+
+  # ---------- Steering ----------
+  - id: f01
+    topic: u6.steering
+    difficulty: 1
+    learn: "Steering system lets the driver turn the front wheels to change direction."
+    why: "It must be light, precise and safe."
+    q: "Main function of steering system?"
+    a: "Turn the wheels to control direction."
+    simple: "It points the wheels where you want to go."
+  - id: f02
+    topic: u6.steering
+    difficulty: 2
+    learn: "Requirements of steering: easy to turn, self-centring after a turn, stable straight running, little road shock to the wheel, correct turning geometry."
+    why: "Good steering keeps the driver in control."
+    q: "Name one requirement of a good steering system."
+    a: "Light, self-centring, stable, true rolling."
+    simple: "Easy, steady and returns straight."
+  - id: f03
+    topic: u6.steering
+    difficulty: 2
+    learn: "For true rolling on a turn, all wheels must turn about one common centre (instantaneous centre)."
+    why: "Otherwise tyres slip and wear."
+    q: "Condition for correct steering?"
+    a: "All wheels turn about a common centre."
+    simple: "Every wheel circles the same point."
+  - id: f04
+    topic: u6.steering
+    difficulty: 2
+    learn: "On a turn, the inner front wheel turns more sharply than the outer wheel."
+    why: "The inner wheel follows a smaller circle."
+    q: "Which front wheel turns more on a turn: inner or outer?"
+    a: "Inner wheel."
+    simple: "Inside wheel turns tighter."
+  - id: f05
+    topic: u6.steering
+    difficulty: 2
+    learn: "Condition for correct steering: cot φ − cot θ = c / b. (φ outer angle, θ inner angle, c = distance between kingpin centres, b = wheelbase)."
+    why: "This gives true rolling of all wheels."
+    q: "Write the condition for correct steering."
+    a: "cot φ − cot θ = c/b"
+    simple: "Formula linking inner and outer wheel angles."
+  - id: f06
+    topic: u6.steering
+    difficulty: 2
+    learn: "Ackermann steering mechanism uses a trapezium linkage (steering arms angled inward) and has only turning pairs."
+    why: "It is simple and used in almost all vehicles."
+    q: "Steering mechanism used in most vehicles?"
+    a: "Ackermann steering mechanism."
+    simple: "A four-bar trapezium linkage."
+  - id: f07
+    topic: u6.steering
+    difficulty: 2
+    learn: "Ackermann gives correct steering in only three positions: straight ahead and one position each to left and right."
+    why: "In between, there is a small error."
+    q: "In how many positions does Ackermann give exact steering?"
+    a: "Three."
+    simple: "Exact at three points, close elsewhere."
+  - id: f08
+    topic: u6.steering
+    difficulty: 2
+    learn: "Davis steering gear uses sliding pairs and gives correct steering in all positions. It is not used much because sliding parts wear."
+    why: "Sliding pairs have more friction and wear."
+    q: "Which mechanism is theoretically correct in all positions?"
+    a: "Davis steering gear."
+    simple: "Davis is perfect but wears fast."
+  - id: f09
+    topic: u6.steering
+    difficulty: 2
+    learn: "Ackermann has turning pairs only; Davis has sliding pairs."
+    why: "This is the main difference asked in exams."
+    q: "Which steering mechanism has sliding pairs?"
+    a: "Davis."
+    simple: "Davis slides; Ackermann turns."
+  - id: f10
+    topic: u6.steering
+    difficulty: 2
+    learn: "Fifth wheel steering: the whole front axle turns about a central pivot. Used in horse carts and trailers (fifth wheel coupling)."
+    why: "Simple but unstable for fast vehicles."
+    q: "Steering where the whole axle turns on a centre pivot?"
+    a: "Fifth wheel (centre pivot) steering."
+    simple: "Whole axle swivels like a bullock cart."
+  - id: f11
+    topic: u6.steering
+    difficulty: 2
+    learn: "Steering linkage parts (rigid axle): steering wheel → column → gearbox → drop arm (pitman arm) → drag link → steering arm → stub axle; track rod joins both stub axles."
+    why: "Each part passes motion to the wheels."
+    q: "Rod connecting the two steering arms?"
+    a: "Track rod (tie rod)."
+    simple: "Wheel → box → drop arm → drag link → wheels."
+  - id: f12
+    topic: u6.steering
+    difficulty: 2
+    learn: "Drop arm (pitman arm) is attached to the steering gearbox output shaft; it swings and moves the drag link."
+    why: "Turns gearbox rotation into a push-pull motion."
+    q: "Arm fixed to the steering gearbox output shaft?"
+    a: "Drop arm (pitman arm)."
+    simple: "The arm hanging from the steering box."
+  - id: f13
+    topic: u6.steering
+    difficulty: 2
+    learn: "Tie rod ends and drag link ends use ball joints so they can move in all directions."
+    why: "Suspension movement and steering happen together."
+    q: "Joints used at tie rod ends?"
+    a: "Ball joints (ball and socket)."
+    simple: "Ball joints let the rods move freely."
+  - id: f14
+    topic: u6.steering
+    difficulty: 2
+    learn: "Independent front suspension uses a divided (split) track rod with an idler arm or rack and pinion."
+    why: "A single track rod would upset steering when one wheel moves."
+    q: "Why is the track rod split in independent suspension?"
+    a: "So each wheel can move up and down without bump steer."
+    simple: "Two rods so each wheel moves on its own."
+  - id: f15
+    topic: u6.steering
+    difficulty: 2
+    learn: "Steering gearbox reduces the effort needed and changes the direction of motion. Steering gear ratio is usually 12:1 to 24:1."
+    why: "Many turns of the wheel give a small turn of the road wheels."
+    q: "Typical steering gear ratio range?"
+    a: "About 12:1 to 24:1."
+    simple: "Turn more, push less."
+  - id: f16
+    topic: u6.steering
+    difficulty: 2
+    learn: "Steering gearbox types: worm and sector, worm and roller, worm and nut, recirculating ball, cam and lever, rack and pinion."
+    why: "PSC asks to list types."
+    q: "Name three steering gearbox types."
+    a: "Worm & sector, worm & roller, recirculating ball, rack & pinion."
+    simple: "Many shapes of gears do the same job."
+  - id: f17
+    topic: u6.steering
+    difficulty: 2
+    learn: "Worm and sector: a worm on the column turns a toothed sector on the drop arm shaft."
+    why: "Simple and strong, but has more friction."
+    q: "In worm and sector steering, what does the worm drive?"
+    a: "A toothed sector (part of a gear)."
+    simple: "A screw turns a slice of a gear."
+  - id: f18
+    topic: u6.steering
+    difficulty: 2
+    learn: "Worm and roller: a roller on the sector shaft engages an hourglass worm, giving rolling contact and less friction."
+    why: "Rolling instead of sliding."
+    q: "Advantage of worm and roller over worm and sector?"
+    a: "Less friction (rolling contact)."
+    simple: "A roller instead of teeth slides easier."
+  - id: f19
+    topic: u6.steering
+    difficulty: 2
+    learn: "Recirculating ball: steel balls roll between the worm and a nut; the nut moves a sector. Very low friction."
+    why: "Balls recirculate through a return tube."
+    example: "Used in trucks, buses and older SUVs."
+    q: "Steering gear in which balls run between worm and nut?"
+    a: "Recirculating ball."
+    simple: "Rolling balls make steering light."
+  - id: f20
+    topic: u6.steering
+    difficulty: 2
+    learn: "Rack and pinion: a pinion on the steering column moves a toothed rack sideways, which moves the tie rods."
+    why: "Simple, light, direct and precise."
+    example: "Used in almost all modern cars."
+    q: "Steering gear used in most modern cars?"
+    a: "Rack and pinion."
+    simple: "Round gear moves a straight toothed bar."
+  - id: f21
+    topic: u6.steering
+    difficulty: 2
+    learn: "Reversible steering: road shocks are felt at the steering wheel. Irreversible: road shocks are not passed back. Most are semi-reversible."
+    why: "Some feedback helps self-centring and road feel."
+    q: "Steering that passes road shocks back to the wheel?"
+    a: "Reversible steering."
+    simple: "Some feel of the road is good."
+  - id: f22
+    topic: u6.steering
+    difficulty: 2
+    learn: "Power steering uses hydraulic or electric power to reduce the driver's effort."
+    why: "Heavy vehicles and wide tyres are hard to steer."
+    q: "Purpose of power steering?"
+    a: "Reduce steering effort."
+    simple: "A helper makes steering light."
+  - id: f23
+    topic: u6.steering
+    difficulty: 2
+    learn: "Hydraulic power steering parts: engine-driven pump (vane type), reservoir, control valve, power cylinder, hoses."
+    why: "Oil pressure pushes the piston to help the driver."
+    q: "Type of pump used in hydraulic power steering?"
+    a: "Vane pump."
+    simple: "Engine pump pushes oil to help steer."
+  - id: f24
+    topic: u6.steering
+    difficulty: 2
+    learn: "Integral power steering: control valve and power cylinder are built into the steering gearbox."
+    why: "Compact; common in trucks with recirculating-ball boxes."
+    q: "Power steering with valve and cylinder inside the gearbox?"
+    a: "Integral type."
+    simple: "Everything inside the steering box."
+  - id: f25
+    topic: u6.steering
+    difficulty: 2
+    learn: "Linkage type power steering: control valve and power cylinder are separate and act on the steering linkage."
+    why: "Can be added to an existing manual system."
+    q: "Power steering with separate cylinder acting on linkage?"
+    a: "Linkage type."
+    simple: "Helper cylinder pushes the linkage."
+  - id: f26
+    topic: u6.steering
+    difficulty: 2
+    learn: "Electric power steering (EPS) uses an electric motor on the column or rack, controlled by a torque sensor and ECU."
+    why: "Saves fuel; works only when steering."
+    q: "What senses driver effort in EPS?"
+    a: "Torque sensor."
+    simple: "Electric motor helps when you turn."
+  - id: f27
+    topic: u6.steering
+    difficulty: 2
+    learn: "Power steering is fail-safe: if power fails, the driver can still steer manually with more effort."
+    why: "Mechanical link stays connected."
+    q: "Can a car be steered if power steering fails?"
+    a: "Yes, manually but with more effort."
+    simple: "Heavier, but still works."
+  - id: f28
+    topic: u6.steering
+    difficulty: 2
+    learn: "Collapsible steering column collapses on impact to protect the driver's chest. Types: mesh/lattice, telescopic (sliding), shear capsule, convoluted tube."
+    why: "Prevents the column spearing the driver in a crash."
+    q: "Purpose of a collapsible steering column?"
+    a: "Collapse in a crash to protect the driver."
+    simple: "The column folds instead of hitting you."
+  - id: f29
+    topic: u6.steering
+    difficulty: 2
+    learn: "Wheel alignment angles: camber, caster, kingpin inclination (KPI / SAI), toe-in/toe-out, toe-out on turns."
+    why: "Correct angles give stability, light steering and less tyre wear."
+    q: "Name four wheel alignment factors."
+    a: "Camber, caster, KPI, toe."
+    simple: "Angles at which wheels are set."
+  - id: f30
+    topic: u6.steering
+    difficulty: 2
+    learn: "Camber: tilt of the wheel inward or outward at the top, seen from the front. Positive camber: top tilts out."
+    why: "Small camber spreads load and eases steering."
+    q: "Wheel top tilted outward is which camber?"
+    a: "Positive camber."
+    simple: "Camber = wheel leaning in or out."
+  - id: f31
+    topic: u6.steering
+    difficulty: 2
+    learn: "Excess camber causes tyre wear on one shoulder (positive camber wears the outer edge) and pulling to one side."
+    why: "The tyre rides on its edge."
+    q: "Too much positive camber wears which edge of the tyre?"
+    a: "Outer edge."
+    simple: "Leaning wheel wears one side."
+  - id: f32
+    topic: u6.steering
+    difficulty: 2
+    learn: "Caster: backward tilt of the kingpin/steering axis seen from the side. Positive caster: top tilts towards the rear."
+    why: "It gives directional stability and self-centring."
+    example: "Like a shopping trolley wheel that trails behind its pivot."
+    q: "Which angle gives self-centring and directional stability?"
+    a: "Caster (positive)."
+    simple: "Caster makes wheels want to go straight."
+  - id: f33
+    topic: u6.steering
+    difficulty: 2
+    learn: "Too much caster makes steering heavy; too little makes the vehicle wander. Unequal caster makes it pull to one side."
+    why: "Caster sets the self-aligning force."
+    q: "Effect of too much positive caster?"
+    a: "Heavy steering."
+    simple: "Too much = heavy. Too little = wandering."
+  - id: f34
+    topic: u6.steering
+    difficulty: 2
+    learn: "Kingpin inclination (KPI / steering axis inclination): inward tilt of the kingpin at the top, seen from the front. Usually 7–8°."
+    why: "Reduces steering effort and helps self-centring (the vehicle lifts slightly when wheels are turned)."
+    q: "Purpose of kingpin inclination?"
+    a: "Reduce steering effort and give self-centring."
+    simple: "Tilted pivot brings the wheels back straight."
+  - id: f35
+    topic: u6.steering
+    difficulty: 2
+    learn: "Scrub radius (offset): distance on the road between the tyre centre and the point where the steering axis meets the ground."
+    why: "KPI and camber reduce the scrub radius and steering effort."
+    q: "Distance at the road between tyre centre and steering axis?"
+    a: "Scrub radius."
+    simple: "How far the wheel sits from its pivot line."
+  - id: f36
+    topic: u6.steering
+    difficulty: 2
+    learn: "Toe-in: front of wheels closer than the rear (seen from above). Toe-out: front further apart. Usually 2–4 mm toe-in for RWD."
+    why: "Toe-in balances the wheels' tendency to splay out when rolling (positive camber, rolling resistance)."
+    q: "Front of the wheels closer together than the rear is called?"
+    a: "Toe-in."
+    simple: "Wheels pointing slightly inward."
+  - id: f37
+    topic: u6.steering
+    difficulty: 2
+    learn: "Front-wheel-drive cars often have zero or slight toe-out."
+    why: "Driving force pulls the front of the wheels inward."
+    q: "Do FWD cars usually have toe-in or slight toe-out?"
+    a: "Zero or slight toe-out."
+    simple: "Pulling wheels toe in by themselves."
+  - id: f38
+    topic: u6.steering
+    difficulty: 2
+    learn: "Wrong toe causes feather-edge (saw-tooth) tyre wear."
+    why: "Tyres scrub sideways as they roll."
+    q: "Feather-edge tyre wear indicates wrong what?"
+    a: "Toe setting."
+    simple: "Saw-tooth wear = toe problem."
+  - id: f39
+    topic: u6.steering
+    difficulty: 2
+    learn: "Toe-out on turns: on a turn the inner wheel turns more than the outer, giving toe-out. Provided by the Ackermann layout."
+    why: "Needed for true rolling about a common centre."
+    q: "Toe-out on turns is achieved by?"
+    a: "Ackermann steering geometry (angled steering arms)."
+    simple: "On turns the wheels point slightly apart."
+  - id: f40
+    topic: u6.steering
+    difficulty: 2
+    learn: "Factors affecting wheel alignment: worn kingpins, ball joints and tie rod ends, bent parts, sagging springs, wrong tyre pressure, accidents, potholes."
+    why: "Any wear or bend changes the angles."
+    q: "Name two factors that disturb wheel alignment."
+    a: "Worn joints, bent parts, weak springs, accidents, tyre pressure."
+    simple: "Wear, bends and knocks spoil alignment."
+  - id: f41
+    topic: u6.steering
+    difficulty: 2
+    learn: "Steering geometry faults: wheel wobble/shimmy, wander, pull to one side, hard steering, poor return after turns."
+    why: "Each points to a different cause."
+    q: "Shaking of front wheels at speed is called?"
+    a: "Wheel shimmy (wobble)."
+    simple: "Shaking steering wheel = shimmy."
+  - id: f42
+    topic: u6.steering
+    difficulty: 2
+    learn: "Turning radius: radius of the circle traced by the outer front wheel at full lock. Smaller is more manoeuvrable."
+    why: "Small cars have about 4.5–5 m."
+    q: "Turning radius is measured on which wheel?"
+    a: "Outer front wheel at full lock."
+    simple: "How tight the vehicle can turn."
+  - id: f43
+    topic: u6.steering
+    difficulty: 2
+    learn: "Over-steer: vehicle turns more than the driver wants (rear slides out). Under-steer: turns less (front pushes wide)."
+    why: "Caused by grip difference between front and rear tyres."
+    q: "Rear sliding out on a turn is called?"
+    a: "Over-steer."
+    simple: "Over = too much turn. Under = not enough."
+  - id: sum
+    topic: u6.steering
+    type: summary
+    points:
+      - "True rolling: common centre; inner wheel turns more."
+      - "Ackermann (turning pairs, 3 exact positions) vs Davis (sliding pairs)."
+      - "Gearboxes: worm & sector/roller, recirculating ball, rack & pinion."
+      - "Power steering: integral, linkage, EPS; collapsible column."
+      - "Camber, caster (self-centring), KPI, toe-in, toe-out on turns."
+
+  # ---------- Brakes ----------
+  - id: f01
+    topic: u6.brakes
+    difficulty: 1
+    learn: "Brakes slow down or stop a vehicle by turning its kinetic energy into heat through friction."
+    why: "Energy cannot vanish; it becomes heat."
+    q: "Brakes convert kinetic energy into what?"
+    a: "Heat."
+    simple: "Brakes turn speed into heat."
+  - id: f02
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Classification of brakes: by purpose (service, parking), by location (wheel, transmission), by construction (drum, disc), by actuation (mechanical, hydraulic, air, vacuum servo, electric)."
+    why: "PSC asks classification often."
+    q: "Name three types of brakes by method of actuation."
+    a: "Mechanical, hydraulic, air (pneumatic), servo, electric."
+    simple: "Brakes are worked by rods, oil, air or vacuum."
+  - id: f03
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Service brake (foot brake) is used during driving. Parking brake (hand brake) holds the parked vehicle and is usually mechanical on rear wheels."
+    why: "Parking brake must work without hydraulic pressure."
+    q: "Hand brake is usually which type?"
+    a: "Mechanical, on rear wheels."
+    simple: "Foot brake for driving, hand brake for parking."
+  - id: f04
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Mechanical brakes use rods, cables and levers to push the brake shoes."
+    why: "Simple, but uneven braking and more effort."
+    example: "Bicycles, many two-wheelers and parking brakes."
+    q: "Main drawback of mechanical brakes?"
+    a: "Unequal braking and high effort."
+    simple: "Rods and cables, but hard to balance."
+  - id: f05
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Drum brake: shoes press outward against a rotating drum (internal expanding)."
+    why: "The drum turns with the wheel; friction slows it."
+    q: "In a drum brake, what presses against the drum?"
+    a: "Brake shoes with linings."
+    simple: "Shoes push out on the drum."
+  - id: f06
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Internal expanding brake: shoes inside the drum expand outward. External contracting brake: a band outside the drum tightens around it."
+    why: "Internal expanding is used on vehicle wheels; external contracting on some transmissions and winches."
+    q: "Which brake type is used in vehicle wheel drums?"
+    a: "Internal expanding."
+    simple: "Inside pushing out, or outside squeezing in."
+  - id: f07
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Drum brake parts: back plate, two shoes with linings, wheel cylinder or cam, retracting springs, anchor pin, adjuster, drum."
+    why: "Springs pull the shoes back when brakes are released."
+    q: "What pulls brake shoes back after releasing the brake?"
+    a: "Retracting (return) springs."
+    simple: "Springs pull the shoes off the drum."
+  - id: f08
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Leading shoe: drum rotation helps press it harder (self-energising). Trailing shoe: drum rotation pushes it away."
+    why: "Friction drags the leading shoe into the drum."
+    q: "Which shoe is self-energising?"
+    a: "Leading shoe."
+    simple: "Leading shoe gets pulled in; trailing shoe is pushed away."
+  - id: f09
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Brake shoes are made of pressed steel or cast iron, lined with friction material (riveted or bonded)."
+    why: "Linings wear and are replaced."
+    q: "How are brake linings fixed to shoes?"
+    a: "Riveted or bonded."
+    simple: "Friction lining glued or riveted to the shoe."
+  - id: f10
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Brake lining materials: asbestos-free organic, semi-metallic, ceramic, sintered metal. Asbestos is banned due to health risk."
+    why: "Asbestos dust causes lung disease."
+    q: "Why is asbestos no longer used in brake linings?"
+    a: "Health hazard (lung disease)."
+    simple: "Asbestos dust is poisonous."
+  - id: f11
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Brake fade: loss of braking when brakes get very hot from repeated use, for example on long downhill roads."
+    why: "Hot linings lose friction; hot fluid may boil."
+    example: "Coming down the Thamarassery ghat road using brakes continuously."
+    q: "Loss of brake power due to overheating is called?"
+    a: "Brake fade."
+    simple: "Hot brakes grip less."
+  - id: f12
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Use engine braking (lower gear) on long descents to avoid brake fade."
+    why: "The engine holds speed, so brakes stay cool."
+    q: "How to avoid brake fade on a long downhill?"
+    a: "Use a lower gear (engine braking)."
+    simple: "Let the engine slow you down."
+  - id: f13
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Disc brake: a disc (rotor) turns with the wheel; a caliper squeezes friction pads on both sides of it."
+    why: "Disc is open to air, so it cools fast."
+    q: "In a disc brake, what squeezes the pads?"
+    a: "Caliper (with pistons)."
+    simple: "Pads pinch a spinning disc."
+  - id: f14
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Disc brake advantages: better cooling, less fade, self-cleaning (throws off water), easy pad change, even braking."
+    why: "The disc is exposed to air."
+    q: "Main advantage of disc brakes over drum brakes?"
+    a: "Better cooling, less fade."
+    simple: "Discs stay cool and work in rain."
+  - id: f15
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Disc brakes are not self-energising, so they need more pedal force; a brake booster is usually fitted."
+    why: "Pads press straight, without wedging."
+    q: "Are disc brakes self-energising?"
+    a: "No."
+    simple: "Discs need a helper (booster)."
+  - id: f16
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Caliper types: fixed caliper (pistons on both sides) and floating/sliding caliper (piston on one side; caliper slides)."
+    why: "Floating calipers are cheaper and common in cars."
+    q: "Caliper with piston on one side only that slides?"
+    a: "Floating (sliding) caliper."
+    simple: "Fixed has pistons both sides; floating slides."
+  - id: f17
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Ventilated discs have air passages between two faces for better cooling. Discs are made of grey cast iron."
+    why: "More cooling surface."
+    q: "Material of brake discs?"
+    a: "Grey cast iron."
+    simple: "Cast iron discs, sometimes with air vents."
+  - id: f18
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Hydraulic brakes work on Pascal's law: pedal force builds pressure in the master cylinder, which is passed equally to all wheel cylinders."
+    why: "Equal pressure gives equal braking."
+    q: "Hydraulic brakes work on which law?"
+    a: "Pascal's law."
+    simple: "Push oil at one end; every wheel gets the same push."
+  - id: f19
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Hydraulic brake parts: brake pedal, master cylinder, reservoir, brake lines (pipes and hoses), wheel cylinders or calipers, brake fluid."
+    why: "Fluid carries the force."
+    q: "Name the parts of a hydraulic brake system."
+    a: "Pedal, master cylinder, lines, wheel cylinders/calipers, fluid."
+    simple: "Pedal → master cylinder → pipes → wheels."
+  - id: f20
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Master cylinder converts pedal force into hydraulic pressure. Parts: reservoir, piston, primary and secondary cups, return spring, check valve, compensating port, inlet port."
+    why: "Pedal pushes the piston which pressurises fluid."
+    q: "Which component converts pedal force to hydraulic pressure?"
+    a: "Master cylinder."
+    simple: "Pedal pushes a piston to build pressure."
+  - id: f21
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Compensating port lets fluid flow between reservoir and cylinder when brakes are off, making up for expansion, contraction and lining wear."
+    why: "Keeps the system full with no trapped pressure."
+    q: "Purpose of the compensating port in master cylinder?"
+    a: "Allow fluid to expand/return to reservoir; compensate wear."
+    simple: "A small hole that balances the fluid."
+  - id: f22
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Check valve in a master cylinder keeps a small residual pressure in the lines (in drum systems)."
+    why: "Keeps wheel cylinder cups sealed and stops air entering."
+    q: "Why is residual pressure kept in brake lines?"
+    a: "To keep cups sealed and prevent air entry."
+    simple: "A little pressure keeps air out."
+  - id: f23
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Tandem master cylinder has two pistons one behind the other, feeding two separate circuits (dual circuit)."
+    why: "If one circuit leaks, the other still brakes the vehicle."
+    q: "Why is a tandem master cylinder used?"
+    a: "Two separate circuits for safety."
+    simple: "Two systems in one, so one can fail safely."
+  - id: f24
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Dual circuit splits: front/rear (vertical split) or diagonal (each circuit has one front and the opposite rear wheel)."
+    why: "Diagonal split keeps balanced braking if one fails."
+    q: "Which dual circuit split gives one front and one opposite rear wheel per circuit?"
+    a: "Diagonal split."
+    simple: "Criss-cross split keeps the car straight."
+  - id: f25
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Wheel cylinder: fluid pressure pushes its two pistons outward to expand the brake shoes against the drum."
+    why: "It converts hydraulic pressure back to force."
+    q: "Function of a wheel cylinder?"
+    a: "Push brake shoes outward using fluid pressure."
+    simple: "Oil pushes small pistons that spread the shoes."
+  - id: f26
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Wheel cylinder types: double-piston (both shoes), single-piston (one shoe), stepped (different piston sizes)."
+    why: "Stepped cylinders give more force to the leading shoe."
+    q: "Wheel cylinder with different piston diameters is called?"
+    a: "Stepped wheel cylinder."
+    simple: "Bigger piston pushes harder."
+  - id: f27
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Brake bleeding removes air from hydraulic brake lines."
+    why: "Air compresses, giving a soft, spongy pedal."
+    q: "Why are brakes bled?"
+    a: "To remove air from the system."
+    simple: "Push out air bubbles from the brake pipes."
+  - id: f28
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Bleeding is done at each wheel's bleed screw, usually starting from the wheel farthest from the master cylinder."
+    why: "Air is pushed out of the longest line first."
+    q: "Bleeding usually starts from which wheel?"
+    a: "The one farthest from the master cylinder."
+    simple: "Start far, finish near."
+  - id: f29
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Spongy pedal: air in the lines. Pedal goes to floor slowly: leaking cups. Hard pedal: booster failure."
+    why: "Each symptom points to a cause."
+    q: "Spongy brake pedal indicates?"
+    a: "Air in the brake lines."
+    simple: "Soft pedal = air inside."
+  - id: f30
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Servo (power-assisted) brake uses an outside power source to add to the driver's pedal force."
+    why: "Reduces driver effort."
+    q: "What is a servo brake?"
+    a: "Brake assisted by vacuum, air or hydraulic power."
+    simple: "A helper multiplies pedal force."
+  - id: f31
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Servo brake types: vacuum servo (most cars), air servo, hydraulic servo, mechanical self-servo (leading shoe)."
+    why: "Vacuum is freely available from petrol engines."
+    q: "Most common servo in cars?"
+    a: "Vacuum servo (brake booster)."
+    simple: "Engine vacuum helps push."
+  - id: f32
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Vacuum booster: a large diaphragm with engine vacuum on both sides. Pressing the pedal lets air into one side; the pressure difference pushes the master cylinder."
+    why: "Atmospheric pressure on a big area gives a big force."
+    q: "Working of a vacuum booster in one line?"
+    a: "Air on one side, vacuum on the other pushes the diaphragm to help the pedal."
+    simple: "Air pushes a big diaphragm toward the vacuum."
+  - id: f33
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Diesel engines have little manifold vacuum, so they use an engine-driven vacuum pump (exhauster) for the booster."
+    why: "Diesel engines run without a throttle."
+    q: "How do diesel cars get vacuum for the brake booster?"
+    a: "Vacuum pump (exhauster)."
+    simple: "A pump makes the vacuum."
+  - id: f34
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Suspended vacuum type: vacuum on both sides of the diaphragm at rest. Atmospheric suspended: air on both sides at rest. Most boosters are vacuum-suspended."
+    why: "Vacuum-suspended reacts faster."
+    q: "Most boosters are which type?"
+    a: "Vacuum suspended."
+    simple: "Vacuum waits on both sides."
+  - id: f35
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Air (pneumatic) brakes use compressed air to apply the brakes. Used in heavy vehicles like trucks and buses."
+    why: "Gives large braking force with little pedal effort."
+    q: "Which vehicles use air brakes?"
+    a: "Heavy vehicles: trucks, buses, trailers."
+    simple: "Big vehicles brake with air."
+  - id: f36
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Air brake parts: compressor, governor/unloader, air dryer, reservoir (tanks), foot (brake) valve, brake chambers, slack adjusters, S-cam, relay and quick release valves, pressure gauge."
+    why: "Each stores, controls or applies air."
+    q: "Valve operated by the driver's foot in an air brake system?"
+    a: "Foot (brake) valve."
+    simple: "Compressor fills tanks; foot valve sends air to wheels."
+  - id: f37
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Air brake working: compressor fills reservoirs (about 7–8 bar). Pressing the foot valve sends air to brake chambers, whose push rods turn the slack adjuster and S-cam, spreading the shoes."
+    why: "Air pressure becomes a mechanical push."
+    q: "In an air brake, what spreads the brake shoes?"
+    a: "S-cam (turned by slack adjuster)."
+    simple: "Air pushes a rod that twists a cam."
+  - id: f38
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Brake chamber converts air pressure into mechanical force using a diaphragm and push rod."
+    why: "It is the 'muscle' at each wheel."
+    q: "Part that converts air pressure into push-rod force?"
+    a: "Brake chamber."
+    simple: "Air bag that pushes a rod."
+  - id: f39
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Slack adjuster joins the brake chamber push rod to the S-cam shaft and adjusts for lining wear."
+    why: "Keeps the shoe-to-drum clearance correct."
+    q: "Function of slack adjuster?"
+    a: "Link push rod to cam and adjust for lining wear."
+    simple: "Keeps brakes adjusted as linings wear."
+  - id: f40
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Quick release valve lets air out of the brake chambers quickly when brakes are released. Relay valve applies air quickly to far-away chambers."
+    why: "Long pipes would slow down action."
+    q: "Valve that speeds up brake release in air brakes?"
+    a: "Quick release valve."
+    simple: "Lets air out fast."
+  - id: f41
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Spring brakes (parking/emergency) in heavy vehicles: strong springs apply the brakes, and air pressure holds them off."
+    why: "If air is lost, brakes come on automatically (fail-safe)."
+    q: "In spring brakes, what applies the brake?"
+    a: "Springs (air pressure releases them)."
+    simple: "No air = brakes on."
+  - id: f42
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Low air pressure warning (buzzer/light) tells the driver when tank pressure falls below safe level (about 4–5 bar)."
+    why: "Driving with low air is dangerous."
+    q: "What warns the driver of low air brake pressure?"
+    a: "Low pressure warning buzzer/light."
+    simple: "An alarm when air is low."
+  - id: f43
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Air dryer and drain cocks remove moisture from compressed air."
+    why: "Water in air lines can freeze or rust valves."
+    q: "Why are air tanks drained daily?"
+    a: "To remove collected water/moisture."
+    simple: "Drain water from air tanks."
+  - id: f44
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Air brakes: advantages—large force, unlimited air, no fluid leaks dangerous, trailer brakes easy. Disadvantages—costly, compressor needed, slower response."
+    why: "Trade-offs suited to heavy vehicles."
+    q: "Give one advantage of air brakes."
+    a: "Large braking force with little effort; easy trailer coupling."
+    simple: "Strong and easy for big vehicles."
+  - id: f45
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Air-over-hydraulic brakes: air pressure works a hydraulic master cylinder (booster) for each circuit. Used in medium trucks."
+    why: "Combines air force with hydraulic precision."
+    q: "Brake system using air to operate hydraulic master cylinders?"
+    a: "Air-over-hydraulic (air-assisted hydraulic) brakes."
+    simple: "Air helps oil brakes."
+  - id: f46
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Exhaust brake (retarder) closes the exhaust pipe with a valve so the engine slows the vehicle. Electric (eddy current) retarders are also used in buses."
+    why: "Saves service brakes on long descents."
+    q: "Device that slows a truck by blocking the exhaust?"
+    a: "Exhaust brake."
+    simple: "Choke the exhaust to slow down."
+  - id: f47
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Brake efficiency is tested on a roller brake tester or by a decelerometer. Efficiency = (retardation / g) × 100."
+    why: "MVD tests brakes during fitness certification."
+    q: "Formula for brake efficiency?"
+    a: "(Retardation ÷ g) × 100"
+    simple: "Deceleration compared with g."
+  - id: f48
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Stopping distance = reaction distance + braking distance. Braking distance = v² / (2μg)."
+    why: "Double the speed gives four times braking distance."
+    q: "If speed doubles, braking distance becomes?"
+    a: "Four times."
+    simple: "Twice as fast needs four times the room to stop."
+  - id: f49
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Weight transfer during braking loads the front wheels more, so front brakes are made stronger (often discs)."
+    why: "The vehicle pitches forward."
+    q: "Why are front brakes made stronger?"
+    a: "Weight shifts to the front under braking."
+    simple: "Front wheels carry more load when braking."
+  - id: f50
+    topic: u6.brakes
+    difficulty: 2
+    learn: "Proportioning (load-sensing) valve reduces pressure to rear brakes to prevent rear wheel lock-up."
+    why: "Rear wheels lose load under braking and can lock."
+    q: "Valve that prevents rear wheel lock?"
+    a: "Proportioning (load-sensing) valve."
+    simple: "Less pressure for the lighter rear."
+  - id: s01
+    topic: u6.brakes
+    type: steps
+    difficulty: 3
+    title: "Worked example: braking distance"
+    steps:
+      - text: "Question: A car at 20 m/s brakes with μ = 0.5. Find braking distance (g = 10 m/s²)."
+      - text: "Braking distance = v² / (2μg)."
+      - text: "= 20² / (2 × 0.5 × 10) = 400 / 10."
+      - text: "= 40 m."
+        explain: "At 40 m/s it would be 160 m — four times."
+    summary:
+      - "s = v²/(2μg)."
+      - "Double speed → 4 × distance."
+    q: "Braking distance at 20 m/s with μ = 0.5?"
+    a: "40 m"
+  - id: sum
+    topic: u6.brakes
+    type: summary
+    points:
+      - "Drum (internal expanding, leading shoe self-energising) vs disc (cooler, less fade)."
+      - "Hydraulic brakes: Pascal's law, tandem master cylinder, bleeding removes air."
+      - "Vacuum servo booster; diesel uses exhauster pump."
+      - "Air brakes: compressor, foot valve, brake chamber, slack adjuster, S-cam."
+      - "Spring brakes fail-safe; braking distance ∝ v²."
+
+mcq:
+  - topic: u6.frame
+    q: "The frame section most resistant to torsion is"
+    options: ["Channel section", "I-section", "Box section", "Angle section"]
+    answer: 2
+    explain: "Closed box sections resist twisting best."
+    covers: [f09]
+  - topic: u6.axle
+    q: "The most commonly used type of stub axle is"
+    options: ["Elliott", "Reversed Elliott", "Lemoine", "Reversed Lemoine"]
+    answer: 1
+    explain: "Reversed Elliott is the most common."
+    covers: [f08]
+  - topic: u6.suspension
+    q: "The function of a spring shackle is to"
+    options: ["Damp oscillations", "Allow change in spring length", "Hold leaves together", "Locate the axle sideways"]
+    answer: 1
+    explain: "A shackle swings to let the spring change length as it flexes."
+    covers: [f18]
+  - topic: u6.steering
+    q: "Davis steering gear differs from Ackermann because it has"
+    options: ["Turning pairs only", "Sliding pairs", "No linkages", "Only three correct positions"]
+    answer: 1
+    explain: "Davis gear uses sliding pairs and is correct in all positions."
+    covers: [f09]
+  - topic: u6.steering
+    q: "The wheel alignment angle that gives directional stability and self-centring is"
+    options: ["Camber", "Caster", "Toe-in", "Scrub radius"]
+    answer: 1
+    explain: "Positive caster gives self-centring and stability."
+    covers: [f32]
+  - topic: u6.brakes
+    q: "Spongy brake pedal is mainly due to"
+    options: ["Worn drum", "Air in brake lines", "Excess fluid", "Hard linings"]
+    answer: 1
+    explain: "Air compresses, making the pedal spongy."
+    covers: [f29]
+  - topic: u6.brakes
+    q: "In an air brake system, the brake shoes are expanded by"
+    options: ["Wheel cylinder", "S-cam", "Master cylinder", "Caliper"]
+    answer: 1
+    explain: "The slack adjuster turns the S-cam to spread the shoes."
+    covers: [f37]

@@ -385,6 +385,51 @@
    },
    "order": 41,
    "freq": 0.8
+  },
+  {
+   "id": "u6.frame",
+   "subject": "chassis",
+   "title": {
+    "en": "Chassis and frame"
+   },
+   "order": 42,
+   "freq": 0.7
+  },
+  {
+   "id": "u6.axle",
+   "subject": "chassis",
+   "title": {
+    "en": "Front axle and stub axle"
+   },
+   "order": 43,
+   "freq": 0.7
+  },
+  {
+   "id": "u6.suspension",
+   "subject": "chassis",
+   "title": {
+    "en": "Suspension, springs and shock absorbers"
+   },
+   "order": 44,
+   "freq": 0.8
+  },
+  {
+   "id": "u6.steering",
+   "subject": "chassis",
+   "title": {
+    "en": "Steering system and wheel alignment"
+   },
+   "order": 45,
+   "freq": 0.9
+  },
+  {
+   "id": "u6.brakes",
+   "subject": "chassis",
+   "title": {
+    "en": "Brake systems"
+   },
+   "order": 46,
+   "freq": 0.9
   }
  ],
  "cards": [
@@ -22056,6 +22101,3874 @@
      "en": "Coolant = water + ethylene glycol; electric/viscous fans."
     }
    ]
+  },
+  {
+   "id": "u6.frame.f01",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Chassis means the whole vehicle without the body: frame, engine, transmission, suspension, steering, brakes and wheels."
+   },
+   "why": {
+    "en": "It is everything needed to make the vehicle move."
+   },
+   "recall_q": {
+    "en": "What is a chassis?"
+   },
+   "recall_a": {
+    "en": "The vehicle without its body (frame + running gear)."
+   },
+   "explain_simple": {
+    "en": "The running vehicle without the body shell."
+   }
+  },
+  {
+   "id": "u6.frame.f02",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "The frame is the backbone of the chassis. It supports the body, engine and all other units."
+   },
+   "why": {
+    "en": "It must carry loads and resist bending and twisting."
+   },
+   "recall_q": {
+    "en": "Main job of the frame?"
+   },
+   "recall_a": {
+    "en": "Support all parts and carry loads."
+   },
+   "explain_simple": {
+    "en": "The skeleton of the vehicle."
+   }
+  },
+  {
+   "id": "u6.frame.f03",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Loads on a frame: weight of vehicle and passengers (bending), road twisting (torsion), braking and acceleration (longitudinal), cornering (side), and impacts."
+   },
+   "why": {
+    "en": "The frame must handle all of these together."
+   },
+   "recall_q": {
+    "en": "Name two loads acting on a vehicle frame."
+   },
+   "recall_a": {
+    "en": "Bending, torsion, braking, side and impact loads."
+   },
+   "explain_simple": {
+    "en": "Weight, twist, push, pull and knocks."
+   }
+  },
+  {
+   "id": "u6.frame.f04",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Conventional (ladder) frame: two long side members joined by cross members, like a ladder. Used in trucks, buses and SUVs."
+   },
+   "why": {
+    "en": "Strong, simple and easy to repair."
+   },
+   "recall_q": {
+    "en": "Frame used in trucks and buses?"
+   },
+   "recall_a": {
+    "en": "Ladder (conventional) frame."
+   },
+   "explain_simple": {
+    "en": "Two long rails with cross bars, like a ladder."
+   }
+  },
+  {
+   "id": "u6.frame.f05",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Frameless (integral / unitary / monocoque) construction: body and frame are one welded shell. Used in most cars."
+   },
+   "why": {
+    "en": "Lighter and stiffer, with lower floor."
+   },
+   "recall_q": {
+    "en": "Construction where body and frame are a single unit?"
+   },
+   "recall_a": {
+    "en": "Integral (monocoque / unitary) construction."
+   },
+   "explain_simple": {
+    "en": "The body itself is the frame."
+   }
+  },
+  {
+   "id": "u6.frame.f06",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Semi-integral frame: a light frame is joined to the body through rubber mounts, sharing some loads."
+   },
+   "why": {
+    "en": "Combines parts of both designs."
+   },
+   "recall_q": {
+    "en": "Frame between conventional and integral types?"
+   },
+   "recall_a": {
+    "en": "Semi-integral frame."
+   },
+   "explain_simple": {
+    "en": "Half frame, half body."
+   }
+  },
+  {
+   "id": "u6.frame.f07",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Other frame types: backbone (central tube), X-frame, perimeter frame, space frame (tube cage, racing cars)."
+   },
+   "why": {
+    "en": "Each balances stiffness and weight."
+   },
+   "recall_q": {
+    "en": "Frame made of many small tubes forming a cage?"
+   },
+   "recall_a": {
+    "en": "Space frame (tubular frame)."
+   },
+   "explain_simple": {
+    "en": "A cage of tubes."
+   }
+  },
+  {
+   "id": "u6.frame.f08",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Frame sections used for side members: channel (C) section (most common), box section, tubular section, I-section."
+   },
+   "why": {
+    "en": "Channel is easy to make and good in bending; box resists twisting."
+   },
+   "recall_q": {
+    "en": "Most common section for frame side members?"
+   },
+   "recall_a": {
+    "en": "Channel (C) section."
+   },
+   "explain_simple": {
+    "en": "C-shaped steel rails."
+   }
+  },
+  {
+   "id": "u6.frame.f09",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Box section is best against torsion (twisting). Channel section is best in bending for its weight."
+   },
+   "why": {
+    "en": "A closed section resists twist much better."
+   },
+   "recall_q": {
+    "en": "Which section best resists twisting?"
+   },
+   "recall_a": {
+    "en": "Box section."
+   },
+   "explain_simple": {
+    "en": "Closed box = hard to twist."
+   }
+  },
+  {
+   "id": "u6.frame.f10",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Frame side members are deeper in the middle (between axles) where bending moment is greatest."
+   },
+   "why": {
+    "en": "More depth gives more strength where needed."
+   },
+   "recall_q": {
+    "en": "Why is a frame deeper at the centre?"
+   },
+   "recall_a": {
+    "en": "Bending moment is maximum there."
+   },
+   "explain_simple": {
+    "en": "Make it strongest where it bends most."
+   }
+  },
+  {
+   "id": "u6.frame.f11",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Frame is narrow at the front (kick-up / narrowed) to allow wheels to turn for steering, and upswept at the rear over the axle."
+   },
+   "why": {
+    "en": "Front wheels need room to turn; rear axle needs room to move."
+   },
+   "recall_q": {
+    "en": "Why is the frame upswept at the rear?"
+   },
+   "recall_a": {
+    "en": "To give room for rear axle movement."
+   },
+   "explain_simple": {
+    "en": "Bent up over the axle for clearance."
+   }
+  },
+  {
+   "id": "u6.frame.f12",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Frame material: mild steel or low-alloy steel sheet, pressed and riveted or welded. Some cars use aluminium."
+   },
+   "why": {
+    "en": "Steel is strong, cheap and repairable."
+   },
+   "recall_q": {
+    "en": "Common material for vehicle frames?"
+   },
+   "recall_a": {
+    "en": "Mild steel / low-alloy steel."
+   },
+   "explain_simple": {
+    "en": "Pressed steel."
+   }
+  },
+  {
+   "id": "u6.frame.f13",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Sub-frame: a smaller separate frame carrying the engine, suspension or axle, bolted to the main body through rubber mounts."
+   },
+   "why": {
+    "en": "It isolates vibration and makes assembly easier."
+   },
+   "recall_q": {
+    "en": "What is a sub-frame?"
+   },
+   "recall_a": {
+    "en": "A small frame carrying engine/suspension, mounted to the body."
+   },
+   "explain_simple": {
+    "en": "A mini frame for the engine or suspension."
+   }
+  },
+  {
+   "id": "u6.frame.f14",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bumpers absorb small impacts and protect the body. Modern bumpers are plastic covers over energy-absorbing foam and a steel or aluminium beam."
+   },
+   "why": {
+    "en": "They soak up low-speed crash energy."
+   },
+   "recall_q": {
+    "en": "Function of a bumper?"
+   },
+   "recall_a": {
+    "en": "Absorb impact and protect body/occupants."
+   },
+   "explain_simple": {
+    "en": "A cushion at the front and back."
+   }
+  },
+  {
+   "id": "u6.frame.f15",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fitting bull bars (crash guards) on cars is banned in India."
+   },
+   "why": {
+    "en": "They make crashes worse for pedestrians and stop airbag sensors working properly."
+   },
+   "recall_q": {
+    "en": "Are bull bars allowed on cars in India?"
+   },
+   "recall_a": {
+    "en": "No (illegal alteration)."
+   },
+   "explain_simple": {
+    "en": "Metal guards on cars are not allowed."
+   }
+  },
+  {
+   "id": "u6.frame.f16",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Crumple zones: front and rear parts of the body designed to crush in a crash, absorbing energy. The passenger cell stays rigid."
+   },
+   "why": {
+    "en": "Slower deceleration means less injury."
+   },
+   "recall_q": {
+    "en": "Purpose of crumple zones?"
+   },
+   "recall_a": {
+    "en": "Absorb crash energy so the cabin stays safe."
+   },
+   "explain_simple": {
+    "en": "The ends crush so people do not."
+   }
+  },
+  {
+   "id": "u6.frame.f17",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Frame defects: cracks, bending, sagging, twisting and loose rivets. Alignment is checked with diagonal measurements."
+   },
+   "why": {
+    "en": "Equal diagonals show the frame is square."
+   },
+   "recall_q": {
+    "en": "How is frame alignment checked simply?"
+   },
+   "recall_a": {
+    "en": "Diagonal measurements (should be equal)."
+   },
+   "explain_simple": {
+    "en": "Cross measurements must match."
+   }
+  },
+  {
+   "id": "u6.frame.f18",
+   "topic": "u6.frame",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Chassis layouts: front engine rear drive, front engine front drive, rear engine rear drive, mid engine, four-wheel drive."
+   },
+   "why": {
+    "en": "Layout affects space, traction and handling."
+   },
+   "recall_q": {
+    "en": "Most common layout in Indian small cars?"
+   },
+   "recall_a": {
+    "en": "Front engine, front-wheel drive."
+   },
+   "explain_simple": {
+    "en": "Engine and drive both at the front."
+   }
+  },
+  {
+   "id": "u6.frame.sum",
+   "topic": "u6.frame",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Chassis and frame; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Chassis and frame"
+   },
+   "points": [
+    {
+     "en": "Chassis = vehicle without body; frame = backbone."
+    },
+    {
+     "en": "Ladder frame (trucks) vs integral/monocoque (cars), semi-integral."
+    },
+    {
+     "en": "Channel section common; box best for torsion."
+    },
+    {
+     "en": "Narrowed front, upswept rear, deeper middle."
+    },
+    {
+     "en": "Sub-frames, bumpers, crumple zones."
+    }
+   ]
+  },
+  {
+   "id": "u6.axle.f01",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Dead axle carries only weight; it does not drive the wheels. Live axle carries weight and also drives the wheels."
+   },
+   "why": {
+    "en": "Live axles have shafts inside to transmit power."
+   },
+   "recall_q": {
+    "en": "An axle that carries load but does not transmit power is?"
+   },
+   "recall_a": {
+    "en": "Dead axle."
+   },
+   "explain_simple": {
+    "en": "Dead = just holds. Live = holds and drives."
+   }
+  },
+  {
+   "id": "u6.axle.f02",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Front axle of a rear-wheel-drive vehicle is a dead axle. Front axle of a front-wheel-drive vehicle is a live axle."
+   },
+   "why": {
+    "en": "It depends on which wheels are driven."
+   },
+   "recall_q": {
+    "en": "Front axle of a rear-wheel-drive truck is dead or live?"
+   },
+   "recall_a": {
+    "en": "Dead."
+   },
+   "explain_simple": {
+    "en": "Truck front axle just steers and carries."
+   }
+  },
+  {
+   "id": "u6.axle.f03",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Front axle beam has an I-section in the middle and round or elliptical section near the ends."
+   },
+   "why": {
+    "en": "I-section resists bending; round ends resist twisting from braking."
+   },
+   "recall_q": {
+    "en": "Cross section of a front axle beam in the middle?"
+   },
+   "recall_a": {
+    "en": "I-section."
+   },
+   "explain_simple": {
+    "en": "I-shape for strength in the middle."
+   }
+  },
+  {
+   "id": "u6.axle.f04",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Front axle beam is dropped (bent down) in the middle."
+   },
+   "why": {
+    "en": "This lowers the chassis and engine for stability."
+   },
+   "recall_q": {
+    "en": "Why is the front axle beam dropped at the centre?"
+   },
+   "recall_a": {
+    "en": "To lower the chassis height."
+   },
+   "explain_simple": {
+    "en": "Bent down to sit the vehicle lower."
+   }
+  },
+  {
+   "id": "u6.axle.f05",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Front axle is made of drop-forged medium carbon steel or nickel steel."
+   },
+   "why": {
+    "en": "It needs high strength and toughness."
+   },
+   "recall_q": {
+    "en": "Front axle material?"
+   },
+   "recall_a": {
+    "en": "Drop-forged medium carbon or alloy steel."
+   },
+   "explain_simple": {
+    "en": "Forged strong steel."
+   }
+  },
+  {
+   "id": "u6.axle.f06",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stub axle carries the front wheel and turns on a kingpin for steering."
+   },
+   "why": {
+    "en": "It lets the wheel steer while the axle beam stays still."
+   },
+   "recall_q": {
+    "en": "The short axle on which the front wheel turns for steering?"
+   },
+   "recall_a": {
+    "en": "Stub axle."
+   },
+   "explain_simple": {
+    "en": "The small axle that pivots to steer."
+   }
+  },
+  {
+   "id": "u6.axle.f07",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stub axle types: Elliott, reversed Elliott, Lemoine, reversed Lemoine."
+   },
+   "why": {
+    "en": "They differ in how the stub axle and beam end fit together."
+   },
+   "recall_q": {
+    "en": "Name the four types of stub axle."
+   },
+   "recall_a": {
+    "en": "Elliott, reversed Elliott, Lemoine, reversed Lemoine."
+   },
+   "explain_simple": {
+    "en": "Four ways to join stub axle and beam."
+   }
+  },
+  {
+   "id": "u6.axle.f08",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Elliott type: the axle beam end fits between the forked (yoke) stub axle. Reversed Elliott: the beam end is forked and the stub axle fits inside."
+   },
+   "why": {
+    "en": "Reversed Elliott is the most common."
+   },
+   "recall_q": {
+    "en": "Most common stub axle arrangement?"
+   },
+   "recall_a": {
+    "en": "Reversed Elliott."
+   },
+   "explain_simple": {
+    "en": "In reversed Elliott, the beam has the fork."
+   }
+  },
+  {
+   "id": "u6.axle.f09",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Lemoine type: an L-shaped stub axle fits under the beam end (no fork). Reversed Lemoine fits above."
+   },
+   "why": {
+    "en": "Used where height is limited."
+   },
+   "recall_q": {
+    "en": "Stub axle with L-shaped spindle and no fork?"
+   },
+   "recall_a": {
+    "en": "Lemoine type."
+   },
+   "explain_simple": {
+    "en": "Lemoine = L-shape, no yoke."
+   }
+  },
+  {
+   "id": "u6.axle.f10",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Kingpin (swivel pin) joins the stub axle to the axle beam and lets it swing for steering."
+   },
+   "why": {
+    "en": "It is the steering pivot."
+   },
+   "recall_q": {
+    "en": "Pin on which the stub axle swivels?"
+   },
+   "recall_a": {
+    "en": "Kingpin."
+   },
+   "explain_simple": {
+    "en": "The hinge pin for steering."
+   }
+  },
+  {
+   "id": "u6.axle.f11",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Modern cars with independent suspension use ball joints instead of kingpins."
+   },
+   "why": {
+    "en": "Ball joints allow both steering and suspension movement."
+   },
+   "recall_q": {
+    "en": "What replaces kingpins in independent front suspension?"
+   },
+   "recall_a": {
+    "en": "Ball joints."
+   },
+   "explain_simple": {
+    "en": "Ball joints swivel in all directions."
+   }
+  },
+  {
+   "id": "u6.axle.f12",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thrust bearing between the stub axle and the beam carries the vehicle weight while letting the stub axle turn."
+   },
+   "why": {
+    "en": "Makes steering light."
+   },
+   "recall_q": {
+    "en": "Bearing that takes vehicle weight at the kingpin?"
+   },
+   "recall_a": {
+    "en": "Thrust bearing."
+   },
+   "explain_simple": {
+    "en": "A bearing under the pivot for easy steering."
+   }
+  },
+  {
+   "id": "u6.axle.f13",
+   "topic": "u6.axle",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steering knuckle is the part carrying the stub axle, steering arm and brake parts."
+   },
+   "why": {
+    "en": "It joins steering, suspension and wheel."
+   },
+   "recall_q": {
+    "en": "Part that carries the stub axle and steering arm?"
+   },
+   "recall_a": {
+    "en": "Steering knuckle."
+   },
+   "explain_simple": {
+    "en": "The joint that holds the wheel and turns."
+   }
+  },
+  {
+   "id": "u6.axle.sum",
+   "topic": "u6.axle",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Front axle and stub axle; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Front axle and stub axle"
+   },
+   "points": [
+    {
+     "en": "Dead axle carries load; live axle also drives."
+    },
+    {
+     "en": "Front beam: I-section middle, dropped centre, forged steel."
+    },
+    {
+     "en": "Stub axle types: Elliott, reversed Elliott (common), Lemoine, reversed Lemoine."
+    },
+    {
+     "en": "Kingpin pivot; ball joints in independent suspension."
+    },
+    {
+     "en": "Thrust bearing carries weight at kingpin."
+    }
+   ]
+  },
+  {
+   "id": "u6.suspension.f01",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Suspension connects wheels to the frame and absorbs road shocks."
+   },
+   "why": {
+    "en": "It gives comfort, keeps tyres on the road and protects the vehicle."
+   },
+   "recall_q": {
+    "en": "Main job of suspension?"
+   },
+   "recall_a": {
+    "en": "Absorb road shocks and keep wheels on road."
+   },
+   "explain_simple": {
+    "en": "It makes the ride smooth and safe."
+   }
+  },
+  {
+   "id": "u6.suspension.f02",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Functions of suspension: comfort, road holding, stability on turns and braking, protect load and parts, carry weight."
+   },
+   "why": {
+    "en": "Each is needed for safe driving."
+   },
+   "recall_q": {
+    "en": "Name two functions of suspension."
+   },
+   "recall_a": {
+    "en": "Comfort, road holding, stability, carry load."
+   },
+   "explain_simple": {
+    "en": "Comfort and grip."
+   }
+  },
+  {
+   "id": "u6.suspension.f03",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Sprung weight: parts supported by springs (body, frame, engine). Unsprung weight: parts not supported by springs (wheels, tyres, axles, brakes)."
+   },
+   "why": {
+    "en": "Low unsprung weight gives better ride and grip."
+   },
+   "recall_q": {
+    "en": "Is the wheel sprung or unsprung weight?"
+   },
+   "recall_a": {
+    "en": "Unsprung."
+   },
+   "explain_simple": {
+    "en": "Above springs = sprung. Below = unsprung."
+   }
+  },
+  {
+   "id": "u6.suspension.f04",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rigid axle (dependent) suspension: both wheels are on one axle, so a bump on one wheel affects the other."
+   },
+   "why": {
+    "en": "The axle is a single beam."
+   },
+   "recall_q": {
+    "en": "Suspension where a bump on one wheel affects the other?"
+   },
+   "recall_a": {
+    "en": "Rigid axle (dependent) suspension."
+   },
+   "explain_simple": {
+    "en": "Both wheels joined by one bar."
+   }
+  },
+  {
+   "id": "u6.suspension.f05",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Independent suspension: each wheel moves up and down separately."
+   },
+   "why": {
+    "en": "Better comfort and road grip."
+   },
+   "recall_q": {
+    "en": "Main advantage of independent suspension?"
+   },
+   "recall_a": {
+    "en": "One wheel's bump does not affect the other; better ride."
+   },
+   "explain_simple": {
+    "en": "Each wheel moves on its own."
+   }
+  },
+  {
+   "id": "u6.suspension.f06",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Independent front suspension types: MacPherson strut, double wishbone, trailing link, swinging axle."
+   },
+   "why": {
+    "en": "MacPherson is the most common in cars."
+   },
+   "recall_q": {
+    "en": "Most common front suspension in cars?"
+   },
+   "recall_a": {
+    "en": "MacPherson strut."
+   },
+   "explain_simple": {
+    "en": "MacPherson strut for most cars."
+   }
+  },
+  {
+   "id": "u6.suspension.f07",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "MacPherson strut: a shock absorber and coil spring in one unit, which also acts as the steering pivot, with one lower arm."
+   },
+   "why": {
+    "en": "Simple, compact and leaves room for engine."
+   },
+   "recall_q": {
+    "en": "In a MacPherson strut, what acts as the steering pivot?"
+   },
+   "recall_a": {
+    "en": "The strut itself (top mount and lower ball joint)."
+   },
+   "explain_simple": {
+    "en": "Spring + shock in one tube that also steers."
+   }
+  },
+  {
+   "id": "u6.suspension.f08",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Double wishbone: upper and lower A-shaped arms hold the wheel. Gives good control of camber."
+   },
+   "why": {
+    "en": "Used in SUVs, sports cars and premium cars."
+   },
+   "recall_q": {
+    "en": "Suspension with upper and lower A-arms?"
+   },
+   "recall_a": {
+    "en": "Double wishbone."
+   },
+   "explain_simple": {
+    "en": "Two triangle arms, one above, one below."
+   }
+  },
+  {
+   "id": "u6.suspension.f09",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Two-wheeler front suspension: telescopic fork (most common), leading link, trailing link. Rear: swing arm with twin shocks or mono-shock."
+   },
+   "why": {
+    "en": "Telescopic forks are simple and strong."
+   },
+   "recall_q": {
+    "en": "Most common motorcycle front suspension?"
+   },
+   "recall_a": {
+    "en": "Telescopic fork."
+   },
+   "explain_simple": {
+    "en": "Two sliding tubes with springs inside."
+   }
+  },
+  {
+   "id": "u6.suspension.f10",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Three-wheeler (autorickshaw) front: single trailing/leading link with coil spring or torsion bar and shock absorber. Rear: swing arms with coil springs."
+   },
+   "why": {
+    "en": "One front wheel needs a single-arm design."
+   },
+   "recall_q": {
+    "en": "Front suspension of an autorickshaw is usually?"
+   },
+   "recall_a": {
+    "en": "Single link (trailing/leading) with spring and shock absorber."
+   },
+   "explain_simple": {
+    "en": "One arm for the single front wheel."
+   }
+  },
+  {
+   "id": "u6.suspension.f11",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rear suspension types: rigid axle with leaf springs (trucks, buses), rigid axle with coil springs and links, twist beam (small FWD cars), independent multi-link."
+   },
+   "why": {
+    "en": "Load capacity and cost decide the choice."
+   },
+   "recall_q": {
+    "en": "Rear suspension in most small front-wheel-drive cars?"
+   },
+   "recall_a": {
+    "en": "Twist (torsion) beam."
+   },
+   "explain_simple": {
+    "en": "A bendy beam linking the rear wheels."
+   }
+  },
+  {
+   "id": "u6.suspension.f12",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Spring types used: leaf (laminated), coil, torsion bar, rubber, air (pneumatic), hydro-pneumatic."
+   },
+   "why": {
+    "en": "Each stores energy in a different way."
+   },
+   "recall_q": {
+    "en": "Spring that twists to give springing action?"
+   },
+   "recall_a": {
+    "en": "Torsion bar."
+   },
+   "explain_simple": {
+    "en": "Leaf, coil, twist bar, rubber, air."
+   }
+  },
+  {
+   "id": "u6.suspension.f13",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Leaf spring types: semi-elliptic (most common), quarter-elliptic, three-quarter elliptic, full elliptic, transverse."
+   },
+   "why": {
+    "en": "Semi-elliptic suits trucks and buses."
+   },
+   "recall_q": {
+    "en": "Most common leaf spring type?"
+   },
+   "recall_a": {
+    "en": "Semi-elliptic."
+   },
+   "explain_simple": {
+    "en": "A curved stack of steel strips."
+   }
+  },
+  {
+   "id": "u6.suspension.f14",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Leaf spring parts: master leaf with eyes, other leaves, centre bolt, rebound clips, U-bolts, spring seat, shackle."
+   },
+   "why": {
+    "en": "Rebound clips keep leaves together on rebound."
+   },
+   "recall_q": {
+    "en": "What holds leaves together and stops them spreading on rebound?"
+   },
+   "recall_a": {
+    "en": "Rebound clips."
+   },
+   "explain_simple": {
+    "en": "Clips hold the stack together."
+   }
+  },
+  {
+   "id": "u6.suspension.f15",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Leaves are of graded length so the spring has nearly uniform strength along its length."
+   },
+   "why": {
+    "en": "Bending moment is highest at the centre."
+   },
+   "recall_q": {
+    "en": "Why do leaves have different lengths?"
+   },
+   "recall_a": {
+    "en": "To give uniform strength (more leaves at centre)."
+   },
+   "explain_simple": {
+    "en": "Thickest where bending is most."
+   }
+  },
+  {
+   "id": "u6.suspension.f16",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Leaf springs also locate the axle and transmit driving and braking forces (Hotchkiss drive)."
+   },
+   "why": {
+    "en": "No extra links needed."
+   },
+   "recall_q": {
+    "en": "Besides springing, what else do leaf springs do?"
+   },
+   "recall_a": {
+    "en": "Locate the axle and carry drive/brake forces."
+   },
+   "explain_simple": {
+    "en": "They spring and hold the axle in place."
+   }
+  },
+  {
+   "id": "u6.suspension.f17",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Interleaf friction in a leaf spring damps vibration, but makes the ride harsher. Leaves are greased or have plastic inserts."
+   },
+   "why": {
+    "en": "Too much friction stiffens the spring."
+   },
+   "recall_q": {
+    "en": "Why are leaf springs lubricated?"
+   },
+   "recall_a": {
+    "en": "To reduce interleaf friction and noise."
+   },
+   "explain_simple": {
+    "en": "Grease stops the leaves squeaking and sticking."
+   }
+  },
+  {
+   "id": "u6.suspension.f18",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Spring shackle: a swinging link at one end of the leaf spring that allows the spring length to change as it flexes."
+   },
+   "why": {
+    "en": "A bent spring gets longer when it straightens."
+   },
+   "recall_q": {
+    "en": "Why is a shackle fitted at one end of a leaf spring?"
+   },
+   "recall_a": {
+    "en": "To allow change in spring length during flexing."
+   },
+   "explain_simple": {
+    "en": "A swinging link lets the spring stretch."
+   }
+  },
+  {
+   "id": "u6.suspension.f19",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Shackle pin connects the shackle to the spring eye and frame. Eyes have bushes (bronze or rubber)."
+   },
+   "why": {
+    "en": "Pins and bushes wear and need greasing."
+   },
+   "recall_q": {
+    "en": "Pin joining the shackle and spring eye?"
+   },
+   "recall_a": {
+    "en": "Shackle pin."
+   },
+   "explain_simple": {
+    "en": "The pin through the spring eye."
+   }
+  },
+  {
+   "id": "u6.suspension.f20",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Front end of a leaf spring is usually fixed to the frame by a bracket; the rear end has the shackle."
+   },
+   "why": {
+    "en": "Fixed front end keeps the axle located during braking."
+   },
+   "recall_q": {
+    "en": "Which end of a leaf spring usually has the shackle?"
+   },
+   "recall_a": {
+    "en": "Rear end."
+   },
+   "explain_simple": {
+    "en": "Front fixed, rear swinging."
+   }
+  },
+  {
+   "id": "u6.suspension.f21",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Helper spring: an extra small leaf spring above the main spring that works only under heavy load."
+   },
+   "why": {
+    "en": "Soft ride when empty, strong support when loaded."
+   },
+   "example": {
+    "en": "Pick-up trucks and lorries."
+   },
+   "recall_q": {
+    "en": "What is a helper spring?"
+   },
+   "recall_a": {
+    "en": "An extra spring that acts only under heavy load."
+   },
+   "explain_simple": {
+    "en": "A backup spring for heavy loads."
+   }
+  },
+  {
+   "id": "u6.suspension.f22",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Coil springs: light, compact, need no lubrication, but cannot locate the axle, so links or arms are needed."
+   },
+   "why": {
+    "en": "They only take vertical load."
+   },
+   "recall_q": {
+    "en": "Drawback of coil springs compared to leaf springs?"
+   },
+   "recall_a": {
+    "en": "Cannot locate axle/carry side or drive forces; need links."
+   },
+   "explain_simple": {
+    "en": "Coils only push up; arms are needed to hold the axle."
+   }
+  },
+  {
+   "id": "u6.suspension.f23",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Coil spring arrangements: around the shock absorber (coil-over), between lower arm and body, on rigid axle with links (four-link, Panhard rod)."
+   },
+   "why": {
+    "en": "Layout depends on suspension design."
+   },
+   "recall_q": {
+    "en": "A rod that stops sideways movement of a rigid axle?"
+   },
+   "recall_a": {
+    "en": "Panhard rod."
+   },
+   "explain_simple": {
+    "en": "A side rod to keep the axle centred."
+   }
+  },
+  {
+   "id": "u6.suspension.f24",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air suspension uses rubber air bags (bellows) with compressed air. A levelling valve keeps ride height constant with load."
+   },
+   "why": {
+    "en": "Same ride height empty or full."
+   },
+   "example": {
+    "en": "Volvo and Scania buses in KSRTC use air suspension."
+   },
+   "recall_q": {
+    "en": "Advantage of air suspension in buses?"
+   },
+   "recall_a": {
+    "en": "Constant height and soft ride at any load."
+   },
+   "explain_simple": {
+    "en": "Air bags adjust to the load."
+   }
+  },
+  {
+   "id": "u6.suspension.f25",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Anti-roll bar (stabiliser bar) links left and right suspension to reduce body roll on turns."
+   },
+   "why": {
+    "en": "It twists when one side moves more than the other."
+   },
+   "recall_q": {
+    "en": "Purpose of an anti-roll bar?"
+   },
+   "recall_a": {
+    "en": "Reduce body roll on turns."
+   },
+   "explain_simple": {
+    "en": "Stops the car leaning too much."
+   }
+  },
+  {
+   "id": "u6.suspension.f26",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A shock absorber (damper) controls spring oscillations. It turns movement energy into heat in oil."
+   },
+   "why": {
+    "en": "Without it, the car would keep bouncing after a bump."
+   },
+   "recall_q": {
+    "en": "Main function of a shock absorber?"
+   },
+   "recall_a": {
+    "en": "Damp spring oscillations."
+   },
+   "explain_simple": {
+    "en": "It stops the bouncing."
+   }
+  },
+  {
+   "id": "u6.suspension.f27",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Springs absorb shocks; shock absorbers do not absorb shocks — they damp (calm) the spring movement."
+   },
+   "why": {
+    "en": "Common PSC trap."
+   },
+   "recall_q": {
+    "en": "Do shock absorbers absorb road shocks?"
+   },
+   "recall_a": {
+    "en": "No — springs absorb, dampers control the bounce."
+   },
+   "explain_simple": {
+    "en": "Spring takes the hit; damper stops the bounce."
+   }
+  },
+  {
+   "id": "u6.suspension.f28",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Telescopic shock absorber: piston with small valves moves in an oil-filled cylinder. Oil forced through valves resists motion."
+   },
+   "why": {
+    "en": "Small holes slow the oil flow."
+   },
+   "recall_q": {
+    "en": "Most common type of shock absorber?"
+   },
+   "recall_a": {
+    "en": "Telescopic (hydraulic) type."
+   },
+   "explain_simple": {
+    "en": "A piston pushing oil through tiny holes."
+   }
+  },
+  {
+   "id": "u6.suspension.f29",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Telescopic damper parts: inner pressure tube, outer reservoir tube, piston with valves, piston rod, foot (base) valve, seal and dust cover."
+   },
+   "why": {
+    "en": "Twin-tube design keeps extra oil in the reservoir."
+   },
+   "recall_q": {
+    "en": "Tube that stores reserve oil in a twin-tube damper?"
+   },
+   "recall_a": {
+    "en": "Outer (reservoir) tube."
+   },
+   "explain_simple": {
+    "en": "Inner tube works, outer tube stores oil."
+   }
+  },
+  {
+   "id": "u6.suspension.f30",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Shock absorbers usually resist more on rebound (extension) than on bump (compression)."
+   },
+   "why": {
+    "en": "Soft bump for comfort, firm rebound to control bounce."
+   },
+   "recall_q": {
+    "en": "Is damping usually stronger on bump or rebound?"
+   },
+   "recall_a": {
+    "en": "Rebound."
+   },
+   "explain_simple": {
+    "en": "Easy going down, slow coming up."
+   }
+  },
+  {
+   "id": "u6.suspension.f31",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Single-acting damper works only on rebound. Double-acting works on both bump and rebound. Most are double-acting."
+   },
+   "why": {
+    "en": "Control in both directions is better."
+   },
+   "recall_q": {
+    "en": "Damper that works in both directions is called?"
+   },
+   "recall_a": {
+    "en": "Double-acting."
+   },
+   "explain_simple": {
+    "en": "Double-acting controls up and down."
+   }
+  },
+  {
+   "id": "u6.suspension.f32",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Gas-charged (monotube) shock absorbers have nitrogen gas under pressure to stop oil foaming (aeration)."
+   },
+   "why": {
+    "en": "Foamed oil gives weak damping."
+   },
+   "recall_q": {
+    "en": "Why is nitrogen filled in gas shock absorbers?"
+   },
+   "recall_a": {
+    "en": "Prevent oil foaming/aeration."
+   },
+   "explain_simple": {
+    "en": "Gas keeps the oil from bubbling."
+   }
+  },
+  {
+   "id": "u6.suspension.f33",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Other damper types: lever arm (older), friction (old), adjustable and electronically controlled (adaptive) dampers."
+   },
+   "why": {
+    "en": "Adaptive dampers change stiffness as needed."
+   },
+   "recall_q": {
+    "en": "Old type of damper using rubbing plates?"
+   },
+   "recall_a": {
+    "en": "Friction damper."
+   },
+   "explain_simple": {
+    "en": "Old dampers rubbed; new ones use oil."
+   }
+  },
+  {
+   "id": "u6.suspension.f34",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Worn shock absorbers: car keeps bouncing, nose dives on braking, poor grip, uneven (cupped) tyre wear, oil leaks."
+   },
+   "why": {
+    "en": "Damping is lost."
+   },
+   "recall_q": {
+    "en": "How can you check a shock absorber quickly?"
+   },
+   "recall_a": {
+    "en": "Bounce test: push down and see if it bounces more than once or twice."
+   },
+   "explain_simple": {
+    "en": "Push the car; it should settle quickly."
+   }
+  },
+  {
+   "id": "u6.suspension.f35",
+   "topic": "u6.suspension",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rubber bump stops (bumpers) prevent metal-to-metal contact at full suspension travel."
+   },
+   "why": {
+    "en": "They cushion the last bit of movement."
+   },
+   "recall_q": {
+    "en": "Purpose of bump stops?"
+   },
+   "recall_a": {
+    "en": "Prevent metal contact at full compression."
+   },
+   "explain_simple": {
+    "en": "Rubber blocks at the end of travel."
+   }
+  },
+  {
+   "id": "u6.suspension.sum",
+   "topic": "u6.suspension",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Suspension, springs and shock absorbers; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Suspension, springs and shock absorbers"
+   },
+   "points": [
+    {
+     "en": "Sprung vs unsprung weight; rigid vs independent."
+    },
+    {
+     "en": "Front: MacPherson, double wishbone; bikes: telescopic fork."
+    },
+    {
+     "en": "Leaf spring: master leaf, rebound clips, U-bolts, shackle at rear."
+    },
+    {
+     "en": "Helper spring for heavy loads; anti-roll bar cuts roll."
+    },
+    {
+     "en": "Springs absorb; telescopic dampers damp, stronger on rebound."
+    }
+   ]
+  },
+  {
+   "id": "u6.steering.f01",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steering system lets the driver turn the front wheels to change direction."
+   },
+   "why": {
+    "en": "It must be light, precise and safe."
+   },
+   "recall_q": {
+    "en": "Main function of steering system?"
+   },
+   "recall_a": {
+    "en": "Turn the wheels to control direction."
+   },
+   "explain_simple": {
+    "en": "It points the wheels where you want to go."
+   }
+  },
+  {
+   "id": "u6.steering.f02",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Requirements of steering: easy to turn, self-centring after a turn, stable straight running, little road shock to the wheel, correct turning geometry."
+   },
+   "why": {
+    "en": "Good steering keeps the driver in control."
+   },
+   "recall_q": {
+    "en": "Name one requirement of a good steering system."
+   },
+   "recall_a": {
+    "en": "Light, self-centring, stable, true rolling."
+   },
+   "explain_simple": {
+    "en": "Easy, steady and returns straight."
+   }
+  },
+  {
+   "id": "u6.steering.f03",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "For true rolling on a turn, all wheels must turn about one common centre (instantaneous centre)."
+   },
+   "why": {
+    "en": "Otherwise tyres slip and wear."
+   },
+   "recall_q": {
+    "en": "Condition for correct steering?"
+   },
+   "recall_a": {
+    "en": "All wheels turn about a common centre."
+   },
+   "explain_simple": {
+    "en": "Every wheel circles the same point."
+   }
+  },
+  {
+   "id": "u6.steering.f04",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "On a turn, the inner front wheel turns more sharply than the outer wheel."
+   },
+   "why": {
+    "en": "The inner wheel follows a smaller circle."
+   },
+   "recall_q": {
+    "en": "Which front wheel turns more on a turn: inner or outer?"
+   },
+   "recall_a": {
+    "en": "Inner wheel."
+   },
+   "explain_simple": {
+    "en": "Inside wheel turns tighter."
+   }
+  },
+  {
+   "id": "u6.steering.f05",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Condition for correct steering: cot φ − cot θ = c / b. (φ outer angle, θ inner angle, c = distance between kingpin centres, b = wheelbase)."
+   },
+   "why": {
+    "en": "This gives true rolling of all wheels."
+   },
+   "recall_q": {
+    "en": "Write the condition for correct steering."
+   },
+   "recall_a": {
+    "en": "cot φ − cot θ = c/b"
+   },
+   "explain_simple": {
+    "en": "Formula linking inner and outer wheel angles."
+   }
+  },
+  {
+   "id": "u6.steering.f06",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ackermann steering mechanism uses a trapezium linkage (steering arms angled inward) and has only turning pairs."
+   },
+   "why": {
+    "en": "It is simple and used in almost all vehicles."
+   },
+   "recall_q": {
+    "en": "Steering mechanism used in most vehicles?"
+   },
+   "recall_a": {
+    "en": "Ackermann steering mechanism."
+   },
+   "explain_simple": {
+    "en": "A four-bar trapezium linkage."
+   }
+  },
+  {
+   "id": "u6.steering.f07",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ackermann gives correct steering in only three positions: straight ahead and one position each to left and right."
+   },
+   "why": {
+    "en": "In between, there is a small error."
+   },
+   "recall_q": {
+    "en": "In how many positions does Ackermann give exact steering?"
+   },
+   "recall_a": {
+    "en": "Three."
+   },
+   "explain_simple": {
+    "en": "Exact at three points, close elsewhere."
+   }
+  },
+  {
+   "id": "u6.steering.f08",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Davis steering gear uses sliding pairs and gives correct steering in all positions. It is not used much because sliding parts wear."
+   },
+   "why": {
+    "en": "Sliding pairs have more friction and wear."
+   },
+   "recall_q": {
+    "en": "Which mechanism is theoretically correct in all positions?"
+   },
+   "recall_a": {
+    "en": "Davis steering gear."
+   },
+   "explain_simple": {
+    "en": "Davis is perfect but wears fast."
+   }
+  },
+  {
+   "id": "u6.steering.f09",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ackermann has turning pairs only; Davis has sliding pairs."
+   },
+   "why": {
+    "en": "This is the main difference asked in exams."
+   },
+   "recall_q": {
+    "en": "Which steering mechanism has sliding pairs?"
+   },
+   "recall_a": {
+    "en": "Davis."
+   },
+   "explain_simple": {
+    "en": "Davis slides; Ackermann turns."
+   }
+  },
+  {
+   "id": "u6.steering.f10",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fifth wheel steering: the whole front axle turns about a central pivot. Used in horse carts and trailers (fifth wheel coupling)."
+   },
+   "why": {
+    "en": "Simple but unstable for fast vehicles."
+   },
+   "recall_q": {
+    "en": "Steering where the whole axle turns on a centre pivot?"
+   },
+   "recall_a": {
+    "en": "Fifth wheel (centre pivot) steering."
+   },
+   "explain_simple": {
+    "en": "Whole axle swivels like a bullock cart."
+   }
+  },
+  {
+   "id": "u6.steering.f11",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steering linkage parts (rigid axle): steering wheel → column → gearbox → drop arm (pitman arm) → drag link → steering arm → stub axle; track rod joins both stub axles."
+   },
+   "why": {
+    "en": "Each part passes motion to the wheels."
+   },
+   "recall_q": {
+    "en": "Rod connecting the two steering arms?"
+   },
+   "recall_a": {
+    "en": "Track rod (tie rod)."
+   },
+   "explain_simple": {
+    "en": "Wheel → box → drop arm → drag link → wheels."
+   }
+  },
+  {
+   "id": "u6.steering.f12",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Drop arm (pitman arm) is attached to the steering gearbox output shaft; it swings and moves the drag link."
+   },
+   "why": {
+    "en": "Turns gearbox rotation into a push-pull motion."
+   },
+   "recall_q": {
+    "en": "Arm fixed to the steering gearbox output shaft?"
+   },
+   "recall_a": {
+    "en": "Drop arm (pitman arm)."
+   },
+   "explain_simple": {
+    "en": "The arm hanging from the steering box."
+   }
+  },
+  {
+   "id": "u6.steering.f13",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Tie rod ends and drag link ends use ball joints so they can move in all directions."
+   },
+   "why": {
+    "en": "Suspension movement and steering happen together."
+   },
+   "recall_q": {
+    "en": "Joints used at tie rod ends?"
+   },
+   "recall_a": {
+    "en": "Ball joints (ball and socket)."
+   },
+   "explain_simple": {
+    "en": "Ball joints let the rods move freely."
+   }
+  },
+  {
+   "id": "u6.steering.f14",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Independent front suspension uses a divided (split) track rod with an idler arm or rack and pinion."
+   },
+   "why": {
+    "en": "A single track rod would upset steering when one wheel moves."
+   },
+   "recall_q": {
+    "en": "Why is the track rod split in independent suspension?"
+   },
+   "recall_a": {
+    "en": "So each wheel can move up and down without bump steer."
+   },
+   "explain_simple": {
+    "en": "Two rods so each wheel moves on its own."
+   }
+  },
+  {
+   "id": "u6.steering.f15",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steering gearbox reduces the effort needed and changes the direction of motion. Steering gear ratio is usually 12:1 to 24:1."
+   },
+   "why": {
+    "en": "Many turns of the wheel give a small turn of the road wheels."
+   },
+   "recall_q": {
+    "en": "Typical steering gear ratio range?"
+   },
+   "recall_a": {
+    "en": "About 12:1 to 24:1."
+   },
+   "explain_simple": {
+    "en": "Turn more, push less."
+   }
+  },
+  {
+   "id": "u6.steering.f16",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steering gearbox types: worm and sector, worm and roller, worm and nut, recirculating ball, cam and lever, rack and pinion."
+   },
+   "why": {
+    "en": "PSC asks to list types."
+   },
+   "recall_q": {
+    "en": "Name three steering gearbox types."
+   },
+   "recall_a": {
+    "en": "Worm & sector, worm & roller, recirculating ball, rack & pinion."
+   },
+   "explain_simple": {
+    "en": "Many shapes of gears do the same job."
+   }
+  },
+  {
+   "id": "u6.steering.f17",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Worm and sector: a worm on the column turns a toothed sector on the drop arm shaft."
+   },
+   "why": {
+    "en": "Simple and strong, but has more friction."
+   },
+   "recall_q": {
+    "en": "In worm and sector steering, what does the worm drive?"
+   },
+   "recall_a": {
+    "en": "A toothed sector (part of a gear)."
+   },
+   "explain_simple": {
+    "en": "A screw turns a slice of a gear."
+   }
+  },
+  {
+   "id": "u6.steering.f18",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Worm and roller: a roller on the sector shaft engages an hourglass worm, giving rolling contact and less friction."
+   },
+   "why": {
+    "en": "Rolling instead of sliding."
+   },
+   "recall_q": {
+    "en": "Advantage of worm and roller over worm and sector?"
+   },
+   "recall_a": {
+    "en": "Less friction (rolling contact)."
+   },
+   "explain_simple": {
+    "en": "A roller instead of teeth slides easier."
+   }
+  },
+  {
+   "id": "u6.steering.f19",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Recirculating ball: steel balls roll between the worm and a nut; the nut moves a sector. Very low friction."
+   },
+   "why": {
+    "en": "Balls recirculate through a return tube."
+   },
+   "example": {
+    "en": "Used in trucks, buses and older SUVs."
+   },
+   "recall_q": {
+    "en": "Steering gear in which balls run between worm and nut?"
+   },
+   "recall_a": {
+    "en": "Recirculating ball."
+   },
+   "explain_simple": {
+    "en": "Rolling balls make steering light."
+   }
+  },
+  {
+   "id": "u6.steering.f20",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rack and pinion: a pinion on the steering column moves a toothed rack sideways, which moves the tie rods."
+   },
+   "why": {
+    "en": "Simple, light, direct and precise."
+   },
+   "example": {
+    "en": "Used in almost all modern cars."
+   },
+   "recall_q": {
+    "en": "Steering gear used in most modern cars?"
+   },
+   "recall_a": {
+    "en": "Rack and pinion."
+   },
+   "explain_simple": {
+    "en": "Round gear moves a straight toothed bar."
+   }
+  },
+  {
+   "id": "u6.steering.f21",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Reversible steering: road shocks are felt at the steering wheel. Irreversible: road shocks are not passed back. Most are semi-reversible."
+   },
+   "why": {
+    "en": "Some feedback helps self-centring and road feel."
+   },
+   "recall_q": {
+    "en": "Steering that passes road shocks back to the wheel?"
+   },
+   "recall_a": {
+    "en": "Reversible steering."
+   },
+   "explain_simple": {
+    "en": "Some feel of the road is good."
+   }
+  },
+  {
+   "id": "u6.steering.f22",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Power steering uses hydraulic or electric power to reduce the driver's effort."
+   },
+   "why": {
+    "en": "Heavy vehicles and wide tyres are hard to steer."
+   },
+   "recall_q": {
+    "en": "Purpose of power steering?"
+   },
+   "recall_a": {
+    "en": "Reduce steering effort."
+   },
+   "explain_simple": {
+    "en": "A helper makes steering light."
+   }
+  },
+  {
+   "id": "u6.steering.f23",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydraulic power steering parts: engine-driven pump (vane type), reservoir, control valve, power cylinder, hoses."
+   },
+   "why": {
+    "en": "Oil pressure pushes the piston to help the driver."
+   },
+   "recall_q": {
+    "en": "Type of pump used in hydraulic power steering?"
+   },
+   "recall_a": {
+    "en": "Vane pump."
+   },
+   "explain_simple": {
+    "en": "Engine pump pushes oil to help steer."
+   }
+  },
+  {
+   "id": "u6.steering.f24",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Integral power steering: control valve and power cylinder are built into the steering gearbox."
+   },
+   "why": {
+    "en": "Compact; common in trucks with recirculating-ball boxes."
+   },
+   "recall_q": {
+    "en": "Power steering with valve and cylinder inside the gearbox?"
+   },
+   "recall_a": {
+    "en": "Integral type."
+   },
+   "explain_simple": {
+    "en": "Everything inside the steering box."
+   }
+  },
+  {
+   "id": "u6.steering.f25",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Linkage type power steering: control valve and power cylinder are separate and act on the steering linkage."
+   },
+   "why": {
+    "en": "Can be added to an existing manual system."
+   },
+   "recall_q": {
+    "en": "Power steering with separate cylinder acting on linkage?"
+   },
+   "recall_a": {
+    "en": "Linkage type."
+   },
+   "explain_simple": {
+    "en": "Helper cylinder pushes the linkage."
+   }
+  },
+  {
+   "id": "u6.steering.f26",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Electric power steering (EPS) uses an electric motor on the column or rack, controlled by a torque sensor and ECU."
+   },
+   "why": {
+    "en": "Saves fuel; works only when steering."
+   },
+   "recall_q": {
+    "en": "What senses driver effort in EPS?"
+   },
+   "recall_a": {
+    "en": "Torque sensor."
+   },
+   "explain_simple": {
+    "en": "Electric motor helps when you turn."
+   }
+  },
+  {
+   "id": "u6.steering.f27",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Power steering is fail-safe: if power fails, the driver can still steer manually with more effort."
+   },
+   "why": {
+    "en": "Mechanical link stays connected."
+   },
+   "recall_q": {
+    "en": "Can a car be steered if power steering fails?"
+   },
+   "recall_a": {
+    "en": "Yes, manually but with more effort."
+   },
+   "explain_simple": {
+    "en": "Heavier, but still works."
+   }
+  },
+  {
+   "id": "u6.steering.f28",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Collapsible steering column collapses on impact to protect the driver's chest. Types: mesh/lattice, telescopic (sliding), shear capsule, convoluted tube."
+   },
+   "why": {
+    "en": "Prevents the column spearing the driver in a crash."
+   },
+   "recall_q": {
+    "en": "Purpose of a collapsible steering column?"
+   },
+   "recall_a": {
+    "en": "Collapse in a crash to protect the driver."
+   },
+   "explain_simple": {
+    "en": "The column folds instead of hitting you."
+   }
+  },
+  {
+   "id": "u6.steering.f29",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Wheel alignment angles: camber, caster, kingpin inclination (KPI / SAI), toe-in/toe-out, toe-out on turns."
+   },
+   "why": {
+    "en": "Correct angles give stability, light steering and less tyre wear."
+   },
+   "recall_q": {
+    "en": "Name four wheel alignment factors."
+   },
+   "recall_a": {
+    "en": "Camber, caster, KPI, toe."
+   },
+   "explain_simple": {
+    "en": "Angles at which wheels are set."
+   }
+  },
+  {
+   "id": "u6.steering.f30",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Camber: tilt of the wheel inward or outward at the top, seen from the front. Positive camber: top tilts out."
+   },
+   "why": {
+    "en": "Small camber spreads load and eases steering."
+   },
+   "recall_q": {
+    "en": "Wheel top tilted outward is which camber?"
+   },
+   "recall_a": {
+    "en": "Positive camber."
+   },
+   "explain_simple": {
+    "en": "Camber = wheel leaning in or out."
+   }
+  },
+  {
+   "id": "u6.steering.f31",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Excess camber causes tyre wear on one shoulder (positive camber wears the outer edge) and pulling to one side."
+   },
+   "why": {
+    "en": "The tyre rides on its edge."
+   },
+   "recall_q": {
+    "en": "Too much positive camber wears which edge of the tyre?"
+   },
+   "recall_a": {
+    "en": "Outer edge."
+   },
+   "explain_simple": {
+    "en": "Leaning wheel wears one side."
+   }
+  },
+  {
+   "id": "u6.steering.f32",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Caster: backward tilt of the kingpin/steering axis seen from the side. Positive caster: top tilts towards the rear."
+   },
+   "why": {
+    "en": "It gives directional stability and self-centring."
+   },
+   "example": {
+    "en": "Like a shopping trolley wheel that trails behind its pivot."
+   },
+   "recall_q": {
+    "en": "Which angle gives self-centring and directional stability?"
+   },
+   "recall_a": {
+    "en": "Caster (positive)."
+   },
+   "explain_simple": {
+    "en": "Caster makes wheels want to go straight."
+   }
+  },
+  {
+   "id": "u6.steering.f33",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Too much caster makes steering heavy; too little makes the vehicle wander. Unequal caster makes it pull to one side."
+   },
+   "why": {
+    "en": "Caster sets the self-aligning force."
+   },
+   "recall_q": {
+    "en": "Effect of too much positive caster?"
+   },
+   "recall_a": {
+    "en": "Heavy steering."
+   },
+   "explain_simple": {
+    "en": "Too much = heavy. Too little = wandering."
+   }
+  },
+  {
+   "id": "u6.steering.f34",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Kingpin inclination (KPI / steering axis inclination): inward tilt of the kingpin at the top, seen from the front. Usually 7–8°."
+   },
+   "why": {
+    "en": "Reduces steering effort and helps self-centring (the vehicle lifts slightly when wheels are turned)."
+   },
+   "recall_q": {
+    "en": "Purpose of kingpin inclination?"
+   },
+   "recall_a": {
+    "en": "Reduce steering effort and give self-centring."
+   },
+   "explain_simple": {
+    "en": "Tilted pivot brings the wheels back straight."
+   }
+  },
+  {
+   "id": "u6.steering.f35",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Scrub radius (offset): distance on the road between the tyre centre and the point where the steering axis meets the ground."
+   },
+   "why": {
+    "en": "KPI and camber reduce the scrub radius and steering effort."
+   },
+   "recall_q": {
+    "en": "Distance at the road between tyre centre and steering axis?"
+   },
+   "recall_a": {
+    "en": "Scrub radius."
+   },
+   "explain_simple": {
+    "en": "How far the wheel sits from its pivot line."
+   }
+  },
+  {
+   "id": "u6.steering.f36",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Toe-in: front of wheels closer than the rear (seen from above). Toe-out: front further apart. Usually 2–4 mm toe-in for RWD."
+   },
+   "why": {
+    "en": "Toe-in balances the wheels' tendency to splay out when rolling (positive camber, rolling resistance)."
+   },
+   "recall_q": {
+    "en": "Front of the wheels closer together than the rear is called?"
+   },
+   "recall_a": {
+    "en": "Toe-in."
+   },
+   "explain_simple": {
+    "en": "Wheels pointing slightly inward."
+   }
+  },
+  {
+   "id": "u6.steering.f37",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Front-wheel-drive cars often have zero or slight toe-out."
+   },
+   "why": {
+    "en": "Driving force pulls the front of the wheels inward."
+   },
+   "recall_q": {
+    "en": "Do FWD cars usually have toe-in or slight toe-out?"
+   },
+   "recall_a": {
+    "en": "Zero or slight toe-out."
+   },
+   "explain_simple": {
+    "en": "Pulling wheels toe in by themselves."
+   }
+  },
+  {
+   "id": "u6.steering.f38",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Wrong toe causes feather-edge (saw-tooth) tyre wear."
+   },
+   "why": {
+    "en": "Tyres scrub sideways as they roll."
+   },
+   "recall_q": {
+    "en": "Feather-edge tyre wear indicates wrong what?"
+   },
+   "recall_a": {
+    "en": "Toe setting."
+   },
+   "explain_simple": {
+    "en": "Saw-tooth wear = toe problem."
+   }
+  },
+  {
+   "id": "u6.steering.f39",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Toe-out on turns: on a turn the inner wheel turns more than the outer, giving toe-out. Provided by the Ackermann layout."
+   },
+   "why": {
+    "en": "Needed for true rolling about a common centre."
+   },
+   "recall_q": {
+    "en": "Toe-out on turns is achieved by?"
+   },
+   "recall_a": {
+    "en": "Ackermann steering geometry (angled steering arms)."
+   },
+   "explain_simple": {
+    "en": "On turns the wheels point slightly apart."
+   }
+  },
+  {
+   "id": "u6.steering.f40",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Factors affecting wheel alignment: worn kingpins, ball joints and tie rod ends, bent parts, sagging springs, wrong tyre pressure, accidents, potholes."
+   },
+   "why": {
+    "en": "Any wear or bend changes the angles."
+   },
+   "recall_q": {
+    "en": "Name two factors that disturb wheel alignment."
+   },
+   "recall_a": {
+    "en": "Worn joints, bent parts, weak springs, accidents, tyre pressure."
+   },
+   "explain_simple": {
+    "en": "Wear, bends and knocks spoil alignment."
+   }
+  },
+  {
+   "id": "u6.steering.f41",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Steering geometry faults: wheel wobble/shimmy, wander, pull to one side, hard steering, poor return after turns."
+   },
+   "why": {
+    "en": "Each points to a different cause."
+   },
+   "recall_q": {
+    "en": "Shaking of front wheels at speed is called?"
+   },
+   "recall_a": {
+    "en": "Wheel shimmy (wobble)."
+   },
+   "explain_simple": {
+    "en": "Shaking steering wheel = shimmy."
+   }
+  },
+  {
+   "id": "u6.steering.f42",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Turning radius: radius of the circle traced by the outer front wheel at full lock. Smaller is more manoeuvrable."
+   },
+   "why": {
+    "en": "Small cars have about 4.5–5 m."
+   },
+   "recall_q": {
+    "en": "Turning radius is measured on which wheel?"
+   },
+   "recall_a": {
+    "en": "Outer front wheel at full lock."
+   },
+   "explain_simple": {
+    "en": "How tight the vehicle can turn."
+   }
+  },
+  {
+   "id": "u6.steering.f43",
+   "topic": "u6.steering",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Over-steer: vehicle turns more than the driver wants (rear slides out). Under-steer: turns less (front pushes wide)."
+   },
+   "why": {
+    "en": "Caused by grip difference between front and rear tyres."
+   },
+   "recall_q": {
+    "en": "Rear sliding out on a turn is called?"
+   },
+   "recall_a": {
+    "en": "Over-steer."
+   },
+   "explain_simple": {
+    "en": "Over = too much turn. Under = not enough."
+   }
+  },
+  {
+   "id": "u6.steering.sum",
+   "topic": "u6.steering",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Steering system and wheel alignment; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Steering system and wheel alignment"
+   },
+   "points": [
+    {
+     "en": "True rolling: common centre; inner wheel turns more."
+    },
+    {
+     "en": "Ackermann (turning pairs, 3 exact positions) vs Davis (sliding pairs)."
+    },
+    {
+     "en": "Gearboxes: worm & sector/roller, recirculating ball, rack & pinion."
+    },
+    {
+     "en": "Power steering: integral, linkage, EPS; collapsible column."
+    },
+    {
+     "en": "Camber, caster (self-centring), KPI, toe-in, toe-out on turns."
+    }
+   ]
+  },
+  {
+   "id": "u6.brakes.f01",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brakes slow down or stop a vehicle by turning its kinetic energy into heat through friction."
+   },
+   "why": {
+    "en": "Energy cannot vanish; it becomes heat."
+   },
+   "recall_q": {
+    "en": "Brakes convert kinetic energy into what?"
+   },
+   "recall_a": {
+    "en": "Heat."
+   },
+   "explain_simple": {
+    "en": "Brakes turn speed into heat."
+   }
+  },
+  {
+   "id": "u6.brakes.f02",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Classification of brakes: by purpose (service, parking), by location (wheel, transmission), by construction (drum, disc), by actuation (mechanical, hydraulic, air, vacuum servo, electric)."
+   },
+   "why": {
+    "en": "PSC asks classification often."
+   },
+   "recall_q": {
+    "en": "Name three types of brakes by method of actuation."
+   },
+   "recall_a": {
+    "en": "Mechanical, hydraulic, air (pneumatic), servo, electric."
+   },
+   "explain_simple": {
+    "en": "Brakes are worked by rods, oil, air or vacuum."
+   }
+  },
+  {
+   "id": "u6.brakes.f03",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Service brake (foot brake) is used during driving. Parking brake (hand brake) holds the parked vehicle and is usually mechanical on rear wheels."
+   },
+   "why": {
+    "en": "Parking brake must work without hydraulic pressure."
+   },
+   "recall_q": {
+    "en": "Hand brake is usually which type?"
+   },
+   "recall_a": {
+    "en": "Mechanical, on rear wheels."
+   },
+   "explain_simple": {
+    "en": "Foot brake for driving, hand brake for parking."
+   }
+  },
+  {
+   "id": "u6.brakes.f04",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Mechanical brakes use rods, cables and levers to push the brake shoes."
+   },
+   "why": {
+    "en": "Simple, but uneven braking and more effort."
+   },
+   "example": {
+    "en": "Bicycles, many two-wheelers and parking brakes."
+   },
+   "recall_q": {
+    "en": "Main drawback of mechanical brakes?"
+   },
+   "recall_a": {
+    "en": "Unequal braking and high effort."
+   },
+   "explain_simple": {
+    "en": "Rods and cables, but hard to balance."
+   }
+  },
+  {
+   "id": "u6.brakes.f05",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Drum brake: shoes press outward against a rotating drum (internal expanding)."
+   },
+   "why": {
+    "en": "The drum turns with the wheel; friction slows it."
+   },
+   "recall_q": {
+    "en": "In a drum brake, what presses against the drum?"
+   },
+   "recall_a": {
+    "en": "Brake shoes with linings."
+   },
+   "explain_simple": {
+    "en": "Shoes push out on the drum."
+   }
+  },
+  {
+   "id": "u6.brakes.f06",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Internal expanding brake: shoes inside the drum expand outward. External contracting brake: a band outside the drum tightens around it."
+   },
+   "why": {
+    "en": "Internal expanding is used on vehicle wheels; external contracting on some transmissions and winches."
+   },
+   "recall_q": {
+    "en": "Which brake type is used in vehicle wheel drums?"
+   },
+   "recall_a": {
+    "en": "Internal expanding."
+   },
+   "explain_simple": {
+    "en": "Inside pushing out, or outside squeezing in."
+   }
+  },
+  {
+   "id": "u6.brakes.f07",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Drum brake parts: back plate, two shoes with linings, wheel cylinder or cam, retracting springs, anchor pin, adjuster, drum."
+   },
+   "why": {
+    "en": "Springs pull the shoes back when brakes are released."
+   },
+   "recall_q": {
+    "en": "What pulls brake shoes back after releasing the brake?"
+   },
+   "recall_a": {
+    "en": "Retracting (return) springs."
+   },
+   "explain_simple": {
+    "en": "Springs pull the shoes off the drum."
+   }
+  },
+  {
+   "id": "u6.brakes.f08",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Leading shoe: drum rotation helps press it harder (self-energising). Trailing shoe: drum rotation pushes it away."
+   },
+   "why": {
+    "en": "Friction drags the leading shoe into the drum."
+   },
+   "recall_q": {
+    "en": "Which shoe is self-energising?"
+   },
+   "recall_a": {
+    "en": "Leading shoe."
+   },
+   "explain_simple": {
+    "en": "Leading shoe gets pulled in; trailing shoe is pushed away."
+   }
+  },
+  {
+   "id": "u6.brakes.f09",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brake shoes are made of pressed steel or cast iron, lined with friction material (riveted or bonded)."
+   },
+   "why": {
+    "en": "Linings wear and are replaced."
+   },
+   "recall_q": {
+    "en": "How are brake linings fixed to shoes?"
+   },
+   "recall_a": {
+    "en": "Riveted or bonded."
+   },
+   "explain_simple": {
+    "en": "Friction lining glued or riveted to the shoe."
+   }
+  },
+  {
+   "id": "u6.brakes.f10",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brake lining materials: asbestos-free organic, semi-metallic, ceramic, sintered metal. Asbestos is banned due to health risk."
+   },
+   "why": {
+    "en": "Asbestos dust causes lung disease."
+   },
+   "recall_q": {
+    "en": "Why is asbestos no longer used in brake linings?"
+   },
+   "recall_a": {
+    "en": "Health hazard (lung disease)."
+   },
+   "explain_simple": {
+    "en": "Asbestos dust is poisonous."
+   }
+  },
+  {
+   "id": "u6.brakes.f11",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brake fade: loss of braking when brakes get very hot from repeated use, for example on long downhill roads."
+   },
+   "why": {
+    "en": "Hot linings lose friction; hot fluid may boil."
+   },
+   "example": {
+    "en": "Coming down the Thamarassery ghat road using brakes continuously."
+   },
+   "recall_q": {
+    "en": "Loss of brake power due to overheating is called?"
+   },
+   "recall_a": {
+    "en": "Brake fade."
+   },
+   "explain_simple": {
+    "en": "Hot brakes grip less."
+   }
+  },
+  {
+   "id": "u6.brakes.f12",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Use engine braking (lower gear) on long descents to avoid brake fade."
+   },
+   "why": {
+    "en": "The engine holds speed, so brakes stay cool."
+   },
+   "recall_q": {
+    "en": "How to avoid brake fade on a long downhill?"
+   },
+   "recall_a": {
+    "en": "Use a lower gear (engine braking)."
+   },
+   "explain_simple": {
+    "en": "Let the engine slow you down."
+   }
+  },
+  {
+   "id": "u6.brakes.f13",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Disc brake: a disc (rotor) turns with the wheel; a caliper squeezes friction pads on both sides of it."
+   },
+   "why": {
+    "en": "Disc is open to air, so it cools fast."
+   },
+   "recall_q": {
+    "en": "In a disc brake, what squeezes the pads?"
+   },
+   "recall_a": {
+    "en": "Caliper (with pistons)."
+   },
+   "explain_simple": {
+    "en": "Pads pinch a spinning disc."
+   }
+  },
+  {
+   "id": "u6.brakes.f14",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Disc brake advantages: better cooling, less fade, self-cleaning (throws off water), easy pad change, even braking."
+   },
+   "why": {
+    "en": "The disc is exposed to air."
+   },
+   "recall_q": {
+    "en": "Main advantage of disc brakes over drum brakes?"
+   },
+   "recall_a": {
+    "en": "Better cooling, less fade."
+   },
+   "explain_simple": {
+    "en": "Discs stay cool and work in rain."
+   }
+  },
+  {
+   "id": "u6.brakes.f15",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Disc brakes are not self-energising, so they need more pedal force; a brake booster is usually fitted."
+   },
+   "why": {
+    "en": "Pads press straight, without wedging."
+   },
+   "recall_q": {
+    "en": "Are disc brakes self-energising?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Discs need a helper (booster)."
+   }
+  },
+  {
+   "id": "u6.brakes.f16",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Caliper types: fixed caliper (pistons on both sides) and floating/sliding caliper (piston on one side; caliper slides)."
+   },
+   "why": {
+    "en": "Floating calipers are cheaper and common in cars."
+   },
+   "recall_q": {
+    "en": "Caliper with piston on one side only that slides?"
+   },
+   "recall_a": {
+    "en": "Floating (sliding) caliper."
+   },
+   "explain_simple": {
+    "en": "Fixed has pistons both sides; floating slides."
+   }
+  },
+  {
+   "id": "u6.brakes.f17",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ventilated discs have air passages between two faces for better cooling. Discs are made of grey cast iron."
+   },
+   "why": {
+    "en": "More cooling surface."
+   },
+   "recall_q": {
+    "en": "Material of brake discs?"
+   },
+   "recall_a": {
+    "en": "Grey cast iron."
+   },
+   "explain_simple": {
+    "en": "Cast iron discs, sometimes with air vents."
+   }
+  },
+  {
+   "id": "u6.brakes.f18",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydraulic brakes work on Pascal's law: pedal force builds pressure in the master cylinder, which is passed equally to all wheel cylinders."
+   },
+   "why": {
+    "en": "Equal pressure gives equal braking."
+   },
+   "recall_q": {
+    "en": "Hydraulic brakes work on which law?"
+   },
+   "recall_a": {
+    "en": "Pascal's law."
+   },
+   "explain_simple": {
+    "en": "Push oil at one end; every wheel gets the same push."
+   }
+  },
+  {
+   "id": "u6.brakes.f19",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hydraulic brake parts: brake pedal, master cylinder, reservoir, brake lines (pipes and hoses), wheel cylinders or calipers, brake fluid."
+   },
+   "why": {
+    "en": "Fluid carries the force."
+   },
+   "recall_q": {
+    "en": "Name the parts of a hydraulic brake system."
+   },
+   "recall_a": {
+    "en": "Pedal, master cylinder, lines, wheel cylinders/calipers, fluid."
+   },
+   "explain_simple": {
+    "en": "Pedal → master cylinder → pipes → wheels."
+   }
+  },
+  {
+   "id": "u6.brakes.f20",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Master cylinder converts pedal force into hydraulic pressure. Parts: reservoir, piston, primary and secondary cups, return spring, check valve, compensating port, inlet port."
+   },
+   "why": {
+    "en": "Pedal pushes the piston which pressurises fluid."
+   },
+   "recall_q": {
+    "en": "Which component converts pedal force to hydraulic pressure?"
+   },
+   "recall_a": {
+    "en": "Master cylinder."
+   },
+   "explain_simple": {
+    "en": "Pedal pushes a piston to build pressure."
+   }
+  },
+  {
+   "id": "u6.brakes.f21",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Compensating port lets fluid flow between reservoir and cylinder when brakes are off, making up for expansion, contraction and lining wear."
+   },
+   "why": {
+    "en": "Keeps the system full with no trapped pressure."
+   },
+   "recall_q": {
+    "en": "Purpose of the compensating port in master cylinder?"
+   },
+   "recall_a": {
+    "en": "Allow fluid to expand/return to reservoir; compensate wear."
+   },
+   "explain_simple": {
+    "en": "A small hole that balances the fluid."
+   }
+  },
+  {
+   "id": "u6.brakes.f22",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Check valve in a master cylinder keeps a small residual pressure in the lines (in drum systems)."
+   },
+   "why": {
+    "en": "Keeps wheel cylinder cups sealed and stops air entering."
+   },
+   "recall_q": {
+    "en": "Why is residual pressure kept in brake lines?"
+   },
+   "recall_a": {
+    "en": "To keep cups sealed and prevent air entry."
+   },
+   "explain_simple": {
+    "en": "A little pressure keeps air out."
+   }
+  },
+  {
+   "id": "u6.brakes.f23",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Tandem master cylinder has two pistons one behind the other, feeding two separate circuits (dual circuit)."
+   },
+   "why": {
+    "en": "If one circuit leaks, the other still brakes the vehicle."
+   },
+   "recall_q": {
+    "en": "Why is a tandem master cylinder used?"
+   },
+   "recall_a": {
+    "en": "Two separate circuits for safety."
+   },
+   "explain_simple": {
+    "en": "Two systems in one, so one can fail safely."
+   }
+  },
+  {
+   "id": "u6.brakes.f24",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Dual circuit splits: front/rear (vertical split) or diagonal (each circuit has one front and the opposite rear wheel)."
+   },
+   "why": {
+    "en": "Diagonal split keeps balanced braking if one fails."
+   },
+   "recall_q": {
+    "en": "Which dual circuit split gives one front and one opposite rear wheel per circuit?"
+   },
+   "recall_a": {
+    "en": "Diagonal split."
+   },
+   "explain_simple": {
+    "en": "Criss-cross split keeps the car straight."
+   }
+  },
+  {
+   "id": "u6.brakes.f25",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Wheel cylinder: fluid pressure pushes its two pistons outward to expand the brake shoes against the drum."
+   },
+   "why": {
+    "en": "It converts hydraulic pressure back to force."
+   },
+   "recall_q": {
+    "en": "Function of a wheel cylinder?"
+   },
+   "recall_a": {
+    "en": "Push brake shoes outward using fluid pressure."
+   },
+   "explain_simple": {
+    "en": "Oil pushes small pistons that spread the shoes."
+   }
+  },
+  {
+   "id": "u6.brakes.f26",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Wheel cylinder types: double-piston (both shoes), single-piston (one shoe), stepped (different piston sizes)."
+   },
+   "why": {
+    "en": "Stepped cylinders give more force to the leading shoe."
+   },
+   "recall_q": {
+    "en": "Wheel cylinder with different piston diameters is called?"
+   },
+   "recall_a": {
+    "en": "Stepped wheel cylinder."
+   },
+   "explain_simple": {
+    "en": "Bigger piston pushes harder."
+   }
+  },
+  {
+   "id": "u6.brakes.f27",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brake bleeding removes air from hydraulic brake lines."
+   },
+   "why": {
+    "en": "Air compresses, giving a soft, spongy pedal."
+   },
+   "recall_q": {
+    "en": "Why are brakes bled?"
+   },
+   "recall_a": {
+    "en": "To remove air from the system."
+   },
+   "explain_simple": {
+    "en": "Push out air bubbles from the brake pipes."
+   }
+  },
+  {
+   "id": "u6.brakes.f28",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bleeding is done at each wheel's bleed screw, usually starting from the wheel farthest from the master cylinder."
+   },
+   "why": {
+    "en": "Air is pushed out of the longest line first."
+   },
+   "recall_q": {
+    "en": "Bleeding usually starts from which wheel?"
+   },
+   "recall_a": {
+    "en": "The one farthest from the master cylinder."
+   },
+   "explain_simple": {
+    "en": "Start far, finish near."
+   }
+  },
+  {
+   "id": "u6.brakes.f29",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Spongy pedal: air in the lines. Pedal goes to floor slowly: leaking cups. Hard pedal: booster failure."
+   },
+   "why": {
+    "en": "Each symptom points to a cause."
+   },
+   "recall_q": {
+    "en": "Spongy brake pedal indicates?"
+   },
+   "recall_a": {
+    "en": "Air in the brake lines."
+   },
+   "explain_simple": {
+    "en": "Soft pedal = air inside."
+   }
+  },
+  {
+   "id": "u6.brakes.f30",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Servo (power-assisted) brake uses an outside power source to add to the driver's pedal force."
+   },
+   "why": {
+    "en": "Reduces driver effort."
+   },
+   "recall_q": {
+    "en": "What is a servo brake?"
+   },
+   "recall_a": {
+    "en": "Brake assisted by vacuum, air or hydraulic power."
+   },
+   "explain_simple": {
+    "en": "A helper multiplies pedal force."
+   }
+  },
+  {
+   "id": "u6.brakes.f31",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Servo brake types: vacuum servo (most cars), air servo, hydraulic servo, mechanical self-servo (leading shoe)."
+   },
+   "why": {
+    "en": "Vacuum is freely available from petrol engines."
+   },
+   "recall_q": {
+    "en": "Most common servo in cars?"
+   },
+   "recall_a": {
+    "en": "Vacuum servo (brake booster)."
+   },
+   "explain_simple": {
+    "en": "Engine vacuum helps push."
+   }
+  },
+  {
+   "id": "u6.brakes.f32",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Vacuum booster: a large diaphragm with engine vacuum on both sides. Pressing the pedal lets air into one side; the pressure difference pushes the master cylinder."
+   },
+   "why": {
+    "en": "Atmospheric pressure on a big area gives a big force."
+   },
+   "recall_q": {
+    "en": "Working of a vacuum booster in one line?"
+   },
+   "recall_a": {
+    "en": "Air on one side, vacuum on the other pushes the diaphragm to help the pedal."
+   },
+   "explain_simple": {
+    "en": "Air pushes a big diaphragm toward the vacuum."
+   }
+  },
+  {
+   "id": "u6.brakes.f33",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Diesel engines have little manifold vacuum, so they use an engine-driven vacuum pump (exhauster) for the booster."
+   },
+   "why": {
+    "en": "Diesel engines run without a throttle."
+   },
+   "recall_q": {
+    "en": "How do diesel cars get vacuum for the brake booster?"
+   },
+   "recall_a": {
+    "en": "Vacuum pump (exhauster)."
+   },
+   "explain_simple": {
+    "en": "A pump makes the vacuum."
+   }
+  },
+  {
+   "id": "u6.brakes.f34",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Suspended vacuum type: vacuum on both sides of the diaphragm at rest. Atmospheric suspended: air on both sides at rest. Most boosters are vacuum-suspended."
+   },
+   "why": {
+    "en": "Vacuum-suspended reacts faster."
+   },
+   "recall_q": {
+    "en": "Most boosters are which type?"
+   },
+   "recall_a": {
+    "en": "Vacuum suspended."
+   },
+   "explain_simple": {
+    "en": "Vacuum waits on both sides."
+   }
+  },
+  {
+   "id": "u6.brakes.f35",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air (pneumatic) brakes use compressed air to apply the brakes. Used in heavy vehicles like trucks and buses."
+   },
+   "why": {
+    "en": "Gives large braking force with little pedal effort."
+   },
+   "recall_q": {
+    "en": "Which vehicles use air brakes?"
+   },
+   "recall_a": {
+    "en": "Heavy vehicles: trucks, buses, trailers."
+   },
+   "explain_simple": {
+    "en": "Big vehicles brake with air."
+   }
+  },
+  {
+   "id": "u6.brakes.f36",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air brake parts: compressor, governor/unloader, air dryer, reservoir (tanks), foot (brake) valve, brake chambers, slack adjusters, S-cam, relay and quick release valves, pressure gauge."
+   },
+   "why": {
+    "en": "Each stores, controls or applies air."
+   },
+   "recall_q": {
+    "en": "Valve operated by the driver's foot in an air brake system?"
+   },
+   "recall_a": {
+    "en": "Foot (brake) valve."
+   },
+   "explain_simple": {
+    "en": "Compressor fills tanks; foot valve sends air to wheels."
+   }
+  },
+  {
+   "id": "u6.brakes.f37",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air brake working: compressor fills reservoirs (about 7–8 bar). Pressing the foot valve sends air to brake chambers, whose push rods turn the slack adjuster and S-cam, spreading the shoes."
+   },
+   "why": {
+    "en": "Air pressure becomes a mechanical push."
+   },
+   "recall_q": {
+    "en": "In an air brake, what spreads the brake shoes?"
+   },
+   "recall_a": {
+    "en": "S-cam (turned by slack adjuster)."
+   },
+   "explain_simple": {
+    "en": "Air pushes a rod that twists a cam."
+   }
+  },
+  {
+   "id": "u6.brakes.f38",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brake chamber converts air pressure into mechanical force using a diaphragm and push rod."
+   },
+   "why": {
+    "en": "It is the 'muscle' at each wheel."
+   },
+   "recall_q": {
+    "en": "Part that converts air pressure into push-rod force?"
+   },
+   "recall_a": {
+    "en": "Brake chamber."
+   },
+   "explain_simple": {
+    "en": "Air bag that pushes a rod."
+   }
+  },
+  {
+   "id": "u6.brakes.f39",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Slack adjuster joins the brake chamber push rod to the S-cam shaft and adjusts for lining wear."
+   },
+   "why": {
+    "en": "Keeps the shoe-to-drum clearance correct."
+   },
+   "recall_q": {
+    "en": "Function of slack adjuster?"
+   },
+   "recall_a": {
+    "en": "Link push rod to cam and adjust for lining wear."
+   },
+   "explain_simple": {
+    "en": "Keeps brakes adjusted as linings wear."
+   }
+  },
+  {
+   "id": "u6.brakes.f40",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Quick release valve lets air out of the brake chambers quickly when brakes are released. Relay valve applies air quickly to far-away chambers."
+   },
+   "why": {
+    "en": "Long pipes would slow down action."
+   },
+   "recall_q": {
+    "en": "Valve that speeds up brake release in air brakes?"
+   },
+   "recall_a": {
+    "en": "Quick release valve."
+   },
+   "explain_simple": {
+    "en": "Lets air out fast."
+   }
+  },
+  {
+   "id": "u6.brakes.f41",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Spring brakes (parking/emergency) in heavy vehicles: strong springs apply the brakes, and air pressure holds them off."
+   },
+   "why": {
+    "en": "If air is lost, brakes come on automatically (fail-safe)."
+   },
+   "recall_q": {
+    "en": "In spring brakes, what applies the brake?"
+   },
+   "recall_a": {
+    "en": "Springs (air pressure releases them)."
+   },
+   "explain_simple": {
+    "en": "No air = brakes on."
+   }
+  },
+  {
+   "id": "u6.brakes.f42",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Low air pressure warning (buzzer/light) tells the driver when tank pressure falls below safe level (about 4–5 bar)."
+   },
+   "why": {
+    "en": "Driving with low air is dangerous."
+   },
+   "recall_q": {
+    "en": "What warns the driver of low air brake pressure?"
+   },
+   "recall_a": {
+    "en": "Low pressure warning buzzer/light."
+   },
+   "explain_simple": {
+    "en": "An alarm when air is low."
+   }
+  },
+  {
+   "id": "u6.brakes.f43",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air dryer and drain cocks remove moisture from compressed air."
+   },
+   "why": {
+    "en": "Water in air lines can freeze or rust valves."
+   },
+   "recall_q": {
+    "en": "Why are air tanks drained daily?"
+   },
+   "recall_a": {
+    "en": "To remove collected water/moisture."
+   },
+   "explain_simple": {
+    "en": "Drain water from air tanks."
+   }
+  },
+  {
+   "id": "u6.brakes.f44",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air brakes: advantages—large force, unlimited air, no fluid leaks dangerous, trailer brakes easy. Disadvantages—costly, compressor needed, slower response."
+   },
+   "why": {
+    "en": "Trade-offs suited to heavy vehicles."
+   },
+   "recall_q": {
+    "en": "Give one advantage of air brakes."
+   },
+   "recall_a": {
+    "en": "Large braking force with little effort; easy trailer coupling."
+   },
+   "explain_simple": {
+    "en": "Strong and easy for big vehicles."
+   }
+  },
+  {
+   "id": "u6.brakes.f45",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Air-over-hydraulic brakes: air pressure works a hydraulic master cylinder (booster) for each circuit. Used in medium trucks."
+   },
+   "why": {
+    "en": "Combines air force with hydraulic precision."
+   },
+   "recall_q": {
+    "en": "Brake system using air to operate hydraulic master cylinders?"
+   },
+   "recall_a": {
+    "en": "Air-over-hydraulic (air-assisted hydraulic) brakes."
+   },
+   "explain_simple": {
+    "en": "Air helps oil brakes."
+   }
+  },
+  {
+   "id": "u6.brakes.f46",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Exhaust brake (retarder) closes the exhaust pipe with a valve so the engine slows the vehicle. Electric (eddy current) retarders are also used in buses."
+   },
+   "why": {
+    "en": "Saves service brakes on long descents."
+   },
+   "recall_q": {
+    "en": "Device that slows a truck by blocking the exhaust?"
+   },
+   "recall_a": {
+    "en": "Exhaust brake."
+   },
+   "explain_simple": {
+    "en": "Choke the exhaust to slow down."
+   }
+  },
+  {
+   "id": "u6.brakes.f47",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brake efficiency is tested on a roller brake tester or by a decelerometer. Efficiency = (retardation / g) × 100."
+   },
+   "why": {
+    "en": "MVD tests brakes during fitness certification."
+   },
+   "recall_q": {
+    "en": "Formula for brake efficiency?"
+   },
+   "recall_a": {
+    "en": "(Retardation ÷ g) × 100"
+   },
+   "explain_simple": {
+    "en": "Deceleration compared with g."
+   }
+  },
+  {
+   "id": "u6.brakes.f48",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stopping distance = reaction distance + braking distance. Braking distance = v² / (2μg)."
+   },
+   "why": {
+    "en": "Double the speed gives four times braking distance."
+   },
+   "recall_q": {
+    "en": "If speed doubles, braking distance becomes?"
+   },
+   "recall_a": {
+    "en": "Four times."
+   },
+   "explain_simple": {
+    "en": "Twice as fast needs four times the room to stop."
+   }
+  },
+  {
+   "id": "u6.brakes.f49",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Weight transfer during braking loads the front wheels more, so front brakes are made stronger (often discs)."
+   },
+   "why": {
+    "en": "The vehicle pitches forward."
+   },
+   "recall_q": {
+    "en": "Why are front brakes made stronger?"
+   },
+   "recall_a": {
+    "en": "Weight shifts to the front under braking."
+   },
+   "explain_simple": {
+    "en": "Front wheels carry more load when braking."
+   }
+  },
+  {
+   "id": "u6.brakes.f50",
+   "topic": "u6.brakes",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Proportioning (load-sensing) valve reduces pressure to rear brakes to prevent rear wheel lock-up."
+   },
+   "why": {
+    "en": "Rear wheels lose load under braking and can lock."
+   },
+   "recall_q": {
+    "en": "Valve that prevents rear wheel lock?"
+   },
+   "recall_a": {
+    "en": "Proportioning (load-sensing) valve."
+   },
+   "explain_simple": {
+    "en": "Less pressure for the lighter rear."
+   }
+  },
+  {
+   "id": "u6.brakes.s01",
+   "topic": "u6.brakes",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: braking distance"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A car at 20 m/s brakes with μ = 0.5. Find braking distance (g = 10 m/s²)."
+     }
+    },
+    {
+     "text": {
+      "en": "Braking distance = v² / (2μg)."
+     }
+    },
+    {
+     "text": {
+      "en": "= 20² / (2 × 0.5 × 10) = 400 / 10."
+     }
+    },
+    {
+     "text": {
+      "en": "= 40 m."
+     },
+     "explain": {
+      "en": "At 40 m/s it would be 160 m — four times."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "s = v²/(2μg)."
+    },
+    {
+     "en": "Double speed → 4 × distance."
+    }
+   ],
+   "recall_q": {
+    "en": "Braking distance at 20 m/s with μ = 0.5?"
+   },
+   "recall_a": {
+    "en": "40 m"
+   }
+  },
+  {
+   "id": "u6.brakes.sum",
+   "topic": "u6.brakes",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Brake systems; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Brake systems"
+   },
+   "points": [
+    {
+     "en": "Drum (internal expanding, leading shoe self-energising) vs disc (cooler, less fade)."
+    },
+    {
+     "en": "Hydraulic brakes: Pascal's law, tandem master cylinder, bleeding removes air."
+    },
+    {
+     "en": "Vacuum servo booster; diesel uses exhauster pump."
+    },
+    {
+     "en": "Air brakes: compressor, foot valve, brake chamber, slack adjuster, S-cam."
+    },
+    {
+     "en": "Spring brakes fail-safe; braking distance ∝ v²."
+    }
+   ]
   }
  ],
  "questions": [
@@ -22957,6 +26870,216 @@
    "source": "Practice — exam pattern (not from a past paper)",
    "covers": [
     "u5.cooling.f07"
+   ]
+  },
+  {
+   "id": "q.practice.u6.1",
+   "topic": "u6.frame",
+   "kind": "mcq",
+   "q": {
+    "en": "The frame section most resistant to torsion is"
+   },
+   "options": [
+    {
+     "en": "Channel section"
+    },
+    {
+     "en": "I-section"
+    },
+    {
+     "en": "Box section"
+    },
+    {
+     "en": "Angle section"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "Closed box sections resist twisting best."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u6.frame.f09"
+   ]
+  },
+  {
+   "id": "q.practice.u6.2",
+   "topic": "u6.axle",
+   "kind": "mcq",
+   "q": {
+    "en": "The most commonly used type of stub axle is"
+   },
+   "options": [
+    {
+     "en": "Elliott"
+    },
+    {
+     "en": "Reversed Elliott"
+    },
+    {
+     "en": "Lemoine"
+    },
+    {
+     "en": "Reversed Lemoine"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Reversed Elliott is the most common."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u6.axle.f08"
+   ]
+  },
+  {
+   "id": "q.practice.u6.3",
+   "topic": "u6.suspension",
+   "kind": "mcq",
+   "q": {
+    "en": "The function of a spring shackle is to"
+   },
+   "options": [
+    {
+     "en": "Damp oscillations"
+    },
+    {
+     "en": "Allow change in spring length"
+    },
+    {
+     "en": "Hold leaves together"
+    },
+    {
+     "en": "Locate the axle sideways"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "A shackle swings to let the spring change length as it flexes."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u6.suspension.f18"
+   ]
+  },
+  {
+   "id": "q.practice.u6.4",
+   "topic": "u6.steering",
+   "kind": "mcq",
+   "q": {
+    "en": "Davis steering gear differs from Ackermann because it has"
+   },
+   "options": [
+    {
+     "en": "Turning pairs only"
+    },
+    {
+     "en": "Sliding pairs"
+    },
+    {
+     "en": "No linkages"
+    },
+    {
+     "en": "Only three correct positions"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Davis gear uses sliding pairs and is correct in all positions."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u6.steering.f09"
+   ]
+  },
+  {
+   "id": "q.practice.u6.5",
+   "topic": "u6.steering",
+   "kind": "mcq",
+   "q": {
+    "en": "The wheel alignment angle that gives directional stability and self-centring is"
+   },
+   "options": [
+    {
+     "en": "Camber"
+    },
+    {
+     "en": "Caster"
+    },
+    {
+     "en": "Toe-in"
+    },
+    {
+     "en": "Scrub radius"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Positive caster gives self-centring and stability."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u6.steering.f32"
+   ]
+  },
+  {
+   "id": "q.practice.u6.6",
+   "topic": "u6.brakes",
+   "kind": "mcq",
+   "q": {
+    "en": "Spongy brake pedal is mainly due to"
+   },
+   "options": [
+    {
+     "en": "Worn drum"
+    },
+    {
+     "en": "Air in brake lines"
+    },
+    {
+     "en": "Excess fluid"
+    },
+    {
+     "en": "Hard linings"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Air compresses, making the pedal spongy."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u6.brakes.f29"
+   ]
+  },
+  {
+   "id": "q.practice.u6.7",
+   "topic": "u6.brakes",
+   "kind": "mcq",
+   "q": {
+    "en": "In an air brake system, the brake shoes are expanded by"
+   },
+   "options": [
+    {
+     "en": "Wheel cylinder"
+    },
+    {
+     "en": "S-cam"
+    },
+    {
+     "en": "Master cylinder"
+    },
+    {
+     "en": "Caliper"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "The slack adjuster turns the S-cam to spread the shoes."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u6.brakes.f37"
    ]
   }
  ]
