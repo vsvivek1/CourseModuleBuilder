@@ -160,6 +160,96 @@
    },
    "order": 16,
    "freq": 0.6
+  },
+  {
+   "id": "u3.stress",
+   "subject": "strength_of_materials",
+   "title": {
+    "en": "Stress and strain"
+   },
+   "order": 17,
+   "freq": 0.8
+  },
+  {
+   "id": "u3.diagram",
+   "subject": "strength_of_materials",
+   "title": {
+    "en": "Stress–strain diagram and factor of safety"
+   },
+   "order": 18,
+   "freq": 0.8
+  },
+  {
+   "id": "u3.elastic",
+   "subject": "strength_of_materials",
+   "title": {
+    "en": "Hooke's law, elastic constants, varying and composite sections"
+   },
+   "order": 19,
+   "freq": 0.8
+  },
+  {
+   "id": "u3.thermal",
+   "subject": "strength_of_materials",
+   "title": {
+    "en": "Thermal stress and strain"
+   },
+   "order": 20,
+   "freq": 0.6
+  },
+  {
+   "id": "u3.friction",
+   "subject": "strength_of_materials",
+   "title": {
+    "en": "Friction"
+   },
+   "order": 21,
+   "freq": 0.6
+  },
+  {
+   "id": "u3.cg",
+   "subject": "strength_of_materials",
+   "title": {
+    "en": "Centre of gravity and moment of inertia"
+   },
+   "order": 22,
+   "freq": 0.6
+  },
+  {
+   "id": "u3.beams",
+   "subject": "strength_of_materials",
+   "title": {
+    "en": "Beams, shear force and bending moment"
+   },
+   "order": 23,
+   "freq": 0.8
+  },
+  {
+   "id": "u3.rivets",
+   "subject": "strength_of_materials",
+   "title": {
+    "en": "Riveted joints"
+   },
+   "order": 24,
+   "freq": 0.6
+  },
+  {
+   "id": "u3.bolts_springs",
+   "subject": "strength_of_materials",
+   "title": {
+    "en": "Bolts and springs"
+   },
+   "order": 25,
+   "freq": 0.6
+  },
+  {
+   "id": "u3.welds",
+   "subject": "strength_of_materials",
+   "title": {
+    "en": "Welded joints"
+   },
+   "order": 26,
+   "freq": 0.5
   }
  ],
  "cards": [
@@ -8435,6 +8525,4130 @@
    "explain_simple": {
     "en": "It tells the compressor to rest when the tank is full."
    }
+  },
+  {
+   "id": "u3.stress.f01",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Load is the outside force acting on a body. Stress is the inside resisting force per unit area. Stress = Load / Area."
+   },
+   "why": {
+    "en": "The body resists the load from inside; spreading it over the area gives stress."
+   },
+   "example": {
+    "en": "A bus's weight on its axle sets up stress inside the axle."
+   },
+   "recall_q": {
+    "en": "Formula for stress?"
+   },
+   "recall_a": {
+    "en": "Stress = Load / Area (σ = P/A)."
+   },
+   "explain_simple": {
+    "en": "Stress = how hard each square mm is being pulled or pushed."
+   }
+  },
+  {
+   "id": "u3.stress.f02",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Unit of stress: N/m² (pascal). In engineering we often use N/mm² = MPa."
+   },
+   "why": {
+    "en": "Metal parts have small areas, so N/mm² is handy."
+   },
+   "recall_q": {
+    "en": "1 N/mm² equals how many MPa?"
+   },
+   "recall_a": {
+    "en": "1 MPa."
+   },
+   "explain_simple": {
+    "en": "N/mm² and MPa are the same."
+   }
+  },
+  {
+   "id": "u3.stress.f03",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Strain is change in length divided by original length. Strain = δL / L. It has no unit."
+   },
+   "why": {
+    "en": "Length divided by length cancels units."
+   },
+   "recall_q": {
+    "en": "Unit of strain?"
+   },
+   "recall_a": {
+    "en": "No unit (dimensionless)."
+   },
+   "explain_simple": {
+    "en": "How much it stretches compared with its size."
+   }
+  },
+  {
+   "id": "u3.stress.f04",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Tensile stress: forces pull the body and it gets longer. Compressive stress: forces push and it gets shorter."
+   },
+   "why": {
+    "en": "The direction of load decides the type."
+   },
+   "example": {
+    "en": "Tension: a towing rope. Compression: a car jack's column."
+   },
+   "recall_q": {
+    "en": "A towing rope is under which stress?"
+   },
+   "recall_a": {
+    "en": "Tensile stress."
+   },
+   "explain_simple": {
+    "en": "Pull = tension. Push = compression."
+   }
+  },
+  {
+   "id": "u3.stress.f05",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Shear stress: two equal, opposite forces act along (parallel to) a surface and try to slide one part over the other. τ = P / A."
+   },
+   "why": {
+    "en": "The cut tends to happen across the section."
+   },
+   "example": {
+    "en": "Scissors cutting paper; a rivet in a joint; a shear pin."
+   },
+   "recall_q": {
+    "en": "A rivet in a lap joint is mainly under which stress?"
+   },
+   "recall_a": {
+    "en": "Shear stress."
+   },
+   "explain_simple": {
+    "en": "Shear = sliding cut, like scissors."
+   }
+  },
+  {
+   "id": "u3.stress.f06",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Shear strain is the angle change (in radians) produced by shear stress. Symbol φ."
+   },
+   "why": {
+    "en": "Shear twists the shape rather than stretching it."
+   },
+   "recall_q": {
+    "en": "Shear strain is measured as?"
+   },
+   "recall_a": {
+    "en": "Angle of distortion in radians."
+   },
+   "explain_simple": {
+    "en": "How much a square becomes a slanted box."
+   }
+  },
+  {
+   "id": "u3.stress.f07",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Longitudinal strain is strain along the load. Lateral strain is strain at right angles to the load."
+   },
+   "why": {
+    "en": "When a bar stretches, it also gets thinner."
+   },
+   "example": {
+    "en": "Pull a rubber band: it gets longer and thinner."
+   },
+   "recall_q": {
+    "en": "Strain at right angles to load is called?"
+   },
+   "recall_a": {
+    "en": "Lateral strain."
+   },
+   "explain_simple": {
+    "en": "Longer one way, thinner the other."
+   }
+  },
+  {
+   "id": "u3.stress.f08",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Poisson's ratio (μ or 1/m) = lateral strain / longitudinal strain. For steel about 0.25–0.3."
+   },
+   "why": {
+    "en": "It links how much a bar thins when it stretches."
+   },
+   "recall_q": {
+    "en": "Poisson's ratio = ?"
+   },
+   "recall_a": {
+    "en": "Lateral strain ÷ longitudinal strain."
+   },
+   "explain_simple": {
+    "en": "Thinning ÷ stretching."
+   }
+  },
+  {
+   "id": "u3.stress.f09",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Poisson's ratio lies between 0 and 0.5 for usual materials. Cork ≈ 0, rubber ≈ 0.5."
+   },
+   "why": {
+    "en": "At 0.5 the volume does not change at all."
+   },
+   "recall_q": {
+    "en": "Maximum value of Poisson's ratio?"
+   },
+   "recall_a": {
+    "en": "0.5"
+   },
+   "explain_simple": {
+    "en": "Between zero and half."
+   }
+  },
+  {
+   "id": "u3.stress.f10",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Volumetric strain = change in volume / original volume. For a bar in tension: εv = ε (1 − 2μ)."
+   },
+   "why": {
+    "en": "It grows in length but shrinks in the other two directions."
+   },
+   "recall_q": {
+    "en": "Volumetric strain of a bar under axial load?"
+   },
+   "recall_a": {
+    "en": "ε(1 − 2μ)"
+   },
+   "explain_simple": {
+    "en": "Change in volume compared with original."
+   }
+  },
+  {
+   "id": "u3.stress.f11",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Direct (normal) stress acts at right angles to the surface. Shear stress acts along the surface."
+   },
+   "why": {
+    "en": "Tension and compression are normal stresses."
+   },
+   "recall_q": {
+    "en": "Is tensile stress normal or tangential?"
+   },
+   "recall_a": {
+    "en": "Normal (perpendicular to the surface)."
+   },
+   "explain_simple": {
+    "en": "Normal = straight in or out. Shear = sideways."
+   }
+  },
+  {
+   "id": "u3.stress.f12",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Complementary shear stress: shear stress on one plane always comes with an equal shear stress on the plane at right angles."
+   },
+   "why": {
+    "en": "Otherwise the small element would spin."
+   },
+   "recall_q": {
+    "en": "Shear stress on a plane is accompanied by what?"
+   },
+   "recall_a": {
+    "en": "Equal shear stress on the perpendicular plane."
+   },
+   "explain_simple": {
+    "en": "Shear always comes in pairs."
+   }
+  },
+  {
+   "id": "u3.stress.f13",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bearing (crushing) stress is compressive stress where two parts press on each other. In a rivet: σc = P / (d × t)."
+   },
+   "why": {
+    "en": "The plate presses on the side of the rivet."
+   },
+   "recall_q": {
+    "en": "Crushing area of a rivet?"
+   },
+   "recall_a": {
+    "en": "d × t (diameter × plate thickness)."
+   },
+   "explain_simple": {
+    "en": "Pressing stress at the contact face."
+   }
+  },
+  {
+   "id": "u3.stress.f14",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Strain energy is energy stored in a body when it is strained. Resilience is strain energy stored per unit volume up to the elastic limit."
+   },
+   "why": {
+    "en": "A stretched spring stores energy that it gives back."
+   },
+   "example": {
+    "en": "Leaf springs absorb road shocks as strain energy."
+   },
+   "recall_q": {
+    "en": "Energy stored in a body due to strain is called?"
+   },
+   "recall_a": {
+    "en": "Strain energy."
+   },
+   "explain_simple": {
+    "en": "Stretch something and it stores energy."
+   }
+  },
+  {
+   "id": "u3.stress.f15",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Strain energy U = σ² V / (2E). Proof resilience is maximum strain energy stored up to the elastic limit."
+   },
+   "why": {
+    "en": "Energy rises with the square of stress."
+   },
+   "recall_q": {
+    "en": "Formula for strain energy under gradual load?"
+   },
+   "recall_a": {
+    "en": "U = σ²V/(2E)"
+   },
+   "explain_simple": {
+    "en": "Twice the stress, four times the stored energy."
+   }
+  },
+  {
+   "id": "u3.stress.f16",
+   "topic": "u3.stress",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A suddenly applied load causes twice the stress of the same load applied gradually."
+   },
+   "why": {
+    "en": "The load drops with full force before the body resists it."
+   },
+   "recall_q": {
+    "en": "Stress due to a suddenly applied load compared to gradual load?"
+   },
+   "recall_a": {
+    "en": "Twice."
+   },
+   "explain_simple": {
+    "en": "Drop a load and it hits twice as hard."
+   }
+  },
+  {
+   "id": "u3.stress.sum",
+   "topic": "u3.stress",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Stress and strain"
+   },
+   "points": [
+    {
+     "en": "Stress = P/A (N/mm² = MPa); strain = δL/L, no unit."
+    },
+    {
+     "en": "Tensile, compressive, shear stresses."
+    },
+    {
+     "en": "Poisson's ratio = lateral/longitudinal strain, 0–0.5."
+    },
+    {
+     "en": "Volumetric strain = ε(1 − 2μ)."
+    },
+    {
+     "en": "Sudden load = 2 × gradual stress."
+    }
+   ]
+  },
+  {
+   "id": "u3.diagram.f01",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A stress–strain diagram is drawn from a tensile test on a universal testing machine (UTM)."
+   },
+   "why": {
+    "en": "The specimen is pulled slowly until it breaks and its stretch is recorded."
+   },
+   "recall_q": {
+    "en": "Machine used for a tensile test?"
+   },
+   "recall_a": {
+    "en": "Universal Testing Machine (UTM)."
+   },
+   "explain_simple": {
+    "en": "Pull a bar until it snaps and draw the graph."
+   }
+  },
+  {
+   "id": "u3.diagram.f02",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Points on the mild steel diagram in order: limit of proportionality, elastic limit, upper yield point, lower yield point, ultimate stress, breaking point."
+   },
+   "why": {
+    "en": "PSC often asks the correct order."
+   },
+   "recall_q": {
+    "en": "Order of points on a mild steel stress–strain curve?"
+   },
+   "recall_a": {
+    "en": "Proportional limit, elastic limit, upper yield, lower yield, ultimate, breaking."
+   },
+   "explain_simple": {
+    "en": "Straight, springy, yield, peak, snap."
+   }
+  },
+  {
+   "id": "u3.diagram.f03",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Limit of proportionality: up to this point stress is directly proportional to strain (straight line)."
+   },
+   "why": {
+    "en": "Hooke's law is valid only up to here."
+   },
+   "recall_q": {
+    "en": "Up to which point is Hooke's law valid?"
+   },
+   "recall_a": {
+    "en": "Limit of proportionality."
+   },
+   "explain_simple": {
+    "en": "The end of the straight part of the graph."
+   }
+  },
+  {
+   "id": "u3.diagram.f04",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Elastic limit: the highest stress after which the material still returns to its original shape when the load is removed."
+   },
+   "why": {
+    "en": "Beyond it, some stretch stays permanently."
+   },
+   "recall_q": {
+    "en": "Beyond which point does permanent set occur?"
+   },
+   "recall_a": {
+    "en": "Elastic limit."
+   },
+   "explain_simple": {
+    "en": "The last point where it springs fully back."
+   }
+  },
+  {
+   "id": "u3.diagram.f05",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Yield point: the material stretches a lot with almost no increase in load. Mild steel has a clear upper and lower yield point."
+   },
+   "why": {
+    "en": "The crystals inside start slipping."
+   },
+   "recall_q": {
+    "en": "Point where strain increases with no rise in stress?"
+   },
+   "recall_a": {
+    "en": "Yield point."
+   },
+   "explain_simple": {
+    "en": "It suddenly gives way and stretches."
+   }
+  },
+  {
+   "id": "u3.diagram.f06",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ultimate stress is the maximum stress a material can take. It is the highest point on the curve."
+   },
+   "why": {
+    "en": "After this, necking starts and the load falls."
+   },
+   "recall_q": {
+    "en": "Highest point on a stress–strain curve?"
+   },
+   "recall_a": {
+    "en": "Ultimate stress."
+   },
+   "explain_simple": {
+    "en": "The peak strength."
+   }
+  },
+  {
+   "id": "u3.diagram.f07",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Necking: after ultimate stress, a ductile bar gets thinner at one spot and breaks there."
+   },
+   "why": {
+    "en": "The weakest section thins faster than the rest."
+   },
+   "recall_q": {
+    "en": "Local reduction of area before breaking is called?"
+   },
+   "recall_a": {
+    "en": "Necking."
+   },
+   "explain_simple": {
+    "en": "The bar gets a thin waist and snaps there."
+   }
+  },
+  {
+   "id": "u3.diagram.f08",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Breaking stress (nominal) is lower than ultimate stress on the engineering curve, because the original area is used."
+   },
+   "why": {
+    "en": "The load falls after necking, though actual stress at the neck is high."
+   },
+   "recall_q": {
+    "en": "On the engineering curve, is breaking stress higher or lower than ultimate stress?"
+   },
+   "recall_a": {
+    "en": "Lower."
+   },
+   "explain_simple": {
+    "en": "The graph drops a little before the snap."
+   }
+  },
+  {
+   "id": "u3.diagram.f09",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ductile material stretches a lot before breaking (mild steel, copper, aluminium). Brittle material breaks with very little stretch (cast iron, glass, concrete)."
+   },
+   "why": {
+    "en": "Ductile metals have a yield point and necking; brittle ones do not."
+   },
+   "recall_q": {
+    "en": "Is cast iron ductile or brittle?"
+   },
+   "recall_a": {
+    "en": "Brittle."
+   },
+   "explain_simple": {
+    "en": "Ductile bends; brittle snaps."
+   }
+  },
+  {
+   "id": "u3.diagram.f10",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brittle materials have no clear yield point. Their curve is nearly straight to fracture."
+   },
+   "why": {
+    "en": "They fail without plastic flow."
+   },
+   "recall_q": {
+    "en": "Does cast iron show a yield point in tension?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Brittle material just breaks, no warning."
+   }
+  },
+  {
+   "id": "u3.diagram.f11",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Proof stress (0.2% offset) is used as yield strength for materials without a clear yield point, like aluminium and high-tensile steel."
+   },
+   "why": {
+    "en": "A line parallel to the elastic part, drawn at 0.2% strain, marks it."
+   },
+   "recall_q": {
+    "en": "How is yield strength found for metals with no clear yield point?"
+   },
+   "recall_a": {
+    "en": "0.2% proof stress (offset method)."
+   },
+   "explain_simple": {
+    "en": "Draw a parallel line at 0.2% to find yield."
+   }
+  },
+  {
+   "id": "u3.diagram.f12",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Percentage elongation and percentage reduction in area measure ductility."
+   },
+   "why": {
+    "en": "More stretch and more thinning mean more ductile."
+   },
+   "recall_q": {
+    "en": "Name a measure of ductility."
+   },
+   "recall_a": {
+    "en": "Percentage elongation (or reduction in area)."
+   },
+   "explain_simple": {
+    "en": "How much it stretched before breaking."
+   }
+  },
+  {
+   "id": "u3.diagram.f13",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Working stress (allowable stress) is the safe stress used in design. It is kept well below the failure stress."
+   },
+   "why": {
+    "en": "Real loads, materials and workmanship are never perfect."
+   },
+   "recall_q": {
+    "en": "Safe stress used for design is called?"
+   },
+   "recall_a": {
+    "en": "Working (allowable) stress."
+   },
+   "explain_simple": {
+    "en": "The stress we plan to use, with a safety margin."
+   }
+  },
+  {
+   "id": "u3.diagram.f14",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Factor of safety = ultimate stress / working stress (or yield stress / working stress for ductile metals)."
+   },
+   "why": {
+    "en": "It shows how much margin is kept."
+   },
+   "example": {
+    "en": "Ultimate 400 MPa, working 100 MPa → FOS = 4."
+   },
+   "recall_q": {
+    "en": "Factor of safety formula?"
+   },
+   "recall_a": {
+    "en": "Ultimate (or yield) stress ÷ working stress."
+   },
+   "explain_simple": {
+    "en": "How many times stronger than needed."
+   }
+  },
+  {
+   "id": "u3.diagram.f15",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Factor of safety is always more than 1. It is higher for brittle materials and shock loads."
+   },
+   "why": {
+    "en": "Brittle parts fail suddenly without warning."
+   },
+   "recall_q": {
+    "en": "Is FOS more or less than 1?"
+   },
+   "recall_a": {
+    "en": "More than 1."
+   },
+   "explain_simple": {
+    "en": "Always build stronger than the load."
+   }
+  },
+  {
+   "id": "u3.diagram.f16",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Elasticity: returns to shape after load. Plasticity: keeps the new shape. Malleability: can be hammered into sheets. Toughness: absorbs energy before breaking."
+   },
+   "why": {
+    "en": "PSC asks these mechanical properties often."
+   },
+   "recall_q": {
+    "en": "Property that lets a metal be beaten into thin sheets?"
+   },
+   "recall_a": {
+    "en": "Malleability."
+   },
+   "explain_simple": {
+    "en": "Ductile = drawn into wire. Malleable = beaten into sheet."
+   }
+  },
+  {
+   "id": "u3.diagram.f17",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hardness is resistance to scratching, wear and indentation. Tests: Brinell, Rockwell, Vickers."
+   },
+   "why": {
+    "en": "A hard surface lasts longer in bearings and gears."
+   },
+   "recall_q": {
+    "en": "Name a hardness test."
+   },
+   "recall_a": {
+    "en": "Brinell (or Rockwell, Vickers)."
+   },
+   "explain_simple": {
+    "en": "How hard it is to dent or scratch."
+   }
+  },
+  {
+   "id": "u3.diagram.f18",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Impact tests (Izod, Charpy) measure toughness — energy absorbed when a notched specimen is broken by a swinging hammer."
+   },
+   "why": {
+    "en": "Vehicle parts face sudden shocks."
+   },
+   "recall_q": {
+    "en": "Izod and Charpy tests measure what?"
+   },
+   "recall_a": {
+    "en": "Toughness (impact strength)."
+   },
+   "explain_simple": {
+    "en": "Hit it with a hammer and see how much energy it takes."
+   }
+  },
+  {
+   "id": "u3.diagram.f19",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fatigue: failure under repeated (cyclic) loading at stress below the ultimate strength. Endurance limit is the stress below which it never fails."
+   },
+   "why": {
+    "en": "Tiny cracks grow with each cycle."
+   },
+   "example": {
+    "en": "Axles and crankshafts can fail by fatigue."
+   },
+   "recall_q": {
+    "en": "Failure under repeated loads below ultimate stress is called?"
+   },
+   "recall_a": {
+    "en": "Fatigue."
+   },
+   "explain_simple": {
+    "en": "Bend a wire again and again and it breaks."
+   }
+  },
+  {
+   "id": "u3.diagram.f20",
+   "topic": "u3.diagram",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Creep: slow permanent stretching under a constant load over a long time, especially at high temperature."
+   },
+   "why": {
+    "en": "Hot metal slowly flows."
+   },
+   "example": {
+    "en": "Turbine blades and exhaust valves can creep."
+   },
+   "recall_q": {
+    "en": "Slow deformation under steady load at high temperature?"
+   },
+   "recall_a": {
+    "en": "Creep."
+   },
+   "explain_simple": {
+    "en": "Hot metal slowly sags under load."
+   }
+  },
+  {
+   "id": "u3.diagram.s01",
+   "topic": "u3.diagram",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: stress and factor of safety"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A steel rod of area 100 mm² carries 20 kN. Ultimate stress is 400 N/mm². Find stress and FOS."
+     }
+    },
+    {
+     "text": {
+      "en": "Change load: 20 kN = 20,000 N."
+     }
+    },
+    {
+     "text": {
+      "en": "Stress = 20,000 / 100 = 200 N/mm²."
+     }
+    },
+    {
+     "text": {
+      "en": "FOS = 400 / 200 = 2."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "σ = P/A — keep units N and mm²."
+    },
+    {
+     "en": "FOS = ultimate ÷ working stress."
+    }
+   ],
+   "recall_q": {
+    "en": "Ultimate 400 N/mm², working 200 N/mm²: FOS?"
+   },
+   "recall_a": {
+    "en": "2"
+   }
+  },
+  {
+   "id": "u3.diagram.sum",
+   "topic": "u3.diagram",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Stress–strain diagram and factor of safety; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Stress–strain diagram and factor of safety"
+   },
+   "points": [
+    {
+     "en": "Proportional limit → elastic limit → yield → ultimate → break."
+    },
+    {
+     "en": "Hooke's law valid up to limit of proportionality."
+    },
+    {
+     "en": "Ductile: mild steel; brittle: cast iron (no yield point)."
+    },
+    {
+     "en": "FOS = ultimate/working stress, always > 1."
+    },
+    {
+     "en": "Fatigue = repeated load; creep = slow flow when hot."
+    }
+   ]
+  },
+  {
+   "id": "u3.elastic.f01",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Hooke's law: within the elastic limit, stress is directly proportional to strain."
+   },
+   "why": {
+    "en": "Atoms behave like tiny springs for small stretches."
+   },
+   "recall_q": {
+    "en": "State Hooke's law."
+   },
+   "recall_a": {
+    "en": "Stress ∝ strain within elastic limit."
+   },
+   "explain_simple": {
+    "en": "Pull twice as hard, it stretches twice as much."
+   }
+  },
+  {
+   "id": "u3.elastic.f02",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Young's modulus E = tensile (or compressive) stress / linear strain. Steel E ≈ 200 GPa (2 × 10⁵ N/mm²)."
+   },
+   "why": {
+    "en": "It measures stiffness in pulling or pushing."
+   },
+   "recall_q": {
+    "en": "Young's modulus of steel?"
+   },
+   "recall_a": {
+    "en": "About 200 GPa (2 × 10⁵ N/mm²)."
+   },
+   "explain_simple": {
+    "en": "Big E = hard to stretch."
+   }
+  },
+  {
+   "id": "u3.elastic.f03",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Modulus of rigidity G (shear modulus) = shear stress / shear strain. Steel G ≈ 80 GPa."
+   },
+   "why": {
+    "en": "It measures stiffness against twisting and shearing."
+   },
+   "recall_q": {
+    "en": "Shear stress ÷ shear strain = ?"
+   },
+   "recall_a": {
+    "en": "Modulus of rigidity (G)."
+   },
+   "explain_simple": {
+    "en": "How hard it is to twist."
+   }
+  },
+  {
+   "id": "u3.elastic.f04",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bulk modulus K = direct stress (equal on all sides) / volumetric strain."
+   },
+   "why": {
+    "en": "It measures stiffness against squeezing from all sides."
+   },
+   "recall_q": {
+    "en": "Bulk modulus = ?"
+   },
+   "recall_a": {
+    "en": "Direct stress ÷ volumetric strain."
+   },
+   "explain_simple": {
+    "en": "How hard it is to squeeze smaller."
+   }
+  },
+  {
+   "id": "u3.elastic.f05",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Relations: E = 2G(1 + μ) and E = 3K(1 − 2μ)."
+   },
+   "why": {
+    "en": "The elastic constants are linked through Poisson's ratio."
+   },
+   "recall_q": {
+    "en": "Relation between E, G and μ?"
+   },
+   "recall_a": {
+    "en": "E = 2G(1 + μ)"
+   },
+   "explain_simple": {
+    "en": "Know two constants, find the rest."
+   }
+  },
+  {
+   "id": "u3.elastic.f06",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Combined relation: E = 9KG / (3K + G)."
+   },
+   "why": {
+    "en": "Eliminating μ from the two relations gives this."
+   },
+   "recall_q": {
+    "en": "E in terms of K and G?"
+   },
+   "recall_a": {
+    "en": "E = 9KG/(3K + G)"
+   },
+   "explain_simple": {
+    "en": "Another way to link the three moduli."
+   }
+  },
+  {
+   "id": "u3.elastic.f07",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Elongation of a bar: δL = P L / (A E)."
+   },
+   "why": {
+    "en": "From E = σ/ε, with σ = P/A and ε = δL/L."
+   },
+   "recall_q": {
+    "en": "Formula for change in length of a bar under axial load?"
+   },
+   "recall_a": {
+    "en": "δL = PL/(AE)"
+   },
+   "explain_simple": {
+    "en": "More load or length → more stretch. More area or E → less stretch."
+   }
+  },
+  {
+   "id": "u3.elastic.f08",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Principle of superposition: total effect of many loads = sum of effects of each load acting alone (within elastic limit)."
+   },
+   "why": {
+    "en": "In the elastic range, effects add up in a straight line."
+   },
+   "recall_q": {
+    "en": "Principle used to add effects of several loads on a bar?"
+   },
+   "recall_a": {
+    "en": "Principle of superposition."
+   },
+   "explain_simple": {
+    "en": "Work out each load separately, then add."
+   }
+  },
+  {
+   "id": "u3.elastic.f09",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bar of varying (stepped) section: total δL = (P/E)(L₁/A₁ + L₂/A₂ + ...)."
+   },
+   "why": {
+    "en": "Each part stretches by its own amount; add them."
+   },
+   "recall_q": {
+    "en": "How is total elongation of a stepped bar found?"
+   },
+   "recall_a": {
+    "en": "Add elongations of each part: Σ PL/(AE)."
+   },
+   "explain_simple": {
+    "en": "Stretch of each piece, added together."
+   }
+  },
+  {
+   "id": "u3.elastic.f10",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Uniformly tapering circular bar: δL = 4PL / (π E d₁ d₂)."
+   },
+   "why": {
+    "en": "Area changes steadily from d₁ to d₂."
+   },
+   "recall_q": {
+    "en": "Elongation of a tapering circular bar?"
+   },
+   "recall_a": {
+    "en": "4PL/(πEd₁d₂)"
+   },
+   "explain_simple": {
+    "en": "Like a normal bar, but using both end diameters."
+   }
+  },
+  {
+   "id": "u3.elastic.f11",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Elongation of a bar due to its own weight = w L² / (2E) = W L / (2AE)."
+   },
+   "why": {
+    "en": "Each section carries only the weight below it, so the average is half."
+   },
+   "recall_q": {
+    "en": "Elongation of a bar due to self-weight is what fraction of an equal end load?"
+   },
+   "recall_a": {
+    "en": "Half."
+   },
+   "explain_simple": {
+    "en": "Own weight stretches it half as much as the same load at the end."
+   }
+  },
+  {
+   "id": "u3.elastic.f12",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Composite section: two materials joined to share a load. Both have the same strain; loads add: P = P₁ + P₂."
+   },
+   "why": {
+    "en": "They are fixed together, so they stretch equally."
+   },
+   "example": {
+    "en": "Reinforced concrete column (steel + concrete)."
+   },
+   "recall_q": {
+    "en": "In a composite bar under load, what is the same for both materials?"
+   },
+   "recall_a": {
+    "en": "Strain (change in length)."
+   },
+   "explain_simple": {
+    "en": "Joined parts stretch together and share the load."
+   }
+  },
+  {
+   "id": "u3.elastic.f13",
+   "topic": "u3.elastic",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In a composite bar, σ₁/E₁ = σ₂/E₂. The stiffer material carries more stress."
+   },
+   "why": {
+    "en": "Equal strain means stress is proportional to E."
+   },
+   "recall_q": {
+    "en": "Modular ratio m = ?"
+   },
+   "recall_a": {
+    "en": "E₁/E₂ (e.g. E steel / E concrete)."
+   },
+   "explain_simple": {
+    "en": "The stiffer part takes more of the load."
+   }
+  },
+  {
+   "id": "u3.elastic.sum",
+   "topic": "u3.elastic",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Hooke's law, elastic constants, varying and composite sections; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Hooke's law, elastic constants, varying and composite sections"
+   },
+   "points": [
+    {
+     "en": "Hooke: stress ∝ strain."
+    },
+    {
+     "en": "E = σ/ε; G = τ/φ; K = σ/εv."
+    },
+    {
+     "en": "E = 2G(1 + μ) = 3K(1 − 2μ)."
+    },
+    {
+     "en": "δL = PL/AE; stepped bar: add parts."
+    },
+    {
+     "en": "Composite: same strain, loads add."
+    }
+   ]
+  },
+  {
+   "id": "u3.thermal.f01",
+   "topic": "u3.thermal",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Metals expand when heated and shrink when cooled."
+   },
+   "why": {
+    "en": "Heat makes atoms vibrate more and need more room."
+   },
+   "example": {
+    "en": "Gaps are left between rail lengths."
+   },
+   "recall_q": {
+    "en": "What happens to a metal rod when heated?"
+   },
+   "recall_a": {
+    "en": "It expands."
+   },
+   "explain_simple": {
+    "en": "Hot metal grows; cold metal shrinks."
+   }
+  },
+  {
+   "id": "u3.thermal.f02",
+   "topic": "u3.thermal",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Free expansion δL = α L ΔT. α = coefficient of linear expansion (per °C)."
+   },
+   "why": {
+    "en": "Expansion depends on length, material and temperature rise."
+   },
+   "example": {
+    "en": "Steel α ≈ 12 × 10⁻⁶ /°C."
+   },
+   "recall_q": {
+    "en": "Formula for thermal expansion?"
+   },
+   "recall_a": {
+    "en": "δL = α L ΔT"
+   },
+   "explain_simple": {
+    "en": "Longer bar or more heat → more growth."
+   }
+  },
+  {
+   "id": "u3.thermal.f03",
+   "topic": "u3.thermal",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "If expansion is prevented, thermal stress is set up: σ = E α ΔT."
+   },
+   "why": {
+    "en": "The supports push back by exactly the amount it wanted to grow."
+   },
+   "recall_q": {
+    "en": "Thermal stress in a fully restrained bar?"
+   },
+   "recall_a": {
+    "en": "σ = EαΔT"
+   },
+   "explain_simple": {
+    "en": "Stop it growing and stress builds up."
+   }
+  },
+  {
+   "id": "u3.thermal.f04",
+   "topic": "u3.thermal",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thermal stress does not depend on the length or area of the bar."
+   },
+   "why": {
+    "en": "Length cancels in σ = E × (αLΔT / L)."
+   },
+   "recall_q": {
+    "en": "Does thermal stress depend on bar length?"
+   },
+   "recall_a": {
+    "en": "No."
+   },
+   "explain_simple": {
+    "en": "Short or long, same thermal stress."
+   }
+  },
+  {
+   "id": "u3.thermal.f05",
+   "topic": "u3.thermal",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Heated and restrained → compressive stress. Cooled and restrained → tensile stress."
+   },
+   "why": {
+    "en": "Heated bar tries to grow but is pushed back; cooled bar tries to shrink but is held."
+   },
+   "recall_q": {
+    "en": "A restrained bar is heated. What stress develops?"
+   },
+   "recall_a": {
+    "en": "Compressive stress."
+   },
+   "explain_simple": {
+    "en": "Heated + blocked = squeezed."
+   }
+  },
+  {
+   "id": "u3.thermal.f06",
+   "topic": "u3.thermal",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "If supports yield by δ, thermal stress σ = E (αLΔT − δ) / L."
+   },
+   "why": {
+    "en": "Part of the expansion is allowed, so less stress builds up."
+   },
+   "recall_q": {
+    "en": "If supports allow some movement, does thermal stress rise or fall?"
+   },
+   "recall_a": {
+    "en": "Falls."
+   },
+   "explain_simple": {
+    "en": "A little room reduces stress."
+   }
+  },
+  {
+   "id": "u3.thermal.f07",
+   "topic": "u3.thermal",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Composite bar heated: material with higher α goes into compression; lower α goes into tension."
+   },
+   "why": {
+    "en": "They must expand the same amount, so the faster one is held back."
+   },
+   "example": {
+    "en": "Copper (higher α) and steel bars joined: copper in compression, steel in tension."
+   },
+   "recall_q": {
+    "en": "Copper and steel bars joined and heated. Which is in compression?"
+   },
+   "recall_a": {
+    "en": "Copper (higher α)."
+   },
+   "explain_simple": {
+    "en": "The one that wants to grow more gets squeezed."
+   }
+  },
+  {
+   "id": "u3.thermal.f08",
+   "topic": "u3.thermal",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "In a composite bar with temperature change, compressive force in one = tensile force in the other."
+   },
+   "why": {
+    "en": "No outside load, so internal forces balance."
+   },
+   "recall_q": {
+    "en": "In a heated composite bar, how do the forces in the two parts compare?"
+   },
+   "recall_a": {
+    "en": "Equal and opposite."
+   },
+   "explain_simple": {
+    "en": "One pushes, one pulls, by the same amount."
+   }
+  },
+  {
+   "id": "u3.thermal.f09",
+   "topic": "u3.thermal",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Coefficient of linear expansion: aluminium ≈ 23, copper ≈ 17, steel ≈ 12 (all × 10⁻⁶ /°C)."
+   },
+   "why": {
+    "en": "Aluminium grows almost twice as much as steel."
+   },
+   "example": {
+    "en": "Aluminium pistons need more clearance than cast iron ones."
+   },
+   "recall_q": {
+    "en": "Which expands more: aluminium or steel?"
+   },
+   "recall_a": {
+    "en": "Aluminium."
+   },
+   "explain_simple": {
+    "en": "Aluminium grows fastest with heat."
+   }
+  },
+  {
+   "id": "u3.thermal.f10",
+   "topic": "u3.thermal",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Area expansion coefficient β ≈ 2α. Volume expansion coefficient γ ≈ 3α."
+   },
+   "why": {
+    "en": "Area grows in two directions, volume in three."
+   },
+   "recall_q": {
+    "en": "Volume expansion coefficient in terms of α?"
+   },
+   "recall_a": {
+    "en": "3α"
+   },
+   "explain_simple": {
+    "en": "Volume grows three times as fast as length."
+   }
+  },
+  {
+   "id": "u3.thermal.f11",
+   "topic": "u3.thermal",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Shrink fit: a part is heated to expand, fitted on a shaft, and grips tightly as it cools."
+   },
+   "why": {
+    "en": "Thermal contraction creates a strong press."
+   },
+   "example": {
+    "en": "Flywheel ring gear and steel tyres on rail wheels are shrink fitted."
+   },
+   "recall_q": {
+    "en": "How is a starter ring gear fitted on a flywheel?"
+   },
+   "recall_a": {
+    "en": "Shrink fit (heated, fitted, cooled)."
+   },
+   "explain_simple": {
+    "en": "Heat it, slip it on, let it cool and grip."
+   }
+  },
+  {
+   "id": "u3.thermal.s01",
+   "topic": "u3.thermal",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: thermal stress"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A steel rail is fixed at both ends. Temperature rises by 40°C. E = 2 × 10⁵ N/mm², α = 12 × 10⁻⁶ /°C. Find stress."
+     }
+    },
+    {
+     "text": {
+      "en": "σ = E α ΔT."
+     }
+    },
+    {
+     "text": {
+      "en": "σ = 2 × 10⁵ × 12 × 10⁻⁶ × 40."
+     }
+    },
+    {
+     "text": {
+      "en": "σ = 96 N/mm² (compressive)."
+     },
+     "explain": {
+      "en": "Heated and held, so compressive."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "σ = EαΔT."
+    },
+    {
+     "en": "Heated + fixed = compressive."
+    }
+   ],
+   "recall_q": {
+    "en": "Is the stress in a heated fixed rail tensile or compressive?"
+   },
+   "recall_a": {
+    "en": "Compressive."
+   }
+  },
+  {
+   "id": "u3.thermal.sum",
+   "topic": "u3.thermal",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Thermal stress and strain; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Thermal stress and strain"
+   },
+   "points": [
+    {
+     "en": "Free expansion δ = αLΔT."
+    },
+    {
+     "en": "Restrained: σ = EαΔT, independent of length."
+    },
+    {
+     "en": "Heated → compression; cooled → tension."
+    },
+    {
+     "en": "Composite: higher α in compression."
+    },
+    {
+     "en": "Aluminium > copper > steel in α."
+    }
+   ]
+  },
+  {
+   "id": "u3.friction.f01",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Friction is the force that resists sliding between two surfaces in contact. It acts opposite to motion."
+   },
+   "why": {
+    "en": "Tiny bumps on the surfaces catch on each other."
+   },
+   "example": {
+    "en": "Brakes and clutches work by friction; tyres grip the road by friction."
+   },
+   "recall_q": {
+    "en": "Direction of friction force?"
+   },
+   "recall_a": {
+    "en": "Opposite to motion (or tendency of motion)."
+   },
+   "explain_simple": {
+    "en": "Friction holds things back."
+   }
+  },
+  {
+   "id": "u3.friction.f02",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Static friction acts before motion starts. Dynamic (kinetic) friction acts during motion. Static friction is greater."
+   },
+   "why": {
+    "en": "It takes more force to start sliding than to keep sliding."
+   },
+   "example": {
+    "en": "Pushing a stalled car is hardest at the start."
+   },
+   "recall_q": {
+    "en": "Which is greater: static or kinetic friction?"
+   },
+   "recall_a": {
+    "en": "Static friction."
+   },
+   "explain_simple": {
+    "en": "Starting is harder than keeping going."
+   }
+  },
+  {
+   "id": "u3.friction.f03",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Limiting friction is the maximum static friction just before sliding begins."
+   },
+   "why": {
+    "en": "Any more force and the body starts to slide."
+   },
+   "recall_q": {
+    "en": "Maximum friction just before motion is called?"
+   },
+   "recall_a": {
+    "en": "Limiting friction."
+   },
+   "explain_simple": {
+    "en": "The last grip before slipping."
+   }
+  },
+  {
+   "id": "u3.friction.f04",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rolling friction is much smaller than sliding friction."
+   },
+   "why": {
+    "en": "A rolling wheel does not rub along the surface."
+   },
+   "example": {
+    "en": "That is why vehicles have wheels and ball bearings are used."
+   },
+   "recall_q": {
+    "en": "Which is smaller: rolling or sliding friction?"
+   },
+   "recall_a": {
+    "en": "Rolling friction."
+   },
+   "explain_simple": {
+    "en": "Rolling is easier than dragging."
+   }
+  },
+  {
+   "id": "u3.friction.f05",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Coefficient of friction μ = F / R (friction force / normal reaction). It has no unit."
+   },
+   "why": {
+    "en": "It tells how slippery or grippy two surfaces are."
+   },
+   "example": {
+    "en": "Dry tyre on dry road μ ≈ 0.7–0.8; on wet road much less."
+   },
+   "recall_q": {
+    "en": "Coefficient of friction formula?"
+   },
+   "recall_a": {
+    "en": "μ = F/R"
+   },
+   "explain_simple": {
+    "en": "Friction force ÷ pressing force."
+   }
+  },
+  {
+   "id": "u3.friction.f06",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Laws of dry friction: friction ∝ normal reaction; it does not depend on contact area; it depends on the nature of surfaces; it acts opposite to motion."
+   },
+   "why": {
+    "en": "These are Coulomb's laws of friction."
+   },
+   "recall_q": {
+    "en": "Does friction depend on area of contact?"
+   },
+   "recall_a": {
+    "en": "No (for dry friction)."
+   },
+   "explain_simple": {
+    "en": "Push harder, more friction; bigger area, same friction."
+   }
+  },
+  {
+   "id": "u3.friction.f07",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Kinetic friction is almost independent of speed at low speeds."
+   },
+   "why": {
+    "en": "This is another law of dynamic friction."
+   },
+   "recall_q": {
+    "en": "Does sliding friction change much with speed?"
+   },
+   "recall_a": {
+    "en": "No — nearly constant at low speed."
+   },
+   "explain_simple": {
+    "en": "Slow or a bit faster, friction stays about the same."
+   }
+  },
+  {
+   "id": "u3.friction.f08",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Angle of friction φ: tan φ = μ. Angle of repose: the steepest slope on which a body rests without sliding. Angle of repose = angle of friction."
+   },
+   "why": {
+    "en": "On that slope, the weight's sliding part equals limiting friction."
+   },
+   "recall_q": {
+    "en": "Relation between angle of repose and angle of friction?"
+   },
+   "recall_a": {
+    "en": "They are equal."
+   },
+   "explain_simple": {
+    "en": "The steepest slope before it slides."
+   }
+  },
+  {
+   "id": "u3.friction.f09",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fluid (viscous) friction occurs between layers of a fluid or between lubricated surfaces. It is much smaller than dry friction."
+   },
+   "why": {
+    "en": "An oil film separates the metal surfaces."
+   },
+   "recall_q": {
+    "en": "Friction between well-lubricated surfaces is called?"
+   },
+   "recall_a": {
+    "en": "Fluid (film) friction."
+   },
+   "explain_simple": {
+    "en": "Oil makes surfaces slide on a liquid film."
+   }
+  },
+  {
+   "id": "u3.friction.f10",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Boundary friction happens when the oil film is very thin, as at engine start-up."
+   },
+   "why": {
+    "en": "Surfaces partly touch, so wear is highest."
+   },
+   "recall_q": {
+    "en": "When is engine wear highest?"
+   },
+   "recall_a": {
+    "en": "At start-up (boundary lubrication)."
+   },
+   "explain_simple": {
+    "en": "At start, oil has not reached everywhere yet."
+   }
+  },
+  {
+   "id": "u3.friction.f11",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Force to pull a body up a rough slope P = W (sin α + μ cos α), with P parallel to the slope."
+   },
+   "why": {
+    "en": "Pull must beat both gravity along the slope and friction."
+   },
+   "recall_q": {
+    "en": "Force needed to move a body up an inclined plane (force along plane)?"
+   },
+   "recall_a": {
+    "en": "W(sin α + μ cos α)"
+   },
+   "explain_simple": {
+    "en": "Fight gravity plus friction."
+   }
+  },
+  {
+   "id": "u3.friction.f12",
+   "topic": "u3.friction",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Friction is useful in brakes, clutches, belts, tyres, nuts and bolts, and walking. It is harmful in bearings, pistons and gears."
+   },
+   "why": {
+    "en": "It wastes energy as heat and causes wear."
+   },
+   "recall_q": {
+    "en": "Give one useful and one harmful case of friction."
+   },
+   "recall_a": {
+    "en": "Useful: brakes. Harmful: bearings (wear, heat)."
+   },
+   "explain_simple": {
+    "en": "Good for stopping, bad for moving parts."
+   }
+  },
+  {
+   "id": "u3.friction.sum",
+   "topic": "u3.friction",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Friction; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Friction"
+   },
+   "points": [
+    {
+     "en": "Static > kinetic > rolling friction."
+    },
+    {
+     "en": "μ = F/R; no unit."
+    },
+    {
+     "en": "Friction ∝ normal reaction, not area."
+    },
+    {
+     "en": "Angle of repose = angle of friction, tan φ = μ."
+    },
+    {
+     "en": "Fluid friction lowest; wear highest at start-up."
+    }
+   ]
+  },
+  {
+   "id": "u3.cg.f01",
+   "topic": "u3.cg",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Centre of gravity (CG) is the point where the whole weight of a body seems to act."
+   },
+   "why": {
+    "en": "We can treat all the weight as one force at that point."
+   },
+   "recall_q": {
+    "en": "Point where the total weight of a body acts?"
+   },
+   "recall_a": {
+    "en": "Centre of gravity."
+   },
+   "explain_simple": {
+    "en": "The balance point."
+   }
+  },
+  {
+   "id": "u3.cg.f02",
+   "topic": "u3.cg",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Centroid is the geometric centre of a plane area. For a uniform body, centroid and CG are the same point."
+   },
+   "why": {
+    "en": "Areas have no weight, so we use 'centroid'."
+   },
+   "recall_q": {
+    "en": "Centre of a plane area is called?"
+   },
+   "recall_a": {
+    "en": "Centroid."
+   },
+   "explain_simple": {
+    "en": "Centroid = middle of a shape."
+   }
+  },
+  {
+   "id": "u3.cg.f03",
+   "topic": "u3.cg",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Centroid of a triangle is at h/3 from the base. Of a semicircle: 4r/(3π) from the diameter."
+   },
+   "why": {
+    "en": "More area is near the base, so the centroid is low."
+   },
+   "recall_q": {
+    "en": "Centroid of a triangle from its base?"
+   },
+   "recall_a": {
+    "en": "h/3"
+   },
+   "explain_simple": {
+    "en": "One-third of the height up from the base."
+   }
+  },
+  {
+   "id": "u3.cg.f04",
+   "topic": "u3.cg",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A vehicle with a low CG is more stable and less likely to overturn."
+   },
+   "why": {
+    "en": "Higher CG gives a bigger tipping moment on turns."
+   },
+   "example": {
+    "en": "Overloading luggage on a bus roof raises CG and risks rollover."
+   },
+   "recall_q": {
+    "en": "Is a low or high CG better for vehicle stability?"
+   },
+   "recall_a": {
+    "en": "Low CG."
+   },
+   "explain_simple": {
+    "en": "Low and wide = stable."
+   }
+  },
+  {
+   "id": "u3.cg.f05",
+   "topic": "u3.cg",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Moment of inertia (second moment of area) shows how an area is spread around an axis. Unit: mm⁴ (area), kg·m² (mass)."
+   },
+   "why": {
+    "en": "More area far from the axis = stiffer beam."
+   },
+   "recall_q": {
+    "en": "Unit of area moment of inertia?"
+   },
+   "recall_a": {
+    "en": "mm⁴ (or m⁴)."
+   },
+   "explain_simple": {
+    "en": "How far the material is spread from the centre line."
+   }
+  },
+  {
+   "id": "u3.cg.f06",
+   "topic": "u3.cg",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "MI of a rectangle about its centroid axis: I = b d³ / 12. About its base: b d³ / 3."
+   },
+   "why": {
+    "en": "Depth d is cubed, so deep sections are much stiffer."
+   },
+   "recall_q": {
+    "en": "MI of a rectangle about its centroidal axis?"
+   },
+   "recall_a": {
+    "en": "bd³/12"
+   },
+   "explain_simple": {
+    "en": "Depth counts much more than width."
+   }
+  },
+  {
+   "id": "u3.cg.f07",
+   "topic": "u3.cg",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "MI of a circle about its diameter: I = π d⁴ / 64. Polar MI: J = π d⁴ / 32."
+   },
+   "why": {
+    "en": "Polar MI is twice the diametral MI."
+   },
+   "recall_q": {
+    "en": "MI of a circular section about its diameter?"
+   },
+   "recall_a": {
+    "en": "πd⁴/64"
+   },
+   "explain_simple": {
+    "en": "Circle: πd⁴/64; polar: πd⁴/32."
+   }
+  },
+  {
+   "id": "u3.cg.f08",
+   "topic": "u3.cg",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "MI of a triangle about its base = b h³ / 12; about its centroidal axis = b h³ / 36."
+   },
+   "why": {
+    "en": "Centroid axis is closer to the area, so smaller MI."
+   },
+   "recall_q": {
+    "en": "MI of a triangle about its centroidal axis?"
+   },
+   "recall_a": {
+    "en": "bh³/36"
+   },
+   "explain_simple": {
+    "en": "Triangle: /12 at base, /36 at centroid."
+   }
+  },
+  {
+   "id": "u3.cg.f09",
+   "topic": "u3.cg",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Parallel axis theorem: I = Ig + A h². Perpendicular axis theorem: Iz = Ix + Iy (for plane areas)."
+   },
+   "why": {
+    "en": "These let us shift or combine axes."
+   },
+   "recall_q": {
+    "en": "State the parallel axis theorem."
+   },
+   "recall_a": {
+    "en": "I = Ig + Ah²"
+   },
+   "explain_simple": {
+    "en": "MI about a shifted axis = own MI + area × distance²."
+   }
+  },
+  {
+   "id": "u3.cg.f10",
+   "topic": "u3.cg",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Radius of gyration k = √(I / A). It is the distance at which all area could be packed to give the same MI."
+   },
+   "why": {
+    "en": "Used in column and flywheel calculations."
+   },
+   "recall_q": {
+    "en": "Formula for radius of gyration?"
+   },
+   "recall_a": {
+    "en": "k = √(I/A)"
+   },
+   "explain_simple": {
+    "en": "A single distance that represents the spread."
+   }
+  },
+  {
+   "id": "u3.cg.f11",
+   "topic": "u3.cg",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "I-sections are used for beams and chassis frames because most material is far from the neutral axis, giving high MI for low weight."
+   },
+   "why": {
+    "en": "Flanges carry most bending stress; the thin web joins them."
+   },
+   "recall_q": {
+    "en": "Why are I-sections used as beams?"
+   },
+   "recall_a": {
+    "en": "High MI (stiffness) with less material and weight."
+   },
+   "explain_simple": {
+    "en": "Material placed where it works hardest."
+   }
+  },
+  {
+   "id": "u3.cg.sum",
+   "topic": "u3.cg",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Centre of gravity and moment of inertia; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Centre of gravity and moment of inertia"
+   },
+   "points": [
+    {
+     "en": "CG = balance point; centroid = centre of area."
+    },
+    {
+     "en": "Triangle centroid h/3 from base."
+    },
+    {
+     "en": "Rectangle I = bd³/12; circle πd⁴/64; polar πd⁴/32."
+    },
+    {
+     "en": "Parallel axis: I = Ig + Ah²; k = √(I/A)."
+    },
+    {
+     "en": "Low CG = stable vehicle."
+    }
+   ]
+  },
+  {
+   "id": "u3.beams.f01",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A beam is a horizontal member that carries loads at right angles to its length and bends."
+   },
+   "why": {
+    "en": "Loads across its length cause bending, not just stretching."
+   },
+   "example": {
+    "en": "Vehicle axles and chassis side members act as beams."
+   },
+   "recall_q": {
+    "en": "What is a beam?"
+   },
+   "recall_a": {
+    "en": "A member carrying transverse loads, which bends."
+   },
+   "explain_simple": {
+    "en": "A bar that bends under load placed across it."
+   }
+  },
+  {
+   "id": "u3.beams.f02",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cantilever beam: fixed at one end, free at the other."
+   },
+   "why": {
+    "en": "The fixed end holds both force and moment."
+   },
+   "example": {
+    "en": "A balcony slab, a diving board."
+   },
+   "recall_q": {
+    "en": "A beam fixed at one end and free at the other?"
+   },
+   "recall_a": {
+    "en": "Cantilever."
+   },
+   "explain_simple": {
+    "en": "Stuck in the wall at one end only."
+   }
+  },
+  {
+   "id": "u3.beams.f03",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Simply supported beam: rests freely on supports at both ends."
+   },
+   "why": {
+    "en": "Supports give only upward reactions, no moment."
+   },
+   "example": {
+    "en": "A plank across a drain."
+   },
+   "recall_q": {
+    "en": "Beam resting freely on two end supports?"
+   },
+   "recall_a": {
+    "en": "Simply supported beam."
+   },
+   "explain_simple": {
+    "en": "Sits on two supports, not fixed."
+   }
+  },
+  {
+   "id": "u3.beams.f04",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Other beams: overhanging (extends past a support), fixed (both ends fixed), continuous (more than two supports), propped cantilever."
+   },
+   "why": {
+    "en": "Support type decides reactions and bending."
+   },
+   "recall_q": {
+    "en": "Beam with more than two supports?"
+   },
+   "recall_a": {
+    "en": "Continuous beam."
+   },
+   "explain_simple": {
+    "en": "Count supports and see how ends are held."
+   }
+  },
+  {
+   "id": "u3.beams.f05",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Point load: acts at a single point. Uniformly distributed load (UDL): spread evenly along a length, in N/m."
+   },
+   "why": {
+    "en": "Total UDL = w × length, acting at the middle of that length."
+   },
+   "example": {
+    "en": "UDL: a beam's own weight. Point load: a person standing at one spot."
+   },
+   "recall_q": {
+    "en": "Unit of UDL?"
+   },
+   "recall_a": {
+    "en": "N/m (or kN/m)."
+   },
+   "explain_simple": {
+    "en": "Point = one spot. UDL = spread evenly."
+   }
+  },
+  {
+   "id": "u3.beams.f06",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Shear force at a section = algebraic sum of vertical forces on one side of it."
+   },
+   "why": {
+    "en": "It tells how much the section tends to slide."
+   },
+   "recall_q": {
+    "en": "Shear force at a section is the sum of what?"
+   },
+   "recall_a": {
+    "en": "All vertical forces on one side of the section."
+   },
+   "explain_simple": {
+    "en": "Add up the up and down forces to one side."
+   }
+  },
+  {
+   "id": "u3.beams.f07",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bending moment at a section = algebraic sum of moments of forces on one side about that section."
+   },
+   "why": {
+    "en": "It tells how much the beam tends to bend there."
+   },
+   "recall_q": {
+    "en": "Bending moment at a section = ?"
+   },
+   "recall_a": {
+    "en": "Sum of moments of forces on one side about the section."
+   },
+   "explain_simple": {
+    "en": "Forces × distances to one side."
+   }
+  },
+  {
+   "id": "u3.beams.f08",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bending moment is maximum where shear force is zero or changes sign."
+   },
+   "why": {
+    "en": "dM/dx = F, so M peaks when F = 0."
+   },
+   "recall_q": {
+    "en": "Where is bending moment maximum?"
+   },
+   "recall_a": {
+    "en": "Where shear force is zero (changes sign)."
+   },
+   "explain_simple": {
+    "en": "Look for zero shear to find biggest bending."
+   }
+  },
+  {
+   "id": "u3.beams.f09",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cantilever with point load W at free end: max SF = W, max BM = W L at the fixed end."
+   },
+   "why": {
+    "en": "The load acts over the whole length to the support."
+   },
+   "recall_q": {
+    "en": "Max bending moment of a cantilever with end load W?"
+   },
+   "recall_a": {
+    "en": "WL at the fixed end."
+   },
+   "explain_simple": {
+    "en": "Load × length, at the wall."
+   }
+  },
+  {
+   "id": "u3.beams.f10",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Cantilever with UDL w over length L: max SF = wL, max BM = wL²/2 at the fixed end."
+   },
+   "why": {
+    "en": "Total load wL acts at L/2."
+   },
+   "recall_q": {
+    "en": "Max BM of a cantilever with UDL?"
+   },
+   "recall_a": {
+    "en": "wL²/2"
+   },
+   "explain_simple": {
+    "en": "Total load × half the length."
+   }
+  },
+  {
+   "id": "u3.beams.f11",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Simply supported beam with central point load W: reactions W/2 each, max BM = WL/4 at the centre."
+   },
+   "why": {
+    "en": "W/2 × L/2 = WL/4."
+   },
+   "recall_q": {
+    "en": "Max BM of a simply supported beam with central load W?"
+   },
+   "recall_a": {
+    "en": "WL/4"
+   },
+   "explain_simple": {
+    "en": "Middle load → WL/4 at the middle."
+   }
+  },
+  {
+   "id": "u3.beams.f12",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Simply supported beam with UDL w: reactions wL/2, max BM = wL²/8 at the centre."
+   },
+   "why": {
+    "en": "Shear is zero at mid-span, so BM peaks there."
+   },
+   "recall_q": {
+    "en": "Max BM of a simply supported beam with UDL?"
+   },
+   "recall_a": {
+    "en": "wL²/8"
+   },
+   "explain_simple": {
+    "en": "UDL on simple beam → wL²/8."
+   }
+  },
+  {
+   "id": "u3.beams.f13",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "SFD shape: point loads give horizontal steps; UDL gives a sloping straight line. BMD: point loads give straight lines; UDL gives a parabola."
+   },
+   "why": {
+    "en": "Each integration raises the curve's degree by one."
+   },
+   "recall_q": {
+    "en": "Shape of BMD under UDL?"
+   },
+   "recall_a": {
+    "en": "Parabola."
+   },
+   "explain_simple": {
+    "en": "UDL: SF sloping line, BM curve."
+   }
+  },
+  {
+   "id": "u3.beams.f14",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Sagging BM (beam bends like a smile, concave up) is positive. Hogging BM (like a frown) is negative."
+   },
+   "why": {
+    "en": "This is the usual sign convention."
+   },
+   "example": {
+    "en": "Simply supported beam sags; cantilever hogs."
+   },
+   "recall_q": {
+    "en": "Bending like a smile is called?"
+   },
+   "recall_a": {
+    "en": "Sagging (positive BM)."
+   },
+   "explain_simple": {
+    "en": "Smile = sagging. Frown = hogging."
+   }
+  },
+  {
+   "id": "u3.beams.f15",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Point of contraflexure: where bending moment changes sign (becomes zero)."
+   },
+   "why": {
+    "en": "The beam changes from sagging to hogging there."
+   },
+   "example": {
+    "en": "Found in overhanging beams."
+   },
+   "recall_q": {
+    "en": "Point where BM changes sign is called?"
+   },
+   "recall_a": {
+    "en": "Point of contraflexure."
+   },
+   "explain_simple": {
+    "en": "Where the bend flips direction."
+   }
+  },
+  {
+   "id": "u3.beams.f16",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bending equation: M/I = σ/y = E/R."
+   },
+   "why": {
+    "en": "It links bending moment, stress, distance from neutral axis and curvature."
+   },
+   "recall_q": {
+    "en": "Write the bending equation."
+   },
+   "recall_a": {
+    "en": "M/I = σ/y = E/R"
+   },
+   "explain_simple": {
+    "en": "Bending stress = M × y / I."
+   }
+  },
+  {
+   "id": "u3.beams.f17",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Neutral axis: the line in a bent beam with zero stress. Above it is compression, below it tension (for sagging)."
+   },
+   "why": {
+    "en": "Top fibres shorten, bottom fibres lengthen; the middle stays the same."
+   },
+   "recall_q": {
+    "en": "Stress at the neutral axis?"
+   },
+   "recall_a": {
+    "en": "Zero."
+   },
+   "explain_simple": {
+    "en": "The middle line is neither pushed nor pulled."
+   }
+  },
+  {
+   "id": "u3.beams.f18",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Section modulus Z = I / y_max. Max bending stress σ = M / Z. Rectangle: Z = b d² / 6."
+   },
+   "why": {
+    "en": "Bigger Z means stronger beam in bending."
+   },
+   "recall_q": {
+    "en": "Section modulus of a rectangle?"
+   },
+   "recall_a": {
+    "en": "bd²/6"
+   },
+   "explain_simple": {
+    "en": "Bigger Z = stronger beam."
+   }
+  },
+  {
+   "id": "u3.beams.f19",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Max deflection: cantilever end load WL³/3EI; simply supported central load WL³/48EI; simply supported UDL 5wL⁴/384EI."
+   },
+   "why": {
+    "en": "These standard results are asked directly."
+   },
+   "recall_q": {
+    "en": "Max deflection of a simply supported beam with central load?"
+   },
+   "recall_a": {
+    "en": "WL³/48EI"
+   },
+   "explain_simple": {
+    "en": "Learn the three standard deflection formulas."
+   }
+  },
+  {
+   "id": "u3.beams.f20",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Torsion equation: T/J = τ/r = Gθ/L."
+   },
+   "why": {
+    "en": "Used for shafts like propeller shafts and axles under twisting."
+   },
+   "recall_q": {
+    "en": "Write the torsion equation."
+   },
+   "recall_a": {
+    "en": "T/J = τ/r = Gθ/L"
+   },
+   "explain_simple": {
+    "en": "Twisting a shaft: torque, stress and twist angle linked."
+   }
+  },
+  {
+   "id": "u3.beams.f21",
+   "topic": "u3.beams",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A hollow shaft is stronger and stiffer than a solid shaft of the same weight."
+   },
+   "why": {
+    "en": "Material far from the centre resists twisting best."
+   },
+   "example": {
+    "en": "Propeller shafts are hollow tubes."
+   },
+   "recall_q": {
+    "en": "Why are propeller shafts hollow?"
+   },
+   "recall_a": {
+    "en": "Same strength with less weight."
+   },
+   "explain_simple": {
+    "en": "Hollow tubes twist less for their weight."
+   }
+  },
+  {
+   "id": "u3.beams.s01",
+   "topic": "u3.beams",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: simply supported beam"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A 4 m simply supported beam carries a 10 kN load at the centre. Find reactions and max BM."
+     }
+    },
+    {
+     "text": {
+      "en": "Reactions: each support takes half = 5 kN."
+     },
+     "explain": {
+      "en": "Load is in the middle, so it is shared equally."
+     }
+    },
+    {
+     "text": {
+      "en": "Max BM = WL/4 = 10 × 4 / 4 = 10 kN·m."
+     }
+    },
+    {
+     "text": {
+      "en": "It occurs at the centre, under the load."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "Central load: R = W/2 each."
+    },
+    {
+     "en": "Max BM = WL/4 at the centre."
+    }
+   ],
+   "recall_q": {
+    "en": "Max BM for 10 kN at centre of a 4 m simple beam?"
+   },
+   "recall_a": {
+    "en": "10 kN·m"
+   }
+  },
+  {
+   "id": "u3.beams.s02",
+   "topic": "u3.beams",
+   "type": "steps",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Worked example: cantilever with UDL"
+   },
+   "steps": [
+    {
+     "text": {
+      "en": "Question: A 2 m cantilever carries a UDL of 3 kN/m. Find max SF and max BM."
+     }
+    },
+    {
+     "text": {
+      "en": "Total load = w × L = 3 × 2 = 6 kN."
+     }
+    },
+    {
+     "text": {
+      "en": "Max SF = 6 kN at the fixed end."
+     }
+    },
+    {
+     "text": {
+      "en": "Max BM = wL²/2 = 3 × 4 / 2 = 6 kN·m at the fixed end."
+     }
+    }
+   ],
+   "summary": [
+    {
+     "en": "Cantilever UDL: SF = wL, BM = wL²/2."
+    },
+    {
+     "en": "Both are largest at the fixed end."
+    }
+   ],
+   "recall_q": {
+    "en": "Where are SF and BM largest in a cantilever?"
+   },
+   "recall_a": {
+    "en": "At the fixed end."
+   }
+  },
+  {
+   "id": "u3.beams.sum",
+   "topic": "u3.beams",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Beams, shear force and bending moment; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Beams, shear force and bending moment"
+   },
+   "points": [
+    {
+     "en": "Cantilever: WL (point), wL²/2 (UDL) at fixed end."
+    },
+    {
+     "en": "Simple beam: WL/4 (central point), wL²/8 (UDL)."
+    },
+    {
+     "en": "Max BM where SF = 0; contraflexure where BM = 0."
+    },
+    {
+     "en": "M/I = σ/y = E/R; Z = bd²/6."
+    },
+    {
+     "en": "UDL: SFD straight slope, BMD parabola."
+    }
+   ]
+  },
+  {
+   "id": "u3.rivets.f01",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A rivet is a permanent fastener: a round rod with a head, put through holes in plates, and the other end hammered into a second head."
+   },
+   "why": {
+    "en": "Riveted joints cannot be opened without breaking the rivet."
+   },
+   "example": {
+    "en": "Old truck chassis frames and bus bodies use rivets."
+   },
+   "recall_q": {
+    "en": "Is a riveted joint permanent or temporary?"
+   },
+   "recall_a": {
+    "en": "Permanent."
+   },
+   "explain_simple": {
+    "en": "A metal pin squashed at both ends."
+   }
+  },
+  {
+   "id": "u3.rivets.f02",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Parts of a rivet: head, shank (body) and tail (point)."
+   },
+   "why": {
+    "en": "The tail is formed into a second head after fitting."
+   },
+   "recall_q": {
+    "en": "The cylindrical body of a rivet is called?"
+   },
+   "recall_a": {
+    "en": "Shank."
+   },
+   "explain_simple": {
+    "en": "Head, body, tail."
+   }
+  },
+  {
+   "id": "u3.rivets.f03",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rivet head types: snap (cup/button), pan, countersunk, conical. Countersunk heads sit flush with the surface."
+   },
+   "why": {
+    "en": "Flush heads are used where a smooth surface is needed."
+   },
+   "recall_q": {
+    "en": "Which rivet head sits flush with the plate?"
+   },
+   "recall_a": {
+    "en": "Countersunk head."
+   },
+   "explain_simple": {
+    "en": "Countersunk = flat, hidden head."
+   }
+  },
+  {
+   "id": "u3.rivets.f04",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Lap joint: one plate overlaps the other and they are riveted together."
+   },
+   "why": {
+    "en": "Simple to make, but the load path is offset."
+   },
+   "recall_q": {
+    "en": "Joint where one plate overlaps another?"
+   },
+   "recall_a": {
+    "en": "Lap joint."
+   },
+   "explain_simple": {
+    "en": "Plates laid one over the other."
+   }
+  },
+  {
+   "id": "u3.rivets.f05",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Butt joint: plates meet end to end and are joined by one or two cover (strap) plates."
+   },
+   "why": {
+    "en": "Load stays in line, so it is stronger than a lap joint."
+   },
+   "recall_q": {
+    "en": "In a butt joint, how are the plates connected?"
+   },
+   "recall_a": {
+    "en": "Through cover (strap) plates."
+   },
+   "explain_simple": {
+    "en": "Ends touch; a patch plate joins them."
+   }
+  },
+  {
+   "id": "u3.rivets.f06",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Single riveted: one row of rivets. Double riveted: two rows. Arrangement can be chain (in line) or zig-zag (staggered)."
+   },
+   "why": {
+    "en": "More rows carry more load."
+   },
+   "recall_q": {
+    "en": "Rivets in staggered rows are called?"
+   },
+   "recall_a": {
+    "en": "Zig-zag riveting."
+   },
+   "explain_simple": {
+    "en": "Chain = rivets in line. Zig-zag = rivets staggered."
+   }
+  },
+  {
+   "id": "u3.rivets.f07",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pitch (p) is the distance between centres of adjacent rivets in a row. Margin is the distance from rivet centre to plate edge (about 1.5d)."
+   },
+   "why": {
+    "en": "Too small a margin tears the plate edge."
+   },
+   "recall_q": {
+    "en": "Distance between centres of adjacent rivets in a row?"
+   },
+   "recall_a": {
+    "en": "Pitch."
+   },
+   "explain_simple": {
+    "en": "Pitch = gap between rivets."
+   }
+  },
+  {
+   "id": "u3.rivets.f08",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Back pitch is the distance between rows. Diagonal pitch is the distance between rivets in adjacent rows in zig-zag riveting."
+   },
+   "why": {
+    "en": "Row spacing affects joint strength."
+   },
+   "recall_q": {
+    "en": "Distance between two rows of rivets?"
+   },
+   "recall_a": {
+    "en": "Back pitch (transverse pitch)."
+   },
+   "explain_simple": {
+    "en": "Back pitch = row-to-row gap."
+   }
+  },
+  {
+   "id": "u3.rivets.f09",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Ways a riveted joint can fail: shearing of rivets, tearing of plate between rivets, crushing of rivets or plate, tearing of plate at the edge."
+   },
+   "why": {
+    "en": "Design checks each one; the weakest decides strength."
+   },
+   "recall_q": {
+    "en": "Name two failures of a riveted joint."
+   },
+   "recall_a": {
+    "en": "Rivet shearing, plate tearing, crushing, edge tearing."
+   },
+   "explain_simple": {
+    "en": "Rivet cuts, plate rips, or parts get crushed."
+   }
+  },
+  {
+   "id": "u3.rivets.f10",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Tearing strength of plate per pitch length: Pt = (p − d) t σt."
+   },
+   "why": {
+    "en": "The hole removes metal, so only (p − d) is left."
+   },
+   "recall_q": {
+    "en": "Tearing resistance of plate per pitch?"
+   },
+   "recall_a": {
+    "en": "(p − d) t σt"
+   },
+   "explain_simple": {
+    "en": "Metal left between holes × thickness × stress."
+   }
+  },
+  {
+   "id": "u3.rivets.f11",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Shearing strength of a rivet in single shear: Ps = (π/4) d² τ. In double shear: Ps = 2 × (π/4) d² τ (theoretically)."
+   },
+   "why": {
+    "en": "In double shear the rivet is cut at two places."
+   },
+   "recall_q": {
+    "en": "Shearing strength of a rivet in single shear?"
+   },
+   "recall_a": {
+    "en": "(π/4)d²τ"
+   },
+   "explain_simple": {
+    "en": "Rivet area × shear stress."
+   }
+  },
+  {
+   "id": "u3.rivets.f12",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Crushing strength: Pc = d × t × σc (per rivet)."
+   },
+   "why": {
+    "en": "Projected area of the rivet against the plate = d × t."
+   },
+   "recall_q": {
+    "en": "Crushing strength of a rivet?"
+   },
+   "recall_a": {
+    "en": "d × t × σc"
+   },
+   "explain_simple": {
+    "en": "Diameter × thickness × crushing stress."
+   }
+  },
+  {
+   "id": "u3.rivets.f13",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Strength of the riveted joint = the least of tearing, shearing and crushing strengths."
+   },
+   "why": {
+    "en": "The joint fails at its weakest point."
+   },
+   "recall_q": {
+    "en": "Strength of a riveted joint equals?"
+   },
+   "recall_a": {
+    "en": "The least of Pt, Ps and Pc."
+   },
+   "explain_simple": {
+    "en": "A chain is as strong as its weakest link."
+   }
+  },
+  {
+   "id": "u3.rivets.f14",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Efficiency of a riveted joint = least strength / strength of the solid plate (p × t × σt)."
+   },
+   "why": {
+    "en": "Holes always weaken the plate, so efficiency is below 100%."
+   },
+   "recall_q": {
+    "en": "Efficiency of a riveted joint formula?"
+   },
+   "recall_a": {
+    "en": "Least of (Pt, Ps, Pc) ÷ (p t σt)."
+   },
+   "explain_simple": {
+    "en": "How strong the joint is compared with uncut plate."
+   }
+  },
+  {
+   "id": "u3.rivets.f15",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Unwin's formula gives rivet diameter: d = 6√t (mm), when t > 8 mm."
+   },
+   "why": {
+    "en": "Thicker plates need thicker rivets."
+   },
+   "recall_q": {
+    "en": "Unwin's formula for rivet diameter?"
+   },
+   "recall_a": {
+    "en": "d = 6√t"
+   },
+   "explain_simple": {
+    "en": "Rivet size from plate thickness."
+   }
+  },
+  {
+   "id": "u3.rivets.f16",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Caulking and fullering make riveted joints leak-proof, as in boilers. Fullering is the better method."
+   },
+   "why": {
+    "en": "Plate edges are hammered tight to seal gaps."
+   },
+   "recall_q": {
+    "en": "Methods to make riveted boiler joints leak-proof?"
+   },
+   "recall_a": {
+    "en": "Caulking and fullering."
+   },
+   "explain_simple": {
+    "en": "Hammer the edges to seal."
+   }
+  },
+  {
+   "id": "u3.rivets.f17",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Rivets are commonly made of mild steel, wrought iron, copper or aluminium."
+   },
+   "why": {
+    "en": "Rivet material must be ductile to form a head."
+   },
+   "recall_q": {
+    "en": "Main property needed in a rivet material?"
+   },
+   "recall_a": {
+    "en": "Ductility (also strength)."
+   },
+   "explain_simple": {
+    "en": "Soft enough to hammer a head."
+   }
+  },
+  {
+   "id": "u3.rivets.f18",
+   "topic": "u3.rivets",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pop (blind) rivets are fixed from one side only, using a rivet gun."
+   },
+   "why": {
+    "en": "Useful where the back of the joint cannot be reached."
+   },
+   "example": {
+    "en": "Used in vehicle body panels and number plates."
+   },
+   "recall_q": {
+    "en": "Rivet fitted from one side only?"
+   },
+   "recall_a": {
+    "en": "Blind (pop) rivet."
+   },
+   "explain_simple": {
+    "en": "A rivet you fit with access from one side."
+   }
+  },
+  {
+   "id": "u3.rivets.sum",
+   "topic": "u3.rivets",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Riveted joints; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Riveted joints"
+   },
+   "points": [
+    {
+     "en": "Rivet: head, shank, tail; permanent joint."
+    },
+    {
+     "en": "Lap joint vs butt joint (cover plates); chain vs zig-zag."
+    },
+    {
+     "en": "Failures: shearing, tearing, crushing, edge tearing."
+    },
+    {
+     "en": "Joint strength = least; efficiency = least / ptσt."
+    },
+    {
+     "en": "Unwin d = 6√t; caulking/fullering seal."
+    }
+   ]
+  },
+  {
+   "id": "u3.bolts_springs.f01",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A bolt is a threaded rod with a head, used with a nut. It is a temporary (removable) fastener."
+   },
+   "why": {
+    "en": "Parts can be taken apart for repair."
+   },
+   "recall_q": {
+    "en": "Is a bolted joint permanent or removable?"
+   },
+   "recall_a": {
+    "en": "Removable (temporary)."
+   },
+   "explain_simple": {
+    "en": "Bolts can be undone; rivets cannot."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f02",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Types: through bolt (with nut), tap bolt (screwed into a threaded hole), stud (threaded both ends), cap screw, set screw."
+   },
+   "why": {
+    "en": "Each suits a different fitting job."
+   },
+   "example": {
+    "en": "Cylinder head is fixed with studs or head bolts."
+   },
+   "recall_q": {
+    "en": "A rod threaded at both ends with no head is called?"
+   },
+   "recall_a": {
+    "en": "Stud."
+   },
+   "explain_simple": {
+    "en": "Stud = double-ended thread."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f03",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Bolt heads: hexagonal (most common), square, eye bolt (for lifting), T-bolt, hook bolt, foundation bolt."
+   },
+   "why": {
+    "en": "Hexagon heads fit standard spanners."
+   },
+   "recall_q": {
+    "en": "Which bolt is used for lifting heavy parts?"
+   },
+   "recall_a": {
+    "en": "Eye bolt."
+   },
+   "explain_simple": {
+    "en": "Eye bolt has a ring to lift with."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f04",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Locking devices stop nuts loosening from vibration: lock nut, split pin with castle nut, spring washer, Nyloc nut, tab washer."
+   },
+   "why": {
+    "en": "Vehicles vibrate constantly."
+   },
+   "example": {
+    "en": "Steering linkages use castle nuts with split pins."
+   },
+   "recall_q": {
+    "en": "Locking device used with a castle nut?"
+   },
+   "recall_a": {
+    "en": "Split pin (cotter pin)."
+   },
+   "explain_simple": {
+    "en": "Extra parts stop nuts shaking loose."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f05",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Pitch of a thread is the distance between two adjacent threads. Lead is the distance moved in one turn. Single start: lead = pitch."
+   },
+   "why": {
+    "en": "Multi-start threads move faster per turn."
+   },
+   "recall_q": {
+    "en": "For a single-start thread, lead equals?"
+   },
+   "recall_a": {
+    "en": "Pitch."
+   },
+   "explain_simple": {
+    "en": "Pitch = thread spacing. Lead = travel per turn."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f06",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Thread forms: V-thread (fastening), square and acme (power screws like jacks), buttress (one-way heavy loads)."
+   },
+   "why": {
+    "en": "Square threads have less friction and transmit power well."
+   },
+   "recall_q": {
+    "en": "Which thread form is used in screw jacks?"
+   },
+   "recall_a": {
+    "en": "Square (or acme) thread."
+   },
+   "explain_simple": {
+    "en": "V for holding, square for lifting."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f07",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Core (root) diameter is the smallest diameter of a thread. Stress in a bolt is calculated on the core area."
+   },
+   "why": {
+    "en": "That is the weakest section."
+   },
+   "recall_q": {
+    "en": "Bolt stress is calculated on which diameter?"
+   },
+   "recall_a": {
+    "en": "Core (minor) diameter."
+   },
+   "explain_simple": {
+    "en": "Use the thinnest part of the thread."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f08",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "A spring is an elastic part that bends under load and returns to its shape when the load is removed."
+   },
+   "why": {
+    "en": "It absorbs shocks, stores energy and keeps parts pressed together."
+   },
+   "example": {
+    "en": "Suspension springs, valve springs, clutch springs."
+   },
+   "recall_q": {
+    "en": "Give one use of springs in a vehicle."
+   },
+   "recall_a": {
+    "en": "Suspension (also valves, clutch, brakes)."
+   },
+   "explain_simple": {
+    "en": "A spring gives way and springs back."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f09",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Types of springs: helical (compression, tension), leaf (laminated), torsion, spiral (flat coil), disc (Belleville)."
+   },
+   "why": {
+    "en": "Each shape suits a different load."
+   },
+   "example": {
+    "en": "Leaf springs in trucks; coil springs in cars; diaphragm (disc) in clutches."
+   },
+   "recall_q": {
+    "en": "Laminated springs are also called?"
+   },
+   "recall_a": {
+    "en": "Leaf springs."
+   },
+   "explain_simple": {
+    "en": "Coil, leaf, twist, spiral, disc."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f10",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Spring index C = D / d (mean coil diameter ÷ wire diameter). Usual range 4–12."
+   },
+   "why": {
+    "en": "Too low is hard to make; too high buckles."
+   },
+   "recall_q": {
+    "en": "Formula for spring index?"
+   },
+   "recall_a": {
+    "en": "C = D/d"
+   },
+   "explain_simple": {
+    "en": "How fat the coil is compared with the wire."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f11",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Stiffness (spring rate) k = load / deflection (N/mm)."
+   },
+   "why": {
+    "en": "It tells how hard the spring is to compress."
+   },
+   "recall_q": {
+    "en": "Formula for spring stiffness?"
+   },
+   "recall_a": {
+    "en": "k = W/δ"
+   },
+   "explain_simple": {
+    "en": "Force needed for 1 mm squeeze."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f12",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Deflection of a close-coiled helical spring: δ = 64 W R³ n / (G d⁴) = 8 W D³ n / (G d⁴)."
+   },
+   "why": {
+    "en": "The wire twists, so G (rigidity) is used."
+   },
+   "recall_q": {
+    "en": "Which modulus is used for close-coiled helical spring deflection?"
+   },
+   "recall_a": {
+    "en": "Modulus of rigidity G."
+   },
+   "explain_simple": {
+    "en": "Coil springs work by twisting the wire."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f13",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Springs in series: 1/k = 1/k₁ + 1/k₂ (softer). Springs in parallel: k = k₁ + k₂ (stiffer)."
+   },
+   "why": {
+    "en": "Series shares deflection; parallel shares load."
+   },
+   "recall_q": {
+    "en": "Two springs in parallel: total stiffness?"
+   },
+   "recall_a": {
+    "en": "k₁ + k₂"
+   },
+   "explain_simple": {
+    "en": "Side by side = stiffer. One after another = softer."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f14",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Solid length is the length of a compression spring when coils touch each other."
+   },
+   "why": {
+    "en": "The spring cannot compress further."
+   },
+   "recall_q": {
+    "en": "Length of a spring when all coils touch?"
+   },
+   "recall_a": {
+    "en": "Solid length."
+   },
+   "explain_simple": {
+    "en": "Squeezed fully flat."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f15",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Leaf spring: longest leaf is the master leaf, with eyes at both ends. The spring is held to the axle with U-bolts and a centre bolt."
+   },
+   "why": {
+    "en": "Master leaf connects the spring to the frame."
+   },
+   "recall_q": {
+    "en": "Top longest leaf of a leaf spring is called?"
+   },
+   "recall_a": {
+    "en": "Master leaf."
+   },
+   "explain_simple": {
+    "en": "The master leaf has the eyes at its ends."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f16",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Spring materials: high-carbon steel, silicon-manganese steel (leaf springs), chrome-vanadium steel (valve springs)."
+   },
+   "why": {
+    "en": "They need high elastic limit and fatigue strength."
+   },
+   "recall_q": {
+    "en": "Common steel for leaf springs?"
+   },
+   "recall_a": {
+    "en": "Silicon-manganese steel."
+   },
+   "explain_simple": {
+    "en": "Springs need tough, springy steel."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f17",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Wahl's factor corrects shear stress in helical springs for wire curvature and direct shear."
+   },
+   "why": {
+    "en": "Inner side of the coil has extra stress."
+   },
+   "recall_q": {
+    "en": "Factor that corrects helical spring stress for curvature?"
+   },
+   "recall_a": {
+    "en": "Wahl's factor."
+   },
+   "explain_simple": {
+    "en": "An extra multiplier for coil springs."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.f18",
+   "topic": "u3.bolts_springs",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Spring surge: vibration of valve spring coils at high engine speed, so the valve does not follow the cam."
+   },
+   "why": {
+    "en": "Coil resonance matches the cam frequency."
+   },
+   "example": {
+    "en": "Fixed by double valve springs or variable pitch springs."
+   },
+   "recall_q": {
+    "en": "Why are double valve springs used?"
+   },
+   "recall_a": {
+    "en": "To prevent spring surge and valve float."
+   },
+   "explain_simple": {
+    "en": "Two springs stop wild bouncing at high rpm."
+   }
+  },
+  {
+   "id": "u3.bolts_springs.sum",
+   "topic": "u3.bolts_springs",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Bolts and springs; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Bolts and springs"
+   },
+   "points": [
+    {
+     "en": "Bolt, stud, tap bolt, set screw; locking: split pin, lock nut."
+    },
+    {
+     "en": "Square thread for jacks; core diameter for stress."
+    },
+    {
+     "en": "Spring index C = D/d; stiffness k = W/δ."
+    },
+    {
+     "en": "Series softer, parallel stiffer."
+    },
+    {
+     "en": "Leaf spring: master leaf, U-bolt; double valve springs stop surge."
+    }
+   ]
+  },
+  {
+   "id": "u3.welds.f01",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 1,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Welding joins metals permanently by melting and fusing them, with or without filler metal."
+   },
+   "why": {
+    "en": "The joined metal becomes one piece."
+   },
+   "example": {
+    "en": "Bus body frames and chassis repairs are welded."
+   },
+   "recall_q": {
+    "en": "Is a welded joint permanent?"
+   },
+   "recall_a": {
+    "en": "Yes."
+   },
+   "explain_simple": {
+    "en": "Melt and join the metal together."
+   }
+  },
+  {
+   "id": "u3.welds.f02",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Butt weld: plates placed edge to edge in the same plane and welded. Fillet weld: plates at an angle (lap or T) welded at the corner."
+   },
+   "why": {
+    "en": "Fillet welds have a triangular cross-section."
+   },
+   "recall_q": {
+    "en": "Weld with a triangular cross-section joining lapped plates?"
+   },
+   "recall_a": {
+    "en": "Fillet weld."
+   },
+   "explain_simple": {
+    "en": "Butt = edge to edge. Fillet = in the corner."
+   }
+  },
+  {
+   "id": "u3.welds.f03",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Butt weld edge preparations: square, single-V, double-V, single-U, double-U, J."
+   },
+   "why": {
+    "en": "Thick plates need bevelled edges so weld metal reaches the full depth."
+   },
+   "recall_q": {
+    "en": "Name one edge preparation for a butt weld."
+   },
+   "recall_a": {
+    "en": "Single-V (or double-V, U, J, square)."
+   },
+   "explain_simple": {
+    "en": "Shape the edges so weld fills the whole thickness."
+   }
+  },
+  {
+   "id": "u3.welds.f04",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Fillet weld types: transverse (load at right angles to weld) and parallel (load along the weld). Transverse is stronger."
+   },
+   "why": {
+    "en": "The load spreads differently."
+   },
+   "recall_q": {
+    "en": "Which fillet weld is stronger: transverse or parallel?"
+   },
+   "recall_a": {
+    "en": "Transverse."
+   },
+   "explain_simple": {
+    "en": "Weld across the load is stronger."
+   }
+  },
+  {
+   "id": "u3.welds.f05",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Weld terms: leg (size s), throat (t), root, toe, face, reinforcement."
+   },
+   "why": {
+    "en": "Strength is calculated on the throat."
+   },
+   "recall_q": {
+    "en": "On which dimension is fillet weld strength calculated?"
+   },
+   "recall_a": {
+    "en": "Throat thickness."
+   },
+   "explain_simple": {
+    "en": "The throat is the weakest line through the weld."
+   }
+  },
+  {
+   "id": "u3.welds.f06",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Throat thickness of a fillet weld t = 0.707 × leg size s."
+   },
+   "why": {
+    "en": "For a 45° fillet, throat = s × sin 45°."
+   },
+   "recall_q": {
+    "en": "Throat thickness of a fillet weld?"
+   },
+   "recall_a": {
+    "en": "0.707 × leg size."
+   },
+   "explain_simple": {
+    "en": "About 7/10 of the leg."
+   }
+  },
+  {
+   "id": "u3.welds.f07",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 3,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Strength of a parallel fillet weld P = 0.707 s l τ (per weld). Transverse: P = 0.707 s l σt."
+   },
+   "why": {
+    "en": "Throat area × allowable stress."
+   },
+   "recall_q": {
+    "en": "Strength of a parallel fillet weld?"
+   },
+   "recall_a": {
+    "en": "0.707 × s × l × τ"
+   },
+   "explain_simple": {
+    "en": "Throat area × shear stress."
+   }
+  },
+  {
+   "id": "u3.welds.f08",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Strength of a butt weld P = t × l × σt (t = plate thickness, l = weld length)."
+   },
+   "why": {
+    "en": "The full plate thickness is welded."
+   },
+   "recall_q": {
+    "en": "Strength of a butt weld in tension?"
+   },
+   "recall_a": {
+    "en": "t × l × σt"
+   },
+   "explain_simple": {
+    "en": "Thickness × length × stress."
+   }
+  },
+  {
+   "id": "u3.welds.f09",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Welding types: gas (oxy-acetylene), arc (MMAW/stick, MIG, TIG), resistance (spot, seam), and solid-state (friction)."
+   },
+   "why": {
+    "en": "Each uses a different heat source."
+   },
+   "example": {
+    "en": "Car body panels are spot welded."
+   },
+   "recall_q": {
+    "en": "Car bodies are mainly joined by which welding?"
+   },
+   "recall_a": {
+    "en": "Resistance spot welding."
+   },
+   "explain_simple": {
+    "en": "Gas flame, electric arc or electric resistance."
+   }
+  },
+  {
+   "id": "u3.welds.f10",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Oxy-acetylene flame is about 3200°C. Neutral flame (equal O₂ and C₂H₂) is used for most welding."
+   },
+   "why": {
+    "en": "Too much oxygen (oxidising) or gas (carburising) changes the metal."
+   },
+   "recall_q": {
+    "en": "Temperature of an oxy-acetylene flame?"
+   },
+   "recall_a": {
+    "en": "About 3200°C."
+   },
+   "explain_simple": {
+    "en": "The hottest gas flame used for welding."
+   }
+  },
+  {
+   "id": "u3.welds.f11",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "MIG uses a consumable wire electrode with shielding gas. TIG uses a non-consumable tungsten electrode."
+   },
+   "why": {
+    "en": "TIG gives cleaner, precise welds, used for aluminium and stainless steel."
+   },
+   "recall_q": {
+    "en": "Which welding uses a tungsten electrode?"
+   },
+   "recall_a": {
+    "en": "TIG welding."
+   },
+   "explain_simple": {
+    "en": "MIG feeds wire; TIG uses tungsten."
+   }
+  },
+  {
+   "id": "u3.welds.f12",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Welded joints vs riveted: welded are lighter, leak-proof, faster and 100% efficient possible; but need skill and may have residual stresses."
+   },
+   "why": {
+    "en": "No holes weaken the plate in welding."
+   },
+   "recall_q": {
+    "en": "Give one advantage of welded over riveted joints."
+   },
+   "recall_a": {
+    "en": "Lighter / stronger / leak-proof (no holes)."
+   },
+   "explain_simple": {
+    "en": "Welding: no holes, less weight."
+   }
+  },
+  {
+   "id": "u3.welds.f13",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Welding defects: porosity, slag inclusion, lack of fusion, incomplete penetration, undercut, cracks."
+   },
+   "why": {
+    "en": "Each weakens the joint."
+   },
+   "recall_q": {
+    "en": "Gas holes in a weld are called?"
+   },
+   "recall_a": {
+    "en": "Porosity."
+   },
+   "explain_simple": {
+    "en": "Bubbles, dirt and gaps make weak welds."
+   }
+  },
+  {
+   "id": "u3.welds.f14",
+   "topic": "u3.welds",
+   "type": "fact",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "learn": {
+    "en": "Brazing and soldering join metals without melting the base metal. Soldering filler melts below 450°C; brazing above 450°C."
+   },
+   "why": {
+    "en": "Only the filler melts."
+   },
+   "example": {
+    "en": "Radiator cores are soldered or brazed."
+   },
+   "recall_q": {
+    "en": "Which joins with filler melting below 450°C: soldering or brazing?"
+   },
+   "recall_a": {
+    "en": "Soldering."
+   },
+   "explain_simple": {
+    "en": "Soldering is low-heat, brazing is higher heat; base metal stays solid."
+   }
+  },
+  {
+   "id": "u3.welds.sum",
+   "topic": "u3.welds",
+   "type": "summary",
+   "difficulty": 2,
+   "source": "Kerala PSC AMVI syllabus, Cat. No. 517/2022 — Welded joints; standard diploma textbook",
+   "status": "needs_review",
+   "title": {
+    "en": "Welded joints"
+   },
+   "points": [
+    {
+     "en": "Butt weld edge-to-edge; fillet weld in the corner."
+    },
+    {
+     "en": "Throat = 0.707 × leg."
+    },
+    {
+     "en": "Fillet strength = 0.707 s l τ; butt = t l σt."
+    },
+    {
+     "en": "Gas, arc (MIG, TIG), resistance (spot) welding."
+    },
+    {
+     "en": "Soldering < 450°C < brazing."
+    }
+   ]
   }
  ],
  "questions": [
@@ -8766,6 +12980,186 @@
    "source": "Practice — exam pattern (not from a past paper)",
    "covers": [
     "u2.compressors.f09"
+   ]
+  },
+  {
+   "id": "q.practice.u3.1",
+   "topic": "u3.stress",
+   "kind": "mcq",
+   "q": {
+    "en": "Poisson's ratio is the ratio of"
+   },
+   "options": [
+    {
+     "en": "Longitudinal strain to lateral strain"
+    },
+    {
+     "en": "Lateral strain to longitudinal strain"
+    },
+    {
+     "en": "Stress to strain"
+    },
+    {
+     "en": "Shear stress to shear strain"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Poisson's ratio = lateral strain / longitudinal strain."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u3.stress.f08"
+   ]
+  },
+  {
+   "id": "q.practice.u3.2",
+   "topic": "u3.elastic",
+   "kind": "mcq",
+   "q": {
+    "en": "The relation between E, G and Poisson's ratio μ is"
+   },
+   "options": [
+    {
+     "en": "E = 2G(1 + μ)"
+    },
+    {
+     "en": "E = 3G(1 − 2μ)"
+    },
+    {
+     "en": "E = G(1 + 2μ)"
+    },
+    {
+     "en": "E = 2G(1 − μ)"
+    }
+   ],
+   "answer": 0,
+   "explain": {
+    "en": "E = 2G(1 + μ)."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u3.elastic.f05"
+   ]
+  },
+  {
+   "id": "q.practice.u3.3",
+   "topic": "u3.beams",
+   "kind": "mcq",
+   "q": {
+    "en": "Maximum bending moment of a simply supported beam with UDL w over span L is"
+   },
+   "options": [
+    {
+     "en": "wL²/2"
+    },
+    {
+     "en": "wL²/4"
+    },
+    {
+     "en": "wL²/8"
+    },
+    {
+     "en": "wL/4"
+    }
+   ],
+   "answer": 2,
+   "explain": {
+    "en": "For a simply supported beam with UDL, Mmax = wL²/8 at mid-span."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u3.beams.f12"
+   ]
+  },
+  {
+   "id": "q.practice.u3.4",
+   "topic": "u3.thermal",
+   "kind": "mcq",
+   "q": {
+    "en": "Thermal stress in a bar fixed at both ends is"
+   },
+   "options": [
+    {
+     "en": "αΔT/E"
+    },
+    {
+     "en": "EαΔT"
+    },
+    {
+     "en": "EαL"
+    },
+    {
+     "en": "αLΔT"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "σ = EαΔT and it does not depend on length."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u3.thermal.f03"
+   ]
+  },
+  {
+   "id": "q.practice.u3.5",
+   "topic": "u3.welds",
+   "kind": "mcq",
+   "q": {
+    "en": "The throat thickness of a fillet weld of leg size s is"
+   },
+   "options": [
+    {
+     "en": "0.5 s"
+    },
+    {
+     "en": "0.707 s"
+    },
+    {
+     "en": "1.414 s"
+    },
+    {
+     "en": "s"
+    }
+   ],
+   "answer": 1,
+   "explain": {
+    "en": "Throat = s × sin 45° = 0.707 s."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u3.welds.f06"
+   ]
+  },
+  {
+   "id": "q.practice.u3.6",
+   "topic": "u3.friction",
+   "kind": "mcq",
+   "q": {
+    "en": "Angle of repose is equal to"
+   },
+   "options": [
+    {
+     "en": "Angle of friction"
+    },
+    {
+     "en": "Twice the angle of friction"
+    },
+    {
+     "en": "90° − angle of friction"
+    },
+    {
+     "en": "Half the angle of friction"
+    }
+   ],
+   "answer": 0,
+   "explain": {
+    "en": "The angle of repose equals the angle of friction."
+   },
+   "source": "Practice — exam pattern (not from a past paper)",
+   "covers": [
+    "u3.friction.f08"
    ]
   }
  ]

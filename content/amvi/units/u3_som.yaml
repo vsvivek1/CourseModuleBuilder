@@ -1,0 +1,1494 @@
+unit: u3
+subject: strength_of_materials
+title: "Unit III — Strength of materials (10 marks)"
+
+topics:
+  - {id: u3.stress, title: "Stress and strain", freq: 0.8}
+  - {id: u3.diagram, title: "Stress–strain diagram and factor of safety", freq: 0.8}
+  - {id: u3.elastic, title: "Hooke's law, elastic constants, varying and composite sections", freq: 0.8}
+  - {id: u3.thermal, title: "Thermal stress and strain", freq: 0.6}
+  - {id: u3.friction, title: "Friction", freq: 0.6}
+  - {id: u3.cg, title: "Centre of gravity and moment of inertia", freq: 0.6}
+  - {id: u3.beams, title: "Beams, shear force and bending moment", freq: 0.8}
+  - {id: u3.rivets, title: "Riveted joints", freq: 0.6}
+  - {id: u3.bolts_springs, title: "Bolts and springs", freq: 0.6}
+  - {id: u3.welds, title: "Welded joints", freq: 0.5}
+
+cards:
+  # ---------- Stress & strain ----------
+  - id: f01
+    topic: u3.stress
+    difficulty: 1
+    learn: "Load is the outside force acting on a body. Stress is the inside resisting force per unit area. Stress = Load / Area."
+    why: "The body resists the load from inside; spreading it over the area gives stress."
+    example: "A bus's weight on its axle sets up stress inside the axle."
+    q: "Formula for stress?"
+    a: "Stress = Load / Area (σ = P/A)."
+    simple: "Stress = how hard each square mm is being pulled or pushed."
+  - id: f02
+    topic: u3.stress
+    difficulty: 1
+    learn: "Unit of stress: N/m² (pascal). In engineering we often use N/mm² = MPa."
+    why: "Metal parts have small areas, so N/mm² is handy."
+    q: "1 N/mm² equals how many MPa?"
+    a: "1 MPa."
+    simple: "N/mm² and MPa are the same."
+  - id: f03
+    topic: u3.stress
+    difficulty: 1
+    learn: "Strain is change in length divided by original length. Strain = δL / L. It has no unit."
+    why: "Length divided by length cancels units."
+    q: "Unit of strain?"
+    a: "No unit (dimensionless)."
+    simple: "How much it stretches compared with its size."
+  - id: f04
+    topic: u3.stress
+    difficulty: 1
+    learn: "Tensile stress: forces pull the body and it gets longer. Compressive stress: forces push and it gets shorter."
+    why: "The direction of load decides the type."
+    example: "Tension: a towing rope. Compression: a car jack's column."
+    q: "A towing rope is under which stress?"
+    a: "Tensile stress."
+    simple: "Pull = tension. Push = compression."
+  - id: f05
+    topic: u3.stress
+    difficulty: 2
+    learn: "Shear stress: two equal, opposite forces act along (parallel to) a surface and try to slide one part over the other. τ = P / A."
+    why: "The cut tends to happen across the section."
+    example: "Scissors cutting paper; a rivet in a joint; a shear pin."
+    q: "A rivet in a lap joint is mainly under which stress?"
+    a: "Shear stress."
+    simple: "Shear = sliding cut, like scissors."
+  - id: f06
+    topic: u3.stress
+    difficulty: 2
+    learn: "Shear strain is the angle change (in radians) produced by shear stress. Symbol φ."
+    why: "Shear twists the shape rather than stretching it."
+    q: "Shear strain is measured as?"
+    a: "Angle of distortion in radians."
+    simple: "How much a square becomes a slanted box."
+  - id: f07
+    topic: u3.stress
+    difficulty: 2
+    learn: "Longitudinal strain is strain along the load. Lateral strain is strain at right angles to the load."
+    why: "When a bar stretches, it also gets thinner."
+    example: "Pull a rubber band: it gets longer and thinner."
+    q: "Strain at right angles to load is called?"
+    a: "Lateral strain."
+    simple: "Longer one way, thinner the other."
+  - id: f08
+    topic: u3.stress
+    difficulty: 2
+    learn: "Poisson's ratio (μ or 1/m) = lateral strain / longitudinal strain. For steel about 0.25–0.3."
+    why: "It links how much a bar thins when it stretches."
+    q: "Poisson's ratio = ?"
+    a: "Lateral strain ÷ longitudinal strain."
+    simple: "Thinning ÷ stretching."
+  - id: f09
+    topic: u3.stress
+    difficulty: 2
+    learn: "Poisson's ratio lies between 0 and 0.5 for usual materials. Cork ≈ 0, rubber ≈ 0.5."
+    why: "At 0.5 the volume does not change at all."
+    q: "Maximum value of Poisson's ratio?"
+    a: "0.5"
+    simple: "Between zero and half."
+  - id: f10
+    topic: u3.stress
+    difficulty: 2
+    learn: "Volumetric strain = change in volume / original volume. For a bar in tension: εv = ε (1 − 2μ)."
+    why: "It grows in length but shrinks in the other two directions."
+    q: "Volumetric strain of a bar under axial load?"
+    a: "ε(1 − 2μ)"
+    simple: "Change in volume compared with original."
+  - id: f11
+    topic: u3.stress
+    difficulty: 2
+    learn: "Direct (normal) stress acts at right angles to the surface. Shear stress acts along the surface."
+    why: "Tension and compression are normal stresses."
+    q: "Is tensile stress normal or tangential?"
+    a: "Normal (perpendicular to the surface)."
+    simple: "Normal = straight in or out. Shear = sideways."
+  - id: f12
+    topic: u3.stress
+    difficulty: 2
+    learn: "Complementary shear stress: shear stress on one plane always comes with an equal shear stress on the plane at right angles."
+    why: "Otherwise the small element would spin."
+    q: "Shear stress on a plane is accompanied by what?"
+    a: "Equal shear stress on the perpendicular plane."
+    simple: "Shear always comes in pairs."
+  - id: f13
+    topic: u3.stress
+    difficulty: 2
+    learn: "Bearing (crushing) stress is compressive stress where two parts press on each other. In a rivet: σc = P / (d × t)."
+    why: "The plate presses on the side of the rivet."
+    q: "Crushing area of a rivet?"
+    a: "d × t (diameter × plate thickness)."
+    simple: "Pressing stress at the contact face."
+  - id: f14
+    topic: u3.stress
+    difficulty: 2
+    learn: "Strain energy is energy stored in a body when it is strained. Resilience is strain energy stored per unit volume up to the elastic limit."
+    why: "A stretched spring stores energy that it gives back."
+    example: "Leaf springs absorb road shocks as strain energy."
+    q: "Energy stored in a body due to strain is called?"
+    a: "Strain energy."
+    simple: "Stretch something and it stores energy."
+  - id: f15
+    topic: u3.stress
+    difficulty: 3
+    learn: "Strain energy U = σ² V / (2E). Proof resilience is maximum strain energy stored up to the elastic limit."
+    why: "Energy rises with the square of stress."
+    q: "Formula for strain energy under gradual load?"
+    a: "U = σ²V/(2E)"
+    simple: "Twice the stress, four times the stored energy."
+  - id: f16
+    topic: u3.stress
+    difficulty: 3
+    learn: "A suddenly applied load causes twice the stress of the same load applied gradually."
+    why: "The load drops with full force before the body resists it."
+    q: "Stress due to a suddenly applied load compared to gradual load?"
+    a: "Twice."
+    simple: "Drop a load and it hits twice as hard."
+  - id: sum
+    topic: u3.stress
+    type: summary
+    points:
+      - "Stress = P/A (N/mm² = MPa); strain = δL/L, no unit."
+      - "Tensile, compressive, shear stresses."
+      - "Poisson's ratio = lateral/longitudinal strain, 0–0.5."
+      - "Volumetric strain = ε(1 − 2μ)."
+      - "Sudden load = 2 × gradual stress."
+
+  # ---------- Diagram ----------
+  - id: f01
+    topic: u3.diagram
+    difficulty: 2
+    learn: "A stress–strain diagram is drawn from a tensile test on a universal testing machine (UTM)."
+    why: "The specimen is pulled slowly until it breaks and its stretch is recorded."
+    q: "Machine used for a tensile test?"
+    a: "Universal Testing Machine (UTM)."
+    simple: "Pull a bar until it snaps and draw the graph."
+  - id: f02
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Points on the mild steel diagram in order: limit of proportionality, elastic limit, upper yield point, lower yield point, ultimate stress, breaking point."
+    why: "PSC often asks the correct order."
+    q: "Order of points on a mild steel stress–strain curve?"
+    a: "Proportional limit, elastic limit, upper yield, lower yield, ultimate, breaking."
+    simple: "Straight, springy, yield, peak, snap."
+  - id: f03
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Limit of proportionality: up to this point stress is directly proportional to strain (straight line)."
+    why: "Hooke's law is valid only up to here."
+    q: "Up to which point is Hooke's law valid?"
+    a: "Limit of proportionality."
+    simple: "The end of the straight part of the graph."
+  - id: f04
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Elastic limit: the highest stress after which the material still returns to its original shape when the load is removed."
+    why: "Beyond it, some stretch stays permanently."
+    q: "Beyond which point does permanent set occur?"
+    a: "Elastic limit."
+    simple: "The last point where it springs fully back."
+  - id: f05
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Yield point: the material stretches a lot with almost no increase in load. Mild steel has a clear upper and lower yield point."
+    why: "The crystals inside start slipping."
+    q: "Point where strain increases with no rise in stress?"
+    a: "Yield point."
+    simple: "It suddenly gives way and stretches."
+  - id: f06
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Ultimate stress is the maximum stress a material can take. It is the highest point on the curve."
+    why: "After this, necking starts and the load falls."
+    q: "Highest point on a stress–strain curve?"
+    a: "Ultimate stress."
+    simple: "The peak strength."
+  - id: f07
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Necking: after ultimate stress, a ductile bar gets thinner at one spot and breaks there."
+    why: "The weakest section thins faster than the rest."
+    q: "Local reduction of area before breaking is called?"
+    a: "Necking."
+    simple: "The bar gets a thin waist and snaps there."
+  - id: f08
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Breaking stress (nominal) is lower than ultimate stress on the engineering curve, because the original area is used."
+    why: "The load falls after necking, though actual stress at the neck is high."
+    q: "On the engineering curve, is breaking stress higher or lower than ultimate stress?"
+    a: "Lower."
+    simple: "The graph drops a little before the snap."
+  - id: f09
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Ductile material stretches a lot before breaking (mild steel, copper, aluminium). Brittle material breaks with very little stretch (cast iron, glass, concrete)."
+    why: "Ductile metals have a yield point and necking; brittle ones do not."
+    q: "Is cast iron ductile or brittle?"
+    a: "Brittle."
+    simple: "Ductile bends; brittle snaps."
+  - id: f10
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Brittle materials have no clear yield point. Their curve is nearly straight to fracture."
+    why: "They fail without plastic flow."
+    q: "Does cast iron show a yield point in tension?"
+    a: "No."
+    simple: "Brittle material just breaks, no warning."
+  - id: f11
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Proof stress (0.2% offset) is used as yield strength for materials without a clear yield point, like aluminium and high-tensile steel."
+    why: "A line parallel to the elastic part, drawn at 0.2% strain, marks it."
+    q: "How is yield strength found for metals with no clear yield point?"
+    a: "0.2% proof stress (offset method)."
+    simple: "Draw a parallel line at 0.2% to find yield."
+  - id: f12
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Percentage elongation and percentage reduction in area measure ductility."
+    why: "More stretch and more thinning mean more ductile."
+    q: "Name a measure of ductility."
+    a: "Percentage elongation (or reduction in area)."
+    simple: "How much it stretched before breaking."
+  - id: f13
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Working stress (allowable stress) is the safe stress used in design. It is kept well below the failure stress."
+    why: "Real loads, materials and workmanship are never perfect."
+    q: "Safe stress used for design is called?"
+    a: "Working (allowable) stress."
+    simple: "The stress we plan to use, with a safety margin."
+  - id: f14
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Factor of safety = ultimate stress / working stress (or yield stress / working stress for ductile metals)."
+    why: "It shows how much margin is kept."
+    example: "Ultimate 400 MPa, working 100 MPa → FOS = 4."
+    q: "Factor of safety formula?"
+    a: "Ultimate (or yield) stress ÷ working stress."
+    simple: "How many times stronger than needed."
+  - id: f15
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Factor of safety is always more than 1. It is higher for brittle materials and shock loads."
+    why: "Brittle parts fail suddenly without warning."
+    q: "Is FOS more or less than 1?"
+    a: "More than 1."
+    simple: "Always build stronger than the load."
+  - id: f16
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Elasticity: returns to shape after load. Plasticity: keeps the new shape. Malleability: can be hammered into sheets. Toughness: absorbs energy before breaking."
+    why: "PSC asks these mechanical properties often."
+    q: "Property that lets a metal be beaten into thin sheets?"
+    a: "Malleability."
+    simple: "Ductile = drawn into wire. Malleable = beaten into sheet."
+  - id: f17
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Hardness is resistance to scratching, wear and indentation. Tests: Brinell, Rockwell, Vickers."
+    why: "A hard surface lasts longer in bearings and gears."
+    q: "Name a hardness test."
+    a: "Brinell (or Rockwell, Vickers)."
+    simple: "How hard it is to dent or scratch."
+  - id: f18
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Impact tests (Izod, Charpy) measure toughness — energy absorbed when a notched specimen is broken by a swinging hammer."
+    why: "Vehicle parts face sudden shocks."
+    q: "Izod and Charpy tests measure what?"
+    a: "Toughness (impact strength)."
+    simple: "Hit it with a hammer and see how much energy it takes."
+  - id: f19
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Fatigue: failure under repeated (cyclic) loading at stress below the ultimate strength. Endurance limit is the stress below which it never fails."
+    why: "Tiny cracks grow with each cycle."
+    example: "Axles and crankshafts can fail by fatigue."
+    q: "Failure under repeated loads below ultimate stress is called?"
+    a: "Fatigue."
+    simple: "Bend a wire again and again and it breaks."
+  - id: f20
+    topic: u3.diagram
+    difficulty: 2
+    learn: "Creep: slow permanent stretching under a constant load over a long time, especially at high temperature."
+    why: "Hot metal slowly flows."
+    example: "Turbine blades and exhaust valves can creep."
+    q: "Slow deformation under steady load at high temperature?"
+    a: "Creep."
+    simple: "Hot metal slowly sags under load."
+  - id: s01
+    topic: u3.diagram
+    type: steps
+    difficulty: 3
+    title: "Worked example: stress and factor of safety"
+    steps:
+      - text: "Question: A steel rod of area 100 mm² carries 20 kN. Ultimate stress is 400 N/mm². Find stress and FOS."
+      - text: "Change load: 20 kN = 20,000 N."
+      - text: "Stress = 20,000 / 100 = 200 N/mm²."
+      - text: "FOS = 400 / 200 = 2."
+    summary:
+      - "σ = P/A — keep units N and mm²."
+      - "FOS = ultimate ÷ working stress."
+    q: "Ultimate 400 N/mm², working 200 N/mm²: FOS?"
+    a: "2"
+  - id: sum
+    topic: u3.diagram
+    type: summary
+    points:
+      - "Proportional limit → elastic limit → yield → ultimate → break."
+      - "Hooke's law valid up to limit of proportionality."
+      - "Ductile: mild steel; brittle: cast iron (no yield point)."
+      - "FOS = ultimate/working stress, always > 1."
+      - "Fatigue = repeated load; creep = slow flow when hot."
+
+  # ---------- Elastic constants ----------
+  - id: f01
+    topic: u3.elastic
+    difficulty: 1
+    learn: "Hooke's law: within the elastic limit, stress is directly proportional to strain."
+    why: "Atoms behave like tiny springs for small stretches."
+    q: "State Hooke's law."
+    a: "Stress ∝ strain within elastic limit."
+    simple: "Pull twice as hard, it stretches twice as much."
+  - id: f02
+    topic: u3.elastic
+    difficulty: 2
+    learn: "Young's modulus E = tensile (or compressive) stress / linear strain. Steel E ≈ 200 GPa (2 × 10⁵ N/mm²)."
+    why: "It measures stiffness in pulling or pushing."
+    q: "Young's modulus of steel?"
+    a: "About 200 GPa (2 × 10⁵ N/mm²)."
+    simple: "Big E = hard to stretch."
+  - id: f03
+    topic: u3.elastic
+    difficulty: 2
+    learn: "Modulus of rigidity G (shear modulus) = shear stress / shear strain. Steel G ≈ 80 GPa."
+    why: "It measures stiffness against twisting and shearing."
+    q: "Shear stress ÷ shear strain = ?"
+    a: "Modulus of rigidity (G)."
+    simple: "How hard it is to twist."
+  - id: f04
+    topic: u3.elastic
+    difficulty: 2
+    learn: "Bulk modulus K = direct stress (equal on all sides) / volumetric strain."
+    why: "It measures stiffness against squeezing from all sides."
+    q: "Bulk modulus = ?"
+    a: "Direct stress ÷ volumetric strain."
+    simple: "How hard it is to squeeze smaller."
+  - id: f05
+    topic: u3.elastic
+    difficulty: 2
+    learn: "Relations: E = 2G(1 + μ) and E = 3K(1 − 2μ)."
+    why: "The elastic constants are linked through Poisson's ratio."
+    q: "Relation between E, G and μ?"
+    a: "E = 2G(1 + μ)"
+    simple: "Know two constants, find the rest."
+  - id: f06
+    topic: u3.elastic
+    difficulty: 3
+    learn: "Combined relation: E = 9KG / (3K + G)."
+    why: "Eliminating μ from the two relations gives this."
+    q: "E in terms of K and G?"
+    a: "E = 9KG/(3K + G)"
+    simple: "Another way to link the three moduli."
+  - id: f07
+    topic: u3.elastic
+    difficulty: 2
+    learn: "Elongation of a bar: δL = P L / (A E)."
+    why: "From E = σ/ε, with σ = P/A and ε = δL/L."
+    q: "Formula for change in length of a bar under axial load?"
+    a: "δL = PL/(AE)"
+    simple: "More load or length → more stretch. More area or E → less stretch."
+  - id: f08
+    topic: u3.elastic
+    difficulty: 2
+    learn: "Principle of superposition: total effect of many loads = sum of effects of each load acting alone (within elastic limit)."
+    why: "In the elastic range, effects add up in a straight line."
+    q: "Principle used to add effects of several loads on a bar?"
+    a: "Principle of superposition."
+    simple: "Work out each load separately, then add."
+  - id: f09
+    topic: u3.elastic
+    difficulty: 2
+    learn: "Bar of varying (stepped) section: total δL = (P/E)(L₁/A₁ + L₂/A₂ + ...)."
+    why: "Each part stretches by its own amount; add them."
+    q: "How is total elongation of a stepped bar found?"
+    a: "Add elongations of each part: Σ PL/(AE)."
+    simple: "Stretch of each piece, added together."
+  - id: f10
+    topic: u3.elastic
+    difficulty: 3
+    learn: "Uniformly tapering circular bar: δL = 4PL / (π E d₁ d₂)."
+    why: "Area changes steadily from d₁ to d₂."
+    q: "Elongation of a tapering circular bar?"
+    a: "4PL/(πEd₁d₂)"
+    simple: "Like a normal bar, but using both end diameters."
+  - id: f11
+    topic: u3.elastic
+    difficulty: 3
+    learn: "Elongation of a bar due to its own weight = w L² / (2E) = W L / (2AE)."
+    why: "Each section carries only the weight below it, so the average is half."
+    q: "Elongation of a bar due to self-weight is what fraction of an equal end load?"
+    a: "Half."
+    simple: "Own weight stretches it half as much as the same load at the end."
+  - id: f12
+    topic: u3.elastic
+    difficulty: 2
+    learn: "Composite section: two materials joined to share a load. Both have the same strain; loads add: P = P₁ + P₂."
+    why: "They are fixed together, so they stretch equally."
+    example: "Reinforced concrete column (steel + concrete)."
+    q: "In a composite bar under load, what is the same for both materials?"
+    a: "Strain (change in length)."
+    simple: "Joined parts stretch together and share the load."
+  - id: f13
+    topic: u3.elastic
+    difficulty: 3
+    learn: "In a composite bar, σ₁/E₁ = σ₂/E₂. The stiffer material carries more stress."
+    why: "Equal strain means stress is proportional to E."
+    q: "Modular ratio m = ?"
+    a: "E₁/E₂ (e.g. E steel / E concrete)."
+    simple: "The stiffer part takes more of the load."
+  - id: sum
+    topic: u3.elastic
+    type: summary
+    points:
+      - "Hooke: stress ∝ strain."
+      - "E = σ/ε; G = τ/φ; K = σ/εv."
+      - "E = 2G(1 + μ) = 3K(1 − 2μ)."
+      - "δL = PL/AE; stepped bar: add parts."
+      - "Composite: same strain, loads add."
+
+  # ---------- Thermal ----------
+  - id: f01
+    topic: u3.thermal
+    difficulty: 1
+    learn: "Metals expand when heated and shrink when cooled."
+    why: "Heat makes atoms vibrate more and need more room."
+    example: "Gaps are left between rail lengths."
+    q: "What happens to a metal rod when heated?"
+    a: "It expands."
+    simple: "Hot metal grows; cold metal shrinks."
+  - id: f02
+    topic: u3.thermal
+    difficulty: 2
+    learn: "Free expansion δL = α L ΔT. α = coefficient of linear expansion (per °C)."
+    why: "Expansion depends on length, material and temperature rise."
+    example: "Steel α ≈ 12 × 10⁻⁶ /°C."
+    q: "Formula for thermal expansion?"
+    a: "δL = α L ΔT"
+    simple: "Longer bar or more heat → more growth."
+  - id: f03
+    topic: u3.thermal
+    difficulty: 2
+    learn: "If expansion is prevented, thermal stress is set up: σ = E α ΔT."
+    why: "The supports push back by exactly the amount it wanted to grow."
+    q: "Thermal stress in a fully restrained bar?"
+    a: "σ = EαΔT"
+    simple: "Stop it growing and stress builds up."
+  - id: f04
+    topic: u3.thermal
+    difficulty: 2
+    learn: "Thermal stress does not depend on the length or area of the bar."
+    why: "Length cancels in σ = E × (αLΔT / L)."
+    q: "Does thermal stress depend on bar length?"
+    a: "No."
+    simple: "Short or long, same thermal stress."
+  - id: f05
+    topic: u3.thermal
+    difficulty: 2
+    learn: "Heated and restrained → compressive stress. Cooled and restrained → tensile stress."
+    why: "Heated bar tries to grow but is pushed back; cooled bar tries to shrink but is held."
+    q: "A restrained bar is heated. What stress develops?"
+    a: "Compressive stress."
+    simple: "Heated + blocked = squeezed."
+  - id: f06
+    topic: u3.thermal
+    difficulty: 2
+    learn: "If supports yield by δ, thermal stress σ = E (αLΔT − δ) / L."
+    why: "Part of the expansion is allowed, so less stress builds up."
+    q: "If supports allow some movement, does thermal stress rise or fall?"
+    a: "Falls."
+    simple: "A little room reduces stress."
+  - id: f07
+    topic: u3.thermal
+    difficulty: 3
+    learn: "Composite bar heated: material with higher α goes into compression; lower α goes into tension."
+    why: "They must expand the same amount, so the faster one is held back."
+    example: "Copper (higher α) and steel bars joined: copper in compression, steel in tension."
+    q: "Copper and steel bars joined and heated. Which is in compression?"
+    a: "Copper (higher α)."
+    simple: "The one that wants to grow more gets squeezed."
+  - id: f08
+    topic: u3.thermal
+    difficulty: 3
+    learn: "In a composite bar with temperature change, compressive force in one = tensile force in the other."
+    why: "No outside load, so internal forces balance."
+    q: "In a heated composite bar, how do the forces in the two parts compare?"
+    a: "Equal and opposite."
+    simple: "One pushes, one pulls, by the same amount."
+  - id: f09
+    topic: u3.thermal
+    difficulty: 2
+    learn: "Coefficient of linear expansion: aluminium ≈ 23, copper ≈ 17, steel ≈ 12 (all × 10⁻⁶ /°C)."
+    why: "Aluminium grows almost twice as much as steel."
+    example: "Aluminium pistons need more clearance than cast iron ones."
+    q: "Which expands more: aluminium or steel?"
+    a: "Aluminium."
+    simple: "Aluminium grows fastest with heat."
+  - id: f10
+    topic: u3.thermal
+    difficulty: 2
+    learn: "Area expansion coefficient β ≈ 2α. Volume expansion coefficient γ ≈ 3α."
+    why: "Area grows in two directions, volume in three."
+    q: "Volume expansion coefficient in terms of α?"
+    a: "3α"
+    simple: "Volume grows three times as fast as length."
+  - id: f11
+    topic: u3.thermal
+    difficulty: 2
+    learn: "Shrink fit: a part is heated to expand, fitted on a shaft, and grips tightly as it cools."
+    why: "Thermal contraction creates a strong press."
+    example: "Flywheel ring gear and steel tyres on rail wheels are shrink fitted."
+    q: "How is a starter ring gear fitted on a flywheel?"
+    a: "Shrink fit (heated, fitted, cooled)."
+    simple: "Heat it, slip it on, let it cool and grip."
+  - id: s01
+    topic: u3.thermal
+    type: steps
+    difficulty: 3
+    title: "Worked example: thermal stress"
+    steps:
+      - text: "Question: A steel rail is fixed at both ends. Temperature rises by 40°C. E = 2 × 10⁵ N/mm², α = 12 × 10⁻⁶ /°C. Find stress."
+      - text: "σ = E α ΔT."
+      - text: "σ = 2 × 10⁵ × 12 × 10⁻⁶ × 40."
+      - text: "σ = 96 N/mm² (compressive)."
+        explain: "Heated and held, so compressive."
+    summary:
+      - "σ = EαΔT."
+      - "Heated + fixed = compressive."
+    q: "Is the stress in a heated fixed rail tensile or compressive?"
+    a: "Compressive."
+  - id: sum
+    topic: u3.thermal
+    type: summary
+    points:
+      - "Free expansion δ = αLΔT."
+      - "Restrained: σ = EαΔT, independent of length."
+      - "Heated → compression; cooled → tension."
+      - "Composite: higher α in compression."
+      - "Aluminium > copper > steel in α."
+
+  # ---------- Friction ----------
+  - id: f01
+    topic: u3.friction
+    difficulty: 1
+    learn: "Friction is the force that resists sliding between two surfaces in contact. It acts opposite to motion."
+    why: "Tiny bumps on the surfaces catch on each other."
+    example: "Brakes and clutches work by friction; tyres grip the road by friction."
+    q: "Direction of friction force?"
+    a: "Opposite to motion (or tendency of motion)."
+    simple: "Friction holds things back."
+  - id: f02
+    topic: u3.friction
+    difficulty: 2
+    learn: "Static friction acts before motion starts. Dynamic (kinetic) friction acts during motion. Static friction is greater."
+    why: "It takes more force to start sliding than to keep sliding."
+    example: "Pushing a stalled car is hardest at the start."
+    q: "Which is greater: static or kinetic friction?"
+    a: "Static friction."
+    simple: "Starting is harder than keeping going."
+  - id: f03
+    topic: u3.friction
+    difficulty: 2
+    learn: "Limiting friction is the maximum static friction just before sliding begins."
+    why: "Any more force and the body starts to slide."
+    q: "Maximum friction just before motion is called?"
+    a: "Limiting friction."
+    simple: "The last grip before slipping."
+  - id: f04
+    topic: u3.friction
+    difficulty: 2
+    learn: "Rolling friction is much smaller than sliding friction."
+    why: "A rolling wheel does not rub along the surface."
+    example: "That is why vehicles have wheels and ball bearings are used."
+    q: "Which is smaller: rolling or sliding friction?"
+    a: "Rolling friction."
+    simple: "Rolling is easier than dragging."
+  - id: f05
+    topic: u3.friction
+    difficulty: 2
+    learn: "Coefficient of friction μ = F / R (friction force / normal reaction). It has no unit."
+    why: "It tells how slippery or grippy two surfaces are."
+    example: "Dry tyre on dry road μ ≈ 0.7–0.8; on wet road much less."
+    q: "Coefficient of friction formula?"
+    a: "μ = F/R"
+    simple: "Friction force ÷ pressing force."
+  - id: f06
+    topic: u3.friction
+    difficulty: 2
+    learn: "Laws of dry friction: friction ∝ normal reaction; it does not depend on contact area; it depends on the nature of surfaces; it acts opposite to motion."
+    why: "These are Coulomb's laws of friction."
+    q: "Does friction depend on area of contact?"
+    a: "No (for dry friction)."
+    simple: "Push harder, more friction; bigger area, same friction."
+  - id: f07
+    topic: u3.friction
+    difficulty: 2
+    learn: "Kinetic friction is almost independent of speed at low speeds."
+    why: "This is another law of dynamic friction."
+    q: "Does sliding friction change much with speed?"
+    a: "No — nearly constant at low speed."
+    simple: "Slow or a bit faster, friction stays about the same."
+  - id: f08
+    topic: u3.friction
+    difficulty: 2
+    learn: "Angle of friction φ: tan φ = μ. Angle of repose: the steepest slope on which a body rests without sliding. Angle of repose = angle of friction."
+    why: "On that slope, the weight's sliding part equals limiting friction."
+    q: "Relation between angle of repose and angle of friction?"
+    a: "They are equal."
+    simple: "The steepest slope before it slides."
+  - id: f09
+    topic: u3.friction
+    difficulty: 2
+    learn: "Fluid (viscous) friction occurs between layers of a fluid or between lubricated surfaces. It is much smaller than dry friction."
+    why: "An oil film separates the metal surfaces."
+    q: "Friction between well-lubricated surfaces is called?"
+    a: "Fluid (film) friction."
+    simple: "Oil makes surfaces slide on a liquid film."
+  - id: f10
+    topic: u3.friction
+    difficulty: 2
+    learn: "Boundary friction happens when the oil film is very thin, as at engine start-up."
+    why: "Surfaces partly touch, so wear is highest."
+    q: "When is engine wear highest?"
+    a: "At start-up (boundary lubrication)."
+    simple: "At start, oil has not reached everywhere yet."
+  - id: f11
+    topic: u3.friction
+    difficulty: 3
+    learn: "Force to pull a body up a rough slope P = W (sin α + μ cos α), with P parallel to the slope."
+    why: "Pull must beat both gravity along the slope and friction."
+    q: "Force needed to move a body up an inclined plane (force along plane)?"
+    a: "W(sin α + μ cos α)"
+    simple: "Fight gravity plus friction."
+  - id: f12
+    topic: u3.friction
+    difficulty: 2
+    learn: "Friction is useful in brakes, clutches, belts, tyres, nuts and bolts, and walking. It is harmful in bearings, pistons and gears."
+    why: "It wastes energy as heat and causes wear."
+    q: "Give one useful and one harmful case of friction."
+    a: "Useful: brakes. Harmful: bearings (wear, heat)."
+    simple: "Good for stopping, bad for moving parts."
+  - id: sum
+    topic: u3.friction
+    type: summary
+    points:
+      - "Static > kinetic > rolling friction."
+      - "μ = F/R; no unit."
+      - "Friction ∝ normal reaction, not area."
+      - "Angle of repose = angle of friction, tan φ = μ."
+      - "Fluid friction lowest; wear highest at start-up."
+
+  # ---------- CG & MI ----------
+  - id: f01
+    topic: u3.cg
+    difficulty: 1
+    learn: "Centre of gravity (CG) is the point where the whole weight of a body seems to act."
+    why: "We can treat all the weight as one force at that point."
+    q: "Point where the total weight of a body acts?"
+    a: "Centre of gravity."
+    simple: "The balance point."
+  - id: f02
+    topic: u3.cg
+    difficulty: 2
+    learn: "Centroid is the geometric centre of a plane area. For a uniform body, centroid and CG are the same point."
+    why: "Areas have no weight, so we use 'centroid'."
+    q: "Centre of a plane area is called?"
+    a: "Centroid."
+    simple: "Centroid = middle of a shape."
+  - id: f03
+    topic: u3.cg
+    difficulty: 2
+    learn: "Centroid of a triangle is at h/3 from the base. Of a semicircle: 4r/(3π) from the diameter."
+    why: "More area is near the base, so the centroid is low."
+    q: "Centroid of a triangle from its base?"
+    a: "h/3"
+    simple: "One-third of the height up from the base."
+  - id: f04
+    topic: u3.cg
+    difficulty: 2
+    learn: "A vehicle with a low CG is more stable and less likely to overturn."
+    why: "Higher CG gives a bigger tipping moment on turns."
+    example: "Overloading luggage on a bus roof raises CG and risks rollover."
+    q: "Is a low or high CG better for vehicle stability?"
+    a: "Low CG."
+    simple: "Low and wide = stable."
+  - id: f05
+    topic: u3.cg
+    difficulty: 2
+    learn: "Moment of inertia (second moment of area) shows how an area is spread around an axis. Unit: mm⁴ (area), kg·m² (mass)."
+    why: "More area far from the axis = stiffer beam."
+    q: "Unit of area moment of inertia?"
+    a: "mm⁴ (or m⁴)."
+    simple: "How far the material is spread from the centre line."
+  - id: f06
+    topic: u3.cg
+    difficulty: 2
+    learn: "MI of a rectangle about its centroid axis: I = b d³ / 12. About its base: b d³ / 3."
+    why: "Depth d is cubed, so deep sections are much stiffer."
+    q: "MI of a rectangle about its centroidal axis?"
+    a: "bd³/12"
+    simple: "Depth counts much more than width."
+  - id: f07
+    topic: u3.cg
+    difficulty: 2
+    learn: "MI of a circle about its diameter: I = π d⁴ / 64. Polar MI: J = π d⁴ / 32."
+    why: "Polar MI is twice the diametral MI."
+    q: "MI of a circular section about its diameter?"
+    a: "πd⁴/64"
+    simple: "Circle: πd⁴/64; polar: πd⁴/32."
+  - id: f08
+    topic: u3.cg
+    difficulty: 3
+    learn: "MI of a triangle about its base = b h³ / 12; about its centroidal axis = b h³ / 36."
+    why: "Centroid axis is closer to the area, so smaller MI."
+    q: "MI of a triangle about its centroidal axis?"
+    a: "bh³/36"
+    simple: "Triangle: /12 at base, /36 at centroid."
+  - id: f09
+    topic: u3.cg
+    difficulty: 2
+    learn: "Parallel axis theorem: I = Ig + A h². Perpendicular axis theorem: Iz = Ix + Iy (for plane areas)."
+    why: "These let us shift or combine axes."
+    q: "State the parallel axis theorem."
+    a: "I = Ig + Ah²"
+    simple: "MI about a shifted axis = own MI + area × distance²."
+  - id: f10
+    topic: u3.cg
+    difficulty: 2
+    learn: "Radius of gyration k = √(I / A). It is the distance at which all area could be packed to give the same MI."
+    why: "Used in column and flywheel calculations."
+    q: "Formula for radius of gyration?"
+    a: "k = √(I/A)"
+    simple: "A single distance that represents the spread."
+  - id: f11
+    topic: u3.cg
+    difficulty: 2
+    learn: "I-sections are used for beams and chassis frames because most material is far from the neutral axis, giving high MI for low weight."
+    why: "Flanges carry most bending stress; the thin web joins them."
+    q: "Why are I-sections used as beams?"
+    a: "High MI (stiffness) with less material and weight."
+    simple: "Material placed where it works hardest."
+  - id: sum
+    topic: u3.cg
+    type: summary
+    points:
+      - "CG = balance point; centroid = centre of area."
+      - "Triangle centroid h/3 from base."
+      - "Rectangle I = bd³/12; circle πd⁴/64; polar πd⁴/32."
+      - "Parallel axis: I = Ig + Ah²; k = √(I/A)."
+      - "Low CG = stable vehicle."
+
+  # ---------- Beams ----------
+  - id: f01
+    topic: u3.beams
+    difficulty: 1
+    learn: "A beam is a horizontal member that carries loads at right angles to its length and bends."
+    why: "Loads across its length cause bending, not just stretching."
+    example: "Vehicle axles and chassis side members act as beams."
+    q: "What is a beam?"
+    a: "A member carrying transverse loads, which bends."
+    simple: "A bar that bends under load placed across it."
+  - id: f02
+    topic: u3.beams
+    difficulty: 2
+    learn: "Cantilever beam: fixed at one end, free at the other."
+    why: "The fixed end holds both force and moment."
+    example: "A balcony slab, a diving board."
+    q: "A beam fixed at one end and free at the other?"
+    a: "Cantilever."
+    simple: "Stuck in the wall at one end only."
+  - id: f03
+    topic: u3.beams
+    difficulty: 2
+    learn: "Simply supported beam: rests freely on supports at both ends."
+    why: "Supports give only upward reactions, no moment."
+    example: "A plank across a drain."
+    q: "Beam resting freely on two end supports?"
+    a: "Simply supported beam."
+    simple: "Sits on two supports, not fixed."
+  - id: f04
+    topic: u3.beams
+    difficulty: 2
+    learn: "Other beams: overhanging (extends past a support), fixed (both ends fixed), continuous (more than two supports), propped cantilever."
+    why: "Support type decides reactions and bending."
+    q: "Beam with more than two supports?"
+    a: "Continuous beam."
+    simple: "Count supports and see how ends are held."
+  - id: f05
+    topic: u3.beams
+    difficulty: 2
+    learn: "Point load: acts at a single point. Uniformly distributed load (UDL): spread evenly along a length, in N/m."
+    why: "Total UDL = w × length, acting at the middle of that length."
+    example: "UDL: a beam's own weight. Point load: a person standing at one spot."
+    q: "Unit of UDL?"
+    a: "N/m (or kN/m)."
+    simple: "Point = one spot. UDL = spread evenly."
+  - id: f06
+    topic: u3.beams
+    difficulty: 2
+    learn: "Shear force at a section = algebraic sum of vertical forces on one side of it."
+    why: "It tells how much the section tends to slide."
+    q: "Shear force at a section is the sum of what?"
+    a: "All vertical forces on one side of the section."
+    simple: "Add up the up and down forces to one side."
+  - id: f07
+    topic: u3.beams
+    difficulty: 2
+    learn: "Bending moment at a section = algebraic sum of moments of forces on one side about that section."
+    why: "It tells how much the beam tends to bend there."
+    q: "Bending moment at a section = ?"
+    a: "Sum of moments of forces on one side about the section."
+    simple: "Forces × distances to one side."
+  - id: f08
+    topic: u3.beams
+    difficulty: 2
+    learn: "Bending moment is maximum where shear force is zero or changes sign."
+    why: "dM/dx = F, so M peaks when F = 0."
+    q: "Where is bending moment maximum?"
+    a: "Where shear force is zero (changes sign)."
+    simple: "Look for zero shear to find biggest bending."
+  - id: f09
+    topic: u3.beams
+    difficulty: 2
+    learn: "Cantilever with point load W at free end: max SF = W, max BM = W L at the fixed end."
+    why: "The load acts over the whole length to the support."
+    q: "Max bending moment of a cantilever with end load W?"
+    a: "WL at the fixed end."
+    simple: "Load × length, at the wall."
+  - id: f10
+    topic: u3.beams
+    difficulty: 2
+    learn: "Cantilever with UDL w over length L: max SF = wL, max BM = wL²/2 at the fixed end."
+    why: "Total load wL acts at L/2."
+    q: "Max BM of a cantilever with UDL?"
+    a: "wL²/2"
+    simple: "Total load × half the length."
+  - id: f11
+    topic: u3.beams
+    difficulty: 2
+    learn: "Simply supported beam with central point load W: reactions W/2 each, max BM = WL/4 at the centre."
+    why: "W/2 × L/2 = WL/4."
+    q: "Max BM of a simply supported beam with central load W?"
+    a: "WL/4"
+    simple: "Middle load → WL/4 at the middle."
+  - id: f12
+    topic: u3.beams
+    difficulty: 2
+    learn: "Simply supported beam with UDL w: reactions wL/2, max BM = wL²/8 at the centre."
+    why: "Shear is zero at mid-span, so BM peaks there."
+    q: "Max BM of a simply supported beam with UDL?"
+    a: "wL²/8"
+    simple: "UDL on simple beam → wL²/8."
+  - id: f13
+    topic: u3.beams
+    difficulty: 2
+    learn: "SFD shape: point loads give horizontal steps; UDL gives a sloping straight line. BMD: point loads give straight lines; UDL gives a parabola."
+    why: "Each integration raises the curve's degree by one."
+    q: "Shape of BMD under UDL?"
+    a: "Parabola."
+    simple: "UDL: SF sloping line, BM curve."
+  - id: f14
+    topic: u3.beams
+    difficulty: 2
+    learn: "Sagging BM (beam bends like a smile, concave up) is positive. Hogging BM (like a frown) is negative."
+    why: "This is the usual sign convention."
+    example: "Simply supported beam sags; cantilever hogs."
+    q: "Bending like a smile is called?"
+    a: "Sagging (positive BM)."
+    simple: "Smile = sagging. Frown = hogging."
+  - id: f15
+    topic: u3.beams
+    difficulty: 2
+    learn: "Point of contraflexure: where bending moment changes sign (becomes zero)."
+    why: "The beam changes from sagging to hogging there."
+    example: "Found in overhanging beams."
+    q: "Point where BM changes sign is called?"
+    a: "Point of contraflexure."
+    simple: "Where the bend flips direction."
+  - id: f16
+    topic: u3.beams
+    difficulty: 2
+    learn: "Bending equation: M/I = σ/y = E/R."
+    why: "It links bending moment, stress, distance from neutral axis and curvature."
+    q: "Write the bending equation."
+    a: "M/I = σ/y = E/R"
+    simple: "Bending stress = M × y / I."
+  - id: f17
+    topic: u3.beams
+    difficulty: 2
+    learn: "Neutral axis: the line in a bent beam with zero stress. Above it is compression, below it tension (for sagging)."
+    why: "Top fibres shorten, bottom fibres lengthen; the middle stays the same."
+    q: "Stress at the neutral axis?"
+    a: "Zero."
+    simple: "The middle line is neither pushed nor pulled."
+  - id: f18
+    topic: u3.beams
+    difficulty: 2
+    learn: "Section modulus Z = I / y_max. Max bending stress σ = M / Z. Rectangle: Z = b d² / 6."
+    why: "Bigger Z means stronger beam in bending."
+    q: "Section modulus of a rectangle?"
+    a: "bd²/6"
+    simple: "Bigger Z = stronger beam."
+  - id: f19
+    topic: u3.beams
+    difficulty: 3
+    learn: "Max deflection: cantilever end load WL³/3EI; simply supported central load WL³/48EI; simply supported UDL 5wL⁴/384EI."
+    why: "These standard results are asked directly."
+    q: "Max deflection of a simply supported beam with central load?"
+    a: "WL³/48EI"
+    simple: "Learn the three standard deflection formulas."
+  - id: f20
+    topic: u3.beams
+    difficulty: 3
+    learn: "Torsion equation: T/J = τ/r = Gθ/L."
+    why: "Used for shafts like propeller shafts and axles under twisting."
+    q: "Write the torsion equation."
+    a: "T/J = τ/r = Gθ/L"
+    simple: "Twisting a shaft: torque, stress and twist angle linked."
+  - id: f21
+    topic: u3.beams
+    difficulty: 3
+    learn: "A hollow shaft is stronger and stiffer than a solid shaft of the same weight."
+    why: "Material far from the centre resists twisting best."
+    example: "Propeller shafts are hollow tubes."
+    q: "Why are propeller shafts hollow?"
+    a: "Same strength with less weight."
+    simple: "Hollow tubes twist less for their weight."
+  - id: s01
+    topic: u3.beams
+    type: steps
+    difficulty: 3
+    title: "Worked example: simply supported beam"
+    steps:
+      - text: "Question: A 4 m simply supported beam carries a 10 kN load at the centre. Find reactions and max BM."
+      - text: "Reactions: each support takes half = 5 kN."
+        explain: "Load is in the middle, so it is shared equally."
+      - text: "Max BM = WL/4 = 10 × 4 / 4 = 10 kN·m."
+      - text: "It occurs at the centre, under the load."
+    summary:
+      - "Central load: R = W/2 each."
+      - "Max BM = WL/4 at the centre."
+    q: "Max BM for 10 kN at centre of a 4 m simple beam?"
+    a: "10 kN·m"
+  - id: s02
+    topic: u3.beams
+    type: steps
+    difficulty: 3
+    title: "Worked example: cantilever with UDL"
+    steps:
+      - text: "Question: A 2 m cantilever carries a UDL of 3 kN/m. Find max SF and max BM."
+      - text: "Total load = w × L = 3 × 2 = 6 kN."
+      - text: "Max SF = 6 kN at the fixed end."
+      - text: "Max BM = wL²/2 = 3 × 4 / 2 = 6 kN·m at the fixed end."
+    summary:
+      - "Cantilever UDL: SF = wL, BM = wL²/2."
+      - "Both are largest at the fixed end."
+    q: "Where are SF and BM largest in a cantilever?"
+    a: "At the fixed end."
+  - id: sum
+    topic: u3.beams
+    type: summary
+    points:
+      - "Cantilever: WL (point), wL²/2 (UDL) at fixed end."
+      - "Simple beam: WL/4 (central point), wL²/8 (UDL)."
+      - "Max BM where SF = 0; contraflexure where BM = 0."
+      - "M/I = σ/y = E/R; Z = bd²/6."
+      - "UDL: SFD straight slope, BMD parabola."
+
+  # ---------- Rivets ----------
+  - id: f01
+    topic: u3.rivets
+    difficulty: 1
+    learn: "A rivet is a permanent fastener: a round rod with a head, put through holes in plates, and the other end hammered into a second head."
+    why: "Riveted joints cannot be opened without breaking the rivet."
+    example: "Old truck chassis frames and bus bodies use rivets."
+    q: "Is a riveted joint permanent or temporary?"
+    a: "Permanent."
+    simple: "A metal pin squashed at both ends."
+  - id: f02
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Parts of a rivet: head, shank (body) and tail (point)."
+    why: "The tail is formed into a second head after fitting."
+    q: "The cylindrical body of a rivet is called?"
+    a: "Shank."
+    simple: "Head, body, tail."
+  - id: f03
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Rivet head types: snap (cup/button), pan, countersunk, conical. Countersunk heads sit flush with the surface."
+    why: "Flush heads are used where a smooth surface is needed."
+    q: "Which rivet head sits flush with the plate?"
+    a: "Countersunk head."
+    simple: "Countersunk = flat, hidden head."
+  - id: f04
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Lap joint: one plate overlaps the other and they are riveted together."
+    why: "Simple to make, but the load path is offset."
+    q: "Joint where one plate overlaps another?"
+    a: "Lap joint."
+    simple: "Plates laid one over the other."
+  - id: f05
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Butt joint: plates meet end to end and are joined by one or two cover (strap) plates."
+    why: "Load stays in line, so it is stronger than a lap joint."
+    q: "In a butt joint, how are the plates connected?"
+    a: "Through cover (strap) plates."
+    simple: "Ends touch; a patch plate joins them."
+  - id: f06
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Single riveted: one row of rivets. Double riveted: two rows. Arrangement can be chain (in line) or zig-zag (staggered)."
+    why: "More rows carry more load."
+    q: "Rivets in staggered rows are called?"
+    a: "Zig-zag riveting."
+    simple: "Chain = rivets in line. Zig-zag = rivets staggered."
+  - id: f07
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Pitch (p) is the distance between centres of adjacent rivets in a row. Margin is the distance from rivet centre to plate edge (about 1.5d)."
+    why: "Too small a margin tears the plate edge."
+    q: "Distance between centres of adjacent rivets in a row?"
+    a: "Pitch."
+    simple: "Pitch = gap between rivets."
+  - id: f08
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Back pitch is the distance between rows. Diagonal pitch is the distance between rivets in adjacent rows in zig-zag riveting."
+    why: "Row spacing affects joint strength."
+    q: "Distance between two rows of rivets?"
+    a: "Back pitch (transverse pitch)."
+    simple: "Back pitch = row-to-row gap."
+  - id: f09
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Ways a riveted joint can fail: shearing of rivets, tearing of plate between rivets, crushing of rivets or plate, tearing of plate at the edge."
+    why: "Design checks each one; the weakest decides strength."
+    q: "Name two failures of a riveted joint."
+    a: "Rivet shearing, plate tearing, crushing, edge tearing."
+    simple: "Rivet cuts, plate rips, or parts get crushed."
+  - id: f10
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Tearing strength of plate per pitch length: Pt = (p − d) t σt."
+    why: "The hole removes metal, so only (p − d) is left."
+    q: "Tearing resistance of plate per pitch?"
+    a: "(p − d) t σt"
+    simple: "Metal left between holes × thickness × stress."
+  - id: f11
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Shearing strength of a rivet in single shear: Ps = (π/4) d² τ. In double shear: Ps = 2 × (π/4) d² τ (theoretically)."
+    why: "In double shear the rivet is cut at two places."
+    q: "Shearing strength of a rivet in single shear?"
+    a: "(π/4)d²τ"
+    simple: "Rivet area × shear stress."
+  - id: f12
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Crushing strength: Pc = d × t × σc (per rivet)."
+    why: "Projected area of the rivet against the plate = d × t."
+    q: "Crushing strength of a rivet?"
+    a: "d × t × σc"
+    simple: "Diameter × thickness × crushing stress."
+  - id: f13
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Strength of the riveted joint = the least of tearing, shearing and crushing strengths."
+    why: "The joint fails at its weakest point."
+    q: "Strength of a riveted joint equals?"
+    a: "The least of Pt, Ps and Pc."
+    simple: "A chain is as strong as its weakest link."
+  - id: f14
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Efficiency of a riveted joint = least strength / strength of the solid plate (p × t × σt)."
+    why: "Holes always weaken the plate, so efficiency is below 100%."
+    q: "Efficiency of a riveted joint formula?"
+    a: "Least of (Pt, Ps, Pc) ÷ (p t σt)."
+    simple: "How strong the joint is compared with uncut plate."
+  - id: f15
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Unwin's formula gives rivet diameter: d = 6√t (mm), when t > 8 mm."
+    why: "Thicker plates need thicker rivets."
+    q: "Unwin's formula for rivet diameter?"
+    a: "d = 6√t"
+    simple: "Rivet size from plate thickness."
+  - id: f16
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Caulking and fullering make riveted joints leak-proof, as in boilers. Fullering is the better method."
+    why: "Plate edges are hammered tight to seal gaps."
+    q: "Methods to make riveted boiler joints leak-proof?"
+    a: "Caulking and fullering."
+    simple: "Hammer the edges to seal."
+  - id: f17
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Rivets are commonly made of mild steel, wrought iron, copper or aluminium."
+    why: "Rivet material must be ductile to form a head."
+    q: "Main property needed in a rivet material?"
+    a: "Ductility (also strength)."
+    simple: "Soft enough to hammer a head."
+  - id: f18
+    topic: u3.rivets
+    difficulty: 2
+    learn: "Pop (blind) rivets are fixed from one side only, using a rivet gun."
+    why: "Useful where the back of the joint cannot be reached."
+    example: "Used in vehicle body panels and number plates."
+    q: "Rivet fitted from one side only?"
+    a: "Blind (pop) rivet."
+    simple: "A rivet you fit with access from one side."
+  - id: sum
+    topic: u3.rivets
+    type: summary
+    points:
+      - "Rivet: head, shank, tail; permanent joint."
+      - "Lap joint vs butt joint (cover plates); chain vs zig-zag."
+      - "Failures: shearing, tearing, crushing, edge tearing."
+      - "Joint strength = least; efficiency = least / ptσt."
+      - "Unwin d = 6√t; caulking/fullering seal."
+
+  # ---------- Bolts & springs ----------
+  - id: f01
+    topic: u3.bolts_springs
+    difficulty: 1
+    learn: "A bolt is a threaded rod with a head, used with a nut. It is a temporary (removable) fastener."
+    why: "Parts can be taken apart for repair."
+    q: "Is a bolted joint permanent or removable?"
+    a: "Removable (temporary)."
+    simple: "Bolts can be undone; rivets cannot."
+  - id: f02
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Types: through bolt (with nut), tap bolt (screwed into a threaded hole), stud (threaded both ends), cap screw, set screw."
+    why: "Each suits a different fitting job."
+    example: "Cylinder head is fixed with studs or head bolts."
+    q: "A rod threaded at both ends with no head is called?"
+    a: "Stud."
+    simple: "Stud = double-ended thread."
+  - id: f03
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Bolt heads: hexagonal (most common), square, eye bolt (for lifting), T-bolt, hook bolt, foundation bolt."
+    why: "Hexagon heads fit standard spanners."
+    q: "Which bolt is used for lifting heavy parts?"
+    a: "Eye bolt."
+    simple: "Eye bolt has a ring to lift with."
+  - id: f04
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Locking devices stop nuts loosening from vibration: lock nut, split pin with castle nut, spring washer, Nyloc nut, tab washer."
+    why: "Vehicles vibrate constantly."
+    example: "Steering linkages use castle nuts with split pins."
+    q: "Locking device used with a castle nut?"
+    a: "Split pin (cotter pin)."
+    simple: "Extra parts stop nuts shaking loose."
+  - id: f05
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Pitch of a thread is the distance between two adjacent threads. Lead is the distance moved in one turn. Single start: lead = pitch."
+    why: "Multi-start threads move faster per turn."
+    q: "For a single-start thread, lead equals?"
+    a: "Pitch."
+    simple: "Pitch = thread spacing. Lead = travel per turn."
+  - id: f06
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Thread forms: V-thread (fastening), square and acme (power screws like jacks), buttress (one-way heavy loads)."
+    why: "Square threads have less friction and transmit power well."
+    q: "Which thread form is used in screw jacks?"
+    a: "Square (or acme) thread."
+    simple: "V for holding, square for lifting."
+  - id: f07
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Core (root) diameter is the smallest diameter of a thread. Stress in a bolt is calculated on the core area."
+    why: "That is the weakest section."
+    q: "Bolt stress is calculated on which diameter?"
+    a: "Core (minor) diameter."
+    simple: "Use the thinnest part of the thread."
+  - id: f08
+    topic: u3.bolts_springs
+    difficulty: 1
+    learn: "A spring is an elastic part that bends under load and returns to its shape when the load is removed."
+    why: "It absorbs shocks, stores energy and keeps parts pressed together."
+    example: "Suspension springs, valve springs, clutch springs."
+    q: "Give one use of springs in a vehicle."
+    a: "Suspension (also valves, clutch, brakes)."
+    simple: "A spring gives way and springs back."
+  - id: f09
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Types of springs: helical (compression, tension), leaf (laminated), torsion, spiral (flat coil), disc (Belleville)."
+    why: "Each shape suits a different load."
+    example: "Leaf springs in trucks; coil springs in cars; diaphragm (disc) in clutches."
+    q: "Laminated springs are also called?"
+    a: "Leaf springs."
+    simple: "Coil, leaf, twist, spiral, disc."
+  - id: f10
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Spring index C = D / d (mean coil diameter ÷ wire diameter). Usual range 4–12."
+    why: "Too low is hard to make; too high buckles."
+    q: "Formula for spring index?"
+    a: "C = D/d"
+    simple: "How fat the coil is compared with the wire."
+  - id: f11
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Stiffness (spring rate) k = load / deflection (N/mm)."
+    why: "It tells how hard the spring is to compress."
+    q: "Formula for spring stiffness?"
+    a: "k = W/δ"
+    simple: "Force needed for 1 mm squeeze."
+  - id: f12
+    topic: u3.bolts_springs
+    difficulty: 3
+    learn: "Deflection of a close-coiled helical spring: δ = 64 W R³ n / (G d⁴) = 8 W D³ n / (G d⁴)."
+    why: "The wire twists, so G (rigidity) is used."
+    q: "Which modulus is used for close-coiled helical spring deflection?"
+    a: "Modulus of rigidity G."
+    simple: "Coil springs work by twisting the wire."
+  - id: f13
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Springs in series: 1/k = 1/k₁ + 1/k₂ (softer). Springs in parallel: k = k₁ + k₂ (stiffer)."
+    why: "Series shares deflection; parallel shares load."
+    q: "Two springs in parallel: total stiffness?"
+    a: "k₁ + k₂"
+    simple: "Side by side = stiffer. One after another = softer."
+  - id: f14
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Solid length is the length of a compression spring when coils touch each other."
+    why: "The spring cannot compress further."
+    q: "Length of a spring when all coils touch?"
+    a: "Solid length."
+    simple: "Squeezed fully flat."
+  - id: f15
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Leaf spring: longest leaf is the master leaf, with eyes at both ends. The spring is held to the axle with U-bolts and a centre bolt."
+    why: "Master leaf connects the spring to the frame."
+    q: "Top longest leaf of a leaf spring is called?"
+    a: "Master leaf."
+    simple: "The master leaf has the eyes at its ends."
+  - id: f16
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Spring materials: high-carbon steel, silicon-manganese steel (leaf springs), chrome-vanadium steel (valve springs)."
+    why: "They need high elastic limit and fatigue strength."
+    q: "Common steel for leaf springs?"
+    a: "Silicon-manganese steel."
+    simple: "Springs need tough, springy steel."
+  - id: f17
+    topic: u3.bolts_springs
+    difficulty: 3
+    learn: "Wahl's factor corrects shear stress in helical springs for wire curvature and direct shear."
+    why: "Inner side of the coil has extra stress."
+    q: "Factor that corrects helical spring stress for curvature?"
+    a: "Wahl's factor."
+    simple: "An extra multiplier for coil springs."
+  - id: f18
+    topic: u3.bolts_springs
+    difficulty: 2
+    learn: "Spring surge: vibration of valve spring coils at high engine speed, so the valve does not follow the cam."
+    why: "Coil resonance matches the cam frequency."
+    example: "Fixed by double valve springs or variable pitch springs."
+    q: "Why are double valve springs used?"
+    a: "To prevent spring surge and valve float."
+    simple: "Two springs stop wild bouncing at high rpm."
+  - id: sum
+    topic: u3.bolts_springs
+    type: summary
+    points:
+      - "Bolt, stud, tap bolt, set screw; locking: split pin, lock nut."
+      - "Square thread for jacks; core diameter for stress."
+      - "Spring index C = D/d; stiffness k = W/δ."
+      - "Series softer, parallel stiffer."
+      - "Leaf spring: master leaf, U-bolt; double valve springs stop surge."
+
+  # ---------- Welds ----------
+  - id: f01
+    topic: u3.welds
+    difficulty: 1
+    learn: "Welding joins metals permanently by melting and fusing them, with or without filler metal."
+    why: "The joined metal becomes one piece."
+    example: "Bus body frames and chassis repairs are welded."
+    q: "Is a welded joint permanent?"
+    a: "Yes."
+    simple: "Melt and join the metal together."
+  - id: f02
+    topic: u3.welds
+    difficulty: 2
+    learn: "Butt weld: plates placed edge to edge in the same plane and welded. Fillet weld: plates at an angle (lap or T) welded at the corner."
+    why: "Fillet welds have a triangular cross-section."
+    q: "Weld with a triangular cross-section joining lapped plates?"
+    a: "Fillet weld."
+    simple: "Butt = edge to edge. Fillet = in the corner."
+  - id: f03
+    topic: u3.welds
+    difficulty: 2
+    learn: "Butt weld edge preparations: square, single-V, double-V, single-U, double-U, J."
+    why: "Thick plates need bevelled edges so weld metal reaches the full depth."
+    q: "Name one edge preparation for a butt weld."
+    a: "Single-V (or double-V, U, J, square)."
+    simple: "Shape the edges so weld fills the whole thickness."
+  - id: f04
+    topic: u3.welds
+    difficulty: 2
+    learn: "Fillet weld types: transverse (load at right angles to weld) and parallel (load along the weld). Transverse is stronger."
+    why: "The load spreads differently."
+    q: "Which fillet weld is stronger: transverse or parallel?"
+    a: "Transverse."
+    simple: "Weld across the load is stronger."
+  - id: f05
+    topic: u3.welds
+    difficulty: 2
+    learn: "Weld terms: leg (size s), throat (t), root, toe, face, reinforcement."
+    why: "Strength is calculated on the throat."
+    q: "On which dimension is fillet weld strength calculated?"
+    a: "Throat thickness."
+    simple: "The throat is the weakest line through the weld."
+  - id: f06
+    topic: u3.welds
+    difficulty: 2
+    learn: "Throat thickness of a fillet weld t = 0.707 × leg size s."
+    why: "For a 45° fillet, throat = s × sin 45°."
+    q: "Throat thickness of a fillet weld?"
+    a: "0.707 × leg size."
+    simple: "About 7/10 of the leg."
+  - id: f07
+    topic: u3.welds
+    difficulty: 3
+    learn: "Strength of a parallel fillet weld P = 0.707 s l τ (per weld). Transverse: P = 0.707 s l σt."
+    why: "Throat area × allowable stress."
+    q: "Strength of a parallel fillet weld?"
+    a: "0.707 × s × l × τ"
+    simple: "Throat area × shear stress."
+  - id: f08
+    topic: u3.welds
+    difficulty: 2
+    learn: "Strength of a butt weld P = t × l × σt (t = plate thickness, l = weld length)."
+    why: "The full plate thickness is welded."
+    q: "Strength of a butt weld in tension?"
+    a: "t × l × σt"
+    simple: "Thickness × length × stress."
+  - id: f09
+    topic: u3.welds
+    difficulty: 2
+    learn: "Welding types: gas (oxy-acetylene), arc (MMAW/stick, MIG, TIG), resistance (spot, seam), and solid-state (friction)."
+    why: "Each uses a different heat source."
+    example: "Car body panels are spot welded."
+    q: "Car bodies are mainly joined by which welding?"
+    a: "Resistance spot welding."
+    simple: "Gas flame, electric arc or electric resistance."
+  - id: f10
+    topic: u3.welds
+    difficulty: 2
+    learn: "Oxy-acetylene flame is about 3200°C. Neutral flame (equal O₂ and C₂H₂) is used for most welding."
+    why: "Too much oxygen (oxidising) or gas (carburising) changes the metal."
+    q: "Temperature of an oxy-acetylene flame?"
+    a: "About 3200°C."
+    simple: "The hottest gas flame used for welding."
+  - id: f11
+    topic: u3.welds
+    difficulty: 2
+    learn: "MIG uses a consumable wire electrode with shielding gas. TIG uses a non-consumable tungsten electrode."
+    why: "TIG gives cleaner, precise welds, used for aluminium and stainless steel."
+    q: "Which welding uses a tungsten electrode?"
+    a: "TIG welding."
+    simple: "MIG feeds wire; TIG uses tungsten."
+  - id: f12
+    topic: u3.welds
+    difficulty: 2
+    learn: "Welded joints vs riveted: welded are lighter, leak-proof, faster and 100% efficient possible; but need skill and may have residual stresses."
+    why: "No holes weaken the plate in welding."
+    q: "Give one advantage of welded over riveted joints."
+    a: "Lighter / stronger / leak-proof (no holes)."
+    simple: "Welding: no holes, less weight."
+  - id: f13
+    topic: u3.welds
+    difficulty: 2
+    learn: "Welding defects: porosity, slag inclusion, lack of fusion, incomplete penetration, undercut, cracks."
+    why: "Each weakens the joint."
+    q: "Gas holes in a weld are called?"
+    a: "Porosity."
+    simple: "Bubbles, dirt and gaps make weak welds."
+  - id: f14
+    topic: u3.welds
+    difficulty: 2
+    learn: "Brazing and soldering join metals without melting the base metal. Soldering filler melts below 450°C; brazing above 450°C."
+    why: "Only the filler melts."
+    example: "Radiator cores are soldered or brazed."
+    q: "Which joins with filler melting below 450°C: soldering or brazing?"
+    a: "Soldering."
+    simple: "Soldering is low-heat, brazing is higher heat; base metal stays solid."
+  - id: sum
+    topic: u3.welds
+    type: summary
+    points:
+      - "Butt weld edge-to-edge; fillet weld in the corner."
+      - "Throat = 0.707 × leg."
+      - "Fillet strength = 0.707 s l τ; butt = t l σt."
+      - "Gas, arc (MIG, TIG), resistance (spot) welding."
+      - "Soldering < 450°C < brazing."
+
+mcq:
+  - topic: u3.stress
+    q: "Poisson's ratio is the ratio of"
+    options: ["Longitudinal strain to lateral strain", "Lateral strain to longitudinal strain", "Stress to strain", "Shear stress to shear strain"]
+    answer: 1
+    explain: "Poisson's ratio = lateral strain / longitudinal strain."
+    covers: [f08]
+  - topic: u3.elastic
+    q: "The relation between E, G and Poisson's ratio μ is"
+    options: ["E = 2G(1 + μ)", "E = 3G(1 − 2μ)", "E = G(1 + 2μ)", "E = 2G(1 − μ)"]
+    answer: 0
+    explain: "E = 2G(1 + μ)."
+    covers: [f05]
+  - topic: u3.beams
+    q: "Maximum bending moment of a simply supported beam with UDL w over span L is"
+    options: ["wL²/2", "wL²/4", "wL²/8", "wL/4"]
+    answer: 2
+    explain: "For a simply supported beam with UDL, Mmax = wL²/8 at mid-span."
+    covers: [f12]
+  - topic: u3.thermal
+    q: "Thermal stress in a bar fixed at both ends is"
+    options: ["αΔT/E", "EαΔT", "EαL", "αLΔT"]
+    answer: 1
+    explain: "σ = EαΔT and it does not depend on length."
+    covers: [f03]
+  - topic: u3.welds
+    q: "The throat thickness of a fillet weld of leg size s is"
+    options: ["0.5 s", "0.707 s", "1.414 s", "s"]
+    answer: 1
+    explain: "Throat = s × sin 45° = 0.707 s."
+    covers: [f06]
+  - topic: u3.friction
+    q: "Angle of repose is equal to"
+    options: ["Angle of friction", "Twice the angle of friction", "90° − angle of friction", "Half the angle of friction"]
+    answer: 0
+    explain: "The angle of repose equals the angle of friction."
+    covers: [f08]
