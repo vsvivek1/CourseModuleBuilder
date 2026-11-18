@@ -1,0 +1,1296 @@
+unit: u4
+subject: machine_elements
+title: "Unit IV — Machine elements, materials and boilers (10 marks)"
+
+topics:
+  - {id: u4.bearings, title: "Bearings", freq: 0.7}
+  - {id: u4.governors, title: "Governors", freq: 0.7}
+  - {id: u4.flywheel, title: "Flywheels", freq: 0.7}
+  - {id: u4.gears, title: "Gears and gear trains", freq: 0.7}
+  - {id: u4.boilers, title: "Boilers and steam engine", freq: 0.6}
+  - {id: u4.materials, title: "Engineering materials and heat treatment", freq: 0.8}
+
+cards:
+  # ---------- Bearings ----------
+  - id: f01
+    topic: u4.bearings
+    difficulty: 1
+    learn: "A bearing supports a moving part (usually a rotating shaft) and lets it move with little friction."
+    why: "Without bearings, shafts would rub, heat up and wear out."
+    example: "Wheel bearings let a car wheel spin freely on its axle."
+    q: "What is the main job of a bearing?"
+    a: "Support a moving shaft and reduce friction."
+    simple: "Bearings help shafts spin easily."
+  - id: f02
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Functions of a bearing: support load, guide motion, reduce friction and wear, and carry away heat."
+    why: "The bearing holds the shaft in place while it turns."
+    q: "Name two functions of a bearing."
+    a: "Support load, reduce friction (also guide motion, reduce wear)."
+    simple: "Hold, guide and smooth the movement."
+  - id: f03
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Radial (journal) bearing: load acts at right angles to the shaft axis. Thrust bearing: load acts along the shaft axis."
+    why: "The direction of load decides the bearing type."
+    example: "Crankshaft main bearings are radial. Clutch release bearing is a thrust bearing."
+    q: "A bearing carrying load along the shaft axis is called?"
+    a: "Thrust bearing."
+    simple: "Radial = load from the side. Thrust = load from the end."
+  - id: f04
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Sliding contact bearing: the shaft slides on an oil film inside a bush (plain bearing). Rolling contact bearing: balls or rollers roll between races."
+    why: "Rolling has lower starting friction; sliding is quieter and carries shock better."
+    q: "A ball bearing is sliding or rolling contact?"
+    a: "Rolling contact."
+    simple: "Sliding = shaft on oil film. Rolling = balls in between."
+  - id: f05
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Journal bearing: the part of the shaft inside the bearing is the journal; the outer part is the bearing or bush."
+    why: "Engine crankshaft and camshaft bearings are journal bearings."
+    q: "The part of a shaft that turns inside a bearing is called?"
+    a: "Journal."
+    simple: "Journal = shaft portion sitting in the bearing."
+  - id: f06
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Types of journal bearings: full journal (360°), partial journal (less than 360°), fitted bearing."
+    why: "Partial bearings are used when load comes from one side only."
+    q: "A bearing surrounding the journal fully is called?"
+    a: "Full journal bearing."
+    simple: "Full ring or part ring around the shaft."
+  - id: f07
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Hydrodynamic lubrication: the rotating journal itself drags oil in and builds a pressure film that lifts the shaft."
+    why: "Speed creates the oil pressure, so it works best at speed."
+    q: "In hydrodynamic bearings, what creates the oil pressure?"
+    a: "The rotation of the journal (wedge action)."
+    simple: "Spinning shaft floats on oil it pulls in."
+  - id: f08
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Hydrostatic bearing: oil is pumped in under pressure from outside to lift the shaft, even at rest."
+    why: "Useful for very heavy, slow machines."
+    q: "Which bearing uses an outside pump to lift the shaft?"
+    a: "Hydrostatic bearing."
+    simple: "A pump floats the shaft on oil."
+  - id: f09
+    topic: u4.bearings
+    difficulty: 3
+    learn: "Bearing characteristic number = Z N / p (Z = oil viscosity, N = speed, p = bearing pressure)."
+    why: "It decides whether a thick oil film forms."
+    q: "Bearing characteristic number formula?"
+    a: "ZN/p"
+    simple: "Viscosity × speed ÷ pressure."
+  - id: f10
+    topic: u4.bearings
+    difficulty: 3
+    learn: "Bearing modulus is the value of ZN/p at which friction is least. Bearings are run at about 3 times this value for safety."
+    why: "Below it the film breaks and metal touches."
+    q: "What is bearing modulus?"
+    a: "ZN/p at minimum friction."
+    simple: "The best point for oil film; stay well above it."
+  - id: f11
+    topic: u4.bearings
+    difficulty: 3
+    learn: "Heat generated in a bearing Hg = μ W V (friction coefficient × load × rubbing speed)."
+    why: "Friction work turns into heat."
+    q: "Formula for heat generated in a bearing?"
+    a: "μWV"
+    simple: "Friction × load × speed = heat."
+  - id: f12
+    topic: u4.bearings
+    difficulty: 3
+    learn: "Heat dissipated by a bearing depends on its surface area and the temperature difference with surrounding air."
+    why: "If generation is more than dissipation, the bearing overheats and needs oil cooling."
+    q: "What happens if heat generated exceeds heat dissipated?"
+    a: "Bearing overheats; extra cooling is needed."
+    simple: "Too much heat in, not enough out → hot bearing."
+  - id: f13
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Rolling bearing parts: inner race, outer race, rolling elements (balls or rollers) and cage (separator)."
+    why: "The cage keeps the balls evenly spaced."
+    q: "What keeps the balls evenly spaced in a ball bearing?"
+    a: "Cage (separator / retainer)."
+    simple: "Two rings, balls in between, and a cage."
+  - id: f14
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Types of rolling bearings: deep groove ball, angular contact, self-aligning, cylindrical roller, taper roller, needle roller, thrust ball."
+    why: "Each suits a different load and space."
+    q: "Bearing used where space is very small, with thin long rollers?"
+    a: "Needle roller bearing."
+    simple: "Balls for light loads, rollers for heavy loads."
+  - id: f15
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Taper roller bearings carry both radial and thrust loads. They are used in front wheel hubs and differentials."
+    why: "The tapered rollers take load at an angle."
+    q: "Which bearing is used in wheel hubs for both radial and axial loads?"
+    a: "Taper roller bearing."
+    simple: "Taper rollers handle side and end loads together."
+  - id: f16
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Needle roller bearings are used in universal joints, gearbox gears and rocker arms."
+    why: "They carry high load in a small diameter."
+    q: "Bearings commonly used in universal joint crosses?"
+    a: "Needle roller bearings."
+    simple: "Tiny thin rollers for tight spaces."
+  - id: f17
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Engine big-end and main bearings are thin-wall split shell (plain) bearings made of steel backing with babbitt, copper-lead or aluminium-tin lining."
+    why: "Soft lining embeds dirt and conforms to the shaft."
+    q: "Bearing metal made of tin, antimony and copper?"
+    a: "Babbitt (white metal)."
+    simple: "Steel shell with a soft lining."
+  - id: f18
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Properties of a good bearing material: low friction, conformability, embeddability, fatigue strength, corrosion resistance, good heat conduction."
+    why: "It must tolerate dirt, heat and changing loads."
+    q: "Ability of a bearing material to absorb dirt particles is called?"
+    a: "Embeddability."
+    simple: "Soft enough to swallow grit, strong enough to carry load."
+  - id: f19
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Bearing crush: the shell halves stick out slightly above the housing so they are pressed tight when bolted."
+    why: "This stops the shell from spinning in its housing."
+    q: "Why do bearing shells have crush?"
+    a: "To fit tightly and prevent rotation in the housing."
+    simple: "A tight squeeze keeps the shell still."
+  - id: f20
+    topic: u4.bearings
+    difficulty: 2
+    learn: "Rolling bearings vs sliding: rolling have low starting friction and need little lubrication; sliding are cheaper, quieter and take shocks better."
+    why: "Each has its place."
+    q: "Which has lower starting friction: rolling or sliding bearing?"
+    a: "Rolling bearing."
+    simple: "Balls start rolling easily."
+  - id: sum
+    topic: u4.bearings
+    type: summary
+    points:
+      - "Radial (journal) vs thrust bearings."
+      - "Sliding (plain) vs rolling (ball/roller)."
+      - "ZN/p = bearing characteristic number."
+      - "Heat generated = μWV."
+      - "Taper roller in hubs; needle in UJ; babbitt shells in engines."
+
+  # ---------- Governors ----------
+  - id: f01
+    topic: u4.governors
+    difficulty: 1
+    learn: "A governor keeps engine speed nearly constant by controlling the fuel supply when load changes."
+    why: "More load slows the engine; the governor then adds fuel."
+    example: "Diesel generators and fuel injection pumps use governors."
+    q: "What is the function of a governor?"
+    a: "To keep speed constant by controlling fuel supply as load changes."
+    simple: "It adds or cuts fuel to hold speed steady."
+  - id: f02
+    topic: u4.governors
+    difficulty: 2
+    learn: "Governors are of two main types: centrifugal and inertia. Centrifugal governors are of two kinds: pendulum (Watt) and loaded (Porter, Proell, Hartnell, Wilson-Hartnell)."
+    why: "Loaded governors add dead weight or springs to work at higher speeds."
+    q: "Simplest centrifugal governor?"
+    a: "Watt governor."
+    simple: "Spinning balls fly out as speed rises."
+  - id: f03
+    topic: u4.governors
+    difficulty: 2
+    learn: "In a centrifugal governor, balls fly outward as speed rises and lift the sleeve, which closes the fuel supply."
+    why: "Centrifugal force grows with speed."
+    q: "What happens to the sleeve when speed rises?"
+    a: "It rises (and reduces fuel supply)."
+    simple: "Faster spin, balls fly out, fuel cut."
+  - id: f04
+    topic: u4.governors
+    difficulty: 2
+    learn: "Watt governor height h = 895 / N² (h in metres, N in rpm)."
+    why: "Height falls quickly at higher speed, so Watt governor suits only slow engines."
+    q: "Watt governor height formula?"
+    a: "h = 895/N² m"
+    simple: "Faster → shorter height."
+  - id: f05
+    topic: u4.governors
+    difficulty: 2
+    learn: "Porter governor: a Watt governor with a heavy central load on the sleeve."
+    why: "The load allows higher speeds and more force on the sleeve."
+    q: "Watt governor with central dead load is called?"
+    a: "Porter governor."
+    simple: "Watt plus a weight on the sleeve."
+  - id: f06
+    topic: u4.governors
+    difficulty: 2
+    learn: "Proell governor: like Porter but the balls are fixed on extensions of the lower arms."
+    why: "This makes it more sensitive at lower ball weight."
+    q: "Governor with balls on extensions of lower links?"
+    a: "Proell governor."
+    simple: "Porter with balls moved to arm extensions."
+  - id: f07
+    topic: u4.governors
+    difficulty: 2
+    learn: "Hartnell governor is a spring-loaded governor with bell-crank levers. It can run at high speed and fits in a small space."
+    why: "A spring replaces the dead weight."
+    q: "Spring-loaded governor with bell-crank levers?"
+    a: "Hartnell governor."
+    simple: "Springs instead of weights."
+  - id: f08
+    topic: u4.governors
+    difficulty: 2
+    learn: "Height of governor: vertical distance from the ball centre to the point where the arms meet on the spindle axis."
+    why: "Used in Watt and Porter governor formulas."
+    q: "Define height of a governor."
+    a: "Vertical distance from ball centre to the arm-meeting point on the axis."
+    simple: "How high the arm pivot is above the balls."
+  - id: f09
+    topic: u4.governors
+    difficulty: 2
+    learn: "Equilibrium speed: the speed at which the governor balls, arms and sleeve stay at rest for a given radius."
+    why: "Every ball radius has its own balance speed."
+    q: "What is equilibrium speed?"
+    a: "Speed at which the governor is in balance at a given ball radius."
+    simple: "The speed where balls neither go in nor out."
+  - id: f10
+    topic: u4.governors
+    difficulty: 2
+    learn: "Mean equilibrium speed: speed at the mean ball radius. Max and min equilibrium speeds: speeds at the largest and smallest ball radius."
+    why: "The governor works between these limits."
+    q: "Speed at the mean radius of rotation of balls?"
+    a: "Mean equilibrium speed."
+    simple: "Middle speed of the working range."
+  - id: f11
+    topic: u4.governors
+    difficulty: 2
+    learn: "Sleeve lift: vertical distance the sleeve travels when speed changes from minimum to maximum equilibrium speed."
+    why: "Sleeve movement operates the fuel control."
+    q: "Distance moved by the sleeve between min and max speeds?"
+    a: "Sleeve lift."
+    simple: "How far the sleeve goes up."
+  - id: f12
+    topic: u4.governors
+    difficulty: 2
+    learn: "Sensitiveness = (N₂ − N₁) / N, where N is mean speed. A smaller range means a more sensitive governor."
+    why: "A sensitive governor reacts to small speed changes."
+    q: "Formula for sensitiveness of a governor?"
+    a: "(N₂ − N₁)/N"
+    simple: "Reacts quickly to small changes."
+  - id: f13
+    topic: u4.governors
+    difficulty: 2
+    learn: "Stability: a governor is stable if ball radius increases as speed increases, with one radius for each speed."
+    why: "Otherwise the balls would wander."
+    q: "When is a governor stable?"
+    a: "When radius rises steadily with speed (one radius per speed)."
+    simple: "Each speed has one steady ball position."
+  - id: f14
+    topic: u4.governors
+    difficulty: 2
+    learn: "Isochronous governor: equilibrium speed is the same at all radii. It is infinitely sensitive but in practice hunts."
+    why: "Any tiny speed change sends balls to the limits."
+    q: "Governor with constant equilibrium speed at all radii?"
+    a: "Isochronous governor."
+    simple: "Too sensitive — same speed for every position."
+  - id: f15
+    topic: u4.governors
+    difficulty: 2
+    learn: "Hunting: the governor keeps over-correcting, so speed swings above and below the mean continuously."
+    why: "Too-sensitive governors cause hunting."
+    q: "Continuous fluctuation of speed caused by an over-sensitive governor?"
+    a: "Hunting."
+    simple: "Speed keeps going up and down, never settles."
+  - id: f16
+    topic: u4.governors
+    difficulty: 3
+    learn: "Effort of a governor: average force on the sleeve for a given change of speed. Power: work done at the sleeve for a given change of speed."
+    why: "These show how strongly the governor can move the controls."
+    q: "Mean force on the sleeve for a given speed change is called?"
+    a: "Effort of the governor."
+    simple: "How hard the governor can push."
+  - id: f17
+    topic: u4.governors
+    difficulty: 3
+    learn: "Controlling force: inward force on the balls that balances centrifugal force. A controlling force diagram tests stability."
+    why: "If the curve passes through the origin, the governor is isochronous."
+    q: "Force that balances the centrifugal force on governor balls?"
+    a: "Controlling force."
+    simple: "The inward pull that holds the balls."
+  - id: f18
+    topic: u4.governors
+    difficulty: 2
+    learn: "Inertia governor: works on the rate of change of speed (acceleration), so it reacts faster than a centrifugal governor."
+    why: "It senses change before speed itself shifts much."
+    q: "Which governor responds to rate of change of speed?"
+    a: "Inertia governor."
+    simple: "Feels the speed changing, not just the speed."
+  - id: f19
+    topic: u4.governors
+    difficulty: 2
+    learn: "Diesel fuel injection pumps have mechanical or electronic governors. Types: minimum-maximum speed governor and all-speed (variable speed) governor."
+    why: "They prevent stalling at idle and over-speeding."
+    q: "Governor used on a diesel truck to control idle and maximum speed only?"
+    a: "Minimum-maximum (idle and max speed) governor."
+    simple: "Stops stall at idle and runaway at top speed."
+  - id: sum
+    topic: u4.governors
+    type: summary
+    points:
+      - "Governor keeps speed steady by controlling fuel."
+      - "Watt (h = 895/N²), Porter (dead load), Proell, Hartnell (spring)."
+      - "Sensitiveness = (N₂−N₁)/N."
+      - "Isochronous = same speed at all radii → hunting."
+      - "Stability: one radius for each speed."
+
+  # ---------- Flywheel ----------
+  - id: f01
+    topic: u4.flywheel
+    difficulty: 1
+    learn: "A flywheel is a heavy wheel on the crankshaft that stores energy during the power stroke and gives it back during other strokes."
+    why: "This smooths the jerky turning effort of the engine."
+    q: "Main function of a flywheel?"
+    a: "Store and release energy to reduce speed fluctuation within a cycle."
+    simple: "It keeps the engine turning smoothly between power strokes."
+  - id: f02
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "Flywheel vs governor: the flywheel controls speed changes within one cycle; the governor controls mean speed over many cycles when load changes."
+    why: "Flywheel stores energy; governor controls fuel."
+    q: "Which controls speed variation within a single cycle?"
+    a: "Flywheel."
+    simple: "Flywheel smooths each cycle; governor handles load changes."
+  - id: f03
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "A flywheel has no control over fuel supply. A governor has no energy storage."
+    why: "They do different jobs, so engines need both."
+    q: "Does a flywheel control the fuel supply?"
+    a: "No."
+    simple: "Flywheel = energy bank. Governor = fuel tap."
+  - id: f04
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "Flywheel's other jobs in a car: carries the starter ring gear and provides the clutch friction face."
+    why: "It is the link between engine and clutch."
+    q: "Which gear is fitted on the flywheel rim?"
+    a: "Starter ring gear."
+    simple: "The starter motor turns the engine through the flywheel's teeth."
+  - id: f05
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "Fluctuation of speed = N₁ − N₂ (max − min speed in a cycle)."
+    why: "Speed rises in power stroke and falls in other strokes."
+    q: "Fluctuation of speed = ?"
+    a: "Max speed − min speed in a cycle."
+    simple: "How much speed goes up and down."
+  - id: f06
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "Coefficient of fluctuation of speed Cs = (N₁ − N₂) / N, where N = mean speed."
+    why: "It shows the fluctuation as a fraction of mean speed."
+    q: "Formula for coefficient of fluctuation of speed?"
+    a: "Cs = (N₁ − N₂)/N"
+    simple: "Speed swing ÷ average speed."
+  - id: f07
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "Fluctuation of energy ΔE = maximum energy − minimum energy in the flywheel during a cycle."
+    why: "It is found from the turning moment diagram."
+    q: "Maximum fluctuation of energy = ?"
+    a: "Max energy − min energy."
+    simple: "Biggest energy swing in one cycle."
+  - id: f08
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "Coefficient of fluctuation of energy Ce = maximum fluctuation of energy / work done per cycle."
+    why: "Compares the swing with total work."
+    q: "Coefficient of fluctuation of energy = ?"
+    a: "ΔE ÷ work done per cycle."
+    simple: "Energy swing ÷ total work."
+  - id: f09
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "Energy stored in a flywheel E = ½ I ω²."
+    why: "It is rotational kinetic energy."
+    q: "Energy stored in a flywheel?"
+    a: "½ I ω²"
+    simple: "Heavier and faster wheel stores more energy."
+  - id: f10
+    topic: u4.flywheel
+    difficulty: 3
+    learn: "Maximum fluctuation of energy ΔE = I ω² Cs = m k² ω² Cs."
+    why: "Linking energy swing with speed swing lets us size the flywheel."
+    q: "ΔE in terms of I, ω and Cs?"
+    a: "ΔE = Iω²Cs"
+    simple: "Flywheel size is chosen from this."
+  - id: f11
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "Moment of inertia I = m k² (k = radius of gyration). Rim-type flywheels put most mass at the rim."
+    why: "Mass far from the centre gives more inertia for less weight."
+    q: "Why do flywheels have heavy rims?"
+    a: "To get large moment of inertia with less weight."
+    simple: "Weight at the edge stores the most energy."
+  - id: f12
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "Turning moment (crank effort) diagram plots torque on the crankshaft against crank angle."
+    why: "Areas above and below mean torque give energy fluctuation."
+    q: "Diagram used to find flywheel energy fluctuation?"
+    a: "Turning moment diagram."
+    simple: "A torque graph over one cycle."
+  - id: f13
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "Single-cylinder and four-stroke engines need bigger flywheels than multi-cylinder engines."
+    why: "Fewer power strokes per turn means bigger speed swings."
+    q: "Which needs a heavier flywheel: single or multi-cylinder engine?"
+    a: "Single-cylinder."
+    simple: "Fewer bangs per turn → bigger flywheel."
+  - id: f14
+    topic: u4.flywheel
+    difficulty: 2
+    learn: "Flywheels are usually made of cast iron or cast steel."
+    why: "These are heavy, strong and cheap."
+    q: "Common material for flywheels?"
+    a: "Cast iron (or cast steel)."
+    simple: "Heavy cast metal."
+  - id: f15
+    topic: u4.flywheel
+    difficulty: 3
+    learn: "Dual-mass flywheel: two parts joined by springs to absorb engine vibration before it reaches the gearbox."
+    why: "Used in modern diesel cars to cut gear rattle."
+    q: "Flywheel with two masses joined by springs?"
+    a: "Dual-mass flywheel."
+    simple: "A flywheel with a shock absorber inside."
+  - id: sum
+    topic: u4.flywheel
+    type: summary
+    points:
+      - "Flywheel smooths speed in a cycle; governor controls mean speed."
+      - "Cs = (N₁ − N₂)/N."
+      - "Ce = ΔE / work per cycle."
+      - "E = ½Iω²; ΔE = Iω²Cs."
+      - "Single cylinder → bigger flywheel; carries ring gear."
+
+  # ---------- Gears ----------
+  - id: f01
+    topic: u4.gears
+    difficulty: 1
+    learn: "Gears are toothed wheels that pass motion and power from one shaft to another without slip."
+    why: "Teeth mesh positively, unlike belts."
+    q: "Why do gears give a positive drive?"
+    a: "Teeth mesh, so there is no slip."
+    simple: "Teeth lock together, so nothing slips."
+  - id: f02
+    topic: u4.gears
+    difficulty: 2
+    learn: "Gears for parallel shafts: spur, helical, herringbone (double helical)."
+    why: "Teeth are cut parallel or at an angle to the axis."
+    q: "Gear with straight teeth parallel to the axis?"
+    a: "Spur gear."
+    simple: "Spur = straight teeth."
+  - id: f03
+    topic: u4.gears
+    difficulty: 2
+    learn: "Helical gears have teeth cut at an angle. They run quieter and carry more load than spur gears but produce end thrust."
+    why: "Teeth engage gradually."
+    example: "Car gearboxes use helical gears for quiet running."
+    q: "Drawback of helical gears?"
+    a: "Axial (end) thrust."
+    simple: "Slanted teeth are quiet but push sideways."
+  - id: f04
+    topic: u4.gears
+    difficulty: 2
+    learn: "Herringbone (double helical) gears cancel end thrust by having two opposite helices."
+    why: "The two thrusts balance each other."
+    q: "Which gear cancels axial thrust?"
+    a: "Herringbone (double helical) gear."
+    simple: "Two slants in opposite ways cancel the push."
+  - id: f05
+    topic: u4.gears
+    difficulty: 2
+    learn: "Gears for intersecting shafts: bevel gears (straight, spiral, zerol). Mitre gears are bevel gears with equal size at 90°."
+    why: "Teeth are cut on a cone."
+    q: "Gears used when shafts intersect?"
+    a: "Bevel gears."
+    simple: "Cone-shaped gears turn the corner."
+  - id: f06
+    topic: u4.gears
+    difficulty: 2
+    learn: "Hypoid gears: like spiral bevel but the pinion axis is offset below the crown wheel axis. Used in rear axle differentials."
+    why: "The offset lowers the propeller shaft and floor."
+    q: "Gears used in most rear axle final drives?"
+    a: "Hypoid gears."
+    simple: "Offset bevel gears in the differential."
+  - id: f07
+    topic: u4.gears
+    difficulty: 2
+    learn: "Hypoid gears need special extreme-pressure (EP) gear oil."
+    why: "Teeth slide a lot under heavy pressure."
+    q: "Which oil is used for hypoid gears?"
+    a: "Extreme pressure (EP) gear oil."
+    simple: "Special thick oil for heavy-pressure teeth."
+  - id: f08
+    topic: u4.gears
+    difficulty: 2
+    learn: "Worm and worm wheel: for non-parallel, non-intersecting shafts at 90°. Gives very high speed reduction and is often self-locking."
+    why: "One turn of the worm moves the wheel by only one tooth (single start)."
+    example: "Steering gearboxes (worm and sector)."
+    q: "Which gear pair gives high reduction and self-locking?"
+    a: "Worm and worm wheel."
+    simple: "A screw turning a wheel slowly."
+  - id: f09
+    topic: u4.gears
+    difficulty: 2
+    learn: "Rack and pinion turns rotary motion into straight-line motion."
+    why: "The rack is a gear with infinite radius (flat)."
+    example: "Rack and pinion steering in cars."
+    q: "Which gear converts rotary motion to linear motion?"
+    a: "Rack and pinion."
+    simple: "A round gear moving a flat toothed bar."
+  - id: f10
+    topic: u4.gears
+    difficulty: 2
+    learn: "Pitch circle: imaginary circle on which two gears roll together without slip. Its diameter is the pitch circle diameter (PCD)."
+    why: "All gear calculations use it."
+    q: "Imaginary circle on which mating gears roll?"
+    a: "Pitch circle."
+    simple: "The rolling circle of a gear."
+  - id: f11
+    topic: u4.gears
+    difficulty: 2
+    learn: "Module m = pitch circle diameter / number of teeth (D/T), in mm."
+    why: "Gears that mesh must have the same module."
+    q: "Formula for module?"
+    a: "m = D/T"
+    simple: "Tooth size number."
+  - id: f12
+    topic: u4.gears
+    difficulty: 2
+    learn: "Circular pitch p = π D / T = π m. Diametral pitch P = T / D (teeth per inch)."
+    why: "Circular pitch is the distance from one tooth to the next along the pitch circle."
+    q: "Circular pitch in terms of module?"
+    a: "p = πm"
+    simple: "Gap between teeth along the circle."
+  - id: f13
+    topic: u4.gears
+    difficulty: 2
+    learn: "Addendum: tooth height above the pitch circle (= 1 module). Dedendum: depth below it (= 1.25 module)."
+    why: "Dedendum is larger to give clearance."
+    q: "Addendum of a standard gear tooth?"
+    a: "1 module."
+    simple: "Above the circle = addendum; below = dedendum."
+  - id: f14
+    topic: u4.gears
+    difficulty: 2
+    learn: "Clearance = dedendum − addendum. Backlash = gap between mating teeth on the pitch circle."
+    why: "Backlash allows for oil, heat expansion and errors."
+    q: "Play between mating teeth is called?"
+    a: "Backlash."
+    simple: "A small gap so teeth do not jam."
+  - id: f15
+    topic: u4.gears
+    difficulty: 2
+    learn: "Pressure angle: angle between the line of action and the common tangent to pitch circles. Standard: 20° (also 14.5°)."
+    why: "20° teeth are stronger."
+    q: "Standard pressure angle of gears?"
+    a: "20°"
+    simple: "The angle at which teeth push each other."
+  - id: f16
+    topic: u4.gears
+    difficulty: 2
+    learn: "Involute tooth profile is most common because centre distance can vary slightly without affecting the velocity ratio."
+    why: "Easy to make and tolerant of errors."
+    q: "Most common gear tooth profile?"
+    a: "Involute."
+    simple: "The standard curved tooth shape."
+  - id: f17
+    topic: u4.gears
+    difficulty: 2
+    learn: "Velocity ratio = N₁/N₂ = T₂/T₁ = D₂/D₁."
+    why: "Speeds are inversely proportional to tooth numbers."
+    example: "A 10-tooth pinion driving a 40-tooth gear: ratio 4:1; output is 4 times slower and 4 times the torque."
+    q: "Driver 20 teeth, driven 60 teeth: velocity ratio?"
+    a: "3 : 1"
+    simple: "Small gear spins fast, big gear spins slow."
+  - id: f18
+    topic: u4.gears
+    difficulty: 2
+    learn: "Two meshing external gears turn in opposite directions. An idler gear between them makes the driven gear turn the same way as the driver."
+    why: "Each mesh reverses direction."
+    example: "Reverse gear uses an idler."
+    q: "Purpose of an idler gear?"
+    a: "To change direction of rotation (without changing ratio)."
+    simple: "An extra gear in the middle flips the direction."
+  - id: f19
+    topic: u4.gears
+    difficulty: 2
+    learn: "Simple gear train: one gear on each shaft. Compound gear train: two or more gears on the same shaft."
+    why: "Compound trains give large ratios in small space."
+    q: "Gear train with two gears on one intermediate shaft?"
+    a: "Compound gear train."
+    simple: "Simple = one per shaft. Compound = two on a shaft."
+  - id: f20
+    topic: u4.gears
+    difficulty: 2
+    learn: "Train value = speed of last gear / speed of first gear = product of driver teeth / product of driven teeth."
+    why: "Multiply each stage's ratio."
+    q: "Train value of a compound train?"
+    a: "Product of driver teeth ÷ product of driven teeth."
+    simple: "Multiply the ratios of each pair."
+  - id: f21
+    topic: u4.gears
+    difficulty: 2
+    learn: "Reverted gear train: first and last gears are on the same axis."
+    why: "Used in lathes, clocks and car gearboxes (input and output in line)."
+    q: "Gear train where input and output shafts are co-axial?"
+    a: "Reverted gear train."
+    simple: "In and out on the same line."
+  - id: f22
+    topic: u4.gears
+    difficulty: 2
+    learn: "Epicyclic (planetary) gear train: sun gear, planet gears on a carrier, and an annulus (ring) gear. Some axes move."
+    why: "Gives several ratios in a compact unit."
+    example: "Automatic gearboxes and differentials use epicyclic trains."
+    q: "Three main members of an epicyclic gear train?"
+    a: "Sun gear, planet carrier (with planets), annulus (ring)."
+    simple: "Planets spinning around a sun inside a ring."
+  - id: f23
+    topic: u4.gears
+    difficulty: 2
+    learn: "Gear materials: case-hardened alloy steel for vehicle gears; cast iron for large slow gears; nylon/plastic for light quiet drives."
+    why: "Hard surface resists wear; tough core resists shock."
+    q: "Why are car gears case-hardened?"
+    a: "Hard wear-resistant surface with tough core."
+    simple: "Hard skin, tough inside."
+  - id: f24
+    topic: u4.gears
+    difficulty: 2
+    learn: "Interference: tip of one tooth digs into the root of the mating tooth. Happens when the pinion has too few teeth."
+    why: "Minimum teeth (about 17 for 20° full-depth) avoids it."
+    q: "What causes interference in gears?"
+    a: "Too few teeth on the pinion."
+    simple: "Small pinions' teeth dig into the other gear."
+  - id: s01
+    topic: u4.gears
+    type: steps
+    difficulty: 3
+    title: "Worked example: gear ratio and speed"
+    steps:
+      - text: "Question: A 15-tooth pinion at 1500 rpm drives a 45-tooth gear. Find gear speed."
+      - text: "N₂ = N₁ × T₁/T₂."
+        explain: "Speed is inversely proportional to teeth."
+      - text: "N₂ = 1500 × 15/45 = 500 rpm."
+      - text: "Ratio = 45/15 = 3 : 1, so torque is about 3 times."
+    summary:
+      - "N₁T₁ = N₂T₂."
+      - "More teeth → slower and more torque."
+    q: "Pinion 15 T at 1500 rpm, gear 45 T: gear speed?"
+    a: "500 rpm"
+  - id: sum
+    topic: u4.gears
+    type: summary
+    points:
+      - "Parallel: spur, helical, herringbone; intersecting: bevel; skew: worm, hypoid."
+      - "Module m = D/T; circular pitch = πm."
+      - "Addendum 1m, dedendum 1.25m, pressure angle 20°."
+      - "VR = T₂/T₁; idler reverses direction."
+      - "Simple, compound, reverted, epicyclic trains."
+
+  # ---------- Boilers ----------
+  - id: f01
+    topic: u4.boilers
+    difficulty: 1
+    learn: "A boiler (steam generator) is a closed vessel that turns water into steam using heat from fuel."
+    why: "Steam drives engines and turbines."
+    q: "What does a boiler do?"
+    a: "Converts water into steam."
+    simple: "A closed pot that makes steam."
+  - id: f02
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Fire tube boiler: hot gases pass through tubes surrounded by water. Water tube boiler: water flows inside tubes surrounded by hot gases."
+    why: "Water tube boilers handle higher pressure and make steam faster."
+    q: "Boiler where hot gases pass through tubes?"
+    a: "Fire tube boiler."
+    simple: "Fire in tubes, or water in tubes."
+  - id: f03
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Fire tube boilers: Cochran, Lancashire, Cornish, locomotive, Scotch marine. Water tube boilers: Babcock & Wilcox, Stirling, La Mont, Benson, Loeffler."
+    why: "PSC asks to classify named boilers."
+    q: "Is Babcock & Wilcox a fire tube or water tube boiler?"
+    a: "Water tube."
+    simple: "Cochran, Lancashire, locomotive = fire tube. Babcock & Wilcox = water tube."
+  - id: f04
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Lancashire boiler has two large fire tubes (flues). Cornish boiler has one."
+    why: "Two flues give more heating surface."
+    q: "How many fire tubes in a Lancashire boiler?"
+    a: "Two."
+    simple: "Cornish one, Lancashire two."
+  - id: f05
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Cochran boiler is a vertical, multi-tubular fire tube boiler. Locomotive boiler is a horizontal multi-tubular fire tube boiler."
+    why: "Both are compact for their output."
+    q: "Is a Cochran boiler vertical or horizontal?"
+    a: "Vertical."
+    simple: "Cochran stands up."
+  - id: f06
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Benson boiler is a supercritical, drum-less water tube boiler. La Mont is a forced circulation boiler."
+    why: "Above critical pressure water turns to steam without boiling."
+    q: "Which boiler works above critical pressure and has no drum?"
+    a: "Benson boiler."
+    simple: "Benson = no drum, very high pressure."
+  - id: f07
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Boiler mountings are fittings needed for safe working: safety valve, water level indicator, pressure gauge, fusible plug, steam stop valve, feed check valve, blow-off cock, manhole."
+    why: "The law requires them on every boiler."
+    q: "Are mountings needed for safety or efficiency?"
+    a: "Safety (and control)."
+    simple: "Mountings keep the boiler safe."
+  - id: f08
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Boiler accessories improve efficiency: economiser, superheater, air preheater, feed pump, injector, steam separator."
+    why: "They recover waste heat or improve steam."
+    q: "Is an economiser a mounting or accessory?"
+    a: "Accessory."
+    simple: "Accessories save fuel; mountings save lives."
+  - id: f09
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Safety valve releases steam when pressure goes above the safe limit. Types: dead weight, lever, spring loaded, high-steam low-water."
+    why: "Prevents boiler explosion."
+    q: "Mounting that prevents excess steam pressure?"
+    a: "Safety valve."
+    simple: "Lets out steam when pressure is too high."
+  - id: f10
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Fusible plug melts when the water level falls too low, letting steam put out the fire."
+    why: "Overheated, dry boiler plates could burst."
+    q: "Which mounting protects against low water level by melting?"
+    a: "Fusible plug."
+    simple: "A plug that melts to save a dry boiler."
+  - id: f11
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Economiser heats feed water using exhaust flue gases. Air preheater heats combustion air using flue gases."
+    why: "Both recover waste heat."
+    q: "Accessory that heats feed water with flue gases?"
+    a: "Economiser."
+    simple: "Use waste smoke heat to warm the water."
+  - id: f12
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Superheater heats saturated steam above its saturation temperature, making it dry and superheated."
+    why: "Superheated steam gives more work and less turbine erosion."
+    q: "Which accessory makes superheated steam?"
+    a: "Superheater."
+    simple: "Makes steam extra hot and dry."
+  - id: f13
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Feed check valve lets water into the boiler but stops it flowing back. Blow-off cock removes sludge from the bottom."
+    why: "Keeps water in and dirt out."
+    q: "Mounting used to remove sediment from a boiler?"
+    a: "Blow-off cock."
+    simple: "Drains the mud out."
+  - id: f14
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Steam engine parts: cylinder, piston, piston rod, crosshead, connecting rod, crank, slide valve, eccentric, flywheel, governor."
+    why: "Steam pushes the piston; crank turns this into rotation."
+    q: "Part connecting piston rod to connecting rod in a steam engine?"
+    a: "Crosshead."
+    simple: "Piston → piston rod → crosshead → connecting rod → crank."
+  - id: f15
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Steam engine working: the slide valve admits steam alternately to both sides of the piston (double acting), and the exhaust leaves from the other side."
+    why: "This gives two power strokes per revolution."
+    q: "What admits steam to the cylinder in a simple steam engine?"
+    a: "Slide valve (driven by an eccentric)."
+    simple: "A sliding valve sends steam to each side in turn."
+  - id: f16
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Steam engine is an external combustion, reciprocating engine. Its eccentric works like a small crank to move the slide valve."
+    why: "Fuel burns in the boiler, not in the cylinder."
+    q: "Is a steam engine internal or external combustion?"
+    a: "External combustion."
+    simple: "Fire is outside the cylinder."
+  - id: f17
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Wet steam contains water droplets. Dry saturated steam has no droplets. Dryness fraction = mass of dry steam / total mass."
+    why: "Wet steam carries less energy."
+    q: "Dryness fraction of dry saturated steam?"
+    a: "1"
+    simple: "1 = fully dry; less than 1 = wet."
+  - id: f18
+    topic: u4.boilers
+    difficulty: 2
+    learn: "Indian Boilers Act 1923 governs boiler registration and inspection in India. Boiler inspection is done by the Factories and Boilers Department."
+    why: "Boilers are dangerous pressure vessels."
+    q: "Which Act governs boilers in India?"
+    a: "Indian Boilers Act, 1923."
+    simple: "Boilers need a licence under the 1923 Act."
+  - id: sum
+    topic: u4.boilers
+    type: summary
+    points:
+      - "Fire tube: Cochran, Lancashire, locomotive. Water tube: Babcock & Wilcox, Benson."
+      - "Mountings (safety): safety valve, fusible plug, gauge, water level."
+      - "Accessories (efficiency): economiser, superheater, air preheater."
+      - "Steam engine: slide valve, eccentric, crosshead."
+      - "Dryness fraction 1 = dry steam."
+
+  # ---------- Materials ----------
+  - id: f01
+    topic: u4.materials
+    difficulty: 1
+    learn: "Ferrous metals contain iron (cast iron, steel). Non-ferrous metals do not (aluminium, copper, lead, tin, zinc)."
+    why: "Iron-based metals are strong but rust; non-ferrous ones are lighter or resist rust."
+    q: "Is aluminium ferrous or non-ferrous?"
+    a: "Non-ferrous."
+    simple: "Ferrous = has iron."
+  - id: f02
+    topic: u4.materials
+    difficulty: 2
+    learn: "Pig iron comes from the blast furnace. Cast iron has 2–4.5% carbon. Steel has up to about 2% carbon. Wrought iron is almost pure iron."
+    why: "Carbon content decides the type."
+    q: "Carbon content of cast iron?"
+    a: "About 2 to 4.5%."
+    simple: "More than 2% carbon = cast iron."
+  - id: f03
+    topic: u4.materials
+    difficulty: 2
+    learn: "Cast iron is brittle, cheap, easy to cast, good in compression, damps vibration and wears well. It is weak in tension."
+    why: "Graphite flakes inside act like tiny cracks."
+    example: "Cylinder blocks, brake drums, flywheels, manhole covers."
+    q: "Is cast iron strong in tension or compression?"
+    a: "Compression."
+    simple: "Cast iron takes squeezing, not pulling."
+  - id: f04
+    topic: u4.materials
+    difficulty: 2
+    learn: "Grey cast iron: carbon as graphite flakes, grey fracture. Most common; used for engine blocks and brake drums."
+    why: "Graphite gives good machinability and damping."
+    q: "Cast iron used for cylinder blocks?"
+    a: "Grey cast iron."
+    simple: "Grey CI = flakes of graphite."
+  - id: f05
+    topic: u4.materials
+    difficulty: 2
+    learn: "White cast iron: carbon as cementite (iron carbide). Very hard and brittle; white fracture. Used for wear parts."
+    why: "Fast cooling keeps carbon combined."
+    q: "Which cast iron contains cementite and is very hard?"
+    a: "White cast iron."
+    simple: "White CI = hard and brittle."
+  - id: f06
+    topic: u4.materials
+    difficulty: 2
+    learn: "Malleable cast iron: made by long heat treatment (annealing) of white cast iron. It is tougher and slightly ductile."
+    why: "Carbide changes to rounded graphite clumps."
+    q: "Malleable cast iron is made from which iron?"
+    a: "White cast iron (by annealing)."
+    simple: "Bake white CI to make it less brittle."
+  - id: f07
+    topic: u4.materials
+    difficulty: 2
+    learn: "Spheroidal graphite (SG) or ductile iron: graphite as spheres, made by adding magnesium or cerium. Strong and ductile."
+    why: "Round graphite does not act like cracks."
+    example: "Crankshafts, camshafts and steering knuckles."
+    q: "Element added to make SG (nodular) cast iron?"
+    a: "Magnesium (or cerium)."
+    simple: "Round graphite balls make CI tough."
+  - id: f08
+    topic: u4.materials
+    difficulty: 2
+    learn: "Chilled cast iron: surface cooled fast to make it hard white iron, while the core stays grey. Used for cams and rolls."
+    why: "Hard skin, tough inside."
+    q: "Cast iron with hard white surface and grey core?"
+    a: "Chilled cast iron."
+    simple: "Fast-cooled skin is hard."
+  - id: f09
+    topic: u4.materials
+    difficulty: 2
+    learn: "Steel is an alloy of iron and carbon with carbon up to about 2% (usually less than 1.5%)."
+    why: "Small carbon makes iron much stronger."
+    q: "Maximum carbon in steel?"
+    a: "About 2%."
+    simple: "Iron + a little carbon = steel."
+  - id: f10
+    topic: u4.materials
+    difficulty: 2
+    learn: "Plain carbon steels: dead mild (below 0.15% C), mild/low carbon (0.15–0.3%), medium carbon (0.3–0.6%), high carbon (0.6–1.5%)."
+    why: "More carbon = harder and stronger, but less ductile."
+    q: "Carbon range of medium carbon steel?"
+    a: "0.3 to 0.6%."
+    simple: "Low, medium, high carbon by percent."
+  - id: f11
+    topic: u4.materials
+    difficulty: 2
+    learn: "Mild steel uses: chassis frames, body panels, nuts, bolts, rivets, pipes."
+    why: "It is ductile, weldable and cheap."
+    q: "Steel commonly used for chassis frames and rivets?"
+    a: "Mild (low carbon) steel."
+    simple: "Mild steel is easy to bend and weld."
+  - id: f12
+    topic: u4.materials
+    difficulty: 2
+    learn: "Medium carbon steel uses: crankshafts, axles, connecting rods, gears. High carbon steel: springs, cutting tools, files."
+    why: "More carbon gives hardness for wear and springiness."
+    q: "Which carbon steel is used for leaf springs and tools?"
+    a: "High carbon steel."
+    simple: "High carbon = hard and springy."
+  - id: f13
+    topic: u4.materials
+    difficulty: 2
+    learn: "Steel designation in India (IS): e.g. C40 means plain carbon steel with 0.40% carbon (older: 40C8)."
+    why: "The number gives carbon in hundredths of a percent."
+    q: "Carbon content in C45 steel?"
+    a: "0.45%"
+    simple: "C number ÷ 100 = carbon %."
+  - id: f14
+    topic: u4.materials
+    difficulty: 2
+    learn: "Iron–carbon diagram phases: ferrite (soft), cementite (hard), pearlite (ferrite + cementite layers), austenite (high-temperature phase), martensite (very hard, from quenching)."
+    why: "Heat treatment changes these phases."
+    q: "Hardest phase formed by quenching steel?"
+    a: "Martensite."
+    simple: "Quench it fast and it turns very hard."
+  - id: f15
+    topic: u4.materials
+    difficulty: 2
+    learn: "Eutectoid steel has 0.8% carbon and is fully pearlite. Below 0.8% = hypo-eutectoid; above = hyper-eutectoid."
+    why: "0.8% is the special point on the iron–carbon diagram (at 723°C)."
+    q: "Carbon percentage of eutectoid steel?"
+    a: "0.8%"
+    simple: "0.8% carbon = all pearlite."
+  - id: f16
+    topic: u4.materials
+    difficulty: 2
+    learn: "Heat treatment: heating and cooling a metal in a controlled way to change its properties."
+    why: "It can make steel softer, harder or tougher."
+    q: "Define heat treatment."
+    a: "Controlled heating and cooling to change properties of metal."
+    simple: "Cook and cool metal to change how it behaves."
+  - id: f17
+    topic: u4.materials
+    difficulty: 2
+    learn: "Purposes of heat treatment: relieve stresses, soften for machining, harden for wear, improve toughness, refine grain."
+    why: "Each job needs different properties."
+    q: "Give two purposes of heat treatment."
+    a: "Harden, soften, relieve stress, refine grain, improve toughness."
+    simple: "To make metal harder, softer or tougher."
+  - id: f18
+    topic: u4.materials
+    difficulty: 2
+    learn: "Annealing: heat steel above the critical temperature, hold, then cool very slowly in the furnace. Makes it soft and ductile."
+    why: "Slow cooling gives soft, coarse pearlite."
+    q: "Heat treatment with very slow furnace cooling?"
+    a: "Annealing."
+    simple: "Heat and cool slowly → soft."
+  - id: f19
+    topic: u4.materials
+    difficulty: 2
+    learn: "Normalising: heat above critical temperature, then cool in still air. Gives fine grain and uniform structure."
+    why: "Air cooling is faster than furnace cooling."
+    q: "Heat treatment with cooling in still air?"
+    a: "Normalising."
+    simple: "Heat and let it cool in air → even grain."
+  - id: f20
+    topic: u4.materials
+    difficulty: 2
+    learn: "Hardening: heat steel above critical temperature, then quench quickly in water or oil. Makes it very hard but brittle."
+    why: "Fast cooling forms martensite."
+    q: "Quenching hot steel in water or oil is called?"
+    a: "Hardening."
+    simple: "Heat and dunk → hard."
+  - id: f21
+    topic: u4.materials
+    difficulty: 2
+    learn: "Tempering: reheat hardened steel to a lower temperature (below critical) and cool. Reduces brittleness, adds toughness."
+    why: "It relieves stresses from quenching."
+    q: "What is done after hardening to reduce brittleness?"
+    a: "Tempering."
+    simple: "Warm it again a little to make it less brittle."
+  - id: f22
+    topic: u4.materials
+    difficulty: 2
+    learn: "Case hardening (surface hardening) makes a hard outer case with a tough core. Methods: carburising, nitriding, cyaniding, carbonitriding, flame hardening, induction hardening."
+    why: "Gears and camshafts need wear-resistant skin and shock-resistant core."
+    q: "Name two case hardening methods."
+    a: "Carburising, nitriding (also cyaniding, induction, flame)."
+    simple: "Hard skin, soft tough heart."
+  - id: f23
+    topic: u4.materials
+    difficulty: 2
+    learn: "Carburising adds carbon to the surface of low carbon steel at high temperature, then it is hardened."
+    why: "Low carbon steel cannot be hardened unless carbon is added."
+    q: "Case hardening by adding carbon to the surface?"
+    a: "Carburising."
+    simple: "Soak the surface in carbon."
+  - id: f24
+    topic: u4.materials
+    difficulty: 2
+    learn: "Nitriding adds nitrogen to the surface using ammonia gas at about 500°C. No quenching is needed."
+    why: "Nitrides formed are very hard."
+    q: "Which case hardening uses ammonia gas?"
+    a: "Nitriding."
+    simple: "Nitrogen skin, no quench."
+  - id: f25
+    topic: u4.materials
+    difficulty: 2
+    learn: "Cyaniding adds both carbon and nitrogen using a molten cyanide salt bath."
+    why: "Gives a thin, hard case quickly."
+    q: "Case hardening in a molten sodium cyanide bath?"
+    a: "Cyaniding."
+    simple: "A salt bath gives carbon and nitrogen."
+  - id: f26
+    topic: u4.materials
+    difficulty: 2
+    learn: "Induction and flame hardening heat only the surface quickly, then quench. Used for crankshaft journals and gear teeth."
+    why: "Only the skin reaches hardening temperature."
+    q: "Hardening using high-frequency electric current?"
+    a: "Induction hardening."
+    simple: "Heat just the skin and quench."
+  - id: f27
+    topic: u4.materials
+    difficulty: 2
+    learn: "Alloy steel contains added elements such as nickel, chromium, manganese, molybdenum, vanadium, tungsten, silicon."
+    why: "Each element adds a special property."
+    q: "What is alloy steel?"
+    a: "Steel with extra alloying elements (Ni, Cr, Mo, V…)."
+    simple: "Steel with added spices."
+  - id: f28
+    topic: u4.materials
+    difficulty: 2
+    learn: "Nickel: toughness and strength. Chromium: hardness and corrosion resistance. Manganese: strength, hardness, removes sulphur effect."
+    why: "Know which element gives which property."
+    q: "Which element gives corrosion resistance to steel?"
+    a: "Chromium."
+    simple: "Chromium stops rust; nickel adds toughness."
+  - id: f29
+    topic: u4.materials
+    difficulty: 2
+    learn: "Molybdenum: strength at high temperature. Vanadium: fatigue strength and fine grain. Tungsten: hardness at red heat (tools). Silicon: springiness, magnetic properties."
+    why: "PSC often asks element-property pairs."
+    q: "Element giving red hardness to high speed steel?"
+    a: "Tungsten."
+    simple: "Tungsten keeps tools hard when hot."
+  - id: f30
+    topic: u4.materials
+    difficulty: 2
+    learn: "Stainless steel has at least 10.5% chromium (typical 18% Cr + 8% Ni, '18/8')."
+    why: "Chromium forms a thin oxide layer that blocks rust."
+    example: "Exhaust tail pipes and trims."
+    q: "Composition of 18/8 stainless steel?"
+    a: "18% chromium, 8% nickel."
+    simple: "Chromium + nickel = stainless."
+  - id: f31
+    topic: u4.materials
+    difficulty: 2
+    learn: "High speed steel (HSS) 18-4-1: 18% tungsten, 4% chromium, 1% vanadium. Used for cutting tools and drills."
+    why: "It stays hard at high cutting temperatures."
+    q: "Composition of 18-4-1 HSS?"
+    a: "18% W, 4% Cr, 1% V."
+    simple: "Tool steel with lots of tungsten."
+  - id: f32
+    topic: u4.materials
+    difficulty: 2
+    learn: "Exhaust valve steel: silchrome (silicon-chromium) or austenitic stainless steel (21-4N). Inlet valves: plain chromium or nickel-chrome steel."
+    why: "Exhaust valves face red heat and corrosive gases."
+    q: "Common steel for exhaust valves?"
+    a: "Silchrome or austenitic stainless (21-4N)."
+    simple: "Exhaust valves need heat-proof steel."
+  - id: f33
+    topic: u4.materials
+    difficulty: 2
+    learn: "Nickel-chrome-molybdenum steels are used for crankshafts, connecting rods, axle shafts and highly stressed gears."
+    why: "They combine strength, toughness and fatigue resistance."
+    q: "Alloy steel group used for crankshafts?"
+    a: "Nickel-chromium-molybdenum steel."
+    simple: "Ni-Cr-Mo for heavily loaded shafts."
+  - id: f34
+    topic: u4.materials
+    difficulty: 2
+    learn: "Invar (36% nickel steel) hardly expands with heat. Used in precision instruments and some piston struts."
+    why: "Its expansion coefficient is very low."
+    q: "Nickel steel with almost zero thermal expansion?"
+    a: "Invar."
+    simple: "Invar does not grow when hot."
+  - id: f35
+    topic: u4.materials
+    difficulty: 2
+    learn: "Aluminium: light (density 2.7 g/cm³, one-third of steel), conducts heat well, resists corrosion. Used for pistons, cylinder heads, alloy wheels, radiators."
+    why: "Saves weight and removes heat."
+    q: "Why are pistons made of aluminium alloy?"
+    a: "Light weight and good heat conduction."
+    simple: "Aluminium is light and cools fast."
+  - id: f36
+    topic: u4.materials
+    difficulty: 2
+    learn: "Duralumin: aluminium with about 4% copper, plus manganese and magnesium. Strong and light; used in aircraft and vehicle body parts."
+    why: "Age hardening gives it high strength."
+    q: "Main alloying element in duralumin?"
+    a: "Copper (about 4%)."
+    simple: "Aluminium + copper = duralumin."
+  - id: f37
+    topic: u4.materials
+    difficulty: 2
+    learn: "Y-alloy: aluminium with copper, nickel and magnesium. Keeps strength at high temperature; used for pistons and cylinder heads."
+    why: "Nickel helps strength when hot."
+    q: "Aluminium alloy used for pistons with nickel?"
+    a: "Y-alloy."
+    simple: "Y-alloy pistons stay strong when hot."
+  - id: f38
+    topic: u4.materials
+    difficulty: 2
+    learn: "Brass = copper + zinc. Bronze = copper + tin. Gun metal = copper + tin + zinc."
+    why: "PSC asks alloy compositions very often."
+    q: "Composition of brass?"
+    a: "Copper and zinc."
+    simple: "Brass: Cu + Zn. Bronze: Cu + Sn."
+  - id: f39
+    topic: u4.materials
+    difficulty: 2
+    learn: "Phosphor bronze (copper + tin + a little phosphorus) is used for bearings, bushes, worm wheels and springs."
+    why: "It resists wear and corrosion."
+    q: "Alloy used for gudgeon pin bushes and worm wheels?"
+    a: "Phosphor bronze."
+    simple: "Bronze with phosphorus for bushes."
+  - id: f40
+    topic: u4.materials
+    difficulty: 2
+    learn: "Babbitt (white metal): tin + antimony + copper (or lead base). Used for bearing linings."
+    why: "Soft, low-friction and embeds dirt."
+    q: "Main metal in tin-based babbitt?"
+    a: "Tin."
+    simple: "Soft bearing metal."
+  - id: f41
+    topic: u4.materials
+    difficulty: 2
+    learn: "Solder (soft solder) = tin + lead. Used to join radiator tubes and electrical wires."
+    why: "Low melting point."
+    q: "Composition of soft solder?"
+    a: "Tin and lead."
+    simple: "Tin + lead melts easily."
+  - id: f42
+    topic: u4.materials
+    difficulty: 2
+    learn: "Copper: excellent conductor of heat and electricity. Used in wiring, radiator cores, starter and alternator windings."
+    why: "Second only to silver in conductivity."
+    q: "Metal used for vehicle wiring?"
+    a: "Copper."
+    simple: "Copper carries current best for its cost."
+  - id: f43
+    topic: u4.materials
+    difficulty: 2
+    learn: "Lead: heavy and soft. Used in batteries (lead-acid plates) and wheel balancing weights."
+    why: "Lead reacts with sulphuric acid to store charge."
+    q: "Metal used in car battery plates?"
+    a: "Lead."
+    simple: "Lead-acid battery uses lead."
+  - id: f44
+    topic: u4.materials
+    difficulty: 2
+    learn: "Zinc is used for galvanising — coating steel to prevent rust."
+    why: "Zinc corrodes first and protects the steel (sacrificial)."
+    q: "Coating steel with zinc is called?"
+    a: "Galvanising."
+    simple: "A zinc coat stops rust."
+  - id: f45
+    topic: u4.materials
+    difficulty: 2
+    learn: "Magnesium alloys are the lightest structural metals (density about 1.7 g/cm³). Used for gearbox housings and racing wheels."
+    why: "Even lighter than aluminium."
+    q: "Lightest structural metal used in vehicles?"
+    a: "Magnesium."
+    simple: "Magnesium is lighter than aluminium."
+  - id: f46
+    topic: u4.materials
+    difficulty: 2
+    learn: "Effect of sulphur in steel: red shortness (brittleness when hot). Phosphorus: cold shortness (brittle when cold)."
+    why: "Both are harmful impurities."
+    q: "Which impurity causes cold shortness in steel?"
+    a: "Phosphorus."
+    simple: "Sulphur → hot brittle. Phosphorus → cold brittle."
+  - id: f47
+    topic: u4.materials
+    difficulty: 2
+    learn: "Plastics and composites in vehicles: bumpers (polypropylene), dashboards (ABS, PVC), fuel tanks (HDPE), leaf springs and body panels (FRP)."
+    why: "They are light, rust-free and easy to mould."
+    q: "Plastic commonly used for bumpers?"
+    a: "Polypropylene."
+    simple: "Plastics save weight and never rust."
+  - id: f48
+    topic: u4.materials
+    difficulty: 2
+    learn: "Thermoplastics soften on heating and can be remoulded (PVC, polythene, nylon). Thermosetting plastics set permanently (Bakelite, epoxy)."
+    why: "Thermosets form cross-links that do not melt."
+    q: "Is Bakelite thermoplastic or thermosetting?"
+    a: "Thermosetting."
+    simple: "Thermoplastic re-melts; thermoset does not."
+  - id: sum
+    topic: u4.materials
+    type: summary
+    points:
+      - "CI 2–4.5% C: grey, white, malleable, SG, chilled."
+      - "Steel: mild < 0.3%, medium 0.3–0.6%, high 0.6–1.5% C."
+      - "Anneal (slow), normalise (air), harden (quench), temper (reheat)."
+      - "Case hardening: carburising, nitriding, cyaniding, induction."
+      - "Brass Cu+Zn; bronze Cu+Sn; duralumin Al+Cu; 18/8 stainless."
+
+mcq:
+  - topic: u4.governors
+    q: "A governor is said to be isochronous when"
+    options: ["Speed range is large", "Equilibrium speed is the same for all radii", "It hunts at low speed only", "It has a spring"]
+    answer: 1
+    explain: "An isochronous governor has the same equilibrium speed at all radii of rotation."
+    covers: [f14]
+  - topic: u4.flywheel
+    q: "The function of a flywheel is to"
+    options: ["Keep mean speed constant when load changes", "Reduce speed fluctuations within a cycle", "Control fuel supply", "Increase engine power"]
+    answer: 1
+    explain: "A flywheel stores and releases energy to smooth speed within a cycle."
+    covers: [f01]
+  - topic: u4.gears
+    q: "Gears used to connect non-intersecting, non-parallel shafts with high speed reduction are"
+    options: ["Spur gears", "Bevel gears", "Worm gears", "Helical gears"]
+    answer: 2
+    explain: "Worm and worm wheel give high reduction between skew shafts."
+    covers: [f08]
+  - topic: u4.boilers
+    q: "Which of these is a boiler accessory (not a mounting)?"
+    options: ["Safety valve", "Fusible plug", "Economiser", "Pressure gauge"]
+    answer: 2
+    explain: "Economiser is an accessory that improves efficiency."
+    covers: [f08]
+  - topic: u4.materials
+    q: "Brass is an alloy of"
+    options: ["Copper and tin", "Copper and zinc", "Copper and nickel", "Aluminium and copper"]
+    answer: 1
+    explain: "Brass = copper + zinc; bronze = copper + tin."
+    covers: [f38]
+  - topic: u4.materials
+    q: "Heat treatment in which steel is cooled in still air is"
+    options: ["Annealing", "Normalising", "Hardening", "Tempering"]
+    answer: 1
+    explain: "Normalising cools steel in still air for fine uniform grain."
+    covers: [f19]

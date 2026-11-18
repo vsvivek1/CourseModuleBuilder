@@ -1,0 +1,411 @@
+paper:
+  id: mtsi2020
+  exam: "Motor Transport Sub Inspector (Trainee), Police Motor Transport Wing"
+  cat: "013/2016"
+  code: "10/2020/OL"
+  date: "2020-09-04"
+  key_url: "https://www.keralapsc.gov.in/sites/default/files/2020-09/KEY.pdf"
+  key_source: "PSC provisional answer key 10/2020/OL (alpha code A)"
+
+skipped:
+  - {n: "1-11", why: "Computer, IT Act and general knowledge — not in AMVI syllabus"}
+  - {n: "18, 68, 69", why: "Horn and head-lamp circuits — not in AMVI syllabus list"}
+  - {n: "19", why: "State speed-limit notification changes often — not a syllabus item"}
+  - {n: "21-23, 25, 27, 30, 33-37, 41, 42, 44, 45", why: "Welding, refrigeration, production, SOM topics outside the AMVI list"}
+  - {n: "82, 85-87", why: "Transport planning terms not in AMVI syllabus"}
+  - {n: "91-100", why: "Indian constitution / general knowledge — not in AMVI syllabus"}
+
+questions:
+  - n: 12
+    topic: law.offences
+    q: "Fine for driving a vehicle without valid insurance (first offence)?"
+    options: ["Rs 5,000", "Rs 10,000", "Rs 500", "Rs 2,000"]
+    key: D
+    learn: "Section 196: driving an uninsured vehicle — first offence up to 3 months jail and/or Rs 2,000; repeat Rs 4,000."
+    why: "Insurance protects accident victims, so driving without it is punished."
+  - n: 13
+    topic: u8.mvact_basics
+    q: "Validity of temporary registration of a new vehicle?"
+    options: ["30 days", "14 days", "7 days", "31 days"]
+    key: A
+    learn: "Temporary registration (Section 43) is valid for one month (30 days)."
+    why: "It covers the time until permanent registration is done."
+  - n: 14
+    topic: u8.pollution
+    q: "The EGR valve helps reduce?"
+    options: ["Noise", "Emission (NOx)", "Vibration", "Air intake"]
+    key: B
+    learn: "EGR (exhaust gas recirculation) sends some exhaust back into the intake to lower combustion temperature and cut NOx."
+    why: "NOx forms at very high flame temperatures."
+  - n: 15
+    topic: u6.axle
+    q: "Distance between the centre lines of front and rear axles is?"
+    options: ["Wheel track", "Wheel base", "Tyre width", "Body width"]
+    key: B
+    learn: "Wheel base = distance between front and rear axle centres."
+    why: "Long wheel base = smoother ride, larger turning circle."
+  - n: 16
+    topic: u8.mvact_basics
+    q: "Number plates of electric transport vehicles?"
+    options: ["Black on yellow", "Black on white", "White on green", "Yellow on green"]
+    key: D
+    learn: "Electric transport vehicles: yellow letters on green background. Private EVs: white letters on green."
+    why: "Green means electric; yellow letters mean commercial."
+  - n: 17
+    topic: u8.insurance
+    q: "MACT deals with?"
+    options: ["Fitness test", "Driving test", "Accident claims", "Vision test"]
+    key: C
+    learn: "MACT = Motor Accidents Claims Tribunal. It decides compensation claims for road accidents (Chapter XII of MV Act)."
+    why: "A special tribunal settles claims faster than ordinary courts."
+  - n: 20
+    topic: law.traffic
+    q: "Over-speeding violates which section of the MV Act, 1988?"
+    options: ["120", "113", "112", "115"]
+    key: C
+    learn: "Section 112: limits of speed. Driving above the speed limit violates it (penalty under Section 183)."
+    why: "112 sets the limit, 183 punishes the breach."
+  - n: 24
+    topic: u1.machines
+    q: "A centrifugal pump delivers only when the pressure rise in the impeller equals the?"
+    options: ["Kinetic head", "Velocity head", "Manometric head", "Static head"]
+    key: C
+    learn: "A centrifugal pump starts delivering only when the pressure rise in the impeller equals or exceeds the manometric head."
+    why: "Manometric head is the total head the pump must overcome."
+  - n: 26
+    topic: u1.pressure
+    q: "A tank holds water 1.3 m deep. Water force on a side wall per metre length?"
+    options: ["2.89 kN", "8.29 kN", "9.28 kN", "28.9 kN"]
+    key: B
+    learn: "Force on a vertical wall per metre = ρgh²/2 = 1000 × 9.81 × 1.3² / 2 ≈ 8.29 kN."
+    why: "Pressure rises from 0 at the top to ρgh at the bottom; average is half."
+  - n: 28
+    topic: u4.materials
+    q: "Shock-resisting steels should have?"
+    options: ["Low wear resistance", "Low hardness", "Low tensile strength", "Toughness"]
+    key: D
+    learn: "Shock-resisting steels must be tough — able to absorb impact energy without breaking."
+    why: "Toughness = strength + ductility together."
+  - n: 29
+    topic: u4.materials
+    q: "Eutectoid steel consists of?"
+    options: ["Wholly pearlite", "Wholly austenite", "Pearlite and ferrite", "Pearlite and cementite"]
+    key: A
+    learn: "Eutectoid steel (about 0.8% carbon) is 100% pearlite at room temperature."
+    why: "Below 0.8% C you also get ferrite; above it, cementite."
+  - n: 31
+    topic: u4.materials
+    q: "Carbon content of cast iron varies from?"
+    options: ["0.1–0.5%", "0.5–1%", "1–1.7%", "1.7–4.5%"]
+    key: D
+    learn: "Cast iron has about 1.7% to 4.5% carbon. Steel has less than about 1.7%."
+    why: "High carbon makes cast iron hard and brittle but easy to cast."
+  - n: 32
+    topic: u3.friction
+    q: "Static friction is always ___ dynamic friction."
+    options: ["Equal to", "Less than", "Greater than", "None"]
+    key: C
+    learn: "Static (limiting) friction is greater than dynamic (kinetic) friction."
+    why: "It is harder to start moving a box than to keep it moving."
+  - n: 38
+    topic: u1.machines
+    q: "Purpose of a draft tube in a reaction turbine?"
+    options: ["Carry water downstream without eddies", "Convert kinetic energy to pressure energy by gradual expansion", "Safety", "Increase flow"]
+    key: B
+    learn: "A draft tube is a widening pipe at the turbine outlet; it recovers kinetic energy as pressure energy."
+    why: "It also lets the turbine be placed above tail water without losing head."
+  - n: 39
+    topic: u2.engines
+    q: "A four-cylinder engine has 2.4 litre capacity. Swept volume of one cylinder?"
+    options: ["400 cc", "600 cc", "1200 cc", "2400 cc"]
+    key: B
+    learn: "Swept volume per cylinder = engine capacity / number of cylinders = 2400 / 4 = 600 cc."
+    why: "Engine capacity is the total swept volume of all cylinders."
+  - n: 40
+    topic: u1.flow
+    q: "Coefficient of contraction is the ratio of?"
+    options: ["Actual velocity / theoretical velocity", "Head loss / head", "Actual / theoretical discharge", "Area at vena contracta / area of orifice"]
+    key: D
+    learn: "Cc = area of jet at vena contracta / area of orifice. Cv = actual/theoretical velocity. Cd = Cc × Cv."
+    why: "The jet narrows just after the orifice — the vena contracta."
+  - n: 43
+    topic: u1.machines
+    q: "Mechanical efficiency of an impulse turbine is?"
+    options: ["Power produced / energy supplied", "Power at shaft / power given to the wheel", "Work on wheel / jet energy", "None"]
+    key: B
+    learn: "Mechanical efficiency = shaft power ÷ power delivered by water to the runner."
+    why: "It measures loss in bearings and friction inside the turbine."
+  - n: 46
+    topic: u2.cycles
+    q: "Cycle with one constant-pressure, one constant-volume and two isentropic processes?"
+    options: ["Diesel", "Stirling", "Otto", "Carnot"]
+    key: A
+    learn: "Diesel cycle: isentropic compression, constant-pressure heat addition, isentropic expansion, constant-volume heat rejection."
+    why: "Otto adds heat at constant volume; Diesel adds it at constant pressure."
+  - n: 47
+    topic: u2.process
+    q: "Heat needed to raise unit mass of gas by one degree at constant volume is?"
+    options: ["Cv", "Cp", "Kilojoule", "None"]
+    key: A
+    learn: "Specific heat at constant volume (Cv) = heat to raise 1 kg by 1 °C at constant volume. Cp > Cv."
+    why: "At constant pressure the gas also does work expanding, so it needs more heat."
+  - n: 48
+    topic: u2.process
+    q: "In an adiabatic process?"
+    options: ["No heat enters or leaves", "Gas temperature changes", "Change in internal energy = work done", "All of these"]
+    key: D
+    a: "All of these."
+    learn: "Adiabatic: no heat transfer; temperature changes; change in internal energy equals work done."
+    why: "With Q = 0, the first law gives ΔU = −W."
+  - n: 49
+    topic: u2.engines
+    q: "Compression ratio of a petrol engine?"
+    options: ["3–6", "5–8", "15–20", "20–30"]
+    key: B
+    learn: "Petrol (SI) engines: compression ratio about 6–10 (older textbooks say 5–8). Diesel: 15–22."
+    why: "Too high a ratio makes petrol knock."
+  - n: 50
+    topic: u4.boilers
+    q: "In a boiler water-level gauge glass, the other end of the tube connects to?"
+    options: ["Water space", "Chimney", "Steam space", "Superheater"]
+    key: C
+    learn: "A water-level gauge glass connects at the bottom to the water space and at the top to the steam space."
+    why: "Pressure is equal at both ends, so the glass shows the true water level."
+  - n: 51
+    topic: u2.engines
+    q: "Swept volume of all cylinders together is called?"
+    options: ["Compression ratio", "Piston displacement", "Engine capacity", "Total volume"]
+    key: C
+    learn: "Engine capacity (cubic capacity) = swept volume of all cylinders together."
+    why: "That is the 'cc' number on vehicles."
+  - n: 52
+    topic: u5.block
+    q: "Ovality and taper are measured for?"
+    options: ["Head lamp", "Engine cylinders", "Starter motors", "Batteries"]
+    key: B
+    learn: "Cylinder bore ovality and taper are measured with a bore gauge to check wear."
+    why: "Rings wear the bore unevenly; too much wear needs reboring."
+  - n: 53
+    topic: u5.cooling
+    q: "An antifreeze solution is used as?"
+    options: ["Coolant", "Lubricant", "Electrolyte", "Brake fluid"]
+    key: A
+    learn: "Antifreeze mixed with water is used as engine coolant."
+    why: "It stops the coolant freezing and boiling."
+  - n: 54
+    topic: u5.dieselfuel
+    q: "Pump and injector combined in one unit — which system?"
+    options: ["Unit injector", "Jerk pump", "Common rail", "Distributor"]
+    key: A
+    learn: "In a unit injector system, the pump and injector are one unit at each cylinder."
+    why: "No high-pressure pipe is needed, so very high pressure is possible."
+  - n: 55
+    topic: u2.engines
+    q: "Closing of a valve after TDC or BDC is called?"
+    options: ["Valve lead", "Valve lash", "Valve overlap", "Valve lag"]
+    key: D
+    learn: "Valve lag = valve closes after dead centre. Valve lead = opens before. Overlap = both valves open together."
+    why: "Gas has inertia, so valves open early and close late."
+  - n: 56
+    topic: u5.piston
+    q: "Plastigauge is used to measure?"
+    options: ["Toe-in", "Bearing clearance", "Torque", "Engine speed"]
+    key: B
+    learn: "Plastigauge (a soft plastic thread) measures crankshaft and connecting-rod bearing oil clearance."
+    why: "It flattens when the bearing cap is tightened; its width shows the gap."
+  - n: 57
+    topic: u5.piston
+    q: "The main purpose of the harmonic balancer is to control?"
+    options: ["Noise", "Emission", "Steering stability", "Torsional vibrations"]
+    key: D
+    learn: "The harmonic balancer (vibration damper) on the crankshaft front end reduces torsional vibration."
+    why: "Power pulses twist the crankshaft; the damper absorbs this."
+  - n: 58
+    topic: u5.piston
+    q: "Which is NOT a part of the crankshaft?"
+    options: ["Shank", "Main journal", "Crank web", "Counter weight"]
+    key: A
+    learn: "Crankshaft parts: main journals, crankpins, webs, counterweights. 'Shank' belongs to the connecting rod."
+    why: "The connecting rod has small end, shank and big end."
+  - n: 59
+    topic: u5.block
+    q: "Rapid movement of air from the cylinder edges to the centre at the end of compression is?"
+    options: ["Scavenging", "Squish", "Swirl", "Blow-by"]
+    key: B
+    learn: "Squish is the inward rush of mixture as the piston comes close to the head near TDC."
+    why: "It creates turbulence for faster burning."
+  - n: 60
+    topic: u8.pollution
+    q: "Which metal is NOT used in a catalytic converter?"
+    options: ["Platinum", "Chromium", "Palladium", "Rhodium"]
+    key: B
+    learn: "Catalytic converters use platinum, palladium and rhodium — not chromium."
+    why: "These precious metals speed up the reactions that clean exhaust."
+  - n: 61
+    topic: u7.driveline
+    q: "In a Hotchkiss drive, torque reaction is taken by?"
+    options: ["Propeller shaft", "Frame", "Leaf springs", "Axle casing"]
+    key: C
+    learn: "In a Hotchkiss drive, the leaf springs take driving thrust and torque reaction."
+    why: "No torque tube is used, so the springs do this job."
+  - n: 62
+    topic: u7.clutch
+    q: "The clutch release bearing is also called?"
+    options: ["Main bearing", "Roller bearing", "Throw-out bearing", "Bush bearing"]
+    key: C
+    learn: "The clutch release bearing is also called the throw-out bearing."
+    why: "It pushes the pressure plate fingers when the pedal is pressed."
+  - n: 63
+    topic: u8.accessories
+    q: "System that holds a steady speed so the driver can take the foot off the accelerator?"
+    options: ["Cruise control", "All-wheel drive", "Viscous coupling", "CVT"]
+    key: A
+    learn: "Cruise control keeps the vehicle at a set speed without the driver pressing the accelerator."
+    why: "It reduces fatigue on long highway drives."
+  - n: 64
+    topic: u7.gearbox
+    q: "Paddle shift is used in which gearbox?"
+    options: ["Synchromesh", "Sliding mesh", "Constant mesh", "Sequential"]
+    key: D
+    learn: "Paddle shifters behind the steering wheel are used with sequential (and automated) gearboxes."
+    why: "Sequential boxes change one gear up or down at a time."
+  - n: 65
+    topic: u6.brakes
+    q: "'Fading' is a complaint of?"
+    options: ["Brakes", "Steering", "Head light", "Tyres"]
+    key: A
+    learn: "Brake fade is loss of braking power when brakes become very hot, e.g. on long downhill runs."
+    why: "Hot linings lose friction."
+  - n: 66
+    topic: u6.suspension
+    q: "A 'shackle' is part of the?"
+    options: ["Air brake system", "Steering system", "Leaf spring assembly", "Wheels"]
+    key: C
+    learn: "The shackle is part of the leaf spring assembly; it lets the spring length change."
+    why: "A bending leaf spring changes length."
+  - n: 67
+    topic: u2.engines
+    q: "An SI engine that keeps running for a while after the ignition is switched off is said to be?"
+    options: ["After-burning", "Ignition load", "Dieseling (run-on)", "Spark advance"]
+    key: C
+    learn: "Dieseling (run-on): an SI engine keeps firing after switch-off, due to hot spots or carbon igniting the mixture."
+    why: "The mixture self-ignites like in a diesel engine."
+  - n: 70
+    topic: u7.ignition
+    q: "The ballast resistor in an ignition system helps?"
+    options: ["Cold starting", "Make high voltage", "Break the primary circuit", "Reduce arcing"]
+    key: A
+    learn: "The ballast resistor is bypassed during cranking, giving full battery voltage to the coil for easier cold starting."
+    why: "Battery voltage drops while cranking; bypassing the resistor makes up for it."
+  - n: 71
+    topic: u7.ignition
+    q: "The length of the threaded part of a spark plug is called?"
+    options: ["Shell", "Ceramic insulator", "Reach", "Core nose"]
+    key: C
+    learn: "Spark plug 'reach' is the length of its threaded part."
+    why: "The wrong reach can hit the piston or misfire."
+  - n: 72
+    topic: u7.starting
+    q: "Purpose of the overrunning clutch in a starter drive?"
+    options: ["Engage the pinion", "Disengage the pinion", "Start the motor", "Protect the motor from being over-speeded"]
+    key: D
+    learn: "The overrunning (one-way) clutch lets the pinion freewheel once the engine starts, so the engine cannot spin the starter too fast."
+    why: "Engine speed through the flywheel ratio would wreck the armature."
+  - n: 73
+    topic: u6.steering
+    q: "Steering 'wander' means?"
+    options: ["Front wheel oscillation", "Excessive backlash", "Hard steering", "Vehicle moves to one side"]
+    key: D
+    learn: "Wander: the vehicle drifts to one side or the other and needs constant correction."
+    why: "Caused by wrong alignment, loose parts or uneven tyre pressure."
+  - n: 74
+    topic: u6.steering
+    q: "Angle between the wheel's vertical line and its tilt, seen from the front?"
+    options: ["King-pin inclination", "Camber", "Caster", "Toe-in"]
+    key: B
+    learn: "Camber = tilt of the wheel from vertical, seen from the front."
+    why: "Caster is seen from the side; toe is seen from above."
+  - n: 75
+    topic: u6.brakes
+    q: "In an air brake system, the brake chamber is used to?"
+    options: ["Actuate the brake cam", "Compress air", "Release air", "Store air"]
+    key: A
+    learn: "The brake chamber turns air pressure into push on the slack adjuster, which rotates the S-cam and applies the brake."
+    why: "Air pushes a diaphragm and push rod inside the chamber."
+  - n: 76
+    topic: u6.suspension
+    q: "Which part reduces body roll when turning?"
+    options: ["Torsion bar", "Shock absorber", "Axle shaft", "Stabiliser (anti-roll) bar"]
+    key: D
+    learn: "The stabiliser (anti-roll) bar links left and right suspension to reduce body roll on turns."
+    why: "It twists when one side moves more, resisting the lean."
+  - n: 77
+    topic: u7.wheels
+    q: "Angle between the vehicle's direction of motion and the tyre's centre plane?"
+    options: ["Turning radius", "Slip angle", "Wheel alignment", "Toe-out"]
+    key: B
+    learn: "Slip angle = angle between the tyre's heading and its actual path."
+    why: "Rubber twists in a turn, so the tyre moves a little sideways."
+  - n: 78
+    topic: u6.frame
+    q: "The plumb line method checks defects in?"
+    options: ["Brakes", "Lighting", "Fuel line", "Chassis frame"]
+    key: D
+    learn: "The plumb-line (diagonal) method checks chassis frame alignment after an accident."
+    why: "Points are marked on the floor and diagonals compared."
+  - n: 79
+    topic: u6.axle
+    q: "Which is NOT a type of stub axle?"
+    options: ["Elliptical", "Lamoine", "Elliot", "Reversed Lamoine"]
+    key: A
+    learn: "Stub axle types: Elliot, Reversed Elliot, Lamoine, Reversed Lamoine. 'Elliptical' is not one."
+    why: "They differ in how the stub axle joins the axle beam."
+  - n: 80
+    topic: u7.wheels
+    q: "Ply rating of a tyre indicates?"
+    options: ["Type", "Size", "Tread thickness", "Relative tyre strength"]
+    key: D
+    learn: "Ply rating indicates the tyre's relative strength (load capacity), not the real number of plies."
+    why: "Modern cords are stronger than old cotton plies."
+  - n: 81
+    topic: law.defs
+    q: "A motor vehicle built to carry more than 6 persons excluding the driver is?"
+    options: ["Maxi cab", "Invalid carriage", "Omnibus", "Contract carriage"]
+    key: C
+    learn: "Omnibus (Section 2(29)): any motor vehicle built or adapted to carry more than 6 persons excluding the driver."
+    why: "Omnibus is about seats, not about hire."
+  - n: 83
+    topic: u8.road
+    q: "Inward cross slope of the road on a horizontal curve is called?"
+    options: ["Gradient", "Super elevation", "Summit curve", "Camber"]
+    key: B
+    learn: "Super elevation (banking) raises the outer edge of a road on a curve."
+    why: "It balances the outward centrifugal force on turning vehicles."
+  - n: 84
+    topic: u8.mvact_basics
+    q: "Validity of first registration of a private car in India?"
+    options: ["15 years", "10 years", "2 years", "1 year"]
+    key: A
+    learn: "A non-transport vehicle's first registration is valid for 15 years; then renewed for 5 years at a time."
+    why: "Older vehicles must be checked again for fitness."
+  - n: 88
+    topic: u8.accessories
+    q: "The yaw rate sensor in Electronic Stability Control measures?"
+    options: ["Wheel speed", "Roll tendency", "Steering wheel angle", "How fast the car is actually turning"]
+    key: D
+    learn: "The yaw rate sensor measures how fast the car is actually rotating (turning) about its vertical axis."
+    why: "ESC compares it with steering angle to detect skids."
+  - n: 89
+    topic: u8.pollution
+    q: "White smoke from a diesel engine is mainly due to?"
+    options: ["Soot", "Low operating temperature", "Incomplete combustion", "Oil burning"]
+    key: B
+    learn: "White smoke from a diesel engine mostly comes from low temperature (cold engine) — fuel or water vapour does not burn fully."
+    why: "Cold chambers cannot vaporise and burn the fuel."
+  - n: 90
+    topic: u8.efi
+    q: "'CRDI' is related to?"
+    options: ["Ignition system", "Fuel system", "Suspension", "Emission norms"]
+    key: B
+    learn: "CRDI = Common Rail Direct Injection, a diesel fuel system with a high-pressure common rail and electronic injectors."
+    why: "One rail at constant high pressure feeds all injectors."

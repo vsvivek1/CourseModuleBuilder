@@ -1,0 +1,186 @@
+paper:
+  id: mvact2024may
+  exam: "test paper 017 — Motor Vehicles Act"
+  cat: ""
+  code: "017"
+  date: "2024-05-14"
+  key_url: "https://www.keralapsc.gov.in/sites/default/files/2024-05/017.pdf"
+  key_source: "PSC provisional answer key, Paper 017 Motor Vehicles Act, 14-05-2024"
+
+skipped:
+  - {n: "3, 15, 18, 48, 49, 54, 55, 57, 66, 70, 71, 73, 74, 81, 87, 89", why: "Temporary/tourist/contract/stage permit rules and Kerala service rules — not in AMVI syllabus list"}
+  - {n: "4, 6, 9-14, 19, 20, 23-26, 28, 29, 31, 32, 36, 38, 41, 45, 46, 47, 50-53, 56, 60, 63, 67-69, 75-77, 82, 84-86, 88, 90-93, 95, 96, 98, 100", why: "CMVR/KMVR forms, fees, colours, dimensions, Kerala circulars and authorities — not in AMVI syllabus list"}
+  - {n: "17, 40, 42, 43, 79, 80, 94, 99", why: "Kerala-only rules, CMVR rules or sections outside the AMVI syllabus list"}
+  - {n: "44", why: "Fine amount for Section 190 needs checking against the current Act"}
+
+questions:
+  - n: 1
+    topic: law.defs
+    q: "Which is a medium motor vehicle?"
+    options: ["Motor vehicle GVW 7000 kg", "Goods carriage GVW 15200 kg", "Passenger vehicle GVW 11500 kg", "Contract carriage GVW 4500 kg"]
+    key: C
+    learn: "Medium passenger/goods vehicle: GVW more than 7,500 kg but not more than 12,000 kg. LMV: up to 7,500 kg. Heavy: above 12,000 kg."
+    why: "11,500 kg falls between 7,500 and 12,000."
+  - n: 2
+    topic: law.registration
+    q: "Alteration of a motor vehicle is dealt with in which section?"
+    options: ["48", "50", "52", "56"]
+    key: C
+    learn: "Section 52: alteration in motor vehicle — no owner may alter a vehicle so that its RC particulars change, without approval."
+    why: "The RC must always match the real vehicle."
+  - n: 5
+    topic: dl.licensing
+    q: "Validity of a licence to drive vehicles carrying dangerous or hazardous goods?"
+    options: ["1 year", "3 years", "5 years", "20 years"]
+    key: B
+    learn: "A hazardous-goods driving licence is valid for 3 years (Section 14)."
+    why: "Such drivers are checked more often for safety."
+  - n: 7
+    topic: law.defs
+    q: "A two-wheeled battery vehicle is NOT a motor vehicle if?"
+    options: ["30-min power below 250 W", "Top speed below 25 km/h", "Unladen weight (without battery) up to 60 kg", "All three"]
+    key: D
+    a: "All three: power below 250 W, top speed below 25 km/h, unladen weight up to 60 kg."
+    learn: "A battery two-wheeler is not a 'motor vehicle' if power is under 250 W, top speed under 25 km/h and weight (without battery) up to 60 kg."
+    why: "Such low-speed e-cycles are treated like bicycles."
+  - n: 8
+    topic: dl.licensing
+    q: "For renewing a non-transport licence, a medical certificate is compulsory when the holder reaches age?"
+    options: ["18", "40", "50", "55"]
+    key: B
+    learn: "A medical certificate (Form 1A) is needed for licence renewal after age 40 (Section 8/15)."
+    why: "Eyesight and health may change with age."
+  - n: 16
+    topic: law.permits
+    q: "Control of transport vehicles is in which chapter of the MV Act, 1988?"
+    options: ["Chapter V", "Chapter VI", "Chapter VII", "Chapter VIII"]
+    key: A
+    learn: "MV Act chapters: II licensing of drivers, III conductors, IV registration, V control of transport vehicles (permits), VII construction, VIII control of traffic, XI insurance, XII claims tribunals, XIII offences."
+    why: "Permits (Section 66 onward) are in Chapter V."
+  - n: 21
+    topic: law.defs
+    q: "'Golden hour' is how long after a traumatic injury?"
+    options: ["1 hour", "3 hours", "7 hours", "24 hours"]
+    key: A
+    learn: "Golden hour (Section 2(12A)): the one hour after a traumatic injury when quick medical care is most likely to prevent death."
+    why: "Fast treatment in the first hour saves most lives."
+  - n: 22
+    topic: u8.mvact_basics
+    q: "Which is a mandatory sign?"
+    options: ["One way", "Narrow road ahead", "Direction sign", "Park on both sides"]
+    key: A
+    learn: "'One way' is a mandatory sign. 'Narrow road ahead' is cautionary. Direction and parking signs are informatory."
+    why: "Mandatory signs must be obeyed."
+  - n: 27
+    topic: dl.licensing
+    q: "A person aged 44 gets a non-transport licence. Validity?"
+    options: ["Till age 50", "Till age 55", "5 years", "10 years"]
+    key: D
+    learn: "Section 14: non-transport licence issued between ages 30 and 50 is valid for 10 years."
+    why: "Below 30: till 40. 30–50: 10 years. 50–55: till 60. Over 55: 5 years."
+  - n: 30
+    topic: law.offences
+    q: "Blood alcohol above which level is punishable while driving?"
+    options: ["15 mg/100 ml", "20 mg/100 ml", "25 mg/100 ml", "30 mg/100 ml"]
+    key: D
+    learn: "Section 185: more than 30 mg per 100 ml of blood is drunken driving."
+    why: "Breath analyser readings are used to check this."
+  - n: 33
+    topic: dl.licensing
+    q: "A learner's licence is valid for?"
+    options: ["1 month", "1 year", "3 months", "6 months"]
+    key: D
+    learn: "A learner's licence is valid for 6 months."
+    why: "That is time to practise and take the driving test."
+  - n: 34
+    topic: law.defs
+    q: "The speed of an e-rickshaw shall not exceed?"
+    options: ["25 km/h", "30 km/h", "40 km/h", "50 km/h"]
+    key: A
+    learn: "An e-rickshaw is a battery three-wheeler for passengers with top speed not above 25 km/h (Section 2(12B))."
+    why: "It is a slow, low-power local vehicle."
+  - n: 35
+    topic: law.defs
+    q: "Total weight of the vehicle and load, as certified and registered, is the?"
+    options: ["Unladen weight", "Gross vehicle weight", "Laden weight", "None"]
+    key: B
+    learn: "Gross vehicle weight (GVW, Section 2(15)): total permissible weight of the vehicle with load, as certified and registered."
+    why: "Unladen weight is the vehicle alone; laden weight is the actual weight with load."
+  - n: 39
+    topic: law.offences
+    q: "Penalty for offences by juveniles is in which section?"
+    options: ["198A", "199A", "201", "194C"]
+    key: B
+    learn: "Section 199A: offences by juveniles — the guardian or owner is guilty; up to 3 years jail and Rs 25,000 fine."
+    why: "Adults who allow children to drive are punished."
+  - n: 58
+    topic: dl.licensing
+    q: "Which is NOT a vehicle class in a driving licence?"
+    options: ["Motorcycle without gear", "Adapted vehicle", "Three-wheeler", "E-cart"]
+    key: C
+    learn: "Section 10(2) classes include motorcycle without gear, motorcycle with gear, LMV, transport vehicle, road roller and adapted vehicle; 'three-wheeler' is not a separate class there."
+    why: "Three-wheelers come under LMV or transport vehicle."
+  - n: 59
+    topic: law.traffic
+    q: "Section 136A of the MV Act deals with?"
+    options: ["Inspection after accidents", "Good Samaritans", "Driver duty in accidents", "Electronic monitoring and enforcement of road safety"]
+    key: D
+    learn: "Section 136A (added 2019): electronic monitoring and enforcement of road safety — cameras, speed guns, body cameras."
+    why: "Technology catches offences without stopping vehicles."
+  - n: 61
+    topic: law.offences
+    q: "A manufacturer failing Chapter VII standards can be fined up to?"
+    options: ["Rs 5,000", "Rs 1 lakh", "Rs 1 crore", "Rs 100 crore"]
+    key: D
+    learn: "Section 182A: a manufacturer or importer selling vehicles that break construction and safety standards can be fined up to Rs 100 crore."
+    why: "Big companies need big penalties to follow safety rules."
+  - n: 62
+    topic: law.traffic
+    q: "Who is exempt from wearing a helmet on a motorcycle?"
+    options: ["Children below 12", "Children below 6", "Sikh persons (turban or not)", "None"]
+    key: C
+    learn: "Section 129: a person of the Sikh faith wearing a turban is exempt from wearing a helmet."
+    why: "A religious exemption is written into the Act."
+    note: "The 2023 AMVI paper keyed 'None' for the option 'turban or not'. The Act exempts Sikhs wearing a turban."
+  - n: 64
+    topic: dl.licensing
+    q: "No person under age ___ shall drive a transport vehicle."
+    options: ["20", "18", "21", "25"]
+    key: A
+    learn: "Section 4: minimum age to drive a transport vehicle is 20 years."
+    why: "Commercial vehicles need older drivers."
+  - n: 65
+    topic: law.registration
+    q: "A vehicle registered in one state may be kept in another state for not more than?"
+    options: ["6 months", "12 months", "1 month", "3 months"]
+    key: B
+    learn: "Section 47: a vehicle registered in one state kept in another for more than 12 months must get a new registration mark there."
+    why: "After a year it is treated as belonging to the new state."
+  - n: 72
+    topic: law.defs
+    q: "A goods carriage with GVW 7,000 kg is which category?"
+    options: ["N1", "N2", "N3", "MGV"]
+    key: B
+    learn: "N2: goods vehicles over 3.5 t up to 12 t GVW. So 7,000 kg is N2."
+    why: "N1 ≤ 3.5 t; N3 > 12 t."
+  - n: 78
+    topic: law.offences
+    q: "A load extending sideways beyond the body is punishable with a fine of?"
+    options: ["Rs 5,000", "Rs 10,000", "Rs 20,000", "Rs 25,000"]
+    key: C
+    learn: "Section 194(1A): carrying a load that sticks out beyond the body (and similar load offences) — fine Rs 20,000 (plus Rs 2,000 per extra tonne for overload)."
+    why: "Projecting loads can hit other road users."
+  - n: 83
+    topic: u8.mvact_basics
+    q: "The 'Left hand curve' sign is a ___ sign."
+    options: ["Mandatory", "Cautionary", "Informatory", "None"]
+    key: B
+    learn: "Curve signs (left curve, right curve, hairpin bend) are cautionary (warning) signs — red triangles."
+    why: "They warn of road conditions ahead."
+  - n: 97
+    topic: law.registration
+    q: "Section 47 of the MV Act relates to?"
+    options: ["Temporary registration", "Assignment of new registration mark on moving to another state", "How registration is made", "Transfer of ownership"]
+    key: B
+    learn: "Section 47: assignment of a new registration mark when a vehicle is moved to another state."
+    why: "Section 43 = temporary registration; Section 50 = transfer of ownership."

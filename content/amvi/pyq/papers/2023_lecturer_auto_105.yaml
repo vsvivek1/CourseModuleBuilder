@@ -1,0 +1,505 @@
+paper:
+  id: lectauto2023
+  exam: "Lecturer in Automobile Engineering (Govt. Polytechnics)"
+  cat: "250/2022"
+  code: "105/2023/OL"
+  date: "2023-07-05"
+  key_url: "https://keralapsc.gov.in/sites/default/files/2023-11/final_answer_key__lecturer_in_automobile_engineering.pdf"
+  key_source: "PSC final answer key 105/2023/OL"
+
+skipped:
+  - {n: "6, 18, 20, 33, 41, 62", why: "Cancelled by PSC"}
+  - {n: "1-5, 11-13, 85, 88, 92", why: "Microcontrollers, software, CAN, satellites, dealership, AGVs, workshop tools — not in AMVI syllabus"}
+  - {n: "16, 98", why: "Historical emission limit / amendment trivia — not a current syllabus fact"}
+  - {n: "49-52", why: "Lamps, indicators and instruments — not in AMVI syllabus list"}
+  - {n: "69, 76, 89, 90, 96", why: "Gas fuels, refrigerants, engine diagnosis, workshop procedure — not in AMVI syllabus"}
+  - {n: "79", why: "Options are equations that could not be read from the PDF"}
+  - {n: "81", why: "Key (B) does not fit the printed numbers as transcribed — needs the original paper before use"}
+
+questions:
+  - n: 7
+    topic: u8.accessories
+    q: "Piston slap noise is a type of?"
+    options: ["Combustion noise", "Structure noise", "Mechanical noise", "Intake and exhaust noise"]
+    key: C
+    learn: "Piston slap is mechanical noise — the piston knocks against the cylinder wall when clearance is too large."
+    why: "It comes from moving parts hitting each other, not from burning gas."
+  - n: 8
+    topic: u2.performance
+    q: "Brake specific fuel consumption (BSFC) depends on?"
+    options: ["Engine size", "Gear and final drive ratios", "Emission calibration", "All of these"]
+    key: D
+    a: "All of these."
+    learn: "BSFC = fuel used per hour ÷ brake power (kg/kWh). It depends on engine size, gearing and engine tuning."
+    why: "Anything that changes how hard and how efficiently the engine works changes BSFC."
+  - n: 9
+    topic: u8.pollution
+    q: "CAFE (Corporate Average Fuel Efficiency) rules in India came into force from?"
+    options: ["1 April 2019", "9 August 2019", "1 April 2017", "1 April 2022"]
+    key: C
+    learn: "India's CAFE (fuel efficiency) norms for cars came into force on 1 April 2017."
+    why: "CAFE makes each maker's average car fleet use less fuel."
+  - n: 10
+    topic: u8.pollution
+    q: "CAFE standards mainly focus on which emissions?"
+    options: ["NOx", "SOx", "COx (CO2)", "KOx"]
+    key: C
+    learn: "CAFE standards mainly target carbon dioxide (CO2) — they limit fuel use per km."
+    why: "Burning less fuel means less CO2."
+  - n: 14
+    topic: u8.accessories
+    q: "How many major segments does the GPS (NAVSTAR) system have?"
+    options: ["1", "2", "3", "4"]
+    key: C
+    learn: "GPS has three segments: space (satellites), control (ground stations) and user (receivers)."
+    why: "Satellites send signals, ground stations correct them, receivers work out position."
+  - n: 17
+    topic: u8.pollution
+    q: "Evaporative emissions are measured by placing the vehicle in a?"
+    options: ["MOBILE 5", "CARB", "COPERT", "SHED"]
+    key: D
+    learn: "Evaporative emissions are measured in a SHED (Sealed Housing for Evaporative Determination)."
+    why: "The sealed room traps fuel vapour escaping from the parked vehicle."
+  - n: 19
+    topic: u8.pollution
+    q: "In a catalytic converter, which catalyst reduces nitrogen oxides to nitrogen?"
+    options: ["Rhodium", "Platinum", "Palladium", "All of these"]
+    key: A
+    learn: "Rhodium reduces NOx to nitrogen. Platinum and palladium oxidise CO and HC."
+    why: "A three-way converter cleans CO, HC and NOx together."
+  - n: 21
+    topic: u4.flywheel
+    q: "Which part keeps crankshaft speed even despite uneven power pulses?"
+    options: ["Piston", "Connecting rod", "Crank pin", "Flywheel"]
+    key: D
+    learn: "The flywheel stores energy during the power stroke and gives it back in other strokes, keeping speed steady."
+    why: "Its heavy rim resists changes in speed."
+  - n: 22
+    topic: u5.piston
+    q: "Minimum number of compression rings on a piston?"
+    options: ["Four", "Three", "Two", "One"]
+    key: C
+    learn: "A piston usually has at least two compression rings plus one oil control ring."
+    why: "Two rings seal gas well; one is not enough."
+  - n: 23
+    topic: u5.valves
+    q: "Which engine part is needed for valves to work?"
+    options: ["Camshaft", "Flywheel", "Piston", "Connecting rod"]
+    key: A
+    learn: "The camshaft opens the valves at the right time through its cams."
+    why: "Each cam lobe lifts a valve once per cycle."
+  - n: 24
+    topic: u5.carb
+    q: "The float in a carburettor controls?"
+    options: ["Mixture ratio", "Fuel discharge rate", "Air flow", "Fuel level"]
+    key: D
+    learn: "The float and needle valve keep a constant fuel level in the float chamber."
+    why: "A steady level gives a steady fuel flow from the jet."
+  - n: 25
+    topic: u5.piston
+    q: "The big end of the connecting rod is connected to the?"
+    options: ["Piston", "Camshaft", "Crankshaft", "Gudgeon pin"]
+    key: C
+    learn: "Big end → crankshaft (crank pin). Small end → piston (gudgeon pin)."
+    why: "The rod turns the piston's up-down motion into crank rotation."
+  - n: 26
+    topic: u5.valves
+    q: "In an OHV valve train, the push rod sits between?"
+    options: ["Valve and spring", "Rocker arm and spring", "Camshaft and tappet", "Tappet and rocker arm"]
+    key: D
+    learn: "Valve train order (OHV): cam → tappet → push rod → rocker arm → valve."
+    why: "The push rod carries cam lift up to the rocker in the head."
+  - n: 27
+    topic: u5.petrolfuel
+    q: "What drives a mechanical fuel pump?"
+    options: ["Camshaft", "Crankshaft", "Timing belt", "Distributor"]
+    key: A
+    learn: "A mechanical (AC) fuel pump is worked by an eccentric on the camshaft."
+    why: "The eccentric moves the pump lever and diaphragm."
+  - n: 28
+    topic: u5.dieselfuel
+    q: "Function of a glow plug in a diesel engine?"
+    options: ["Ignite the mixture", "Control injection timing", "Preheat the chamber for cold starting", "Regulate exhaust"]
+    key: C
+    learn: "A glow plug heats the combustion chamber so a cold diesel engine starts easily."
+    why: "Cold air may not get hot enough on compression to ignite diesel."
+  - n: 29
+    topic: u8.efi
+    q: "In an MPFI engine, which part controls timing and duration of injection?"
+    options: ["Fuel pump", "Fuel rail", "Injector", "ECU"]
+    key: D
+    learn: "The ECU (Engine Control Unit) decides when and how long each injector opens."
+    why: "It reads sensors and calculates the fuel needed."
+  - n: 30
+    topic: u5.dieselfuel
+    q: "'Turbo lag' means?"
+    options: ["Delay in power after pressing the accelerator", "Turbo noise", "Lower fuel efficiency", "Overheating"]
+    key: A
+    learn: "Turbo lag is the delay between pressing the accelerator and getting full boost."
+    why: "The turbine needs time to speed up with more exhaust."
+  - n: 31
+    topic: u5.dieselfuel
+    q: "Purpose of a pintaux nozzle in a diesel engine?"
+    options: ["Control fuel flow", "Control mixture", "Improve cold starting", "Increase power"]
+    key: C
+    learn: "A pintaux nozzle has an extra small hole that sprays fuel at low speed, helping cold starting."
+    why: "The auxiliary spray goes into the hottest part of the chamber."
+  - n: 32
+    topic: u5.lube
+    q: "In IC engines, lubricating oil is pumped by a?"
+    options: ["Roots blower", "Centrifugal pump", "Positive displacement pump", "Thermosiphon"]
+    key: C
+    learn: "Engine oil pumps (gear or rotor type) are positive displacement pumps."
+    why: "They push a fixed amount per turn and build pressure even with thick oil."
+  - n: 34
+    topic: u5.cooling
+    q: "Use of a thermostat in an engine cooling system?"
+    options: ["Filter coolant", "Cool engine oil", "Regulate coolant flow and temperature", "Increase coolant pressure"]
+    key: C
+    learn: "The thermostat regulates coolant flow to the radiator, keeping engine temperature right."
+    why: "It opens when hot and closes when cold."
+  - n: 35
+    topic: u5.lube
+    q: "Leakage of burnt gases past the piston into the crankcase is called?"
+    options: ["Gas leakage", "Expel gas", "Blow-by", "Bypass"]
+    key: C
+    learn: "Blow-by is gas that leaks past the piston rings into the crankcase."
+    why: "Crankcase ventilation (PCV) removes these gases."
+  - n: 36
+    topic: u5.cooling
+    q: "Function of antifreeze in engine coolant?"
+    options: ["More power", "Lubrication", "Less friction", "Raise boiling point and lower freezing point"]
+    key: D
+    learn: "Antifreeze raises the boiling point and lowers the freezing point of the coolant."
+    why: "The coolant stays liquid in both hot and cold conditions."
+  - n: 37
+    topic: u7.charging
+    q: "Battery capacity is defined as the amount of ___ it can deliver."
+    options: ["Power", "Current (ampere-hours)", "Voltage", "None"]
+    key: B
+    learn: "Battery capacity is the current it can deliver over time, in ampere-hours (Ah)."
+    why: "A 100 Ah battery gives 5 A for 20 hours."
+  - n: 38
+    topic: u7.charging
+    q: "Battery condition can be checked by?"
+    options: ["Specific gravity test", "Open voltage test", "High discharge test", "All of these"]
+    key: D
+    a: "All: specific gravity, open-circuit voltage and high-discharge tests."
+    learn: "Battery tests: hydrometer (specific gravity), open-circuit voltage and high-rate discharge test."
+    why: "Each shows charge level or the battery's ability to supply heavy current."
+  - n: 39
+    topic: u7.charging
+    q: "A maintenance-free battery has?"
+    options: ["Lead-antimony grid", "Lead-calcium grid", "No acid", "No water"]
+    key: B
+    learn: "Maintenance-free batteries use lead-calcium plate grids, which lose very little water."
+    why: "Calcium reduces gassing, so water need not be topped up."
+  - n: 40
+    topic: u7.charging
+    q: "Specific gravity of battery electrolyte when temperature rises?"
+    options: ["Increases", "First increases then decreases", "Decreases", "Stays same"]
+    key: C
+    learn: "Electrolyte specific gravity falls as temperature rises, so hydrometer readings are temperature-corrected."
+    why: "Liquid expands when hot, so it becomes less dense."
+  - n: 42
+    topic: u7.charging
+    q: "In an alternator, the magnetic field is produced in the?"
+    options: ["Rotor", "Stator", "Frame", "None"]
+    key: A
+    learn: "In an alternator the rotor makes the magnetic field; the stator windings produce the output current."
+    why: "Only a small field current passes through slip rings."
+  - n: 43
+    topic: u7.charging
+    q: "Alternator output is controlled by the?"
+    options: ["Cut-out relay", "Cut-out regulator", "Current regulator", "Voltage regulator"]
+    key: D
+    learn: "An alternator needs only a voltage regulator; diodes stop reverse current, and it limits its own current."
+    why: "No cut-out or current regulator is needed, unlike a dynamo."
+  - n: 44
+    topic: u7.starting
+    q: "Automobile starter motors are?"
+    options: ["Series wound", "Compound wound", "Shunt wound", "Both 1 and 2"]
+    key: A
+    learn: "Starter motors are series-wound DC motors."
+    why: "Series motors give very high torque at zero speed to crank the engine."
+  - n: 45
+    topic: u7.ignition
+    q: "'Dwell' is?"
+    options: ["Time (cam angle) the contact points stay closed", "Distance between cam lobes", "Angle at which heel contacts cam", "None"]
+    key: A
+    learn: "Dwell (cam angle) is the angle through which the contact breaker points stay closed."
+    why: "Longer dwell gives the coil more time to build its magnetic field."
+  - n: 46
+    topic: u7.ignition
+    q: "A spark plug with a white insulator tip shows?"
+    options: ["Over-advanced ignition (overheating)", "Retarded ignition", "Leaded fuel", "Gas leak"]
+    key: A
+    learn: "A white or blistered spark plug tip means overheating — e.g. over-advanced timing, lean mixture or too hot a plug."
+    why: "Too much heat burns the deposits white."
+  - n: 47
+    topic: u7.ignition
+    q: "How many ignition coils in a distributorless ignition (DLI) system for a six-cylinder engine?"
+    options: ["1", "2", "3", "6"]
+    key: C
+    learn: "A wasted-spark DLI uses one coil for each pair of cylinders: 6 cylinders → 3 coils."
+    why: "Each coil fires two plugs at once — one on compression, one on exhaust."
+  - n: 48
+    topic: u7.ignition
+    q: "In a rotating-armature magneto, the magnet is?"
+    options: ["Electromagnet", "Rotating", "Permanent and fixed", "All of these"]
+    key: C
+    learn: "In a rotating-armature magneto, the armature rotates between fixed permanent magnets."
+    why: "In a rotating-magnet type, the magnet turns instead."
+  - n: 53
+    topic: u6.frame
+    q: "Which is NOT part of the chassis?"
+    options: ["Frame", "Electrical system", "Suspension", "Brakes"]
+    key: B
+    learn: "Chassis = frame, suspension, steering, brakes, wheels, axles and power train. Electrical system and body are not chassis."
+    why: "The chassis is the running part of the vehicle without the body."
+  - n: 54
+    topic: u7.driveline
+    q: "In four-wheel drive there are?"
+    options: ["One live, one dead axle", "Four live axles", "Three live axles", "Two live axles"]
+    key: D
+    learn: "In 4-wheel drive both front and rear axles are live (driven) axles — two live axles."
+    why: "A live axle carries power to its wheels."
+  - n: 55
+    topic: u6.suspension
+    q: "Front suspension must: support weight; keep control in hard braking; move pinion up; keep steering control and alignment. Which are correct?"
+    options: ["i, ii", "i, ii, iii", "i, ii, iv", "All four"]
+    key: C
+    learn: "Front suspension supports front weight, keeps control in hard braking and keeps steering control and wheel alignment."
+    why: "Pinion and carrier belong to the rear axle, not the front suspension."
+  - n: 56
+    topic: u6.suspension
+    q: "A MacPherson strut combines the shock absorber with a?"
+    options: ["Coil spring", "Differential", "Steering knuckle", "Leaf spring"]
+    key: A
+    learn: "A MacPherson strut has the shock absorber inside a coil spring as one unit."
+    why: "It is compact and is the most common car front suspension."
+  - n: 57
+    topic: u6.steering
+    q: "Most widely used steering gearbox in passenger cars?"
+    options: ["Recirculating ball", "Rack and pinion", "Worm and nut", "Worm and wheel"]
+    key: B
+    learn: "Rack and pinion steering is the most common in cars."
+    why: "It is simple, light, direct and precise."
+  - n: 58
+    topic: u6.steering
+    q: "Front wheels closer at the front than at the rear (at rest) is called?"
+    options: ["Positive camber", "Positive castor", "Toe-out", "Toe-in"]
+    key: D
+    learn: "Toe-in: front wheels are closer together at the front than at the back."
+    why: "It balances the wheels' tendency to spread out when rolling."
+  - n: 59
+    topic: u8.accessories
+    q: "What does ABS need to work?"
+    options: ["Torque", "Temperature", "Camber", "Wheel speed"]
+    key: D
+    learn: "ABS uses wheel speed sensors to detect a wheel about to lock and then reduces its brake pressure."
+    why: "A locked wheel slides and steering is lost."
+  - n: 60
+    topic: u6.brakes
+    q: "Braking force at the vehicle's centre of gravity is the product of?"
+    options: ["μ × acceleration", "μ × weight", "μ × engine power", "μ × engine torque"]
+    key: B
+    learn: "Maximum braking force = coefficient of friction (tyre-road) × vehicle weight."
+    why: "Friction force = μ × normal force."
+  - n: 61
+    topic: u6.brakes
+    q: "In a master cylinder, the primary piston is the one that is?"
+    options: ["Near the front", "Pushed directly by the push rod", "Moved by the secondary piston", "Moved by springs"]
+    key: B
+    learn: "The primary piston is pushed directly by the pedal push rod; the secondary piston moves by fluid pressure."
+    why: "This tandem design gives two separate brake circuits."
+  - n: 63
+    topic: u7.clutch
+    q: "In a friction clutch, the flywheel lies between the?"
+    options: ["Driven shaft and gearbox", "Gearbox and propeller shaft", "Driver and driven shaft", "Engine and driven shaft"]
+    key: C
+    learn: "In a clutch, the flywheel (on the engine crankshaft, the driving shaft) is one friction face; the clutch plate on the gearbox input (driven) shaft presses against it."
+    why: "Pressing the plate to the flywheel links engine and gearbox."
+  - n: 64
+    topic: u4.gears
+    q: "In a gear set, speed reduction means torque increase, and torque increase means speed reduction. Which is correct?"
+    options: ["i only", "ii only", "Both", "Neither"]
+    key: C
+    learn: "In gears, power stays (almost) the same, so lower speed means higher torque, and higher torque means lower speed."
+    why: "Power = torque × speed."
+  - n: 65
+    topic: u7.gearbox
+    q: "Which epicyclic gear condition gives reverse?"
+    options: ["Sun drives, ring driven, carrier held", "Ring drives, sun held, carrier driven", "Carrier drives, ring held, sun driven", "None"]
+    key: A
+    learn: "Epicyclic gear: holding the planet carrier gives reverse — the ring turns opposite to the sun."
+    why: "With the carrier fixed, the planets act as idlers between sun and ring."
+  - n: 66
+    topic: u7.driveline
+    q: "A propeller shaft absorbs the change in drive angle (axle moving up and down) with?"
+    options: ["Universal joints", "Slip joint", "Release joint", "Ball joint"]
+    key: A
+    learn: "Universal joints take care of changes in drive angle; the slip joint takes care of changes in length."
+    why: "The rear axle moves up and down on its springs."
+  - n: 67
+    topic: u7.wheels
+    q: "The hole in the rim for the tyre valve is called?"
+    options: ["Valve well", "Valve flange", "Ball valve", "Valve aperture"]
+    key: D
+    learn: "The hole in the wheel rim for the inflation valve is the valve aperture."
+    why: "Simple name: the opening for the valve."
+  - n: 68
+    topic: u7.wheels
+    q: "An under-inflated tyre wears most?"
+    options: ["At the centre", "Crosswise", "At the edges", "Laterally"]
+    key: C
+    learn: "Under-inflation wears the tread edges (shoulders); over-inflation wears the centre."
+    why: "A soft tyre sags in the middle and rides on its edges."
+  - n: 70
+    topic: u8.ev
+    q: "An essential requirement of an EV battery is?"
+    options: ["High energy and power density", "Low cycle life", "Poor reliability", "Not eco-friendly"]
+    key: A
+    learn: "EV batteries need high energy density (range) and high power density (acceleration), long life and safety."
+    why: "More energy per kg means a longer range with less weight."
+  - n: 71
+    topic: u2.engines
+    q: "In an SI engine, pre-ignition means the fuel ignites?"
+    options: ["After the spark", "Before the spark", "Before compression starts", "All"]
+    key: B
+    learn: "Pre-ignition: the mixture ignites before the spark, from a hot spot."
+    why: "Hot carbon deposits or an over-hot plug can light the mixture early."
+  - n: 72
+    topic: u2.engines
+    q: "Which statement about normal SI combustion is NOT correct?"
+    options: ["No strong pressure pulses", "Spark before TDC", "Flame nucleus forms in ignition lag", "Peak pressure at the end of after-burning"]
+    key: D
+    learn: "In normal SI combustion, peak pressure comes soon after TDC during flame propagation — not at the end of after-burning."
+    why: "After-burning happens while the piston moves down and pressure falls."
+  - n: 73
+    topic: u2.engines
+    q: "Which statement about diesel knock is incorrect?"
+    options: ["Has pressure pulses", "Occurs early in combustion", "Chance decreases as ignition delay increases", "Longer delay leaves more fuel at start"]
+    key: C
+    learn: "Diesel knock gets WORSE with longer ignition delay — more fuel collects and burns all at once."
+    why: "Shorter delay (high cetane fuel) reduces diesel knock."
+  - n: 74
+    topic: u2.engines
+    q: "In a CI engine, the phase from maximum pressure to maximum temperature is?"
+    options: ["Controlled combustion", "Ignition delay", "Rapid combustion", "After-burning"]
+    key: A
+    learn: "CI combustion: ignition delay → rapid combustion → controlled combustion (from peak pressure to peak temperature) → after-burning."
+    why: "In controlled combustion, fuel burns as fast as it is injected."
+  - n: 75
+    topic: u5.dieselfuel
+    q: "A limitation of supercharging is?"
+    options: ["Mean effective pressure rises", "More output for same size", "Intake air density rises", "More mechanical load on parts"]
+    key: D
+    learn: "Supercharging increases mechanical and thermal load on engine parts — that is its limitation."
+    why: "Higher cylinder pressure stresses pistons, rods and bearings."
+  - n: 77
+    topic: u2.laws
+    q: "Match: heat engine, refrigerator, internal energy, reversibility with friction loss, Kelvin-Planck, Clausius, point function."
+    options: ["i-a ii-b iii-c iv-d", "i-b ii-c iii-d iv-a", "i-b ii-c iii-a iv-d", "i-c ii-b iii-a iv-d"]
+    key: B
+    learn: "Heat engine → Kelvin-Planck; refrigerator → Clausius; internal energy → point (state) function; friction makes processes irreversible."
+    why: "Kelvin-Planck is about engines, Clausius about heat pumps and fridges."
+  - n: 78
+    topic: u2.laws
+    q: "A closed system gets 130 kJ heat and does 165 kJ work. Change in internal energy?"
+    options: ["35 kJ", "−30 kJ", "−35 kJ", "No change"]
+    key: C
+    learn: "First law: ΔU = Q − W = 130 − 165 = −35 kJ (internal energy falls)."
+    why: "It did more work than the heat it got, so it used its own energy."
+  - n: 80
+    topic: u2.cycles
+    q: "For the same compression ratio, which is true?"
+    options: ["Otto efficiency < Diesel", "Otto efficiency > Diesel", "No effect", "None"]
+    key: B
+    learn: "For the same compression ratio, the Otto cycle is more efficient than the Diesel cycle."
+    why: "Diesel engines win in practice because they use much higher compression ratios."
+  - n: 82
+    topic: u2.compressors
+    q: "In a two-stage reciprocating compressor, total work is minimum when?"
+    options: ["1st stage work < 2nd", "1st stage work > 2nd", "Both stages do equal work", "2nd stage work negative"]
+    key: C
+    learn: "Two-stage compressor work is minimum when both stages do equal work — pressure ratio per stage = √(P3/P1), with perfect intercooling."
+    why: "Sharing the job equally keeps temperatures low in both stages."
+  - n: 83
+    topic: u2.performance
+    q: "Correct: BMEP = ηm × IMEP; ITE < BTE; Morse test gives IP; 2-stroke power half of 4-stroke?"
+    options: ["i and ii", "i and iii", "ii and iv", "Only i"]
+    key: B
+    learn: "BMEP = mechanical efficiency × IMEP, and the Morse test gives indicated power. Indicated thermal efficiency is higher than brake thermal efficiency."
+    why: "Brake values are always lower than indicated values because of friction."
+  - n: 84
+    topic: u2.performance
+    q: "Brake power 120 kW, fuel 15 kg/h. Brake specific fuel consumption?"
+    options: ["0.125 kg/kWh", "0.1 kg/kWh", "15 kg/kWh", "1.125 kg/kWh"]
+    key: A
+    learn: "BSFC = fuel per hour ÷ brake power = 15 ÷ 120 = 0.125 kg/kWh."
+    why: "Lower BSFC means a more fuel-efficient engine."
+  - n: 86
+    topic: law.insurance
+    q: "Chapter XII of the MV Act, 1988 deals with?"
+    options: ["State transport undertakings", "Control of traffic", "Claims Tribunals", "Registration"]
+    key: C
+    learn: "MV Act Chapter XII = Claims Tribunals (MACT). Chapter XI = insurance against third-party risks. Chapter VIII = control of traffic."
+    why: "Tribunals settle accident compensation claims."
+  - n: 87
+    topic: law.offences
+    q: "Legal blood alcohol limit for drivers in India?"
+    options: ["10 mg/100 ml", "30 mg/100 ml", "50 mg/100 ml", "80 mg/100 ml"]
+    key: B
+    learn: "Section 185: driving with more than 30 mg alcohol per 100 ml of blood (breath test) is an offence."
+    why: "Even small amounts of alcohol slow reaction time."
+  - n: 91
+    topic: u6.steering
+    q: "A car pulls to one side on braking though brakes are fine. Reason 1: wrong toe. Reason 2: worn control-arm bushing."
+    options: ["Reason 1 true", "Reason 2 true", "Both true", "Both false"]
+    key: C
+    learn: "Pull during braking with good brakes can come from wrong toe setting or worn control-arm bushings."
+    why: "Braking force shifts the wheel's alignment if bushes are loose."
+  - n: 93
+    topic: u8.road
+    q: "Which are correct: carriageway includes shoulder; right of way is up to road land boundary; right of way is between building lines; shoulder is for stopped vehicles and lateral support?"
+    options: ["Only iv", "i and iv", "ii and iv", "Only i"]
+    key: C
+    learn: "Right of way = total land width acquired for the road (up to road boundary). Shoulders give room for stopped vehicles and side support. Carriageway excludes shoulders."
+    why: "Carriageway is only the paved part used by moving traffic."
+  - n: 94
+    topic: u8.road
+    q: "Design of road gradient and sight distance depends mainly on?"
+    options: ["Traffic volume", "Road surface", "Speed limits", "All of these"]
+    key: D
+    a: "All: traffic volume, road surface and speed."
+    learn: "Gradient and sight distance design depend on design speed, traffic volume and road surface (friction)."
+    why: "Faster traffic needs longer sight distance to stop safely."
+  - n: 95
+    topic: u7.clutch
+    q: "The clutch friction disc is splined to the?"
+    options: ["Gearbox input shaft", "Pressure plate", "Flywheel", "Crankshaft"]
+    key: A
+    learn: "The clutch friction disc is splined to the gearbox input (primary) shaft, so it can slide but turns with it."
+    why: "Splines pass torque while allowing axial movement."
+  - n: 97
+    topic: u6.frame
+    q: "Body construction used in modern passenger cars?"
+    options: ["Tubular", "Ladder frame", "Backbone", "Monocoque"]
+    key: D
+    learn: "Modern cars use monocoque (frameless, unitary) construction — body and frame are one shell."
+    why: "It is lighter and safer in crashes than a separate ladder frame."
+  - n: 99
+    topic: u8.road
+    q: "In a traffic signal cycle, which phase follows amber?"
+    options: ["Red", "Green", "Pedestrian", "Flashing yellow"]
+    key: A
+    learn: "Signal order: green → amber → red. Amber warns that red is coming."
+    why: "Amber gives time to clear the junction before red."
+  - n: 100
+    topic: u5.carb
+    q: "Excessive fuel consumption in a carburettor engine can be due to?"
+    options: ["Low float level", "High float level", "Dirt in the nozzle", "Air leak in the fuel pump"]
+    key: B
+    learn: "A high float level makes the carburettor deliver too much fuel — rich mixture and high consumption."
+    why: "Fuel stands higher in the jet and flows out more easily."

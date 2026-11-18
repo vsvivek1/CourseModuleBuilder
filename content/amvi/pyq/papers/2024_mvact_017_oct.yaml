@@ -1,0 +1,277 @@
+paper:
+  id: mvact2024oct
+  exam: "test paper 017 — Motor Vehicles Act"
+  cat: ""
+  code: "017"
+  date: "2024-10-29"
+  key_url: "https://keralapsc.gov.in/sites/default/files/2024-10/017.pdf"
+  key_source: "PSC provisional answer key, Paper 017 Motor Vehicles Act, 29-10-2024"
+
+skipped:
+  - {n: "1, 2, 4, 5, 7-12, 14, 19-21, 24, 26-30, 33, 34, 39, 41, 42, 45, 46, 48, 50-52, 57-59, 61-63, 65, 67, 69, 72, 74-77, 79-82, 84, 86, 88-92, 94-98, 100", why: "CMVR/KMVR forms, fees, colours, Kerala G.O. fines, permit procedure and authorities — not in AMVI syllabus list"}
+  - {n: "38", why: "Wording of the renewal rule needs the original paper"}
+
+questions:
+  - n: 3
+    topic: law.permits
+    q: "Permit provisions do not apply to goods vehicles with GVW not exceeding?"
+    options: ["1000 kg", "2000 kg", "3000 kg", "4000 kg"]
+    key: C
+    learn: "Section 66(3): no permit is needed for goods vehicles with GVW up to 3,000 kg."
+    why: "Small goods vehicles are kept free of permit rules."
+  - n: 6
+    topic: law.defs
+    q: "A goods carriage with GVW 12,500 kg is which category?"
+    options: ["N3", "N2", "N1", "N"]
+    key: A
+    learn: "N3: goods vehicles with GVW above 12 t. So 12,500 kg is N3."
+    why: "N1 ≤ 3.5 t, N2 3.5–12 t, N3 > 12 t."
+  - n: 13
+    topic: dl.licensing
+    q: "To get a learner's licence for a transport vehicle, one must have held an LMV licence for?"
+    options: ["3 years", "2 years", "1 year", "6 months"]
+    key: C
+    learn: "One year of holding an LMV licence is needed for a transport-vehicle learner's licence."
+    why: "Basic driving experience first."
+  - n: 15
+    topic: law.offences
+    q: "Penalty for breaking driving regulations made under Section 118 is in Section?"
+    options: ["177", "177A", "178", "179"]
+    key: B
+    learn: "Section 177A (added 2019): penalty for breaking road regulations under Section 118 — Rs 500 first, Rs 1,500 repeat."
+    why: "Lane driving, signals etc. come from the Driving Regulations under Section 118."
+  - n: 16
+    topic: law.defs
+    q: "An articulated vehicle is?"
+    options: ["Motor vehicle with a semi-trailer", "With a trailer", "With a side car", "With a load body"]
+    key: A
+    learn: "Articulated vehicle (Section 2(1)): a motor vehicle to which a semi-trailer is attached."
+    why: "Part of the semi-trailer's weight rests on the tractor."
+  - n: 17
+    topic: law.offences
+    q: "Who is NOT empowered to seize a vehicle under Section 207?"
+    options: ["Magistrates", "Range Forest Officers", "Police SIs", "AMVIs"]
+    key: B
+    learn: "Section 207: police officers and MVD officers authorised by the state (like AMVIs) can seize vehicles — not forest officers."
+    why: "Only traffic enforcement officers get this power."
+  - n: 18
+    topic: law.registration
+    q: "If a vehicle is permanently removed out of India, the registering authority shall?"
+    options: ["Suspend the RC", "Cancel the RC", "Transfer the RC", "Temporarily cancel"]
+    key: B
+    learn: "Section 55: registration is cancelled when a vehicle is destroyed or permanently removed out of India."
+    why: "It will no longer use Indian roads."
+  - n: 22
+    topic: law.traffic
+    q: "If the unladen weight is more than in the RC, which section is broken?"
+    options: ["112", "113", "114", "115"]
+    key: B
+    learn: "Section 113: limits of weight — unladen and laden weight must not exceed what is in the RC."
+    why: "Section 112 = speed, 114 = weighing, 115 = restricting use of vehicles."
+  - n: 23
+    topic: law.defs
+    q: "Weight of a vehicle with all its normal equipment but no load is?"
+    options: ["Unladen weight", "GVW", "Laden weight", "Registered laden weight"]
+    key: A
+    learn: "Unladen weight (Section 2(48)): weight of the vehicle with all its usual equipment, but without load or passengers."
+    why: "'Un-laden' = not loaded."
+  - n: 25
+    topic: dl.licensing
+    q: "After the holder reaches 55, a driving licence is renewed for?"
+    options: ["20 years", "10 years", "5 years", "3 years"]
+    key: C
+    learn: "Section 14: after age 55, a non-transport licence is valid for 5 years at a time."
+    why: "Older drivers are checked more often."
+  - n: 31
+    topic: dl.licensing
+    q: "A person holding a licence under Section 18 (Central Govt vehicles) is exempt from?"
+    options: ["Learner's test", "Driving licence test", "Hazardous goods test", "None"]
+    key: B
+    learn: "A person with a licence for government vehicles (Section 18) can be exempted from the driving test for an ordinary licence."
+    why: "They have already proved their driving skill."
+  - n: 32
+    topic: law.offences
+    q: "Which sections were added by Act 32 of 2019?"
+    options: ["194B", "198A", "199B", "All of these"]
+    key: D
+    a: "All: 194B, 198A and 199B."
+    learn: "The MV (Amendment) Act, 2019 (Act 32 of 2019) added sections like 194B (seat belts, child safety), 198A (road design faults) and 199B (fines revised every year)."
+    why: "The 2019 amendment brought many new penalties."
+  - n: 35
+    topic: dl.licensing
+    q: "A person must be 20 years old to?"
+    options: ["Drive a transport vehicle", "Drive a non-transport vehicle", "Drive an LMV", "Drive an adapted vehicle"]
+    key: A
+    learn: "Age 20 is required to drive a transport vehicle. Age 18 is enough for non-transport vehicles."
+    why: "Section 4 sets the age limits."
+  - n: 36
+    topic: law.offences
+    q: "Drunken driving is punishable if alcohol in blood exceeds?"
+    options: ["10 mg", "20 mg", "30 mg", "40 mg per 100 ml"]
+    key: C
+    learn: "Section 185: above 30 mg alcohol per 100 ml of blood is an offence."
+    why: "Detected by breath analyser."
+  - n: 37
+    topic: dl.licensing
+    q: "Which is NOT a reason for disqualification under Section 19(1)(f)?"
+    options: ["Theft of a vehicle", "Abducting passengers", "Over-speeding", "Smoking while driving a PSV"]
+    key: C
+    learn: "Section 19(1)(f) lists acts like vehicle theft, abducting passengers, assaulting passengers and smoking while driving a PSV. Over-speeding is punished separately."
+    why: "These acts misuse a driving licence."
+  - n: 40
+    topic: law.registration
+    q: "An owner shall not drive a vehicle unless it is registered, for use in?"
+    options: ["Any public place", "Any other place", "Any public road", "Any public place or any other place"]
+    key: D
+    learn: "Section 39: no vehicle shall be driven in any public place or any other place unless it is registered."
+    why: "Registration is needed wherever the vehicle is used."
+  - n: 43
+    topic: dl.licensing
+    q: "Which Act replaced 'invalid carriage' with 'adapted vehicle' in the DL classes?"
+    options: ["Act 23 of 2018", "Act 23 of 2019", "Act 32 of 2018", "Act 32 of 2019"]
+    key: D
+    learn: "The MV (Amendment) Act, 2019 (Act 32 of 2019) replaced 'invalid carriage' with 'adapted vehicle' in Section 10."
+    why: "'Adapted vehicle' is a more respectful term."
+  - n: 44
+    topic: law.offences
+    q: "Fine for driving without a licence (against Section 3)?"
+    options: ["Rs 10,000", "Rs 7,500", "Rs 5,000", "Rs 3,000"]
+    key: C
+    learn: "Section 181: driving without a valid licence (Sections 3 or 4) — fine up to Rs 5,000 and/or up to 3 months imprisonment."
+    why: "The 2019 amendment raised it from Rs 500."
+  - n: 47
+    topic: law.traffic
+    q: "Helmets are compulsory for persons carried on a motorcycle above age?"
+    options: ["6", "5", "4", "3"]
+    key: C
+    learn: "Section 129: every person above 4 years riding or carried on a motorcycle must wear a helmet."
+    why: "Children are also hurt in falls."
+  - n: 49
+    topic: law.registration
+    q: "An RC may be suspended if?"
+    options: ["Use would endanger the public", "Vehicle fails the Act or rules", "Used for hire without permit", "All of these"]
+    key: D
+    a: "All three."
+    learn: "Section 53: RC may be suspended if the vehicle is unsafe for the public, breaks the Act or rules, or is used for hire without a permit."
+    why: "Suspension keeps unsafe or illegal vehicles off the road."
+  - n: 53
+    topic: law.offences
+    q: "Which is NOT treated as dangerous driving?"
+    options: ["Jumping a red light", "Violating a stop sign", "Using a hand-held phone", "Crossing a broken white centre line"]
+    key: D
+    learn: "Section 184 (dangerous driving) includes red-light jumping, stop-sign violation and using a hand-held phone. Crossing a broken white line is allowed when safe."
+    why: "A broken line may be crossed to overtake safely."
+  - n: 54
+    topic: law.permits
+    q: "A permit is normally renewed for?"
+    options: ["1 year", "3 years", "5 years", "10 years"]
+    key: C
+    learn: "Permits are granted and renewed for 5 years (Section 81)."
+    why: "Same as the original validity."
+  - n: 55
+    topic: law.offences
+    q: "Offences relating to alteration of motor vehicles are punished under?"
+    options: ["182", "182A", "182B", "199A"]
+    key: B
+    learn: "Section 182A: punishment for offences on construction, maintenance, sale and alteration of motor vehicles."
+    why: "Illegal modification makes vehicles unsafe."
+    note: "Provisional key showed C (182B). Section 182A covers alteration; 182B covers 'contravention of section 62A'. Check the final key."
+  - n: 56
+    topic: law.offences
+    q: "Which penal section is included under Section 200 (compoundable)?"
+    options: ["185", "194F", "199", "199A"]
+    key: B
+    learn: "Section 194F (use of horns and silence zones) is compoundable under Section 200. Drunken driving (185) and juvenile offences (199A) are not."
+    why: "Minor offences can be settled by paying on the spot."
+  - n: 60
+    topic: law.offences
+    q: "Fine for a repeat offence of driving an uninsured vehicle?"
+    options: ["Rs 2,000", "Rs 3,000", "Rs 4,000", "Rs 5,000"]
+    key: C
+    learn: "Section 196: uninsured driving — Rs 2,000 first offence, Rs 4,000 repeat (and/or up to 3 months jail)."
+    why: "Repeat offences cost double."
+  - n: 64
+    topic: law.offences
+    q: "Which penal section is NOT included under Section 200?"
+    options: ["194A", "192A", "182A", "177A"]
+    key: D
+    learn: "As per this PSC key, Section 177A is not in the compoundable list of Section 200."
+    why: "Check the current list of Section 200 in the Act."
+    note: "Verify against the current Section 200 text."
+  - n: 66
+    topic: law.offences
+    q: "Which section was omitted by Act 32 of 2019?"
+    options: ["194F", "195", "198A", "199B"]
+    key: B
+    learn: "Section 195 (minimum fine for certain offences) was omitted by the 2019 amendment."
+    why: "Fines are now set in each section and revised under 199B."
+  - n: 68
+    topic: law.traffic
+    q: "A goods vehicle need not go for weighing if the weighing device is more than ___ from its route."
+    options: ["20 km", "15 km", "10 km", "5 km"]
+    key: C
+    learn: "Section 114: a goods vehicle must go for weighing if the weighbridge is within 10 km of its forward route."
+    why: "More than 10 km would cause unfair delay."
+  - n: 70
+    topic: law.traffic
+    q: "A driver must stop on demand by a police officer when there is an accident to?"
+    options: ["A person", "An animal", "Another vehicle", "All of these"]
+    key: D
+    learn: "Section 132: the driver must stop when an accident involves a person, an animal in charge of someone, or another vehicle or property."
+    why: "So that help can be given and facts recorded."
+  - n: 71
+    topic: law.offences
+    q: "Under which section can police detain a vehicle used without registration?"
+    options: ["207", "206", "200", "None"]
+    key: A
+    learn: "Section 207: power to detain vehicles used without registration, licence or permit."
+    why: "Section 206 is for impounding documents."
+  - n: 73
+    topic: law.offences
+    q: "Suspension period for a first offence when a licence is forwarded under Section 206(4)?"
+    options: ["1 month", "3 months", "6 months", "1 year"]
+    key: B
+    learn: "Under Section 206(4) (offences like 183, 184, 185, 189, 190, 194C, 194D, 194E), the licence can be suspended for at least 3 months."
+    why: "Serious offences lead to licence suspension."
+  - n: 78
+    topic: law.permits
+    q: "Which permits can be issued to State Transport Undertakings?"
+    options: ["Stage carriage", "Goods carriage", "Contract carriage", "All of these"]
+    key: D
+    learn: "A State Transport Undertaking (like KSRTC) can get stage carriage, contract carriage and goods carriage permits."
+    why: "STUs are vehicle operators like others."
+  - n: 83
+    topic: law.traffic
+    q: "Police ask for a licence already handed to another authority. What should the driver show?"
+    options: ["Photocopy", "Receipt from that authority", "Licence details", "Scanned copy"]
+    key: B
+    learn: "Section 130: if the licence has been handed to an officer, the driver shows the receipt given by that officer."
+    why: "The receipt proves the licence was legally taken."
+  - n: 85
+    topic: law.offences
+    q: "Fine for using an unsafe vehicle whose defect causes an accident with injury?"
+    options: ["Rs 1,500", "Rs 5,000", "Rs 10,000", "Rs 15,000"]
+    key: B
+    learn: "Section 190(1): if an unsafe vehicle's defect causes an accident with injury or damage — up to 3 months jail and/or Rs 5,000 fine."
+    why: "Owners must keep vehicles roadworthy."
+  - n: 87
+    topic: law.offences
+    q: "Second offence of driving an LMV against Section 112 (speed limits) leads to?"
+    options: ["DL impounded", "Fine Rs 1,000", "Fine Rs 2,000", "Fine Rs 4,000"]
+    key: A
+    learn: "Section 183: over-speeding LMV — Rs 1,000–2,000 first time; for a second offence the driving licence is impounded."
+    why: "Repeat over-speeding needs stronger action."
+  - n: 93
+    topic: u8.mvact_basics
+    q: "Which is NOT a duty of a stage carriage conductor?"
+    options: ["Accept fare", "Supply ticket", "Supply valid ticket", "Carry more luggage than permitted"]
+    key: D
+    learn: "A conductor must accept fares and issue valid tickets; allowing more luggage than permitted is not allowed."
+    why: "Overloading risks passenger safety."
+  - n: 99
+    topic: law.offences
+    q: "Penalty if a driver does not give way to an ambulance?"
+    options: ["Rs 10,000", "Rs 7,500", "Rs 7,000", "Rs 5,000"]
+    key: A
+    learn: "Section 194E: not giving way to emergency vehicles (ambulance, fire) — up to 6 months jail and/or Rs 10,000."
+    why: "Delay can cost a life."
